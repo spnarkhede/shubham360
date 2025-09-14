@@ -60,7 +60,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    respectPrefersColorScheme: true,
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     image: 'img/social-card.png',
     metadata: [
       {name: 'keywords', content: 'devops, software development, portfolio, full stack, ui/ux, professional'},

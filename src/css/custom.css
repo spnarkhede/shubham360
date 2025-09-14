@@ -43,7 +43,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Enhanced dark theme styling */
 [data-theme='dark'] {
   --ifm-color-primary: #4d8ece;
   --ifm-color-primary-dark: #3680c7;
@@ -63,7 +63,117 @@
   
   --ifm-background-color: #1a1a2e;
   --ifm-background-surface-color: #222244;
+  --ifm-card-background-color: #2a2a44;
+  --ifm-navbar-background-color: #1a1a2e;
+  --ifm-footer-background-color: #16162a;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+/* Dark theme text colors */
+[data-theme='dark'] {
+  --ifm-color-content: #e0e0e0;
+  --ifm-color-content-secondary: #b0b0b0;
+}
+
+/* Dark theme shadows */
+[data-theme='dark'] .card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark theme button overrides for white buttons */
+[data-theme='dark'] .button--primary {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #1a1a2e;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .button--primary:hover {
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+  color: #1a1a2e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+[data-theme='dark'] .button--secondary {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .button--secondary:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #1a1a2e;
+  transform: translateY(-1px);
+}
+
+/* White buttons for custom role page buttons */
+[data-theme='dark'] .primaryButton,
+[data-theme='dark'] .ctaButton {
+  background-color: #ffffff !important;
+  color: #1a1a2e !important;
+  border: 2px solid #ffffff !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .primaryButton:hover,
+[data-theme='dark'] .ctaButton:hover {
+  background-color: #f0f0f0 !important;
+  color: #1a1a2e !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+}
+
+[data-theme='dark'] .secondaryButton {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .secondaryButton:hover {
+  background-color: #ffffff !important;
+  color: #1a1a2e !important;
+  transform: translateY(-2px);
+}
+
+/* Navigation guide cards in dark theme */
+[data-theme='dark'] .roleCard {
+  background-color: #2a2a44 !important;
+  border: 1px solid #3a3a5a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .roleCard:hover {
+  background-color: #3a3a5a !important;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Ensure all custom buttons use white in dark theme */
+[data-theme='dark'] button[class*="button"],
+[data-theme='dark'] .button,
+[data-theme='dark'] a[class*="button"] {
+  background-color: #ffffff;
+  color: #1a1a2e;
+  border-color: #ffffff;
+}
+
+[data-theme='dark'] button[class*="button"]:hover,
+[data-theme='dark'] .button:hover,
+[data-theme='dark'] a[class*="button"]:hover {
+  background-color: #f0f0f0;
+  color: #1a1a2e;
+  border-color: #f0f0f0;
 }
 
 /* Global styles */

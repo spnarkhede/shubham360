@@ -1,6 +1,12 @@
 # shubhamnarkhede
 High-performing IT professional with over 5 years of experience in DevOps, full-stack development, and UI/UX design. Passionate about creating efficient, scalable, and user-friendly solutions.
 
+## Theme Configuration
+This portfolio is configured with a **default dark theme** featuring:
+- Dark blue/purple background (#1a1a2e)
+- White buttons with dark text for better contrast
+- Responsive design that adapts to all screen sizes
+- Optional theme switcher to allow users to toggle between dark and light modes
 
 # Implementation Instructions for Professional Landing Page
 
@@ -10,8 +16,8 @@ This document provides detailed instructions for implementing the new profession
 
 The landing page system consists of the following components:
 
-1. **Welcome Screen**: A clean initial page with logo and welcome text
-2. **Role Selection Interface**: Allows visitors to select their role (Talent Seeker, Tech Enthusiast, Curious Visitor, Growth Partner)
+1. **Welcome Screen**: A clean initial page with logo and welcome text (Dark theme optimized)
+2. **Role Selection Interface**: Allows visitors to select their role with white button styling
 3. **Role-Specific Pages**: Four different pages with content tailored to each visitor type
 4. **Art Gallery Component**: Showcases your artwork in the Growth Partner section
 5. **Navigation Guide**: Helps users understand the role-based navigation system

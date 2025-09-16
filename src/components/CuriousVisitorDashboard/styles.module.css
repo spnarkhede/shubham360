@@ -11,45 +11,121 @@
   --dashboard-header-text: white;
 }
 
-/* Theme variations */
+/* Exciting Theme Variations with Vibrant Gradients */
 .themeLight {
-  /* Default theme, no additional variables needed */
+  --dashboard-primary-color: #667eea;
+  --dashboard-primary-darker: #5a67d8;
+  --dashboard-header-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --dashboard-nav-hover-bg: rgba(102, 126, 234, 0.15);
+  --dashboard-accent-color: #764ba2;
+  --dashboard-glow-color: rgba(102, 126, 234, 0.4);
 }
 
 .themeCode {
-  --dashboard-primary-color: #3498db;
-  --dashboard-primary-darker: #2980b9;
-  --dashboard-header-bg: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  --dashboard-primary-color: #00d4ff;
+  --dashboard-primary-darker: #00b8e6;
+  --dashboard-header-bg: linear-gradient(135deg, #667eea 0%, #00d4ff 100%);
+  --dashboard-nav-hover-bg: rgba(0, 212, 255, 0.15);
+  --dashboard-accent-color: #667eea;
+  --dashboard-glow-color: rgba(0, 212, 255, 0.4);
+}
+
+.themeTech {
+  --dashboard-primary-color: #00ff88;
+  --dashboard-primary-darker: #00e673;
+  --dashboard-header-bg: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --dashboard-nav-hover-bg: rgba(0, 255, 136, 0.15);
+  --dashboard-accent-color: #11998e;
+  --dashboard-glow-color: rgba(0, 255, 136, 0.4);
+}
+
+.themeGrowth {
+  --dashboard-primary-color: #ff6b35;
+  --dashboard-primary-darker: #ff5722;
+  --dashboard-header-bg: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  --dashboard-nav-hover-bg: rgba(255, 107, 53, 0.15);
+  --dashboard-accent-color: #ff9a9e;
+  --dashboard-glow-color: rgba(255, 107, 53, 0.4);
+}
+
+.themeCurious {
+  --dashboard-primary-color: #ff6b6b;
+  --dashboard-primary-darker: #ff5252;
+  --dashboard-header-bg: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  --dashboard-nav-hover-bg: rgba(255, 107, 107, 0.15);
+  --dashboard-accent-color: #ffecd2;
+  --dashboard-glow-color: rgba(255, 107, 107, 0.4);
+}
+
+.themeDesign {
+  --dashboard-primary-color: #9b59b6;
+  --dashboard-primary-darker: #8e44ad;
+  --dashboard-header-bg: linear-gradient(135deg, #e91e63 0%, #9b59b6 100%);
+  --dashboard-nav-hover-bg: rgba(155, 89, 182, 0.15);
+  --dashboard-accent-color: #e91e63;
+  --dashboard-glow-color: rgba(155, 89, 182, 0.4);
 }
 
 .themeDark {
   --dashboard-primary-color: #9b59b6;
   --dashboard-primary-darker: #8e44ad;
   --dashboard-header-bg: linear-gradient(135deg, #2c3e50 0%, #9b59b6 100%);
+  --dashboard-nav-hover-bg: rgba(155, 89, 182, 0.15);
+  --dashboard-accent-color: #2c3e50;
+  --dashboard-glow-color: rgba(155, 89, 182, 0.4);
 }
 
 .themeAdventure {
   --dashboard-primary-color: #e67e22;
   --dashboard-primary-darker: #d35400;
   --dashboard-header-bg: linear-gradient(135deg, #e74c3c 0%, #e67e22 100%);
+  --dashboard-nav-hover-bg: rgba(230, 126, 34, 0.15);
+  --dashboard-accent-color: #e74c3c;
+  --dashboard-glow-color: rgba(230, 126, 34, 0.4);
 }
 
-.themeCurious {
-  --dashboard-primary-color: #fd7e14;
-  --dashboard-primary-darker: #e8590c;
-  --dashboard-header-bg: linear-gradient(135deg, #e74c3c 0%, #fd7e14 100%);
-}
-
+/* Enhanced Header with Exciting Effects */
 .dashboardHeader {
   background: var(--dashboard-header-bg);
   color: var(--dashboard-header-text);
   padding: 1.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dashboardHeader::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.08'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+  pointer-events: none;
+}
+
+.dashboardHeader::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
 }
 
 .dashboardHeaderContent {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
+  z-index: 1;
 }
 
 .backLink {
@@ -59,33 +135,50 @@
   color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .backLink:hover {
   color: white;
   text-decoration: none;
+  transform: translateX(-3px) scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .dashboardTitle {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.25rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .dashboardDescription {
   font-size: 1rem;
-  opacity: 0.9;
+  opacity: 0.95;
   max-width: 700px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
+/* Enhanced Navigation with Exciting Animations */
 .dashboardNav {
-  background-color: var(--ifm-background-color);
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  background: linear-gradient(135deg, var(--ifm-background-color) 0%, rgba(var(--ifm-color-primary-rgb), 0.02) 100%);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, var(--dashboard-primary-color), var(--dashboard-accent-color)) 1;
   position: sticky;
   top: var(--ifm-navbar-height);
   z-index: 10;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .navContainer {
@@ -96,87 +189,225 @@
   align-items: center;
 }
 
+/* Exciting Arrow Buttons */
 .navArrow {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
+  width: 45px;
   height: 100%;
-  background: linear-gradient(90deg, var(--ifm-background-color) 0%, var(--ifm-background-color) 70%, transparent 100%);
+  background: linear-gradient(135deg, var(--ifm-background-color) 0%, rgba(var(--ifm-color-primary-rgb), 0.05) 100%);
   border: none;
   color: var(--ifm-color-emphasis-600);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 2;
   flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.navArrow::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 25px;
+  background: linear-gradient(135deg, var(--dashboard-primary-color), var(--dashboard-accent-color));
+  border-radius: 2px;
+  opacity: 0.6;
 }
 
 .navArrowLeft {
-  background: linear-gradient(90deg, var(--ifm-background-color) 30%, transparent 100%);
-  border-right: 1px solid var(--ifm-color-emphasis-200);
+  background: linear-gradient(90deg, var(--ifm-background-color) 60%, transparent 100%);
+  border-right: 2px solid var(--dashboard-primary-color);
+}
+
+.navArrowLeft::before {
+  right: 0;
 }
 
 .navArrowRight {
-  background: linear-gradient(-90deg, var(--ifm-background-color) 30%, transparent 100%);
-  border-left: 1px solid var(--ifm-color-emphasis-200);
+  background: linear-gradient(-90deg, var(--ifm-background-color) 60%, transparent 100%);
+  border-left: 2px solid var(--dashboard-primary-color);
+}
+
+.navArrowRight::before {
+  left: 0;
 }
 
 .navArrow:hover {
-  color: var(--ifm-color-primary);
-  background-color: var(--ifm-color-emphasis-100);
+  color: var(--dashboard-primary-color);
+  background: linear-gradient(135deg, var(--dashboard-nav-hover-bg), rgba(255, 255, 255, 0.1));
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px var(--dashboard-glow-color);
+}
+
+.navArrow:hover::before {
+  opacity: 1;
+  box-shadow: 0 0 15px var(--dashboard-primary-color);
 }
 
 .navArrow:active {
-  color: var(--ifm-color-primary-dark);
+  color: var(--dashboard-primary-darker);
+  transform: scale(0.95);
 }
 
+/* Enhanced Navigation Content */
 .dashboardNavContent {
   display: flex;
   overflow-x: auto;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   flex: 1;
   scroll-behavior: smooth;
+  padding: 0.5rem 0;
 }
 
 .dashboardNavContent::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+  display: none;
 }
 
+/* Exciting Navigation Items */
 .dashboardNavItem {
   padding: 1rem 1.5rem;
   color: var(--dashboard-text-color);
   font-weight: 500;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   white-space: nowrap;
   border-bottom: 3px solid transparent;
   flex-shrink: 0;
+  position: relative;
+  border-radius: 12px 12px 0 0;
+  margin: 0 2px;
+  overflow: hidden;
+}
+
+.dashboardNavItem::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--dashboard-nav-hover-bg), rgba(255, 255, 255, 0.05));
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .dashboardNavItem:hover {
-  background-color: var(--dashboard-nav-hover-bg);
   color: var(--dashboard-primary-color);
   text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px var(--dashboard-glow-color);
+  background: transparent;
 }
 
+.dashboardNavItem:hover::before {
+  opacity: 1;
+}
+
+/* Active Navigation Item with Glow Effect */
 .activeNavItem {
   color: var(--dashboard-primary-color);
   border-bottom: 3px solid var(--dashboard-primary-color);
+  font-weight: 600;
+  position: relative;
+  background: linear-gradient(135deg, var(--dashboard-nav-hover-bg), rgba(255, 255, 255, 0.08));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px var(--dashboard-glow-color);
 }
 
+.activeNavItem::before {
+  opacity: 1;
+}
+
+.activeNavItem::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--dashboard-primary-color) 20%, 
+    var(--dashboard-accent-color) 50%,
+    var(--dashboard-primary-color) 80%, 
+    transparent 100%);
+  box-shadow: 0 0 15px var(--dashboard-primary-color);
+  animation: glowPulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 15px var(--dashboard-primary-color);
+    opacity: 0.8;
+  }
+  100% {
+    box-shadow: 0 0 25px var(--dashboard-primary-color), 0 0 35px var(--dashboard-accent-color);
+    opacity: 1;
+  }
+}
+
+/* Floating indicator for active tab */
+.activeNavItem::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background: var(--dashboard-primary-color);
+  border-radius: 50%;
+  box-shadow: 0 0 12px var(--dashboard-primary-color);
+  animation: floatPulse 2s ease-in-out infinite;
+}
+
+@keyframes floatPulse {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0px) scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateX(-50%) translateY(-2px) scale(1.2);
+    opacity: 1;
+  }
+}
+
+/* Enhanced Dashboard Content */
 .dashboardContent {
-  background-color: var(--dashboard-bg-color);
+  background: linear-gradient(135deg, var(--dashboard-bg-color) 0%, rgba(var(--ifm-color-primary-rgb), 0.01) 100%);
   min-height: calc(100vh - var(--ifm-navbar-height) - 300px);
+  position: relative;
+}
+
+.dashboardContent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--dashboard-primary-color) 50%, 
+    transparent 100%);
+  opacity: 0.3;
 }
 
 .dashboardContentInner {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
-/* Responsive Adjustments */
+/* Enhanced Responsive Design */
 @media (max-width: 768px) {
   .dashboardHeader {
     padding: 1rem 1.5rem;
@@ -191,7 +422,7 @@
   }
   
   .navArrow {
-    width: 35px;
+    width: 40px;
   }
   
   .dashboardNavItem {
@@ -210,61 +441,65 @@
   }
   
   .dashboardTitle {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   
   .dashboardDescription {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   
   .navArrow {
-    width: 30px;
+    width: 35px;
   }
   
   .dashboardNavItem {
     padding: 0.7rem 1rem;
     font-size: 0.85rem;
+    margin: 0 1px;
   }
   
   .dashboardContentInner {
     padding: 1rem;
   }
+  
+  .backLink {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
 }
 
-/* Enhanced visual indicators for arrow buttons */
-.navArrow::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: var(--ifm-color-emphasis-200);
-}
-
-.navArrowLeft::before {
-  right: 0;
-}
-
-.navArrowRight::before {
-  left: 0;
-}
-
-/* Add subtle animation for better UX */
-@keyframes fadeIn {
+/* Fade-in animations for smooth entry */
+@keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateX(-10px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 
-.navArrowLeft {
-  animation: fadeIn 0.3s ease;
+.navArrowLeft,
+.navArrowRight {
+  animation: fadeInUp 0.6s ease-out;
 }
 
-.navArrowRight {
-  animation: fadeIn 0.3s ease;
+.dashboardNavItem {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+.dashboardNavItem:nth-child(1) { animation-delay: 0.1s; }
+.dashboardNavItem:nth-child(2) { animation-delay: 0.15s; }
+.dashboardNavItem:nth-child(3) { animation-delay: 0.2s; }
+.dashboardNavItem:nth-child(4) { animation-delay: 0.25s; }
+.dashboardNavItem:nth-child(5) { animation-delay: 0.3s; }
+.dashboardNavItem:nth-child(6) { animation-delay: 0.35s; }
+.dashboardNavItem:nth-child(7) { animation-delay: 0.4s; }
+.dashboardNavItem:nth-child(8) { animation-delay: 0.45s; }
+.dashboardNavItem:nth-child(9) { animation-delay: 0.5s; }
+
+/* Smooth scrolling enhancement */
+.dashboardNavContent {
+  scroll-padding: 20px;
 }

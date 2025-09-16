@@ -66,24 +66,6 @@
   --dashboard-glow-color: rgba(155, 89, 182, 0.4);
 }
 
-.themeDark {
-  --dashboard-primary-color: #9b59b6;
-  --dashboard-primary-darker: #8e44ad;
-  --dashboard-header-bg: linear-gradient(135deg, #2c3e50 0%, #9b59b6 100%);
-  --dashboard-nav-hover-bg: rgba(155, 89, 182, 0.15);
-  --dashboard-accent-color: #2c3e50;
-  --dashboard-glow-color: rgba(155, 89, 182, 0.4);
-}
-
-.themeAdventure {
-  --dashboard-primary-color: #e67e22;
-  --dashboard-primary-darker: #d35400;
-  --dashboard-header-bg: linear-gradient(135deg, #e74c3c 0%, #e67e22 100%);
-  --dashboard-nav-hover-bg: rgba(230, 126, 34, 0.15);
-  --dashboard-accent-color: #e74c3c;
-  --dashboard-glow-color: rgba(230, 126, 34, 0.4);
-}
-
 /* Enhanced Header with Exciting Effects */
 .dashboardHeader {
   background: var(--dashboard-header-bg);
@@ -169,16 +151,15 @@
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-/* Enhanced Navigation with Exciting Animations */
+/* Enhanced Navigation with Solid Background */
 .dashboardNav {
-  background: linear-gradient(135deg, var(--ifm-background-color) 0%, rgba(var(--ifm-color-primary-rgb), 0.02) 100%);
+  background: var(--ifm-background-color);
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(90deg, var(--dashboard-primary-color), var(--dashboard-accent-color)) 1;
   position: sticky;
   top: var(--ifm-navbar-height);
   z-index: 10;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navContainer {
@@ -189,14 +170,14 @@
   align-items: center;
 }
 
-/* Exciting Arrow Buttons */
+/* Exciting Arrow Buttons with Solid Background */
 .navArrow {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 45px;
   height: 100%;
-  background: linear-gradient(135deg, var(--ifm-background-color) 0%, rgba(var(--ifm-color-primary-rgb), 0.05) 100%);
+  background: var(--ifm-background-color);
   border: none;
   color: var(--ifm-color-emphasis-600);
   cursor: pointer;
@@ -220,7 +201,7 @@
 }
 
 .navArrowLeft {
-  background: linear-gradient(90deg, var(--ifm-background-color) 60%, transparent 100%);
+  background: var(--ifm-background-color);
   border-right: 2px solid var(--dashboard-primary-color);
 }
 
@@ -229,7 +210,7 @@
 }
 
 .navArrowRight {
-  background: linear-gradient(-90deg, var(--ifm-background-color) 60%, transparent 100%);
+  background: var(--ifm-background-color);
   border-left: 2px solid var(--dashboard-primary-color);
 }
 
@@ -239,7 +220,7 @@
 
 .navArrow:hover {
   color: var(--dashboard-primary-color);
-  background: linear-gradient(135deg, var(--dashboard-nav-hover-bg), rgba(255, 255, 255, 0.1));
+  background: var(--ifm-background-color);
   transform: scale(1.1);
   box-shadow: 0 4px 15px var(--dashboard-glow-color);
 }
@@ -501,4 +482,14 @@
 /* Smooth scrolling enhancement */
 .dashboardNavContent {
   scroll-padding: 20px;
+}
+
+/* Loading state animation */
+@keyframes loadingShimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
 }

@@ -8,6 +8,7 @@ const useRoleStore = create((set) => ({
   // Current active tab for each role dashboard
   activeTab: {
     'recruitment-specialist': 'introduction',
+    'product-designer': 'introduction',
     'tech-enthusiast': 'introduction',
     'curious-visitor': 'introduction',
     'growth-partner': 'introduction'
@@ -39,6 +40,21 @@ const useRoleStore = create((set) => ({
         { id: 'projects', label: 'Projects' },
         { id: 'contact', label: 'Contact' },
         { id: 'continue-watching', label: 'Continue Watching' }
+      ]
+    },
+    'product-designer': {
+      title: 'Product Designer',
+      description: 'Design philosophy, creative process, and portfolio showcase',
+      theme: 'design',
+      tabs: [
+        { id: 'introduction', label: 'Introduction' },
+        { id: 'design-philosophy', label: 'Design Philosophy' },
+        { id: 'portfolio', label: 'Portfolio' },
+        { id: 'process', label: 'Design Process' },
+        { id: 'case-studies', label: 'Case Studies' },
+        { id: 'tools', label: 'Tools & Skills' },
+        { id: 'testimonials', label: 'Client Reviews' },
+        { id: 'contact', label: 'Contact' }
       ]
     },
     'tech-enthusiast': {

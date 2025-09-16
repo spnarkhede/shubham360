@@ -71,9 +71,9 @@
 
 .roleCardsRow {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin-bottom: 3rem;
   flex-wrap: nowrap;
   justify-content: center;
@@ -81,8 +81,8 @@
 
 .roleCard {
   flex: 1;
-  min-width: 250px;
-  max-width: 300px;
+  min-width: 200px;
+  max-width: 280px;
   background-color: var(--nav-card-bg);
   border: 1px solid var(--nav-card-border);
   border-radius: 12px;
@@ -106,36 +106,36 @@
 .roleCardIcon {
   background: linear-gradient(135deg, var(--nav-primary-color) 0%, var(--nav-primary-darker) 100%);
   color: white;
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .roleCardIcon svg {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 
 .roleCardContent {
-  padding: 1.5rem;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
 .roleTitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
   color: var(--nav-text-color);
 }
 
 .roleDescription {
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  line-height: 1.4;
   color: var(--nav-emphasis-color);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   flex-grow: 1;
 }
 
@@ -146,7 +146,7 @@
   margin-top: auto;
   color: var(--nav-primary-color);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .viewProfileText {
@@ -177,13 +177,44 @@
 }
 
 /* Responsive Adjustments */
-@media (max-width: 1024px) {
+@media (max-width: 1400px) {
   .roleCardsRow {
+    gap: 0.8rem;
+  }
+  
+  .roleCard {
+    min-width: 180px;
+    max-width: 240px;
+  }
+  
+  .roleCardIcon {
+    padding: 1.25rem;
+  }
+  
+  .roleCardIcon svg {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .roleTitle {
+    font-size: 1.1rem;
+  }
+  
+  .roleDescription {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .roleCardsRow {
+    flex-wrap: wrap;
     gap: 1rem;
   }
   
   .roleCard {
+    flex: 0 1 calc(50% - 0.5rem);
     min-width: 220px;
+    max-width: none;
   }
 }
 
@@ -196,6 +227,29 @@
   .roleCard {
     width: 100%;
     max-width: 400px;
+    flex: none;
+  }
+  
+  .roleCardIcon {
+    padding: 2rem;
+  }
+  
+  .roleCardIcon svg {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .roleTitle {
+    font-size: 1.3rem;
+  }
+  
+  .roleDescription {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .roleCardContent {
+    padding: 1.5rem;
   }
   
   .guideTitle {

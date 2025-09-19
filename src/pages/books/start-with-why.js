@@ -4,6 +4,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function StartWithWhyReview() {
   return (
@@ -138,14 +139,7 @@ export default function StartWithWhyReview() {
             </div>
             
             <div className="book-review-navigation">
-              <Link to="/books/power-of-habit" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Previous: The Power of Habit
-              </Link>
-              <Link to="/books" className="book-review-nav-button">
-                Back to All Books
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="start-with-why" />
             </div>
           </div>
         </div>

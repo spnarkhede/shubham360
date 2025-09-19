@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function ConciseLawsOfHumanNatureReview() {
   return (
@@ -98,14 +99,7 @@ export default function ConciseLawsOfHumanNatureReview() {
             </div>
 
             <div className="book-review-navigation">
-              <Link to="/books" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Back to All Books
-              </Link>
-              <Link to="/books/next-book-slug" className="book-review-nav-button">
-                Next Review: [Next Book Title]
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

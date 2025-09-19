@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function AmericanGovernment101Review() {
   return (
@@ -97,14 +98,7 @@ export default function AmericanGovernment101Review() {
             </div>
 
             <div className="book-review-navigation">
-              <Link to="/books/u.s.history-101" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Previous Review: U.S. History 101
-              </Link>
-              <Link to="/books/stock-market-101" className="book-review-nav-button">
-                Next Review: Stock Market 101
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

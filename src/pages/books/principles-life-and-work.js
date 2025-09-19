@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 import SpotifyPodcast from '@site/src/components/SpotifyPodcast';
 
 export default function PrinciplesReview() {
@@ -143,14 +144,7 @@ export default function PrinciplesReview() {
             </div>
             
             <div className="book-review-navigation">
-              <Link to="/books" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Back to All Books
-              </Link>
-              <Link to="/books/surrounded-by-idiots" className="book-review-nav-button">
-                Next Review: Surrounded by Idiots
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

@@ -94,13 +94,7 @@ export default function Accounting101Review() {
             </section>
 
             <div className="book-review-navigation" style={{ marginTop: 30 }}>
-              <Link to="/books/investing-101" className="book-review-nav-button" style={{ marginRight: 20 }}>
-                <ArrowLeft size={16} style={{ marginRight: 4 }} />
-                Previous Review: Investing 101
-              </Link>
-              <Link to="/books" className="book-review-nav-button">
-                Back to All Books
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

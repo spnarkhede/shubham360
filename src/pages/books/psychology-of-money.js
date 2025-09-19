@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
 import SpotifyPodcast from '@site/src/components/SpotifyPodcast';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function PsychologyOfMoneyReview() {
   return (
@@ -143,14 +144,7 @@ export default function PsychologyOfMoneyReview() {
             </div>
             
             <div className="book-review-navigation">
-              <Link to="/books" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Back to All Books
-              </Link>
-              <Link to="/books/deep-work" className="book-review-nav-button">
-                Next Review: Deep Work
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="psychology-of-money" />
             </div>
           </div>
         </div>

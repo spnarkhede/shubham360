@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function BossBasicsOfSanatanSanskritiReview() {
   return (
@@ -120,14 +121,7 @@ export default function BossBasicsOfSanatanSanskritiReview() {
             </div>
 
             <div className="book-review-navigation">
-              <Link to="/books/bharat-ek-nayi-soch" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Previous Review: Bharat Ek Nayi Soch
-              </Link>
-              <Link to="/books" className="book-review-nav-button">
-                Next Review: Back to All Books
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

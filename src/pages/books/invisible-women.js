@@ -92,13 +92,7 @@ export default function InvisibleWomenReview() {
             </div>
 
             <div className="book-review-navigation">
-              <Link to="/books/ikigai-the-japanese-secret" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Previous Review: Ikigai
-              </Link>
-              <Link to="/books" className="book-review-nav-button">
-                Back to All Books
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

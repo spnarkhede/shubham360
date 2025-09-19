@@ -128,14 +128,7 @@ export default function HowToTalkToAnyoneReview() {
             </div>
             
             <div className="book-review-navigation">
-              <Link to="/books" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Back to All Books
-              </Link>
-              <Link to="/books/the-subtle-art" className="book-review-nav-button">
-                Next Review: The Subtle Art of Not Giving a F*ck
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

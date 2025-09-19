@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 import SpotifyPodcast from '@site/src/components/SpotifyPodcast';
 
 export default function AtomicHabitsReview() {
@@ -143,14 +144,7 @@ export default function AtomicHabitsReview() {
             </div>
             
             <div className="book-review-navigation">
-              <Link to="/books" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Back to All Books
-              </Link>
-              <Link to="/books/psychology-of-money" className="book-review-nav-button">
-                Next Review: The Psychology of Money
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="atomic-habits" />
             </div>
           </div>
         </div>

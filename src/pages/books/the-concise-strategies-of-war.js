@@ -126,13 +126,7 @@ export default function ConciseStrategiesOfWarReview() {
             </div>
 
             <div className="book-review-navigation">
-              <Link to="/books/u.s.history-101" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Previous Review: U.S. History 101
-              </Link>
-              <Link to="/books" className="book-review-nav-button">
-                Back to All Books
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

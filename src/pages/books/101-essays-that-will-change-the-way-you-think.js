@@ -126,13 +126,7 @@ export default function OneHundredOneEssaysReview() {
             </div>
 
             <div className="book-review-navigation">
-              <Link to="/books/the-concise-strategies-of-war" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Previous Review: The Concise Strategies of War
-              </Link>
-              <Link to="/books" className="book-review-nav-button">
-                Back to All Books
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

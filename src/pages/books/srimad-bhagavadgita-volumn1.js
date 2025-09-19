@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function ShrimadBhagavadGeetaVolume1Review() {
   return (
@@ -92,14 +93,7 @@ export default function ShrimadBhagavadGeetaVolume1Review() {
             </div>
 
             <div className="book-review-navigation">
-              <Link to="/books/semen-retention-miracles" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Previous Review: Semen Retention Miracles
-              </Link>
-              <Link to="/books/srimad-bhagavadgita-volumn2" className="book-review-nav-button">
-                Next Review: Shrimad Bhagavad Geeta Volume 2
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

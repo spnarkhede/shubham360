@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function Concise48LawsOfPowerReview() {
   return (
@@ -94,14 +95,7 @@ export default function Concise48LawsOfPowerReview() {
             </div>
 
             <div className="book-review-navigation">
-              <Link to="/books/mindset" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Previous Review: Mindset
-              </Link>
-              <Link to="/books/think-again" className="book-review-nav-button">
-                Next Review: Think Again
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="filename-without-js-extension" />
             </div>
           </div>
         </div>

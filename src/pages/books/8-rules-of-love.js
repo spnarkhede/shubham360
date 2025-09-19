@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function EightRulesOfLoveReview() {
   return (
@@ -137,14 +138,7 @@ export default function EightRulesOfLoveReview() {
             </div>
             
             <div className="book-review-navigation">
-              <Link to="/books" className="book-review-nav-button">
-                <ArrowLeft size={16} style={{ marginRight: '4px' }} />
-                Back to All Books
-              </Link>
-              <Link to="/books/the-subtle-art" className="book-review-nav-button">
-                Next Review: The Subtle Art of Not Giving a F*ck
-                <ArrowRight size={16} style={{ marginLeft: '4px' }} />
-              </Link>
+              <BookNavigation currentBookSlug="8-rules-of-love" />
             </div>
           </div>
         </div>

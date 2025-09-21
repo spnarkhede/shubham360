@@ -1,3 +1,9 @@
+---
+sidebar_position: 9
+title: File Tools
+description: File management, compression, conversion, and organization utilities.
+---
+
 # File Tools
 
 * ↪️ **[File Scanners](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_file_scanners)**
@@ -192,7 +198,7 @@
 
 ***
 
-# ► PDF Tools
+# ▷ PDF Tools
 
 * [PDFGrep](https://pdfgrep.org/) or [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) - PDF Text Search
 * [View-only PDF](https://rentry.co/cm4b7) - Download View-Only PDF on Google Drive
@@ -245,7 +251,7 @@
 
 ***
 
-# ► File Transfer
+# ▷ File Transfer
 
 * ⭐ **[LocalSend](https://localsend.org/)** - Desktop / Mobile Transfer / [Discord](https://discord.com/invite/GSRWmQNP87) / [GitHub](https://github.com/localsend/localsend)
 * ⭐ **[Blip](https://blip.net/)** - Desktop / Mobile Transfer
@@ -280,7 +286,7 @@
 
 ***
 
-# ► File Hosts
+# ▷ File Hosts
 
 * **Note** - Keep in mind that it's **never** a good idea to upload personal or confidential files to any file host, even if they claim to be encrypted. Most file hosts only remove files after inactivity, while some delete them regardless. Check each host if you're concerned about file expiry. Tags are: File Size / Expiry.
 

@@ -1,3 +1,9 @@
+---
+sidebar_position: 11
+title: Gaming Tools
+description: Gaming utilities, optimization tools, and gaming enhancement software.
+---
+
 # Gaming Tools
 
 * ↪️ **[Download Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools/#wiki_.25B7_download_managers)**
@@ -197,7 +203,7 @@
 
 ***
 
-# ► Tracking / Databases
+# ▷ Tracking / Databases
 
 * ⭐ **[Backloggd](https://www.backloggd.com/)** - Tracking / Database / [Discord](https://discord.gg/cMjGusjbwg)
 * ⭐ **[Glitchwave](https://glitchwave.com/)** - Tracking / Database / [Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#glitchwave-note)
@@ -257,7 +263,7 @@
 
 ***
 
-# ► Steam / Epic
+# ▷ Steam / Epic
 
 * 🌐 **[Steam Tool Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=451698754)**, [steam.tools](https://steam.tools/) or [SteamInternals](https://cs.rin.ru/forum/viewtopic.php?f=10&t=65887) - Steam Tool Indexes
 * ⭐ **[SDD GUI](https://github.com/mmvanheusden/SteamDepotDownloaderGUI)** or [DepotDownloader](https://github.com/SteamRE/DepotDownloader) - Steam Depot Downloaders
@@ -337,7 +343,7 @@
 
 ***
 
-# ► Multiplayer Tools
+# ▷ Multiplayer Tools
 
 * ⭐ **[Nucleus Co-op](https://github.com/SplitScreen-Me/splitscreenme-nucleus)** - Local Split-Screen PC Multiplayer / [Subreddit](https://www.reddit.com/r/nucleuscoop/)
 * [⁠bo3.gg](https://bo3.gg/) - Track ESport Matches, Scores and Streams
@@ -422,7 +428,7 @@
 
 ***
 
-# ► Homebrew
+# ▷ Homebrew
 
 * 🌐 **[Darthsternie](https://darthsternie.net/)** - Console Firmware / Exploit Archive
 * 🌐 **[Emulators on Consoles](https://emulation.gametechwiki.com/index.php/Category:Emulators_on_consoles)** - List of Emulators for Consoles
@@ -546,7 +552,7 @@
 
 ***
 
-# ► Minecraft Tools
+# ▷ Minecraft Tools
 
 * 🌐 **[MCDOC](https://mcdoc.site/)** - Minecraft Tools & Unlockers
 * 🌐 **[Awesome Minecraft](https://github.com/bs-community/awesome-minecraft)** - Minecraft Resources
@@ -715,7 +721,7 @@
 
 ***
 
-# ► Game Specific
+# ▷ Game Specific
 
 * 🌐 **[Awesome Trackmania](https://github.com/EvoEsports/awesome-trackmania)** - Trackmania Resources
 * 🌐 **[ACNH.Directory](https://acnh.directory/)** - Animal Crossing: New Horizons Resources

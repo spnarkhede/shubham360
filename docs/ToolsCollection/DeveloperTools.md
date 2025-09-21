@@ -1,7 +1,19 @@
-# Dev Communities
+---
+sidebar_position: 6
+title: Developer Tools
+description: Programming tools, IDEs, debugging utilities, and development resources.
+---
 
-* ⭐ **[StackOverflow](https://stackoverflow.com/)** - Developer Forum
-* ⭐ **[XDA](https://xdaforums.com/)** - App Development Forum / [Discord](https://discord.com/invite/e4v8qtkcBw)
+# Developer Tools
+
+This page contains curated developer tools and resources organized by category.
+
+## Dev Communities
+
+Essential developer communities and forums:
+
+* [StackOverflow](https://stackoverflow.com/) - Developer Forum
+* [XDA](https://xdaforums.com/) - App Development Forum / [Discord](https://discord.com/invite/e4v8qtkcBw)
 * [CodeProject](https://www.codeproject.com/) - Developer Forum
 * [Spiceworks Community](https://community.spiceworks.com/) - Developer Forum
 * [DEV Community](https://dev.to/) - Developer Forum
@@ -15,12 +27,12 @@
 * [StackShare](https://stackshare.io/) - Tech Stack Collaboration
 * [Cloudflare Dev](https://discord.com/invite/cloudflaredev) - Official Cloudflare Discord
 
-***
+## Dev News
 
-# ► Dev News
+Stay updated with the latest development news:
 
-* ⭐ **[KrebsOnSecurity](https://krebsonsecurity.com/)** - Cybersecurity News
-* ⭐ **[Lobsters](https://lobste.rs/)** - Dev News / [Highlighter](https://greasyfork.org/en/scripts/40906)
+* [KrebsOnSecurity](https://krebsonsecurity.com/) - Cybersecurity News
+* [Lobsters](https://lobste.rs/) - Dev News / [Highlighter](https://greasyfork.org/en/scripts/40906)
 * [DevURLs](https://devurls.com/) - Dev News
 * [jimmyr](https://jimmyr.com/) - Dev News
 * [daily.dev](https://app.daily.dev/posts) - Dev News
@@ -29,57 +41,87 @@
 * [This Week in Rust](https://this-week-in-rust.org/) - Rust News / Updates
 * [hackertab.dev](https://hackertab.dev/) or [daily.dev](https://daily.dev/) - Dev Browser Startpages
 
-***
+## Developer Learning
 
-# ► [Developer Learning](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_developer_learning)
+For comprehensive developer learning resources, visit the [dedicated education section](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_developer_learning).
 
-***
+## Essential Developer Tools
 
-# ► Developer Tools
+Core development tools and utilities:
 
-* ↪️ **[Data Visualization Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage/#wiki_data_visualization_tools)**
-* ⭐ **[DevToys](https://devtoys.app/)** - Dev Multi-Tool App / [GitHub](https://github.com/DevToys-app/DevToys)
-* ⭐ **[DevDocs](https://devdocs.io/)** / [GitHub](https://github.com/freeCodeCamp/devdocs) or [ZealDocs](https://zealdocs.org/) - Dev Documentation
-* ⭐ **[ImHex](https://imhex.werwolv.net/)** / [Web Version](https://web.imhex.werwolv.net/) / [GitHub](https://github.com/WerWolv/ImHex) or [HexEd.it](https://hexed.it/) - Hex Editors
+* [Data Visualization Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage/#wiki_data_visualization_tools)
+* [DevToys](https://devtoys.app/) - Dev Multi-Tool App / [GitHub](https://github.com/DevToys-app/DevToys)
+* [DevDocs](https://devdocs.io/) / [GitHub](https://github.com/freeCodeCamp/devdocs) or [ZealDocs](https://zealdocs.org/) - Dev Documentation
+* [ImHex](https://imhex.werwolv.net/) / [Web Version](https://web.imhex.werwolv.net/) / [GitHub](https://github.com/WerWolv/ImHex) or [HexEd.it](https://hexed.it/) - Hex Editors
 * [Slidev](https://sli.dev/) - Developer Presentation Slides / [GitHub](https://github.com/slidevjs/slidev)
 * [Devhints](https://devhints.io/) - Developer Cheat Sheets
 * [Dev Emoji List](https://gist.github.com/oliveratgithub/0bf11a9aff0d6da7b46f1490f86a71eb) - Emoji-List with Names, Shortcodes, Unicode & HTML Entities
 * [Student Developer Pack](https://education.github.com/pack) - Free Developer Tools for Students
-* [choose-a-license](https://writefreesoftware.org/learn/participate/choose-a-license/), [SPDX License List](https://spdx.org/licenses/) or [ChooseALicense](https://choosealicense.com/) - License Picking Guides / Lists
+* [choose-a-license](https://writefreesoftware.org/learn/participate/choose-a-license/), [SPDX License List](https://spdx.org/licenses/) or [ChooseALicense](https://choosealicense.com/) - License Picking Guides
 * [PrivacyPolicyTemplate](https://www.privacypolicytemplate.net/) - Generate Privacy Policies
+
+### SSH and Terminal Tools
+
 * [Eternal Terminal](https://eternalterminal.dev/), [Termius](https://termius.com/) or [NxShell](https://nxshell.github.io/) - SSH Clients / Servers
 * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - SSH & Telnet Client / [Multi-Tab](https://ttyplus.com/) / [Fork](https://www.9bis.net/kitty/#!index.md) / [GitHub](https://github.com/cyd01/KiTTY/)
+* [Commands.dev](https://www.commands.dev/) - Terminal Commands
+
+### Design and Prototyping
+
 * [Penpot](https://penpot.app/) - Cross Domain Design & Prototyping Platform
-* [Webhook.site](https://webhook.site/) - Webhook Tools
+* [WiredJS](https://wiredjs.github.io/designer/) - Wireframe Designer
+
+### Package and Library Management
+
 * [Libraries.io](https://libraries.io/) - Package, Framework & Tool Search
 * [Deps.dev](https://deps.dev/) - Open Source Package Search
+
+### Automation Tools
+
 * [Bardeen](https://www.bardeen.ai/) or [N8N](https://n8n.io/) / [Workflow Index](https://github.com/Zie619/n8n-workflows) - Workflow Automation
 * [UI.Vision RPA](https://ui.vision/) - Workflow Automation Extension
-* [Hajimari](https://hajimari.io/) - Kubernetes Startpage / [Discord](https://discord.com/invite/HWGZSWJsA8)
+
+### Development Utilities
+
+* [Webhook.site](https://webhook.site/) - Webhook Tools
 * [discord-api-libs](https://github.com/Apacheli/discord-api-libs) - Community Libraries for Discord API
 * [botwiki](https://botwiki.org/) - Learn How to Make Bots
 * [reddit-moderator-toolbox](https://github.com/toolbox-team/reddit-moderator-toolbox) - Toolbox for Reddit Extension Development
 * [devSwag](https://devswag.io/) - Developer Giveaways
-* [Commands.dev](https://www.commands.dev/) - Terminal Commands
-* [AirBroke](https://airbroke.icorete.ch/) or [Glitchtip](https://glitchtip.com) - Error Tracking Platforms
-* [UMLet](https://www.umlet.com/), [PlantUML](https://www.plantuml.com/) or [JDL Studio](https://start.jhipster.tech/jdl-studio/) - UML Diagrams Generators / Creators
+
+### Testing and Data Generation
+
 * [Mockaroo](https://mockaroo.com/) - Generate Mock Data
 * [Mockium](https://softwium.com/mockium/) - Generate Test Data
 * [Globster](https://globster.xyz/) - Test Glob Patterns
 * [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) - Check for Edge Case Inputs
-* [overmind](https://github.com/DarthSim/overmind) - Process Managers
-* [sed.js](https://sed.js.org/) - GNU sed Live Editor
+
+### UML and Documentation
+
+* [UMLet](https://www.umlet.com/), [PlantUML](https://www.plantuml.com/) or [JDL Studio](https://start.jhipster.tech/jdl-studio/) - UML Diagrams Generators
 * [PlantText](https://www.planttext.com/) - UML Editor
-* [Code::Stats](https://codestats.net/) or [Wakatime](https://wakatime.com/) - Programmer Stat Tracking
-* [WiredJS](https://wiredjs.github.io/designer/) - Wireframe Designer
-* [KeyCheck](https://keycheck.dev/) - Dev Tool Hotkeys
 * [NBviewer](https://nbviewer.org/) - Jupyter Notebook Sharing
 
-***
+### Monitoring and Analytics
 
-## ▷ Dev Tool Indexes
+* [AirBroke](https://airbroke.icorete.ch/) or [Glitchtip](https://glitchtip.com) - Error Tracking Platforms
+* [Code::Stats](https://codestats.net/) or [Wakatime](https://wakatime.com/) - Programmer Stat Tracking
 
-* ⭐ **[Free for Developers](https://free-for.dev/)** / [GitHub](https://github.com/ripienaar/free-for-dev)
+### System Tools
+
+* [Hajimari](https://hajimari.io/) - Kubernetes Startpage / [Discord](https://discord.com/invite/HWGZSWJsA8)
+* [overmind](https://github.com/DarthSim/overmind) - Process Managers
+
+### Miscellaneous Tools
+
+* [sed.js](https://sed.js.org/) - GNU sed Live Editor
+* [KeyCheck](https://keycheck.dev/) - Dev Tool Hotkeys
+
+## Dev Tool Indexes
+
+Comprehensive collections of developer tools:
+
+* [Free for Developers](https://free-for.dev/) / [GitHub](https://github.com/ripienaar/free-for-dev)
 * [Useful Tools](https://trolologuy.github.io/useful-tools/) / [GitHub](https://github.com/trolologuy/useful-tools)
 * [Best-Websites](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 * [Tiny Helpers](https://tiny-helpers.dev/) / [GitHub](https://github.com/stefanjudis/tiny-helpers)
@@ -92,11 +134,11 @@
 * [Awesome Sys Admin](https://github.com/awesome-foss/awesome-sysadmin) - System Admin Resources
 * [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns) - Design Pattern Resources
 
-***
+## Online Toolkits
 
-## ▷ Online Toolkits
+Web-based development toolkits and utilities:
 
-* ⭐ **[AppDevTools](https://appdevtools.com/)**
+* [AppDevTools](https://appdevtools.com/)
 * [IT Tools](https://it-tools.tech/)
 * [Web Toolbox](https://web-toolbox.dev/en)
 * [devina](https://devina.io/)
@@ -107,126 +149,247 @@
 * [Clean CSS](https://www.cleancss.com/)
 * [FreeFormatter.com](https://freeformatter.com/)
 
-***
+## Software Development Tools
 
-## ▷ Software Dev Tools
+Comprehensive software development resources and tools:
 
-* 🌐 **[Awesome Software Quality](https://github.com/ligurio/sqa-wiki/wiki)** - Software Quality Testing Resources
-* 🌐 **[Awesome DOS](https://github.com/balintkissdev/awesome-dos)** - DOS App Development Resources
-* ⭐ **[Every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)**, [raylib technologies](https://raylibtech.itch.io/) or [bookmarks](https://github.com/SansGuidon/bookmarks) - Software Development Tools
-* ⭐ **Electron Tools** - [App Store](https://www.electronjs.org/apps/) / [Debugger](https://github.com/pd4d10/debugtron) / [Mod Loader](https://kernel.fish/) / [Builder](https://www.electron.build/)
-* ⭐ **[new(releases)](https://newreleases.io/)** - Software Release Notifications
+### Development Resources
+
+* [Awesome Software Quality](https://github.com/ligurio/sqa-wiki/wiki) - Software Quality Testing Resources
+* [Awesome DOS](https://github.com/balintkissdev/awesome-dos) - DOS App Development Resources
+* [Every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know), [raylib technologies](https://raylibtech.itch.io/) or [bookmarks](https://github.com/SansGuidon/bookmarks) - Software Development Tools
+
+### Electron Development
+
+* [App Store](https://www.electronjs.org/apps/) - Electron Apps
+* [Debugger](https://github.com/pd4d10/debugtron) - Electron Debugger
+* [Mod Loader](https://kernel.fish/) - Electron Mod Loader
+* [Builder](https://www.electron.build/) - Electron App Builder
+
+### Software Release Management
+
+* [new(releases)](https://newreleases.io/) - Software Release Notifications
+
+### Internal Tool Builders
+
 * [Budibase](https://budibase.com/), [ToolJet](https://www.tooljet.ai/) or [Appsmith](https://www.appsmith.com/) - Internal Tool Builders
+
+### Build Systems and Deployment
+
 * [Theos](https://theos.dev/) - Program Build System / [GitHub](https://github.com/theos/theos) / [Jailed Tweaks](https://github.com/kabiroberai/theos-jailed/wiki/Installation)
+* [Dokploy](https://github.com/dokploy/dokploy) - App Deployment
+
+### Project Management
+
 * [New Software](https://github.com/ardalis/new-software-project-checklist) - Project Decision Checklist
 * [Open Source Guides](https://opensource.guide/) - Open Source Software Tips / [GitHub](https://github.com/github/opensource.guide)
-* [Dokploy](https://github.com/dokploy/dokploy) - App Deployment
+
+### Development Learning
+
 * [Gaultier Blog](https://gaultier.github.io/blog/x11_x64.html) - Learn x86-64 Assembly
+
+### Debugging and Analysis
+
 * [dnSpyEx](https://github.com/dnSpyEx/dnSpy) - .NET Debugger and Assembly Editor
+
+### Scheduling and Automation
+
 * [Crontab Guru](https://crontab.guru/) - Crontab Editor / Job Scheduler
 * [Crontab Generator](https://crontab-generator.org/) - Generate Crontab Syntax
+
+### GUI Development
+
 * [Slint](https://slint.dev) - GUI Development Tools / [GitHub](https://github.com/slint-ui/slint)
+
+### Installation and Distribution
+
 * [Inno Setup](https://jrsoftware.org/isinfo.php) or [InstallForge](https://www.installforge.net/) - Create Installation Programs
+
+### Backend Services
+
 * [Etebase](https://www.etebase.com/) - Encrypted App Backend
+
+### Legal and Security
+
 * [tl;drLegal](https://www.tldrlegal.com/) - Software License Summaries
 * [minisign](https://jedisct1.github.io/minisign/) - Sign Files / Verify Digital Signatures / [GitHub](https://github.com/jedisct1/minisign)
+
+### Virtualization
+
 * [VirtualBuddy](https://github.com/insidegui/VirtualBuddy) - Virtualize macOS 12 and later on Apple Silicon
+
+### Design and Mockups
+
 * [Pencil](https://pencil.evolus.vn/) - Software Mockup Tool / [GitHub](https://github.com/evolus/pencil)
 
-***
 
-## ▷ Mobile Dev Tools
+Here's the converted section for Mobile Dev Tools and Database Tools:
+markdown## Mobile Development Tools
 
-* 🌐 **[AndroidRepo](https://androidrepo.com/)** - Android Development Resources
-* 🌐 **[Awesome iOS](https://github.com/vsouza/awesome-ios)** - iOS Development Resources
-* 🌐 **[UXArchive](https://uxarchive.com/)**, [Mobbin](https://mobbin.com/) or [UISources](https://www.uisources.com/) - Mobile UI Resources
-* ↪️ **[App Mockups](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_app_.2F_site_mockups)**
-* ⭐ **[Android Developer Roadmap](https://github.com/skydoves/android-developer-roadmap)**
+Mobile development resources and tools:
+
+### Mobile Development Resources
+
+* [AndroidRepo](https://androidrepo.com/) - Android Development Resources
+* [Awesome iOS](https://github.com/vsouza/awesome-ios) - iOS Development Resources
+* [UXArchive](https://uxarchive.com/), [Mobbin](https://mobbin.com/) or [UISources](https://www.uisources.com/) - Mobile UI Resources
+* [App Mockups](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_app_.2F_site_mockups)
+* [Android Developer Roadmap](https://github.com/skydoves/android-developer-roadmap)
+
+### App Development Utilities
+
 * [App ideas](https://github.com/florinpop17/app-ideas) - Collection of App Ideas
 * [IconKitchen](https://icon.kitchen/) or [AppIcon](https://appicon.co/) - App Icon Generator
-* [MobiDevTools](https://addons.mozilla.org/en-US/firefox/addon/mobidevtools/) or [⁠ChromeXt](https://github.com/JingMatrix/ChromeXt) - Add Dev Tools / Inspect Element to Mobile Browsers
+* [MobiDevTools](https://addons.mozilla.org/en-US/firefox/addon/mobidevtools/) or [ChromeXt](https://github.com/JingMatrix/ChromeXt) - Add Dev Tools / Inspect Element to Mobile Browsers
 * [namae](https://namae.dev/) - App Name Availability Check
 * [XDGuru](https://www.xdguru.com/) - Adobe XD Resources
+
+### Flutter and React Native
+
 * [Media Kit](https://github.com/media-kit/media-kit) - Video / Audio Library for Flutter and Dart
+* [React Native Apps](https://github.com/ReactNativeNews/React-Native-Apps/) - React App Examples
+
+### Testing and Development
+
 * [ADB](https://github.com/ashishb/adb-enhanced) or [Appium](https://appium.io/) / [GitHub](https://github.com/appium/appium) - Automated App Testing
 * [Privado](https://docs.privado.ai) - Generate App Privacy Reports / [GitHub](https://github.com/Privado-Inc/privado)
 * [PM2](https://pm2.keymetrics.io/) - Process Manager
+
+### Android Development
+
 * [ConnectBot](https://connectbot.org/) - Android SSH Client
-* [⁠APKEditor](https://github.com/REAndroid/APKEditor) or [Apktool M](https://maximoff.su/apktool/?lang=en) - APK Editing / Merging
+* [APKEditor](https://github.com/REAndroid/APKEditor) or [Apktool M](https://maximoff.su/apktool/?lang=en) - APK Editing / Merging
 * [Andure](https://github.com/leohku/andure) - Android Chrome Dev Tools
-* [⁠CS Android](https://cs.android.com/) - Android Code Search
-* [useAnimations](https://useanimations.com/index.html) - Animated Icon Pack
+* [CS Android](https://cs.android.com/) - Android Code Search
 * [Official Android Courses](https://developer.android.com/courses) - Android Training Courses
 * [Android Libhunt](https://android.libhunt.com/) - Android Packages
 * [Android-Iconics](https://github.com/mikepenz/Android-Iconics) - Use Any Icon / Font as Your Drawable App
 * [AndroidAssetStudio](https://romannurik.github.io/AndroidAssetStudio/) - Android App Assets
 * [Contacts Android](https://vestrel00.github.io/contacts-android/) - Android Contacts APIs
-* [Push Notifications API](https://github.com/viktorholk/push-notifications-api) - Push Notifications API
-* [React Native Apps](https://github.com/ReactNativeNews/React-Native-Apps/) - React App Examples
 * [TV Samples](https://github.com/android/tv-samples) - Android TV App Samples
+
+### iOS Development
+
 * [iOS Icon Gallery](https://www.iosicongallery.com/) - iOS Icon Examples
 * [PrivacyFlash-Pro](https://github.com/privacy-tech-lab/privacyflash-pro) - Generate iOS Privacy Policies
 
-***
+### Mobile UI Resources
 
-## ▷ Database Tools
+* [useAnimations](https://useanimations.com/index.html) - Animated Icon Pack
+* [Push Notifications API](https://github.com/viktorholk/push-notifications-api) - Push Notifications API
 
-* 🌐 **[DB Engines](https://db-engines.com/en/ranking)** or [DBDB](https://dbdb.io/stats) - Database Rankings
-* 🌐 **[Awesome Opensource Data Engineering](https://github.com/gunnarmorling/awesome-opensource-data-engineering)** - Data Engineering Tools
-* 🌐 **[Awesome Big Data](https://github.com/oxnr/awesome-bigdata)** - Big Data Resources
-* ⭐ **[DB Browser](https://sqlitebrowser.org/)**, [SQLook](https://sqlook.com/), [DuckDB](https://duckdb.org/), [SQL Lite Studio](https://sqlitestudio.pl/) or [HeidiSQL](https://www.heidisql.com/) - SQL Managers
+## Database Tools
+
+Database management and data engineering resources:
+
+### Database Resources
+
+* [DB Engines](https://db-engines.com/en/ranking) or [DBDB](https://dbdb.io/stats) - Database Rankings
+* [Awesome Opensource Data Engineering](https://github.com/gunnarmorling/awesome-opensource-data-engineering) - Data Engineering Tools
+* [Awesome Big Data](https://github.com/oxnr/awesome-bigdata) - Big Data Resources
+
+### SQL Management Tools
+
+* [DB Browser](https://sqlitebrowser.org/), [SQLook](https://sqlook.com/), [DuckDB](https://duckdb.org/), [SQL Lite Studio](https://sqlitestudio.pl/) or [HeidiSQL](https://www.heidisql.com/) - SQL Managers
 * [Sqlable](https://sqlable.com/) - SQL Tools
-* [Beszel](https://beszel.dev/) - Dev Data Dashboard
-* [Grafana](https://grafana.com/) - Self-Hosted Dev Data Dashboard
-* [DBeaver](https://dbeaver.io/) - Universal Database Tool
-* [ChartDB](https://chartdb.io/) - Database Visualization / [GitHub](https://github.com/chartdb/chartdb)
-* [Ingestr](https://bruin-data.github.io/ingestr/) - Transfer Data between Databases
-* [NocoDB](https://www.nocodb.com/) - Turn Database into Smart Spreadsheet / [GitHub](https://github.com/nocodb/nocodb)
-* Generate Fake Data - [Ruby](https://github.com/faker-ruby/faker) / [Swift](https://github.com/vadymmarkov/Fakery)
-* [Qdrant](https://qdrant.tech/) - Vector Database
 * [SQL Cheat Sheet](https://files.catbox.moe/5q57h3.png) - SQL Cheat Sheet
 * [Gel](https://www.geldata.com/) - SQL Alternative
 * [QueryStorm](https://querystorm.com/) - SQL and .NET programming in Excel
 * [franchise](https://franchise.cloud/) - SQL Notebook
 
-***
+### Database Visualization and Management
 
-## ▷ Git Tools
+* [Beszel](https://beszel.dev/) - Dev Data Dashboard
+* [Grafana](https://grafana.com/) - Self-Hosted Dev Data Dashboard
+* [DBeaver](https://dbeaver.io/) - Universal Database Tool
+* [ChartDB](https://chartdb.io/) - Database Visualization / [GitHub](https://github.com/chartdb/chartdb)
 
-* 🌐 **[Console](https://console.substack.com/)** - Search Projects on OpenSourceHub.io
-* 🌐 **[Awesome README](https://github.com/matiassingers/awesome-readme)** - GitHub Readme Resources
-* 🌐 **[Forge Comparison](https://git.sdf.org/humanacollaborator/humanacollabora/src/branch/master/forge_comparison.md)**, [Forgejo](https://forgejo.org/compare/#only-develops-free-software) or [Forgeperf.org](https://forgeperf.org/) - Git Collab Tool Comparison
-* ↪️ **[Git Project Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_git_projects)**
-* ⭐ **[Git-Fork](https://git-fork.com/)**, [GitButler](https://github.com/gitbutlerapp/gitbutler) or [GitQlient](https://github.com/francescmm/GitQlient) - Git Desktop Clients
-* ⭐ **[Codeberg](https://codeberg.org/)** / [Matrix](https://matrix.to/#/#codeberg-space:matrix.org), [Drift](https://drift.lol/), [Gitea](https://about.gitea.com/), [GitLab.com](https://about.gitlab.com/) or [sourcehut](https://sourcehut.org/) - GitHub Alts / Version Control Systems
-* [Git](https://git-scm.com/) - Version Control System
-* [searchcode](https://searchcode.com/) or [PublicWWW](https://publicwww.com/) - Source Code Search
-* [git-sim](https://github.com/initialcommit-com/git-sim) - Visually Simulate Git Operations Before Running
-* [Gittea.dev](https://gittea.dev/), [Savannah](https://savannah.gnu.org/), [FSFE](https://git.fsfe.org/), [git.sr.ht](https://git.sr.ht/), [GitGud](https://gitgud.io/) or [Notabug](https://notabug.org/) - Git Hosting / Software Forge
-* [Forgejo](https://forgejo.org/) or [Gogs](https://gogs.io/) - Self-Hosted Git Services / Forge
-* [posh-git](https://github.com/dahlbyk/posh-git) - Git Powershell Environment
-* [up-for-grabs](https://up-for-grabs.net/) - Curated List of Tasks for New Contributes
+### Data Transfer and Conversion
+
+* [Ingestr](https://bruin-data.github.io/ingestr/) - Transfer Data between Databases
+* [NocoDB](https://www.nocodb.com/) - Turn Database into Smart Spreadsheet / [GitHub](https://github.com/nocodb/nocodb)
+
+### Data Generation
+
+* Generate Fake Data - [Ruby](https://github.com/faker-ruby/faker) / [Swift](https://github.com/vadymmarkov/Fakery)
+
+### Specialized Databases
+
+* [Qdrant](https://qdrant.tech/) - Vector Database
+
+
+## Git Tools
+
+Version control and Git-related development tools:
+
+### Git Resources and Comparisons
+
+* [Console](https://console.substack.com/) - Search Projects on OpenSourceHub.io
+* [Awesome README](https://github.com/matiassingers/awesome-readme) - GitHub Readme Resources
+* [Forge Comparison](https://git.sdf.org/humanacollaborator/humanacollabora/src/branch/master/forge_comparison.md), [Forgejo](https://forgejo.org/compare/#only-develops-free-software) or [Forgeperf.org](https://forgeperf.org/) - Git Collab Tool Comparison
+* [Git Project Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_git_projects)
+
+### Git Clients and Interfaces
+
+* [Git-Fork](https://git-fork.com/), [GitButler](https://github.com/gitbutlerapp/gitbutler) or [GitQlient](https://github.com/francescmm/GitQlient) - Git Desktop Clients
 * [GitKraken](https://www.gitkraken.com/), [RelaGit](https://rela.dev/), [Sourcetree](https://www.sourcetreeapp.com/), [lazygit](https://github.com/jesseduffield/lazygit) or [gitui](https://github.com/gitui-org/gitui) - Git GUIs
 * [Gut](https://gut-cli.dev/), [Jujutsu](https://github.com/jj-vcs/jj), [GitHub Cli](https://cli.github.com/) or [gitu](https://github.com/altsem/gitu) - Git CLI / TUI
+
+### Version Control Systems
+
+* [Git](https://git-scm.com/) - Version Control System
+* [Codeberg](https://codeberg.org/) / [Matrix](https://matrix.to/#/#codeberg-space:matrix.org), [Drift](https://drift.lol/), [Gitea](https://about.gitea.com/), [GitLab.com](https://about.gitlab.com/) or [sourcehut](https://sourcehut.org/) - GitHub Alternatives / Version Control Systems
+
+### Git Hosting and Services
+
+* [Gittea.dev](https://gittea.dev/), [Savannah](https://savannah.gnu.org/), [FSFE](https://git.fsfe.org/), [git.sr.ht](https://git.sr.ht/), [GitGud](https://gitgud.io/) or [Notabug](https://notabug.org/) - Git Hosting / Software Forge
+* [Forgejo](https://forgejo.org/) or [Gogs](https://gogs.io/) - Self-Hosted Git Services / Forge
+
+### Source Code Search and Analysis
+
+* [searchcode](https://searchcode.com/) or [PublicWWW](https://publicwww.com/) - Source Code Search
+* [git-sim](https://github.com/initialcommit-com/git-sim) - Visually Simulate Git Operations Before Running
+* [Gource](https://gource.io/) - Git Project Visualizer
+* [Onefetch](https://onefetch.dev) - Command-line Git information tool / [GitHub](https://github.com/o2sh/onefetch)
+* [GIT Quick Stats](https://git-quick-stats.sh/) - View Git Statistics / [GitHub](https://github.com/git-quick-stats/git-quick-stats)
+
+### Git Environment and Configuration
+
+* [posh-git](https://github.com/dahlbyk/posh-git) - Git Powershell Environment
+
+### Project Management and Collaboration
+
+* [up-for-grabs](https://up-for-grabs.net/) - Curated List of Tasks for New Contributors
 * [git-pr](https://github.com/picosh/git-pr) - Git Collab Tools
+* [Plane](https://github.com/makeplane/plane) / [Discord](https://discord.com/invite/A92xrEGCge), [Git Extensions](https://gitextensions.github.io/) or [Thermal](https://thermal.codecarrot.net/) - Git Project / Repo Managers
+
+### Git Utilities and Tools
+
 * [Git-notify](https://github.com/jevakallio/git-notify) - Embed Announcements into Git Commit Messages
 * [Allstar](https://github.com/ossf/allstar) - Git Repository Security App
 * [git-bug](https://github.com/git-bug/git-bug) - Git Embedded Bug Tracker
-* [Plane](https://github.com/makeplane/plane) / [Discord](https://discord.com/invite/A92xrEGCge), [Git Extensions](https://gitextensions.github.io/) or [Thermal](https://thermal.codecarrot.net/) - Git Project / Repo Managers
 * [git-annex](https://git-annex.branchable.com/) - Manage Large Git Files (without Git)
+* [multi-gitter](https://github.com/lindell/multi-gitter) - Bulk Repository Updater
+
+### Git Visualization and History
+
 * [GitList](https://gitlist.org/) - Elegant Git Repository Viewer / [GitHub](https://github.com/klaussilveira/gitlist)
 * [Gittyup](https://murmele.github.io/Gittyup/) - Git Source Code History / [GitHub](https://github.com/Murmele/Gittyup)
-* [Gource](https://gource.io/) - Git Project Visualizer
-* [multi-gitter](https://github.com/lindell/multi-gitter) - Bulk Repository Updater
+
+### Git Diff and Comparison
+
 * [Delta](https://github.com/dandavison/delta) or [Git-Split-Diffs](https://github.com/banga/git-split-diffs) - Syntax Highlighting / Comparison
-* [Onefetch](https://onefetch.dev) - Command-line Git information tool / [GitHub](https://github.com/o2sh/onefetch)
+
+### Git Hooks and Quality Control
+
 * [pre-commit](https://pre-commit.com/) - Manage / Maintain Pre-Commit Hooks / [GitHub](https://github.com/pre-commit/)
 * [commitlint](https://commitlint.js.org/) - Lint Commit Messages / [GitHub](https://github.com/conventional-changelog/commitlint)
+
+### Documentation and Changelog
+
 * [Git Cliff](https://git-cliff.org) - Changelog Generator
 * [github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) - Terminal Style Readme
-* [GIT Quick Stats](https://git-quick-stats.sh/) - View Git Statistics / [GitHub](https://github.com/git-quick-stats/git-quick-stats)
 
-***
 
 ## ▷ GitHub Tools
 
@@ -236,39 +399,58 @@
 * 🌐 **[Awesome Browser Extensions](https://stefanbuck.com/awesome-browser-extensions-for-github)** - GitHub Browser Extensions
 * 🌐 **[Awesome Badges](https://dev.to/envoy_/150-badges-for-github-pnk)** - GitHub Badge Resources
 * 🌐 **[GitHub-Userscripts](https://greasyfork.org/en/users/24847)** - GitHub Userscripts
-* ⭐ **[GitHub Desktop](https://desktop.github.com/)** / [Linux](https://github.com/shiftkey/desktop) - GitHub Desktop Client
+* ⭐ **[GitHub Desktop](https://desktop.github.com/)** 
+/ [Linux](https://github.com/shiftkey/desktop) - GitHub Desktop Client
 * [Gothub](https://codeberg.org/gothub/gothub) - GitHub Frontend
 * [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) - GitHub Cheat Sheet
 * [GitHubStatus](https://www.githubstatus.com/) - GitHub Outage Status
 * [Languish](https://tjpalmer.github.io/languish/) - GitHub Programming Language Stats
 * [Langits](https://langits.davejudd.dev/) - View Your Most Used Languages on GitHub
-* [refined-github](https://github.com/refined-github/refined-github) or [Ungit](https://github.com/FredrikNoren/ungit) - Improved GitHub Interface
+* [refined-github](https://github.com/refined-github/refined-github) or 
+[Ungit](https://github.com/FredrikNoren/ungit) - Improved GitHub Interface
 * [GitHub Dorks](https://github-dorks.vercel.app/) - GitHub Search Tool
 * [Imgbot](https://imgbot.net/) - GitHub Image Compression
 * [ActionServerless](https://github.com/gitfx/ActionServerless) - Create Serverless Service
 * [Rahularity](https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3) - Use Multiple Git Accounts at Once
 * [dotfiles](https://dotfiles.github.io/) - GitHub Dotfiles
 * [⁠Chezmoi](https://www.chezmoi.io/) - Dotfile Managers
-* [GitHub Web IDE](https://chromewebstore.google.com/detail/github-web-ide/adjiklnjodbiaioggfpbpkhbfcnhgkfe) - Web IDE / [GitHub](https://github.com/zvizvi/GitHub-Web-IDE)
-* [Octobox](https://octobox.io/), [Gitify](https://www.gitify.io/), [advanced-github-notifier](https://github.com/freaktechnik/advanced-github-notifier), [PR Monitor](https://github.com/fwouts/prmonitor), [Gitification](https://github.com/Gitification-App/gitification) or [CatLight](https://catlight.io/) - GitHub Notifications
+* [GitHub Web IDE](https://chromewebstore.google.com/detail/github-web-ide/adjiklnjodbiaioggfpbpkhbfcnhgkfe) - Web IDE 
+/ [GitHub](https://github.com/zvizvi/GitHub-Web-IDE)
+* [Octobox](https://octobox.io/), 
+[Gitify](https://www.gitify.io/), 
+[advanced-github-notifier](https://github.com/freaktechnik/advanced-github-notifier), 
+[PR Monitor](https://github.com/fwouts/prmonitor), 
+[Gitification](https://github.com/Gitification-App/gitification) or 
+[CatLight](https://catlight.io/) - GitHub Notifications
 * [github1s](https://github1s.com/) - GitHub Code Viewer / GUI: do `gitk` in Repo Folder
-* [Pages CMS](https://pagescms.org/) - GitHub Content Management System / [GitHub](https://github.com/pages-cms/pages-cms)
+* [Pages CMS](https://pagescms.org/) - GitHub Content Management System 
+/ [GitHub](https://github.com/pages-cms/pages-cms)
 * [KeyManager](https://github.com/Yash-Garg/KeyManager) - GitHub SSH / GPG Key Manager
-* [DownGit](https://downgit.evecalm.com/), [GitHub2File](https://github.com/cognitivecomputations/github2file), [Gitzip](https://kinolien.github.io/gitzip/) or [Download Directory](https://download-directory.github.io/) - Download GitHub Repo Sub-Folders / Files
+* [DownGit](https://downgit.evecalm.com/), 
+[GitHub2File](https://github.com/cognitivecomputations/github2file), 
+[Gitzip](https://kinolien.github.io/gitzip/) or 
+[Download Directory](https://download-directory.github.io/) - Download GitHub Repo Sub-Folders / Files
 * [Eget](https://github.com/zyedidia/eget) - Install Packages / Binaries Directly from GitHub
-* [useful-forks](https://useful-forks.github.io/) or [GitPop3](https://andremiras.github.io/gitpop3/) - GitHub Fork Search
-* [Active-Forks](https://techgaun.github.io/active-forks/index.html) - Find Active GitHub Forks / [GitHub](https://github.com/techgaun/active-forks)
-* [Graphite](https://graphite.dev/) or [Stacking](https://stacking.dev/) - Improve Pull Request Workflow
+* [useful-forks](https://useful-forks.github.io/) or 
+[GitPop3](https://andremiras.github.io/gitpop3/) - GitHub Fork Search
+* [Active-Forks](https://techgaun.github.io/active-forks/index.html) - Find Active GitHub Forks / 
+[GitHub](https://github.com/techgaun/active-forks)
+* [Graphite](https://graphite.dev/) or 
+[Stacking](https://stacking.dev/) - Improve Pull Request Workflow
 * [PR-Agent](https://github.com/qodo-ai/pr-agent) - Automated Pull Requests
 * [SemanticDiff](https://app.semanticdiff.com/) - Review Pull Requests using Language Aware Diff
 * [StarGrab](https://github.com/zekroTJA/stargrab) - Mirror GitHub Repositories
-* [Repo2Txt](https://repo2txt.com/) - Convert Repos to Text Formatted Files / [GitHub](https://github.com/abinthomasonline/repo2txt)
-* [Gitingest](https://gitingest.com/) or [Repomix](https://repomix.com/) / [GitHub](https://github.com/yamadashy/repomix) - Convert Repos to Prompt-Friendly Text
+* [Repo2Txt](https://repo2txt.com/) - Convert Repos to Text Formatted Files 
+/ [GitHub](https://github.com/abinthomasonline/repo2txt)
+* [Gitingest](https://gitingest.com/) or 
+[Repomix](https://repomix.com/) 
+/ [GitHub](https://github.com/yamadashy/repomix) - Convert Repos to Prompt-Friendly Text
 * [OctoLinker](https://octolinker.vercel.app/) - Make GitHub Code References Clickable
 * [Octotree](https://www.octotree.io/) - GitHub Repo File Tree View
 * [Nightly.link](https://nightly.link/) - GitHub Sharable Nightly Links
 * [ActionFlow](https://actionsflow.github.io/) - Action Workflow Automation
-* [act](https://nektosact.com/) - Run GitHub Actions Locally / [GitHub](https://github.com/nektos/act)
+* [act](https://nektosact.com/) - Run GitHub Actions Locally 
+/ [GitHub](https://github.com/nektos/act)
 * [shot-scraper-template](https://github.com/simonw/shot-scraper-template) - Take Automated Screenshots of Web Pages
 * [Star History](https://star-history.com/) - Repository Star History Graph
 * [GitWhoIs](https://gitwhois.com/) - GitHub Repo History / Info
@@ -277,13 +459,19 @@
 * [GitHub Markdown Preview](https://aviaryan.github.io/javascripts/github.md/) - Preview GH Markdown
 * [ReadmeGallery](https://felixhayashi.github.io/ReadmeGalleryCreatorForGitHub/) - GitHub Readme Gallery Creator
 * [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats) - Dynamically Generated GitHub Readme Stats
-* [GitHub Readme Quotes](https://github-readme-quotes-returns.vercel.app/) - GitHub Readme Quote Generator / [GitHub](https://github.com/shravan20/github-readme-quotes)
+* [GitHub Readme Quotes](https://github-readme-quotes-returns.vercel.app/) - GitHub Readme Quote Generator 
+/ [GitHub](https://github.com/shravan20/github-readme-quotes)
 * [Shields.io](https://shields.io/) - Metadata Badges for GitHub Readme
-* [SkillIcons](https://skillicons.dev/), [SpaceBadgers](https://badgers.space/) / [GitHub](https://github.com/splittydev/spacebadgers) or [SimpleBadges](https://badges.pages.dev/) / [GitHub](https://github.com/developStorm/simple-badges) - Skill Badges for GitHub Readme / Resumes
+* [SkillIcons](https://skillicons.dev/), 
+[SpaceBadgers](https://badgers.space/) 
+/ [GitHub](https://github.com/splittydev/spacebadgers) or 
+[SimpleBadges](https://badges.pages.dev/) / 
+[GitHub](https://github.com/developStorm/simple-badges) - Skill Badges for GitHub Readme / Resumes
 * [For the Badge](https://forthebadge.com/) - Custom GitHub Badges
 * [GitHub Spray](https://annihil.github.io/github-spray-generator) - Draw on GitHub Contribution Page
 * [GitHub Snake](https://dev.to/mishmanners/how-to-enable-github-actions-on-your-profile-readme-for-a-contribution-graph-4l66) - Enable Snake Game on GitHub Readme
-* [GitHub Profile Readme Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) or [GPRM](https://gprm.itsvg.in/) - Generate Git Profile Readme
+* [GitHub Profile Readme Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/) or 
+[GPRM](https://gprm.itsvg.in/) - Generate Git Profile Readme
 * [GitStalk](https://gitstalk.netlify.app/) - GitHub Profile Info Search
 * [Beautify GitHub Profile](https://github.com/rzashakeri/beautify-github-profile) - Custom GitHub Profile Resources
 * [Discord MD Badge](https://github.com/gitlimes/dcbadge) - Add Discord Badge to GitHub
@@ -387,7 +575,7 @@
 
 ***
 
-# ► Game Dev Tools
+## ▷ Game Dev Tools
 
 * 🌐 **[List of Game Engines](https://en.wikipedia.org/wiki/List_of_game_engines)**, [Awesome Game Engine](https://github.com/stevinz/awesome-game-engine-dev) or [Game-Engines](https://rentry.co/Game-Engines) - Game Engine Development Resources
 * 🌐 **[EnginesDatabase](https://enginesdatabase.com/)** - Game Engines Database
@@ -453,7 +641,7 @@
 
 ***
 
-# ► IDEs / Code Editors
+# ▷ IDEs / Code Editors
 
 * ↪️ **[Text Editors / Notes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools/#wiki_.25BA_text_editors)**
 * ⭐ **[VSCodium](https://vscodium.com/)** or **[Visual Studio Code](https://code.visualstudio.com/)**, [2](https://vscode.dev/), [3](https://cs50.dev/) - Code Editor / [Extensions](https://www.vsixhub.com/) / [Extensions Marketplace](https://rentry.co/vscodiumguide)
@@ -521,7 +709,8 @@
 
 ## ▷ Android Code Editors
 
-* ⭐ **[Android Studio](https://developer.android.com/studio)** or [Plasmic](https://www.plasmic.app/) - App Creators / Builders
+* ⭐ **[Android Studio](https://developer.android.com/studio)** or 
+[Plasmic](https://www.plasmic.app/) - App Creators / Builders
 * ⭐ **[Acode](https://acode.app)** - Android Code Editor / [GitHub](https://github.com/Acode-Foundation/Acode)
 * ⭐ **[Squircle-CE](https://github.com/massivemadness/Squircle-CE)** - Android Code Editor
 * [Sora](https://github.com/Rosemoe/sora-editor) - Android Code Editor
@@ -529,7 +718,9 @@
 * [Spck Editor](https://play.google.com/store/apps/details?id=io.spck) - Android Code Editor
 * [droidvim](https://github.com/shiftrot/droidvim) - Vim Code Editor
 * [VHEditor](https://github.com/vhqtvn/VHEditor-Android) - VSCode Editor
-* [diohub](https://github.com/NamanShergill/diohub), [PuppyGit](https://github.com/catpuppyapp/PuppyGit) or [OctoDroid](https://github.com/slapperwan/gh4a) - Android Git Clients
+* [diohub](https://github.com/NamanShergill/diohub), 
+[PuppyGit](https://github.com/catpuppyapp/PuppyGit) or 
+[OctoDroid](https://github.com/slapperwan/gh4a) - Android Git Clients
 * [GitSync](https://github.com/ViscousPot/GitSync) - Android Git Remote Repo Sync
 * [FlutterMarkdownEditor](https://github.com/adeeteya/FlutterMarkdownEditor) - Markdown Editor
 
@@ -538,56 +729,93 @@
 ## ▷ Coding Tools
 
 * 🌐 **[Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)** - Creative Coding Resources
-* [Prettier](https://prettier.io/) or [codebeautify](https://codebeautify.org/) - Code Formatting Tools
+* [Prettier](https://prettier.io/) or 
+[codebeautify](https://codebeautify.org/) - Code Formatting Tools
 * [editorcornfig](https://editorconfig.org/) - Maintain Code Styles Across Editors
-* [ThemesElection](https://themeselection.com/) or [Dracula](https://draculatheme.com/) - Code Editor Themes
+* [ThemesElection](https://themeselection.com/) or 
+[Dracula](https://draculatheme.com/) - Code Editor Themes
 * [Freeze](https://github.com/charmbracelet/freeze) - Generate Images of Code / Terminal Output
-* [myCompiler](https://www.mycompiler.io/), [Compiler Explorer](https://compiler-explorer.com/), [OneCompiler](https://onecompiler.com/), [GodBolt](https://godbolt.org/), [ryugod](https://www.ryugod.com/) or [Wandbox](https://wandbox.org/) - Online Compilers / Explorers
-* [DogBolt](https://dogbolt.org/) - Decompiler Explorers / [GitHub](https://github.com/decompiler-explorer/decompiler-explorer)
-* [Code2Flow](https://app.code2flow.com/) or [Flowchart.js](https://flowchart.js.org/) - Code to Flowchart Converter
+* [myCompiler](https://www.mycompiler.io/), 
+[Compiler Explorer](https://compiler-explorer.com/), 
+[OneCompiler](https://onecompiler.com/), 
+[GodBolt](https://godbolt.org/), 
+[ryugod](https://www.ryugod.com/) or 
+[Wandbox](https://wandbox.org/) - Online Compilers / Explorers
+* [DogBolt](https://dogbolt.org/) - Decompiler Explorers 
+/ [GitHub](https://github.com/decompiler-explorer/decompiler-explorer)
+* [Code2Flow](https://app.code2flow.com/) or 
+[Flowchart.js](https://flowchart.js.org/) - Code to Flowchart Converter
 * [tuc](https://github.com/riquito/tuc) - Improved Code Cut
 * [massCode](https://masscode.io/) - Code Snippet Manager
-* [Meld](https://meld.app/) / [2](https://meldmerge.org/), [Beyond Compare](https://www.scootersoftware.com/) / [Pro](https://rentry.co/FMHYBase64#beyond-compare-crack) or [WinMerge](https://winmerge.org/) - File / Directory Comparison Tools
+* [Meld](https://meld.app/) / [2](https://meldmerge.org/), 
+[Beyond Compare](https://www.scootersoftware.com/) 
+/ [Pro](https://rentry.co/FMHYBase64#beyond-compare-crack) or 
+[WinMerge](https://winmerge.org/) - File / Directory Comparison Tools
 * [0xacab](https://about.0xacab.org/) - Code Host
-* [OctoLinker](https://octolinker.vercel.app/) - Turn Code Statements into Links / [GitHub](https://github.com/OctoLinker/OctoLinker)
+* [OctoLinker](https://octolinker.vercel.app/) - Turn Code Statements into Links 
+/ [GitHub](https://github.com/OctoLinker/OctoLinker)
 * [RTutor](https://rtutor.ai/) - Translate Natural Language to R code / No Sign-Up
 * [BrickHub](https://brickhub.dev/) - Share Code Brick Templates
-* [Sourcegraph](https://sourcegraph.com/search) or [SeaGOAT](https://github.com/kantord/SeaGOAT) - Code Searching
-* [Sourcecodester](https://www.sourcecodester.com/), [Code Projects](https://code-projects.org/), [Codastro](https://codeastro.com/), [Kashipara](https://www.kashipara.com/) or [ItSourceCode](https://www.itsourcecode.com/) - Source Code Projects
-* [ShortCode](https://shortcode.dev/) or [CodeList](https://codelist.cc/v3/) - Script / Code Indexes
+* [Sourcegraph](https://sourcegraph.com/search) or 
+[SeaGOAT](https://github.com/kantord/SeaGOAT) - Code Searching
+* [Sourcecodester](https://www.sourcecodester.com/), 
+[Code Projects](https://code-projects.org/), 
+[Codastro](https://codeastro.com/), 
+[Kashipara](https://www.kashipara.com/) or 
+[ItSourceCode](https://www.itsourcecode.com/) - Source Code Projects
+* [ShortCode](https://shortcode.dev/) or 
+[CodeList](https://codelist.cc/v3/) - Script / Code Indexes
 * [AnimateCode](https://www.animate-code.com/) - Create Code Animations
 * [DelphiTools](https://www.delphitools.info/) - Code Profiler / Delphi Tools
 * [⁠Zathura](https://www.zathura.dev/) - GUI Debugger for Assembly
-* [Adrenaline](https://useadrenaline.com/) or [Console Ninja](https://console-ninja.com/) - Code Debugging
-* [JBin](https://jsbin.com/) or [Replay](https://www.replay.io/) - Collaborative Code Debugging
-* [Winddown](https://github.com/schneefux/vscode-winddown) or [Sandman](https://alexanderepstein.github.io/Sandman/) - Coding Break Reminders
+* [Adrenaline](https://useadrenaline.com/) or 
+[Console Ninja](https://console-ninja.com/) - Code Debugging
+* [JBin](https://jsbin.com/) or 
+[Replay](https://www.replay.io/) - Collaborative Code Debugging
+* [Winddown](https://github.com/schneefux/vscode-winddown) or 
+[Sandman](https://alexanderepstein.github.io/Sandman/) - Coding Break Reminders
 * [Decompiler](https://www.decompiler.com/) - Online Decompiler
 
 ***
 
 ## ▷ Vim / Neovim Tools
 
-* 🌐 **[Awesome Neovim](https://github.com/rockerBOO/awesome-neovim)** or [NeoVimCraft](https://neovimcraft.com/) - NeoVim Plugins Collections
+* 🌐 **[Awesome Neovim](https://github.com/rockerBOO/awesome-neovim)** or 
+[NeoVimCraft](https://neovimcraft.com/) - NeoVim Plugins Collections
 * ⭐ **[Vim Bootstrap](https://vim-bootstrap.com/)** - Bootstrap Config for Vim
-* [NeoVim Kickstart](https://github.com/nvim-lua/kickstart.nvim), [AstroNvim](https://astronvim.com), [LazyVim](https://github.com/LazyVim/LazyVim), [NvChad](https://nvchad.com/) or [LunarVim](https://www.lunarvim.org/) - Neovim Configs
+* [NeoVim Kickstart](https://github.com/nvim-lua/kickstart.nvim), 
+[AstroNvim](https://astronvim.com), 
+[LazyVim](https://github.com/LazyVim/LazyVim), 
+[NvChad](https://nvchad.com/) or 
+[LunarVim](https://www.lunarvim.org/) - Neovim Configs
 * [DotFyle](https://dotfyle.com/) - Neovim Config Search
-* [Lazy.nvim](https://github.com/folke/lazy.nvim) or [packer.nvim](https://github.com/wbthomason/packer.nvim) - Neovim Plugin Managers
+* [Lazy.nvim](https://github.com/folke/lazy.nvim) or 
+[packer.nvim](https://github.com/wbthomason/packer.nvim) - Neovim Plugin Managers
 * [FireNVim](https://github.com/glacambre/firenvim) - Neovim in Browser
-* [neovide](https://neovide.dev), [gnvim](https://github.com/vhakulinen/gnvim), [nvui](https://github.com/rohit-px2/nvui), [Neovim wiki##gui](https://github.com/neovim/neovim/wiki/Related-projects##gui) - Neovim GUIs
+* [neovide](https://neovide.dev), 
+[gnvim](https://github.com/vhakulinen/gnvim), 
+[nvui](https://github.com/rohit-px2/nvui), 
+[Neovim wiki##gui](https://github.com/neovim/neovim/wiki/Related-projects##gui) - Neovim GUIs
 * [instant.nvim](https://github.com/jbyuki/instant.nvim) - Collaborative Neovim Editing
 * [chatgpt.nvim](https://github.com/terror/chatgpt.nvim) - ChatGPT in Neovim
-* [Vim Plug](https://github.com/junegunn/vim-plug), [vim-pathogen](http://www.vim.org/scripts/script.php?script_id=2332) / [GitHub](https://github.com/tpope/vim-pathogen) or [Shougo](https://github.com/Shougo/dein.vim) - Vim Plugin Managers
-* [VimAwesome](https://vimawesome.com/) - Vim Plugins / [GitHub](https://github.com/vim-awesome/vim-awesome)
+* [Vim Plug](https://github.com/junegunn/vim-plug), 
+[vim-pathogen](http://www.vim.org/scripts/script.php?script_id=2332) 
+/ [GitHub](https://github.com/tpope/vim-pathogen) or 
+[Shougo](https://github.com/Shougo/dein.vim) - Vim Plugin Managers
+* [VimAwesome](https://vimawesome.com/) - Vim Plugins 
+/ [GitHub](https://github.com/vim-awesome/vim-awesome)
 * [nerdtree](https://github.com/preservim/nerdtree) - Vim Tree Explorer
 * [VimColorSchemes](https://vimcolorschemes.com/) - Vim Color Schemes
 * [The Ultimate vimrc](https://github.com/amix/vimrc) - Vim Config
-* [Vim Markdown](https://github.com/preservim/vim-markdown) or [Markdown Preview](https://github.com/iamcco/markdown-preview.nvim) - Vim Markdown Plugins
+* [Vim Markdown](https://github.com/preservim/vim-markdown) or 
+[Markdown Preview](https://github.com/iamcco/markdown-preview.nvim) - Vim Markdown Plugins
 
 ***
 
 ## ▷ VSCode Tools
 
-* 🌐 **[Awesome VSC Extensions](https://hl2guide.github.io/Awesome-Visual-Studio-Code-Extensions/)**, [2](https://marketplace.visualstudio.com/) - VSCode Extensions
+* 🌐 **[Awesome VSC Extensions](https://hl2guide.github.io/Awesome-Visual-Studio-Code-Extensions/)**, 
+[2](https://marketplace.visualstudio.com/) - VSCode Extensions
 * [github-vscode-icons](https://github.com/dderevjanik/github-vscode-icons) - VSCode Icons
 * [chatgpt-vscode](https://github.com/mpociot/chatgpt-vscode) - VSCode ChatGPT
 * [Open VSX](https://open-vsx.org/) - Open VSX Registry
@@ -595,10 +823,12 @@
 * [Dendron](https://www.dendron.so/) - Knowledge Managment
 * [Discord Tools](https://github.com/clementwzk/Discord-Tools)
 * [vscode-smart-clicks](https://github.com/antfu/vscode-smart-clicks) - Smart Clicks
-* [code-server](https://coder.com/) - Web Server / [GitHub](https://github.com/coder/code-server)
+* [code-server](https://coder.com/) - Web Server 
+/ [GitHub](https://github.com/coder/code-server)
 * [vscode-settings](https://github.com/antfu/vscode-settings) - VSCode Settings
 * [insiders.vscode](https://insiders.vscode.dev/) - Insider Build
-* [VSCodeThemes](https://vscodethemes.com/) or [VSColors](https://www.vscolors.com/) - VSCode Themes
+* [VSCodeThemes](https://vscodethemes.com/) or 
+[VSColors](https://www.vscolors.com/) - VSCode Themes
 * [oslo](https://oslo-vsc.netlify.app/) - Theme Generator
 
 ***
@@ -607,7 +837,7 @@
 
 ***
 
-# ► Programming Languages
+## ▷ Programming Languages
 
 * 🌐 **[⁠Awesome Explorer](https://awexplor.github.io/)** - Dev Awesome List Frontend / [GitHub](https://github.com/AweXplor/awexplor.github.io)
 * 🌐 **[Awesome Cheatsheets](https://lecoupa.github.io/awesome-cheatsheets/)**, **[QuickRef.me](https://quickref.me/)**, [HowDoI](https://github.com/gleitz/howdoi), [OverApi](https://overapi.com/), [Reference](https://cheatsheets.zip/) / [GitHub](https://github.com/Fechin/reference) or [Cheat Sheets](http://www.cheat-sheets.org/) - Programming Cheat Sheets
@@ -670,7 +900,7 @@
 
 ***
 
-# ► Web Development
+## ▷ Web Development
 
 ## ▷ HTML
 
@@ -758,7 +988,7 @@
 
 ***
 
-# ► Web Dev Tools
+## ▷ Web Dev Tools
 
 * 🌐 **[Website Creation Resources](https://discourse.32bit.cafe/t/resources-list-for-the-personal-web/49)** - Web Dev Resources
 * 🌐 **[Awesome Tunneling](https://github.com/anderspitman/awesome-tunneling)** - Tunneling Resources
@@ -1023,7 +1253,7 @@
 
 ***
 
-# ► Hosting Tools
+## ▷ Hosting Tools
 
 * 🌐 **[Awesome-Web-Hosting](https://nuhmanpk.github.io/Awesome-Web-Hosting/)** - Free Hosting Provider Index / [GitHub](https://github.com/nuhmanpk/Awesome-Web-Hosting)
 * 🌐 **[Awesome Cloudflare](https://github.com/irazasyed/awesome-cloudflare)** - Cloudflare Resources
@@ -1135,7 +1365,7 @@
 
 ***
 
-# ► Cybersecurity Tools
+## ▷ Cybersecurity Tools
 
 * ⭐ **[pyWhat](https://github.com/bee-san/pyWhat)** - File Analyzer
 * [Open Source Security Software](https://open-source-security-software.net/) - Cybersecurity Software
@@ -1255,7 +1485,7 @@
 
 ***
 
-# ► Markup Tools
+## ▷ Markup Tools
 
 * ⭐ **[Markdown Guide](https://www.markdownguide.org/)** - Guide for Markdown (.md)
 * ⭐ **[generatedata.com](https://generatedata.com/)** - Generate Test Data in Markup Formats
@@ -1287,3 +1517,4 @@
 * [MarkdownLivePreview](https://markdownlivepreview.com/)
 * [Vrite](https://editor.vrite.io/)
 * [MindForger](https://www.mindforger.com/)
+* [MarkdownPad](https://markdownpad.com/)

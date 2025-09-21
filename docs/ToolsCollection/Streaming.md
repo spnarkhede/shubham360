@@ -1,3 +1,9 @@
+---
+sidebar_position: 16
+title: Movies / TV / Anime
+description: Stream, download, torrent and binge all your favourite movies and shows!
+---
+
 # Streaming
 
 ## ▷  Movies / TV / Anime 
@@ -167,7 +173,7 @@
 
 ***
 
-# ► Specialty Streaming
+# ▷ Specialty Streaming
 
 * ↪️ **[Documentary Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_documentaries)**
 * ↪️ **[Courses / Lectures](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_streaming)**
@@ -361,7 +367,7 @@
 
 ***
 
-# ► Live TV / Sports
+# ▷ Live TV / Sports
 
 ## ▷ Live TV
 
@@ -521,7 +527,7 @@
 
 ***
 
-# ► Smart TV / Firestick
+# ▷ Smart TV / Firestick
 
 * ⭐ **[Tizentube](https://tizenbrew.6513006.xyz/)** - Ad-Free Samsung Smart TV YouTube / [GitHub](https://github.com/reisxd/TizenTube), [2](https://github.com/reisxd/TizenBrew)
 * ⭐ **[webOS Homebrew](https://www.webosbrew.org/)** - LG TV Homebrew / [Guide](https://wispydocs.netlify.app/docs/lg-tv-homebrew/) / [Discord](https://discord.gg/xWqRVEm) / [GitHub](https://github.com/webosbrew/)
@@ -558,15 +564,15 @@
 
 ***
 
-# ► [Android Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_streaming)
+# ▷ [Android Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_streaming)
 
 ***
 
-# ► [iOS Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_ios_streaming)
+# ▷ [iOS Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_ios_streaming)
 
 ***
 
-# ► Download Sites
+# ▷ Download Sites
 
 * **Note** - Use **[redirect bypassers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_redirect_bypass)** to skip link shorteners.
 
@@ -693,7 +699,7 @@
 
 ***
 
-# ► Torrent Apps
+# ▷ Torrent Apps
 
 * **Note** - Remember to get a [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_vpn) before torrenting and [bind it to your client](https://wispydocs.netlify.app/docs/vpn-binding/) if it allows.
 
@@ -741,7 +747,7 @@
 
 ***
 
-# ► Torrent Sites
+# ▷ Torrent Sites
 
 * **Note** - Keep in mind Stremio + Torrentio or other [aggregators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent/#wiki_.25B7_aggregators) are sometimes best when it comes to finding content.
 
@@ -788,7 +794,7 @@
 
 ***
 
-# ► Tracking / Databases
+# ▷ Tracking / Databases
 
 * ⭐ **[Simkl](https://simkl.com/)** - TV / Anime / Movies / [Apps](https://simkl.com/apps/) / [Import Tools](https://simkl.com/apps/import/)
 * ⭐ **[Trakt](https://trakt.tv/)** - TV / Anime / Movies / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_trakt_tools)
@@ -885,7 +891,7 @@
 
 ***
 
-# ► Subtitle Tools
+# ▷ Subtitle Tools
 
 * 🌐 **[elSubtitle](https://www.elsubtitle.com/)**, [SubConverter](https://subconverter.com/), [Subtitle One](https://subtitleone.cc/) or [Subtitle Tools](https://subtitletools.com/) - Subtitle Tools
 * ⭐ **[Substital](https://substital.com/)** or [Movie-Subtitles](https://github.com/gignupg/Movie-Subtitles) - External Subtitle Extensions
@@ -932,7 +938,7 @@
 
 ***
 
-# ► Helpful Sites / Tools
+# ▷ Helpful Sites / Tools
 
 * 🌐 **[r/Animepiracy Wiki](https://thewiki.moe/)** or [Awesome ACG](https://github.com/soruly/awesome-acg) - Anime Tool Indexes
 * ↪️ **[Media Posters / Covers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_media_covers_.2F_posters)**

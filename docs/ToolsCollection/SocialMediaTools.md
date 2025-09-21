@@ -1,3 +1,9 @@
+---
+sidebar_position: 19
+title: Social Media Tools
+description: Social media enhancement, privacy tools, and alternative frontends.
+---
+
 # Social Media Tools
 
 ## Social Media Tools
@@ -20,7 +26,7 @@
 
 ***
 
-# ► Discord Tools
+# ▷ Discord Tools
 
 * **Warning** - Chat archivers, mass-deleters, mods and third-party clients are against Discord's terms of service. Misusing them can lead to account terminations, so use them at your own risk.
 
@@ -151,7 +157,7 @@
 
 ***
 
-# ► Reddit Tools
+# ▷ Reddit Tools
 
 * ⭐ **[Reddit Stream](https://reddit-stream.com/)** - Live Thread Viewer
 * ⭐ **[Reddit Enhancement Suite](https://redditenhancementsuite.com/)**, [Reddit++](https://greasyfork.org/en/scripts/490046), [Reddit Fix](https://greasyfork.org/en/scripts/404497-reddit-fix), [Reddit Extension](https://lawrenzo.com/p/reddit-extension), [RedditEnhancer](https://github.com/joelacus/RedditEnhancer) or [RedditMod2](https://greasyfork.org/en/scripts/29724-redditmod2) - Reddit Enhancement Extensions / Scripts
@@ -236,7 +242,7 @@
 
 ***
 
-# ► Telegram Tools
+# ▷ Telegram Tools
 
 * 🌐 **[TDirectory](https://tdirectory.me/)**, [Telemetr](https://telemetr.io/en), [Telegram Channels](https://telegramchannels.me/), [Awesome Telegram](https://github.com/ebertti/awesome-telegram) - Telegram Channel Indexes
 * 🌐 **[ComBot Groups](https://combot.org/top/telegram/groups)** - Top Telegram Groups Index
@@ -303,7 +309,7 @@
 
 ***
 
-# ► YouTube Tools
+# ▷ YouTube Tools
 
 * ⭐ **[PocketTube](https://pockettube.io/)** or [Kadium](https://kadium.kasper.space/) - Subscription Managers
 * [Youtube-shorts block](https://github.com/doma-itachi/Youtube-shorts-block) or [Shorts Deflector](https://evenevan.github.io/shorts-deflector/) / [GitHub](https://github.com/evenevan/shorts-deflector) - Play Shorts In The Normal Desktop Interface
@@ -454,7 +460,7 @@
 
 ***
 
-# ► Twitch Tools
+# ▷ Twitch Tools
 
 * 🌐 **[Twitch Extensions](https://dashboard.twitch.tv/extensions/categories/43f48606-8b91-4149-94e6-02def012c79f)** - Twitch Extensions Index
 * ⭐ **[FrankerFacez](https://www.frankerfacez.com/)**, [BetterTTV](https://betterttv.com/) or [7TV](https://7tv.app/) - Twitch Enhancement Extensions
@@ -525,7 +531,7 @@
 
 ***
 
-# ► Twitter/X Tools
+# ▷ Twitter/X Tools
 
 * ⭐ **[Trends24](https://trends24.in/)** or [GetDayTrends](https://getdaytrends.com/) - Trending Hashtags Trackers
 * ⭐ **[r/Twitter](https://reddit.com/r/Twitter)** - X.com Subreddit
@@ -568,7 +574,7 @@
 
 ***
 
-# ► Facebook Tools
+# ▷ Facebook Tools
 
 * ⭐ **[Facebook Ad Filters](https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_facebook)** - Facebook Filters
 * [FBPurity](https://www.fbpurity.com/) - Facebook Enhancement Extensions
@@ -585,7 +591,7 @@
 
 ***
 
-# ► Instagram Tools
+# ▷ Instagram Tools
 
 * ⭐ **[Redirect Logins](https://greasyfork.org/en/scripts/420604)** - Redirect Instagram Login
 * [InstaFix](https://ddinstagram.com/) - Fix Instagram Embeds on Discord / [GitHub](https://github.com/Wikidepia/InstaFix)
@@ -609,7 +615,7 @@
 
 ***
 
-# ► Tumblr Tools
+# ▷ Tumblr Tools
 
 * [Tumlook](https://www.tumlook.com/), [Tumgik](https://www.tumgik.com/) or [PriviBlur](https://github.com/syeopite/priviblur) - Tumblr Frontends
 * [Pillowfort](https://www.pillowfort.social/) - Tumblr Alternatives
@@ -624,7 +630,7 @@
 
 ***
 
-# ► Fediverse Tools
+# ▷ Fediverse Tools
 
 * 🌐 **[Awesome Bluesky](https://github.com/fishttp/awesome-bluesky)** or [BlueskyDirectory](https://blueskydirectory.com/) - Bluesky Resources
 * 🌐 **[Fediverse.Party](https://fediverse.party/)** - Fediverse Software Index
@@ -702,7 +708,7 @@
 
 ***
 
-# ► 4chan Tools
+# ▷ 4chan Tools
 
 * ⭐ **[4chan XT](https://github.com/TuxedoTako/4chan-xt)**, [4chan X](https://www.4chan-x.net/), [SpookyX](https://github.com/Fiddlekins/SpookyX) or [Dollchan](https://dollchan.net/) - Enhancement Extensions
 * [Lurka](https://github.com/AdamSalma/Lurka) - Desktop Client
@@ -736,7 +742,7 @@
 
 ***
 
-# ► Blogging Tools
+# ▷ Blogging Tools
 
 * ⭐ **[⁠TinyBones](https://tinybones.pages.dev/)** / [GitHub](https://github.com/itzcozi/tinybones), **[Bear Blog](https://bearblog.dev/)**, [Mataroa](https://mataroa.blog/) or [smol.pub](https://smol.pub/) / [Key](https://m15o.ichi.city/smolpub/key-request.html) - Minimalist Blogging Platforms
 * [Telescope](https://telescope.ac/) - Publishing Platform

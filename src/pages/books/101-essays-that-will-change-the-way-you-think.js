@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { ArrowLeft, Calendar, Clock } from 'lucide-react';
+import BookNavigation from '../../components/BookNavigation';
 
 export default function OneHundredOneEssaysReview() {
   return (

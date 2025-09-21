@@ -1,3 +1,9 @@
+---
+sidebar_position: 20
+title: System Tools
+description: Essential system utilities, performance monitoring, and system optimization tools.
+---
+
 # System Tools
 
 * **Warning** - It's not recommended to use debloaters unless you know what you're doing. Always research first, never just "Apply All" randomly.
@@ -192,7 +198,7 @@
 
 ***
 
-# ► Hardware Tools
+# ▷ Hardware Tools
 
 * ↪️ **[PC Building / Shopping](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_electronics)**
 * ⭐ **[PSU Calculator](https://www.newegg.com/tools/power-supply-calculator/)** - Find Compatible Power Supplies
@@ -326,7 +332,7 @@
 
 ***
 
-# ► Windows ISOs
+# ▷ Windows ISOs
 
 * ⭐ **[Genuine Installation Media](https://rentry.co/FMHYBase64#genuine-installation-media)** - Windows ISOs / [Clean Install Guide](https://gravesoft.dev/clean_install_windows)
 * ⭐ **[Windows Install / Debloat Guide](https://wispydocs.netlify.app/docs/windows/)**
@@ -380,7 +386,7 @@
 
 ***
 
-# ► Customization
+# ▷ Customization
 
 * 🌐 **[Windows-Ricing](https://github.com/winthemers/wiki)** or [Heliohost Guide](https://ninjasr.varesia.com/w/lb/windows) - Windows Ricing Resources
 * ⭐ **[Rainmeter](https://www.rainmeter.net/)** - Desktop Customization / [Discord](https://discord.com/invite/rainmeter)

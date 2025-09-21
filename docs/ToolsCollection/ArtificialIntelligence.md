@@ -1,6 +1,12 @@
+---
+sidebar_position: 4
+title: Artificial Intelligence
+description: Explore the world of AI and machine learning.
+---
+
 # Artificial Intelligence
 
-# ► AI Chatbots
+# ▷ AI Chatbots
 
 * **Note** - It's **never** a good idea to upload personal / confidential files or info to any cloud AI, as many train on your questions and code. If you want privacy, its best to run bots yourself locally, and remember to use throwaway emails or [aliasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_email_aliasing) if signing up for bots.
 
@@ -214,7 +220,7 @@
 
 ***
 
-# ► AI Tools
+# ▷ AI Tools
 
 * 🌐 **[sindresorhus's Awesome ChatGPT](https://github.com/sindresorhus/awesome-chatgpt)** or [Awesome ChatGPT](https://github.com/uhub/awesome-chatgpt) - AI Resources
 * 🌐 **[Every ChatGPT GUI](https://github.com/billmei/every-chatgpt-gui)** - ChatGPT GUI Index
@@ -265,7 +271,7 @@
 
 ***
 
-# ► AI Indexes
+# ▷ AI Indexes
 
 * 🌐 **[⁠LLM Explorer](https://llm-explorer.com/)** or [LifeArchitect](https://lifearchitect.ai/models-table/) - LLM Databases / Indexes
 * 🌐 **[FutureTools](https://www.futuretools.io/?pricing-model=free)** - AI Directory / [Discord](https://discord.gg/WBk4ZDW6A9)
@@ -317,7 +323,7 @@
 
 ***
 
-# ► Text Generators
+# ▷ Text Generators
 
 * ⭐ **[TextFX](https://textfx.withgoogle.com/)** / [GitHub](https://github.com/google/generative-ai-docs/tree/main/demos/palm/web/textfx) or [Rytr](https://rytr.me/) - AI Creative Writing Tools / No Sign-Up
 * [Scrip AI](https://scripai.com/) (No Sign-Up), [INK](https://app.inkforall.com/tools), [QuickPen AI](https://quickpenai.com/) - Online AI Text Tools
@@ -335,7 +341,7 @@
 
 ***
 
-# ► Video Generation
+# ▷ Video Generation
 
 * 🌐 **[VBench](https://huggingface.co/spaces/Vchitect/VBench_Leaderboard)** - Video Generation Model Leaderboard
 * [AI Studio](https://aistudio.google.com/generate-video) - Veo 2 / [Subreddit](https://www.reddit.com/r/Bard/) / [Discord](https://discord.com/invite/gemini)
@@ -357,7 +363,7 @@
 
 ***
 
-# ► Image Generation
+# ▷ Image Generation
 
 * 🌐 **[⁠Imgsys Rankings](https://imgsys.org/rankings)** - Image Generator Benchmarks / Leaderboards
 * ⭐ **[LMArena](https://lmarena.ai/?mode=direct&chat-modality=image)** - Multiple Generators / Editing / No Sign-Up / [Discord](https://discord.com/invite/lmarena) / [GitHub](https://github.com/lm-sys/FastChat)
@@ -433,7 +439,7 @@
 
 ***
 
-# ► Audio Generation
+# ▷ Audio Generation
 
 * ⭐ **[Suno](https://suno.com/)** - [Guide](https://sunoaiwiki.com/en) / [Discord](https://discord.com/invite/suno)
 * [MusicFX](https://labs.google/fx/tools/music-fx) / Region-Based
@@ -525,4 +531,4 @@
 
 ***
 
-# ► [Machine Learning](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_machine_learning)
+# ▷ [Machine Learning](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_machine_learning)

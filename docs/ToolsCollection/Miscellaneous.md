@@ -1,3 +1,9 @@
+---
+sidebar_position: 15
+title: Miscellaneous
+description: Content too niche to be included elsewhere.
+---
+
 # Miscellaneous 
 
 # ▷ Indexes
@@ -52,7 +58,7 @@
 
 ***
 
-# ► Free Stuff
+# ▷ Free Stuff
 
 * ⭐ **[OneHack](https://onehack.us/)** - Giveaway Community / [Telegram](https://t.me/Official_OneHack)
 * [AppAgg](https://appagg.com/) - Multi-Platform / Apps / [Discord](https://discord.gg/XUhs6fcFqQ) / [GitHub](https://github.com/AppsAgg/AppAgg)
@@ -118,7 +124,7 @@
 
 ***
 
-# ► Food
+# ▷ Food
 
 * 🌐 **[/m/food](https://www.reddit.com/user/Siryonkee/m/food/)** - Food Multireddit
 * 🌐 **[MapOfTheBest](https://mapofthebest.com/)** - Top Restaurant List
@@ -187,7 +193,7 @@
 
 ***
 
-# ► Household
+# ▷ Household
 
 * ↪️ **[Raspberry Pi Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_raspberry_pi)**
 * ⭐ **[Home Assistant](https://www.home-assistant.io/)** - Home Assistant / IoT / [GUI](https://github.com/LAB02-Research/HASS.Agent)
@@ -205,7 +211,7 @@
 
 ***
 
-# ► Gardening
+# ▷ Gardening
 
 * 🌐 **[Awesome Agriculture](https://github.com/brycejohnston/awesome-agriculture)** - Agriculture Resources
 * 🌐 **[Agriculture / Gardening Subreddits](https://rentry.co/TouchGrasss)**
@@ -232,7 +238,7 @@
 
 ***
 
-# ► Vehicle
+# ▷ Vehicle
 
 * 🌐 **[Awesome Vehicle Security](https://github.com/jaredthecoder/awesome-vehicle-security)** - Vehicle Security Resources
 * [Startmycar](https://www.startmycar.com), [CarCareKiosk](https://www.carcarekiosk.com/) or [CarComplaints](https://www.carcomplaints.com/) - Car Repair Sites
@@ -250,7 +256,7 @@
 
 ***
 
-# ► Travel
+# ▷ Travel
 
 * ↪️ **[Concerts / Live Shows](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio/#wiki_.25B7_concerts_.2F_live_shows)**
 * ⭐ **[Atlas Obscura](https://www.atlasobscura.com/)** / [Mobile](https://app.atlasobscura.com/), [Wikivoyage](https://www.wikivoyage.org) or [WikiTravel](https://wikitravel.org/) - Travel Guides
@@ -281,7 +287,7 @@
 
 ***
 
-# ► Maps
+# ▷ Maps
 
 * 🌐 **[Awesome Maps](https://github.com/simsieg/awesome-maps)** - Online Map Resources
 * 🌐 **[Soar](https://soar.earth/)**, [ArcGIS Living Atlas](https://livingatlas.arcgis.com/) or [Cool Maps](https://coolmaps.esri.com/) - Atlases
@@ -461,7 +467,7 @@
 
 ***
 
-# ► News
+# ▷ News
 
 * 🌐 **[AllYouCanRead](https://www.allyoucanread.com/)** - Worldwide News Sites Index
 * ↪️ **[Newspaper Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading#wiki_.25B7_newspapers)**
@@ -564,7 +570,7 @@
 
 ***
 
-# ► Health
+# ▷ Health
 
 ## ▷ Mental Health
 
@@ -708,7 +714,7 @@
 
 ***
 
-# ► Career
+# ▷ Career
 
 * 🌐 **[Common Q&As](https://www.indeed.com/career-advice/interviewing/top-interview-questions-and-answers)** - Interview Questions Index
 * ⭐ **[Comparably](https://www.comparably.com/)** or [GoodFirms](https://www.goodfirms.co/) - Compare Companies / Salaries
@@ -936,7 +942,7 @@
 
 ***
 
-# ► Shopping
+# ▷ Shopping
 
 * 🌐 **[⁠Monerica](https://monerica.com/status/verified)** - Monero-Friendly Online Shop Index
 * ⭐ **[ThisIsWhyImBroke](https://www.thisiswhyimbroke.com/)** - Find Interesting Things to Buy
@@ -1067,7 +1073,7 @@
 
 ***
 
-# ► Useful Sites
+# ▷ Useful Sites
 
 * ↪️ **[Manual Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading#wiki_.25B7_manuals)** - Repair Articles / Manuals
 * ↪️ **[Mind Mapping](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_mind_mapping)**
@@ -1188,7 +1194,7 @@
 
 ***
 
-# ► Fun Sites
+# ▷ Fun Sites
 
 ## ▷ Chat / Forums
 

@@ -1,3 +1,9 @@
+---
+sidebar_position: 8
+title: Educational
+description: Educational content for all ages.
+---
+
 # Educational 
 
 # ▷ Documentaries
@@ -27,7 +33,7 @@
 
 ***
 
-# ► Courses
+# ▷ Courses
 
 ## ▷ Streaming
 
@@ -82,7 +88,7 @@
 
 ***
 
-# ► Learning Sites
+# ▷ Learning Sites
 
 * 🌐 **[Learn Anything](https://learn-anything.xyz/)** - Learning Resource Search / [Free Method](https://rentry.co/FMHYBase64#learn-anything) / [Discord](https://discord.gg/W7yDkEN67Y) / [GitHub](https://github.com/learn-anything/learn-anything)
 * 🌐 **[Wakelet](https://wakelet.com/explore)** - Learning Resources
@@ -377,7 +383,7 @@
 
 ***
 
-# ► Science / Math
+# ▷ Science / Math
 
 ## ▷ Physics
 
@@ -680,7 +686,7 @@
 
 ***
 
-# ► Language Learning
+# ▷ Language Learning
 
 ## ▷ Multi-Language
 
@@ -893,7 +899,7 @@
 
 ***
 
-# ► Game Learning
+# ▷ Game Learning
 
 ## ▷ Rubiks Cube
 
@@ -960,7 +966,7 @@
 
 ***
 
-# ► Developer Learning
+# ▷ Developer Learning
 
 * 🌐 **[Awesome Certificates](https://panx.io/awesome-certificates/)** - Dev Course Indexes
 * 🌐 **[Awesome YouTubers](https://github.com/JoseDeFreitas/awesome-youtubers)** - YouTube Dev Channels Indexes
@@ -1026,7 +1032,7 @@
 
 ***
 
-## ► Coding Tutorials
+## ▷ Coding Tutorials
 
 * 🌐 **[Project Based Learning](https://github.com/practical-tutorials/project-based-learning)**  - Project Based Learning Resources
 * ⭐ **[Build your own X](https://codecrafters.io)** - Advanced Coding Tutorials / [Discord](https://discord.gg/DeqUD2P) / [GitHub](https://github.com/codecrafters-io/build-your-own-x)
@@ -1261,7 +1267,7 @@
 
 ***
 
-# ► Exam Prep
+# ▷ Exam Prep
 
 * 🌐 **[IBResources](https://ibresources.in/)** - International Baccalaureate Resources
 * [FreeOnlineTest](https://www.freeonlinetest.in/), [⁠CrackAP](https://www.crackap.com/index.html), [Examveda](https://www.examveda.com/), [SaveMyExams](https://www.savemyexams.com/), [Aglasem](https://aglasem.com/), [MajorTests](https://www.123helpme.com/) or [Alloprof](https://www.alloprof.qc.ca/en/) - Exam Practice Tests
@@ -1315,7 +1321,7 @@
 
 ***
 
-# ► Educational Tools
+# ▷ Educational Tools
 
 * 🌐 **[nanoHUB](https://nanohub.org/)** - Nanotechnology Tools
 * 🌐 **[5th STAAR Resource Curation](https://docs.google.com/document/d/1vxxEKhZe_7dd1XIxl_sETsqP__Rf-yPAnBhtwf8huKU/edit?usp=drivesdk)** - Grade School Tools

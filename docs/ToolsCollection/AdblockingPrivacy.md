@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+title: Adblocking / Privacy
+description: Learn how to block ads, trackers and other nasty things.
+---
 
 # Adblocking / Privacy
 
@@ -78,7 +83,7 @@
 
 ***
 
-# ► Antivirus / Anti-Malware
+# ▷ Antivirus / Anti-Malware
 
 * 🌐 **[r/Antivirus Index](https://www.reddit.com/r/antivirus/wiki/index/)** - Antivirus Tool Index
 * ↪️ **[Virtual Machines](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_virtual_machines)**
@@ -129,7 +134,7 @@
 
 ***
 
-# ► Privacy
+# ▷ Privacy
 
 * ↪️ **[SMS Verification Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_sms_verification_sites)**
 * ↪️ **[File Encryption](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_file_encryption)**
@@ -205,7 +210,7 @@
 
 ***
 
-# ► Web Privacy
+# ▷ Web Privacy
 
 * 🌐 **[Google Alt List](https://www.techspot.com/article/2752-all-google-alternatives/)**, [r/degoogle](https://www.reddit.com/r/degoogle) or [No More Google](https://nomoregoogle.com/) - Google App Alternatives
 * ↪️ **[Encode / Decode URLs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_encode_.2F_decode)**
@@ -346,7 +351,7 @@
 
 ***
 
-# ► VPN
+# ▷ VPN
 
 * **Note** - Keep in mind outside of WARP, its generally best to use a paid, rather than free VPN especially if you have privacy or speed in mind. Free VPNs are mainly useful for things like unblocking sites.
 
@@ -389,7 +394,7 @@
 
 ***
 
-# ► Proxy
+# ▷ Proxy
 
 ## ▷ Proxy Apps
 

@@ -1,6 +1,12 @@
+---
+sidebar_position: 14
+title: Linux / macOS
+description: The $HOME of Linux and macOS.
+---
+
 # Linux / macOS 
 
-# ► Linux Guides
+# ▷ Linux Guides
 
 * ⭐ **[ArchWiki](https://wiki.archlinux.org/)** - Linux Guides / [Manuals](https://man.archlinux.org/) / [TUI](https://codeberg.org/theooo/mantra.py)
 * [Gentoo Wiki](https://wiki.gentoo.org/wiki/Main_Page) - Gentoo Wikis / Guides
@@ -28,7 +34,7 @@
 
 ***
 
-# ► Linux Communities
+# ▷ Linux Communities
 
 * **Note** - Keep in mind it's usually best to seek specific forums for your Distro if you need help with them.
 
@@ -46,7 +52,7 @@
 
 ***
 
-# ► Linux Distros
+# ▷ Linux Distros
 
 * **Note** - We don't curate individual distros ourselves as we feel the indexes listed are good enough to stand on their own.
 
@@ -65,7 +71,7 @@
 
 ***
 
-# ► Linux Apps
+# ▷ Linux Apps
 
 * ↪️ **[Multi-Platform Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_ebook_readers)** - Ebook Reader Index
 * 🌐 **[GNOME Shell Extensions](https://extensions.gnome.org/)**
@@ -305,7 +311,7 @@
 
 ***
 
-# ► Linux Tools
+# ▷ Linux Tools
 
 ## ▷ Adblock / Privacy
 
@@ -487,7 +493,7 @@
 
 ***
 
-# ► Ricing / Customization
+# ▷ Ricing / Customization
 
 * 🌐 **[Awesome Ricing](https://github.com/fosslife/awesome-ricing)** or **[⁠Awesome Linux Ricing](https://github.com/avtzis/awesome-linux-ricing)** - Linux Ricing Resources
 * ⭐ **[Elkowar's Wacky Widgets](https://elkowar.github.io/eww)** or **[Aylur's GTK Shell](https://github.com/Aylur/ags)** - Widgeting Systems
@@ -548,7 +554,7 @@
 
 ***
 
-# ► Mac Apps
+# ▷ Mac Apps
 
 * 🌐 **[The Terminal Directory](https://termui.sh/)** - List of Terminal Emulators
 * ↪️ **[Multi-Platform Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_ebook_readers)** - Ebook Reader Index
@@ -695,7 +701,7 @@
 
 ***
 
-# ► Mac Tools
+# ▷ Mac Tools
 
 ## ▷ Mac Adblock / Privacy
 
@@ -812,7 +818,7 @@
 
 ***
 
-# ► Unix-Like
+# ▷ Unix-Like
 
 * 🌐 **[Awesome-ttygames](https://github.com/ligurio/awesome-ttygames)** - Unix ASCII Games
 * 🌐 **[Awesome BSD](https://github.com/DiscoverBSD/awesome-bsd)** - BSD Resources

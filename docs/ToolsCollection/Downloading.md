@@ -1,3 +1,9 @@
+---
+sidebar_position: 7
+title: Downloading
+description: Download all your favourite software, movies, shows, music, games and more!
+---
+
 # Downloading 
 
 # ▷ Download Directories
@@ -101,7 +107,7 @@
 
 ***
 
-# ► Software Sites
+# ▷ Software Sites
 
 * **Note** - Always scan downloaded software with **[VirusTotal](https://www.virustotal.com/gui/)** before installation or run it in a sandboxed environment like **[Sandboxie](https://rentry.co/sandboxie-guide)** to prevent system compromise.
 
@@ -192,7 +198,7 @@
 
 ***
 
-# ► Usenet
+# ▷ Usenet
 
 * 🌐 **[UsenetTools](http://www.usenettools.net/)**
 * ⭐ **[Usenet Guide / Automation Setup](https://docs.google.com/document/d/1TwUrRj982WlWUhrxvMadq6gdH0mPW0CGtHsTOFWprCo/mobilebasic)** / [2](https://redd.it/4x2mc9) / [3](https://www.iitk.ac.in/LDP/HOWTO/Usenet-News-HOWTO/x27.html) / [4](https://graph.org/EVERYTHING-YOU-NEED-TO-KNOW-ABOUT-USENET-09-04) / [5](https://www.reddit.com/r/usenet/wiki/index/) / [6](https://blog.decryption.net.au/t/a-fully-automated-usenet-piracy-machine-with-plex-sabnzbd-and-sonarr/130)
@@ -247,7 +253,7 @@
 
 ***
 
-# ► Leeches / Debrid
+# ▷ Leeches / Debrid
 
 * 🌐 **[LeechListing](https://www.leechlisting.com/)** or [Free Premium Leech Wiki](https://filehostlist.miraheze.org/wiki/Free_Premium_Leeches) - Leech Lists
 * 🌐 **[Debrid Services Comparison](https://debrid-services-comparison.netlify.app/)** / [GitHub](https://github.com/fynks/debrid-services-comparison)
@@ -259,4 +265,4 @@
 
 ***
 
-# ► [Download Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_download_managers)
+# ▷ [Download Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_download_managers)

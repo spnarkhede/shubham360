@@ -56,13 +56,15 @@ const config: Config = {
         language: ['en', 'de'],
         hashed: true,
         docsRouteBasePath: '/',
-        // Exclude problematic directories
         searchResultLimits: 8,
         searchResultContextMaxLength: 50,
-        // Add this to exclude specific paths
-        ignoreFiles: [
-          '**/ToolsCollection/**',
-        ],
+        explicitSearchResultPath: true,
+        searchBarShortcut: true,
+        searchBarShortcutKeymap: 's',
+        searchBarPosition: 'right',
+        hideSearchBarWithNoSearchContext: false,
+        useAllContextsWithNoSearchContext: false,
+        searchContextByPaths: ['/', '/blog', '/Portfolio', '/articles', '/books'],
       },
     ],
   ],

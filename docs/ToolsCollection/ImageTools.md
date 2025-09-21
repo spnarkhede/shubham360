@@ -1,10 +1,10 @@
-***
-***
-**[◄◄ Back to Wiki Index](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/tools-index)**
-***
-***
+---
+sidebar_position: 12
+title: Image Tools
+description: Image editing, optimization, conversion, and graphic design tools.
+---
 
-# ► Image Editing
+# ▷ Image Editing
 
 * 🌐 **[PuccaNoodles' Sheet](https://docs.google.com/spreadsheets/d/1-8OKuEvRR038Uno--Vi9tQRe4eFCSfQTPov7nXgiJ3w/)** - Image Creation Resources
 * ↪️ **[AI Image Generators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25BA_image_generation)**
@@ -129,7 +129,7 @@
 
 ***
 
-# ► Image Creation
+# ▷ Image Creation
 
 ***
 
@@ -236,7 +236,7 @@
 
 ***
 
-# ► Design Resources / Ideas
+# ▷ Design Resources / Ideas
 
 * 🌐 **[Art Gainz](https://pilssken.neocities.org/gainz/)** or [Evernote.Design](https://www.evernote.design/) - Design Resources
 * ⭐ **[archives.design](https://archives.design/)** - Graphic Design Archive
@@ -355,7 +355,7 @@
 
 ***
 
-# ► Download Images
+# ▷ Download Images
 
 * 🌐 **[2ndBrain](https://rentry.co/2ndBrain)** or [designer](https://start.me/p/jj0JAp/designer) - Image Download Site Indexes
 * ↪️ **[PNG Images / Clipart](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_png_images_.2F_clipart)**
@@ -501,7 +501,7 @@
 
 ***
 
-# ► 3D Models
+# ▷ 3D Models
 
 * ⭐ **[Thingiverse](https://www.thingiverse.com/)** - Share / Download 3D Models
 * ⭐ **[Printables](https://www.printables.com/)** - Find Practical 3D Models Ready for Printing
@@ -581,7 +581,7 @@
 
 ***
 
-# ► Image Tools
+# ▷ Image Tools
 
 * 🌐 **[Creator Resources](https://www.newgrounds.com/wiki/creator-resources/)** - Art / Animation Resources
 * 🌐 **[Awesome Colab Notebooks](https://github.com/amrzv/awesome-colab-notebooks)** - Image Colab Resources

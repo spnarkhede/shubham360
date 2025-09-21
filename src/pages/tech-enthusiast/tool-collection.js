@@ -28,11 +28,24 @@ import {
   ImageIcon,
   Video,
   Volume2,
-  Users
+  Users,
+  Code,
+  HelpCircle
 } from 'lucide-react';
 
-// Tools data with categories, descriptions, and metadata
+// Tools data with categories, descriptions, and metadata - Beginner Guide FIRST, then ALPHABETICAL ORDER
 const toolsData = [
+  {
+    id: 'beginners-guide',
+    title: 'Beginners Guide',
+    description: 'Essential guides and resources for newcomers to get started.',
+    icon: <HelpCircle size={32} />,
+    category: 'Beginners',
+    tags: ['Beginners', 'Guide', 'Getting Started', 'Basics'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
   {
     id: 'adblocking-privacy',
     title: 'Adblocking / Privacy',
@@ -40,94 +53,6 @@ const toolsData = [
     icon: <Shield size={32} />,
     category: 'Privacy',
     tags: ['Privacy', 'AdBlock', 'Security', 'VPN'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'artificial-intelligence',
-    title: 'Artificial Intelligence',
-    description: 'Explore the world of AI and machine learning.',
-    icon: <Brain size={32} />,
-    category: 'AI',
-    tags: ['AI', 'Machine Learning', 'ChatGPT', 'Models'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'streaming',
-    title: 'Streaming',
-    description: 'Stream, download, torrent and binge all your favourite movies and shows!',
-    icon: <MonitorPlay size={32} />,
-    category: 'Entertainment',
-    tags: ['Movies', 'TV Shows', 'Streaming', 'Entertainment'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'listening',
-    title: 'Listening',
-    description: 'Listen to music, podcasts, audiobooks and radio.',
-    icon: <Headphones size={32} />,
-    category: 'Audio',
-    tags: ['Music', 'Podcasts', 'Audio', 'Radio'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'gaming',
-    title: 'Gaming',
-    description: 'Find games and tools to enhance your gaming experience.',
-    icon: <Gamepad2 size={32} />,
-    category: 'Gaming',
-    tags: ['Games', 'Gaming', 'Steam', 'Emulation'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'reading',
-    title: 'Reading',
-    description: 'Download books, comics, manga and all sorts of reading material.',
-    icon: <BookOpen size={32} />,
-    category: 'Literature',
-    tags: ['Books', 'Comics', 'Manga', 'E-books'],
-    recommended: true,
-    free: true,
-    usedInProjects: false
-  },
-  {
-    id: 'downloading',
-    title: 'Downloading',
-    description: 'Download all your favourite software, movies, shows, music, games and more!',
-    icon: <Download size={32} />,
-    category: 'Downloads',
-    tags: ['Downloads', 'Software', 'Media', 'Files'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'torrenting',
-    title: 'Torrenting',
-    description: 'Download your favourite media using the BitTorrent protocol.',
-    icon: <Share2 size={32} />,
-    category: 'P2P',
-    tags: ['BitTorrent', 'P2P', 'Sharing', 'Downloads'],
-    recommended: false,
-    free: true,
-    usedInProjects: false
-  },
-  {
-    id: 'educational',
-    title: 'Educational',
-    description: 'Educational content for all ages.',
-    icon: <GraduationCap size={32} />,
-    category: 'Education',
-    tags: ['Learning', 'Education', 'Courses', 'Knowledge'],
     recommended: true,
     free: true,
     usedInProjects: true
@@ -144,111 +69,12 @@ const toolsData = [
     usedInProjects: true
   },
   {
-    id: 'linux-macos',
-    title: 'Linux / macOS',
-    description: 'The $HOME of Linux and macOS.',
-    icon: <Terminal size={32} />,
-    category: 'Operating Systems',
-    tags: ['Linux', 'macOS', 'Unix', 'Terminal'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'non-english',
-    title: 'Non-English',
-    description: 'Content in languages other than English.',
-    icon: <Globe size={32} />,
-    category: 'International',
-    tags: ['Languages', 'International', 'Localization', 'Translation'],
-    recommended: false,
-    free: true,
-    usedInProjects: false
-  },
-  {
-    id: 'miscellaneous',
-    title: 'Miscellaneous',
-    description: 'Content too niche to be included elsewhere.',
-    icon: <Wrench size={32} />,
-    category: 'Utilities',
-    tags: ['Utilities', 'Tools', 'Miscellaneous', 'Niche'],
-    recommended: false,
-    free: true,
-    usedInProjects: false
-  },
-  {
-    id: 'system-tools',
-    title: 'System Tools',
-    description: 'Essential system utilities, performance monitoring, and system optimization tools.',
-    icon: <Settings size={32} />,
-    category: 'System',
-    tags: ['System', 'Performance', 'Monitoring', 'Optimization'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'file-tools',
-    title: 'File Tools',
-    description: 'File management, compression, conversion, and organization utilities.',
-    icon: <FileText size={32} />,
-    category: 'Files',
-    tags: ['File Management', 'Compression', 'Conversion', 'Organization'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'internet-tools',
-    title: 'Internet Tools',
-    description: 'Web browsers, downloaders, network utilities, and internet productivity tools.',
-    icon: <Wifi size={32} />,
-    category: 'Internet',
-    tags: ['Web', 'Browsers', 'Network', 'Productivity'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'social-media-tools',
-    title: 'Social Media Tools',
-    description: 'Social media enhancement, privacy tools, and alternative frontends.',
-    icon: <Users size={32} />,
-    category: 'Social Media',
-    tags: ['Social Media', 'Privacy', 'Frontends', 'Enhancement'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'text-tools',
-    title: 'Text Tools',
-    description: 'Text editors, writing tools, document processing, and text manipulation utilities.',
-    icon: <Type size={32} />,
-    category: 'Text',
-    tags: ['Text Editing', 'Writing', 'Documents', 'Processing'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'image-tools',
-    title: 'Image Tools',
-    description: 'Image editing, optimization, conversion, and graphic design tools.',
-    icon: <ImageIcon size={32} />,
-    category: 'Images',
-    tags: ['Image Editing', 'Graphics', 'Design', 'Optimization'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'video-tools',
-    title: 'Video Tools',
-    description: 'Video editing, conversion, streaming, and multimedia processing tools.',
-    icon: <Video size={32} />,
-    category: 'Video',
-    tags: ['Video Editing', 'Conversion', 'Streaming', 'Multimedia'],
+    id: 'artificial-intelligence',
+    title: 'Artificial Intelligence',
+    description: 'Explore the world of AI and machine learning.',
+    icon: <Brain size={32} />,
+    category: 'AI',
+    tags: ['AI', 'Machine Learning', 'ChatGPT', 'Models'],
     recommended: true,
     free: true,
     usedInProjects: true
@@ -265,6 +91,50 @@ const toolsData = [
     usedInProjects: true
   },
   {
+    id: 'books-comics-manga',
+    title: 'Books / Comics / Manga',
+    description: 'Download books, comics, manga and all sorts of reading material.',
+    icon: <BookOpen size={32} />,
+    category: 'Literature',
+    tags: ['Books', 'Comics', 'Manga', 'E-books'],
+    recommended: true,
+    free: true,
+    usedInProjects: false
+  },
+  {
+    id: 'developer-tools',
+    title: 'Developer Tools',
+    description: 'Programming tools, IDEs, debugging utilities, and development resources.',
+    icon: <Code size={32} />,
+    category: 'Development',
+    tags: ['Programming', 'IDE', 'Debugging', 'Development'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'downloading',
+    title: 'Downloading',
+    description: 'Download all your favourite software, movies, shows, music, games and more!',
+    icon: <Download size={32} />,
+    category: 'Downloads',
+    tags: ['Downloads', 'Software', 'Media', 'Files'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'educational',
+    title: 'Educational',
+    description: 'Educational content for all ages.',
+    icon: <GraduationCap size={32} />,
+    category: 'Education',
+    tags: ['Learning', 'Education', 'Courses', 'Knowledge'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'educational-tools',
     title: 'Educational Tools',
     description: 'Learning platforms, educational resources, and knowledge management tools.',
@@ -276,20 +146,174 @@ const toolsData = [
     usedInProjects: true
   },
   {
-    id: 'developer-tools',
-    title: 'Developer Tools',
-    description: 'Programming tools, IDEs, debugging utilities, and development resources.',
+    id: 'file-tools',
+    title: 'File Tools',
+    description: 'File management, compression, conversion, and organization utilities.',
+    icon: <FileText size={32} />,
+    category: 'Files',
+    tags: ['File Management', 'Compression', 'Conversion', 'Organization'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'gaming-emulation',
+    title: 'Gaming / Emulation',
+    description: 'Find games and tools to enhance your gaming experience.',
+    icon: <Gamepad2 size={32} />,
+    category: 'Gaming',
+    tags: ['Games', 'Gaming', 'Steam', 'Emulation'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'gaming-tools',
+    title: 'Gaming Tools',
+    description: 'Gaming utilities, optimization tools, and gaming enhancement software.',
+    icon: <Gamepad2 size={32} />,
+    category: 'Gaming Tools',
+    tags: ['Gaming', 'Optimization', 'Enhancement', 'Utilities'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'image-tools',
+    title: 'Image Tools',
+    description: 'Image editing, optimization, conversion, and graphic design tools.',
+    icon: <ImageIcon size={32} />,
+    category: 'Images',
+    tags: ['Image Editing', 'Graphics', 'Design', 'Optimization'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'internet-tools',
+    title: 'Internet Tools',
+    description: 'Web browsers, downloaders, network utilities, and internet productivity tools.',
+    icon: <Wifi size={32} />,
+    category: 'Internet',
+    tags: ['Web', 'Browsers', 'Network', 'Productivity'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'linux-macos',
+    title: 'Linux / macOS',
+    description: 'The $HOME of Linux and macOS.',
     icon: <Terminal size={32} />,
-    category: 'Development',
-    tags: ['Programming', 'IDE', 'Debugging', 'Development'],
+    category: 'Operating Systems',
+    tags: ['Linux', 'macOS', 'Unix', 'Terminal'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'miscellaneous',
+    title: 'Miscellaneous',
+    description: 'Content too niche to be included elsewhere.',
+    icon: <Wrench size={32} />,
+    category: 'Utilities',
+    tags: ['Utilities', 'Tools', 'Miscellaneous', 'Niche'],
+    recommended: false,
+    free: true,
+    usedInProjects: false
+  },
+  {
+    id: 'movies-tv-anime',
+    title: 'Movies / TV / Anime',
+    description: 'Stream, download, torrent and binge all your favourite movies and shows!',
+    icon: <MonitorPlay size={32} />,
+    category: 'Entertainment',
+    tags: ['Movies', 'TV Shows', 'Anime', 'Streaming'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'music-podcasts-radio',
+    title: 'Music / Podcasts / Radio',
+    description: 'Listen to music, podcasts, audiobooks and radio.',
+    icon: <Headphones size={32} />,
+    category: 'Audio',
+    tags: ['Music', 'Podcasts', 'Audio', 'Radio'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'non-english',
+    title: 'Non-English',
+    description: 'Content in languages other than English.',
+    icon: <Globe size={32} />,
+    category: 'International',
+    tags: ['Languages', 'International', 'Localization', 'Translation'],
+    recommended: false,
+    free: true,
+    usedInProjects: false
+  },
+  {
+    id: 'social-media-tools',
+    title: 'Social Media Tools',
+    description: 'Social media enhancement, privacy tools, and alternative frontends.',
+    icon: <Users size={32} />,
+    category: 'Social Media',
+    tags: ['Social Media', 'Privacy', 'Frontends', 'Enhancement'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'system-tools',
+    title: 'System Tools',
+    description: 'Essential system utilities, performance monitoring, and system optimization tools.',
+    icon: <Settings size={32} />,
+    category: 'System',
+    tags: ['System', 'Performance', 'Monitoring', 'Optimization'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'text-tools',
+    title: 'Text Tools',
+    description: 'Text editors, writing tools, document processing, and text manipulation utilities.',
+    icon: <Type size={32} />,
+    category: 'Text',
+    tags: ['Text Editing', 'Writing', 'Documents', 'Processing'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'torrenting',
+    title: 'Torrenting',
+    description: 'Download your favourite media using the BitTorrent protocol.',
+    icon: <Share2 size={32} />,
+    category: 'P2P',
+    tags: ['BitTorrent', 'P2P', 'Sharing', 'Downloads'],
+    recommended: false,
+    free: true,
+    usedInProjects: false
+  },
+  {
+    id: 'video-tools',
+    title: 'Video Tools',
+    description: 'Video editing, conversion, streaming, and multimedia processing tools.',
+    icon: <Video size={32} />,
+    category: 'Video',
+    tags: ['Video Editing', 'Conversion', 'Streaming', 'Multimedia'],
     recommended: true,
     free: true,
     usedInProjects: true
   }
 ];
 
-// Available filter categories
-const categories = ['All', 'Privacy', 'AI', 'Entertainment', 'Audio', 'Gaming', 'Literature', 'Downloads', 'P2P', 'Education', 'Mobile', 'Operating Systems', 'International', 'Utilities', 'System', 'Files', 'Internet', 'Social Media', 'Text', 'Images', 'Video', 'Audio Tools', 'Educational Tools', 'Development'];
+// Available filter categories - ALPHABETICAL ORDER with Beginners first
+const categories = ['All', 'Beginners', 'AI', 'Audio', 'Audio Tools', 'Development', 'Downloads', 'Education', 'Educational Tools', 'Entertainment', 'Files', 'Gaming', 'Gaming Tools', 'Images', 'International', 'Internet', 'Literature', 'Mobile', 'Operating Systems', 'P2P', 'Privacy', 'Social Media', 'System', 'Text', 'Utilities', 'Video'];
 
 // Individual Tool Card Component
 const ToolCard = ({ tool }) => {
@@ -352,7 +376,7 @@ const ToolCard = ({ tool }) => {
   );
 };
 
-const ToolCollections = () => {
+const ToolCollection = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [showRecommendedOnly, setShowRecommendedOnly] = useState(false);
@@ -476,4 +500,4 @@ const ToolCollections = () => {
   );
 };
 
-export default ToolCollections;
+export default ToolCollection;

@@ -1,3 +1,9 @@
+---
+sidebar_position: 21
+title: Text Tools
+description: Text editors, writing tools, document processing, and text manipulation utilities.
+---
+
 # Text Tools
 
 * ↪️ **[Image to Text](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_image_to_text_.2F_ocr)**
@@ -191,7 +197,7 @@
 
 ***
 
-# ► Text Editors
+# ▷ Text Editors
 
 * 🌐 **[List of Text Editors](https://en.wikipedia.org/wiki/List_of_text_editors)** - Text Editor / Notepad Index
 * ↪️ **[Android Text Editor](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_text_tools)**
@@ -419,7 +425,7 @@
 
 ***
 
-# ► Fonts
+# ▷ Fonts
 
 * ⭐ **[Nerd Fonts](https://www.nerdfonts.com/)** - Icon-Rich Developer / Terminal Fonts
 * [OpenDyslexic](https://opendyslexic.org/) - Typeface for Dyslexia
@@ -489,7 +495,7 @@
 
 ***
 
-# ► Font Tools
+# ▷ Font Tools
 
 * ⭐ **[Font Interceptor](https://fontinterceptor.mschfmag.com/)** - Download Fonts from Websites
 * ⭐ **[FontDrop](https://fontdrop.info/)** - Analyze Font Files

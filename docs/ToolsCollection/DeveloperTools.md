@@ -12,118 +12,117 @@ This page contains curated developer tools and resources organized by category.
 
 Essential developer communities and forums:
 
-[StackOverflow](https://stackoverflow.com/) - Developer Forum
-[XDA](https://xdaforums.com/) - App Development Forum
-[CodeProject](https://www.codeproject.com/) - Developer Forum
-[Spiceworks Community](https://community.spiceworks.com/) - Developer Forum
-[DEV Community](https://dev.to/) - Developer Forum
-[Blind](https://www.teamblind.com/) - Developer Forum
-[IndieHackers](https://www.indiehackers.com/) - Developer Forum
-[CyberArsenal](https://cyberarsenal.org/) - Cybersecurity Forums
-[TheSecMaster](https://x.com/TheSecMaster1) - Cybersecurity Blog
-[Tech-Blogs](https://tech-blogs.dev/) - Blogs for Developers
-[HN Popularity](https://refactoringenglish.com/tools/hn-popularity/) - Blogs for Developers
-[The Devs Network](https://thedevs.network/) - Developer Chat
-[DevBuddies](https://buddies.dev/) - Search for Programming Partners
-[StackShare](https://stackshare.io/) - Tech Stack Collaboration
+* [StackOverflow](https://stackoverflow.com/) - Developer Forum
+* [XDA](https://xdaforums.com/) - App Development Forum
+* [CodeProject](https://www.codeproject.com/) - Developer Forum
+* [Spiceworks Community](https://community.spiceworks.com/) - Developer Forum
+* [DEV Community](https://dev.to/) - Developer Forum
+* [Blind](https://www.teamblind.com/) - Developer Forum
+* [IndieHackers](https://www.indiehackers.com/) - Developer Forum
+* [CyberArsenal](https://cyberarsenal.org/) - Cybersecurity Forums
+* [TheSecMaster](https://x.com/TheSecMaster1) - Cybersecurity Blog
+* [Tech-Blogs](https://tech-blogs.dev/) - Blogs for Developers
+* [HN Popularity](https://refactoringenglish.com/tools/hn-popularity/) - Blogs for Developers
+* [The Devs Network](https://thedevs.network/) - Developer Chat
+* [DevBuddies](https://buddies.dev/) - Search for Programming Partners
+* [StackShare](https://stackshare.io/) - Tech Stack Collaboration
 
 ## Dev News
 
 Stay updated with the latest development news:
 
-[KrebsOnSecurity](https://krebsonsecurity.com/) - Cybersecurity News
-[Lobsters](https://lobste.rs/) - Dev News
-[DevURLs](https://devurls.com/) - Dev News
-[jimmyr](https://jimmyr.com/) - Dev News
-[daily.dev](https://app.daily.dev/posts) - Dev News
-[Talos Blog](https://blog.talosintelligence.com/) - Cybersecurity News
-[IT Security Guru](https://www.itsecurityguru.org/) - Cybersecurity News
-[This Week in Rust](https://this-week-in-rust.org/) - Rust News / Updates
-[hackertab.dev](https://hackertab.dev/) - Dev Browser Startpages
+* [KrebsOnSecurity](https://krebsonsecurity.com/) - Cybersecurity News
+* [Lobsters](https://lobste.rs/) - Dev News
+* [DevURLs](https://devurls.com/) - Dev News
+* [jimmyr](https://jimmyr.com/) - Dev News
+* [daily.dev](https://app.daily.dev/posts) - Dev News
+* [Talos Blog](https://blog.talosintelligence.com/) - Cybersecurity News
+* [IT Security Guru](https://www.itsecurityguru.org/) - Cybersecurity News
+* [This Week in Rust](https://this-week-in-rust.org/) - Rust News / Updates
+* [hackertab.dev](https://hackertab.dev/) - Dev Browser Startpages
 
 
 ## [Developer Learning](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_developer_learning)
 
 ## Developer Tools
 
-[Data Visualization Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage/#wiki_data_visualization_tools) - Data Visualization Resources
-[DevToys](https://devtoys.app/) - Dev Multi-Tool App
-[DevDocs](https://devdocs.io/) - Developer Documentation
-[ZealDocs](https://zealdocs.org/) - Developer Documentation
-[ImHex](https://imhex.werwolv.net/) - Hex Editor
-[HexEd.it](https://hexed.it/) - Hex Editor
-[Slidev](https://sli.dev/) - Developer Presentation Slides
-[Devhints](https://devhints.io/) - Developer Cheat Sheets
-[Dev Emoji List](https://gist.github.com/oliveratgithub/0bf11a9aff0d6da7b46f1490f86a71eb) - Emoji List for Developers
-[Student Developer Pack](https://education.github.com/pack) - Free Developer Tools for Students
-[choose-a-license](https://writefreesoftware.org/learn/participate/choose-a-license/) - License Picking Guide
-[SPDX License List](https://spdx.org/licenses/) - License List
-[ChooseALicense](https://choosealicense.com/) - License Picking Guide
-[PrivacyPolicyTemplate](https://www.privacypolicytemplate.net/) - Generate Privacy Policies
-[Eternal Terminal](https://eternalterminal.dev/) - SSH Client / Server
-[Termius](https://termius.com/) - SSH Client / Server
-[NxShell](https://nxshell.github.io/) - SSH Client / Server
-[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - SSH & Telnet Client
-[KiTTY](https://www.9bis.net/kitty/#!index.md) - Multi-Tab SSH / Telnet Client
-[Penpot](https://penpot.app/) - Cross Domain Design & Prototyping Platform
-[Webhook.site](https://webhook.site/) - Webhook Tools
-[Libraries.io](https://libraries.io/) - Package, Framework & Tool Search
-[Deps.dev](https://deps.dev/) - Open Source Package Search
-[Bardeen](https://www.bardeen.ai/) - Workflow Automation
-[N8N](https://n8n.io/) - Workflow Automation
-[UI.Vision RPA](https://ui.vision/) - Workflow Automation Extension
-[Hajimari](https://hajimari.io/) - Kubernetes Startpage
-[discord-api-libs](https://github.com/Apacheli/discord-api-libs) - Community Libraries for Discord API
-[botwiki](https://botwiki.org/) - Learn How to Make Bots
-[reddit-moderator-toolbox](https://github.com/toolbox-team/reddit-moderator-toolbox) - Toolbox for Reddit Extension Development
-[devSwag](https://devswag.io/) - Developer Giveaways
-[Commands.dev](https://www.commands.dev/) - Terminal Commands
-[AirBroke](https://airbroke.icorete.ch/) - Error Tracking Platform
-[Glitchtip](https://glitchtip.com) - Error Tracking Platform
-[UMLet](https://www.umlet.com/) - UML Diagram Generator
-[PlantUML](https://www.plantuml.com/) - UML Diagram Generator
-[JDL Studio](https://start.jhipster.tech/jdl-studio/) - UML Diagram Generator
-[Mockaroo](https://mockaroo.com/) - Generate Mock Data
-[Mockium](https://softwium.com/mockium/) - Generate Test Data
-[Globster](https://globster.xyz/) - Test Glob Patterns
-[Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) - Check for Edge Case Inputs
-[overmind](https://github.com/DarthSim/overmind) - Process Manager
-[sed.js](https://sed.js.org/) - GNU sed Live Editor
-[PlantText](https://www.planttext.com/) - UML Editor
-[Code::Stats](https://codestats.net/) - Programmer Stat Tracking
-[Wakatime](https://wakatime.com/) - Programmer Stat Tracking
-[WiredJS](https://wiredjs.github.io/designer/) - Wireframe Designer
-[KeyCheck](https://keycheck.dev/) - Dev Tool Hotkeys
-[NBviewer](https://nbviewer.org/) - Jupyter Notebook Sharing
+* [Data Visualization Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage/#wiki_data_visualization_tools) - Data Visualization Resources
+* [DevToys](https://devtoys.app/) - Dev Multi-Tool App
+* [DevDocs](https://devdocs.io/) - Developer Documentation
+* [ZealDocs](https://zealdocs.org/) - Developer Documentation
+* [ImHex](https://imhex.werwolv.net/) - Hex Editor
+* [HexEd.it](https://hexed.it/) - Hex Editor
+* [Slidev](https://sli.dev/) - Developer Presentation Slides
+* [Devhints](https://devhints.io/) - Developer Cheat Sheets
+* [Dev Emoji List](https://gist.github.com/oliveratgithub/0bf11a9aff0d6da7b46f1490f86a71eb) - Emoji List for Developers
+* [Student Developer Pack](https://education.github.com/pack) - Free Developer Tools for Students
+* [choose-a-license](https://writefreesoftware.org/learn/participate/choose-a-license/) - License Picking Guide
+* [SPDX License List](https://spdx.org/licenses/) - License List
+* [ChooseALicense](https://choosealicense.com/) - License Picking Guide
+* [PrivacyPolicyTemplate](https://www.privacypolicytemplate.net/) - Generate Privacy Policies
+* [Eternal Terminal](https://eternalterminal.dev/) - SSH Client / Server
+* [Termius](https://termius.com/) - SSH Client / Server
+* [NxShell](https://nxshell.github.io/) - SSH Client / Server
+* [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) - SSH & Telnet Client
+* [KiTTY](https://www.9bis.net/kitty/#!index.md) - Multi-Tab SSH / Telnet Client
+* [Penpot](https://penpot.app/) - Cross Domain Design & Prototyping Platform
+* [Webhook.site](https://webhook.site/) - Webhook Tools
+* [Libraries.io](https://libraries.io/) - Package, Framework & Tool Search
+* [Deps.dev](https://deps.dev/) - Open Source Package Search
+* [Bardeen](https://www.bardeen.ai/) - Workflow Automation
+* [N8N](https://n8n.io/) - Workflow Automation
+* [UI.Vision RPA](https://ui.vision/) - Workflow Automation Extension
+* [Hajimari](https://hajimari.io/) - Kubernetes Startpage
+* [discord-api-libs](https://github.com/Apacheli/discord-api-libs) - Community Libraries for Discord API
+* [botwiki](https://botwiki.org/) - Learn How to Make Bots
+* [reddit-moderator-toolbox](https://github.com/toolbox-team/reddit-moderator-toolbox) - Toolbox for Reddit Extension Development
+* [devSwag](https://devswag.io/) - Developer Giveaways
+* [Commands.dev](https://www.commands.dev/) - Terminal Commands
+* [AirBroke](https://airbroke.icorete.ch/) - Error Tracking Platform
+* [Glitchtip](https://glitchtip.com) - Error Tracking Platform
+* [UMLet](https://www.umlet.com/) - UML Diagram Generator
+* [PlantUML](https://www.plantuml.com/) - UML Diagram Generator
+* [JDL Studio](https://start.jhipster.tech/jdl-studio/) - UML Diagram Generator
+* [Mockaroo](https://mockaroo.com/) - Generate Mock Data
+* [Mockium](https://softwium.com/mockium/) - Generate Test Data
+* [Globster](https://globster.xyz/) - Test Glob Patterns
+* [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) - Check for Edge Case Inputs
+* [overmind](https://github.com/DarthSim/overmind) - Process Manager
+* [sed.js](https://sed.js.org/) - GNU sed Live Editor
+* [PlantText](https://www.planttext.com/) - UML Editor
+* [Code::Stats](https://codestats.net/) - Programmer Stat Tracking
+* [Wakatime](https://wakatime.com/) - Programmer Stat Tracking
+* [WiredJS](https://wiredjs.github.io/designer/) - Wireframe Designer
+* [KeyCheck](https://keycheck.dev/) - Dev Tool Hotkeys
+* [NBviewer](https://nbviewer.org/) - Jupyter Notebook Sharing
 
 ## Dev Tool Indexes
 
-[Free for Developers](https://free-for.dev/)  
-[Useful Tools](https://trolologuy.github.io/useful-tools/)  
-[Best-Websites](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)  
-[Tiny Helpers](https://tiny-helpers.dev/)  
-[Tiny Tools](https://tinytools.directory/)  
-[Free For Life](https://free.hrsn.dev/)  
-[WebdevHome](https://webdevhome.github.io/)  
-[Free Developer Stuff](https://freestuff.dev/)  
-[Addy](https://toolkit.addy.codes/)  
-[Prototypr](https://prototypr.io/toolbox/page/1)  
-[Awesome Sys Admin](https://github.com/awesome-foss/awesome-sysadmin)  
-[Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)  
+* [Free for Developers](https://free-for.dev/)  
+* [Useful Tools](https://trolologuy.github.io/useful-tools/)  
+* [Best-Websites](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)  
+* [Tiny Helpers](https://tiny-helpers.dev/)  
+* [Tiny Tools](https://tinytools.directory/)  
+* [Free For Life](https://free.hrsn.dev/)  
+* [WebdevHome](https://webdevhome.github.io/)  
+* [Free Developer Stuff](https://freestuff.dev/)  
+* [Addy](https://toolkit.addy.codes/)  
+* [Prototypr](https://prototypr.io/toolbox/page/1)  
+* [Awesome Sys Admin](https://github.com/awesome-foss/awesome-sysadmin)  
+* [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)  
 
 ## Online Toolkits
 
-[AppDevTools](https://appdevtools.com/)  
-[IT Tools](https://it-tools.tech/)  
-[Web Toolbox](https://web-toolbox.dev/en)  
-[devina](https://devina.io/)  
-[wangchujiang](https://wangchujiang.com/tools/)  
-[SmallDev.tools](https://smalldev.tools/)  
-[Coders Tool](https://www.coderstool.com/)  
-[Utilities and Tools](https://utilities-online.info/)  
-[Clean CSS](https://www.cleancss.com/)  
-[FreeFormatter.com](https://freeformatter.com/)  
-
+* [AppDevTools](https://appdevtools.com/)  
+* [IT Tools](https://it-tools.tech/)  
+* [Web Toolbox](https://web-toolbox.dev/en)  
+* [devina](https://devina.io/)  
+* [wangchujiang](https://wangchujiang.com/tools/)  
+* [SmallDev.tools](https://smalldev.tools/)  
+* [Coders Tool](https://www.coderstool.com/)  
+* [Utilities and Tools](https://utilities-online.info/)  
+* [Clean CSS](https://www.cleancss.com/)  
+* [FreeFormatter.com](https://freeformatter.com/)  
 
 ## Software Dev Tools
 

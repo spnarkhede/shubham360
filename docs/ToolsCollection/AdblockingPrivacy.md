@@ -25,7 +25,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Adblock Filters
+##  Adblock Filters
 
 * **Note** - Always check extra uBO filters in settings before trying third-party filter lists.
 
@@ -38,7 +38,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ DNS Adblocking
+##  DNS Adblocking
 
 * **Note** - If your goal is to block browser ads, it's best to just stick with uBlock Origin, as additional filters can cause conflicts or anti-adblock.
 
@@ -67,23 +67,23 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ [Linux Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_adblock_.2F_privacy)
+##  [Linux Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_adblock_.2F_privacy)
 
 ***
 
-## ▷ [Mac Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_mac_adblock_.2F_privacy)
+##  [Mac Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_mac_adblock_.2F_privacy)
 
 ***
 
-## ▷ [Android Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_adblocking)
+##  [Android Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_adblocking)
 
 ***
 
-## ▷ [iOS Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_adblocking)
+##  [iOS Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_adblocking)
 
 ***
 
-# ▷ Antivirus / Anti-Malware
+#  Antivirus / Anti-Malware
 
 * 🌐 **[r/Antivirus Index](https://www.reddit.com/r/antivirus/wiki/index/)** - Antivirus Tool Index
 * ↪️ **[Virtual Machines](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_virtual_machines)**
@@ -105,7 +105,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ File Scanners
+##  File Scanners
 
 * 🌐 **[The Second Opinion](https://jijirae.github.io/thesecondopinion/index.html)**, [2](https://rentry.co/thesecondopinion) - Portable Malware Scanners / Removal Tools / [GitHub](https://github.com/jijirae/thesecondopinion/)
 * ⭐ **[VirusTotal](https://www.virustotal.com/)** / [Scan Results Guide](https://rentry.co/piracy-faq-virustotal), [2](https://rentry.co/VTGuide) or **[Hybrid Analysis](https://hybrid-analysis.com/)** - Online File Scanner
@@ -122,7 +122,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Site Legitimacy Check
+##  Site Legitimacy Check
 
 * ⭐ **[URL Void](https://www.urlvoid.com/)**
 * ⭐ **[URLScan](https://urlscan.io/)**
@@ -134,7 +134,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-# ▷ Privacy
+#  Privacy
 
 * ↪️ **[SMS Verification Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_sms_verification_sites)**
 * ↪️ **[File Encryption](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_file_encryption)**
@@ -159,7 +159,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Privacy Indexes
+##  Privacy Indexes
 
 * ⭐ **[Privacy Guides](https://www.privacyguides.org/)** - Educational Guide / [Matrix](https://matrix.to/#/#privacyguides:matrix.org) / [GitHub](https://github.com/privacyguides/privacyguides.org)
 * ⭐ **[Surveillance Self-Defense](https://ssd.eff.org/)** - Educational Guide
@@ -182,7 +182,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Network Security
+##  Network Security
 
 * ⭐ **[Safing Portmaster](https://safing.io/)** - Network Monitor / DNS Resolver / Firewall / [Discord](https://discord.com/invite/safing) / [GitHub](https://github.com/safing)
 * ⭐ **[DNSveil](https://msasanmh.github.io/DNSveil/)** - DNS Client / [GitHub](https://github.com/msasanmh/DNSveil)
@@ -194,23 +194,23 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ [Linux Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_adblock_.2F_privacy)
+##  [Linux Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_adblock_.2F_privacy)
 
 ***
 
-## ▷ [Mac Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25BA_mac_adblock_.2F_privacy)
+##  [Mac Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25BA_mac_adblock_.2F_privacy)
 
 ***
 
-## ▷ [Android Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_privacy_.2F_anti-censorship)
+##  [Android Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_privacy_.2F_anti-censorship)
 
 ***
 
-## ▷ [iOS Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_privacy)
+##  [iOS Privacy](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_privacy)
 
 ***
 
-# ▷ Web Privacy
+#  Web Privacy
 
 * 🌐 **[Google Alt List](https://www.techspot.com/article/2752-all-google-alternatives/)**, [r/degoogle](https://www.reddit.com/r/degoogle) or [No More Google](https://nomoregoogle.com/) - Google App Alternatives
 * ↪️ **[Encode / Decode URLs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_encode_.2F_decode)**
@@ -227,7 +227,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Browser Privacy
+##  Browser Privacy
 
 * 🌐 **[Browser Privacy Guides](https://www.privacyguides.org/en/desktop-browsers)** - Browser Privacy / Setup Guides
 * ↪️ **[Browser Comparisons](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25BA_browser_tools)**
@@ -242,7 +242,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Password Privacy / 2FA
+##  Password Privacy / 2FA
 
 * 🌐 **[2FA Directory](https://2fa.directory/)** - List of Sites with 2FA Support / [GitHub](https://github.com/2factorauth/twofactorauth)
 * ↪️ **[Password Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_password_managers)**
@@ -268,7 +268,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Encrypted Messengers
+##  Encrypted Messengers
 
 * 🌐 **[Eyelenburg Comparisons](https://eylenburg.github.io/im_comparison.htm)**, [SecuChart](https://bkil.gitlab.io/secuchart/), [Messenger-Matrix](https://www.messenger-matrix.de/messenger-matrix-en.html) or [Secure Messaging Apps](https://www.securemessagingapps.com/) - Chat App Indexes / Comparisons
 * ⭐ **[SimpleX](https://simplex.chat/)** - All Platforms / [GitHub](https://github.com/simplex-chat)
@@ -291,7 +291,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Email Privacy
+##  Email Privacy
 
 * ↪️ **[Temp Mail Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_temp_mail)** - Create Temporary / Throwaway Emails
 * ↪️ **[Email Aliasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_email_aliasing)** - Create Permanent Anonymous Emails
@@ -305,7 +305,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Data Breach Monitoring
+##  Data Breach Monitoring
 
 * ⭐ **[Have I Been Pwned?](https://haveibeenpwned.com/)** - Monitor Email Breaches / [GitHub](https://github.com/HaveIBeenPwned)
 * ⭐ **[Have I Been Pwned Passwords](https://haveibeenpwned.com/Passwords)** - Password Breach Check
@@ -318,7 +318,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Fingerprinting / Tracking
+##  Fingerprinting / Tracking
 
 * ⭐ **[CanvasBlocker](https://github.com/kkapsner/CanvasBlocker)** - Prevent Canvas Fingerprinting
 * ⭐ **[CreepJS](https://abrahamjuliot.github.io/creepjs)**, [webkay](https://webkay.robinlinus.com/), [browserrecon](https://www.computec.ch/projekte/browserrecon/?s=scan), [TZP](https://arkenfox.github.io/TZP/tzp.html), [Device Info](https://www.deviceinfo.me/), [Cover Your Tracks](https://coveryourtracks.eff.org/) or [PersonalData](https://personaldata.info/) - Tracking / Fingerprinting Tests
@@ -335,7 +335,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Search Engines
+##  Search Engines
 
 * 🌐 **[Search Engine Party](https://searchengine.party/)** - Privacy Search Engine Comparisons / [GitLab](https://gitlab.com/nitrohorse/search-engines-compare)
 * 🌐 **[Instance Scores](https://searx.neocities.org/instancescores)** or [Searx Index](https://www.startpage.com/sp/search?q=%22powered%20by%20Searx%22) - Searx Instance Indexes
@@ -351,7 +351,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-# ▷ VPN
+#  VPN
 
 * **Note** - Keep in mind outside of WARP, its generally best to use a paid, rather than free VPN especially if you have privacy or speed in mind. Free VPNs are mainly useful for things like unblocking sites.
 
@@ -370,7 +370,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ VPN Tools
+##  VPN Tools
 
 * ↪️ **[Free VPN Configs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_free_vpn_configs)**
 * ⭐ **[VPN Binding Guide](https://wispydocs.netlify.app/docs/vpn-binding/)** - Bind VPN to Torrent Client to Avoid ISP Letters
@@ -394,9 +394,9 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-# ▷ Proxy
+#  Proxy
 
-## ▷ Proxy Apps
+##  Proxy Apps
 
 * ⭐ **[v2rayN](https://github.com/2dust/v2rayN)** - V2Ray / Shadowsocks / Hysteria / Naive / Proxy Client / Windows, Mac, Linux
 * [Hola Proxy](https://github.com/Snawoot/hola-proxy) - Alternative Client for Hola Free Proxy Service / [Privacy Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#hola-proxy-note)
@@ -413,7 +413,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Proxy Sites
+##  Proxy Sites
 
 * **Note** - Keep in mind many proxy sites log info like IP address, sites visited, etc. They're useful for unblocking sites, but not very useful for privacy.
 
@@ -435,7 +435,7 @@ description: Learn how to block ads, trackers and other nasty things.
 
 ***
 
-## ▷ Anti-Censorship
+##  Anti-Censorship
 
 * ↪️ **[Great Firewall Bypass](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/non-eng/#wiki_.25B7_gfw_bypass)**
 * ⭐ **[Censorship Bypass Guide](https://censordex.fr.to/)** - Censorship Bypass Guide

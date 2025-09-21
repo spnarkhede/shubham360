@@ -10,7 +10,7 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Arabic / العربية
+#  Arabic / العربية
 
 * [Dawin](https://www.dawin.io/) - Markdown Editor
 * [Wudooh](https://wudooh.app/) - Make Arabic Text Clearer
@@ -18,7 +18,7 @@ description: Content in languages other than English.
 * [ZeroTaxJobs](https://zerotaxjobs.com/) - Software Engineer Jobs
 * [arabic-reddit-extension](https://github.com/andronasef/arabic-reddit-extension) - Fix Arabic Language on Reddit
 
-## ▷ Downloading / تحميل
+##  Downloading / تحميل
 
 * [⁠Bahy Films](https://eg.bahyfilms.com/), [2](https://egy.bahy-films.info/) - Movies / TV / Anime / Sub / Dub / 1080p
 * [Stardiima](https://e.stardiima.top/) - Movies / TV / [Telegram](https://t.me/+Phq8ETiiBAIwNzJk)
@@ -27,12 +27,12 @@ description: Content in languages other than English.
 * [Eternal Dream Arabization](https://www.etrdream.com/) - Modern / Official / Retro Games Arabic Localization
 * [Ataraxia](https://www.ataraxia-translations.com/) - Visual Novels / Games Arabic Localization
 
-## ▷ Torrenting / التورنت
+##  Torrenting / التورنت
 
 * [Arab Torrents](https://arab-torrents.com/) - Video / Audio / Books
 * [ArabP2P](https://www.arabp2p.net/) - Video / Private Tracker
 
-## ▷ Streaming / البث
+##  Streaming / البث
 
 * ⭐ **[Cimaleek](https://m.cimaleek.to/)** - Movies / TV
 * ⭐ **[FaselHD](https://www.faselhds.xyz/)**, [2](https://web33.faselhd1watch.one/) - Movies / TV / Anime / Sub / 1080p / Use [Adblock](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_adblocking)
@@ -65,7 +65,7 @@ description: Content in languages other than English.
 * [al-fann](https://www.al-fann.net/) - Music
 * [nghmat](https://songs.nghmat.com/) - Music / MP3
 
-## ▷ Reading / القراءة
+##  Reading / القراءة
 
 * [Noor Book](https://www.noor-book.com/) - Books
 * [Shamela](https://shamela.ws/) - Books / Documents
@@ -86,14 +86,14 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Bangla / বাংলা
+#  Bangla / বাংলা
 
 * ⭐ **[Avro Keyboard](https://www.omicronlab.com/avro-keyboard.html)** - Bangla Typing Tool / Spellcheck / [WebUI](https://avro.im/)
 * [aapathshala](https://aapathshala.com/library/) - Test Practice
 * [Python Maateen](https://python.maateen.me/) - Python Guide
 * [Chorcha](https://chorcha.net/) - Test Prep App
 
-## ▷ Reading / পড়া
+##  Reading / পড়া
 
 * [24livenewspaper](https://www.24livenewspaper.com/bangla-newspaper) or [allbanglanewspaper](https://www.allbanglanewspaper.xyz/) - Bangla Newspapers
 * [IQGAW](https://t.me/IQGamer_PDFStore) - PDF Library for BD HSC Candidates
@@ -107,7 +107,7 @@ description: Content in languages other than English.
 * [SovietBooksinBengali](https://sovietbooksinbengali.blogspot.com/) - Soviet Books
 * [NCTB](https://nctb.portal.gov.bd/) - NCTB Textbooks of Bangladesh
 
-## ▷ Downloading / ডাউনলোডিং
+##  Downloading / ডাউনলোডিং
 
 * [MLSBD](https://mlsbd.shop/) - Movies / TV
 * [ftpbd](http://ftpbd.net/) - Movies / TV / Anime
@@ -116,7 +116,7 @@ description: Content in languages other than English.
 
 ***
 
-## ▷ Streaming / স্ট্রিমিং
+##  Streaming / স্ট্রিমিং
 
 * [Fibwatch](https://fibwatch.art/) - Movies / TV
 * [ftpbd](http://ftpbd.net/) - Movies / TV / Anime
@@ -124,16 +124,16 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Bulgarian / Български
+#  Bulgarian / Български
 
 * [YavkA](https://yavka.net/), [subsunacs](https://subsunacs.net/) or [subs.sab.bz](http://subs.sab.bz/) - Subtitles
 
-## ▷ Torrenting / Торентиране
+##  Torrenting / Торентиране
 
 * [Zamunda](https://zamunda.net/) - Video / Audio / Books / Sign-Up Required
 * [ArenaBG](https://arenabg.com/en/) - Movies / TV / Sign-Up Required
 
-## ▷ Streaming / Стрийминг
+##  Streaming / Стрийминг
 
 * [NovaPlay](https://play.nova.bg/) - Live TV / TV / Sub / Dub / 1080p
 * [Filmi24](https://filmi24.com/) - Movies / Sub / Dub / 720p
@@ -146,7 +146,7 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Chinese / 汉语方言
+#  Chinese / 汉语方言
 
 * 🌐 **[heji](https://233heji.com/)** or [bajins](https://www.bajins.com/) - Chinese Sites / Tools Indexes
 * 🌐 **[Awesome GitHub Repo](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)** - Programming Resources Index
@@ -180,7 +180,7 @@ description: Content in languages other than English.
 * [BookStack](https://www.bookstack.cn/) - Developer / Programming Guides
 * [Gitee](https://gitee.com/) - GitHub Alternative
 
-## ▷ GFW Bypass
+##  GFW Bypass
 
 * ⭐ **[Censorship Bypass Guide](https://censordex.fr.to/)** - Censorship Bypass Guide
 * [gfwlist](https://github.com/gfwlist/gfwlist), [XX-Net](https://github.com/XX-net/XX-Net), [ClashVerge](https://www.clashverge.dev/) / [GitHub](https://github.com/clash-verge-rev/clash-verge-rev), [r/dumbclub](https://www.reddit.com/r/dumbclub/) or [New Pac](https://github.com/Alvin9999/new-pac) - Bypass Chinese Firewall
@@ -190,7 +190,7 @@ description: Content in languages other than English.
 * [China Firewall Test](https://www.dotcom-tools.com/china-firewall-test), [ChinaFirewallTest](http://www.chinafirewalltest.com/), [BlockedInChina](https://www.comparitech.com/privacy-security-tools/blockedinchina/) or [Chinese Firewall](https://viewdns.info/chinesefirewall/) - Chinese Firewall Blocking Test
 * [Apple Account Guide](https://zhuanlan.zhihu.com/p/623576755) - How-to Make Apple Account in China
 
-## ▷ Downloading / 下载
+##  Downloading / 下载
 
 * [AnimeNep](https://t.me/AnimeNep) - Anime
 * [J-pop Music Download](https://jpop.xyz/category/c-pop/) - Music / FLAC / MP3
@@ -203,7 +203,7 @@ description: Content in languages other than English.
 * [feiku6](https://www.feiku6.com/) - Books / Reading / Listening
 * [Salty Leo](https://book.tstrs.me/search) - Books / Fiction / Non-Fiction / Downloading
 
-## ▷ Torrenting / 下载种子
+##  Torrenting / 下载种子
 
 * [QBittorent Enhanced](https://github.com/c0re100/qBittorrent-Enhanced-Edition) - QBitorrent for Chinese Users
 * [Csze BT](https://bt.orzx.im/) - Video / Audio / Books
@@ -222,7 +222,7 @@ description: Content in languages other than English.
 * [Auto_Bangumi](https://github.com/EstrellaXD/Auto_Bangumi) - Anime Torrent Auto Download
 * [AnimeTrackerList](https://github.com/DeSireFire/animeTrackerList) - Anime Trackers List
 
-## ▷ Streaming / 流媒体
+##  Streaming / 流媒体
 
 * 🌐 **[Chinese Drama Site Index](https://www.reddit.com/r/CDrama/wiki/streaming)** - Chinese Drama Sites Index
 * 🌐 **[Movie Forest](https://549.tv/)** or **[klyingshi](https://klyingshi.com/)** - Chinese Streaming Sites Index
@@ -263,7 +263,7 @@ description: Content in languages other than English.
 * [Baidu SkyDrive Video Player](https://greasyfork.org/en/scripts/426952-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%B0%8A%E4%BA%AB-vip-%E8%A7%A3%E9%94%81%E8%A7%86%E9%A2%91%E5%80%8D%E6%95%B0-%E8%A7%A3%E9%94%81%E5%85%A8%E9%83%A8%E6%B8%85%E6%99%B0%E5%BA%A6) - Baidu VIP Video Player
 * [acfun.cn](https://www.acfun.cn/) - Video Streaming / YouTube Alt
 
-## ▷ Reading / 阅读
+##  Reading / 阅读
 
 * ⭐ **[69xinshu](https://www.69shuba.com/)** - Fiction
 * [Jiumo](https://www.jiumodiary.com/) - Book Search Engine
@@ -298,7 +298,7 @@ description: Content in languages other than English.
 * [wenku](https://pypi.org/project/wenku/) - Baidu Wenku Downloader
 * [Trtag](https://trtag.com/) - Movies / TV Encyclopedia
 
-## ▷ Light Novels
+##  Light Novels
 
 * [beqege](https://www.beqege.cc/) - Light-Novels
 * [jpxs123.cc](https://jpxs123.cc/) - Light-Novels / Use [Adblock](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_adblocking)
@@ -310,7 +310,7 @@ description: Content in languages other than English.
 * [ffxs8](https://ffxs8.com/) - Light-Novels
 * [powanjuan](https://powanjuan.cc/) - Light-Novels
 
-## ▷ Manga
+##  Manga
 
 * [AC.QQ](https://ac.qq.com/) - Manga
 * [BiliBili](https://manga.bilibili.com/) - Manga
@@ -344,22 +344,22 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Czech / Čeština
+#  Czech / Čeština
 
 * [uschovna](https://www.uschovna.cz/) or [posilej](https://posilej.cz/) - Czech File Hosts
 
-## ▷ Downloading / Stahování
+##  Downloading / Stahování
 
 * [War-Forum](https://war-forum.net/) - Video / Audio / Books / Magazines / Comics / NSFW
 * [WarezCenter](https://warcenter.cz/) - Video / Audio / Books / NSFW
 * [WebShare](https://webshare.cz/) - Video / Audio / Books
 * [Cumi.to](https://cumi.to/) - Movies / TV
 
-## ▷ Torrenting
+##  Torrenting
 
 * [sktorrent](https://sktorrent.eu/) - Movies / TV / Anime
 
-## ▷ Streaming / Streamování
+##  Streaming / Streamování
 
 * [Bombuj](https://bombuj.si/) - Movies / TV
 * [Sledujteto](https://www.sledujteto.cz/) - Movies / TV / Anime / 1080p
@@ -371,7 +371,7 @@ description: Content in languages other than English.
 * [StarSites](https://goal.starsites.fun/) - Live Football / Hockey
 * [CSFD](https://www.csfd.cz/) - Czech Film Database
 
-## ▷ Reading / Čtení
+##  Reading / Čtení
 
 * [xTrance](https://xtrance.info/) - Books / Download / Sign-Up Required
 * [PDF Books](https://pdfknihy.maxzone.eu/index.html) - Public Domain Books
@@ -381,9 +381,9 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Filipino / Pinoy
+#  Filipino / Pinoy
 
-## ▷ Streaming / Nanonood
+##  Streaming / Nanonood
 
 * [Movies Ni Pipay](https://moviesnipipay.me/) - Movies / TV / NSFW / Sub / Dub / 1080p
 * [Pinoy Movies Hub](https://pinoymovieshub.tv/) - Movies / TV / NSFW / Sub / Dub / 720p
@@ -392,13 +392,13 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Finnish / Suomi
+#  Finnish / Suomi
 
 * [finna.fi](https://www.finna.fi/) - Media Archive / Library Card Required
 * [Sanuli](https://sanuli.fi/) - Finnish Wordle
 * [Viittomaluettelot](https://suvi.viittomat.net/) - Sign Language Dictionary
 
-## ▷ Streaming / Suoratoisto
+##  Streaming / Suoratoisto
 
 * [Elonet](https://elonet.finna.fi/) - Classic Movies
 * [Areena](https://areena.yle.fi/) - Movies / TV / 1080p
@@ -406,14 +406,14 @@ description: Content in languages other than English.
 * [TVKaista](https://www.tvkaista.org/) - Finnish IPTV
 * [Podcast24](https://podcast24.fi/) - Podcasts
 
-## ▷ Reading / Lukeminen
+##  Reading / Lukeminen
 
 * [Lonnrot](http://www.lonnrot.net/) - Books
 * [HistDoc](https://histdoc.net/) - Historical Finnish Documents
 
 ***
 
-# ▷ French / Français
+#  French / Français
 
 * 🌐 **[FrancePirate Wiki](https://francepirate.gitbook.io/wikitipiak/tipiakeries)** - Piracy Site Mega Thread / [Subreddit](https://www.reddit.com/r/FrancePirate/)
 * [SubSynchro](https://www.subsynchro.com/), [Sous-Titres](https://www.sous-titres.eu/) or [SubFactory](https://subfactory.fr/) - Subtitles
@@ -431,7 +431,7 @@ description: Content in languages other than English.
 * [Donnons](https://donnons.org/) - Item Donation
 * [Rochester LSF](https://projects.lib.rochester.edu/lsf-asl-app/dictionary/) - French Sign Langauge Dictionary
 
-## ▷ Downloading / Téléchargement
+##  Downloading / Téléchargement
 
 * [WawaCity](https://www.wawacity.diy/) - Movies / TV / Check [Telegram](https://t.me/Wawacity_officiel) if Domain Changes
 * [MuaDib](https://muaddib-sci-fi.blogspot.com/) - Sci-Fi Movies
@@ -442,14 +442,14 @@ description: Content in languages other than English.
 * [Abandonware France](https://www.abandonware-france.org/index.php) - Abandonware
 * [Abandonware Videos](https://www.abandonware-videos.org/) - Retro Game Related Videos
 
-## ▷ Torrenting
+##  Torrenting
 
 * [YGGTorrent](https://www.yggtorrent.top/) - Video / Audio / ROMs / Books / Sign-Up Required
 * [Torrent9](https://torrent9.to/) - Video / Audio / ROMs / Books
 * [Cpasbien](https://www1.cpasbien.to/) - Video / Audio / ROMs / Books
 * [Sharewood](https://www.sharewood.tv/) - Video / Audio / ROMs / Books / Sign-Up Required
 
-## ▷ Streaming
+##  Streaming
 
 * ⭐ **[RgShows](https://www.rgshows.me/)** - Movies / TV / Anime / 4K / [API](https://embed.rgshows.me/) / [Guide](https://www.rgshows.me/guide.html) / [Discord](https://discord.gg/bosskingdom-comeback-1090560322760347649)
 * ⭐ **[Movix](https://www.movix.site/)** - Movies / TV / Anime / [Status](https://movix.website/)
@@ -488,7 +488,7 @@ description: Content in languages other than English.
 * [fluxradios](https://fluxradios.blogspot.com/) - Radio Stations
 * [programmes-radio](https://www.programmes-radio.com/fr/) - Radio Schedule / Streaming
 
-## ▷ Reading / Lecture
+##  Reading / Lecture
 
 * [Bookys](https://www6.bookys-ebooks.com/) - Books / Comics / Magazines / Newspapers / Some NSFW
 * [zone-ebook.com](https://zone-ebook.com/) - Books / Comics / Magazines / Newspapers / Audiobooks
@@ -506,7 +506,7 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ German / Deutsch
+#  German / Deutsch
 
 * ⭐ **[Tarnkappe](https://tarnkappe.info/forum/)** - Piracy Discussion / [Telegram](https://t.me/Tarnkappe_info)
 * [RR.Topliste](https://toplist.raidrush.ws/) - Piracy Site List
@@ -516,7 +516,7 @@ description: Content in languages other than English.
 * [WiiDatabase](https://wiidatabase.de/) - Nintendo Homebrew
 * [F-Online](https://app.f-online.at/) - Austrian Driving License Learning App
 
-## ▷ Downloading / Herunterladen
+##  Downloading / Herunterladen
 
 * [Usenet DE Guide](https://github.com/PCJones/usenet-guide) - German Usenet Guide / [Discord](https://discord.gg/src6zcH4rr)
 * [Radar / Sonarr DE Guide](https://github.com/PCJones/radarr-sonarr-german-dual-language/blob/main/GERMAN_DUAL_LANGUAGE_GUIDE_GER.md)
@@ -534,7 +534,7 @@ description: Content in languages other than English.
 * [Anime-Loads](https://www.anime-loads.org/) - Anime
 * [CannaPower](https://canna-power.to/) - Audio
 
-## ▷ Streaming
+##  Streaming
 
 * ⭐ **[Megakino](https://megakino.moi/)** - Movies / TV / Dub / 1080p / Search Requires IPV6
 * ⭐ **[Moflix](https://moflix-stream.xyz/)** - Movies / TV / Dub / 1080p
@@ -569,7 +569,7 @@ description: Content in languages other than English.
 * [mediathekviewweb](https://mediathekviewweb.de/) - IPTV
 * [hoerspielprojekt](https://www.hoerspielprojekt.de/) - Radio
 
-## ▷ Reading / Lesen
+##  Reading / Lesen
 
 * [Dokumen](https://dokumen.pub/) - Books
 * [EBook Land](https://www.ebook-land.cc/index.php) - Books / Magazines
@@ -582,9 +582,9 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Greek / Ελληνικά
+#  Greek / Ελληνικά
 
-## ▷ Streaming
+##  Streaming
 
 * [Greek-Movies](https://greek-movies.com/) - Movies / TV / Live / Courses / Dub / 720p
 * [xrysoi](https://xrysoi.pro/), [2](https://tainiesonline.xyz) - Movies / TV
@@ -607,20 +607,20 @@ description: Content in languages other than English.
 * [Live24](https://live24.gr/) or [e-Radio](https://www.e-radio.gr/) - Radio
 * [Subs4series](https://www.subs4series.com/), [greeksubs](https://greeksubs.net) or [subs4free](https://www.subs4free.club/) - Greek Subtitles
 
-## ▷ Torrenting
+##  Torrenting
 
 * [AnimEclipse](http://www.animeclipse.com/) - Anime Torrents / [Discord](https://discord.com/invite/VU6UScPPCU)
 
 ***
 
-# ▷ Hebrew / עברית
+#  Hebrew / עברית
 
 * [AB-Maps](https://www.abmaps.com/) - Map Tool
 * [WizdomSubs](https://wizdom.xyz/) or [Ktuvit](https://www.ktuvit.me/) - Subtitles
 * [TranslationsMovieHEB](https://t.me/translationsmoviesheb) - Request Subtitle Translations
 * [RedAlert](https://redalert.me/index_en.html), [Tzevaadom](https://www.tzevaadom.co.il/) or [RocketAlert](https://rocketalert.live/) - Rocket Alerts
 
-## ▷ Streaming / הזרמה
+##  Streaming / הזרמה
 
 * [JFC](https://jfc.org.il/) - Israel Movie Archive
 * [Animeil-TV](https://www.animeil-tv.com/) - Anime
@@ -628,18 +628,18 @@ description: Content in languages other than English.
 * [israelTV](https://israeltv.online/) - Live TV
 * [zradio](https://zradio.co.il/) - Radio Stations
 
-## ▷ Downloading / הורדה
+##  Downloading / הורדה
 
 * [AnimeBlood](https://animebloodsub.net/) - Anime / Download / Sub
 * [ultsub](https://ultsub.co.il/) - Anime / Sub / [Telegram](https://t.me/UltSub) / [Discord](https://discord.gg/4Bc8b2W)
 
 ***
 
-# ▷ Hungarian / Magyar
+#  Hungarian / Magyar
 
 * [Turistautak](https://turistautak.hu/) - Hungarian Maps
 
-## ▷ Streaming / Streamelés
+##  Streaming / Streamelés
 
 * ⭐ **[moviedrive](https://moviedrive.hu/)** - Movies / TV / Sub / Dub / 1080p / [Discord](https://discord.com/invite/blackfire)
 * [hdmozi](https://hdmozi.hu/) - Movies / TV / Sub / Dub / 1080p
@@ -650,7 +650,7 @@ description: Content in languages other than English.
 * [animedrive](https://animedrive.hu/) - Anime / [Discord](https://discord.com/invite/blackfire)
 * [Myonlinerádió](https://myonlineradio.hu/) - Radio Stations
 
-## ▷ Torrenting / Torrentezés
+##  Torrenting / Torrentezés
 
 * [iTorrent](https://itorrent.ws/) - Movies / TV / Sub / Dub / 1080p / 720p / No-signup
 * [HunTorrent](https://huntorrent.org/) - Movies / TV / Sub / Dub / 1080p
@@ -658,14 +658,14 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Indian Languages
+#  Indian Languages
 
 * [Indic-Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indian Android Keyboard
 * [Bhashini](https://bhashini.gov.in/) - Live Translation App / Text and Speech
 * [PCPriceTracker](https://pcpricetracker.in/) - PC Component Price Tracking
 * [Jagraan Josh](https://www.jagranjosh.com/) - Indian Education / Exam News
 
-## ▷ Downloading
+##  Downloading
 
 * ⭐ **[VegaMovies](https://vegamovies.gmbh/)**, [2](https://moviesflix.ad/) - Movies / TV / Anime / 1080p / 4K / [Telegram](https://telegram.dog/vega_officials)
 * ⭐ **[UHDMovies](https://modlist.in/?type=uhdmovies)** - Movies / 4K
@@ -709,12 +709,12 @@ description: Content in languages other than English.
 * [Malayalam Film Songs](https://t.me/cc_NewMalayalamMp3) - Audio
 * [Hindi Courses](https://rentry.co/FMHYBase64#hindi-courses)
 
-## ▷ Torrenting
+##  Torrenting
 
 * ⭐ **[Tamil Blasters](https://www.1tamilblasters.yachts/)** - Movies / TV / Sub / Dub / 1080p / 4K / Anime / Indian Languages
 * ⭐ **[TamilMV](https://www.1tamilmv.vc/)** - Movies / TV / Sub / Dub / 1080p / 4K / Anime / Indian Languages
 
-## ▷ Streaming
+##  Streaming
 
 * ⭐ **[Cineby](https://www.cineby.app/)** - Hindi-Dub Movies / TV / Anime / 1080p / Auto-Next / [Discord](https://discord.gg/C2zGTdUbHE) (unofficial)
 * ⭐ **[HydraHD](https://hydrahd.sh/)** - Movies / TV / Anime / Auto-Next / [Status](https://hydrahd.info/)
@@ -754,7 +754,7 @@ description: Content in languages other than English.
 * [PhysicsWallah](https://www.pw.live/) - Physics Lessons / [YouTube](https://www.youtube.com/c/PhysicsWallah/)
 * [GateSmashers](https://www.youtube.com/@GateSmashers) - Gate Preparation / Educational
 
-## ▷ Reading
+##  Reading
 
 * [SuccessCDs](https://www.successcds.net/) - CBSE Study Guides
 * [Digital Library of India](https://dli.sanskritdictionary.com) - Books
@@ -764,11 +764,11 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Indonesian / Bahasa Indonesia
+#  Indonesian / Bahasa Indonesia
 
 * [bebasid](https://github.com/bebasid/bebasid) - Indonesian Site Unblock Proxies / [DNS](https://github.com/bebasid/bebasdns) / [Script](https://gist.github.com/mul14/eb05e88fcec5bb195cbb)
 
-## ▷ Downloading / Mengunduh
+##  Downloading / Mengunduh
 
 * ⭐ **[Lendrive](https://lendrive.web.id/)** - Movies / Anime / Sub / Dub / 1080p / x265
 * [sontolfilm](https://sontolmovie.xyz) - Movies / TV / Anime
@@ -780,7 +780,7 @@ description: Content in languages other than English.
 * [IndonesiaEbook](https://ebook.twointomedia.com/) - Books
 * [madrotter-treasure-hunt](https://madrotter-treasure-hunt.blogspot.com/) - Music
 
-## ▷ Streaming / Menyiarkan
+##  Streaming / Menyiarkan
 
 * ⭐ **[OtakuDesu](https://otakudesu.cloud/)** - Anime / Sub / 720p
 * ⭐ **[sontolfilm](https://sontolmovie.xyz/)** - Movies / TV / Anime
@@ -794,7 +794,7 @@ description: Content in languages other than English.
 * [Best Release](https://best-release.koisuru.web.id/) - Anime Release Info
 * [Irama Nusantara](https://www.iramanusantara.org/en) - Music
 
-## ▷ Reading / Membaca
+##  Reading / Membaca
 
 * [ManhwaIndo](https://manhwaindo.net/) - Manga
 * [Komiku](https://komiku.id/) - Manga
@@ -807,23 +807,23 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Italian / Italiano
+#  Italian / Italiano
 
 * 🌐 **[The Italian Corsairs](https://rentry.co/the-italian-corsairs)** - Piracy Sites List
 
-## ▷ Downloading / Scaricare
+##  Downloading / Scaricare
 
 * [OverDay](https://overday.org/) - Courses / Books / [Mirrors](https://justpaste.it/OVERPOSTING) / [2](https://filecrypt.co/Container/B25EED8329.html) / [Telegram](https://t.me/Overposting1)
 * [HD4Me](https://hd4me.net/) - Movies / TV / Sub / 720p
 * [XDCC Mule](https://www.xdccmule.org/) - IRC Download Search
 
-## ▷ Torrenting
+##  Torrenting
 
 * [MIRCrew](https://mircrew-releases.org/) - Movies / TV / Anime
 * [ICV Crew](https://www.icv-crew.com/forum/) - Torrent Forum
 * [TNT Village](https://tntvillage-db.programmiedovetrovarli.it/) - Torrent Aggregator
 
-## ▷ Streaming
+##  Streaming
 
 * [StreamingCommunity](https://streamingcommunityz.chat/) - Movies / TV / 1080p / [Status](https://telegra.ph/Link-Aggiornato-StreamingCommunity-09-29)
 * [Altadefinizione](https://altadefinizionegratis.gold/) - Movies / Dub / 1080p / [Status](https://telegra.ph/Link-Aggiornato-Altadefinizione-08-07) / [Telegram](https://t.me/+x_9jyFBbYBpkYTRi)
@@ -841,7 +841,7 @@ description: Content in languages other than English.
 * [Ovovideo](http://ovovideo.com/) - Video Encyclopedia
 * [Raiplay Sound](https://www.raiplaysound.it/) - Podcasts / Radio
 
-## ▷ Reading / Leggere
+##  Reading / Leggere
 
 * [LiberLiber](https://liberliber.it/opere/libri/) - Books
 * [MangaWorld](https://www.mangaworld.cx/) - Manga / [Telegram](https://t.me/MangaWorldITA)
@@ -851,7 +851,7 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Japanese / 日本語
+#  Japanese / 日本語
 
 * [MiniTokyo3D](https://minitokyo3d.com/) - Tokyo Public Transport Map
 * [Poipiku](https://poipiku.com/) - User-Made Images
@@ -864,7 +864,7 @@ description: Content in languages other than English.
 * [goo](https://www.goo.ne.jp/) or [Yahoo Japan](https://search.yahoo.co.jp/) - Search
 * [megalodon](https://megalodon.jp/) or [gyo.tc](https://gyo.tc/) - JP Web Archive Tool
 
-## ▷ Downloading / ダウンロード
+##  Downloading / ダウンロード
 
 * ⭐ **[TheMoeWay](https://learnjapanese.moe/)** - Japanese Media / [Discord](https://discord.gg/nhqjydaR8j)
 * [Akiba-Online](https://www.akiba-online.com/) - Video / Audio / Comics / NSFW / 1080p
@@ -877,11 +877,11 @@ description: Content in languages other than English.
 * [J-pop Music Download](https://jpop.xyz/) - Music / MP3 / FLAC
 * [Perfect Dark](https://perfectdark.benri-tool.net/) - P2P App
 
-## ▷ Torrenting / トレント
+##  Torrenting / トレント
 
 * [Bangumi](https://bangumi.moe/) - Anime
 
-## ▷ Streaming / ストリーミング
+##  Streaming / ストリーミング
 
 * [sudatchi](https://sudatchi.com/) - Anime
 * [NicoVideo](https://www.nicovideo.jp/) - Japanese YouTube Alternative / [Desktop](https://github.com/tor4kichi/Hohoema)
@@ -894,7 +894,7 @@ description: Content in languages other than English.
 * [Kagakueizo](https://www.kagakueizo.org/) - Science Documentaries
 * [Twitcasting](https://twitcasting.tv/) - Live Streaming
 
-## ▷ Reading / 読書
+##  Reading / 読書
 
 * 🌐 **[Rawmangaz](https://rentry.co/rawmangaz)** - List of Raw Manga Sites
 * [senmanga](https://raw.senmanga.com/) - Manga / Novels / NSFW
@@ -935,7 +935,7 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Korean / 한국어
+#  Korean / 한국어
 
 * ⭐ **[wrtn](https://wrtn.ai/)** - GPT-4 Chatbot / [Android](https://play.google.com/store/apps/details?id=com.wrtn.app) / [iOS](https://apps.apple.com/us/app/%EB%A4%BC%ED%8A%BC-%EB%AA%A8%EB%91%90%EB%A5%BC-%EC%9C%84%ED%95%9C-ai-%ED%8F%AC%ED%84%B8/id6448556170) / No Sign-Up
 * [Arca](https://arca.live/) - Forum
@@ -948,21 +948,21 @@ description: Content in languages other than English.
 * [Free Korean Fonts](https://www.freekoreanfont.com/) - Korean Fonts
 * [Etoland](https://etoland.co.kr/) - Bulletin Board
 
-## ▷ Downloading
+##  Downloading
 
 * [CinEast](https://cineaste.co.kr/) - Movies / TV / Sub / 1080p
 * [J-pop Music Download](https://jpop.xyz/category/k-pop/) - Music / MP3 / FLAC
 * [KPopExplorer](https://kpopexplorer.net/) - Music / MP3 / FLAC
 * [ilKPOP](https://ilkpop.in/) - Music / MP3
 
-## ▷ Streaming
+##  Streaming
 
 * [OnDemandKorean](https://www.ondemandkorea.com/) - Korean Movies / TV / 720p
 * [AQ Stream](https://aqstream.com/) - Live TV / [Discord](https://discord.com/invite/dVhgAgwxHE)
 * [Chzzk](https://chzzk.naver.com/) - Live Streams
 * [eHistory](https://www.ehistory.go.kr/) - Video Archive / Cultural Films
 
-## ▷ Reading
+##  Reading
 
 * [kakao](https://page.kakao.com/) - Manga
 * [MangaViewAndroid](https://junheah.github.io/MangaViewAndroid/) - Manga
@@ -970,13 +970,13 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Malay / Bahasa Melayu
+#  Malay / Bahasa Melayu
 
 * [Lowyat](https://forum.lowyat.net/) - Tech Forum
 
 ***
 
-# ▷ Persian / فارسی
+#  Persian / فارسی
 
 * 🌐 **[Awesome Freedom](https://github.com/hiddify/awesome-freedom)** - Tools Index
 * 🌐 **[Awesome AI channels](https://github.com/AminTaheri23/Awesome-AI-telegram-gp-and-channel)** - AI Telegram Channels / Groups Index
@@ -988,7 +988,7 @@ description: Content in languages other than English.
 * [Persian Calendar](https://github.com/persian-calendar/persian-calendar) - Android Persian Calendar
 * [parseek](https://www.parseek.com/) - Search
 
-## ▷ Downloading / دانلود
+##  Downloading / دانلود
 
 * 🌐 **[Persian Telegram Courses](https://rentry.co/sn66v)** - Persian Courses Index
 * [git_ir](https://t.me/git_ir) - Programming Courses
@@ -1013,7 +1013,7 @@ description: Content in languages other than English.
 * [FilmgramBot](https://t.me/FilmgramBot) or [FileMovieBot](https://t.me/FileMovieBot) - Movie Search Telegram Bots
 * [hoseinwave](https://rj.hoseinwave.ir/) - Javen Radio Downloader
 
-## ▷ Streaming / پخش
+##  Streaming / پخش
 
 * [FarsiLand](https://farsiland.com/) - Persian Movies / TV / 1080p
 * [RadioVatani](https://www.radiovatani.com/) - Persian Movies / TV / Live / 1080p
@@ -1026,33 +1026,33 @@ description: Content in languages other than English.
 * [MusicGeek](https://musicgeek.ir/) - Music
 * [Awesome Persian Podcasts](https://github.com/ashkanRmk/awesome-persian-podcasts) - Podcasts
 
-## ▷ Reading / خواندن
+##  Reading / خواندن
 
 * [parsbook](https://www.parsbook.com/) - Educational Books
 * [Afghanistandl](https://afghanistandl.nyu.edu/) - Historical Books
 
 ***
 
-# ▷ Polish / Polski
+#  Polish / Polski
 
 * [Napisy24](https://napisy24.pl/), [GrupaHatak](https://grupahatak.pl/) or [KickAssSubtitles](https://kickasssubtitles.com/pl) - Subtitles
 * [Tekstowo](https://www.tekstowo.pl/) - Lyrics
 * [JakDojade](https://jakdojade.pl/) - Public Transport Map
 * [AnimeSub.info](http://animesub.info/) - Anime Subtitles
 
-## ▷ Downloading / Pobieranie
+##  Downloading / Pobieranie
 
 * ⭐ **[Grupa Mirai](https://www.grupa-mirai.pl/)** - Anime / Sub / 1080p / [Discord](https://discord.gg/WyXrp6ZK5J)
 * [animezone](https://www.animezone.pl/) - Anime / Sub / 720p
 * [Polish Abandonware](https://polish-abandonware.pl/) - Abandonware / [Discord](https://discord.gg/TuDSpDzDsh)
 
-## ▷ Torrenting / Torrentowanie
+##  Torrenting / Torrentowanie
 
 * [polskie-torrenty](https://helltorrents.com/index.php) - Video / Audio / Books / NSFW
 * [devil-torrents](https://devil-torrents.pl/) - Video / Audio / Books / NSFW
 * [Electro Torrent](https://electro-torrent.pl/) - Video / Audio / Books
 
-## ▷ Streaming
+##  Streaming
 
 * ⭐ **[Kreskowki24](https://kreskowki24.top/)** - Movies / Cartoons / [Discord](https://discord.gg/SB5bdaRNfb)
 * ⭐ **[Obejrzyj](https://www.obejrzyj.to/)** - Movies / TV
@@ -1081,7 +1081,7 @@ description: Content in languages other than English.
 * [dokumentalne](https://dokumentalne.net/) - Documentaries
 * [Naikamu](https://naikamu.com/) - Anime Streaming / Android
 
-## ▷ Reading / Czytanie
+##  Reading / Czytanie
 
 * [wolnelektury](https://wolnelektury.pl/) - Books / Fiction / Audiobooks
 * [Audiobook PL](https://audiobookpl.tumblr.com/) - Audiobooks
@@ -1091,7 +1091,7 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Portuguese / Português
+#  Portuguese / Português
 
 * **Note** - Brazil is known for having lots of site blocking, try using a [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_vpn) if you cannot access one.
 
@@ -1111,7 +1111,7 @@ description: Content in languages other than English.
 * [Jogorama](https://jogorama.com.br) - Game Index / Tips
 * [Dicionário MPB](https://dicionariompb.com.br) - Top Song Charts
 
-## ▷ Downloading / Baixar
+##  Downloading / Baixar
 
 * ⭐ **[WR Educacional](https://www.wreducacional.com.br)** - Courses
 * ⭐ **[Curso_vip](https://t.me/Curso_vip)** - Courses / Books
@@ -1121,7 +1121,7 @@ description: Content in languages other than English.
 * [Escola Educação](https://escolaeducacao.com.br/estude-gratis) - Courses
 * [Mundo Ubuntu](https://www.mundoubuntu.com.br) - Courses / Tech Guides
 
-## ▷ Torrenting
+##  Torrenting
 
 * [Rei dos Torrents](https://reidostorrents.com) - Video / Audio / Books
 * [Download Cult](http://downloadcult.org) - Classic Movies
@@ -1129,7 +1129,7 @@ description: Content in languages other than English.
 * [Anime No Sekai](https://www.ansktracker.net) - Anime WebIRC Tracker
 * [Sua Música](https://www.suamusica.com.br) - Audio / MP3
 
-## ▷ Streaming
+##  Streaming
 
 * ⭐ **[Cineby](https://www.cineby.app/)** - Movies / TV / Anime / 1080p / Auto-Next / [Discord](https://discord.gg/C2zGTdUbHE) (unofficial)
 * ⭐ **[Gyn Cursos](https://gyncursos.com.br)**, [Curso em Vídeo](https://www.cursoemvideo.com), [iEstudar Cursos](https://iestudar.com) or [Pensar Cursos](https://www.pensarcursos.com.br) - Courses
@@ -1194,7 +1194,7 @@ description: Content in languages other than English.
 * [Kboing FM](https://www.kboingfm.com.br/podcast/) - Podcasts
 * [Tastemade](https://www.tastemade.com.br) - Recipe Videos
 
-## ▷ Reading / Leitura
+##  Reading / Leitura
 
 * [Bússola Escolar](http://www.bussolaescolar.com.br) - Educational Search Engine
 * [Livros Narrados](https://livrosnarrados.blogspot.com) - Audiobooks
@@ -1239,15 +1239,15 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Romanian / Limba Română
+#  Romanian / Limba Română
 
-## ▷ Downloading
+##  Downloading
 
 * [xCinema.ro](https://www.xcinema.ro/) - Movies / TV / Sub / 720p
 * [FilmePeAlese](https://www.filmepealese.com/) - Movies / TV / Sub / 720p
 * [lib2life](https://rentry.co/FMHYBase64#lib2life) - Historical Books
 
-## ▷ Streaming
+##  Streaming
 
 * [Namaste Serials](https://namasteserials.com/) - Movies / TV / Sub / 720p
 * [Deseneledublate](https://deseneledublate.com/) - Movies / TV / Sub / 720p
@@ -1269,7 +1269,7 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Russian / Русский
+#  Russian / Русский
 
 * ⭐ **[РосКомСвобода](https://t.me/roskomsvoboda_discuss)** / [roskomsvoboda](https://t.me/roskomsvoboda) / [rks_org_Bot](https://t.me/rks_org_bot), [ru_tech_talk](https://t.me/ru_tech_talk) or [protocol_vpn](https://t.me/protocol_vpn) - Censorship Discussion Telegrams
 * [Ru.Board](https://forum.ru-board.com/) - Piracy Discussion Forum
@@ -1298,7 +1298,7 @@ description: Content in languages other than English.
 * [World Art](http://www.world-art.ru/) - Movies / Anime / Game Reviews and Art Display
 * [Cute Chan](https://kpop.re/) - K-Pop Imageboard
 
-## ▷ Downloading / Скачивание
+##  Downloading / Скачивание
 
 * ⭐ **[4PDA](https://4pda.to/forum/)** / Android, iOS / [App](https://github.com/slartus/4pdaClient-plus) / [Captcha Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#captcha-4pda)
 * [Androeed](https://androeed.store/), [2](https://androeed.ru/) / Android
@@ -1312,7 +1312,7 @@ description: Content in languages other than English.
 * [KinoSoundtrack](https://www.kinosoundtrack.com/) - Soundtracks / MP3
 * [Course Hunter](https://coursehunter.net/) or [Sliwbl](https://s1.sliwbl.com/) - Programming Courses
 
-## ▷ Torrenting / Торрентинг
+##  Torrenting / Торрентинг
 
 * 🌐 **[toptracker](https://toptracker.ru/)** - Torrent Site List
 * 🌐 **[UpTracker](https://www.uptracker.ru/)** - Torrent Tracker Index
@@ -1339,7 +1339,7 @@ description: Content in languages other than English.
 * [Selezen](https://www.selezen.club/) - Movies
 * [RGFootball](http://rgfootball.net/) - Sports
 
-## ▷ Streaming / Стриминг
+##  Streaming / Стриминг
 
 * ⭐ **[HDrezka](https://rezka.ag/)**, [2](https://hdrezka.ag/) - Movies / TV / Anime / Sub / Dub / 4K / 1080p
 * ⭐ **[myfootball](https://myfootball.top/)** - Live Football
@@ -1398,7 +1398,7 @@ description: Content in languages other than English.
 * [Teach.in](https://teach-in.ru/) - Lectures
 * [videotuts](https://videotuts.ru/) - Design Video Tutorials
 
-## ▷ Reading / Чтение
+##  Reading / Чтение
 
 * ⭐ **[CyberLeninka](https://cyberleninka.ru/)** - Articles / Educational / Scientific / Legal
 * ⭐ **[Lib.ru](http://lib.ru/)** - Books
@@ -1441,9 +1441,9 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Slovak / Slovenčina
+#  Slovak / Slovenčina
 
-## ▷ Streaming
+##  Streaming
 
 * [Kukaj](https://vvv.kukaj.fi/) - Movies / TV
 * [jOj Archive](https://www.joj.sk/archiv) - Movies / TV
@@ -1452,13 +1452,13 @@ description: Content in languages other than English.
 * [Bombuj](https://bombuj.si/) - Movies / TV
 * [MojeVideo](https://www.mojevideo.sk/) - User Videos
 
-## ▷ Torrenting
+##  Torrenting
 
 * [sktorrent](https://sktorrent.eu/) - Movies / TV / Anime
 
 ***
 
-# ▷ Spanish / Español
+#  Spanish / Español
 
 * 🌐 **[Awesome Telegram Redcarpet](https://listados.gitlab.io/awesome-telegram-redcarpet/)**, [2](https://gitlab.com/listados/awesome-telegram) - Telegram Channel Index
 * [Minijuegos](https://www.minijuegos.com/) - Browser Games
@@ -1469,7 +1469,7 @@ description: Content in languages other than English.
 * [Universia](https://www.universia.net) - Spanish University Search
 * [SubDivX](https://www.subdivx.com/) - Subtitles
 
-## ▷ Downloading / Descargar
+##  Downloading / Descargar
 
 * ⭐ **[DescargasDD](https://descargasdd.org/)** - Video / Audio / Castilian / Latino / [Telegram](https://t.me/joinchat/VAWOu0TNfOXfnauA)
 * ⭐ **[eMule](https://www.emule-project.com/home/perl/help.cgi?l=17&rm=show_topic&topic_id=586)** - Video / Audio / Reading / NSFW / Castilian
@@ -1521,7 +1521,7 @@ description: Content in languages other than English.
 * [punkconpunk](https://punkconpunk.blogspot.com/) - MP3 / Punk Music
 * [Hello-Python](https://github.com/mouredev/Hello-Python) or [python-web](https://github.com/mouredev/python-web) - Python Courses
 
-## ▷ Torrenting / Torrentear
+##  Torrenting / Torrentear
 
 * ⭐ **[MejorTorrent](https://www36.mejortorrent.eu/)** - Movies / TV / Documentaries / Castilian
 * ⭐ **[Grantorrent.wtf](https://grantorrent.wtf/)** - Movies / TV / Documentaries / Castilian
@@ -1541,7 +1541,7 @@ description: Content in languages other than English.
 * [Akiba-kei](http://akiba-team.org/) - Anime
 * [epublibre](https://www.epublibre.org/) - Books
 
-## ▷ Streaming / Streamear
+##  Streaming / Streamear
 
 * ⭐ **[Cineby](https://www.cineby.app/)** - Movies / TV / Anime / 1080p / Auto-Next / [Discord](https://discord.gg/C2zGTdUbHE) (unofficial)
 * ⭐ **[Playdede](https://privacidad.me/@playdede)**, [2](https://entrarplaydede.com/) - Movies / TV / Anime / 1080p / Sign-Up Required / [Telegram](https://t.me/playdedelink)
@@ -1610,7 +1610,7 @@ description: Content in languages other than English.
 * [EventosHQ](https://www.eventoshq.me/) - WWE / MMA Replays / Latino
 * [Tangos78rpm](https://www.tangos78rpm.com/) - Classic Records
 
-## ▷ Reading / Leer
+##  Reading / Leer
 
 * ⭐ **[Spanish Reading CSE](https://cse.google.com/cse?cx=85e4a562f2abf40f6)** / [SMAGX](https://smagx.com/) - Multi-Site Book Search
 * [eBiblioteca](https://ebiblioteca.org/) - Books
@@ -1649,34 +1649,34 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Swedish / Sverige
+#  Swedish / Sverige
 
 * [Eniro](https://www.eniro.se/) - Search
 
-## ▷ Streaming
+##  Streaming
 
 * [SVT Play](https://www.svtplay.se/) - Movies / TV
 * [Filmarkivet](https://www.filmarkivet.se/) - Short Films
 
 ***
 
-# ▷ Thai / ไทย
+#  Thai / ไทย
 
 * [Thai Dictionary](https://dictionary.orst.go.th/)
 
-## ▷ Reading / อ่าน
+##  Reading / อ่าน
 
 * [kingsmanga](https://www.kingsmanga.net/) - Manga
 * [novels108](https://www.novels108.com/) - Light Novels
 
 ***
 
-# ▷ Turkish / Türkçe
+#  Turkish / Türkçe
 
 * ⭐ **[caglaryalcin's list](https://github.com/caglaryalcin/ublacklist/)** or [TemizAramaMotorum](https://gitlab.com/fr0stb1rd/temizaramamotorum) - Get rid of low-quality Turkish results
 * [DoğrulukPayı](https://www.dogrulukpayi.com/) - News Verification
 
-## ▷ Downloading / İndirme
+##  Downloading / İndirme
 
 * [Türkçe Altyazı](https://turkcealtyazi.org/) - Subtitles
 * [Playstation Haber](https://playstationhaber.com/) / [MCpsp](https://www.mcpsp.com) - PlayStation Piracy Forums
@@ -1684,7 +1684,7 @@ description: Content in languages other than English.
 * [Sinner Clown](https://sinnerclownceviri.net) / [Discord](https://discord.com/invite/nApvcT6Tt6), [Hangar](https://www.hangarceviri.com) - Game Localizations
 * [mp3semti](https://mp3semti.com/) - Music / MP3s
 
-## ▷ Streaming / İzleme
+##  Streaming / İzleme
 
 * ⭐ **[Hdfilmcehennemi](https://www.hdfilmcehennemi.nl/)** - Movies / TV / Sub / Dub / 1080p
 * ⭐ **[Yabancıdizi](https://yabancidizi.so/)** - Movies / TV / Sub / Dub / 1080p / [Telegram](https://t.me/s/yabancidizipw)
@@ -1705,7 +1705,7 @@ description: Content in languages other than English.
 * [Türk Anime](https://www.turkanime.co/) / [Downloader](https://github.com/KebabLord/turkanime-indirici), [Anizm](https://anizm.net/), [Anime Who](https://animewho.com), [TR Anime İzle](https://www.tranimeizle.co), [OpenAnime](https://openani.me/), [AnimeciX](https://anm.cx/), [SeiCode](https://seicode.net/), [AsyaAnimeleri](https://asyaanimeleri.top/) - Anime
 * [CanlıTV](https://www.canlitv.me/) - Live TV
 
-## ▷ Reading / Okuma
+##  Reading / Okuma
 
 * [Kitap](https://t.me/addlist/ioGiM9KIZvhjOTZk) - Books
 * [E kütüphanem](https://www.whatsapp.com/channel/0029VaAUDreDTkK0uDGbP21z) - Books
@@ -1721,18 +1721,18 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Ukrainian / Українська
+#  Ukrainian / Українська
 
-## ▷ Torrenting
+##  Torrenting
 
 * [Mazepa](https://mazepa.to/) - Video / Audio / Books
 * [Toloka](https://toloka.to/) - Torrent Tracker
 
-## ▷ Reading
+##  Reading
 
 * [manga.in](https://manga.in.ua/) - Manga
 
-## ▷ Streaming
+##  Streaming
 
 * [UASERIAL](https://uaserial.tv/) - Movies / TV / Anime / Use [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_vpn) / [Telegram](https://t.me/uaserialchannel)
 * [UAKino-Bay](https://uakino-bay.net/) - Movies / TV / Anime
@@ -1741,24 +1741,24 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Uzbek / Ўзбек
+#  Uzbek / Ўзбек
 
-## ▷ Downloading
+##  Downloading
 
 * [AsilMedia](http://asilmedia.org/) - Movies / TV / [Telegram](https://t.me/asilmedia_tarjima_kinolar)
 
-## ▷ Streaming
+##  Streaming
 
 * [uzmax.net](https://uzmax.net/) - Movies / TV
 * [AsilMedia](http://asilmedia.org/) - Movies / TV / [Telegram](https://t.me/asilmedia_tarjima_kinolar)
 
-## ▷ Reading
+##  Reading
 
 * [FaylZona](https://t.me/megadokbot) - Books / Documents / Slides
 
 ***
 
-# ▷ Vietnamese / Việt
+#  Vietnamese / Việt
 
 * ⭐ **[Voz.vn](https://voz.vn/)**, [VN-Z](https://vn-z.vn/), [TECHRUM.VN](https://www.techrum.vn/) or [WhiteHat.vn](https://whitehat.vn/) - Tech Forum
 * ⭐ **[J2team](https://www.facebook.com/groups/j2team.community)** - Tech Community
@@ -1772,15 +1772,15 @@ description: Content in languages other than English.
 * [MuaThongMinh](https://muathongminh.vn/) - E-commerce Price Tracker
 * [Unity_Cheat_Sheet](https://github.com/NaomiLe1811/Unity_Cheat_Sheet_Tieng_Viet) - Unity Game Engine Cheat Sheet
 
-## ▷ Downloading / Tải xuống
+##  Downloading / Tải xuống
 
 * [NhạcHayVN](https://nhachayvn.net/) - Music
 
-## ▷ Torrenting / Tải tệp bằng torrent
+##  Torrenting / Tải tệp bằng torrent
 
 * [NetHD](https://nethd.org/) - Video / Audio / Sign-Up Required
 
-## ▷ Streaming / Phát trực tuyến
+##  Streaming / Phát trực tuyến
 
 * ⭐ **[rophim](https://www.rophim.me/phimhay)** - Movies / TV / Anime / Watch Parties / [Telegram](https://t.me/rophimzone), [Telegram](https://t.me/congdongrophim) (Alt) / [Discord](https://discord.gg/rophim)
 * [Phimmoi](https://vuaphimmoi.net/) - Movies / TV / Anime / Sub / Dub / 720p
@@ -1796,7 +1796,7 @@ description: Content in languages other than English.
 * [TVHayHD](https://tv.tvhayhd.org/) - Live TV / 720p
 * [6SVN](https://xem.6svn.com/) - Live TV
 
-## ▷ Free w/ Ads / Miễn phí với quảng cáo
+##  Free w/ Ads / Miễn phí với quảng cáo
 
 * ⭐ **[VTVGo](https://vtvgo.vn/)** - Live TV
 * ⭐ **[ZingMP3](https://zingmp3.vn/)** or [NhacCuaTui](https://www.nhaccuatui.com/) - Music
@@ -1806,7 +1806,7 @@ description: Content in languages other than English.
 * [THVL](https://www.thvli.vn/) - Live TV / Movies / TV / Dub
 * [TV360](https://tv360.vn/) - Live TV / Sub / 1080p
 
-## ▷ Reading / Đọc
+##  Reading / Đọc
 
 * ⭐ **[hoc10](https://hoc10.vn/)** - Textbooks, Study Material, Lecture Notes, etc.
 * ⭐ **[Thư Viện Pháp Luật](https://thuvienphapluat.vn/)** - Legal Information Portal / [Facebook](https://www.facebook.com/ThuVienPhapLuat.vn/)
@@ -1833,7 +1833,7 @@ description: Content in languages other than English.
 
 ***
 
-# ▷ Other Languages
+#  Other Languages
 
 * 🌐 **[Non-English Ebook & Audiobook Sites](https://redd.it/gehkl0)**
 * ↪️ **[Asian Drama Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25B7_drama_streaming)**

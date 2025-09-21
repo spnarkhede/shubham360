@@ -6,13 +6,13 @@ description: Explore the world of AI and machine learning.
 
 # Artificial Intelligence
 
-# ▷ AI Chatbots
+#  AI Chatbots
 
 * **Note** - It's **never** a good idea to upload personal / confidential files or info to any cloud AI, as many train on your questions and code. If you want privacy, its best to run bots yourself locally, and remember to use throwaway emails or [aliasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_email_aliasing) if signing up for bots.
 
 ***
 
-## ▷ Official Model Sites
+##  Official Model Sites
 
 * ⭐ **[AI Studio](https://aistudio.google.com/app/prompts/new_chat)** or 
 [Gemini](https://gemini.google.com/) - Gemini 2.5 Pro / Flash / Google Chatbots 
@@ -54,7 +54,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Multiple Model Sites
+##  Multiple Model Sites
 
 * 🌐 **[Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources)** - Chatbot Resources / Mirrors
 * ⭐ **[LMArena](https://lmarena.ai/?mode=direct)** - Multiple Chatbots / No Sign-Up / [X](https://x.com/lmarena_ai) 
@@ -74,7 +74,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Specialized Chatbots
+##  Specialized Chatbots
 
 * 🌐 **[Awesome AI Web Search](https://github.com/felladrin/awesome-ai-web-search), 
 [2](https://huggingface.co/spaces/Felladrin/awesome-ai-web-search)** - AI Search Engine Index
@@ -108,7 +108,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Self-Hosting Tools
+##  Self-Hosting Tools
 
 * ⭐ **[Jan](https://jan.ai/)** - Self-Hosted 
 / [GitHub](https://github.com/menloresearch/jan)
@@ -148,7 +148,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Roleplaying Chatbots
+##  Roleplaying Chatbots
 
 * 🌐 **[Sukino-Findings](https://rentry.org/Sukino-Findings)** - AI Roleplay Resources
 * ⭐ **[PygmalionAI](https://pygmalion.chat/)** - Self-Hosted Roleplaying Models 
@@ -184,7 +184,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Coding AIs
+##  Coding AIs
 
 * ↪️ **[Coding AI Benchmarks](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25B7_coding_ai_benchmarks)**
 * 🌐 **[Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents)** - Coding / Programming AIs / [Discord](https://discord.gg/U7KEcGErtQ)
@@ -220,7 +220,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-# ▷ AI Tools
+#  AI Tools
 
 * 🌐 **[sindresorhus's Awesome ChatGPT](https://github.com/sindresorhus/awesome-chatgpt)** or [Awesome ChatGPT](https://github.com/uhub/awesome-chatgpt) - AI Resources
 * 🌐 **[Every ChatGPT GUI](https://github.com/billmei/every-chatgpt-gui)** - ChatGPT GUI Index
@@ -249,7 +249,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ AI Prompts
+##  AI Prompts
 
 * **Note** - Bypassing chatbot safeguards (aka jailbreaking) is against the TOS of most AI, so use them at your own risk.
 
@@ -271,7 +271,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-# ▷ AI Indexes
+#  AI Indexes
 
 * 🌐 **[⁠LLM Explorer](https://llm-explorer.com/)** or [LifeArchitect](https://lifearchitect.ai/models-table/) - LLM Databases / Indexes
 * 🌐 **[FutureTools](https://www.futuretools.io/?pricing-model=free)** - AI Directory / [Discord](https://discord.gg/WBk4ZDW6A9)
@@ -287,7 +287,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ AI Benchmarks
+##  AI Benchmarks
 
 * ⭐ **[Artificial Analysis](https://artificialanalysis.ai/)** - Chatbot Benchmarks / [X](https://x.com/ArtificialAnlys)
 * ⭐ **[LMArena](https://lmarena.ai/leaderboard)** - Chatbot Leaderboards / Benchmarks / [Discord](https://discord.com/invite/lmarena) / [GitHub](https://github.com/lm-sys/FastChat)
@@ -309,7 +309,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Coding AI Benchmarks
+##  Coding AI Benchmarks
 
 * ⭐ **[EvalPlus Leaderboard](https://evalplus.github.io/leaderboard.html)** - Coding AI Leaderboard / Benchmarks / [GitHub](https://github.com/evalplus/evalplus)
 * ⭐ **[LiveSWEBench](https://liveswebench.ai/)** - Software Engineering AI Leaderboard / Benchmarks
@@ -323,7 +323,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-# ▷ Text Generators
+#  Text Generators
 
 * ⭐ **[TextFX](https://textfx.withgoogle.com/)** / [GitHub](https://github.com/google/generative-ai-docs/tree/main/demos/palm/web/textfx) or [Rytr](https://rytr.me/) - AI Creative Writing Tools / No Sign-Up
 * [Scrip AI](https://scripai.com/) (No Sign-Up), [INK](https://app.inkforall.com/tools), [QuickPen AI](https://quickpenai.com/) - Online AI Text Tools
@@ -333,15 +333,15 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ [Text Rephrasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_text_rephrasing)
+##  [Text Rephrasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_text_rephrasing)
 
 ***
 
-## ▷ [Grammar Check](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_grammar_check)
+##  [Grammar Check](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_grammar_check)
 
 ***
 
-# ▷ Video Generation
+#  Video Generation
 
 * 🌐 **[VBench](https://huggingface.co/spaces/Vchitect/VBench_Leaderboard)** - Video Generation Model Leaderboard
 * [AI Studio](https://aistudio.google.com/generate-video) - Veo 2 / [Subreddit](https://www.reddit.com/r/Bard/) / [Discord](https://discord.com/invite/gemini)
@@ -363,7 +363,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-# ▷ Image Generation
+#  Image Generation
 
 * 🌐 **[⁠Imgsys Rankings](https://imgsys.org/rankings)** - Image Generator Benchmarks / Leaderboards
 * ⭐ **[LMArena](https://lmarena.ai/?mode=direct&chat-modality=image)** - Multiple Generators / Editing / No Sign-Up / [Discord](https://discord.com/invite/lmarena) / [GitHub](https://github.com/lm-sys/FastChat)
@@ -399,7 +399,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Local Frontends
+##  Local Frontends
 
 * ⭐ **[Stability Matrix](https://lykos.ai/)** / [Discord](https://discord.com/invite/TUrgfECxHz) / [GitHub](https://github.com/LykosAI/StabilityMatrix)
 * ⭐ **[Invoke](https://invoke-ai.github.io/InvokeAI/)** / [Discord](https://discord.com/invite/ZmtBAhwWhy) / [GitHub](https://github.com/invoke-ai/InvokeAI)
@@ -420,7 +420,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Guides / Tools
+##  Guides / Tools
 
 * 🌐 **[Paper2GUI](https://github.com/Baiyuetribe/paper2gui/blob/main/README_en.md)**, [sdg-link](https://rentry.co/sdg-link), [LocalModelsLinks](https://rentry.org/LocalModelsLinks) or [SDTools](https://sdtools.org) - AI Image Resources
 * 🌐 **[Civitai](https://civitai.com/)** - SD Model Index / [Subreddit](https://www.reddit.com/r/civitai/) / [Discord](https://discord.gg/UwX5wKwm6c) / [GitHub](https://github.com/civitai/civitai)
@@ -435,11 +435,11 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ [Image Restoration](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_upscale_.2F_restore)
+##  [Image Restoration](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_upscale_.2F_restore)
 
 ***
 
-# ▷ Audio Generation
+#  Audio Generation
 
 * ⭐ **[Suno](https://suno.com/)** - [Guide](https://sunoaiwiki.com/en) / [Discord](https://discord.com/invite/suno)
 * [MusicFX](https://labs.google/fx/tools/music-fx) / Region-Based
@@ -465,7 +465,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Text to Speech
+##  Text to Speech
 
 * ⭐ **[TTS Online](https://www.text-to-speech.online/)** / No Sign-Up
 * [Uberduck](https://uberduck.ai/) / [Discord](https://discord.gg/uberduck-768215836665446480)
@@ -499,7 +499,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Voice Change / Clone
+##  Voice Change / Clone
 
 * ⭐ **[Applio](https://applio.org/)** - Voice Cloning / No Sign-Up / [Discord](https://discord.gg/urxFjYmYYh) / [GitHub](https://github.com/IAHispano/Applio)
 * ⭐ **[RVC V2](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/en/README.en.md)** - RVC V2 Voice Cloning (Locally) / [Colab](https://colab.research.google.com/github/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/Retrieval_based_Voice_Conversion_WebUI_v2.ipynb) / [Discord](https://discord.gg/HcsmBBGyVk)
@@ -513,7 +513,7 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-## ▷ Voice Removal / Separation
+##  Voice Removal / Separation
 
 * 🌐 **[MultiSong Leaderboard](https://mvsep.com/quality_checker/multisong_leaderboard)** - Music & Voice Separation AI Leaderboards
 * ⭐ **[UVR5 UI](https://huggingface.co/spaces/Eddycrack864/UVR5-UI)** / [Limits](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#hugging-face-warning) / [GitHub](https://github.com/Eddycrack864/UVR5-UI)
@@ -531,4 +531,4 @@ description: Explore the world of AI and machine learning.
 
 ***
 
-# ▷ [Machine Learning](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_machine_learning)
+#  [Machine Learning](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_machine_learning)

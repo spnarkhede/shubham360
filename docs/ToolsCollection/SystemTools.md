@@ -36,7 +36,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ System Tweaks
+##  System Tweaks
 
 * ⭐ **[SophiaScript](https://github.com/farag2/Sophia-Script-for-Windows)**, **[Windhawk](https://windhawk.net/)**, [MajorGeeks Windows Tweaks](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html) or [Winaero](https://winaero.com/) / [2](https://winaerotweaker.com/) - System Tweaking Tools / **[Warning](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#general-tweak-warning)**
 * ⭐ **[StartAllBack](https://www.startallback.com/)** - Tweaked Start Menu & Taskbar / Windows 11 / [Unlock](https://rentry.co/FMHYBase64#startxback) / [Install Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#startallback)
@@ -65,7 +65,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Package Managers
+##  Package Managers
 
 * ⭐ **[WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget)** - CLI Package Manager / [Browse](https://winstall.app/) / [Auto Update](https://github.com/Romanitho/Winget-AutoUpdate) / [GitHub](https://github.com/microsoft/winget-cli)
 * ⭐ **[UniGetUI](https://www.marticliment.com/unigetui/)** - GUI for Popular Package Managers / [GitHub](https://github.com/marticliment/UniGetUI)
@@ -82,7 +82,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Task Automation
+##  Task Automation
 
 * ⭐ **[AutoHotkey](https://www.autohotkey.com/)** / [Resources](https://github.com/ahkscript/awesome-AutoHotkey) / [Discord](https://discord.com/invite/Aat7KHmG7v)
 * [Scheduler](https://www.splinterware.com/products/scheduler.html) or [TaskRunner](https://www.keyefficiency.com/) - System Task Scheduler
@@ -95,7 +95,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Terminal / CLI
+##  Terminal / CLI
 
 * 🌐 **[The Terminal Directory](https://termui.sh/)** or [⁠Awesome Terminals](https://github.com/cdleon/awesome-terminals) - Terminal Emulator Lists
 * 🌐 **[terminals-are-sexy](https://terminalsare.sexy/)** - Terminal Resources
@@ -115,7 +115,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Remote Desktop
+##  Remote Desktop
 
 * ⭐ **[Parsec](https://parsec.app/)** - Desktop Client / [X](https://x.com/parsecteam) / [Discord](https://discord.com/invite/cQjEGFy)
 * ⭐ **[RustDesk](https://rustdesk.com/)** - Desktop Client / [Subreddit](https://www.reddit.com/r/rustdesk/) / [Discord](https://discord.com/invite/nDceKgxnkV) / [GitHub](https://github.com/rustdesk/rustdesk)
@@ -140,7 +140,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Clipboard Managers
+##  Clipboard Managers
 
 * ⭐ **[Ditto](https://ditto-cp.sourceforge.io/)** - Clipboard Manager / [GitHub](https://sabrogden.github.io/Ditto/)
 * [PasteBar](https://www.pastebar.app/) - Clipboard Manager / [GitHub](https://github.com/PasteBar/PasteBarApp)
@@ -152,7 +152,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Window Managers
+##  Window Managers
 
 * ⭐ **[GlazeWM](https://github.com/glzr-io/glazewm)** - Tiling Window Manager Inspired by i3wm
 * ⭐ **[Komorebi](https://github.com/LGUG2Z/komorebi)** or **[WorkSpacer](https://workspacer.org/)** / [GitHub](https://github.com/workspacer/workspacer) - Tiling Window Managers
@@ -161,7 +161,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Virtual Machines
+##  Virtual Machines
 
 * 🌐 **[Awesome Web Desktops](https://github.com/syxanash/awesome-web-desktops)** or [Simone's Computer](https://simone.computer/#/webdesktops) - OS Emulators / VMs
 * ↪️ **[Android Emulators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_emulators)**
@@ -183,7 +183,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Hackintosh
+##  Hackintosh
 
 * **Note** - Generating a unique SMBIOS is crucial for Apple services like iMessage and iCloud to function properly.
 
@@ -198,7 +198,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-# ▷ Hardware Tools
+#  Hardware Tools
 
 * ↪️ **[PC Building / Shopping](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_electronics)**
 * ⭐ **[PSU Calculator](https://www.newegg.com/tools/power-supply-calculator/)** - Find Compatible Power Supplies
@@ -212,7 +212,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Hardware Monitors
+##  Hardware Monitors
 
 * ⭐ **[HWiNFO](https://www.hwinfo.com/)** - System Info & Monitoring
 * [Traffic Monitor](https://github.com/zhongyang219/TrafficMonitor/) - Network & Hardware Monitor
@@ -228,7 +228,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ GPU Tools
+##  GPU Tools
 
 * ⭐ **[NVTOP](https://github.com/Syllo/nvtop)** - GPU / Accelerator Process Monitor
 * ⭐ **[GreenWithEnvy](https://gitlab.com/leinardi/gwe)** - Manage / Control NVIDIA Cards
@@ -244,7 +244,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Disk Tools
+##  Disk Tools
 
 * 🌐 **[Awesome Storage](https://github.com/okhosting/awesome-storage)** - File Storage Resources
 * 🌐 **[Awesome DataHoarding](https://github.com/simon987/awesome-datahoarding)** - Data Hoarding Resources
@@ -265,7 +265,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Monitor Tools
+##  Monitor Tools
 
 * ⭐ **[DisplayFusion](https://www.displayfusion.com/)** or [Dual Monitor Tool](https://sourceforge.net/projects/dualmonitortool/) - Dual Monitor Tools
 * ⭐ **[f.lux](https://justgetflux.com/)**, [LightBulb](https://github.com/Tyrrrz/LightBulb) or [ScreenTemperature](https://github.com/massaiTHEdog1/ScreenTemperature) - Adjust Display Color / Temperature
@@ -289,7 +289,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Mouse / Keyboard
+##  Mouse / Keyboard
 
 * ⭐ **[r/MechanicalKeyboards Wiki](https://www.reddit.com/r/MechanicalKeyboards/wiki/index)** - Mechanical Keyboard Resources
 * ⭐ **[Hotkey Cheatsheet](https://hotkeycheatsheet.com/)**, [KeyCombiner](https://keycombiner.com/) or [Use The Keyboard](https://usethekeyboard.com/) - Hotkey Cheatsheets
@@ -316,7 +316,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ System Audio
+##  System Audio
 
 * ⭐ **[Equalizer APO](https://sourceforge.net/projects/equalizerapo/)**, [2](https://equalizerapo.com/) / [GUI](https://sourceforge.net/projects/peace-equalizer-apo-extension/), **[AutoEq](https://autoeq.app/)**, [Dolby Access](https://apps.microsoft.com/detail/9n0866fs04w8) / [Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#dolby-access--atmos-note) or [FXSound](https://www.fxsound.com/) - Audio Equalizers
 * [VoiceMeeter](https://vb-audio.com/Voicemeeter/index.htm) - Audio Mixers / Multi-Device Playback / [Banana](https://vb-audio.com/Voicemeeter/banana.htm) 
@@ -332,7 +332,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-# ▷ Windows ISOs
+#  Windows ISOs
 
 * ⭐ **[Genuine Installation Media](https://rentry.co/FMHYBase64#genuine-installation-media)** - Windows ISOs / [Clean Install Guide](https://gravesoft.dev/clean_install_windows)
 * ⭐ **[Windows Install / Debloat Guide](https://wispydocs.netlify.app/docs/windows/)**
@@ -347,7 +347,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ USB / Bootloaders
+##  USB / Bootloaders
 
 * ⭐ **[Rufus](https://rufus.ie/)** - Create Bootable USB Drives / [GitHub](https://github.com/pbatard/rufus)
 * [⁠balenaEtcher](https://etcher.balena.io/) - Create Bootable USB Drives
@@ -357,7 +357,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Windows Activation
+##  Windows Activation
 
 * ⭐ **[MAS](https://rentry.co/FMHYBase64#mas)** - Windows & Office Activation / [Discord](https://discord.gg/gjJEfq7ux8)
 * [KMS_VL_ALL_AIO](https://rentry.co/FMHYBase64#kms-vl) - Windows & Office Activation / Offline
@@ -365,7 +365,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Windows Updates
+##  Windows Updates
 
 * ⭐ **[Windows 10 After EOL](https://rentry.co/FMHYBase64#win10-eol)** - Receive Windows Updates After Win10's End-Of-Life
 * ⭐ **[ChangeWindows](https://www.changewindows.org/timeline)** - Latest Windows Update Info
@@ -377,7 +377,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Windows Repair
+##  Windows Repair
 
 * [MagNumDB](https://www.magnumdb.com/), [ErrorLookup](https://github.com/henrypp/errorlookup) or [Microsoft Error Lookup](https://learn.microsoft.com/en-us/windows/win32/debug/system-error-code-lookup-tool) - Windows Debugging Tools
 * [Medicat](https://medicatusb.com/) / [GitHub](https://github.com/mon5termatt/medicat_installer), [⁠SergeiStrelec](https://sergeistrelec.name/), [PhoenixPE](https://github.com/PhoenixPE/PhoenixPE) or [Hiren's BootCD PE](https://www.hirensbootcd.org/) - WinPE / Recovery Toolkits
@@ -386,7 +386,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-# ▷ Customization
+#  Customization
 
 * 🌐 **[Windows-Ricing](https://github.com/winthemers/wiki)** or [Heliohost Guide](https://ninjasr.varesia.com/w/lb/windows) - Windows Ricing Resources
 * ⭐ **[Rainmeter](https://www.rainmeter.net/)** - Desktop Customization / [Discord](https://discord.com/invite/rainmeter)
@@ -421,7 +421,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ App Themes
+##  App Themes
 
 * ⭐ **[Dracula](https://draculatheme.com/)** / [Discord](https://discord.com/invite/yDcFsrYuq9) or **[Catppuccin](https://catppuccin.com/)** / [Discord](https://discord.gg/r6Mdz5dpFc) - Custom App Themes
 * [Rosé Pine](https://rosepinetheme.com/) / [Discord](https://discord.gg/r6wf35KVJW), [Aura Theme](https://github.com/daltonmenezes/aura-theme) or [theme.park](https://theme-park.dev/) - Custom App Themes
@@ -432,7 +432,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Wallpapers
+##  Wallpapers
 
 * 🌐 **[WallSync](https://moddingstuff.site/)**, [2](https://wallsync.pages.dev/) - Wallpaper Site Index / [GitHub](https://github.com/leroiduflow/Wallsync)
 * ⭐ **[wallhaven.cc](https://wallhaven.cc/)** - Search Wallpapers / [Downloader](https://github.com/eramdam/WallbaseDirectDownloader)
@@ -461,7 +461,7 @@ description: Essential system utilities, performance monitoring, and system opti
 
 ***
 
-## ▷ Wallpaper Tools
+##  Wallpaper Tools
 
 * ⭐ **[Wallpaper Engine](https://rentry.co/FMHYBase64#wallpaper-engine)** / [PKG to Zip](https://github.com/TheRioMiner/Wallpaper-Engine-Pkg-to-Zip) / [Collections](https://www.wallpaperengine.space/collections), [2](https://steamcommunity.com/sharedfiles/filedetails/?id=2801058904) / [Workshop DL](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools#wiki_.25B7_steam_workshop_downloaders) - Wallpaper / Live Wallpaper Manager
 * ⭐ **[Lively](https://www.rocksdanister.com/lively/)** or [ScreenPlay](https://screen-play.app/) - Live Wallpaper Manager

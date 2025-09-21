@@ -6,7 +6,7 @@ description: Content too niche to be included elsewhere.
 
 # Miscellaneous 
 
-# ▷ Indexes
+#  Indexes
 
 * 🌐 **[Awesome List Index](https://github.com/sindresorhus/awesome), [2](https://github.com/topics/awesome)**, [Awesome.facts](https://awesome.facts.dev/) or [awesome-list](https://github.com/topics/awesome-list) - All Awesome Lists
 * 🌐 **[lists](https://github.com/jnv/lists)** - List Index
@@ -39,7 +39,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Site / Tool Indexes
+##  Site / Tool Indexes
 
 * ⭐ **[Ripped](https://ripped.guide/)** - Piracy Index / [Discord](https://discord.ripped.guide/)
 * ⭐ **[r/PiratedGames Megathread](https://rentry.org/pgames)** - Game Piracy Index / [Discord](https://discord.gg/dZWwhUy)
@@ -58,7 +58,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Free Stuff
+#  Free Stuff
 
 * ⭐ **[OneHack](https://onehack.us/)** - Giveaway Community / [Telegram](https://t.me/Official_OneHack)
 * [AppAgg](https://appagg.com/) - Multi-Platform / Apps / [Discord](https://discord.gg/XUhs6fcFqQ) / [GitHub](https://github.com/AppsAgg/AppAgg)
@@ -79,7 +79,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Free Games
+##  Free Games
 
 * ⭐ **[IsThereAnyDeal](https://isthereanydeal.com/giveaways/)** - Games / [Discord](https://discord.com/invite/C3K4bBh)
 * [Free Games Claimer](https://github.com/vogler/free-games-claimer) - Auto-Claim Free Epic, Amazon, and GOG Games
@@ -110,7 +110,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Assistance / Charity
+##  Assistance / Charity
 
 * ⭐ **[⁠FindHelp](https://www.findhelp.org/)** - Find Free or Reduced-Cost Resources / US Only
 * [⁠Single Mother Guide](https://singlemotherguide.com/) - Single Mother Government Benefits Guide / US Only
@@ -124,7 +124,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Food
+#  Food
 
 * 🌐 **[/m/food](https://www.reddit.com/user/Siryonkee/m/food/)** - Food Multireddit
 * 🌐 **[MapOfTheBest](https://mapofthebest.com/)** - Top Restaurant List
@@ -149,7 +149,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Recipes
+##  Recipes
 
 * 🌐 **[TheGreatestCookbooks](https://thegreatestbooks.org/v/grid/the-greatest/cookbooks/books)** - Expert Recommended Cookbooks
 * ⭐ **[Tandoor Recipes](https://docs.tandoor.dev/)**, [Mealie](https://mealie.io/) / [Discord](https://discord.com/invite/QuStdQGSGK), [Cooked](https://cooked.wiki/) or [ManageMeals](https://managemeals.com/) - Recipe Managers
@@ -178,7 +178,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Drinks
+##  Drinks
 
 * ⭐ **[/coffee/](https://dan.valeena.dev/guides/coffee-guide/)**, [2](https://rentry.co/coffeeguide) or [Coffee Time General](https://pastebin.com/UEzwuyLz) - Coffee Brewing Masterlists / Guides
 * ⭐ **[Beanconqueror](https://beanconqueror.com/)** - Coffee Tracking App / [GitHub](https://github.com/graphefruit/Beanconqueror)
@@ -193,7 +193,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Household
+#  Household
 
 * ↪️ **[Raspberry Pi Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_raspberry_pi)**
 * ⭐ **[Home Assistant](https://www.home-assistant.io/)** - Home Assistant / IoT / [GUI](https://github.com/LAB02-Research/HASS.Agent)
@@ -211,7 +211,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Gardening
+#  Gardening
 
 * 🌐 **[Awesome Agriculture](https://github.com/brycejohnston/awesome-agriculture)** - Agriculture Resources
 * 🌐 **[Agriculture / Gardening Subreddits](https://rentry.co/TouchGrasss)**
@@ -238,7 +238,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Vehicle
+#  Vehicle
 
 * 🌐 **[Awesome Vehicle Security](https://github.com/jaredthecoder/awesome-vehicle-security)** - Vehicle Security Resources
 * [Startmycar](https://www.startmycar.com), [CarCareKiosk](https://www.carcarekiosk.com/) or [CarComplaints](https://www.carcomplaints.com/) - Car Repair Sites
@@ -256,7 +256,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Travel
+#  Travel
 
 * ↪️ **[Concerts / Live Shows](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio/#wiki_.25B7_concerts_.2F_live_shows)**
 * ⭐ **[Atlas Obscura](https://www.atlasobscura.com/)** / [Mobile](https://app.atlasobscura.com/), [Wikivoyage](https://www.wikivoyage.org) or [WikiTravel](https://wikitravel.org/) - Travel Guides
@@ -271,7 +271,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Flights
+##  Flights
 
 * **Note** - Remember it's always good to cross-check flight prices across multiple providers + the airline's site itself to be sure you're getting the best deal.
 
@@ -287,7 +287,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Maps
+#  Maps
 
 * 🌐 **[Awesome Maps](https://github.com/simsieg/awesome-maps)** - Online Map Resources
 * 🌐 **[Soar](https://soar.earth/)**, [ArcGIS Living Atlas](https://livingatlas.arcgis.com/) or [Cool Maps](https://coolmaps.esri.com/) - Atlases
@@ -320,7 +320,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Navigation / Transport
+##  Navigation / Transport
 
 * ⭐ **[Google Maps](https://www.google.com/maps/)**, [Apple Maps](https://beta.maps.apple.com/), [Bing Maps](https://www.bing.com/maps) or [Mapy](https://en.mapy.cz/) - Online / Offline Maps
 * ⭐ **[Comaps](https://www.comaps.app/)** / [Source Code](https://codeberg.org/comaps/comaps) or [Organic Maps](https://organicmaps.app/) / [Subreddit](https://www.reddit.com/r/organicmaps/) / [Telegram](https://t.me/OrganicMaps) / [GitHub](https://github.com/organicmaps/organicmaps) - Offline Maps
@@ -338,7 +338,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Railway Maps
+##  Railway Maps
 
 * [OpenRailwayMap](https://www.openrailwaymap.org/) - World's Railway Infrastructure
 * [trains.fyi](https://trains.fyi/) - Real-Time North America Train Tracker
@@ -354,7 +354,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Climate / Weather
+##  Climate / Weather
 
 * ⭐ **[Windy](https://www.windy.com/)**, **[Ventusky](https://www.ventusky.com/)**, [⁠WXCharts](https://wxcharts.com/), [Earth Observatory](https://earthobservatory.nasa.gov/global-maps), [Zoom Earth](https://zoom.earth/), [Weatherwise](https://web.weatherwise.app/), [Earth Now](https://climate.nasa.gov/earth-now/), [Earth](https://earth.nullschool.net/) or [satellite-map.gosur](https://satellite-map.gosur.com/) - General Weather / Climate Maps
 * [⁠CyclonicWx](https://cyclonicwx.com/) - Tropical Weather Tracking Tools / Plotting
@@ -377,7 +377,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Geography Maps
+##  Geography Maps
 
 * [Falling Fruit](https://fallingfruit.org/) - Urban Harvesting Map
 * [HungerMap](https://hungermap.wfp.org/) - Global Hunger Map
@@ -399,7 +399,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Geology Maps
+##  Geology Maps
 
 * [USGS Maps](https://www.usgs.gov/products/maps) - Geologic Maps / 3-D Geologic Frameworks
 * [Macrostrat](https://macrostrat.org/) - Geological Data Map
@@ -416,7 +416,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Historic Maps
+##  Historic Maps
 
 * 🌐 **[Map History](https://www.maphistory.info/)** or [David Rumsey Map Collection](https://www.davidrumsey.com/) - Historical Map Indexes
 * ⭐ **[Running Reality](https://www.runningreality.org/)**, [Chronas](https://www.chronas.org/) or [OldMapsOnline](https://www.oldmapsonline.org/) - Interactive Historical Maps
@@ -437,7 +437,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Infrastructure Maps
+##  Infrastructure Maps
 
 * [Open Infrastructure Map](https://openinframap.org/) - Global Infrastructure Map
 * [PowerOutage.us](https://poweroutage.us/) - US Power Outage Map
@@ -450,7 +450,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Satellite / Earth Data
+##  Satellite / Earth Data
 
 * ⭐ **[Google Earth](https://www.google.com/earth/about/versions/)** - Earth Viewer
 * [Huge Earth Maps](https://maps.drsys.eu/) - High Res Earth Maps
@@ -467,7 +467,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ News
+#  News
 
 * 🌐 **[AllYouCanRead](https://www.allyoucanread.com/)** - Worldwide News Sites Index
 * ↪️ **[Newspaper Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading#wiki_.25B7_newspapers)**
@@ -503,7 +503,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Aggregators
+##  Aggregators
 
 * ⭐ **[Spike News](https://readspike.com/)**, [2](https://spike.news/)
 * [QotNews](https://news.t0.vc/) - Hacker News / Reddit / Lobsters / Tildes
@@ -523,7 +523,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Tech News
+##  Tech News
 
 * ↪️ **[Dev / Cybersecurity News](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25BA_dev_news)**
 * ⭐ **[⁠GamersNexus](https://gamersnexus.net/)** - PC Gaming News
@@ -543,7 +543,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Hacker News Tools
+##  Hacker News Tools
 
 * 🌐 **[Awesome Hacker News](https://github.com/cheeaun/awesome-hacker-news)** - HN Apps & Resources Index
 * ⭐ **[Newsit](https://newsit.benwinding.com/)** - Webpage Comments Widget / [GitHub](https://github.com/benwinding/newsit)
@@ -556,7 +556,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Science News
+##  Science News
 
 * ⭐ **[phys](https://phys.org/)** - Physics News / Articles
 * [SciURLs](https://sciurls.com/)
@@ -570,9 +570,9 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Health
+#  Health
 
-## ▷ Mental Health
+##  Mental Health
 
 * 🌐 **[Awesome Mental Health](https://dreamingechoes.github.io/awesome-mental-health)** or [mentalillnessmouse](https://mentalillnessmouse.wordpress.com/helpfulresources/) - Mental Health Resources
 * ↪️ **[Relaxation / Ambient](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio/#wiki_.25B7_ambient_.2F_relaxation)**
@@ -592,7 +592,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Physical Health
+##  Physical Health
 
 * ⭐ **[Simple Science Fitness](https://ss.fitness/calculators)** - Fitness Calculators
 * ⭐ **[BMI Chart](https://en.wikipedia.org/wiki/Body_mass_index#/media/File:BMI_chart.png)** - BMI Range Graph
@@ -614,7 +614,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Workout / Exercise
+##  Workout / Exercise
 
 * 🌐 **[Evidence-Based Training Wiki](https://www.reddit.com/r/EvidenceBasedTraining/wiki/index/)** - Evidence-Based Training Resources
 * 🌐 **[ExRx.net](https://exrx.net/)** - Exercise Resources
@@ -646,7 +646,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Nutritional Health
+##  Nutritional Health
 
 * ⭐ **[Nutritionix](https://www.nutritionix.com/)** - Nutrition Tracker App
 * ⭐ **[r/Nutrition](https://www.reddit.com/r/nutrition/)** - Nutrition Subreddit
@@ -672,7 +672,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Sexual Health
+##  Sexual Health
 
 * [babycenter](https://www.babycenter.com/) - Pregnancy and Parenting Resources
 * [Pregnancy Calculator](https://americanpregnancy.org/resources/pregnancy-calculator/) - Due Date Calculator
@@ -685,7 +685,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Detoxing / Sobriety
+##  Detoxing / Sobriety
 
 * ⭐ **[r/NoSurf](https://www.reddit.com/r/nosurf/wiki/index)** - Digital Detox Community / [Discord](https://discord.com/invite/QFhXt2F)
 * [Farhan](https://github.com/tahaak67/Farhan), [LockMeOut](https://play.google.com/store/apps/details?id=vikesh.dass.lockmeout), [DetoxDroid](https://github.com/flxapps/DetoxDroid) or [StopScroll](https://play.google.com/store/apps/details?id=com.noscroll.antiscroll) - Control Phone Addiction
@@ -698,7 +698,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Porn Quitting
+##  Porn Quitting
 
 * ↪️ **[Site Blocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_productivity_tools)**
 * ⭐ **[EasyPeasy](https://easypeasymethod.org/)**, [2](https://gitlab.com/snuggy/easypeasy) / [Audiobook](https://youtu.be/ZktxO6adTnI) or [QuitPornEasily](https://quitporneasily.com/) - Painlessly Quit Pornography
@@ -714,7 +714,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Career
+#  Career
 
 * 🌐 **[Common Q&As](https://www.indeed.com/career-advice/interviewing/top-interview-questions-and-answers)** - Interview Questions Index
 * ⭐ **[Comparably](https://www.comparably.com/)** or [GoodFirms](https://www.goodfirms.co/) - Compare Companies / Salaries
@@ -759,7 +759,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Job Search / Application
+##  Job Search / Application
 
 * ⭐ **[5000 Best Job Sites](http://5000best.com/websites/Jobs/)** or [Indeed](https://www.indeed.com/) - Job Search Sites
 * ⭐ **[4-Day Week](https://4dayweek.io/)** - Find Jobs with 4-Day Weeks
@@ -775,7 +775,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Resume / Portfolio
+##  Resume / Portfolio
 
 * ⭐ **[RX Resume](https://rxresu.me/)** / [GitHub](https://github.com/amruthpillai/reactive-resume), [FlowCV](https://flowcv.com/), [HeyCV](https://heycv.app/), [Resuminator](https://www.resuminator.in/) / [GitHub](https://github.com/resuminator/resuminator) or [Sheets](https://sheetsresume.com/builder) - Resume Builders
 * ⭐ **[KickResume](https://www.kickresume.com/en/help-center/resume-samples/)** - Resume Samples
@@ -787,7 +787,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Remote Jobs
+##  Remote Jobs
 
 * 🌐 **[Awesome Remote Jobs](https://github.com/lukasz-madon/awesome-remote-job)** or [Established Remote](https://github.com/yanirs/established-remote) - Remote Job Resources
 * 🌐 **[⁠remote-jobs](https://remoteintech.company/)** - Remote Friendly Company Index / [GitHub](https://github.com/remoteintech/remote-jobs)
@@ -816,7 +816,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Tech Jobs
+##  Tech Jobs
 
 * 🌐 **[Awesome Interview](https://github.com/DopplerHQ/awesome-interview-questions)** or [30-sec](https://30secondsofinterviews.org/) - Tech Interview Questions Indexes
 * 🌐 **[Summer 2025 Internships](https://github.com/SimplifyJobs/Summer2025-Internships)** - Tech Internships List / [Notifications](https://swelist.com/)
@@ -852,7 +852,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Startup
+##  Startup
 
 * 🌐 **[Awesome Startup](https://github.com/Ibexoft/awesome-startup-tools-list)**, [Awesome Launch](https://github.com/soGeneri/awesome-launch) or [Tools for Startups](https://docs.google.com/spreadsheets/d/1s6-hGBh0_tqa-jd23fsdYuwbmS8UPmElPqaH-Rnoa_A/htmlview) - Startup Resources Indexes
 * 🌐 **[moreThanFAANGM](https://kaustubh-natuskar.github.io/moreThanFAANGM/)** - Good Companies / Startups Index
@@ -864,7 +864,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Collaboration Platforms
+##  Collaboration Platforms
 
 * ⭐ **[NextCloud](https://nextcloud.com/)** - Collaboration Platform / File Sharing / [GitHub](https://github.com/nextcloud)
 * [Teams for Linux](https://github.com/IsmaelMartinez/teams-for-linux) - Unofficial Teams Client / Windows, Mac, Linux
@@ -886,7 +886,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Finance / Savings
+##  Finance / Savings
 
 * 🌐 **[r/PersonalFinance Wiki](https://www.reddit.com/r/personalfinance/wiki/index)** or [UK Personal Finance](https://ukpersonal.finance/) - Financial Advice / Resources
 * ⭐ **[TradingView](https://www.tradingview.com/)**, [ticker](https://github.com/achannarasappa/ticker), [finviz](https://finviz.com/) or [Markets.sh](https://markets.sh/) - Stock Market Trackers
@@ -917,7 +917,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Crypto / Bitcoin
+##  Crypto / Bitcoin
 
 * **Note** - It's recommended to store cryptocurrency offline in cold wallets such as Electrum, rather than exchanges like Binance or others. This increases security and gives you full control of your assets.
 
@@ -942,7 +942,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Shopping
+#  Shopping
 
 * 🌐 **[⁠Monerica](https://monerica.com/status/verified)** - Monero-Friendly Online Shop Index
 * ⭐ **[ThisIsWhyImBroke](https://www.thisiswhyimbroke.com/)** - Find Interesting Things to Buy
@@ -970,7 +970,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Electronics
+##  Electronics
 
 * ⭐ **[PCPartPicker](https://pcpartpicker.com/)**, [BuildCores](http://www.buildcores.com/) / [Subreddit](https://reddit.com/r/buildcores) / [Discord](https://discord.gg/gxHtZx3Uxe), [Newegg PC Builder](https://www.newegg.com/tools/custom-pc-builder) or [CGDirector](https://www.cgdirector.com/pc-builder/) - PC Building Sites
 * ⭐ **[r/PCMasterrace Builds](https://pcmasterrace.org/builds)** / [2](https://www.reddit.com/r/pcmasterrace/wiki/builds/), [r/BuildaPC Wiki](https://www.reddit.com/r/buildapc/wiki/index) or [PC Tiers](https://pctiers.com/) - PC Building Guides / **[Video](https://youtu.be/s1fxZ-VWs2U)**
@@ -1013,7 +1013,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Games
+##  Games
 
 * ↪️ **[Steam Store Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools#wiki_.25B7_store_tools)**
 * ⭐ **[GG.deals](https://gg.deals/)** - Multi-Store / Mutli-Platform / [Discord](https://discord.com/invite/NhsTFvdHXG)
@@ -1037,7 +1037,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Apps
+##  Apps
 
 * [AppRaven](https://appraven.net/activity/pricedrops?ratingCount=0&price=FREE) - Apple Platform Apps / Games / [Subreddit](https://www.reddit.com/r/AppRaven/) / [Telegram](https://t.me/AppRavenOfficial) / [Discord](https://discord.com/invite/q8nPsNAypC)
 * [App Sales](https://www.app-sales.net/nowfree/) - Android Apps
@@ -1049,7 +1049,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Toys / Collectibles
+##  Toys / Collectibles
 
 * [MyFigureCollection](https://myfigurecollection.net/) - Japanese Pop-Culture Merch Database
 * [Pokechange](https://en.pokechange.net/) or [Misprint](https://www.misprint.com/) - Buy / Sell Pokémon Cards
@@ -1062,7 +1062,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Price Tracking
+##  Price Tracking
 
 * ⭐ **[Dupe](https://dupe.com/)** or [wtf.deals](https://wtf.deals/) - Furniture Duplicate Deals Search
 * ⭐ **[Keepa](https://keepa.com/)**, [PriceHistory](https://pricehistoryapp.com/) or [CamelCamelCamel](https://camelcamelcamel.com/) / [Charts](https://greasyfork.org/en/scripts/416590) - Amazon Price Trackers / [App](https://play.google.com/store/apps/details?id=com.offertadelgiorno.offertadelgiorno)
@@ -1073,7 +1073,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Useful Sites
+#  Useful Sites
 
 * ↪️ **[Manual Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading#wiki_.25B7_manuals)** - Repair Articles / Manuals
 * ↪️ **[Mind Mapping](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_mind_mapping)**
@@ -1116,7 +1116,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Multi Tool Sites
+##  Multi Tool Sites
 
 * 🌐 **[Mr Free Tools](https://mrfreetools.com/)** - Find Free Tools
 * ⭐ **[TinyWow](https://tinywow.com/)** - Text / Image / PDF / File
@@ -1147,7 +1147,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Productivity Tools
+##  Productivity Tools
 
 * 🌐 **[ProductivePrivacy](https://priductive.com/)** - Privacy-Focused Productivity Apps
 * ↪️ **[To-Do Lists](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_to_do_lists)**
@@ -1174,7 +1174,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Calendars / Events
+##  Calendars / Events
 
 * ⭐ **[Cal.com](https://cal.com/)** / [GitHub](https://github.com/calcom/cal.com)
 * [Event Rally](https://rallly.co/) / [GitHub](https://github.com/lukevella/Rallly), [Cally](https://cally.com/), [LettuceMeet](https://lettucemeet.com), [Mobilizon](https://joinmobilizon.org/) or [Gancio](https://gancio.org/) - Event Date Organizing
@@ -1194,9 +1194,9 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-# ▷ Fun Sites
+#  Fun Sites
 
-## ▷ Chat / Forums
+##  Chat / Forums
 
 * 🌐 **[r/ListOfSubreddits](https://www.reddit.com/r/ListOfSubreddits/wiki/listofsubreddits/)** - List of Subreddits
 * 🌐 **[Piracy Subs](https://www.reddit.com/r/Piracy/wiki/megathread/related_subreddits)** - Piracy Subreddits
@@ -1230,7 +1230,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Image / Video
+##  Image / Video
 
 * ↪️ **[Image Creation](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25BA_image_creation)**
 * ↪️ **[ASCII Art](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_ascii_art)**
@@ -1316,7 +1316,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Interactive
+##  Interactive
 
 * 🌐 **[David.li](https://david.li/)** - Physics Games
 * ↪️ **[Browser Games](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/games#wiki_.25BA_browser_games)**
@@ -1417,7 +1417,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Interesting
+##  Interesting
 
 * 🌐 **[Awesome Lego](https://github.com/ad-si/awesome-lego)** - Lego Resources
 * ↪️ **[Online Virtual Tours](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_virtual_tours)**
@@ -1501,7 +1501,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Live Webcams
+##  Live Webcams
 
 * ⭐ **[WebcamTaxi](https://www.webcamtaxi.com/en/)**
 * ⭐ **[Explore](https://explore.org/)**, [Mangolinkcam](https://www.mangolinkcam.com/), [Africam](https://africam.com/our-locations/) or [AnimalsLife](https://animalslife.net/category/shelters/) - Animal Cams
@@ -1533,7 +1533,7 @@ description: Content too niche to be included elsewhere.
 
 ***
 
-## ▷ Random
+##  Random
 
 * 🌐 **[Funny / Useless](https://rentry.org/aksry2vc)** - Funny / Useless Websites
 * 🌐 **[Websites From Hell](https://websitesfromhell.net/)** - Shitty Websites

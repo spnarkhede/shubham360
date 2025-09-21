@@ -42,7 +42,8 @@ Stay updated with the latest development news:
 * [hackertab.dev](https://hackertab.dev/) - Dev Browser Startpages
 
 
-## [Developer Learning](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_developer_learning)
+## [Developer Learning](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_developer_learning) 
+
 
 ## Developer Tools
 

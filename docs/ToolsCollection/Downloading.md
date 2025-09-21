@@ -6,7 +6,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 # Downloading 
 
-# ▷ Download Directories
+#  Download Directories
 
 * **Note** - Some Open Directories track IP addresses. Always use a VPN or Tor for anonymity when accessing these resources.
 
@@ -26,7 +26,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-# ▷ Download Sites
+#  Download Sites
 
 * **Note** - General DDL sites use a lot of different sources, so it's best to avoid them for anything you install, like software, games or APKs. You can also use **[redirect bypassers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_redirect_bypass)** to skip link shorteners.
 
@@ -68,7 +68,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-## ▷ Search Sites
+##  Search Sites
 
 * **Note** - These aggregate from multiple sources, so it's best to avoid them for software / games.
 
@@ -87,27 +87,27 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-## ▷ [Video Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_download_sites)
+##  [Video Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_download_sites)
 
 ***
 
-## ▷ [Anime Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25B7_anime_downloading)
+##  [Anime Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25B7_anime_downloading)
 
 ***
 
-## ▷ [Educational Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu/#wiki_.25BA_downloading)
+##  [Educational Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu/#wiki_.25BA_downloading)
 
 ***
 
-## ▷ [Game Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/games#wiki_.25BA_download_games)
+##  [Game Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/games#wiki_.25BA_download_games)
 
 ***
 
-## ▷ [Audio Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio#wiki_.25B7_download_sites)
+##  [Audio Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio#wiki_.25B7_download_sites)
 
 ***
 
-# ▷ Software Sites
+#  Software Sites
 
 * **Note** - Always scan downloaded software with **[VirusTotal](https://www.virustotal.com/gui/)** before installation or run it in a sandboxed environment like **[Sandboxie](https://rentry.co/sandboxie-guide)** to prevent system compromise.
 
@@ -133,7 +133,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-## ▷ FOSS Sites
+##  FOSS Sites
 
 * 🌐 **[Awesome Open Source](https://awesomeopensource.com/)**, [Awesome Useful Projects](https://github.com/Furthir/awesome-useful-projects) or [Awesome OSS](https://github.com/RunaCapital/awesome-oss-alternatives) - FOSS Indexes
 * ↪️ **[Git Project Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_git_projects)**
@@ -152,7 +152,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-## ▷ Freeware Sites
+##  Freeware Sites
 
 * 🌐 **[Awesome Free Software](https://github.com/johnjago/awesome-free-software)**, [Awesome Free Apps](https://github.com/Axorax/awesome-free-apps), [Windows Ultimate Collection](https://xdaforums.com/t/windows-ultimate-collection-guides.4507867/) or [Free Lunch](https://github.com/auctors/free-lunch) - Freeware Indexes
 * 🌐 **[Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications)** - Python App Index
@@ -179,15 +179,15 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-## ▷ [Linux Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_software_sites)
+##  [Linux Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_software_sites)
 
 ***
 
-## ▷ [Mac Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_software_sites2)
+##  [Mac Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_software_sites2)
 
 ***
 
-## ▷ IRC Tools
+##  IRC Tools
 
 * 🌐 **[Awesome IRC](https://github.com/davisonio/awesome-irc)** - IRC Resources
 * 🌐 **[IRC Client Comparisons](https://en.wikipedia.org/wiki/Comparison_of_IRC_clients)**
@@ -198,7 +198,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-# ▷ Usenet
+#  Usenet
 
 * 🌐 **[UsenetTools](http://www.usenettools.net/)**
 * ⭐ **[Usenet Guide / Automation Setup](https://docs.google.com/document/d/1TwUrRj982WlWUhrxvMadq6gdH0mPW0CGtHsTOFWprCo/mobilebasic)** / [2](https://redd.it/4x2mc9) / [3](https://www.iitk.ac.in/LDP/HOWTO/Usenet-News-HOWTO/x27.html) / [4](https://graph.org/EVERYTHING-YOU-NEED-TO-KNOW-ABOUT-USENET-09-04) / [5](https://www.reddit.com/r/usenet/wiki/index/) / [6](https://blog.decryption.net.au/t/a-fully-automated-usenet-piracy-machine-with-plex-sabnzbd-and-sonarr/130)
@@ -207,7 +207,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-## ▷ Indexers
+##  Indexers
 
 * 🌐 **[Indexer List](https://www.reddit.com/r/usenet/wiki/indexers/)** - Indexer List
 * [r/UsenetInvites](https://reddit.com/r/UsenetInvites)
@@ -231,7 +231,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-## ▷ Providers
+##  Providers
 
 * 🌐 **[r/usenet Providers](https://www.reddit.com/r/usenet/wiki/providers)** - Provider Lists
 * 🌐 **[r/usenet Deals](https://www.reddit.com/r/usenet/wiki/providerdeals)** - Provider Deals
@@ -243,7 +243,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-## ▷ Downloaders
+##  Downloaders
 
 * ⭐ **[sabnzbd](https://sabnzbd.org/)** / [Grabber](https://github.com/lem6ns/sabgrab) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nzb-unity/) / [Chrome](https://chromewebstore.google.com/detail/nzb-unity/mpejfoghnejnbfkpbiafklkmlhebkapb)
 * ⭐ **[NZBUnity](https://github.com/tumblfeed/nzbunity)** - Send NZBs to Client
@@ -253,7 +253,7 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-# ▷ Leeches / Debrid
+#  Leeches / Debrid
 
 * 🌐 **[LeechListing](https://www.leechlisting.com/)** or [Free Premium Leech Wiki](https://filehostlist.miraheze.org/wiki/Free_Premium_Leeches) - Leech Lists
 * 🌐 **[Debrid Services Comparison](https://debrid-services-comparison.netlify.app/)** / [GitHub](https://github.com/fynks/debrid-services-comparison)
@@ -265,4 +265,4 @@ description: Download all your favourite software, movies, shows, music, games a
 
 ***
 
-# ▷ [Download Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_download_managers)
+#  [Download Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_download_managers)

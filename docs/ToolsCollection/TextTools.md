@@ -27,7 +27,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Pastebins
+##  Pastebins
 
 * ⭐ **[Rentry](https://rentry.co/)**, [2](https://rentry.org/) - Markdown Support / [CLI](https://github.com/radude/rentry) / [Styling](https://rentry.co/rentryarchived)
 * ⭐ **[GitHub Gists](https://gist.github.com/)** or [GitLab Snippets](https://docs.gitlab.com/user/snippets/) - Multi-Syntax / Sign-Up Required
@@ -61,7 +61,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Translators
+##  Translators
 
 * **Note** - [AI Chatbots](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25B7_online_chatbots) sometimes translate better than traditional translators, especially when it comes to languages with inherently different structures.
 
@@ -87,7 +87,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Audio Transcription
+##  Audio Transcription
 
 * 🌐 **[ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)** - Speech to Text Leaderboard
 * [Whisper](https://github.com/openai/whisper) - Audio Transcription / [WebUI](https://huggingface.co/spaces/hf-audio/whisper-large-v3), [2](https://whisper.ggerganov.com/)
@@ -104,7 +104,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Encode / Decode
+##  Encode / Decode
 
 * 🌐 **[DecodeUnicode](https://decodeunicode.org/)** - Unicode Decoding Database
 * ⭐ **[CyberChef](https://gchq.github.io/CyberChef/)** - Encode / Decode Text / [GitHub](https://github.com/gchq/CyberChef)
@@ -123,7 +123,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Grammar Check
+##  Grammar Check
 
 * **Note** - Most chatbots in the AI section can also check grammar.
 
@@ -141,7 +141,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Emoji Indexes
+##  Emoji Indexes
 
 * ⭐ **[Emojipedia](https://emojipedia.org/)**, [EmojiDB](https://emojidb.org/), [Slackmojis](https://slackmojis.com/), [Emoji Picker](https://github-emoji-picker.vercel.app/) or [EmojiBatch](https://www.emojibatch.com/) - Emoji Indexes
 * [Emoji Engine](https://www.emojiengine.com/) - Multilingual Emoji Search
@@ -153,7 +153,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Unicode Characters
+##  Unicode Characters
 
 * ⭐ **[Amp What](https://www.amp-what.com/)**
 * [CopyChar](https://copychar.cc/)
@@ -167,7 +167,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Typing Lessons
+##  Typing Lessons
 
 * ⭐ **[Monkeytype](https://monkeytype.com/)** - Custom Touch Typing Tests / [Discord](https://discord.com/invite/monkeytype) / [GitHub](https://github.com/monkeytypegame/monkeytype)
 * ⭐ **[keybr](https://www.keybr.com/)** - Custom Touch Typing Practice / [GitHub](https://github.com/aradzie/keybr.com)
@@ -186,7 +186,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ LaTeX Tools
+##  LaTeX Tools
 
 * ⭐ **[Overleaf](https://www.overleaf.com/) or [TeXStudio](https://texstudio.org/)** - LaTeX Editors
 * [Learn LaTeX](https://www.learnlatex.org/) - LaTeX Guide
@@ -197,7 +197,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-# ▷ Text Editors
+#  Text Editors
 
 * 🌐 **[List of Text Editors](https://en.wikipedia.org/wiki/List_of_text_editors)** - Text Editor / Notepad Index
 * ↪️ **[Android Text Editor](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_text_tools)**
@@ -214,7 +214,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Note-Taking
+##  Note-Taking
 
 * ↪️ **[Android Note-Taking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_android_text_tools)**
 * ⭐ **[Obsidian](https://obsidian.md/)** - Markdown Note-Taking / [Discord](https://discord.gg/obsidianmd)
@@ -251,7 +251,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Office Suites
+##  Office Suites
 
 * ↪️ **[Office Activation](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_windows_activation)** / [Guide](https://redd.it/1814gmp) / [Custom Install Guide](https://gravesoft.dev/office_c2r_custom)
 * ⭐ **[LibreOffice](https://www.libreoffice.org/)** - FOSS Office Suite
@@ -262,7 +262,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Online Editors
+##  Online Editors
 
 * ⭐ **[Simplenote](https://simplenote.com/)** - Local / Cloud Saves
 * ⭐ **[Proton Docs](https://proton.me/drive/docs)** - Local / Cloud Saves
@@ -293,7 +293,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Mind Mapping
+##  Mind Mapping
 
 * ⭐ **[Obsidian Canvas](https://obsidian.md/canvas)**
 * [FreeMind](https://freemind.sourceforge.net/)
@@ -320,7 +320,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Text / Code Collaboration
+##  Text / Code Collaboration
 
 * ⭐ **[Google Docs](https://www.google.com/docs/about/)** / [HTML Converter](https://github.com/evbacher/gd2md-html)
 * ⭐ **[CryptPad](https://cryptpad.fr/)**
@@ -341,7 +341,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Spreadsheet Editors
+##  Spreadsheet Editors
 
 * 🌐 **[MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard)** - Text Embedding AI Leaderboard
 * [tad](https://github.com/antonycourtney/tad), [Tree Sheets](https://strlen.com/treesheets/), [VisiData](https://www.visidata.org/), [Gnumeric](http://www.gnumeric.org/) or [Quadratic](https://www.quadratichq.com/) - Spreadsheet Viewers / CSV Editors
@@ -359,7 +359,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Writing Tools
+##  Writing Tools
 
 * 🌐 **[Author Stash](https://authorstash.com/)** - Writing Tools / Resources
 * ↪️ **[AI Text Generators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai/#wiki_.25BA_text_generators)**
@@ -386,7 +386,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ To Do Lists
+##  To Do Lists
 
 * ↪️ **[Android To-Do Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_to-do_apps)**
 * ⭐ **[Goblin.tools](https://goblin.tools/)** - Automatic Task Breakdown
@@ -412,7 +412,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ ASCII Art
+##  ASCII Art
 
 * ⭐ **[TAAG](https://patorjk.com/software/taag/)**, [DeepAA](https://github.com/OsciiArt/DeepAA), [Kammerl](https://www.kammerl.de/ascii/AsciiSignature.php), [ASCII Art Studio](https://www.majorgeeks.com/files/details/ascii_art_studio.html) or [ASCII Today](https://ascii.today/) - ASCII Art / Text Generators
 * [REXPaint](https://www.gridsagegames.com/rexpaint/), [Playscii](https://jp.itch.io/playscii) or [PabloDraw](https://picoe.ca/products/pablodraw/) - ASCII Editors
@@ -425,7 +425,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-# ▷ Fonts
+#  Fonts
 
 * ⭐ **[Nerd Fonts](https://www.nerdfonts.com/)** - Icon-Rich Developer / Terminal Fonts
 * [OpenDyslexic](https://opendyslexic.org/) - Typeface for Dyslexia
@@ -436,7 +436,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Open Source / Freeware
+##  Open Source / Freeware
 
 * ⭐ **[FontSource](https://fontsource.org/)** - Open Source
 * ⭐ **[Font Squirrel](https://www.fontsquirrel.com/)** - Commercial Use
@@ -470,7 +470,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Free Fonts
+##  Free Fonts
 
 * ⭐ **[Fonts CSE](https://cse.google.com/cse?cx=82154ebab193e493d)** - Multi-Site Font Search
 * ⭐ **[Font Piracy 101](https://rentry.co/FontPiracy)** - Font Download Guide
@@ -495,7 +495,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-# ▷ Font Tools
+#  Font Tools
 
 * ⭐ **[Font Interceptor](https://fontinterceptor.mschfmag.com/)** - Download Fonts from Websites
 * ⭐ **[FontDrop](https://fontdrop.info/)** - Analyze Font Files
@@ -514,7 +514,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Font / Text Generators
+##  Font / Text Generators
 
 * ⭐ **[FontoGen](https://github.com/SerCeMan/fontogen)** - Custom AI Font Generator
 * ⭐ **[Make WordArt](https://www.makewordart.com/)**, [FlameText](https://www.flamingtext.com/), [MakeText](https://maketext.io/), [TextGiraffe](https://www.textgiraffe.com/), [Text Pro](https://textpro.me/) or [CoolText](https://cooltext.com/) - WordArt Generators
@@ -528,7 +528,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Font Customization
+##  Font Customization
 
 * ⭐ **[TypeTrials](https://typetrials.com/)** - Variable Font Playground
 * [V-Fonts](https://v-fonts.com/) or [Phase](https://www.eliashanzer.com/phase/) - Variable Fonts Testers
@@ -540,7 +540,7 @@ description: Text editors, writing tools, document processing, and text manipula
 
 ***
 
-## ▷ Unicode Text Generators
+##  Unicode Text Generators
 
 * ⭐ **[YayText](https://yaytext.com/)**
 * ⭐ **[Messletters](https://www.messletters.com/)**

@@ -6,7 +6,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 # Internet Tools
 
-## ▷ Internet Tools
+##  Internet Tools
 
 * ↪️ **[Web Privacy Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_web_privacy)**
 * [WebCatalog](https://webcatalog.io/) (signup) or [Pake](https://github.com/tw93/Pake) - Turn Webpages into Desktop Apps
@@ -17,7 +17,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Network Tools
+##  Network Tools
 
 * ⭐ **[fast](https://fast.com/)** / [Blur Info](https://userstyles.world/style/17413) / [CLI](https://github.com/sindresorhus/fast-cli), **[Cloudflare Speed Test](https://speed.cloudflare.com/)** or **[LibreSpeed](https://librespeed.org/)** - Speed Tests
 * [Pinging](https://www.pinging.net/) or [PingTracer](https://github.com/bp2008/pingtracer) - Internet Uptime / Ping Monitors
@@ -40,7 +40,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Password Managers
+##  Password Managers
 
 * ↪️ **[Password Privacy / 2FA](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_password_privacy_.2F_2fa)**
 * ⭐ **[KeePass](https://keepass.info/)** or **[KeePassXC](https://keepassxc.org/)**
@@ -56,7 +56,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Paywall Bypass
+##  Paywall Bypass
 
 * ⭐ **[Archive.today](https://archive.is/)** / [.li](https://archive.li/) / [.ph](https://archive.ph/) / [.vn](https://archive.vn/) / [.fo](https://archive.fo/) / [.md](https://archive.md/) - Archived Articles
 * ⭐ **[Bypass Paywalls Clean](https://gitflic.ru/project/magnolia1234/bpc_uploads)** - Browser Extensions / [X](https://x.com/Magnolia1234B)
@@ -70,7 +70,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Link in Bio
+##  Link in Bio
 
 * ⭐ **[Bio Link](https://bio.link/)** - Unlimited / Custom URLs
 * ⭐ **[Linktree](https://linktr.ee/)** - Unlimited / Custom URLs
@@ -82,7 +82,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Captcha Tools
+##  Captcha Tools
 
 * ⭐ **[Buster](https://github.com/dessant/buster)** - Auto Captcha Solver / [Improve Success Rate](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#buster-note)
 * [NopeCHA](https://nopecha.com/) - Auto Captcha Solver / [Required Tokens](https://nopecha.com/manage) / [Discord](https://discord.com/invite/yj7cTYBQaw)
@@ -92,7 +92,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Chat Tools
+##  Chat Tools
 
 * ↪️ **[Encrypted Messengers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_encrypted_messengers)**
 * ↪️ **[IRC Clients / Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25B7_irc_tools)**
@@ -121,7 +121,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ QR Code Tools
+##  QR Code Tools
 
 * ⭐ **[Mini QR](https://mini-qr-code-generator.vercel.app/)** - Generator / Customizable / [GitHub](https://github.com/lyqht/mini-qr)
 * [QArt Coder](https://research.swtch.com/qr/draw/) - Generator / Customizable
@@ -136,7 +136,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-# ▷ RSS Tools
+#  RSS Tools
 
 * 🌐 **[All about RSS](https://github.com/AboutRSS/ALL-about-RSS)** / [Telegram](https://t.me/s/aboutrss), [RSSTango](https://rentry.org/rrstango) or [RSS](https://gist.github.com/thefranke/63853a6f8c499dc97bc17838f6cedcc2) - RSS Feed / Tool Indexes
 * [FeedButler](https://feedbutler.app/en) - RSS to Email
@@ -147,7 +147,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ RSS Readers
+##  RSS Readers
 
 * ↪️ **[Android RSS Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_internet)**
 * 🌐 **[RSS Feed Reader Index](https://openrss.org/rss-feed-readers)**
@@ -167,7 +167,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ RSS Feed Generators
+##  RSS Feed Generators
 
 * ⭐ **[RSS Bridge](https://rss-bridge.org/bridge01/)** / [GitHub](https://github.com/RSS-Bridge/rss-bridge)
 * ⭐ **[Feedless](https://feedless.org/)** / [GitHub](https://github.com/damoeb/feedless)
@@ -184,7 +184,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-# ▷ Search Tools
+#  Search Tools
 
 * ↪️ **[Reddit Search Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_reddit_search)**
 * [SimilarSiteSearch](https://www.similarsitesearch.com/), [SimilarWeb](https://similarweb.com/), [SitesLikes](https://www.siteslike.com/), [TopSimilarSites](https://topsimilarsites.com/), [SimilarSites](https://similarsites.com/), [OpenDirectory](https://odir.us/) or [SiteLike.org](https://www.sitelike.org/) - Similar Site Searches
@@ -226,7 +226,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Search Engines
+##  Search Engines
 
 * 🌐 **[Fagan Finder](https://www.faganfinder.com/)**, [Search Engine Index](https://en.wikipedia.org/wiki/List_of_search_engines), [DirectSearch.Net](http://www.directsearch.net/), [Search Engine Colossus](https://www.searchenginecolossus.com/), [Advanced Search Tools](https://start.me/p/nRADzL/advanced-search-tools) or [Search-Engine](https://start.me/p/wM7y15/search-engine) - Search Engine Indexes
 * ↪️ **[AI Search Engines](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25B7_specialized_chatbots)**
@@ -263,7 +263,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Custom Search Engines
+##  Custom Search Engines
 
 * 🌐 **[CSE Utopia](https://start.me/p/EL84Km/cse-utopia)**, [Awesome CSEs](https://github.com/davzoku/awesome-custom-search-engines) or [Boolean Strings](https://booleanstrings.com/all-the-40-forty-custom-search-engines/) - Custom Search Engine Indexes
 * [TV Streaming CSE](https://cse.google.com/cse?cx=006516753008110874046:hrhinud6efg) - Search TV Streaming Sites
@@ -297,7 +297,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Google Search Tools
+##  Google Search Tools
 
 * 🌐 **[SearchTweaks](https://searchtweaks.com/)** - Google Search Tools
 * [Mastering Google Search Operators](https://moz.com/blog/mastering-google-search-operators-in-67-steps), [2](https://ahrefs.com/blog/google-advanced-search-operators/), [3](https://moz.com/learn/seo/search-operators), [4](https://seranking.com/ru/blog/operatory-poiska-google/) - Google Search Operator Resources
@@ -315,7 +315,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-# ▷ URL Tools
+#  URL Tools
 
 * ↪️ **[Encode / Decode URLs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_encode_.2F_decode)**
 * ⭐ **[Flagfox](https://flagfox.wordpress.com/)** - Multi-Tool Firefox Extension for URLs / [Full Tools List](https://files.catbox.moe/s7s4pv.png)
@@ -332,7 +332,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Redirect Bypass
+##  Redirect Bypass
 
 * ⭐ **[Bypass All Shortlinks](https://codeberg.org/Amm0ni4/bypass-all-shortlinks-debloated/)** - Bypass Link Shorteners
 * ⭐ **[Bypass.vip](https://bypass.vip/)** - Ad Links Bypasser / [Userscript](https://github.com/bypass-vip/userscript/raw/refs/heads/main/bypass-vip.user.js) / [Discord](https://bypass.vip/discord)
@@ -348,7 +348,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Short Link Tools
+##  Short Link Tools
 
 * ⭐ **[WhereGoes](https://wheregoes.com/)** or [Redirect Detective](https://redirectdetective.com/) - Check Paths of Redirects / Short Links
 * [Shortshare](https://shortshare.app/) - URL Shortener App
@@ -360,7 +360,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ URL Shorteners
+##  URL Shorteners
 
 * ⭐ **[spoo.me](https://spoo.me/)** - `spoo.me/ZbvUhz` / [Discord](https://spoo.me/discord) / [GitHub](https://github.com/spoo-me/url-shortener)
 * ⭐ **[T.LY](https://t.ly/)** - `t.ly/qqH6`
@@ -389,7 +389,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Down Site Checkers
+##  Down Site Checkers
 
 * ⭐ **[Down for Everyone or Just Me](https://downforeveryoneorjustme.com/)**
 * ⭐ **[Downdetector](https://downdetector.com/)**
@@ -404,7 +404,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-# ▷ Email Tools
+#  Email Tools
 
 * 🌐 **[Email Providers](https://en.wikipedia.org/wiki/Comparison_of_webmail_providers)** - Provider Comparisons
 * ↪️ **[Email Privacy Services / Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25B7_email_privacy)**
@@ -421,7 +421,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Email Clients
+##  Email Clients
 
 * ⭐ **[Betterbird](https://www.betterbird.eu/)** or **[Thunderbird](https://www.thunderbird.net/en-US/)** / [Tray Icon](https://github.com/Ximi1970/systray-x) / [Matrix](https://matrix.to/#/#thunderbird:mozilla.org)
 * ⭐ **[Mailspring](https://getmailspring.com/)** - [Themes](https://github.com/topics/mailspring-theme) / [GitHub](https://github.com/Foundry376/Mailspring)
@@ -436,7 +436,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Temp Mail
+##  Temp Mail
 
 * **Note** - If you're looking for something more private and convenient, check out our [Email Aliasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_email_aliasing) section. For details about tags, refer to [this resource](https://rentry.org/9i2uu6dx).
 
@@ -493,7 +493,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Email Aliasing
+##  Email Aliasing
 
 * 🌐 **[⁠Email Aliasing Comparison](https://email-aliasing-comparison.netlify.app/)** / [GitHub](https://github.com/fynks/email-aliasing-comparison)
 * ⭐ **[SimpleLogin](https://simplelogin.io/)** - Email Aliasing / [X](https://x.com/SimpleLogin) / [Subreddit](https://www.reddit.com/r/Simplelogin/) / [GitHub](https://github.com/simple-login/app)
@@ -507,7 +507,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-# ▷ Browser Bookmarks
+#  Browser Bookmarks
 
 * ⭐ **[Floccus](https://floccus.org/)** / [GitHub](https://github.com/floccusaddon/floccus) or [BookmarkHub](https://github.com/dudor/BookmarkHub) - Bookmark / Tab Sync
 * [linkhut](https://ln.ht/), [Linkhorse](https://link.horse/) or [TinyGem](https://tinygem.org/) - Social Bookmarking
@@ -520,7 +520,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Bookmark Managers
+##  Bookmark Managers
 
 * ⭐ **[Raindrop.io](https://raindrop.io/)** - Cross-Platform Manager
 * [Start.me](https://about.start.me/) - Web-Based Manager
@@ -544,7 +544,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-# ▷ Browser Tools
+#  Browser Tools
 
 * 🌐 **[Browser Comparisons](https://privacytests.org/)**, [Eylenburg Comparisons](https://eylenburg.github.io/browser_comparison.htm) or [ATH Comparisons](https://browsers.avoidthehack.com/) - Compare Popular Browsers
 * 🌐 **[Desktop Browser List](https://github.com/nerdyslacker/desktop-web-browsers)** - Desktop Browser Index
@@ -564,7 +564,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Firefox Tools
+##  Firefox Tools
 
 * ↪️ **[Firefox Extensions](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_firefox_extensions)**
 * ⭐ **[Firefox](https://www.firefox.com/)** / [Nightly](https://www.firefox.com/channel/desktop/#nightly) / [Beta](https://www.firefox.com/channel/desktop/#beta) / [GitHub](https://github.com/mozilla-firefox/firefox)
@@ -582,7 +582,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Browser Extensions
+##  Browser Extensions
 
 * 🌐 **[WebExtension.org](https://webextension.org/)** or [MyBrowserAddon](https://mybrowseraddon.com/) - Open-Source Extension Indexes
 * ↪️ **[Adblocking Extensions](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking)**
@@ -666,7 +666,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Firefox Extensions
+##  Firefox Extensions
 
 * 🌐 **[Firefox Addons](https://addons.mozilla.org/en-US/firefox/extensions/)** - Firefox Addon Store
 * ⭐ **[FoxyTab](https://addons.mozilla.org/en-US/firefox/addon/foxytab/)** - Tab Tools
@@ -697,7 +697,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Chrome Extensions
+##  Chrome Extensions
 
 * 🌐 **[Chrome Web Store](https://chromewebstore.google.com/category/extensionsen)**, [Chrome-Extension](https://github.com/harshita214/Chrome-Extension) or [Crx4Chrome](https://www.crx4chrome.com/) - Chrome Addon Stores
 * ⭐ **[Extensity](https://chromewebstore.google.com/detail/extensity/jjmflmamggggndanpgfnpelongoepncg)** or [Extension Manager](https://chromewebstore.google.com/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco) - Extension Managers
@@ -733,7 +733,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Safari Extensions
+##  Safari Extensions
 
 * [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) - Safari Userscript Manager / [GitHub](https://github.com/quoid/userscripts/)
 * [Night Eye](https://apps.apple.com/app/dark-mode-for-safari-nighteye/id1450504903) or [Dark Reader Script](https://gist.github.com/kfur/266c456dd69072eb7533f457ee5f18a0) - Dark Mode
@@ -742,7 +742,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Userscripts
+##  Userscripts
 
 * 🌐 **[Awesome Userscripts](https://github.com/awesome-scripts/awesome-userscripts)**, [XIU2](https://github.com/XIU2/UserScript) or [Userscript.zone](https://www.userscript.zone/) - Userscript Indexes
 * ↪️ **[Google Search Userscripts](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_google_search_tools)**
@@ -763,9 +763,9 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-# ▷ Archiving
+#  Archiving
 
-## ▷ Archive Services
+##  Archive Services
 
 * ↪️ **[4chan Archives](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_4chan_archives)**
 * ⭐ **[Internet Archive](https://archive.org/)** - Internet Archive / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage/#wiki_internet_archive_tools)
@@ -780,7 +780,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Web Archiving Tools
+##  Web Archiving Tools
 
 * 🌐 **[Awesome Web Archiving](https://github.com/iipc/awesome-web-archiving)** - Web Archiving Tools
 * 🌐 **[Data Hoarding](https://datahoarding.org/resources.html)** - Data Hoarding Resources
@@ -808,7 +808,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ Web Scraping / Crawling
+##  Web Scraping / Crawling
 
 * 🌐 **[Awesome Web Scraping](https://github.com/lorien/awesome-web-scraping)** or **[Web Scraping FYI](https://webscraping.fyi/)** - Web Scraping Tools / Resources
 * ⭐ **[Instant Data Scraper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah)** - Browser Extension
@@ -824,7 +824,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-# ▷ Open Source Intelligence
+#  Open Source Intelligence
 
 * 🌐 **[Awesome OSINT](https://github.com/jivoi/awesome-osint)** - Awesome OSINT
 * ↪️ **[Photo Forensics](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools/#wiki_.25B7_photo_forensics)**
@@ -846,7 +846,7 @@ description: Web browsers, downloaders, network utilities, and internet producti
 
 ***
 
-## ▷ OSINT Collections
+##  OSINT Collections
 
 * [OSINT Combine](https://www.osintcombine.com/tools) - OSINT Investigation Tools
 * [Bellingcat](https://bellingcat.gitbook.io/toolkit) - Online Investigation Toolkit

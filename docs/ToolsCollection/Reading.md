@@ -6,7 +6,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 # Reading
 
-# ▷ Ebooks
+#  Ebooks
 
 * 🌐 **[Open Slum](https://open-slum.org/)** - Book Site Index / Uptime Tracking
 * ⭐ **[Anna's Archive](https://annas-archive.org/)**, [2](https://annas-archive.li/), [3](https://annas-archive.se/) - Books / Comics / [Auto-Expand](https://greasyfork.org/en/scripts/494262) / [Matrix](https://matrix.to/#/#annas:archivecommunication.org) / [Subreddit](https://www.reddit.com/r/Annas_Archive/)
@@ -45,7 +45,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Public Domain
+##  Public Domain
 
 * ⭐ **[Project Gutenberg](https://www.gutenberg.org/)** - Historical Fiction / Nonfiction / [Australia](https://gutenberg.net.au/) / [Canada](https://gutenberg.ca/index.html) / [Nordic](https://runeberg.org/)
 * ⭐ **[Unglue.it](https://unglue.it/)**
@@ -79,7 +79,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ PDF Search
+##  PDF Search
 
 * [Ocean of PDF](https://oceanofpdf.com/) - Books / Comics
 * [pdfroom](https://pdfroom.com/) - Books / Comics
@@ -95,7 +95,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Calibre Libraries
+##  Calibre Libraries
 
 * ↪️ **[Calibre Libraries](https://rentry.co/FMHYBase64#calibre-libraries)**
 * ⭐ **[Ebook-Translator](https://translator.bookfere.com)** - Calibre Translators
@@ -106,7 +106,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Fanfiction / Stories
+##  Fanfiction / Stories
 
 * ⭐ **[Short Stories](https://short-stories.co/)**
 * ⭐ **[Archive of Our Own](https://archiveofourown.org/)** - Fanfiction Archive / [Enhancements](https://github.com/jsmnbom/ao3-enhancements/)
@@ -137,7 +137,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Esoteric / Cultural
+##  Esoteric / Cultural
 
 * 🌐 **[WiLd's Occult Ebooks](https://rentry.co/FMHYBase64#wilds-occult-ebook-sources)** - Occult / Esoterica
 * 🌐 **[Soren Megathread](https://rentry.co/FMHYBase64#soren-megathread)** - Occult / Esoterica
@@ -210,7 +210,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Special Interest
+##  Special Interest
 
 * ↪️ **[Survival / Prepping](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_survival)**
 * ⭐ **[The Anarchist Library](https://theanarchistlibrary.org/special/index)** - Anarchism
@@ -240,7 +240,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Ebook Readers
+##  Ebook Readers
 
 * 🌐 **[Ebook Reader Index](https://wiki.mobileread.com/wiki/E-book_software)** or [Mobile Read](https://www.mobileread.com/) - Ebook Reader Indexes
 * ↪️ **[Android](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_reading) / [iOS](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_ios_reading)** - Mobile Ebook Readers
@@ -281,7 +281,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Browser Ebook Readers
+##  Browser Ebook Readers
 
 * ⭐ **[Reader View](https://webextension.org/listing/chrome-reader-view.html)**, [2](https://mybrowseraddon.com/reader-view.html)
 * [Annas Archive Reader](https://annas-archive.org/view)
@@ -300,7 +300,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Kindle Tools
+##  Kindle Tools
 
 * ↪️ **[Kindle Jailbreak Tools](https://rentry.co/FMHYBase64#jailbreak-kindle)**
 * ⭐ **[Kindle Comic Converter](https://github.com/ciromattia/kcc)** - Multi-Format Converter
@@ -313,9 +313,9 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-# ▷ Audiobooks
+#  Audiobooks
 
-## ▷ Downloading
+##  Downloading
 
 * ⭐ **[Mobilism Audiobooks](https://forum.mobilism.org/viewforum.php?f=124)**, [2](https://forum.mobilism.me/viewforum.php?f=124) / [User Ranks](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#mobilism-ranks)
 * ⭐ **[AudiobookBay](https://audiobookbay.lu/)** - Torrents / **[Warning](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#audiobookbay-warning)**
@@ -339,7 +339,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Streaming
+##  Streaming
 
 * ⭐ **[Tokybook](https://tokybook.com/)** / [Downloader](https://github.com/rahaaatul/TokySnatcher), [2](https://github.com/nazdridoy/audiobooksnatcher)
 * ⭐ **[NEPU Audiobooks](https://nepu.to/ebooks)**
@@ -358,7 +358,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Audiobook Tools
+##  Audiobook Tools
 
 * [⁠AudiobookCovers](https://audiobookcovers.com/) - Download Audiobook Covers
 * [Audiblez](https://github.com/santinic/audiblez), [Ebook2Audiobook](https://hub.docker.com/r/athomasson2/ebook2audiobook), [ElevenReader](https://elevenreader.io/) or [ReadWise](https://readwise.io/read) (reset trial) - Book to Audiobook Converters
@@ -368,9 +368,9 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-# ▷ Visual Media
+#  Visual Media
 
-## ▷ Comics
+##  Comics
 
 * ⭐ **[ReadComicsOnline](https://readcomiconline.li/)**
 * ⭐ **[BatCave](https://batcave.biz/)**
@@ -406,7 +406,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Manga
+##  Manga
 
 * 🌐 **[Wotaku](https://wotaku.wiki/websites#manga)** / [Discord](https://discord.gg/vShRGx8ZBC), [The Index](https://theindex.moe/library/manga) / [Wiki](https://thewiki.moe/) / [Discord](https://discord.gg/Snackbox) or [EverythingMoe](https://everythingmoe.com/#section-manga), [2](https://everythingmoe.org/#section-manga) / [Subreddit](https://www.reddit.com/r/everythingmoe/) / [Discord](https://discord.gg/GuueaDgKdS) - Manga Sites Indexes
 * 🌐 **[Rawmangaz](https://rentry.co/rawmangaz)** - List of Raw Manga Sites
@@ -451,7 +451,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Light Novels
+##  Light Novels
 
 * 🌐 **[Wotaku](https://wotaku.wiki/websites#novels)** - Light Novel Index / [Discord](https://discord.gg/vShRGx8ZBC)
 * 🌐 **[EverythingMoe](https://everythingmoe.com/#section-novel)**, [2](https://everythingmoe.org/#section-novel) - Light Novel Sites Index / [Subreddit](https://www.reddit.com/r/everythingmoe/) / [Discord](https://discord.gg/GuueaDgKdS)
@@ -500,7 +500,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Magazines
+##  Magazines
 
 * ⭐ **[Mobilism Magazines](https://forum.mobilism.org/viewforum.php?f=123)** - Multi-Host / [User Ranks](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#mobilism-ranks)
 * ⭐ **[PDFMagazines](https://pdfmagazines.club/)** - Novafile
@@ -534,7 +534,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Newspapers
+##  Newspapers
 
 * 🌐 **[Veridian](https://veridiansoftware.com/collections/)** - Newspaper Archive List
 * ↪️ **[Bypass Newspaper Paywalls](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_paywall_bypass)**
@@ -561,7 +561,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-# ▷ Educational Books
+#  Educational Books
 
 * 🌐 **[IvyPanda](https://ivypanda.com/blog/1000-open-textbooks-and-learning-resources-for-all-subjects/)** - Educational Book Site Index
 * ↪️ **[Language Learning Resources](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu/#wiki_.25BA_language_learning)**
@@ -624,7 +624,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ STEM Resources
+##  STEM Resources
 
 * 🌐 **[Awesome AI](https://github.com/owainlewis/awesome-artificial-intelligence#free-content)** - Artificial Intelligence Books
 * [Math and Physics Books](https://rentry.co/FMHYBase64#math-and-physics-books)
@@ -646,7 +646,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ History Books
+##  History Books
 
 * 🌐 **[r/AskHistorians Recommended](https://www.reddit.com/r/AskHistorians/wiki/books)** - Recommended History Books
 * ⭐ **[Media History](https://mediahistoryproject.org/)** - Books / Magazines
@@ -682,7 +682,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Quotes / Poetry
+##  Quotes / Poetry
 
 * ⭐ **[Wikiquote](https://en.wikiquote.org)**
 * ⭐ **[Poetry Foundation](https://www.poetryfoundation.org/)**
@@ -703,7 +703,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Programming Books
+##  Programming Books
 
 * 🌐 **[Free-Programming-Books](https://github.com/EbookFoundation/free-programming-books)** - Programming Book Index
 * ⭐ **[O'Reilly](https://www.oreilly.com/)** - Tech / Programming / [Downloader](https://github.com/lorenzodifuccia/safaribooks) / Infinite trial by clearing cookies & making a new account
@@ -731,7 +731,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Academic Papers
+##  Academic Papers
 
 * ⭐ **[Sci-Hub](https://sci-hub.se/)** - Science Articles / Research Papers / [Mirrors](https://vertsluisants.fr/index.php?article4/where-scihub-libgen-server-down) / [VK](https://vk.com/sci_hub) / [Subreddit](https://reddit.com/r/scihub)
 * ⭐ **Sci-Hub Tools** - [Official TG Bot](https://t.me/scihubot), [2](https://t.me/freescience) / [Extension](https://addons.mozilla.org/en-US/firefox/addon/sci-hub-scholar/) / [DL Button](https://greasyfork.org/zh-CN/scripts/370246-sci-hub-button), [2](https://github.com/gchenfc/sci-hub-now) / [PDF Download](https://gagarine.medium.com/use-sci-hub-with-zotero-as-a-fall-back-pdf-resolver-cf139eb2cea7) / [Dumps](https://redd.it/edwi9b) / [DOI Redirect](https://greasyfork.org/en/scripts/412498)
@@ -797,7 +797,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Documents / Articles
+##  Documents / Articles
 
 * ↪️ **[Bypass Article Paywalls](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_paywall_bypass)**
 * ⭐ **[TheFreeLibrary](https://www.thefreelibrary.com/)** - Articles
@@ -857,7 +857,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Manuals
+##  Manuals
 
 * 🌐 **[Manuals & Schematics](https://redd.it/nlw3er)**, [SafeManuals](https://safe-manuals.com/), [Manuzoid](https://manuzoid.com/), [manualzz](https://manualzz.com/), [ManualsNet](https://manualsnet.com/), [manua.ls](https://www.manua.ls/) or [ManualsLib](https://www.manualslib.com/) - Manual Directories
 * ⭐ **[RepairWiki](https://repair.wiki/)** - Repair Articles / [Old Layout](https://old.repair.wiki/)
@@ -874,11 +874,11 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ [Reference Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_reference_sites)
+##  [Reference Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_reference_sites)
 
 ***
 
-# ▷ Tracking / Database
+#  Tracking / Database
 
 * ⭐ **[GoodReads](https://www.goodreads.com/)** - Ratings / Tracking / Reviews / Recommendations / [Ratings Filter](https://www.book-filter.com/) / [Frontend](https://github.com/nesaku/BiblioReads)
 * ⭐ **[StoryGraph](https://www.thestorygraph.com/)** - Tracking / Recommendations
@@ -904,7 +904,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-## ▷ Curated Recommendations
+##  Curated Recommendations
 
 * ⭐ **[The Greatest Books](https://www.thegreatestbooks.org/)** - Algorithmic Books List
 * ⭐ **[Five Books](https://fivebooks.com/)** - Expert Recommended Books
@@ -951,7 +951,7 @@ description: Download books, comics, manga and all sorts of reading material.
 
 ***
 
-# ▷ Helpful Sites / Apps
+#  Helpful Sites / Apps
 
 * 🌐 **[Ebook Converters Wiki](https://wiki.mobileread.com/wiki/E-book_conversion)**, [Ebook-Converter](https://ebook-converter.com/) or [Ebook-Online-Convert](https://ebook.online-convert.com/) - Ebook Converter Indexes
 * 🌐 **[DeDRM_tools](https://github.com/noDRM/DeDRM_tools)** - Ebook DRM Removal Tools

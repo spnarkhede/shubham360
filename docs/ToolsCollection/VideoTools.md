@@ -20,7 +20,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Disc Utilities
+##  Disc Utilities
 
 * [ImgBurn](https://www.majorgeeks.com/files/details/imgburn.html), [CDBurnerXP](https://cdburnerxp.se/), [DVDStyler](https://www.dvdstyler.org/en/), [DeepBurner](https://www.deepburner.com/) or [Alcohol Soft](https://www.alcohol-soft.com/) - CD / DVD Burning
 * [VidCoder](https://vidcoder.net/) or [XReveal](https://www.xreveal.com/) - DVD / Blu-ray Ripping
@@ -32,7 +32,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Video File Hosts
+##  Video File Hosts
 
 * **Note** - Most file hosts remove files after inactivity, while some delete them regardless. Check each host if you're concerned about file expiry. Tags are: Account Space / Individual File Limit / File Retention.
 
@@ -63,7 +63,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Screen Recording
+##  Screen Recording
 
 * ⭐ **[OBS Studio](https://obsproject.com/)** / Windows, Mac, Linux / [Discord](https://discord.com/invite/obsproject) / [GitHub](https://github.com/obsproject/obs-studio)
 * [Shinobi](https://shinobi.video/) - Network Video Recorder / Mac, Linux / [Discord](https://discord.com/invite/mdhmvuH) / [GitLab](https://gitlab.com/Shinobi-Systems/Shinobi)
@@ -79,7 +79,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Processing / Encoding
+##  Processing / Encoding
 
 * ⭐ **[HandBrake](https://handbrake.fr/)** - Video Encoding Software / Windows, Mac, Linux / [GitHub](https://github.com/HandBrake/HandBrake) / [Guide](https://www.rapidseedbox.com/blog/guide-to-mastering-handbrake)
 * ⭐ **[FFmpeg](https://ffmpeg.org/)** - Multimedia Processors / Windows, Mac, Linux / [GitHub](https://github.com/FFmpeg/FFmpeg) / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25B7_ffmpeg_tools)
@@ -102,7 +102,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Online Processing
+##  Online Processing
 
 * [Compress Video Online](https://compress-video-online.com/) - Compress / Unlimited
 * [8mb.video](https://8mb.video/) - Compress / 2GB
@@ -118,7 +118,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ FFmpeg Tools
+##  FFmpeg Tools
 
 * [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) or [media-autobuild_suite](https://github.com/m-ab-s/media-autobuild_suite) - Autobuild Tools
 * [ffmpeg-web](https://ffmpeg-web.netlify.app/) - FFmpeg Web App / [GitHub](https://github.com/Dinoosauro/ffmpeg-web)
@@ -132,7 +132,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Live Streaming
+##  Live Streaming
 
 * 🌐 **[Awesome Streaming](https://github.com/juancarlospaco/awesome-streaming-tools)** or [StreamerFreebies](https://streamerfreebies.com/) - Live Streaming Resources
 * ⭐ **[OBS Studio](https://obsproject.com/)** - Live Stream Manager / Windows, Mac, Linux / [GitHub](https://github.com/obsproject/obs-studio)
@@ -154,7 +154,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ VTuber Tools
+##  VTuber Tools
 
 * 🌐 **[Runa's Archive](https://kekuwi.github.io/Runa-Archive)** - VTuber Resources / [Discord](https://discord.com/invite/GdfHVZ6Z33)
 * [Best VTuber](https://gist.github.com/emilianavt/cbf4d6de6f7fb01a42d4cce922795794) - VTuber Resources
@@ -170,19 +170,19 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ [Subtitle Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_subtitle_tools)
+##  [Subtitle Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_subtitle_tools)
 
 ***
 
-## ▷ [Linux Video Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_linux_video)
+##  [Linux Video Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_linux_video)
 
 ***
 
-## ▷ [Mac Video Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_mac_video)
+##  [Mac Video Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_mac_video)
 
 ***
 
-# ▷ Video Players
+#  Video Players
 
 * 🌐 **[Awesome Video](https://github.com/krzemienski/awesome-video)** - Video Streaming Resources
 * 🌐 **[Video Help](https://www.videohelp.com/software/sections/video-players?orderby=Rating)** - Video Player Index
@@ -209,7 +209,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Stream Sync
+##  Stream Sync
 
 * ⭐ **[SyncPlay](https://syncplay.pl/)** - App
 * ⭐ **[Watch2Gether](https://w2g.tv/)** - Online Player
@@ -229,7 +229,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ MPV Tools
+##  MPV Tools
 
 * 🌐 **[⁠Awesome-MPV](https://github.com/stax76/awesome-mpv)** - MPV Tools / Resources
 * 🌐 **[igv's shaders](https://gist.github.com/igv)** - Various Shaders
@@ -252,7 +252,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ VLC Tools
+##  VLC Tools
 
 * 🌐 **[Awesome VLC](https://github.com/mfkl/awesome-vlc)** - VLC Resources
 * [VLSub](https://github.com/exebetche/vlsub) - Sub Downloader
@@ -261,7 +261,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-# ▷ Media Servers
+#  Media Servers
 
 * ↪️ **[Torrent Automation](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_torrent_apps)**
 * ⭐ **[Jellyfin](https://jellyfin.org/)** - Media Server / [Matrix](https://matrix.to/#/#jellyfinorg:matrix.org) / [Discord](https://discord.gg/zHBxVSXdBV) / [GitHub](https://github.com/jellyfin/jellyfin)
@@ -296,7 +296,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Plex Tools
+##  Plex Tools
 
 * [Reddit Guide](https://redd.it/ma1hlm) - Plex Setup Guides
 * [Tautulli](https://tautulli.com/) - Server Monitor / [Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#tautulli-note)
@@ -311,7 +311,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Jellyfin Tools
+##  Jellyfin Tools
 
 * 🌐 **[Awesome Jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin)** - Jellyfin Resources
 * ⭐ **[Fladder](https://github.com/DonutWare/Fladder/)** - Desktop Client / Windows, Mac, Linux, Android, iOS
@@ -328,7 +328,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Kodi Tools
+##  Kodi Tools
 
 * ⭐ **[Elementum](https://elementum.surge.sh/)** - Torrent Streaming / Trakt Sync / Similar to Stremio + Torrentio
 * [EverythingKodi](https://rumble.com/c/EverythingKodi) - Kodi Addon Tutorials
@@ -344,7 +344,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-# ▷ Video Download
+#  Video Download
 
 * ↪️ **[YouTube Video Downloaders](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_youtube_downloaders)**
 * ↪️ **[Twitch Video Downloaders](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_twitch_downloaders)**
@@ -367,7 +367,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-# ▷ Video Editing
+#  Video Editing
 
 * ⭐ **[r/VideoEditing](https://www.reddit.com/r/VideoEditing/)** - Video Editing Subreddit / [Wiki](https://www.reddit.com/r/VideoEditing/wiki/index/)
 * ⭐ **[Eyecandy](https://eyecannndy.com/)** - Visual Technique Examples / [Discord](https://discord.com/invite/WRyrPkWEzT)
@@ -377,7 +377,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Video Editors
+##  Video Editors
 
 * ⭐ **[LosslessCut](https://github.com/mifi/lossless-cut)** - Video Editor
 * ⭐ **[kdenlive](https://kdenlive.org/en/)** - Video Editor / [GitHub](https://github.com/KDE/kdenlive)
@@ -405,7 +405,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Online Editors
+##  Online Editors
 
 * ⭐ **[wide.video](https://wide.video/)** / [Discord](https://discord.gg/Q54kW97yj5)
 * ⭐ **[Pikimov](https://pikimov.com/)** - Use Edge or Chrome
@@ -425,7 +425,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Effects / Enhancements
+##  Effects / Enhancements
 
 * [Video Enhance AI](https://lrepacks.net/repaki-programm-dlya-grafiki/) - Video Enhancement Tool / Search "Topaz" on LR
 * [Gyroflow](https://gyroflow.xyz/) - Video Stabilization / [GitHub](https://github.com/gyroflow/gyroflow)
@@ -438,7 +438,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ VFX Sites
+##  VFX Sites
 
 * [FootageCrate](https://footagecrate.com/)
 * [FreeVideoEffect](https://freevideoeffect.com/)
@@ -458,7 +458,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Animation Tools
+##  Animation Tools
 
 * 🌐 **[Creator Resources](https://www.newgrounds.com/wiki/creator-resources/)** - Art & Animation Resource Index
 * ⭐ **[Unreal Engine](https://www.unrealengine.com/)**, [MoonRay](https://openmoonray.org/), [cgsoftbox](https://t.me/cgsoftbox), [SketchUp](https://www.sketchup.com/) or [Twinmotion](https://www.twinmotion.com/en-US) - 3D Creation Tools
@@ -493,7 +493,7 @@ description: Video editing, conversion, streaming, and multimedia processing too
 
 ***
 
-## ▷ Stock Videos
+##  Stock Videos
 
 * 🌐 **[Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources#videos)** or **[CuteStockFootage](https://cutestockfootage.com/free/video)** - Stock Video Indexes
 * [Pexels](https://www.pexels.com/) - Stock Videos

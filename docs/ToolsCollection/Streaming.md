@@ -6,7 +6,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 # Streaming
 
-## ▷  Movies / TV / Anime 
+##   Movies / TV / Anime 
 
 * **Note** - Check our [grading system](https://github.com/fmhy/FMHY/wiki/Stream-Site-Grading) to see scores for each site, as well as their respective pros & cons, and remember to use throwaway emails or [aliasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_email_aliasing) when signing up for streaming sites. Try a VPN if sites are blocked for you.
 
@@ -39,7 +39,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ API Frontends 
+##  API Frontends 
 
 * **Note** - These serve as frontends or user interfaces for API sites. Sources will vary from site to site depending on which ones owners feel are worth using. Many listed have custom players that automatically test API streams one by one without user input required. [Grading](https://github.com/fmhy/FMHY/wiki/Stream-Site-Grading#api-frontends)
 
@@ -80,7 +80,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Single Server
+##  Single Server
 
 * **Note** - These are generally good in terms of speed, consistency, and having less mislabeled content. Many listed also remove and or fix any broken links manually. [Grading](https://github.com/fmhy/FMHY/wiki/Stream-Site-Grading#single-server)
 
@@ -115,7 +115,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Free w/ Ads
+##  Free w/ Ads
 
 * 🌐 **[Free-Official-Youtube-Content](https://github.com/superlincoln953/Free-Official-Youtube-Content)** - YouTube Channel List
 * 🌐 **[YT Movies Multireddit](https://www.reddit.com/user/nbatman/m/streaming/)** - YouTube Streaming Subreddits
@@ -144,7 +144,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Video Streaming
+##  Video Streaming
 
 * **Note** - These are good for finding classic, obscure, and short films.
 
@@ -173,7 +173,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-# ▷ Specialty Streaming
+#  Specialty Streaming
 
 * ↪️ **[Documentary Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_documentaries)**
 * ↪️ **[Courses / Lectures](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_streaming)**
@@ -206,7 +206,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Anime Streaming
+##  Anime Streaming
 
 * 🌐 **[Wotaku](https://wotaku.wiki/websites)** / [Discord](https://discord.gg/vShRGx8ZBC) / [GitHub](https://github.com/wotakumoe/Wotaku), [The Index](https://theindex.moe/library/anime) / [Wiki](https://thewiki.moe/) / [Discord](https://discord.gg/Snackbox) or [EverythingMoe](https://everythingmoe.com/), [2](https://everythingmoe.org/) / [Subreddit](https://www.reddit.com/r/everythingmoe/) / [Discord](https://discord.gg/GuueaDgKdS)
 * ⭐ **[AnimeKai](https://animekai.to/home)**, [2](https://animekai.cc/), [3](https://animekai.ac/), [4](https://animekai.bz/) or [AniGo](https://anigo.to/) - Hard Subs / Dub / Auto-Next / [Status](https://animekai.me/) / [X](https://x.com/animekai_to) / [Subreddit](https://www.reddit.com/r/AnimeKAI/) / [Discord](https://discord.com/invite/at5d9rkfUy)
@@ -251,7 +251,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Cartoon Streaming
+##  Cartoon Streaming
 
 * ⭐ **[WCO](https://www.wco.tv/)**, [2](https://www.wcostream.tv/) - TV / Movies / Anime / [Status](https://www.wcostatus.com/) / [Anti-Adblock Fix](https://github.com/uBlockOrigin/uAssets/issues/29349#issuecomment-3231974507)
 * ⭐ **[KimCartoon](https://kimcartoon.si/)** - TV
@@ -266,7 +266,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ TV Streaming
+##  TV Streaming
 
 * **Note** - Keep in mind sites listed in the main streaming sections (like PrimeWire) also have TV shows. The sites in the section below are simply sites that have exclusively TV.
 
@@ -292,7 +292,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Drama Streaming
+##  Drama Streaming
 
 * 🌐 **[EverythingMoe](https://everythingmoe.com/#section-drama)**, [2](https://everythingmoe.org/#section-drama) - Index / [Subreddit](https://www.reddit.com/r/everythingmoe/) / [Discord](https://discord.gg/GuueaDgKdS)
 * ⭐ **[GoPlay](https://goplay.su/)** - TV / Movies / [Discord](https://discord.com/invite/yY2P3DQR8S)
@@ -317,7 +317,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Classics / Public Domain
+##  Classics / Public Domain
 
 * ⭐ **[Internet Archive](https://archive.org/details/moviesandfilms)** - Classic / Silent Films
 * [Classic Cinema Online](https://classiccinemaonline.com/) - Classic Films
@@ -336,7 +336,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Film Archives
+##  Film Archives
 
 * ⭐ **[The Library of Congress](https://www.loc.gov/film-and-videos/)** - Movies / Short Films
 * ⭐ **[USNationalArchives](https://www.youtube.com/@USNationalArchives)** - Movies / Short Films
@@ -367,9 +367,9 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-# ▷ Live TV / Sports
+#  Live TV / Sports
 
-## ▷ Live TV
+##  Live TV
 
 * ⭐ **[TheTVApp](https://tvpass.org/)**, [2](https://thetvapp.to/) - TV / Sports / US Only
 * ⭐ **[tv.garden](https://tv.garden/)** - TV / Sports
@@ -412,7 +412,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Live Sports
+##  Live Sports
 
 * 🌐 **[/sport calendars/](https://dan.valeena.dev/guides/sport-calendars/), [2](https://rentry.co/sportcalendars)** - Importable Sports Calendars
 * ⭐ **[WatchSports](https://watchsports.to/)** - Stream Aggregator
@@ -459,7 +459,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Sports Replays
+##  Sports Replays
 
 * ⭐ **[720pier](https://720pier.ru/)** - Sports Replays / Torrents
 * ⭐ **[FullReplays](https://www.fullreplays.com/)** - Football Replays
@@ -503,7 +503,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ IPTV Tools
+##  IPTV Tools
 
 * 🌐 **[Awesome IPTV](https://github.com/iptv-org/awesome-iptv)** - IPTV Resources
 * 🌐 **[IPTV Playlists](https://rentry.co/fmhybase64#iptv-playlists)** - List of Playlists
@@ -527,7 +527,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-# ▷ Smart TV / Firestick
+#  Smart TV / Firestick
 
 * ⭐ **[Tizentube](https://tizenbrew.6513006.xyz/)** - Ad-Free Samsung Smart TV YouTube / [GitHub](https://github.com/reisxd/TizenTube), [2](https://github.com/reisxd/TizenBrew)
 * ⭐ **[webOS Homebrew](https://www.webosbrew.org/)** - LG TV Homebrew / [Guide](https://wispydocs.netlify.app/docs/lg-tv-homebrew/) / [Discord](https://discord.gg/xWqRVEm) / [GitHub](https://github.com/webosbrew/)
@@ -547,7 +547,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Android TV
+##  Android TV
 
 * 🌐 **[Awesome Android TV](https://github.com/Generator/Awesome-Android-TV-FOSS-Apps)** - Android TV App Index
 * ⭐ **[SmartTube](https://github.com/yuliskov/SmartTube)** / [2](https://smarttubeapp.github.io/) or [⁠TizenTube Cobalt](https://github.com/reisxd/TizenTubeCobalt) - Ad-Free Android TV YouTube
@@ -564,15 +564,15 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-# ▷ [Android Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_streaming)
+#  [Android Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_streaming)
 
 ***
 
-# ▷ [iOS Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_ios_streaming)
+#  [iOS Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_ios_streaming)
 
 ***
 
-# ▷ Download Sites
+#  Download Sites
 
 * **Note** - Use **[redirect bypassers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_redirect_bypass)** to skip link shorteners.
 
@@ -652,7 +652,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Drives / Directories
+##  Drives / Directories
 
 * ⭐ **[Scloud](https://rentry.co/FMHYBase64#scloud)** - Movies / TV / 4K / [Telegram](https://t.me/scloudmediahub)
 * ⭐ **[Acer Movies](https://rentry.co/FMHYBase64#acermovies)** - Movies / TV / Anime
@@ -665,7 +665,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Anime Downloading
+##  Anime Downloading
 
 * **Note** - Use **[redirect bypassers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_redirect_bypass)** to skip link shorteners.
 
@@ -695,11 +695,11 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ [Educational Downloading](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_downloading)
+##  [Educational Downloading](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_downloading)
 
 ***
 
-# ▷ Torrent Apps
+#  Torrent Apps
 
 * **Note** - Remember to get a [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_vpn) before torrenting and [bind it to your client](https://wispydocs.netlify.app/docs/vpn-binding/) if it allows.
 
@@ -733,7 +733,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Stremio Tools
+##  Stremio Tools
 
 * 🌐 **[Stremio Addons](https://stremio-addons.net/)** - Stremio Addons / [Subreddit](https://www.reddit.com/r/StremioAddons/) / [Discord](https://discord.com/invite/zNRf6YF)
 * ⭐ **[Bye Sudo](https://bye.undi.rest/)** - Simple Stremio Guide
@@ -747,7 +747,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-# ▷ Torrent Sites
+#  Torrent Sites
 
 * **Note** - Keep in mind Stremio + Torrentio or other [aggregators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent/#wiki_.25B7_aggregators) are sometimes best when it comes to finding content.
 
@@ -774,7 +774,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Anime Torrenting
+##  Anime Torrenting
 
 * ⭐ **[Nyaa](https://nyaa.si/)**, [2](https://nyaa.iss.one/), [3](https://nyaa.iss.ink/) - Sub / Dub
 * ⭐ **Nyaa Tools** - [TUI](https://github.com/Beastwick18/nyaa) / [Batch Download](https://github.com/wotakumoe/meow), [2](https://github.com/marcpinet/nyaadownloader), [3](https://t.me/meow_in_japanese_bot), [4](https://t.me/NyaaTorrents) / [Python Wrapper](https://github.com/JuanjoSalvador/NyaaPy) / [Torrent Fetch](https://github.com/daynum/nyaabag) / [Quality Tags](https://releases.moe/about/)
@@ -790,11 +790,11 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ [Educational Torrenting](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_downloading)
+##  [Educational Torrenting](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_downloading)
 
 ***
 
-# ▷ Tracking / Databases
+#  Tracking / Databases
 
 * ⭐ **[Simkl](https://simkl.com/)** - TV / Anime / Movies / [Apps](https://simkl.com/apps/) / [Import Tools](https://simkl.com/apps/import/)
 * ⭐ **[Trakt](https://trakt.tv/)** - TV / Anime / Movies / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_trakt_tools)
@@ -824,7 +824,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Anime Tracking / Databases
+##  Anime Tracking / Databases
 
 * ⭐ **[MyAnimeList](https://myanimelist.net/)** - Anime Ratings / Reviews / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_myanimelist_tools) / [Discord](https://discord.com/invite/myanimelist)
 * ⭐ **[AniList](https://anilist.co/)** - Anime Ratings / Reviews / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_anilist_tools) / [Discord](https://discord.com/invite/TF428cr)
@@ -837,7 +837,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Curated Recommendations
+##  Curated Recommendations
 
 * ⭐ **[They Shoot Pictures](https://www.theyshootpictures.com/)** - Movie Top 1000 List
 * ⭐ **[FlickMetrix](https://flickmetrix.com/)** or [agoodmovietowatch](https://agoodmovietowatch.com/) - Combine IMDb, Rotten Tomatoes & Letterboxd Ratings
@@ -861,7 +861,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Recommendation Tools
+##  Recommendation Tools
 
 * [SuggestStream](https://suggestream.com/) - Movie / TV Recommendations
 * [BestSimilar](https://bestsimilar.com/) - Movie Recommendations
@@ -876,7 +876,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Calendar / Upcoming
+##  Calendar / Upcoming
 
 * ⭐ **[Your Countdown To](https://yourcountdown.to/)** - Countdown for Movies / TV / Anime / Video Games
 * ⭐ **[Movie Countdown](https://moviescountdown.com/)** - Countdown for Upcoming Movies / [TV](https://countdown.tv/) / [Drama](https://dramacountdown.com/)
@@ -891,7 +891,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-# ▷ Subtitle Tools
+#  Subtitle Tools
 
 * 🌐 **[elSubtitle](https://www.elsubtitle.com/)**, [SubConverter](https://subconverter.com/), [Subtitle One](https://subtitleone.cc/) or [Subtitle Tools](https://subtitletools.com/) - Subtitle Tools
 * ⭐ **[Substital](https://substital.com/)** or [Movie-Subtitles](https://github.com/gignupg/Movie-Subtitles) - External Subtitle Extensions
@@ -913,7 +913,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ Download Subtitles
+##  Download Subtitles
 
 * ⭐ **[Open Subtitles](https://opensubtitles.org/)** / [Beta Site](https://www.opensubtitles.com/) - Subtitles
 * ⭐ **[Subscene](https://sub-scene.com/)** - Subtitles
@@ -938,7 +938,7 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-# ▷ Helpful Sites / Tools
+#  Helpful Sites / Tools
 
 * 🌐 **[r/Animepiracy Wiki](https://thewiki.moe/)** or [Awesome ACG](https://github.com/soruly/awesome-acg) - Anime Tool Indexes
 * ↪️ **[Media Posters / Covers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_media_covers_.2F_posters)**
@@ -984,4 +984,4 @@ description: Stream, download, torrent and binge all your favourite movies and s
 
 ***
 
-## ▷ [Video Players / Servers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools)
+##  [Video Players / Servers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools)

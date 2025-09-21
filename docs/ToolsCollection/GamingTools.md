@@ -44,7 +44,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Game Launchers
+##  Game Launchers
 
 * ⭐ **[Playnite](https://playnite.link/)** - Game Library / Launcher / [Extensions](https://playnite.link/addons.html) / [Subreddit](https://www.reddit.com/r/playnite/) / [Discord](https://discord.com/invite/BrtABqe) / [GitHub](https://github.com/JosefNemec/Playnite/)
 * ⭐ **[Ascendara](https://ascendara.app/)** - Game Library / Launcher / Downloader / [Discord](https://ascendara.app/discord) / [GitHub](https://github.com/Ascendara/ascendara)
@@ -60,7 +60,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Optimization Tools
+##  Optimization Tools
 
 * 🌐 **[Nvidia Overclocking](https://github.com/LunarPSD/NvidiaOverclocking/blob/main/Nvidia%20Overclocking.md)** - Nvidia Overclocking Resources
 * ⭐ **[SpecialK](https://www.special-k.info/)** - Game Optimization Tool / [Discord](https://discord.gg/specialk) / [GitHub](https://github.com/SpecialKO/SpecialK)
@@ -92,7 +92,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Controller Tools
+##  Controller Tools
 
 * ⭐ **[DS4Windows](https://github.com/schmaldeo/DS4Windows)** / [2](https://github.com/TRARS/DS4Windows), [AntiMicroX](https://github.com/AntiMicroX/antimicroX), [DualSenseX](https://github.com/Paliverse/DualSenseX), [DualSenseY](https://github.com/WujekFoliarz/DualSenseY-v2), [PCXSense](https://github.com/Denellyne/PCXSense) or [Input Remapper](https://github.com/sezanzeb/input-remapper) - Gamepad Input Tools / [Steam Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#steam-controller-support)
 * [x360ce](https://www.x360ce.com/) / [GitHub](https://github.com/x360ce/x360ce) - DS4 / 360 Controller Emulator
@@ -109,7 +109,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Game Mods
+##  Game Mods
 
 * **Note** - Sites listed in this section only support single player games. We do not support or condone cheating in multiplayer games.
 
@@ -144,7 +144,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Game Saves
+##  Game Saves
 
 * ↪️ **[File Backup](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools/#wiki_.25B7_file_backup) / [Sync](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools/#wiki_.25B7_file_sync)**
 * ⭐ **[Ludusavi](https://github.com/mtkennerly/ludusavi)** or [GameSave Manager](https://www.gamesave-manager.com/) - Game Save Managers / Backup
@@ -159,7 +159,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Game Maps
+##  Game Maps
 
 * 🌐 **[Map Genie](https://mapgenie.io/)**, [GamerMaps](https://www.gamermaps.net/), [IGN Maps](https://ign.com/maps), [GameMaps](https://www.gamemaps.com/), [THGL](https://www.th.gl/) or [VGMaps](https://www.vgmaps.com/) - Game Map Indexes
 * [noclip](https://noclip.website/) - Explore Game Maps
@@ -176,7 +176,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Git Gud
+##  Git Gud
 
 * **Note** - There are guides on almost every [Steam page](https://steamcommunity.com/guides), some for beginners, 100% completion walkthroughs, and more.
 
@@ -203,7 +203,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-# ▷ Tracking / Databases
+#  Tracking / Databases
 
 * ⭐ **[Backloggd](https://www.backloggd.com/)** - Tracking / Database / [Discord](https://discord.gg/cMjGusjbwg)
 * ⭐ **[Glitchwave](https://glitchwave.com/)** - Tracking / Database / [Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#glitchwave-note)
@@ -249,7 +249,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Curated Recommendations
+##  Curated Recommendations
 
 * 🌐 **[Awesome Engineering Games](https://github.com/arcataroger/awesome-engineering-games)** - Engineering Games
 * ⭐ **[AcclaimedVideoGames](https://www.acclaimedvideogames.com/)** or **[VideoGameCanon](https://www.videogamecanon.com/)** - Game Top 1000 List
@@ -263,7 +263,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-# ▷ Steam / Epic
+#  Steam / Epic
 
 * 🌐 **[Steam Tool Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=451698754)**, [steam.tools](https://steam.tools/) or [SteamInternals](https://cs.rin.ru/forum/viewtopic.php?f=10&t=65887) - Steam Tool Indexes
 * ⭐ **[SDD GUI](https://github.com/mmvanheusden/SteamDepotDownloaderGUI)** or [DepotDownloader](https://github.com/SteamRE/DepotDownloader) - Steam Depot Downloaders
@@ -281,7 +281,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Client Tools
+##  Client Tools
 
 * ⭐ **[Heroic Games Launcher](https://heroicgameslauncher.com/)** - Epic / GOG / Prime Games Launcher / [Discord](https://discord.com/invite/rHJ2uqdquK) / [GitHub](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher)
 * ⭐ **[Nemirtingas Epic Emulator](https://cs.rin.ru/forum/viewtopic.php?f=29&t=105551)** - Epic Online Service Emulator
@@ -300,7 +300,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ DLC Unlock / DRM Bypass
+##  DLC Unlock / DRM Bypass
 
 * ⭐ **[CreamAPI](https://cs.rin.ru/forum/viewtopic.php?t=70576)** - Steam DLC Unlocker / [Auto Setup](https://github.com/Warwolfer/auto-creamapi-2)
 * ⭐ **[GreenLuma](https://cs.rin.ru/forum/viewtopic.php?f=29&t=103709)** - Offline Steam DRM Bypass / DLC Unlocker / [Manager](https://github.com/BlueAmulet/GreenLuma-2024-Manager) / [Family Bypass Guide](https://rentry.org/gzny948p)
@@ -315,7 +315,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Store Tools
+##  Store Tools
 
 * ⭐ **[SteamDB](https://steamdb.info/)** / [Extension](https://steamdb.info/extension/) / [Discord](https://discord.com/invite/steamdb), [Steam250](https://steam250.com/) or [Steambase](https://steambase.io/) / [Extension](https://chromewebstore.google.com/detail/better-steam/iobagpbkbdkobggejjcnidehfenchpec) - Steam Insight Tools
 * [⁠EGData](https://egdata.app/) - Epic Games Insight Tools / [Discord](https://github.com/nachoaldamav/egdata)
@@ -330,7 +330,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Steam Workshop Downloaders
+##  Steam Workshop Downloaders
 
 * ⭐ **[WorkshopDL](https://github.com/imwaitingnow/WorkshopDL)**
 * [Nether Workshop Downloader](https://github.com/NethercraftMC5608/NetherWorkshopDownloader) / [Discord](https://discord.com/invite/bs9TMxMJk9)
@@ -343,7 +343,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-# ▷ Multiplayer Tools
+#  Multiplayer Tools
 
 * ⭐ **[Nucleus Co-op](https://github.com/SplitScreen-Me/splitscreenme-nucleus)** - Local Split-Screen PC Multiplayer / [Subreddit](https://www.reddit.com/r/nucleuscoop/)
 * [⁠bo3.gg](https://bo3.gg/) - Track ESport Matches, Scores and Streams
@@ -352,7 +352,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Multiplayer Fixes
+##  Multiplayer Fixes
 
 * ⭐ **[Online Fix](https://online-fix.me/)** - Online / LAN Multiplayer Fix / [Discord](https://discord.gg/yExgFYncMD)
 * ⭐ **[Playit.gg](https://playit.gg/)** - Dedicated Servers / LAN Multiplayer Fix / [Discord](https://discord.gg/AXAbujx)
@@ -367,7 +367,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Multiplayer Mods
+##  Multiplayer Mods
 
 * 🌐 **[Multiplayer Mods](https://docs.google.com/spreadsheets/d/e/2PACX-1vSV41AswEt3EpzSyd85YRVtoJaIIXWjtBy347dISJg4fs6xSNPqcgfsh76TxX_l-mnT7pjMlSqTW-87/pubhtml)** or [Unmoddable](https://unmoddable.com/) - Multiplayer Mods for Single-Player Games
 * 🌐 **[⁠CoD All](https://gitlab.com/xifil/cod-all)** - CoD Multiplayer Mod Index
@@ -394,7 +394,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Multiplayer Servers
+##  Multiplayer Servers
 
 * ⭐ **[TrackyServer](https://www.trackyserver.com/)** - Find Private Multiplayer Servers
 * [Server.pro](https://server.pro/) - Game Server Hosting
@@ -428,7 +428,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-# ▷ Homebrew
+#  Homebrew
 
 * 🌐 **[Darthsternie](https://darthsternie.net/)** - Console Firmware / Exploit Archive
 * 🌐 **[Emulators on Consoles](https://emulation.gametechwiki.com/index.php/Category:Emulators_on_consoles)** - List of Emulators for Consoles
@@ -456,7 +456,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Switch Homebrew
+##  Switch Homebrew
 
 * ⭐ **[r/SwitchPirates Wiki](https://www.reddit.com/r/SwitchPirates/wiki/index/)**, **[Switch Hacks Guide](https://switch.hacks.guide/)** (anti-piracy) or [Switchway](https://switchway.net/) - Homebrew Guides
 * ⭐ **[Homebrew App Store](https://hb-app.store/)** - Switch / Wii U Homebrew App Store
@@ -471,7 +471,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Wii U / Wii Homebrew
+##  Wii U / Wii Homebrew
 
 * ⭐ **[Wii U Hacks Guide](https://wiiu.hacks.guide/)** - Wii U Jailbreak Guide
 * ⭐ **[Wii Hacks Guide](https://wii.hacks.guide/)** - Wii Jailbreak Guide
@@ -488,7 +488,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ 3DS / DS Homebrew
+##  3DS / DS Homebrew
 
 * 🌐 **[DS Homebrew](https://ds-homebrew.com/)** - DS Homebrew Resources / [Wiki](https://wiki.ds-homebrew.com/) / [Discord](https://discord.com/invite/yD3spjv)
 * ⭐ **[3DS Jailbreak Guide](https://3ds.hacks.guide/)** - 3DS Jailbreak Guide
@@ -507,7 +507,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Playstation Homebrew
+##  Playstation Homebrew
 
 * ⭐ **[PS4 Modding](https://www.youtube.com/watch?v=8-dMXW7XZjA)** - PS4 Jailbreak Guides
 * ⭐ **[Vita Hacks Guide](https://vita.hacks.guide/)** - Vita Jailbreak Guide
@@ -535,7 +535,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Steam Deck
+##  Steam Deck
 
 * 🌐 **[Steam Deck Mods](https://docs.google.com/document/d/1TWhN9nCorKxut5O7UbPQPDhXLb-8C-CIoesB01yfhmY/)** - Steam Deck Mods / [Discord](https://discord.com/invite/SteamDeck)
 * ⭐ **[Decky Loader](https://decky.xyz/)** - Steam Deck Plugin Loader / [Plugins](https://plugins.deckbrew.xyz/) / [GitHub](https://github.com/SteamDeckHomebrew/decky-loader)
@@ -552,7 +552,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-# ▷ Minecraft Tools
+#  Minecraft Tools
 
 * 🌐 **[MCDOC](https://mcdoc.site/)** - Minecraft Tools & Unlockers
 * 🌐 **[Awesome Minecraft](https://github.com/bs-community/awesome-minecraft)** - Minecraft Resources
@@ -581,7 +581,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Hosting Tools
+##  Hosting Tools
 
 * 🌐 **[FMHL](https://www.myuui.com/)** - Free Minecraft Hosts List / [GitHub](https://github.com/Myuui/Free-Minecraft-Hosts)
 * ⭐ **[auto-mcs](https://www.auto-mcs.com/)** - Easy Server Setup / [GitHub](https://github.com/macarooni-man/auto-mcs)
@@ -603,7 +603,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Launchers
+##  Launchers
 
 * ⭐ **[Prism Launcher](https://prismlauncher.org/)** - Feature-Rich Launcher / [CurseForge Downloads](https://gist.github.com/sugoidogo/2e607727cd61324b2d292da96961de3f) / [Free Method](https://rentry.co/prism4free) / [Ely.by Version](https://github.com/ElyPrismLauncher/ElyPrismLauncher) / [Discord](https://discord.com/invite/ArX2nafFz2) / [GitHub](https://github.com/PrismLauncher/PrismLauncher)
 * ⭐ **[ATLauncher](https://atlauncher.com/)** or [Technic Launcher](https://www.technicpack.net/) - Modpack Launchers
@@ -622,7 +622,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Mods / Data Packs
+##  Mods / Data Packs
 
 * 🌐 **[Not Essential](https://notessential.blurry.gay/)** - List of Alternatives to Essential
 * 🌐 **[OptiFine Alternatives](https://optifine.alternatives.lambdaurora.dev/)** - OptiFine Alternatives for Fabric
@@ -652,7 +652,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Maps / World Tools
+##  Maps / World Tools
 
 * 🌐 **[ChunkBase](https://www.chunkbase.com/apps/)** - Minecraft Map Tools
 * [Amulet](https://www.amuletmc.com/), [Minecraft Datapack Map](https://map.jacobsjo.eu/) / [GitHub](https://github.com/jacobsjo/mc-datapack-map), [MCA Selector](https://github.com/Querz/mcaselector), [uNmINeD](https://unmined.net/) or [WorldPainter](https://www.worldpainter.net/) - Minecraft Map Editors / Viewers
@@ -669,7 +669,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Technical Tools
+##  Technical Tools
 
 * 🌐 **[TMC Links](https://gist.github.com/JoakimThorsen/e90bd7a588af25ae529530987d9acc8a)** - Technical Minecraft Resources
 * 🌐 **[Minecraft Speedrunning](https://www.minecraftspeedrunning.com/)** - Minecraft Speedrunning Resources
@@ -687,7 +687,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Customization
+##  Customization
 
 * 🌐 **[ShaderLABS](https://shaderlabs.org/wiki/Main_Page)** - Shader Comparisons and Resources
 * ↪️ **[Resource Pack Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage/#wiki_mod_.2F_resource_pack_indexes)**
@@ -704,7 +704,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ 3D Tools
+##  3D Tools
 
 * ⭐ **[MCprep](https://theduckcow.com/dev/blender/mcprep/)** - All-in-one Blender Addon / [Discord](https://discord.com/invite/mb8hBUC) / [GitHub](https://github.com/Moo-Ack-Productions/MCprep)
 * ⭐ **[jmc2obj](https://www.jmc2obj.net/)**, [Mineways](https://www.realtimerendering.com/erich/minecraft/public/mineways/), [MiEX](https://bramstout.nl/en/miex/), [Minutor](https://seancode.com/minutor/) - Minecraft World Exporters
@@ -721,7 +721,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-# ▷ Game Specific
+#  Game Specific
 
 * 🌐 **[Awesome Trackmania](https://github.com/EvoEsports/awesome-trackmania)** - Trackmania Resources
 * 🌐 **[ACNH.Directory](https://acnh.directory/)** - Animal Crossing: New Horizons Resources
@@ -752,7 +752,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ MOBA Tools
+##  MOBA Tools
 
 * ⭐ **[OP.GG](https://www.op.gg/)** - LoL Player Background Check
 * ⭐ **[DPM.LOL](https://dpm.lol/)**, **[U.GG](https://u.gg/)**, [KoreanBuilds](https://en.koreanbuilds.net/), [EuropeanBuilds](https://en.europeanbuilds.net/), [LoLTheory](https://loltheory.gg/), [MurderBridge](https://www.murderbridge.com/) or [LoLAlytics](https://lolalytics.com/) / [Discord](https://discord.com/invite/zKyaZ6w) - LoL Builds / Tiers
@@ -774,7 +774,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Pokemon Tools
+##  Pokemon Tools
 
 * 🌐 **[Awesome Pokémon](https://github.com/tobiasbueschel/awesome-pokemon)** - Pokémon Resources
 * 🌐 **[r/PTCGP Resource Guide](https://redd.it/1gf94ey)** - Pokémon TCG Pocket Resources
@@ -804,7 +804,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Counter-Strike Tools
+##  Counter-Strike Tools
 
 * ⭐ **[CsWarzOnE](https://cswarzone.com/)** - Counter-Strike Downloads
 * ⭐ **[HLTV](https://www.hltv.org/)** or [Dust2](https://www.dust2.us/) - Counter-Strike News
@@ -820,7 +820,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ GTA Tools
+##  GTA Tools
 
 * 🌐 **[GTAAll](https://www.gtaall.com/)**, [GTAInside](https://gtainside.de/), [GameModding](https://gamemodding.com/), [GTAGarage](https://gtagarage.com/) or [LibertyCity](https://libertycity.net/) - GTA Mods, Walkthroughs & More
 * 🌐 **[GTA5-Mods](https://www.gta5-mods.com/)** - GTAV Mods
@@ -842,7 +842,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Doom Tools
+##  Doom Tools
 
 * ⭐ **[Doom Wiki](https://doomwiki.org/wiki/Entryway)** - Doom Wiki
 * ⭐ **[ZDoom](https://www.zdoom.org/downloads)** - Doom Source Port
@@ -856,7 +856,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Mario Kart Tools
+##  Mario Kart Tools
 
 * ⭐ **[Retro Rewind](https://rentry.org/Retro-Rewind)** - Retro MKW Tracks / Multiplayer / [Discord](https://discord.gg/qbr3Y4PJFH)
 * ⭐ **RR Tools** - [Wiki](https://wiki.tockdom.com/wiki/Retro_Rewind) / [Auto-Updater](https://github.com/TeamWheelWizard/WheelWizard/releases) / [VR Rankings](https://impactcoding.github.io/rr-vr-ranking/) / [Troubleshooting](https://rentry.org/RR-Fixes)
@@ -882,7 +882,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Geometry Dash Tools
+##  Geometry Dash Tools
 
 * 🌐 **[GD Colon](https://gdcolon.com/)** - GD Tools Index
 * ↪️ **[GD Demon Lists](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_geometry_dash_demon_lists)**
@@ -899,7 +899,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Roblox Tools
+##  Roblox Tools
 
 * 🌐 **[Roblox Archive](https://archive.roblonium.com/)** - Roblox Client Archive
 * ⭐ **[Rolimon's](https://www.rolimons.com/games)**, [⁠Rotrends](https://rotrends.com/) or [RoMonitor Stats](https://romonitorstats.com/) - Roblox Analytics / Stats
@@ -916,7 +916,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Terraria Tools
+##  Terraria Tools
 
 * ⭐ **[Terraria Wiki](https://terraria.wiki.gg/)** or [Terranion](https://yal.cc/r/terranion/) - Terraria Wikis
 * [⁠PinkGel](https://pinkgel.pages.dev/) - Terraria Item Database 
@@ -928,7 +928,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Gacha Tools
+##  Gacha Tools
 
 * 🌐 **[Paimon.moe](https://paimon.moe/)** or [Honey Impact](https://gensh.honeyhunterworld.com/) - Genshin Impact Resources / Tools
 * 🌐 **[Honkai.gg](https://honkai.gg/)** - Honkai Star Rail Resources / Tools
@@ -950,7 +950,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ Tabletop Tools
+##  Tabletop Tools
 
 * 🌐 **[Awesome TTRPGs](https://github.com/Zireael07/awesome-tabletop-rpgs)** - Online TTRPGs & Resources
 * ⭐ **[dice.run](https://dice.run/)**, [DiceSimulator.com](http://www.dicesimulator.com/) or [Desktop Dice](https://girkovarpa.itch.io/desktopdice) - Dice Simulators
@@ -967,7 +967,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ RPG Worldbuilding
+##  RPG Worldbuilding
 
 * ⭐ **[Kanka](https://kanka.io/)**, [World Anvil](https://www.worldanvil.com/), [RPTools](https://www.rptools.net/), [Scabard](https://www.scabard.com/), [Adventurer's Codex](https://adventurerscodex.com) or [Fantasia Archive](https://fantasiaarchive.com/) - RPG Campaign Managers / Worldbuilding Suites
 * ⭐ **[Chaotic Shiny](http://chaoticshiny.com/)**, [Seventh Sanctum](https://www.seventhsanctum.com/), [Notebook.ai](https://www.notebook.ai/), [Fantasy Name Generators](https://www.fantasynamegenerators.com/) or [Eigengrau's Generator](https://eigengrausgenerator.com/) - RPG / Fantasy Storywriting Tools
@@ -983,7 +983,7 @@ description: Gaming utilities, optimization tools, and gaming enhancement softwa
 
 ***
 
-## ▷ ARPG / MMORPG Tools
+##  ARPG / MMORPG Tools
 
 * 🌐 **[Grim Tools](https://www.grimtools.com/)** - Grim Dawn Tools
 * 🌐 **[Last Epoch Tools](https://www.lastepochtools.com/)** - Last Epoch Tools

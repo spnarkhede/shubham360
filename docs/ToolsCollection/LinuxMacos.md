@@ -6,7 +6,7 @@ description: The $HOME of Linux and macOS.
 
 # Linux / macOS 
 
-# ▷ Linux Guides
+#  Linux Guides
 
 * ⭐ **[ArchWiki](https://wiki.archlinux.org/)** - Linux Guides / [Manuals](https://man.archlinux.org/) / [TUI](https://codeberg.org/theooo/mantra.py)
 * [Gentoo Wiki](https://wiki.gentoo.org/wiki/Main_Page) - Gentoo Wikis / Guides
@@ -21,7 +21,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ CLI Cheat Sheets
+##  CLI Cheat Sheets
 
 * ⭐ **[Linux Command Library](https://linuxcommandlibrary.com/)** / [GitHub](https://github.com/SimonSchubert/LinuxCommandLibrary)
 * [Awesome for One Liner](https://github.com/sheepla/awesome-for-oneliner)
@@ -34,7 +34,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-# ▷ Linux Communities
+#  Linux Communities
 
 * **Note** - Keep in mind it's usually best to seek specific forums for your Distro if you need help with them.
 
@@ -52,7 +52,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-# ▷ Linux Distros
+#  Linux Distros
 
 * **Note** - We don't curate individual distros ourselves as we feel the indexes listed are good enough to stand on their own.
 
@@ -71,7 +71,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-# ▷ Linux Apps
+#  Linux Apps
 
 * ↪️ **[Multi-Platform Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_ebook_readers)** - Ebook Reader Index
 * 🌐 **[GNOME Shell Extensions](https://extensions.gnome.org/)**
@@ -115,7 +115,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Software Sites
+##  Software Sites
 
 * 🌐 **[ArchWiki App Sites](https://wiki.archlinux.org/title/List_of_applications)** or **[Ultimate Cheatsheet](https://gist.github.com/bgoonz/be5c5be77169ef333b431bc37d331176)** - Linux Software / Site Index
 * 🌐 **[Awesome Linux Software](https://luong-komorebi.github.io/Awesome-Linux-Software/)** - FOSS Linux Software
@@ -141,7 +141,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Linux System
+##  Linux System
 
 * 🌐 **[Hardware for Linux](https://linux-hardware.org/)** - Linux Hardware Compatibility Database / [Forum](https://forum.linux-hardware.org/) / [GitHub](https://github.com/linuxhw/)
 * ⭐ **[Btop](https://github.com/aristocratos/btop)**, **[fastfetch](https://github.com/fastfetch-cli/fastfetch)**, **[MangoHud](https://github.com/flightlessmango/MangoHud)**, [CPU-X](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X), [Macchina](https://github.com/Macchina-CLI/macchina), [Archey4](https://github.com/HorlogeSkynet/archey4), [Hyfetch](https://github.com/hykilpikonna/hyfetch) or [s-tui](https://github.com/amanusk/s-tui) - System Info / Resource Monitors
@@ -184,7 +184,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Linux Video
+##  Linux Video
 
 * ⭐ **[mpv](https://mpv.io/)** or [VLC](https://www.videolan.org/) - Video Players
 * ⭐ **[Haruna](https://apps.kde.org/haruna/)** / [GitHub](https://github.com/KDE/haruna) or **[Celluloid](https://github.com/celluloid-player/celluloid)** - MPV Frontends
@@ -205,7 +205,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Linux Audio
+##  Linux Audio
 
 * 🌐 **[Awesome Linux Audio](https://gitlab.com/nodiscc/awesome-linuxaudio)** - Live Audio Resources
 * ⭐ **[SpotX-Bash](https://github.com/SpotX-Official/SpotX-Bash)** or [spotify-adblock](https://github.com/abba23/spotify-adblock) - Spotify Adblockers
@@ -240,7 +240,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Linux Image
+##  Linux Image
 
 * ⭐ **[Flameshot](https://flameshot.org/)** or [Scrot](https://github.com/resurrecting-open-source-projects/scrot) - Screenshot Tools
 * [v4l2loopback](https://github.com/v4l2loopback/v4l2loopback) - Create Virtual Cameras
@@ -254,7 +254,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Productivity / Calendars
+##  Productivity / Calendars
 
 * [todo](https://github.com/sioodmy/todo/) or [Planify](https://github.com/alainm23/planify) - To-Do Apps
 * [Timestrap](https://timestrap.bythewood.me/) or [Mindfulness at the Computer](https://fswb.codeberg.page/mindfulness-at-the-computer/) - Productivity Managers
@@ -265,7 +265,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Linux Gaming
+##  Linux Gaming
 
 * 🌐 **[Are We Anti-Cheat Yet?](https://areweanticheatyet.com/)** - Anti-Cheat Game Database / GNU/Linux & Wine/Proton Compatibility
 * ⭐ **[Comprehensive Gaming Guide](https://linux-gaming.kwindu.eu/index.php?title=Main_Page)** / [2](https://github.com/rimsiw/linux-gaming-omg) / [3](https://web.archive.org/web/20221022121735/https://www.reddit.com/r/Piracy/comments/ndrtlf/comment/gyccwhk/?context=3) / [4](https://www.reddit.com/r/LinuxCrackSupport/wiki/index) - Linux Gaming Guides
@@ -311,9 +311,9 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-# ▷ Linux Tools
+#  Linux Tools
 
-## ▷ Adblock / Privacy
+##  Adblock / Privacy
 
 * ↪️ **[Linux 2FA](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_password_privacy_.2F_2fa)**
 * ↪️ **[DNS Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25B7_dns_adblocking)**
@@ -345,7 +345,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Linux Internet
+##  Linux Internet
 
 * ⭐ **[qBittorrent](https://github.com/qbittorrent/qBittorrent/wiki/Installing-qBittorrent#linux)** / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent#wiki_.25B7_qbittorrent_tools), **[rTorrent](https://rakshasa.github.io/rtorrent/)** / [GitHub](https://github.com/rakshasa/rtorrent), [Fragments](https://apps.gnome.org/Fragments/), [BitFlu](https://bitflu.workaround.ch/), [kTorrent](https://apps.kde.org/ktorrent/) / [2](https://invent.kde.org/network/ktorrent) - Linux Torrent Clients
 * ⭐ **[Soulseek](https://www.slsknet.org)** - File Sharing App
@@ -388,7 +388,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Server / Selfhosting
+##  Server / Selfhosting
 
 * 🌐 **[Awesome Selfhosted](https://awesome-selfhosted.net/)** / [2](https://gist.github.com/kvnxiao/27c14760cbec35b4e312e34c856b51a8) or [Awesome Selfhosted UI](https://awesomeselfhosted.netlify.app/) - Self-Hosted Software Index / [GitHub](https://github.com/awesome-selfhosted/awesome-selfhosted)
 * 🌐 **[Selfh.st](https://selfh.st/apps/)** - Self-Hosted Software Index
@@ -415,7 +415,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ File Tools
+##  File Tools
 
 * 🌐 **[Linux File Backup](https://github.com/restic/others)** - File Backup App List
 * ⭐ **[Warpinator](https://github.com/linuxmint/warpinator)**, [rQuickshare](https://github.com/Martichou/rquickshare), [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole), [syncthing](https://syncthing.net/) / [Tray Support](https://martchus.github.io/syncthingtray/), [portal](https://github.com/SpatiumPortae/portal), [Zrok](https://zrok.io/), [Celeste](https://flathub.org/apps/com.hunterwittenborn.Celeste) / [2](https://snapcraft.io/celeste) / [GitHub](https://github.com/hwittenborn/celeste), [Cattail](https://github.com/nerdyslacker/cattail) or [Sharing](https://github.com/parvardegr/sharing) - File Sync / Transfer
@@ -440,7 +440,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Android on Linux
+##  Android on Linux
 
 * ⭐ **[Waydroid](https://waydro.id/)** - Containerized Android on Linux / [Scripts](https://github.com/casualsnek/waydroid_script) / [GitHub](https://github.com/waydroid)
 * [Redroid](https://github.com/remote-android/redroid-doc) or [Docker-Android](https://github.com/budtmo/docker-android) - Containerized Android on Linux
@@ -451,7 +451,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Terminal / Shell
+##  Terminal / Shell
 
 * 🌐 **[Awesome Shell](https://github.com/alebcay/awesome-shell)**, [tldr](https://tldr.sh/) / [GitHub](https://github.com/tldr-pages/tldr) or [AltBox](https://altbox.dev/) - Linux Shell Resources
 * 🌐 **[Awesome TUIs](https://github.com/rothgar/awesome-tuis)** or [TerminalTrove](https://terminaltrove.com/) - List of TUIs
@@ -481,7 +481,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Raspberry Pi
+##  Raspberry Pi
 
 * [Pinn](https://github.com/procount/pinn) - Raspberry Pi OS Installer
 * [PiVPN](https://pivpn.io/) - Raspberry Pi VPN / [GitHub](https://github.com/pivpn/pivpn)
@@ -493,7 +493,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-# ▷ Ricing / Customization
+#  Ricing / Customization
 
 * 🌐 **[Awesome Ricing](https://github.com/fosslife/awesome-ricing)** or **[⁠Awesome Linux Ricing](https://github.com/avtzis/awesome-linux-ricing)** - Linux Ricing Resources
 * ⭐ **[Elkowar's Wacky Widgets](https://elkowar.github.io/eww)** or **[Aylur's GTK Shell](https://github.com/Aylur/ags)** - Widgeting Systems
@@ -501,7 +501,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Desktop Environment
+##  Desktop Environment
 
 * 🌐 **[Desktop Environment Comparison](https://eylenburg.github.io/de_comparison.htm)**
 * [Extension Manager](https://mattjakeman.com/apps/extension-manager) - GNOME Shell Extension Manager
@@ -513,7 +513,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Window Managers
+##  Window Managers
 
 * 🌐 **[⁠Awesome Wayland](https://github.com/rcalixte/awesome-wayland)** - Wayland Resources
 * 🌐 **[Window Manager Index](https://wiki.archlinux.org/title/Window_manager)** - List of Window Managers
@@ -534,7 +534,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Linux Themes
+##  Linux Themes
 
 * 🌐 **[xfce-look](https://www.xfce-look.org/)** - XFCE Linux Themes
 * 🌐 **[Gnome-Look](https://www.gnome-look.org/)** - GNOME Themes
@@ -554,7 +554,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-# ▷ Mac Apps
+#  Mac Apps
 
 * 🌐 **[The Terminal Directory](https://termui.sh/)** - List of Terminal Emulators
 * ↪️ **[Multi-Platform Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_ebook_readers)** - Ebook Reader Index
@@ -619,7 +619,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Software Sites
+##  Software Sites
 
 * 🌐 **[Awesome macOS](https://github.com/iCHAIT/awesome-macOS)**, [OpenSourceApple](https://opensource.apple.com/), [Awesome Mac](https://github.com/jaywcjlove/awesome-mac) or [Awesome OS Apps](https://github.com/serhii-londar/open-source-mac-os-apps) - FOSS App Indexes
 * 🌐 **[Mac Menu Bar](https://macmenubar.com/)** - Menu Bar App Index
@@ -640,7 +640,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Mac Video
+##  Mac Video
 
 * [IINA](https://iina.io/) - Video Player
 * [AnymeX](https://anymex.vercel.app/) - Anime Streaming App / [Extension Guide](https://wotaku.wiki/guides/ext/mangayomi) / [GitHub](https://github.com/RyanYuuki/AnymeX)
@@ -651,7 +651,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Mac Audio
+##  Mac Audio
 
 * ⭐ **[SpotX-Bash](https://github.com/SpotX-Official/SpotX-Bash)** or [Mac_Spotify_Adblock](https://github.com/Devanshu-17/Mac_Spotify_Adblock) - Spotify Adblockers
 * ⭐ **[Spicetify](https://spicetify.app/)** - Spotify Themes & Plugins / [Addons](https://github.com/rxri/spicetify-extensions), [2](https://github.com/3raxton/spicetify-custom-apps-and-extensions) / [Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#spicetify-note) / [Discord](https://discord.gg/VnevqPp2Rr) / [GitHub](https://github.com/spicetify/cli)
@@ -672,7 +672,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Mac Image
+##  Mac Image
 
 * [Gifski](https://sindresorhus.com/gifski) - Image to GIF Converter / [GitHub](https://github.com/sindresorhus/Gifski)
 * [Darkroom](https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746) - Image / Video Editor
@@ -683,7 +683,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Mac Gaming
+##  Mac Gaming
 
 * ⭐ **[Torrminatorr](https://forum.torrminatorr.com/)** - Mac Games
 * ⭐ **[AppleGamingWiki](https://applegamingwiki.com/)** / [Discord](https://discord.gg/28CAAr6SpB) or [⁠Mac Gaming DB](https://macgamingdb.app/) - Mac Game Fixes / Compatibility 
@@ -701,9 +701,9 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-# ▷ Mac Tools
+#  Mac Tools
 
-## ▷ Mac Adblock / Privacy
+##  Mac Adblock / Privacy
 
 * 🌐 **[Awesome OSX Security](https://github.com/ashishb/osx-and-ios-security-awesome)** - Mac Security Resources
 * ↪️ **[Mac 2FA](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_password_privacy_.2F_2fa)**
@@ -734,7 +734,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ Mac Internet
+##  Mac Internet
 
 * ⭐ **[Transmission](https://transmissionbt.com/)** - Torrent Client
 * ⭐ **[qBittorrent](https://www.qbittorrent.org/)** - Torrent Client / [Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent#wiki_.25B7_qbittorrent_tools)
@@ -746,7 +746,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ System Tools
+##  System Tools
 
 * 🌐 **[AppleDB](https://appledb.dev/)** - Apple Device / Software Info Database
 * ⭐ **[Alfred](https://www.alfredapp.com/)** / [Workflows / Themes](https://www.packal.org/) , [Raycast](https://www.raycast.com/), [Albert](https://albertlauncher.github.io/), [Quicksilver](https://qsapp.com/), [⁠KeyboardCowboy](https://github.com/zenangst/KeyboardCowboy) or [SOL](https://sol.ospfranco.com/) - Keystroke Launchers / Spotlight Replacements
@@ -799,7 +799,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-## ▷ File Tools
+##  File Tools
 
 * ⭐ **[PeaZip](https://peazip.github.io/peazip-macos.html)** / [GitHub](https://github.com/peazip/PeaZip/), [The Unarchiver](https://theunarchiver.com/), [unxip](https://github.com/saagarjha/unxip) or [Keka](https://www.keka.io/) - File Archivers
 * ⭐ **[Readdle](https://readdle.com/documents)** - Multipurpose File Tool
@@ -818,7 +818,7 @@ description: The $HOME of Linux and macOS.
 
 ***
 
-# ▷ Unix-Like
+#  Unix-Like
 
 * 🌐 **[Awesome-ttygames](https://github.com/ligurio/awesome-ttygames)** - Unix ASCII Games
 * 🌐 **[Awesome BSD](https://github.com/DiscoverBSD/awesome-bsd)** - BSD Resources

@@ -31,7 +31,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Download Managers
+##  Download Managers
 
 * **Note** - Download managers can speed things up by using multiple connections, bypass rate limits, and they also make handling split files, and dealing with file hosts much easier.
 
@@ -56,7 +56,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Archiving / Compression
+##  Archiving / Compression
 
 * 🌐 **[SuperCompression](https://supercompression.org/)** - File Compression Resources
 * ⭐ **[NanaZip](https://github.com/M2Team/NanaZip)** or **[7-Zip](https://www.7-zip.org/)** - File Archiver
@@ -73,7 +73,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ File Converters
+##  File Converters
 
 * ⭐ **[File Converter](https://file-converter.io/)** - Convert / Compress Files / [GitHub](https://github.com/Tichau/FileConverter)
 * ⭐ **[VERT](https://vert.sh/)** / [Discord](https://discord.gg/8XXZ7TFFrK) / [GitHub](https://github.com/VERT-sh/VERT)
@@ -92,7 +92,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ File Managers
+##  File Managers
 
 * ⭐ **[Files](https://files.community/)** - Customizable File Manager / Use Classic Installer / [Discord](https://discord.gg/files)
 * ⭐ **[Directory Opus](https://rentry.co/FMHYBase64#directory-opus)** - Windows File Manager
@@ -112,7 +112,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ File Searching
+##  File Searching
 
 * ⭐ **[Everything](https://voidtools.com/)** - File Search Engine
 * [Recoll](https://www.recoll.org/) / [Addon](https://addons.mozilla.org/en-US/firefox/addon/recoll-we/), [Spyglass](https://github.com/spyglass-search/spyglass), [DocFetcher](https://docfetcher.sourceforge.io/) or [Orange](https://0-range.github.io/) - Cross-Platform Search Engines
@@ -124,7 +124,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ File Encryption
+##  File Encryption
 
 * ⭐ **[Cryptomator](https://cryptomator.org/)** / [GitHub](https://github.com/cryptomator/cryptomator) or [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) / [GitHub](https://github.com/tahoe-lafs/tahoe-lafs) - Cloud File Encryption
 * ⭐ **[VeraCrypt](https://www.veracrypt.fr/en/Home.html)** - Disk Encrypter
@@ -134,7 +134,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ File Sync
+##  File Sync
 
 * ⭐ **[SyncThing](https://syncthing.net/)** - Cross-Platform File Sync / [Tray Support](https://martchus.github.io/syncthingtray/) / [GitHub](https://github.com/syncthing/syncthing)
 * ⭐ **[FreeFileSync](https://freefilesync.org/)** - Open-Source File Sync
@@ -147,7 +147,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ File Backup
+##  File Backup
 
 * ⭐ **[Kopia](https://kopia.io/)** - Encrypted File Backup / [GitHub](https://github.com/kopia/kopia/)
 * ⭐ **[Rescuezilla](https://rescuezilla.com/)** / [GitHub](https://github.com/rescuezilla/rescuezilla) or [CloneZilla](https://clonezilla.org/) - Disk Image Backup
@@ -163,7 +163,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ File Recovery
+##  File Recovery
 
 * 🌐 **[Data Recovery](https://igwiki.lyci.de/wiki/Data_recovery)** - Data Recovery Tool Index
 * ⭐ **[TestDisk](https://www.cgsecurity.org/wiki/TestDisk)** - File Recovery
@@ -175,7 +175,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Formatting / Deletion
+##  Formatting / Deletion
 
 * ⭐ **[SDelete](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete)** - File Deletion CLI
 * [Eraser](https://eraser.heidi.ie/), [File Shredder](https://fileshredder.org/), [Alternate File Shredder](https://www.alternate-tools.com/pages/c_fileshredder.php?lang=ENG), [Permadelete](https://developerstree.github.io/permadelete/) or [Delapp](https://github.com/differentrain/Delapp) - File Shredding
@@ -185,7 +185,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Data Automation
+##  Data Automation
 
 * ⭐ **[Advanced Renamer](https://www.advancedrenamer.com/)** or [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) - Bulk Renamers
 * [FoliCon](https://dineshsolanki.github.io/FoliCon/) - Automatic Custom Media Icons / Folders / [GitHub](https://github.com/DineshSolanki/FoliCon)
@@ -198,7 +198,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-# ▷ PDF Tools
+#  PDF Tools
 
 * [PDFGrep](https://pdfgrep.org/) or [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) - PDF Text Search
 * [View-only PDF](https://rentry.co/cm4b7) - Download View-Only PDF on Google Drive
@@ -213,7 +213,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Online PDF Toolkits
+##  Online PDF Toolkits
 
 * ⭐ **[Sejda](https://www.sejda.com/)**
 * ⭐ **[ILovePDF](https://www.ilovepdf.com/)**
@@ -226,7 +226,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Offline PDF Toolkits
+##  Offline PDF Toolkits
 
 * ⭐ **[PDF24](https://www.pdf24.org/)**
 * [⁠PDF4QT](https://jakubmelka.github.io/) / [GitHub](https://github.com/JakubMelka/PDF4QT)
@@ -238,7 +238,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ PDF Conversion Tools
+##  PDF Conversion Tools
 
 * [Rare2PDF](https://rare2pdf.com/), [online2pdf](https://online2pdf.com/) or [2PDFConverter](https://www.2pdfconverter.com/) - File to PDF Conversion
 * [MD2PDF](https://md2pdf.netlify.app/) - Markdown to PDF Converter
@@ -251,7 +251,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-# ▷ File Transfer
+#  File Transfer
 
 * ⭐ **[LocalSend](https://localsend.org/)** - Desktop / Mobile Transfer / [Discord](https://discord.com/invite/GSRWmQNP87) / [GitHub](https://github.com/localsend/localsend)
 * ⭐ **[Blip](https://blip.net/)** - Desktop / Mobile Transfer
@@ -272,7 +272,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ P2P Transfer
+##  P2P Transfer
 
 * ⭐ **[PairDrop](https://pairdrop.net/)** / [GitHub](https://github.com/schlagmichdoch/pairdrop)
 * ⭐ **[JustBeamIt](https://justbeamit.com/)**
@@ -286,7 +286,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-# ▷ File Hosts
+#  File Hosts
 
 * **Note** - Keep in mind that it's **never** a good idea to upload personal or confidential files to any file host, even if they claim to be encrypted. Most file hosts only remove files after inactivity, while some delete them regardless. Check each host if you're concerned about file expiry. Tags are: File Size / Expiry.
 
@@ -361,7 +361,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Cloud Storage
+##  Cloud Storage
 
 * **Note** - Monthly prices are based on annual plans. 2TB prices are halved for comparison if a 1TB plan doesn't exist for a service.
 
@@ -392,7 +392,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Cloud Managers
+##  Cloud Managers
 
 * ⭐ **[Rclone](https://rclone.org/)** - Cloud Storage Manager
 * ⭐ **Rclone Tools** - [Guide](https://rentry.co/simple-rclone-usage) / [Colab](https://colab.research.google.com/github/szyha/RcloneLabArchive/blob/master/RcloneLab.ipynb) / [Transfer Tool](https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool) / [Telegram](https://t.me/rclonexbot)
@@ -408,7 +408,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ Google Drive Tools
+##  Google Drive Tools
 
 * ⭐ **[OneClickRun](https://colab.research.google.com/github/biplobsd/OneClickRun/blob/master/OneClickRun.ipynb)** - Google Drive Tools / [Features](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#oneclick-note) / Use Throwaway Account
 * [DriveUploader](https://driveuploader.com/) - Receive Files via Google Drive
@@ -427,7 +427,7 @@ description: File management, compression, conversion, and organization utilitie
 
 ***
 
-## ▷ MEGA Tools
+##  MEGA Tools
 
 * ⭐ **[Megabasterd](https://github.com/tonikelope/megabasterd)** - Download Quota Bypass / [Note](https://github.com/fmhy/FMHY/wiki/FMHY%E2%80%90Notes.md#megabasterd-note)
 * ⭐ **[Mega Account Generators](https://rentry.co/fmhybase64#mega-gen)** - Account Gen / Unlimited Upload Size / [Fix](https://rentry.co/mega_account_generator)

@@ -6,7 +6,7 @@ description: Educational content for all ages.
 
 # Educational 
 
-# ▷ Documentaries
+#  Documentaries
 
 * ⭐ **[IHaveNoTV](https://ihavenotv.com)**
 * ⭐ **[DocumentaryArea](https://www.documentaryarea.com/)** / [Remove Watermark](https://github.com/acridsoul/Clear-Mark) (or use PIP)
@@ -33,9 +33,9 @@ description: Educational content for all ages.
 
 ***
 
-# ▷ Courses
+#  Courses
 
-## ▷ Streaming
+##  Streaming
 
 * 🌐 **[Awesome Courses](https://github.com/prakhar1989/awesome-courses/)** - Courses
 * 🌐 **[Limnology](https://limnology.co/)** - Educational YouTube Channels
@@ -63,7 +63,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Downloading
+##  Downloading
 
 * **Note** - Use **[redirect bypassers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_redirect_bypass)** to skip annoying link shorteners.
 
@@ -88,7 +88,7 @@ description: Educational content for all ages.
 
 ***
 
-# ▷ Learning Sites
+#  Learning Sites
 
 * 🌐 **[Learn Anything](https://learn-anything.xyz/)** - Learning Resource Search / [Free Method](https://rentry.co/FMHYBase64#learn-anything) / [Discord](https://discord.gg/W7yDkEN67Y) / [GitHub](https://github.com/learn-anything/learn-anything)
 * 🌐 **[Wakelet](https://wakelet.com/explore)** - Learning Resources
@@ -129,7 +129,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Skills / Hobbies
+##  Skills / Hobbies
 
 * ↪️ **[Typing Tests / Games](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_typing_lessons)**
 * [Rookie Road](https://www.rookieroad.com/) - Sport Guides
@@ -151,7 +151,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Interactive Learning
+##  Interactive Learning
 
 * ⭐ **[PhET](https://phet.colorado.edu/)**, [Cognito](https://www.cognitoedu.org/), [Academo](https://academo.org/) - Interactive Lessons
 * [Explorabl.es](https://explorabl.es/), [MinuteLabs](https://minutelabs.io/), [Wikiversity](https://www.wikiversity.org/) or [Learnamic](https://www.learnamic.com/) - Quizzes / Guides / Games
@@ -160,7 +160,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ History
+##  History
 
 * ↪️ **[History Books](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_history_books)**
 * ↪️ **[Historical Maps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_historic_maps)** - Map Resources
@@ -196,7 +196,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Mythology / Folklore
+##  Mythology / Folklore
 
 * [ABookOfCreatures](https://abookofcreatures.com/), [Demons of the Deep](https://seademons.weebly.com/) or [Bestiary](https://bestiary.ca/beasts.htm) - Mythological Encyclopedias
 * [GodChecker](https://www.godchecker.com/) - Religion / Mythology History
@@ -207,7 +207,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Philosophy
+##  Philosophy
 
 * ⭐ **[Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/index.html)**, [IEP](https://iep.utm.edu/) or [nLab Philosophy](https://ncatlab.org/nlab/show/philosophy) - Philosophy Encyclopedias / [Search](https://www.visualizingsep.com/)
 * [Philosophy Bro](https://www.philosophybro.com/), [Reasoned](https://www.reasoned.org/dir/), [TheDailyIdea](https://thedailyidea.org/) or [PhilosophyBasics](https://www.philosophybasics.com/) - Philosophy Resources / Learning
@@ -227,7 +227,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Music
+##  Music
 
 * 🌐 **[Awesome Music Theory](https://github.com/vpavlenko/study-music)** - Music Theory Resources
 * 🌐 **[Music Outfitters](https://musicoutfitters.com/)** - Music Services / Information
@@ -268,7 +268,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Art / Editing
+##  Art / Editing
 
 * 🌐 **[Creator Resources](https://www.newgrounds.com/wiki/creator-resources/)** - Art & Animation Resource Index
 * 🌐 **[AwesomeAnimeResearch](https://github.com/SerialLain3170/AwesomeAnimeResearch)** - Anime Machine Learning
@@ -316,7 +316,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Geography / Sociology
+##  Geography / Sociology
 
 * 🌐 **[Awesome Datasets](https://github.com/awesomedata/awesome-public-datasets)** - Public Datasets
 * 🌐 **[Country Infographics](https://rentry.org/o4gq6cq5)** - Country Infographic Images
@@ -362,7 +362,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Virtual Tours
+##  Virtual Tours
 
 * 🌐 **[Virtual Museum Resources](https://mcn.edu/a-guide-to-virtual-museum-resources/)** - Online Museums
 * ⭐ **[CityHop](https://www.cityhop.cafe/)**, [Travel Remotely](https://travel-remotely.netlify.app/), [Portal Generator](https://flavourmachine.com/portal-generator/), [Walk with Feel](https://walkwithfeel.vercel.app/), [Outside Simulator](https://outsidesimulator.com/), [Japan Walkaround](https://thatguyedd.github.io/), [CityWalks](https://citywalks.live/), [Citywalki](https://www.citywalki.com/) or [Virtual Vacations](https://virtualvacation.us/) - Travel Simulators
@@ -383,9 +383,9 @@ description: Educational content for all ages.
 
 ***
 
-# ▷ Science / Math
+#  Science / Math
 
-## ▷ Physics
+##  Physics
 
 * 🌐 **[Physics Aviary](https://thephysicsaviary.com/Physics/Programs/Tools/find.php)** or [Falstad](https://www.falstad.com/) - Physics Tools
 * ↪️ **[Math and Physics Books](https://rentry.co/FMHYBase64#math-and-physics-books)**
@@ -416,7 +416,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Space
+##  Space
 
 * 🌐 **[Astronomy Resources](https://er-cryptid.tumblr.com/post/176809097526/free-astronomy-resources)** - Astronomy Resources
 * ↪️ **[Math and Physics Books](https://rentry.co/FMHYBase64#math-and-physics-books)**
@@ -484,7 +484,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Math
+##  Math
 
 * 🌐 **[Awesome Math](https://github.com/rossant/awesome-math)** or [Math Resources](https://docs.google.com/document/d/1rtokzhpvkUPnymudl_ZVmfAA7H33VIyLQUpujNGwrTo/) - Math Resources
 * ↪️ **[Calculators / Problem Solvers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_calculators)**
@@ -531,7 +531,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Engineering
+##  Engineering
 
 * 🌐 **[The Engineering Toolbox](https://www.engineeringtoolbox.com/)** or [EngineersEdge](https://www.engineersedge.com/) - Engineering Resources
 * 🌐 **[r/EngineeringStudents Resources](https://www.reddit.com/r/EngineeringStudents/wiki/resources)** - Engineering Student Resources
@@ -560,7 +560,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Chemistry
+##  Chemistry
 
 * 🌐 **[Wolfram Alpha Chemistry](https://wolframalpha.com/examples/science-and-technology/chemistry)** - Chemistry Calculators / Tools
 * ↪️ **[Chemistry Lessons](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_chemistry_lessons)**
@@ -594,7 +594,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Biology
+##  Biology
 
 * ⭐ **[Wikispecies](https://species.wikimedia.org/)** or [The Catalogue of Life](https://www.catalogueoflife.org/) - Species Databases
 * ⭐ **[Animalia](https://animalia.bio/)** or [A-Z Animal](https://a-z-animals.com/) - Animal Encyclopedia
@@ -631,7 +631,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Med School
+##  Med School
 
 * 🌐 **[r/MedicalSchool Wiki](https://www.reddit.com/r/medicalschool/wiki/resources)** - Med School Resources
 * ↪️ **[Health Resources](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25BA_health)**
@@ -672,7 +672,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Periodic Tables
+##  Periodic Tables
 
 * ⭐ **[Ptable](https://ptable.com/)** - Interactive Table
 * ⭐ **[Images-of-elements](https://images-of-elements.com/)** - Element Images
@@ -686,9 +686,9 @@ description: Educational content for all ages.
 
 ***
 
-# ▷ Language Learning
+#  Language Learning
 
-## ▷ Multi-Language
+##  Multi-Language
 
 * 🌐 **[Language Links](https://docs.google.com/spreadsheets/d/1EGPFLFJdyKGKjh8LXXA099ddf1yB6ZQgr_mmtBnYCy8)**, [/int/ Guide](https://4chanint.miraheze.org/) or [r/LanguageLearning Resources](https://www.reddit.com/r/languagelearning/wiki/index) - Language Learning Resources
 * 🌐 **[Speechling](https://speechling.com/tools)** - Language Learning Tools
@@ -734,7 +734,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Language Exchange
+##  Language Exchange
 
 * 🌐 **[The Language Exchange Network](https://redd.it/5m5426)**, [2](https://docs.google.com/document/d/14is9MfGfKC-ptDhXGWLQFYSAaWTJSnUxj6zK0RGqNIk/) - Language Exchange Communities / [Discord](https://discord.gg/jxcVmHJ)
 * [InterPals](https://www.interpals.net/)
@@ -749,7 +749,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ English
+##  English
 
 * 🌐 **[Many Things](http://www.manythings.org/)** - ESL Resources
 * 🌐 **[ESOL](https://www.esolcourses.com/)** - English Learning Resources
@@ -774,7 +774,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Japanese
+##  Japanese
 
 * 🌐 **[yame dame](https://yameda.me/)**, [Tatsumoto](https://tatsumoto-ren.github.io/), [GaijinRyman](https://github.com/GaijinRyman/LearningJapaneseResources), [Nihongo](https://nihongo-e-na.com/eng/), [Japanese Resources](https://forum.wordreference.com/threads/japanese-resources-%E2%80%94-constantly-updated.787986/) or [AnimeCards](https://animecards.site/) - Learning Resources
 * 🌐 **[Japanese Pitch Accent Resources](https://github.com/olety/japanese-pitch-accent-resources)** - Japanese Accent Resources
@@ -796,7 +796,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Korean
+##  Korean
 
 * ⭐ **[Learn Korean](https://discord.gg/e3H9Pde)** - Korean Learning Discord
 * [Read Korean Letters](https://readkoreanletters.com/) - Learn Korean Characters
@@ -816,7 +816,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Chinese
+##  Chinese
 
 * 🌐 **[YellowBridge](https://www.yellowbridge.com/)** or [DigMandarin](https://www.digmandarin.com/) - Chinese Learning Tools
 * 🌐 **[Cantonese sheik](https://www.cantonese.sheik.co.uk/)** or [SinoSplice](https://www.sinosplice.com/) - Chinese Learning Resources
@@ -838,7 +838,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ European
+##  European
 
 * ⭐ **[StudySpanish](https://studyspanish.com/)** or [LibreLingo](https://librelingo.app/) - Learn Spanish
 * [SpanishDict](https://www.spanishdict.com/) - Spanish Translation Dictionary
@@ -852,7 +852,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ German
+##  German
 
 * 🌐 **[German Resources](https://docs.google.com/document/d/1J5PJK0qStw2DHQHdRHuKIfq_bJrZkFarQVT7fkz13tg/edit#heading=h.biavq1413l4t)** - German Language Resources
 * ⭐ **[German Discord](https://discord.gg/german)** - German Learning Community
@@ -864,7 +864,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ South Asian
+##  South Asian
 
 * 🌐 **[Urdu Resources](https://docs.google.com/document/d/1GRTK_E0YGybMNYZjFToM40sOHNkR1NJXc_dL8HW2Q_0/)** or [UrduNotes](https://urdunotes.com/) - Urdu Learning Resources
 * 🌐 **[Mga Nagmamarunong's Masterlist](https://docs.google.com/spreadsheets/d/1R9P2nt0sQbL8GqEO_hcPjwIZcM-4s0BbJifm-1AJ0Bc/)** - Tagalog Learning Resources
@@ -878,7 +878,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Sign Language
+##  Sign Language
 
 * ⭐ **[SpreadTheSign](https://spreadthesign.com/)** - Sign Langauge Dictionary
 * [ASL Dictionary](https://www.signasl.org/), [LifePrint](https://lifeprint.com/), [ASLCore](https://aslcore.org/) or [HandSpeak](https://www.handspeak.com/) - American Sign Langauge Dictionaries
@@ -899,9 +899,9 @@ description: Educational content for all ages.
 
 ***
 
-# ▷ Game Learning
+#  Game Learning
 
-## ▷ Rubiks Cube
+##  Rubiks Cube
 
 * 🌐 **[Cubing.net](https://www.cubing.net/)** - Cubing Tools
 * ↪️ **[Cube Simulators / Solvers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/games/#wiki_.25B7_rubiks_cube)**
@@ -921,7 +921,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Chess
+##  Chess
 
 * 🌐 **[Awesome Chess](https://github.com/hkirat/awesome-chess)**, [⁠TheChessDirectory](https://thechessdirectory.com/) or [Chess Resources](https://redd.it/u43nrc) - Chess Resources
 * 🌐 **[/m/Chess](https://www.reddit.com/user/korfor/m/chess/)** or [r/Chess](https://reddit.com/r/chess) - Chess Subreddits
@@ -950,7 +950,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Dungeons & Dragons
+##  Dungeons & Dragons
 
 * ↪️ **[D&D Building Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools/#wiki_.25B7_rpg_worldbuilding)** - Map Editors, Campaign Managers, Worldbuilding, etc.
 * ⭐ **[D&D Compendium](https://www.dnd-compendium.com/)** or [RPGBOT](https://rpgbot.net/) - D&D Tools & Learning Resources
@@ -966,7 +966,7 @@ description: Educational content for all ages.
 
 ***
 
-# ▷ Developer Learning
+#  Developer Learning
 
 * 🌐 **[Awesome Certificates](https://panx.io/awesome-certificates/)** - Dev Course Indexes
 * 🌐 **[Awesome YouTubers](https://github.com/JoseDeFreitas/awesome-youtubers)** - YouTube Dev Channels Indexes
@@ -1032,7 +1032,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Coding Tutorials
+##  Coding Tutorials
 
 * 🌐 **[Project Based Learning](https://github.com/practical-tutorials/project-based-learning)**  - Project Based Learning Resources
 * ⭐ **[Build your own X](https://codecrafters.io)** - Advanced Coding Tutorials / [Discord](https://discord.gg/DeqUD2P) / [GitHub](https://github.com/codecrafters-io/build-your-own-x)
@@ -1045,7 +1045,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Programming Languages
+##  Programming Languages
 
 * [Typing.io](https://typing.io/) or [Silver Dev's WPM](https://wpm.silver.dev/) - Typing Practice for Programming / Sign-Up Required
 * [30 Days Of Python](https://github.com/Asabeneh/30-Days-Of-Python) or [Hitchhiker's Guide to Python](https://docs.python-guide.org/) / [GitHub](https://github.com/realpython/python-guide) - Python Guides
@@ -1069,7 +1069,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Web Development
+##  Web Development
 
 * 🌐 **[MDN](https://developer.mozilla.org/)** or [Web Dev Resources](https://joshjoshuap-webdevresources.vercel.app/) - Web Dev Learning Resources
 * ⭐ **[Odin Project](https://www.theodinproject.com/)**, [2](https://www.freecodecamp.org/learn/the-odin-project/) - Programming / Courses / Interactive / [Discord](https://discord.com/invite/fbFCkYabZB)
@@ -1113,7 +1113,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Computer Science
+##  Computer Science
 
 * 🌐 **[CompSciLib](https://www.compscilib.com/)** - Computer Science Tools
 * ⭐ **[TeachYourselfComputerScience](https://teachyourselfcs.com/)** - Computer Science Book Recommendations
@@ -1146,7 +1146,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Data Science
+##  Data Science
 
 * 🌐 **[Awesome DataScience](https://github.com/academic/awesome-datascience)** - Data Science Resources
 * 🌐 **[Data Engineer Handbook](https://github.com/DataExpert-io/data-engineer-handbook)** - Data Engineer Resources
@@ -1170,7 +1170,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Data Structures
+##  Data Structures
 
 * ⭐ **[Leetcode](https://leetcode.com/)** - Coding Practice
 * ⭐ **Leetcode Tools** - [Solutions](https://github.com/kamyu104/LeetCode-Solutions), [2](https://leetcode.ca/), [3](https://walkccc.me/LeetCode/) / [Company Questions](https://github.com/MysteryVaibhav/leetcode_company_wise_questions), [2](https://docs.google.com/document/d/1icaNSRq6XcWO3EOycEP9F9P8SLerBanpY3Ni_ZzCfFA/), [3](https://seanprashad.com/leetcode-patterns/) / [Animations](https://github.com/MisterBooo/LeetCodeAnimation) / [Anki Cards](https://github.com/fspv/leetcode-anki) / [Videos](https://github.com/fishercoder1534/Leetcode) / [Resources](https://github.com/ashishps1/awesome-leetcode-resources) / [Analytics](https://leetcode-company-questions.vercel.app/)
@@ -1195,7 +1195,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ UI / UX
+##  UI / UX
 
 * [design.tips](https://www.designer.tips/) or [Utopia](https://utopia.fyi/) - Design Tips
 * [HackDesign](https://hackdesign.org/) or [Sky Design](https://github.com/josephgoksu/sky-design) - UI / Webdesign Courses
@@ -1215,7 +1215,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Cybersecurity
+##  Cybersecurity
 
 * 🌐 **[Free Cyber Resources](https://github.com/gerryguy311/Free_CyberSecurity_Professional_Development_Resources)**, [BlueTeam Tools](https://github.com/A-poc/BlueTeam-Tools) or [Applied Cybersecurity](https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content) - Cybersecurity Learning Resources
 * 🌐 **[CTF Sites](https://ctfsites.github.io/)**, [echoCTF.RED](https://echoctf.red/), [CTF101](https://ctf101.org/), [picoCTF](https://picoctf.org/), [CTF Beginners Guide](https://jaimelightfoot.com/blog/so-you-want-to-ctf-a-beginners-guide/), [CTFtime](https://ctftime.org/) or [CTFLearn](https://ctflearn.com/) - CTF Resources / Guides
@@ -1243,7 +1243,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Game Development
+##  Game Development
 
 * 🌐 **[Awesome-Gamedev](https://github.com/FronkonGames/Awesome-Gamedev)**, [Learn Gamedev](https://github.com/notpresident35/awesome-learn-gamedev), [MagicTools](https://github.com/ellisonleao/magictools), [Newgrounds Wiki: Game Dev Resources](https://www.newgrounds.com/wiki/creator-resources/game-dev-resources) or [The VG Resource](https://www.vg-resource.com/) - Learning Resources
 * ↪️ **[Game Dev Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools/#wiki_.25BA_game_dev_tools)**
@@ -1267,7 +1267,7 @@ description: Educational content for all ages.
 
 ***
 
-# ▷ Exam Prep
+#  Exam Prep
 
 * 🌐 **[IBResources](https://ibresources.in/)** - International Baccalaureate Resources
 * [FreeOnlineTest](https://www.freeonlinetest.in/), [⁠CrackAP](https://www.crackap.com/index.html), [Examveda](https://www.examveda.com/), [SaveMyExams](https://www.savemyexams.com/), [Aglasem](https://aglasem.com/), [MajorTests](https://www.123helpme.com/) or [Alloprof](https://www.alloprof.qc.ca/en/) - Exam Practice Tests
@@ -1293,7 +1293,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ SAT Testing
+##  SAT Testing
 
 * 🌐 **[Digital SAT Resources](https://redd.it/zzsgzl)** - SAT Resources
 * ⭐ **[OnePrep](https://oneprep.xyz/)** - SAT Practice Exams / Questions
@@ -1307,7 +1307,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ JEE / NEET
+##  JEE / NEET
 
 * 🌐 **[r/JEENEETards Index](https://www.reddit.com/r/JEENEETards/wiki/index)** - Guides / Study Material
 * ⭐ **[PirateHive](https://phantomcodex9.github.io/piratehive/)** - Guides / Study Material
@@ -1321,7 +1321,7 @@ description: Educational content for all ages.
 
 ***
 
-# ▷ Educational Tools
+#  Educational Tools
 
 * 🌐 **[nanoHUB](https://nanohub.org/)** - Nanotechnology Tools
 * 🌐 **[5th STAAR Resource Curation](https://docs.google.com/document/d/1vxxEKhZe_7dd1XIxl_sETsqP__Rf-yPAnBhtwf8huKU/edit?usp=drivesdk)** - Grade School Tools
@@ -1351,7 +1351,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Study / Research
+##  Study / Research
 
 * 🌐 **[Awesome Research](https://github.com/emptymalei/awesome-research)**, [Scolary](https://scolary.com/), [KausalFlow](https://tools.kausalflow.com/), [Foam](https://foambubble.github.io/), [Zotero](https://www.zotero.org/), [ResearchRabbit](https://www.researchrabbit.ai/) or [Scrible](https://www.scrible.com/) - Research Tools
 * ↪️ **[Note-Taking Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_note-taking)**
@@ -1396,7 +1396,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Calculators
+##  Calculators
 
 * ⭐ **[Wolfram|Alpha](https://www.wolframalpha.com/examples/mathematics)** - Calculators
 * ⭐ **[Omni Calculator](https://www.omnicalculator.com/)** - Calculators
@@ -1417,7 +1417,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Dictionaries / Thesaurus
+##  Dictionaries / Thesaurus
 
 * ⭐ **[OneLook](https://onelook.com/)** - Multi Dictionary / Thesaurus Search
 * ⭐ **[Merriam-Webster](https://www.merriam-webster.com/)** - Dictionary / Thesaurus
@@ -1448,7 +1448,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Encyclopedias
+##  Encyclopedias
 
 * 🌐 **[List of Encyclopedias](https://en.wikipedia.org/wiki/List_of_online_encyclopedias)** - Online Encyclopedia Index
 * ⭐ **[Wikipedia](https://www.wikipedia.org/)** - Encyclopedia / [Content List](https://en.wikipedia.org/wiki/Wikipedia:Contents/Lists)
@@ -1468,7 +1468,7 @@ description: Educational content for all ages.
 
 ***
 
-## ▷ Wikipedia Tools
+##  Wikipedia Tools
 
 * 🌐 **[Wiki Portals](https://rentry.co/wikiportals)** - Wiki Portals Navigation
 * [HatNote](https://top.hatnote.com/) - Top Pages

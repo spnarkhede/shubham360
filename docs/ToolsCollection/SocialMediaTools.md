@@ -26,7 +26,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Discord Tools
+#  Discord Tools
 
 * **Warning** - Chat archivers, mass-deleters, mods and third-party clients are against Discord's terms of service. Misusing them can lead to account terminations, so use them at your own risk.
 
@@ -64,7 +64,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Discord Clients
+##  Discord Clients
 
 * 🌐 **[Discord3rdParties](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties)** - Discord Clients Index
 * ⭐ **[Vencord](https://vencord.dev/)** - Discord Client Mod / [Discord](https://discord.gg/D9uwnFnqmd) / [GitHub](https://github.com/Vendicated/Vencord)
@@ -82,7 +82,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Client Customization
+##  Client Customization
 
 * 🌐 **[Client Themes](https://betterdiscord.app/themes)** or [Discord Themes](https://github.com/topics/discord-theme) - Client Theme Index
 * ⭐ **[Discohook](https://discohook.app/)**, [Embed Creator](https://embed.dan.onl/) or [Embed Generator](https://message.style/) - Embed Generators
@@ -114,7 +114,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Discord Bots
+##  Discord Bots
 
 * ⭐ **[FreeStuff Bot](https://freestuffbot.xyz/)** - Free Games Alert Bot / [Telegram](https://t.me/freestuff_hub) / [Discord](https://discord.com/invite/WrnKKF8)
 * [FixEmbed](https://www.kenhendricks.me/FixEmbed) - Fix Embeds on Discord Bot / [GitHub](https://github.com/kenhendricks00/FixEmbed)
@@ -135,7 +135,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Server / Bot Indexes
+##  Server / Bot Indexes
 
 * 🌐 **[Discord Servers](https://discord.com/servers)** - Server Index
 * 🌐 **[Alternatives to MEE6](https://alternativestomee6.com/)** - MEE6 Alternatives / [Discord](https://discord.gg/WrbMdWHfNd)
@@ -157,7 +157,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Reddit Tools
+#  Reddit Tools
 
 * ⭐ **[Reddit Stream](https://reddit-stream.com/)** - Live Thread Viewer
 * ⭐ **[Reddit Enhancement Suite](https://redditenhancementsuite.com/)**, [Reddit++](https://greasyfork.org/en/scripts/490046), [Reddit Fix](https://greasyfork.org/en/scripts/404497-reddit-fix), [Reddit Extension](https://lawrenzo.com/p/reddit-extension), [RedditEnhancer](https://github.com/joelacus/RedditEnhancer) or [RedditMod2](https://greasyfork.org/en/scripts/29724-redditmod2) - Reddit Enhancement Extensions / Scripts
@@ -184,7 +184,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Reddit Downloaders
+##  Reddit Downloaders
 
 * **Note** - You can also download Reddit videos by commenting "/u/SaveVideo".
 
@@ -196,7 +196,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Reddit Alternatives
+##  Reddit Alternatives
 
 * ↪️ **[Lemmy Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_lemmy_tools)**
 * [Raddle](https://raddle.me/) - Minimalist / Privacy-Focused
@@ -209,7 +209,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Reddit Search
+##  Reddit Search
 
 * ⭐ **[TheGigaBrain](https://thegigabrain.com/)** - Reddit Search Engines
 * ⭐ **[Reddit Repost Sleuth](https://www.repostsleuth.com/)** - Reverse Post / Image Search
@@ -227,7 +227,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Subreddit Discovery
+##  Subreddit Discovery
 
 * 🌐 **[r/ListOfSubreddits](https://www.reddit.com/r/ListOfSubreddits/)** - Subreddits Index
 * ↪️ **[Multireddit Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_multireddits)**
@@ -242,7 +242,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Telegram Tools
+#  Telegram Tools
 
 * 🌐 **[TDirectory](https://tdirectory.me/)**, [Telemetr](https://telemetr.io/en), [Telegram Channels](https://telegramchannels.me/), [Awesome Telegram](https://github.com/ebertti/awesome-telegram) - Telegram Channel Indexes
 * 🌐 **[ComBot Groups](https://combot.org/top/telegram/groups)** - Top Telegram Groups Index
@@ -258,7 +258,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Telegram Clients
+##  Telegram Clients
 
 * ⭐ **[AyuGram](https://docs.ayugram.one/downloads/)** - Desktop Client / [Chat](https://t.me/ayugramchat) / [Telegram](https://t.me/ayugram) / [GitHub](https://github.com/AyuGram/AyuGramDesktop)
 * ⭐ **[Materialgram](https://kukuruzka165.github.io/materialgram/)** - Desktop Client / Portable
@@ -273,7 +273,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Telegram File Tools
+##  Telegram File Tools
 
 * ⭐ **[Teldrive](https://teldrive-docs.pages.dev/)** - File Manager / Uploader / [Discord](https://discord.com/invite/8QAeCvTK7G) / [GitHub](https://github.com/tgdrive/teldrive)
 * [File-Sharing-Bot](https://github.com/CodeXBotz/File-Sharing-Bot) / [Telegram](https://t.me/CodeXBotz), [TelegramCloud](https://github.com/iw4p/telegram-cloud), [easy_share_bot](https://t.me/easy_share_bot) or [UploadBot](https://t.me/uploadbot) - Upload Files to Telegram
@@ -288,7 +288,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Telegram Bots
+##  Telegram Bots
 
 * 🌐 **[BotsArchive](https://t.me/BotsArchive)**, [TelegramBotsList](https://danyspin97.github.io/TelegramBotsList/) or [borodutch.eth](https://borodutch.com/) - Telegram Bots Indexes
 * [Now Playing](https://t.me/nowplaybot) - Now Playing Audio Bot
@@ -309,7 +309,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ YouTube Tools
+#  YouTube Tools
 
 * ⭐ **[PocketTube](https://pockettube.io/)** or [Kadium](https://kadium.kasper.space/) - Subscription Managers
 * [Youtube-shorts block](https://github.com/doma-itachi/Youtube-shorts-block) or [Shorts Deflector](https://evenevan.github.io/shorts-deflector/) / [GitHub](https://github.com/evenevan/shorts-deflector) - Play Shorts In The Normal Desktop Interface
@@ -333,7 +333,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ YouTube Customization
+##  YouTube Customization
 
 * ⭐ **[Return YouTube Dislike](https://returnyoutubedislike.com/)** - View YouTube Dislikes / [Web App](https://haeri.github.io/youtube-dislike-viewer/) / [Discord](https://discord.com/invite/mYnESY4Md5)
 * ⭐ **[DeArrow](https://dearrow.ajay.app/)** or [Clickbait Remover](https://github.com/pietervanheijningen/clickbait-remover-for-youtube) - Reduce Sensationalism / Clickbait
@@ -357,7 +357,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Players / Frontends
+##  Players / Frontends
 
 * ↪️ **[Android](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_youtube_apps)** / **[iOS](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_youtube_apps)** - Mobile YouTube Apps
 * ⭐ **[FreeTube](https://freetubeapp.io/)** - Local YouTube Frontend / [GitHub](https://github.com/FreeTubeApp/FreeTube)
@@ -374,7 +374,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Video Tools
+##  Video Tools
 
 * ↪️ **[Video Adblockers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking)**
 * ↪️ **[Video Transcribers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video/#wiki_.25BA_subtitle_tools)**
@@ -393,7 +393,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Playlist Tools
+##  Playlist Tools
 
 * ⭐ **[playlists.at](https://playlists.at/)** - Playlist Creators / [Chrome Extension](https://chromewebstore.google.com/detail/drag-drop-playlist-creato/aklnkkbopjjemjlkffhamaepagbmblbg)
 * [TubeSync](https://github.com/meeb/tubesync) - Sync YouTube Channels / Playlists to a Media Server
@@ -406,7 +406,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ YouTube Downloaders
+##  YouTube Downloaders
 
 * 🌐 **[YT-DL GUI Index](https://www.reddit.com/r/youtubedl/wiki/info-guis)** - List of YouTube Downloader GUIs
 * ↪️ **[Multi-Site Downloaders](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25BA_video_download)**
@@ -429,7 +429,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ YouTube Search
+##  YouTube Search
 
 * 🌐 **[YT Channel Spreadsheet](https://docs.google.com/spreadsheets/d/1xZm5BcQTYJx8sfSuqHExHtIOPtSfod8beHKtYzp8DxE/)** or **[YouTube_Channels](https://github.com/PrejudiceNeutrino/YouTube_Channels)** - YouTube Channel Indexes
 * ⭐ **[Favoree](https://www.favoree.io/)** or [ChannelCrawler](https://channelcrawler.com/) - Discover / Search YouTube Channels
@@ -447,7 +447,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ YouTube Archiving
+##  YouTube Archiving
 
 * ⭐ **[YouTube Video Finder](https://findyoutubevideo.thetechrobo.ca/)** - Multi-Site Archive Search / [GitHub](https://github.com/TheTechRobo/youtubevideofinder/)
 * [Tubeup](https://github.com/bibanon/tubeup) - YouTube Video to IA Uploader
@@ -460,7 +460,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Twitch Tools
+#  Twitch Tools
 
 * 🌐 **[Twitch Extensions](https://dashboard.twitch.tv/extensions/categories/43f48606-8b91-4149-94e6-02def012c79f)** - Twitch Extensions Index
 * ⭐ **[FrankerFacez](https://www.frankerfacez.com/)**, [BetterTTV](https://betterttv.com/) or [7TV](https://7tv.app/) - Twitch Enhancement Extensions
@@ -494,7 +494,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Twitch Players
+##  Twitch Players
 
 * ⭐ **[Chatterino](https://chatterino.com/)** / [2](https://github.com/SevenTV/chatterino7), [Chatterino Homies](https://chatterinohomies.com/) or [Chatty](https://chatty.github.io/) - Twitch Chat Clients
 * [Orion](https://alamminsalo.github.io/orion/), [Twitch App](https://gitlab.com/linuxbombay/twitch-application/application) or [Tress](https://gitlab.com/Ignamarte/tress) - Twitch Desktop Clients
@@ -510,7 +510,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Twitch Adblockers
+##  Twitch Adblockers
 
 * 🌐 **[TwitchAdSolutions](https://github.com/pixeltris/TwitchAdSolutions)** - Solutions / Scripts for Blocking Twitch Ads
 * ⭐ **[AdGuard Extra](https://github.com/AdguardTeam/AdGuardExtra)** - Twitch Adblocker
@@ -521,7 +521,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Twitch Downloaders
+##  Twitch Downloaders
 
 * [ClipsGameLab](https://clipsgamelab.github.io/#/download), [Twiclips](https://twiclips.com/) or [clipsey](https://clipsey.com/) - Video Downloaders
 * [twitch-dl](https://github.com/ihabunek/twitch-dl) or [twitch-downloader](https://github.com/jybp/twitch-downloader) - CLI Video Downloaders
@@ -531,7 +531,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Twitter/X Tools
+#  Twitter/X Tools
 
 * ⭐ **[Trends24](https://trends24.in/)** or [GetDayTrends](https://getdaytrends.com/) - Trending Hashtags Trackers
 * ⭐ **[r/Twitter](https://reddit.com/r/Twitter)** - X.com Subreddit
@@ -547,7 +547,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Twitter/X Archiving
+##  Twitter/X Archiving
 
 * [Thread Safe](https://github.com/dkaslovsky/thread-safe) - Twitter Backup Tool
 * [TwitterMediaHarvest](https://github.com/EltonChou/TwitterMediaHarvest), [⁠twmd](https://github.com/mmpx12/twitter-media-downloader) or [InThisTweet](https://inthistweet.app/) - Twitter Media Downloaders
@@ -561,7 +561,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Twitter/X Customization
+##  Twitter/X Customization
 
 * [Control Panel for Twitter](https://soitis.dev/control-panel-for-twitter) - Twitter Enhancement Extensions
 * [Minimal Twitter](https://typefully.com/minimal-twitter) - Minimal Twitter Themes
@@ -574,7 +574,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Facebook Tools
+#  Facebook Tools
 
 * ⭐ **[Facebook Ad Filters](https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_facebook)** - Facebook Filters
 * [FBPurity](https://www.fbpurity.com/) - Facebook Enhancement Extensions
@@ -591,7 +591,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Instagram Tools
+#  Instagram Tools
 
 * ⭐ **[Redirect Logins](https://greasyfork.org/en/scripts/420604)** - Redirect Instagram Login
 * [InstaFix](https://ddinstagram.com/) - Fix Instagram Embeds on Discord / [GitHub](https://github.com/Wikidepia/InstaFix)
@@ -605,7 +605,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Viewers / Downloaders
+##  Viewers / Downloaders
 
 * ⭐ **[Instaloader](https://instaloader.github.io/) / [GitHub](https://github.com/instaloader/instaloader)** - CLI Downloader
 * [FastDL](https://fastdl.app/en), [Weynstag](https://www.google.com/amp/s/weynstag.com/amp.php/) or [SaveFromWeb](https://www.savefromweb.com/) - Online Downloaders
@@ -615,7 +615,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Tumblr Tools
+#  Tumblr Tools
 
 * [Tumlook](https://www.tumlook.com/), [Tumgik](https://www.tumgik.com/) or [PriviBlur](https://github.com/syeopite/priviblur) - Tumblr Frontends
 * [Pillowfort](https://www.pillowfort.social/) - Tumblr Alternatives
@@ -630,7 +630,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Fediverse Tools
+#  Fediverse Tools
 
 * 🌐 **[Awesome Bluesky](https://github.com/fishttp/awesome-bluesky)** or [BlueskyDirectory](https://blueskydirectory.com/) - Bluesky Resources
 * 🌐 **[Fediverse.Party](https://fediverse.party/)** - Fediverse Software Index
@@ -654,7 +654,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Mastodon Tools
+##  Mastodon Tools
 
 * 🌐 **[Awesome Mastodon](https://hueyy.github.io/awesome-mastodon/)**, [2](https://github.com/hyperupcall/awesome-mastodon) - Mastodon Resources
 * ⭐ **[instances.social](https://instances.social/)** or [Mastodon Near Me](http://mastodon-near.me/) - Mastodon Instances
@@ -676,7 +676,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Lemmy Tools
+##  Lemmy Tools
 
 * ⭐ **[Lemmy Explorer](https://lemmyverse.net/)** or [Awesome Lemmy Instances](https://github.com/maltfield/awesome-lemmy-instances) - Lemmy Instances
 * ⭐ **[Lemmy Apps](https://join-lemmy.org/apps)** - Lemmy Client List
@@ -687,7 +687,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Pixelfed Tools
+##  Pixelfed Tools
 
 * 🌐 **[Pixelfed Apps](https://pixelfed.org/mobile-apps)** - Pixelfed Client List
 * [The Federation Pixelfed](https://the-federation.info/platform/26) - Pixelfed Instances
@@ -697,7 +697,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ Peertube Tools
+##  Peertube Tools
 
 * 🌐 **[Peertube Apps](https://docs.joinpeertube.org/use/third-party-application)** - Peertube Client List
 * [Sepia Search](https://joinpeertube.org/browse-content), [2](https://sepiasearch.org/) - Peertube Search Engine
@@ -708,7 +708,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ 4chan Tools
+#  4chan Tools
 
 * ⭐ **[4chan XT](https://github.com/TuxedoTako/4chan-xt)**, [4chan X](https://www.4chan-x.net/), [SpookyX](https://github.com/Fiddlekins/SpookyX) or [Dollchan](https://dollchan.net/) - Enhancement Extensions
 * [Lurka](https://github.com/AdamSalma/Lurka) - Desktop Client
@@ -725,7 +725,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-## ▷ 4chan Archives
+##  4chan Archives
 
 * **Note** - Keep in mind that some of these contain both SFW and NSFW content.
 
@@ -742,7 +742,7 @@ description: Social media enhancement, privacy tools, and alternative frontends.
 
 ***
 
-# ▷ Blogging Tools
+#  Blogging Tools
 
 * ⭐ **[⁠TinyBones](https://tinybones.pages.dev/)** / [GitHub](https://github.com/itzcozi/tinybones), **[Bear Blog](https://bearblog.dev/)**, [Mataroa](https://mataroa.blog/) or [smol.pub](https://smol.pub/) / [Key](https://m15o.ichi.city/smolpub/key-request.html) - Minimalist Blogging Platforms
 * [Telescope](https://telescope.ac/) - Publishing Platform

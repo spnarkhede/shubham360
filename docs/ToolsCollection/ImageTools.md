@@ -4,7 +4,7 @@ title: Image Tools
 description: Image editing, optimization, conversion, and graphic design tools.
 ---
 
-# ▷ Image Editing
+#  Image Editing
 
 * 🌐 **[PuccaNoodles' Sheet](https://docs.google.com/spreadsheets/d/1-8OKuEvRR038Uno--Vi9tQRe4eFCSfQTPov7nXgiJ3w/)** - Image Creation Resources
 * ↪️ **[AI Image Generators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25BA_image_generation)**
@@ -20,7 +20,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Editing Software
+##  Editing Software
 
 * ↪️ **[Adobe Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent/#wiki_.25BA_torrent_sites)**
 * ⭐ **[GIMP](https://www.gimp.org/)** / Windows, Mac, Linux / [Photoshop UI](https://github.com/Diolinux/PhotoGIMP) / [Texture Synthesizer](https://github.com/bootchk/resynthesizer) / [Discord](https://discord.gg/kHBNw2B) / [Subreddit](https://www.reddit.com/r/GIMP/) / [GitLab](https://gitlab.gnome.org/GNOME/gimp)
@@ -38,7 +38,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
   
 ***
 
-## ▷ Online Editors
+##  Online Editors
 
 * ⭐ **[Pixlr](https://pixlr.com/)** - Simple Editor / [Hide Premium](https://greasyfork.org/en/scripts/425737) / [Unlimited Saves](https://greasyfork.org/en/scripts/460881), [2](https://greasyfork.org/en/scripts/490940)
 * ⭐ **[Lunapic](https://lunapic.com/)** - Multi-Tool
@@ -65,7 +65,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Content Removers
+##  Content Removers
 
 * ⭐ **[ObjectRemover](https://objectremover.com/)**, **[Lama Cleaner](https://lama-cleaner-docs.vercel.app/)**, [Inpaint](https://theinpaint.com/), [Cleanup.pictures](https://cleanup.pictures/) or [HAMA](https://www.hama.app/) - Object Removers
 * ⭐ **[BRIA RMBG](https://briaai-bria-rmbg-2-0.hf.space/)** - Background Remover
@@ -79,7 +79,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Upscale / Restore
+##  Upscale / Restore
 
 * ⭐ **[Waifu2x](https://github.com/nagadomi/nunif)** - Anime Image Upscaling / [WebUI](https://www.waifu2x.net/), [2](https://unlimited.waifu2x.net/), [3](https://waifu2x.pro/) / Self-Hosted
 * ⭐ **[WaifuXL](https://waifuxl.com/)** - Anime Image Upscaling / Online / Self-Hosted
@@ -99,7 +99,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Image Effects
+##  Image Effects
 
 * ⭐ **[Mosh](https://moshpro.app/)**, [glitch2](https://akx.github.io/glitch2/) or [GlitchyImage](https://glitchyimage.com/) - Glitch Images
 * [PhotoFunia](https://photofunia.com/), [⁠Tooooools](https://tooooools.app/) or [Image Mage](https://imagemageage.github.io/) - Photo Effects / Filters
@@ -121,19 +121,19 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ [Linux Image Editing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_linux_image)
+##  [Linux Image Editing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_linux_image)
 
 ***
 
-## ▷ [Mac Image Editing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_mac_image)
+##  [Mac Image Editing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_mac_image)
 
 ***
 
-# ▷ Image Creation
+#  Image Creation
 
 ***
 
-## ▷ Painting / Drawing
+##  Painting / Drawing
 
 * 🌐 **[Digital Art Brushes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_digital_brushes)** - Download Brushes
 * ⭐ **[Krita](https://krita.org/en/)** - Painting App / Windows, Mac, Linux / [AI Generation](https://github.com/Acly/krita-ai-diffusion/) / [GitHub](https://github.com/KDE/krita)
@@ -174,7 +174,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Pixel Art
+##  Pixel Art
 
 * 🌐 **[Awesome Pixel Art](https://github.com/Siilwyn/awesome-pixel-art)** - Pixel Art Resource Index
 * ↪️ **[ASCII Art](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_ascii_art)**
@@ -194,7 +194,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ GIF Tools
+##  GIF Tools
 
 * ⭐ **[Gifski](https://gif.ski/)** - GIF Encoder / Windows, Mac, Linux / [GitHub](https://github.com/ImageOptim/gifski)
 * ⭐ **[EZGif](https://ezgif.com/)** or [GIFnText](https://www.gifntext.com/) / Web
@@ -209,7 +209,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Meme Tools
+##  Meme Tools
 
 * ⭐ **[Know Your Meme](https://knowyourmeme.com/)** or [FindThatMeme](https://findthatmeme.com/) - Meme Databases
 * [ImgFlip](https://imgflip.com/memegenerator), [Meme Generator](https://www.memegenerator.top/), [Meme Town](https://meme.town/), [MemeBetter](https://memebetter.com/), [meme-generator](https://newfastuff.com/meme-generator/), [Classic Memes](https://classic.createa.meme/) or [Emacs Meme Generator](https://github.com/larsmagne/meme) - Meme Creators
@@ -232,11 +232,11 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ [Animation](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25B7_animation_tools)
+##  [Animation](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25B7_animation_tools)
 
 ***
 
-# ▷ Design Resources / Ideas
+#  Design Resources / Ideas
 
 * 🌐 **[Art Gainz](https://pilssken.neocities.org/gainz/)** or [Evernote.Design](https://www.evernote.design/) - Design Resources
 * ⭐ **[archives.design](https://archives.design/)** - Graphic Design Archive
@@ -248,7 +248,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Design Apps
+##  Design Apps
 
 * ⭐ **[Figma](https://www.figma.com/)** - Design Collab App / Web
 * ⭐ **[Canva](https://www.canva.com/)** - Design App / Windows, Mac, Web / [Giveaways](https://rentry.co/FMHYBase64#canva)
@@ -260,7 +260,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Icons / Avatars
+##  Icons / Avatars
 
 * ↪️ **[SVG Icons](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_svg_icons)** / **[SVG Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_svg_tools)**
 * ⭐ **[Alphacoders Avatars](https://avatars.alphacoders.com/)** - PFPs / Avatars
@@ -282,7 +282,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Textures / Patterns
+##  Textures / Patterns
 
 * [AmbientCG](https://ambientcg.com/) - Textures
 * [TextureTown](https://textures.neocities.org/) - Textures
@@ -312,7 +312,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Free Assets
+##  Free Assets
 
 * [Gumroad](https://gumroad.com/) (Enter $0)
 * [psdkeys](https://psdkeys.com/)
@@ -355,7 +355,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-# ▷ Download Images
+#  Download Images
 
 * 🌐 **[2ndBrain](https://rentry.co/2ndBrain)** or [designer](https://start.me/p/jj0JAp/designer) - Image Download Site Indexes
 * ↪️ **[PNG Images / Clipart](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_png_images_.2F_clipart)**
@@ -376,7 +376,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Image Search Engines
+##  Image Search Engines
 
 * ⭐ **[Yandex Images](https://yandex.com/images/)** or [Mavink](https://mavink.com/) - Image Search
 * ⭐ **[Search by Image](https://github.com/dessant/search-by-image)** - Browser Extension
@@ -398,7 +398,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Stock Images
+##  Stock Images
 
 * **Note** - Royalty-free implies images free for personal or commercial use with some usage restrictions (see site's TOS). CC0 stands for Creative Commons Zero and means images are public domain. Sites not tagged have licensing that varies.
 
@@ -442,7 +442,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Art / Illustrations
+##  Art / Illustrations
 
 * ⭐ **[Kemono](https://kemono.cr/posts?tag=)** - Patreon Content / Some NSFW / Use [Adblock](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_adblocking) / [Patreon Buttons](https://greasyfork.org/en/scripts/483259)
 * ⭐ **[DeviantArt](https://www.deviantart.com/)** - User-Made Art / Fanart / [Frontend Instances](https://git.macaw.me/skunky/SkunkyArt/src/branch/master/INSTANCES.md)
@@ -474,7 +474,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Media Covers / Posters
+##  Media Covers / Posters
 
 * ⭐ **[Ben Dodson](https://bendodson.com/projects/itunes-artwork-finder/)**, [2](https://bendodson.com/projects/apple-tv-movies-artwork-finder/) - Movies / TV / Music
 * [BigBoxCollection](https://bigboxcollection.com/) - 3D Game Boxes
@@ -487,7 +487,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Download Extensions
+##  Download Extensions
 
 * [Download all Images](https://webextension.org/listing/save-images.html) / [GitHub](https://github.com/belaviyo/save-images/)
 * [Cute Save Button](https://github.com/Dezaimasu/cute-button)
@@ -497,11 +497,11 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ [Wallpapers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_wallpapers)
+##  [Wallpapers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_wallpapers)
 
 ***
 
-# ▷ 3D Models
+#  3D Models
 
 * ⭐ **[Thingiverse](https://www.thingiverse.com/)** - Share / Download 3D Models
 * ⭐ **[Printables](https://www.printables.com/)** - Find Practical 3D Models Ready for Printing
@@ -530,7 +530,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ 3D Modeling Apps
+##  3D Modeling Apps
 
 * ⭐ **[Blender](https://www.blender.org/)** - FOSS 3D Modeling App
 * ⭐ **Blender Tools** - [Resources](https://t.me/BlenderUniverse/3), [2](https://awesome-blender.netlify.app) / [Plugins](https://t.me/blenderplugs) / [Tutorials](https://www.3dbestie.com/) / [Textures](https://github.com/carson-katri/dream-textures) / [Renderer](https://github.com/prman-pixar/RenderManForBlender) / [3D Nodes](https://t.me/geometrynodes) / [AI Render](https://github.com/benrugg/AI-Render)
@@ -551,7 +551,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ 3D Modeling Tools
+##  3D Modeling Tools
 
 * [3D Printer Recs](https://redd.it/1bh9jud) - Hobbyist 3D Printer Recommendations
 * [Embossify](https://www.embossify.com/) or [Tripo3D](https://www.tripo3d.ai/app/home) - Image to 3D Model Converters
@@ -568,7 +568,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ CAD Engineering
+##  CAD Engineering
 
 * [Onshape](https://www.onshape.com/en/products/free) - CAD Modeling with Real-time Collaboration
 * [Tinkercad](https://www.tinkercad.com/) - Educational CAD Modeling
@@ -581,7 +581,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-# ▷ Image Tools
+#  Image Tools
 
 * 🌐 **[Creator Resources](https://www.newgrounds.com/wiki/creator-resources/)** - Art / Animation Resources
 * 🌐 **[Awesome Colab Notebooks](https://github.com/amrzv/awesome-colab-notebooks)** - Image Colab Resources
@@ -625,7 +625,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Image Compressors
+##  Image Compressors
 
 * ↪️ **[Image Optimization](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_image_optimization)**
 * ⭐ **[Caesium](https://saerasoft.com/caesium/)** - Compression Software / [Web App](https://caesium.app/) / [CLI](https://github.com/Lymphatus/caesium-clt)  / [GitHub](https://github.com/Lymphatus/caesium-image-compressor)
@@ -644,7 +644,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Image Converters
+##  Image Converters
 
 * ↪️ **[File Converter](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25B7_file_converters)** - Multi-Format Converters
 * ⭐ **[minipic](https://minipic.app/)**
@@ -658,7 +658,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Image Resizing
+##  Image Resizing
 
 * [PixelHunter](https://pixelhunter.io/) - Resize Images for Different Sites
 * [Resize App Icon](https://resizeappicon.com/) - Resize Square Images
@@ -672,7 +672,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Image to Text / OCR
+##  Image to Text / OCR
 
 * **Note** - Keep in mind most [AI Chatbots](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25B7_online_chatbots) have built-in image to text, and in many cases are even more accurate than OCR tools.
 
@@ -696,7 +696,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Image Viewers
+##  Image Viewers
 
 * ⭐ **[IrfanView](https://www.irfanview.com/)**
 * ⭐ **[JPEGView](https://github.com/sylikc/jpegview)**
@@ -725,7 +725,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Offline Galleries
+##  Offline Galleries
 
 * 🌐 **[FOSS Photo Libraries](https://meichthys.github.io/foss_photo_libraries/)**
 * [Immich](https://immich.app/) / [Storage Server](https://pixelunion.eu/) / [GitHub](https://github.com/immich-app/immich)
@@ -749,7 +749,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Online Galleries
+##  Online Galleries
 
 * ⭐ **[Postimages](https://postimages.org/)** - 32MB / Forever
 * [Imgur](https://imgur.com/) - 20MB Image / 200MB Animated / Forever / [Upload Limits](https://help.imgur.com/hc/en-us/articles/26511665959579-What-files-can-I-upload-Is-there-a-size-limit)
@@ -769,7 +769,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Image Hosts
+##  Image Hosts
 
 * ⭐ **[PixVid](https://pixvid.org/)** - 32MB / Forever
 * ⭐ **[ImgBB](https://imgbb.com/)** - 32MB / Forever
@@ -795,7 +795,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Screenshot Tools
+##  Screenshot Tools
 
 * ⭐ **[ShareX](https://getsharex.com/)** - Screenshot & Screen Recorder Tool / [Image Hosts](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools/#wiki_.25B7_image_hosts) / [File Manager](https://xbackbone.app/) / [Discord](https://discord.com/invite/ShareX) / [GitHub](https://github.com/ShareX/ShareX)
 * ⭐ **[Flameshot](https://flameshot.org/)** / [GitHub](https://github.com/flameshot-org/flameshot)
@@ -815,7 +815,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Palette Generators
+##  Palette Generators
 
 * ⭐ **[Color Designer](https://colordesigner.io/tools)**, [TheGoodColors](https://thegoodcolors.com/), [Super Color Palette](https://supercolorpalette.com/) or [Coolors](https://coolors.co/) - Color Palette Generators
 * [Clariss](https://www.clariss.xyz/), [Color Palette Generator](https://www.degraeve.com/color-palette), [Palitra](https://palitra.app/) or [Color Picker](https://imagecolorpicker.com/) - Generate Color Palettes from Images
@@ -831,7 +831,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Color Pickers
+##  Color Pickers
 
 * 🌐 **[React Color](https://casesandberg.github.io/react-color/)** - Color Pickers Index
 * 🌐 **[BrandColors](https://brandcolors.net/)** - Brand Color Palettes Index
@@ -849,7 +849,7 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ Photo Forensics
+##  Photo Forensics
 
 * 🌐 **[Photo OSINT](https://start.me/p/0PgzqO/photo-osint)** - Image OSINT Resources
 * ⭐ **[Fawkes](http://sandlab.cs.uchicago.edu/fawkes/)** - Facial Cloaking
@@ -869,4 +869,4 @@ description: Image editing, optimization, conversion, and graphic design tools.
 
 ***
 
-## ▷ [Android Camera](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_camera_tools)
+##  [Android Camera](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_camera_tools)

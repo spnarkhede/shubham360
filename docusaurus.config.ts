@@ -55,6 +55,14 @@ const config: Config = {
         indexPages: true,
         language: ['en', 'de'],
         hashed: true,
+        docsRouteBasePath: '/',
+        // Exclude problematic directories
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+        // Add this to exclude specific paths
+        ignoreFiles: [
+          '**/ToolsCollection/**',
+        ],
       },
     ],
   ],

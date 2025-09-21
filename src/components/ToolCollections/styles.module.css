@@ -1,0 +1,539 @@
+/* Section Wrapper */
+.sectionWrapper {
+  background: linear-gradient(135deg, var(--ifm-color-emphasis-100) 0%, var(--ifm-color-emphasis-50) 100%);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+/* Controls Section */
+.controlsSection {
+  margin-bottom: 2rem;
+  background: var(--ifm-background-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Search Container */
+.searchContainer {
+  margin-bottom: 1.5rem;
+}
+
+.searchInputWrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 30px;
+  font-size: 1rem;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  transition: all 0.3s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px rgba(var(--ifm-color-primary-rgb), 0.1);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ifm-color-emphasis-600);
+}
+
+.clearSearchButton {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--ifm-color-emphasis-600);
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.clearSearchButton:hover {
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* Filters Container */
+.filtersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categoryFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.filterIcon {
+  color: var(--ifm-color-emphasis-600);
+  margin-right: 0.5rem;
+}
+
+.filterLabel {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+  margin-right: 0.5rem;
+}
+
+.categoryChip {
+  padding: 0.4rem 1rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 20px;
+  background: none;
+  color: var(--ifm-color-emphasis-700);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.85rem;
+}
+
+.categoryChip:hover {
+  border-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darker);
+}
+
+.activeChip {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.activeChip:hover {
+  background-color: var(--ifm-color-primary-darker);
+  border-color: var(--ifm-color-primary-darker);
+  color: white;
+}
+
+/* Toggle Container */
+.toggleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.toggleLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-800);
+  font-size: 0.9rem;
+}
+
+.toggleInput {
+  display: none;
+}
+
+.toggleSlider {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: var(--ifm-color-emphasis-300);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.toggleSlider::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.toggleInput:checked + .toggleSlider {
+  background-color: var(--ifm-color-primary);
+}
+
+.toggleInput:checked + .toggleSlider::before {
+  transform: translateX(20px);
+}
+
+.toggleIcon {
+  color: var(--ifm-color-warning);
+}
+
+/* Clear Filters Button */
+.clearFiltersButton {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--ifm-color-emphasis-200);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 20px;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clearFiltersButton:hover {
+  background-color: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* Results Info */
+.resultsInfo {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.resultsCount {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Tools Grid */
+.toolsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+/* No Results */
+.noResults {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.noResultsIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.noResults h3 {
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.noResults p {
+  margin-bottom: 1.5rem;
+}
+
+/* Tool Card */
+.toolCard {
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest) 0%, transparent 50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.toolCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary-lighter);
+}
+
+.toolCard:hover::before {
+  opacity: 1;
+}
+
+.toolCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.toolIcon {
+  color: var(--ifm-color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.toolBadges {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.recommendedBadge {
+  background-color: var(--ifm-color-warning-lighter);
+  color: var(--ifm-color-warning-darker);
+}
+
+.freeBadge {
+  background-color: var(--ifm-color-success-lighter);
+  color: var(--ifm-color-success-darker);
+}
+
+.projectBadge {
+  background-color: var(--ifm-color-info-lighter);
+  color: var(--ifm-color-info-darker);
+}
+
+.toolCardContent {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.toolTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-emphasis-900);
+  line-height: 1.3;
+}
+
+.toolDescription {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1rem;
+}
+
+.toolTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-bottom: 1rem;
+}
+
+.toolTag {
+  background-color: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-800);
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Tool Details */
+
+/* Tool Card Footer */
+.toolCardFooter {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  position: relative;
+  z-index: 1;
+}
+
+.exploreButton {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-darker) 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.exploreButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(var(--ifm-color-primary-rgb), 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1400px) {
+  .toolsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .toolsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionWrapper {
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .controlsSection {
+    padding: 1rem;
+  }
+  
+  .filtersContainer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  
+  .categoryFilters {
+    justify-content: center;
+  }
+  
+  .toolsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .toolCard {
+    padding: 1rem;
+  }
+  
+  .toolTitle {
+    font-size: 1.1rem;
+  }
+  
+  .toolDescription {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .categoryFilters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .categoryChip {
+    text-align: center;
+    padding: 0.5rem 1rem;
+  }
+  
+  .searchInputWrapper {
+    margin: 0;
+  }
+  
+  .toggleContainer {
+    justify-content: center;
+  }
+}
+
+/* Dark theme specific adjustments */
+[data-theme='dark'] .toolCard {
+  background-color: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .toolCard:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .controlsSection {
+  background-color: var(--ifm-background-surface-color);
+}
+
+[data-theme='dark'] .searchInput {
+  background-color: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+[data-theme='dark'] .toolLink {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+[data-theme='dark'] .toolLink:hover {
+  background-color: var(--ifm-color-emphasis-300);
+}
+
+/* Animation for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toolCard {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.toolCard:nth-child(1) { animation-delay: 0.1s; }
+.toolCard:nth-child(2) { animation-delay: 0.2s; }
+.toolCard:nth-child(3) { animation-delay: 0.3s; }
+.toolCard:nth-child(4) { animation-delay: 0.4s; }
+.toolCard:nth-child(5) { animation-delay: 0.5s; }
+.toolCard:nth-child(6) { animation-delay: 0.6s; }
+
+/* Search input animation */
+@keyframes searchFocus {
+  0% { box-shadow: 0 0 0 0 rgba(var(--ifm-color-primary-rgb), 0.4); }
+  50% { box-shadow: 0 0 0 5px rgba(var(--ifm-color-primary-rgb), 0.2); }
+  100% { box-shadow: 0 0 0 3px rgba(var(--ifm-color-primary-rgb), 0.1); }
+}
+
+.searchInput:focus {
+  animation: searchFocus 0.3s ease-out;
+}
+
+/* Loading state for future enhancement */
+.loadingCard {
+  background: linear-gradient(90deg, var(--ifm-color-emphasis-100) 25%, var(--ifm-color-emphasis-200) 50%, var(--ifm-color-emphasis-100) 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

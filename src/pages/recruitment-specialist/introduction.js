@@ -21,7 +21,7 @@ export default function RecruitmentSpecialistIntroduction() {
         <div className={styles.introductionContent}>
           <div className={styles.profileImageContainer}>
             <img 
-              src="/img/profilesquare.png" 
+              src="/img/profileintro.png" 
               alt="Shubham Narkhede" 
               className={styles.profileImage}
               onError={(e) => {

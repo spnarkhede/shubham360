@@ -8,10 +8,18 @@ import { workEligibility, contactInfo, documents } from '../../data/recruitment-
 
 export default function RecruitmentSpecialistResume() {
   const handleDownload = (fileName, downloadUrl) => {
-    // In a real implementation, this would download the actual file
-    console.log(`Downloading: ${fileName} from ${downloadUrl}`);
-    // For demo purposes, we'll just show an alert
-    alert(`Download initiated for: ${fileName}\n\nIn a real implementation, this would download the file from: ${downloadUrl}`);
+    try {
+      // Create a temporary anchor element to trigger download
+      const link = document.createElement('a');
+      link.href = downloadUrl;
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Download failed:', error);
+      alert(`Download failed for: ${fileName}\nPlease try again or contact support.`);
+    }
   };
 
   const getDocumentIcon = (title) => {

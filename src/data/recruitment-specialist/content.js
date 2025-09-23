@@ -56,7 +56,7 @@ export const workEligibility = {
 
 export const contactInfo = {
   email: "shubhamnarkhede@gmail.com",
-  phone: "+1 (555) 123-4567",
+  phone: "+49 (0) 171-510-8059",
   location: "Available for Remote/Hybrid work",
   linkedin: "https://linkedin.com/in/spnarkhede",
   github: "https://github.com/spnarkhede",
@@ -80,7 +80,7 @@ export const documents = [
     fileSize: "450 KB",
     lastUpdated: "March 2024",
     primary: false,
-    downloadUrl: "/documents/summary.pdf"
+    downloadUrl: "/documents/summary_resume.pdf"
   },
   {
     title: "Work Authorization Documents",

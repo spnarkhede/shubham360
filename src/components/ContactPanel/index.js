@@ -63,8 +63,8 @@ export default function ContactPanel() {
                 </div>
                 <div className={styles.contactMethodContent}>
                   <h4 className={styles.contactMethodTitle}>Email</h4>
-                  <a href="mailto:shubham.narkhede@example.com" className={styles.contactMethodValue}>
-                    shubham.narkhede@example.com
+                  <a href="mailto:shubhampnarkhede@gmail.com" className={styles.contactMethodValue}>
+                    shubhampnarkhede@gmail.com
                   </a>
                 </div>
               </div>

@@ -629,6 +629,8 @@
 |-- 5. new_requirements_analysis.md
 |-- 6. notion_import_instructions.md
 |-- 7. technical_analysis.md
+|-- 8. Phase_1_Improvement.md
+|-- 9. Detailed Portfolio Sections.md
 |-- babel.config.js
 |-- blog
     |-- 2018

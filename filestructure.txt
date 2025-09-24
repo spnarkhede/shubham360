@@ -2,6 +2,7 @@
     |-- @easyops-cn
         |-- docusaurus-search-local
             |-- default
+                |-- generated-constants.js
                 |-- generated.js
                 |-- __plugin.json
     |-- client-manifest.json
@@ -42,6 +43,36 @@
                 |-- blog-tags-technology-3f2.json
                 |-- blog-tags-technology-trends-8b2.json
                 |-- blog-tags-transition-88e.json
+                |-- de-blog-10b.json
+                |-- de-blog-archive-247.json
+                |-- de-blog-authors-9f2.json
+                |-- de-blog-authors-spnarkhede-authors-2-6e9.json
+                |-- de-blog-authors-spnarkhede-d6a.json
+                |-- de-blog-page-2-390.json
+                |-- de-blog-tags-ai-d68.json
+                |-- de-blog-tags-amazon-d2a.json
+                |-- de-blog-tags-automation-890.json
+                |-- de-blog-tags-books-bee.json
+                |-- de-blog-tags-bosch-f5a.json
+                |-- de-blog-tags-career-536.json
+                |-- de-blog-tags-cloud-native-0fb.json
+                |-- de-blog-tags-concepts-695.json
+                |-- de-blog-tags-devops-ca3.json
+                |-- de-blog-tags-e80.json
+                |-- de-blog-tags-innovation-bc8.json
+                |-- de-blog-tags-inventions-16a.json
+                |-- de-blog-tags-journey-b77.json
+                |-- de-blog-tags-leadership-475.json
+                |-- de-blog-tags-learning-d84.json
+                |-- de-blog-tags-mindset-d35.json
+                |-- de-blog-tags-professional-growth-d1a.json
+                |-- de-blog-tags-psychology-a42.json
+                |-- de-blog-tags-reflection-27e.json
+                |-- de-blog-tags-robert-bosch-fd5.json
+                |-- de-blog-tags-software-development-494.json
+                |-- de-blog-tags-technology-a66.json
+                |-- de-blog-tags-technology-trends-1ba.json
+                |-- de-blog-tags-transition-657.json
             |-- site-blog-2018-2018-01-05-futureofai-md-1aa.json
             |-- site-blog-2018-2018-01-12-readbodylanguagelikefbi-md-2a3.json
             |-- site-blog-2018-2018-02-15-my-journey-in-software-development-md-231.json
@@ -56,6 +87,17 @@
         |-- default
             |-- p
                 |-- category-languages-462.json
+                |-- de-category-languages-fba.json
+                |-- de-f9d.json
+                |-- de-tags-angular-5cd.json
+                |-- de-tags-b38.json
+                |-- de-tags-book-661.json
+                |-- de-tags-bootstrap-48a.json
+                |-- de-tags-css-fc2.json
+                |-- de-tags-learnings-167.json
+                |-- de-tags-mindset-8b6.json
+                |-- de-tags-strategic-15d.json
+                |-- de-tags-web-10d.json
                 |-- index-466.json
                 |-- tags-angular-455.json
                 |-- tags-b9f.json
@@ -70,6 +112,7 @@
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-operations-md-c1b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
+            |-- site-docs-computer-science-index-md-d29.json
             |-- site-docs-computer-science-programming-git-git-basic-notes-md-315.json
             |-- site-docs-computer-science-programming-nvm-nvm-user-guide-md-879.json
             |-- site-docs-computer-science-programming-vim-vim-basic-notes-md-da8.json
@@ -81,97 +124,488 @@
             |-- site-docs-computer-science-web-technologies-css-css-basic-notes-md-16c.json
             |-- site-docs-computer-science-web-technologies-html-html-basic-notes-md-4d3.json
             |-- site-docs-intro-md-0e3.json
-            |-- site-docs-languages-german-german-cheat-sheet-1-md-ae0.json
+            |-- site-docs-languages-german-intensive-a-1-1-1-introduction-a-1-1-md-489.json
+            |-- site-docs-languages-german-intensive-a-1-1-10-chapter-9-md-0c6.json
+            |-- site-docs-languages-german-intensive-a-1-1-11-chapter-10-md-50c.json
+            |-- site-docs-languages-german-intensive-a-1-1-12-chapter-11-md-f71.json
+            |-- site-docs-languages-german-intensive-a-1-1-13-chapter-12-md-83c.json
+            |-- site-docs-languages-german-intensive-a-1-1-14-chapter-13-md-fbe.json
+            |-- site-docs-languages-german-intensive-a-1-1-15-chapter-14-md-4dc.json
+            |-- site-docs-languages-german-intensive-a-1-1-16-chapter-15-md-464.json
+            |-- site-docs-languages-german-intensive-a-1-1-17-chapter-16-md-422.json
+            |-- site-docs-languages-german-intensive-a-1-1-18-chapter-17-md-a62.json
+            |-- site-docs-languages-german-intensive-a-1-1-19-chapter-18-md-e54.json
+            |-- site-docs-languages-german-intensive-a-1-1-2-chapter-1-md-793.json
+            |-- site-docs-languages-german-intensive-a-1-1-20-chapter-19-md-972.json
+            |-- site-docs-languages-german-intensive-a-1-1-21-chapter-20-md-ac4.json
+            |-- site-docs-languages-german-intensive-a-1-1-22-chapter-21-md-3d6.json
+            |-- site-docs-languages-german-intensive-a-1-1-23-chapter-22-md-7f5.json
+            |-- site-docs-languages-german-intensive-a-1-1-24-chapter-23-md-033.json
+            |-- site-docs-languages-german-intensive-a-1-1-25-chapter-24-md-923.json
+            |-- site-docs-languages-german-intensive-a-1-1-26-chapter-25-md-79b.json
+            |-- site-docs-languages-german-intensive-a-1-1-27-chapter-26-md-8b0.json
+            |-- site-docs-languages-german-intensive-a-1-1-28-chapter-27-md-78e.json
+            |-- site-docs-languages-german-intensive-a-1-1-29-chapter-28-md-bbc.json
+            |-- site-docs-languages-german-intensive-a-1-1-3-chapter-2-md-be7.json
+            |-- site-docs-languages-german-intensive-a-1-1-30-chapter-29-md-119.json
+            |-- site-docs-languages-german-intensive-a-1-1-31-chapter-30-md-c33.json
+            |-- site-docs-languages-german-intensive-a-1-1-32-chapter-31-md-91d.json
+            |-- site-docs-languages-german-intensive-a-1-1-33-chapter-32-md-07a.json
+            |-- site-docs-languages-german-intensive-a-1-1-34-chapter-33-md-ffe.json
+            |-- site-docs-languages-german-intensive-a-1-1-35-chapter-34-md-3e5.json
+            |-- site-docs-languages-german-intensive-a-1-1-36-chapter-35-md-ef0.json
+            |-- site-docs-languages-german-intensive-a-1-1-37-chapter-36-md-a72.json
+            |-- site-docs-languages-german-intensive-a-1-1-38-chapter-37-md-e1a.json
+            |-- site-docs-languages-german-intensive-a-1-1-39-chapter-38-md-6a2.json
+            |-- site-docs-languages-german-intensive-a-1-1-4-chapter-3-md-be8.json
+            |-- site-docs-languages-german-intensive-a-1-1-40-chapter-39-md-676.json
+            |-- site-docs-languages-german-intensive-a-1-1-41-chapter-40-md-b5c.json
+            |-- site-docs-languages-german-intensive-a-1-1-42-chapter-41-md-676.json
+            |-- site-docs-languages-german-intensive-a-1-1-5-chapter-4-md-186.json
+            |-- site-docs-languages-german-intensive-a-1-1-6-chapter-5-md-118.json
+            |-- site-docs-languages-german-intensive-a-1-1-7-chapter-6-md-a7c.json
+            |-- site-docs-languages-german-intensive-a-1-1-8-chapter-7-md-9c0.json
+            |-- site-docs-languages-german-intensive-a-1-1-9-chapter-8-md-bf1.json
+            |-- site-docs-languages-german-intensive-a-1-2-1-introduction-md-f1b.json
+            |-- site-docs-languages-german-intensive-a-1-2-10-chapter-9-md-1e1.json
+            |-- site-docs-languages-german-intensive-a-1-2-11-chapter-10-md-a45.json
+            |-- site-docs-languages-german-intensive-a-1-2-12-chapter-11-md-586.json
+            |-- site-docs-languages-german-intensive-a-1-2-13-chapter-12-md-643.json
+            |-- site-docs-languages-german-intensive-a-1-2-14-chapter-13-md-ebd.json
+            |-- site-docs-languages-german-intensive-a-1-2-15-chapter-14-md-d87.json
+            |-- site-docs-languages-german-intensive-a-1-2-16-chapter-15-md-723.json
+            |-- site-docs-languages-german-intensive-a-1-2-17-chapter-16-md-5fe.json
+            |-- site-docs-languages-german-intensive-a-1-2-18-chapter-17-md-08c.json
+            |-- site-docs-languages-german-intensive-a-1-2-19-chapter-18-md-964.json
+            |-- site-docs-languages-german-intensive-a-1-2-2-chapter-1-md-b50.json
+            |-- site-docs-languages-german-intensive-a-1-2-20-chapter-19-md-299.json
+            |-- site-docs-languages-german-intensive-a-1-2-21-chapter-20-md-680.json
+            |-- site-docs-languages-german-intensive-a-1-2-22-chapter-21-md-6fb.json
+            |-- site-docs-languages-german-intensive-a-1-2-23-chapter-22-md-267.json
+            |-- site-docs-languages-german-intensive-a-1-2-24-chapter-23-md-d1b.json
+            |-- site-docs-languages-german-intensive-a-1-2-25-chapter-24-md-f23.json
+            |-- site-docs-languages-german-intensive-a-1-2-26-chapter-25-md-ad3.json
+            |-- site-docs-languages-german-intensive-a-1-2-27-chapter-26-md-fc3.json
+            |-- site-docs-languages-german-intensive-a-1-2-28-chapter-27-md-e2b.json
+            |-- site-docs-languages-german-intensive-a-1-2-29-chapter-28-md-d8d.json
+            |-- site-docs-languages-german-intensive-a-1-2-3-chapter-2-md-0e9.json
+            |-- site-docs-languages-german-intensive-a-1-2-30-chapter-29-md-66a.json
+            |-- site-docs-languages-german-intensive-a-1-2-31-chapter-30-md-17d.json
+            |-- site-docs-languages-german-intensive-a-1-2-32-chapter-31-md-12d.json
+            |-- site-docs-languages-german-intensive-a-1-2-33-chapter-32-md-8df.json
+            |-- site-docs-languages-german-intensive-a-1-2-34-chapter-33-md-698.json
+            |-- site-docs-languages-german-intensive-a-1-2-35-chapter-34-md-7e2.json
+            |-- site-docs-languages-german-intensive-a-1-2-36-chapter-35-md-304.json
+            |-- site-docs-languages-german-intensive-a-1-2-37-chapter-36-md-b09.json
+            |-- site-docs-languages-german-intensive-a-1-2-38-chapter-37-md-174.json
+            |-- site-docs-languages-german-intensive-a-1-2-39-chapter-38-md-3b9.json
+            |-- site-docs-languages-german-intensive-a-1-2-4-chapter-3-md-b79.json
+            |-- site-docs-languages-german-intensive-a-1-2-40-chapter-39-md-b57.json
+            |-- site-docs-languages-german-intensive-a-1-2-41-chapter-40-md-065.json
+            |-- site-docs-languages-german-intensive-a-1-2-42-chapter-41-md-bed.json
+            |-- site-docs-languages-german-intensive-a-1-2-43-chapter-42-md-310.json
+            |-- site-docs-languages-german-intensive-a-1-2-44-chapter-43-md-c85.json
+            |-- site-docs-languages-german-intensive-a-1-2-45-chapter-44-md-926.json
+            |-- site-docs-languages-german-intensive-a-1-2-46-chapter-45-md-8bc.json
+            |-- site-docs-languages-german-intensive-a-1-2-47-chapter-46-md-bda.json
+            |-- site-docs-languages-german-intensive-a-1-2-48-chapter-47-md-360.json
+            |-- site-docs-languages-german-intensive-a-1-2-49-chapter-48-md-33c.json
+            |-- site-docs-languages-german-intensive-a-1-2-5-chapter-4-md-32b.json
+            |-- site-docs-languages-german-intensive-a-1-2-50-chapter-49-md-0f9.json
+            |-- site-docs-languages-german-intensive-a-1-2-51-chapter-50-md-c1c.json
+            |-- site-docs-languages-german-intensive-a-1-2-6-chapter-5-md-88f.json
+            |-- site-docs-languages-german-intensive-a-1-2-7-chapter-6-md-670.json
+            |-- site-docs-languages-german-intensive-a-1-2-8-chapter-7-md-cc2.json
+            |-- site-docs-languages-german-intensive-a-1-2-9-chapter-8-md-9cc.json
+            |-- site-docs-languages-german-intensive-a-2-1-1-introduction-md-a9b.json
+            |-- site-docs-languages-german-intensive-a-2-1-10-chapter-9-md-ea8.json
+            |-- site-docs-languages-german-intensive-a-2-1-11-chapter-10-md-15e.json
+            |-- site-docs-languages-german-intensive-a-2-1-12-chapter-11-md-fb5.json
+            |-- site-docs-languages-german-intensive-a-2-1-13-chapter-12-md-d54.json
+            |-- site-docs-languages-german-intensive-a-2-1-14-chapter-13-md-5ea.json
+            |-- site-docs-languages-german-intensive-a-2-1-15-chapter-14-md-cf8.json
+            |-- site-docs-languages-german-intensive-a-2-1-16-chapter-15-md-aac.json
+            |-- site-docs-languages-german-intensive-a-2-1-17-chapter-16-md-59c.json
+            |-- site-docs-languages-german-intensive-a-2-1-18-chapter-17-md-bea.json
+            |-- site-docs-languages-german-intensive-a-2-1-19-chapter-18-md-915.json
+            |-- site-docs-languages-german-intensive-a-2-1-2-chapter-1-md-995.json
+            |-- site-docs-languages-german-intensive-a-2-1-20-chapter-19-md-a3d.json
+            |-- site-docs-languages-german-intensive-a-2-1-21-chapter-20-md-6df.json
+            |-- site-docs-languages-german-intensive-a-2-1-22-chapter-21-md-741.json
+            |-- site-docs-languages-german-intensive-a-2-1-23-chapter-22-md-62a.json
+            |-- site-docs-languages-german-intensive-a-2-1-24-chapter-23-md-4ca.json
+            |-- site-docs-languages-german-intensive-a-2-1-25-chapter-24-md-b73.json
+            |-- site-docs-languages-german-intensive-a-2-1-26-chapter-25-md-537.json
+            |-- site-docs-languages-german-intensive-a-2-1-27-chapter-26-md-13f.json
+            |-- site-docs-languages-german-intensive-a-2-1-28-chapter-27-md-321.json
+            |-- site-docs-languages-german-intensive-a-2-1-29-chapter-28-md-b45.json
+            |-- site-docs-languages-german-intensive-a-2-1-3-chapter-2-md-988.json
+            |-- site-docs-languages-german-intensive-a-2-1-30-chapter-29-md-140.json
+            |-- site-docs-languages-german-intensive-a-2-1-31-chapter-30-md-8f8.json
+            |-- site-docs-languages-german-intensive-a-2-1-32-chapter-31-md-598.json
+            |-- site-docs-languages-german-intensive-a-2-1-33-chapter-32-md-672.json
+            |-- site-docs-languages-german-intensive-a-2-1-34-chapter-33-md-31f.json
+            |-- site-docs-languages-german-intensive-a-2-1-35-chapter-34-md-042.json
+            |-- site-docs-languages-german-intensive-a-2-1-36-chapter-35-md-2e7.json
+            |-- site-docs-languages-german-intensive-a-2-1-37-chapter-36-md-b7a.json
+            |-- site-docs-languages-german-intensive-a-2-1-38-chapter-37-md-a3d.json
+            |-- site-docs-languages-german-intensive-a-2-1-39-chapter-38-md-03f.json
+            |-- site-docs-languages-german-intensive-a-2-1-4-chapter-3-md-344.json
+            |-- site-docs-languages-german-intensive-a-2-1-40-chapter-39-md-105.json
+            |-- site-docs-languages-german-intensive-a-2-1-41-chapter-40-md-fc7.json
+            |-- site-docs-languages-german-intensive-a-2-1-42-chapter-41-md-528.json
+            |-- site-docs-languages-german-intensive-a-2-1-43-chapter-42-md-48f.json
+            |-- site-docs-languages-german-intensive-a-2-1-44-chapter-43-md-56f.json
+            |-- site-docs-languages-german-intensive-a-2-1-45-chapter-44-md-d24.json
+            |-- site-docs-languages-german-intensive-a-2-1-46-chapter-45-md-d8d.json
+            |-- site-docs-languages-german-intensive-a-2-1-47-chapter-46-md-7e8.json
+            |-- site-docs-languages-german-intensive-a-2-1-48-chapter-47-md-c46.json
+            |-- site-docs-languages-german-intensive-a-2-1-49-chapter-48-md-07f.json
+            |-- site-docs-languages-german-intensive-a-2-1-5-chapter-4-md-fd3.json
+            |-- site-docs-languages-german-intensive-a-2-1-50-chapter-49-md-1a1.json
+            |-- site-docs-languages-german-intensive-a-2-1-51-chapter-50-md-e05.json
+            |-- site-docs-languages-german-intensive-a-2-1-6-chapter-5-md-fee.json
+            |-- site-docs-languages-german-intensive-a-2-1-7-chapter-6-md-9f7.json
+            |-- site-docs-languages-german-intensive-a-2-1-8-chapter-7-md-937.json
+            |-- site-docs-languages-german-intensive-a-2-1-9-chapter-8-md-208.json
+            |-- site-docs-languages-german-intensive-a-2-2-1-introduction-md-813.json
+            |-- site-docs-languages-german-intensive-a-2-2-10-chapter-9-md-082.json
+            |-- site-docs-languages-german-intensive-a-2-2-11-chapter-10-md-20c.json
+            |-- site-docs-languages-german-intensive-a-2-2-12-chapter-11-md-c32.json
+            |-- site-docs-languages-german-intensive-a-2-2-13-chapter-12-md-61f.json
+            |-- site-docs-languages-german-intensive-a-2-2-14-chapter-13-md-635.json
+            |-- site-docs-languages-german-intensive-a-2-2-15-chapter-14-md-2b0.json
+            |-- site-docs-languages-german-intensive-a-2-2-16-chapter-15-md-3c0.json
+            |-- site-docs-languages-german-intensive-a-2-2-17-chapter-16-md-751.json
+            |-- site-docs-languages-german-intensive-a-2-2-18-chapter-17-md-407.json
+            |-- site-docs-languages-german-intensive-a-2-2-19-chapter-18-md-fae.json
+            |-- site-docs-languages-german-intensive-a-2-2-2-chapter-1-md-fcd.json
+            |-- site-docs-languages-german-intensive-a-2-2-20-chapter-19-md-88c.json
+            |-- site-docs-languages-german-intensive-a-2-2-21-chapter-20-md-c82.json
+            |-- site-docs-languages-german-intensive-a-2-2-22-chapter-21-md-3bf.json
+            |-- site-docs-languages-german-intensive-a-2-2-23-chapter-22-md-617.json
+            |-- site-docs-languages-german-intensive-a-2-2-24-chapter-23-md-d4f.json
+            |-- site-docs-languages-german-intensive-a-2-2-25-chapter-24-md-86c.json
+            |-- site-docs-languages-german-intensive-a-2-2-26-chapter-25-md-aac.json
+            |-- site-docs-languages-german-intensive-a-2-2-27-chapter-26-md-b1e.json
+            |-- site-docs-languages-german-intensive-a-2-2-28-chapter-27-md-7f2.json
+            |-- site-docs-languages-german-intensive-a-2-2-29-chapter-28-md-096.json
+            |-- site-docs-languages-german-intensive-a-2-2-3-chapter-2-md-de2.json
+            |-- site-docs-languages-german-intensive-a-2-2-30-chapter-29-md-de5.json
+            |-- site-docs-languages-german-intensive-a-2-2-31-chapter-30-md-7ab.json
+            |-- site-docs-languages-german-intensive-a-2-2-32-chapter-31-md-723.json
+            |-- site-docs-languages-german-intensive-a-2-2-33-chapter-32-md-066.json
+            |-- site-docs-languages-german-intensive-a-2-2-34-chapter-33-md-144.json
+            |-- site-docs-languages-german-intensive-a-2-2-35-chapter-34-md-2d8.json
+            |-- site-docs-languages-german-intensive-a-2-2-36-chapter-35-md-99e.json
+            |-- site-docs-languages-german-intensive-a-2-2-37-chapter-36-md-c56.json
+            |-- site-docs-languages-german-intensive-a-2-2-38-chapter-37-md-6a4.json
+            |-- site-docs-languages-german-intensive-a-2-2-39-chapter-38-md-af9.json
+            |-- site-docs-languages-german-intensive-a-2-2-4-chapter-3-md-cef.json
+            |-- site-docs-languages-german-intensive-a-2-2-40-chapter-39-md-ec8.json
+            |-- site-docs-languages-german-intensive-a-2-2-41-chapter-40-md-302.json
+            |-- site-docs-languages-german-intensive-a-2-2-42-chapter-41-md-889.json
+            |-- site-docs-languages-german-intensive-a-2-2-43-chapter-42-md-210.json
+            |-- site-docs-languages-german-intensive-a-2-2-44-chapter-43-md-edc.json
+            |-- site-docs-languages-german-intensive-a-2-2-45-chapter-44-md-792.json
+            |-- site-docs-languages-german-intensive-a-2-2-46-chapter-45-md-824.json
+            |-- site-docs-languages-german-intensive-a-2-2-47-chapter-46-md-d54.json
+            |-- site-docs-languages-german-intensive-a-2-2-48-chapter-47-md-a30.json
+            |-- site-docs-languages-german-intensive-a-2-2-49-chapter-48-md-890.json
+            |-- site-docs-languages-german-intensive-a-2-2-5-chapter-4-md-b1d.json
+            |-- site-docs-languages-german-intensive-a-2-2-50-chapter-49-md-ed0.json
+            |-- site-docs-languages-german-intensive-a-2-2-51-chapter-50-md-7e9.json
+            |-- site-docs-languages-german-intensive-a-2-2-6-chapter-5-md-1c2.json
+            |-- site-docs-languages-german-intensive-a-2-2-7-chapter-6-md-22b.json
+            |-- site-docs-languages-german-intensive-a-2-2-8-chapter-7-md-d67.json
+            |-- site-docs-languages-german-intensive-a-2-2-9-chapter-8-md-bd3.json
+            |-- site-docs-languages-german-intensive-b-1-1-1-introduction-md-92b.json
+            |-- site-docs-languages-german-intensive-b-1-1-10-chapter-9-md-2ac.json
+            |-- site-docs-languages-german-intensive-b-1-1-11-chapter-10-md-a81.json
+            |-- site-docs-languages-german-intensive-b-1-1-12-chapter-11-md-155.json
+            |-- site-docs-languages-german-intensive-b-1-1-13-chapter-12-md-c0a.json
+            |-- site-docs-languages-german-intensive-b-1-1-14-chapter-13-md-0b6.json
+            |-- site-docs-languages-german-intensive-b-1-1-15-chapter-14-md-66d.json
+            |-- site-docs-languages-german-intensive-b-1-1-16-chapter-15-md-634.json
+            |-- site-docs-languages-german-intensive-b-1-1-17-chapter-16-md-1b7.json
+            |-- site-docs-languages-german-intensive-b-1-1-18-chapter-17-md-38e.json
+            |-- site-docs-languages-german-intensive-b-1-1-19-chapter-18-md-1da.json
+            |-- site-docs-languages-german-intensive-b-1-1-2-chapter-1-md-d27.json
+            |-- site-docs-languages-german-intensive-b-1-1-20-chapter-19-md-303.json
+            |-- site-docs-languages-german-intensive-b-1-1-21-chapter-20-md-562.json
+            |-- site-docs-languages-german-intensive-b-1-1-22-chapter-21-md-35f.json
+            |-- site-docs-languages-german-intensive-b-1-1-23-chapter-22-md-2c8.json
+            |-- site-docs-languages-german-intensive-b-1-1-24-chapter-23-md-5b9.json
+            |-- site-docs-languages-german-intensive-b-1-1-25-chapter-24-md-0db.json
+            |-- site-docs-languages-german-intensive-b-1-1-26-chapter-25-md-a72.json
+            |-- site-docs-languages-german-intensive-b-1-1-27-chapter-26-md-a71.json
+            |-- site-docs-languages-german-intensive-b-1-1-28-chapter-27-md-746.json
+            |-- site-docs-languages-german-intensive-b-1-1-29-chapter-28-md-093.json
+            |-- site-docs-languages-german-intensive-b-1-1-3-chapter-2-md-91d.json
+            |-- site-docs-languages-german-intensive-b-1-1-30-chapter-29-md-3f1.json
+            |-- site-docs-languages-german-intensive-b-1-1-31-chapter-30-md-215.json
+            |-- site-docs-languages-german-intensive-b-1-1-32-chapter-31-md-048.json
+            |-- site-docs-languages-german-intensive-b-1-1-33-chapter-32-md-c9b.json
+            |-- site-docs-languages-german-intensive-b-1-1-34-chapter-33-md-848.json
+            |-- site-docs-languages-german-intensive-b-1-1-35-chapter-34-md-859.json
+            |-- site-docs-languages-german-intensive-b-1-1-36-chapter-35-md-f7c.json
+            |-- site-docs-languages-german-intensive-b-1-1-37-chapter-36-md-ffc.json
+            |-- site-docs-languages-german-intensive-b-1-1-38-chapter-37-md-a44.json
+            |-- site-docs-languages-german-intensive-b-1-1-39-chapter-38-md-93c.json
+            |-- site-docs-languages-german-intensive-b-1-1-4-chapter-3-md-b22.json
+            |-- site-docs-languages-german-intensive-b-1-1-40-chapter-39-md-76e.json
+            |-- site-docs-languages-german-intensive-b-1-1-41-chapter-40-md-a9a.json
+            |-- site-docs-languages-german-intensive-b-1-1-42-chapter-41-md-908.json
+            |-- site-docs-languages-german-intensive-b-1-1-43-chapter-42-md-d29.json
+            |-- site-docs-languages-german-intensive-b-1-1-44-chapter-43-md-e7e.json
+            |-- site-docs-languages-german-intensive-b-1-1-45-chapter-44-md-95a.json
+            |-- site-docs-languages-german-intensive-b-1-1-46-chapter-45-md-d90.json
+            |-- site-docs-languages-german-intensive-b-1-1-47-chapter-46-md-6e2.json
+            |-- site-docs-languages-german-intensive-b-1-1-48-chapter-47-md-c6f.json
+            |-- site-docs-languages-german-intensive-b-1-1-49-chapter-48-md-fb7.json
+            |-- site-docs-languages-german-intensive-b-1-1-5-chapter-4-md-bc7.json
+            |-- site-docs-languages-german-intensive-b-1-1-50-chapter-49-md-35a.json
+            |-- site-docs-languages-german-intensive-b-1-1-51-chapter-50-md-a20.json
+            |-- site-docs-languages-german-intensive-b-1-1-6-chapter-5-md-c34.json
+            |-- site-docs-languages-german-intensive-b-1-1-7-chapter-6-md-923.json
+            |-- site-docs-languages-german-intensive-b-1-1-8-chapter-7-md-580.json
+            |-- site-docs-languages-german-intensive-b-1-1-9-chapter-8-md-5bc.json
+            |-- site-docs-languages-german-intensive-b-1-2-1-introduction-md-132.json
+            |-- site-docs-languages-german-intensive-b-1-2-10-chapter-9-md-631.json
+            |-- site-docs-languages-german-intensive-b-1-2-11-chapter-10-md-395.json
+            |-- site-docs-languages-german-intensive-b-1-2-12-chapter-11-md-8a9.json
+            |-- site-docs-languages-german-intensive-b-1-2-13-chapter-12-md-0c1.json
+            |-- site-docs-languages-german-intensive-b-1-2-14-chapter-13-md-529.json
+            |-- site-docs-languages-german-intensive-b-1-2-15-chapter-14-md-1d4.json
+            |-- site-docs-languages-german-intensive-b-1-2-16-chapter-15-md-3b3.json
+            |-- site-docs-languages-german-intensive-b-1-2-17-chapter-16-md-336.json
+            |-- site-docs-languages-german-intensive-b-1-2-18-chapter-17-md-57d.json
+            |-- site-docs-languages-german-intensive-b-1-2-19-chapter-18-md-03b.json
+            |-- site-docs-languages-german-intensive-b-1-2-2-chapter-1-md-7ee.json
+            |-- site-docs-languages-german-intensive-b-1-2-20-chapter-19-md-fd2.json
+            |-- site-docs-languages-german-intensive-b-1-2-21-chapter-20-md-928.json
+            |-- site-docs-languages-german-intensive-b-1-2-22-chapter-21-md-8a9.json
+            |-- site-docs-languages-german-intensive-b-1-2-23-chapter-22-md-7c8.json
+            |-- site-docs-languages-german-intensive-b-1-2-24-chapter-23-md-802.json
+            |-- site-docs-languages-german-intensive-b-1-2-25-chapter-24-md-07c.json
+            |-- site-docs-languages-german-intensive-b-1-2-26-chapter-25-md-b46.json
+            |-- site-docs-languages-german-intensive-b-1-2-27-chapter-26-md-5ea.json
+            |-- site-docs-languages-german-intensive-b-1-2-28-chapter-27-md-cc3.json
+            |-- site-docs-languages-german-intensive-b-1-2-29-chapter-28-md-5b1.json
+            |-- site-docs-languages-german-intensive-b-1-2-3-chapter-2-md-dfc.json
+            |-- site-docs-languages-german-intensive-b-1-2-30-chapter-29-md-3f7.json
+            |-- site-docs-languages-german-intensive-b-1-2-31-chapter-30-md-0f7.json
+            |-- site-docs-languages-german-intensive-b-1-2-32-chapter-31-md-540.json
+            |-- site-docs-languages-german-intensive-b-1-2-33-chapter-32-md-b98.json
+            |-- site-docs-languages-german-intensive-b-1-2-34-chapter-33-md-f9d.json
+            |-- site-docs-languages-german-intensive-b-1-2-35-chapter-34-md-1e8.json
+            |-- site-docs-languages-german-intensive-b-1-2-36-chapter-35-md-735.json
+            |-- site-docs-languages-german-intensive-b-1-2-37-chapter-36-md-ae4.json
+            |-- site-docs-languages-german-intensive-b-1-2-38-chapter-37-md-9c5.json
+            |-- site-docs-languages-german-intensive-b-1-2-39-chapter-38-md-ed4.json
+            |-- site-docs-languages-german-intensive-b-1-2-4-chapter-3-md-e84.json
+            |-- site-docs-languages-german-intensive-b-1-2-40-chapter-39-md-bc3.json
+            |-- site-docs-languages-german-intensive-b-1-2-41-chapter-40-md-2a1.json
+            |-- site-docs-languages-german-intensive-b-1-2-42-chapter-41-md-35e.json
+            |-- site-docs-languages-german-intensive-b-1-2-43-chapter-42-md-57f.json
+            |-- site-docs-languages-german-intensive-b-1-2-44-chapter-43-md-171.json
+            |-- site-docs-languages-german-intensive-b-1-2-45-chapter-44-md-62d.json
+            |-- site-docs-languages-german-intensive-b-1-2-46-chapter-45-md-b9b.json
+            |-- site-docs-languages-german-intensive-b-1-2-47-chapter-46-md-82d.json
+            |-- site-docs-languages-german-intensive-b-1-2-48-chapter-47-md-c67.json
+            |-- site-docs-languages-german-intensive-b-1-2-49-chapter-48-md-944.json
+            |-- site-docs-languages-german-intensive-b-1-2-5-chapter-4-md-dd7.json
+            |-- site-docs-languages-german-intensive-b-1-2-50-chapter-49-md-c95.json
+            |-- site-docs-languages-german-intensive-b-1-2-51-chapter-50-md-a32.json
+            |-- site-docs-languages-german-intensive-b-1-2-6-chapter-5-md-8cd.json
+            |-- site-docs-languages-german-intensive-b-1-2-7-chapter-6-md-05b.json
+            |-- site-docs-languages-german-intensive-b-1-2-8-chapter-7-md-a71.json
+            |-- site-docs-languages-german-intensive-b-1-2-9-chapter-8-md-c7c.json
+            |-- site-docs-languages-german-intensive-b-2-1-1-introduction-md-302.json
+            |-- site-docs-languages-german-intensive-b-2-1-10-chapter-9-md-0a1.json
+            |-- site-docs-languages-german-intensive-b-2-1-11-chapter-10-md-52a.json
+            |-- site-docs-languages-german-intensive-b-2-1-12-chapter-11-md-21e.json
+            |-- site-docs-languages-german-intensive-b-2-1-13-chapter-12-md-44a.json
+            |-- site-docs-languages-german-intensive-b-2-1-14-chapter-13-md-704.json
+            |-- site-docs-languages-german-intensive-b-2-1-15-chapter-14-md-a4c.json
+            |-- site-docs-languages-german-intensive-b-2-1-16-chapter-15-md-6de.json
+            |-- site-docs-languages-german-intensive-b-2-1-17-chapter-16-md-fba.json
+            |-- site-docs-languages-german-intensive-b-2-1-18-chapter-17-md-7fb.json
+            |-- site-docs-languages-german-intensive-b-2-1-19-chapter-18-md-a60.json
+            |-- site-docs-languages-german-intensive-b-2-1-2-chapter-1-md-308.json
+            |-- site-docs-languages-german-intensive-b-2-1-20-chapter-19-md-d3a.json
+            |-- site-docs-languages-german-intensive-b-2-1-21-chapter-20-md-f05.json
+            |-- site-docs-languages-german-intensive-b-2-1-22-chapter-21-md-a9a.json
+            |-- site-docs-languages-german-intensive-b-2-1-23-chapter-22-md-b96.json
+            |-- site-docs-languages-german-intensive-b-2-1-24-chapter-23-md-db5.json
+            |-- site-docs-languages-german-intensive-b-2-1-25-chapter-24-md-f9d.json
+            |-- site-docs-languages-german-intensive-b-2-1-26-chapter-25-md-c00.json
+            |-- site-docs-languages-german-intensive-b-2-1-27-chapter-26-md-b7a.json
+            |-- site-docs-languages-german-intensive-b-2-1-28-chapter-27-md-f3e.json
+            |-- site-docs-languages-german-intensive-b-2-1-29-chapter-28-md-66e.json
+            |-- site-docs-languages-german-intensive-b-2-1-3-chapter-2-md-31c.json
+            |-- site-docs-languages-german-intensive-b-2-1-30-chapter-29-md-445.json
+            |-- site-docs-languages-german-intensive-b-2-1-31-chapter-30-md-e26.json
+            |-- site-docs-languages-german-intensive-b-2-1-32-chapter-31-md-c4a.json
+            |-- site-docs-languages-german-intensive-b-2-1-33-chapter-32-md-c59.json
+            |-- site-docs-languages-german-intensive-b-2-1-34-chapter-33-md-6b7.json
+            |-- site-docs-languages-german-intensive-b-2-1-35-chapter-34-md-052.json
+            |-- site-docs-languages-german-intensive-b-2-1-36-chapter-35-md-0bc.json
+            |-- site-docs-languages-german-intensive-b-2-1-37-chapter-36-md-7fa.json
+            |-- site-docs-languages-german-intensive-b-2-1-38-chapter-37-md-040.json
+            |-- site-docs-languages-german-intensive-b-2-1-39-chapter-38-md-796.json
+            |-- site-docs-languages-german-intensive-b-2-1-4-chapter-3-md-19c.json
+            |-- site-docs-languages-german-intensive-b-2-1-40-chapter-39-md-5fd.json
+            |-- site-docs-languages-german-intensive-b-2-1-41-chapter-40-md-a83.json
+            |-- site-docs-languages-german-intensive-b-2-1-42-chapter-41-md-95d.json
+            |-- site-docs-languages-german-intensive-b-2-1-43-chapter-42-md-6ff.json
+            |-- site-docs-languages-german-intensive-b-2-1-44-chapter-43-md-eea.json
+            |-- site-docs-languages-german-intensive-b-2-1-45-chapter-44-md-1a9.json
+            |-- site-docs-languages-german-intensive-b-2-1-46-chapter-45-md-012.json
+            |-- site-docs-languages-german-intensive-b-2-1-47-chapter-46-md-2c5.json
+            |-- site-docs-languages-german-intensive-b-2-1-48-chapter-47-md-09d.json
+            |-- site-docs-languages-german-intensive-b-2-1-49-chapter-48-md-3e6.json
+            |-- site-docs-languages-german-intensive-b-2-1-5-chapter-4-md-154.json
+            |-- site-docs-languages-german-intensive-b-2-1-50-chapter-49-md-7d6.json
+            |-- site-docs-languages-german-intensive-b-2-1-51-chapter-50-md-110.json
+            |-- site-docs-languages-german-intensive-b-2-1-6-chapter-5-md-b75.json
+            |-- site-docs-languages-german-intensive-b-2-1-7-chapter-6-md-344.json
+            |-- site-docs-languages-german-intensive-b-2-1-8-chapter-7-md-c31.json
+            |-- site-docs-languages-german-intensive-b-2-1-9-chapter-8-md-7b9.json
+            |-- site-docs-languages-german-intensive-b-2-2-1-introduction-md-fc3.json
+            |-- site-docs-languages-german-intensive-b-2-2-10-chapter-9-md-e53.json
+            |-- site-docs-languages-german-intensive-b-2-2-11-chapter-10-md-598.json
+            |-- site-docs-languages-german-intensive-b-2-2-12-chapter-11-md-47b.json
+            |-- site-docs-languages-german-intensive-b-2-2-13-chapter-12-md-b85.json
+            |-- site-docs-languages-german-intensive-b-2-2-14-chapter-13-md-0f8.json
+            |-- site-docs-languages-german-intensive-b-2-2-15-chapter-14-md-700.json
+            |-- site-docs-languages-german-intensive-b-2-2-16-chapter-15-md-95e.json
+            |-- site-docs-languages-german-intensive-b-2-2-17-chapter-16-md-473.json
+            |-- site-docs-languages-german-intensive-b-2-2-18-chapter-17-md-fea.json
+            |-- site-docs-languages-german-intensive-b-2-2-19-chapter-18-md-ab2.json
+            |-- site-docs-languages-german-intensive-b-2-2-2-chapter-1-md-d62.json
+            |-- site-docs-languages-german-intensive-b-2-2-20-chapter-19-md-0e5.json
+            |-- site-docs-languages-german-intensive-b-2-2-21-chapter-20-md-664.json
+            |-- site-docs-languages-german-intensive-b-2-2-22-chapter-21-md-485.json
+            |-- site-docs-languages-german-intensive-b-2-2-23-chapter-22-md-95a.json
+            |-- site-docs-languages-german-intensive-b-2-2-24-chapter-23-md-806.json
+            |-- site-docs-languages-german-intensive-b-2-2-25-chapter-24-md-dad.json
+            |-- site-docs-languages-german-intensive-b-2-2-26-chapter-25-md-252.json
+            |-- site-docs-languages-german-intensive-b-2-2-27-chapter-26-md-290.json
+            |-- site-docs-languages-german-intensive-b-2-2-28-chapter-27-md-0dc.json
+            |-- site-docs-languages-german-intensive-b-2-2-29-chapter-28-md-618.json
+            |-- site-docs-languages-german-intensive-b-2-2-3-chapter-2-md-3a5.json
+            |-- site-docs-languages-german-intensive-b-2-2-30-chapter-29-md-9f4.json
+            |-- site-docs-languages-german-intensive-b-2-2-31-chapter-30-md-391.json
+            |-- site-docs-languages-german-intensive-b-2-2-32-chapter-31-md-145.json
+            |-- site-docs-languages-german-intensive-b-2-2-33-chapter-32-md-f18.json
+            |-- site-docs-languages-german-intensive-b-2-2-34-chapter-33-md-dfa.json
+            |-- site-docs-languages-german-intensive-b-2-2-35-chapter-34-md-b51.json
+            |-- site-docs-languages-german-intensive-b-2-2-36-chapter-35-md-699.json
+            |-- site-docs-languages-german-intensive-b-2-2-37-chapter-36-md-ed8.json
+            |-- site-docs-languages-german-intensive-b-2-2-38-chapter-37-md-4b2.json
+            |-- site-docs-languages-german-intensive-b-2-2-39-chapter-38-md-4e4.json
+            |-- site-docs-languages-german-intensive-b-2-2-4-chapter-3-md-2e6.json
+            |-- site-docs-languages-german-intensive-b-2-2-40-chapter-39-md-cf0.json
+            |-- site-docs-languages-german-intensive-b-2-2-41-chapter-40-md-53a.json
+            |-- site-docs-languages-german-intensive-b-2-2-42-chapter-41-md-05d.json
+            |-- site-docs-languages-german-intensive-b-2-2-43-chapter-42-md-02f.json
+            |-- site-docs-languages-german-intensive-b-2-2-44-chapter-43-md-870.json
+            |-- site-docs-languages-german-intensive-b-2-2-45-chapter-44-md-c02.json
+            |-- site-docs-languages-german-intensive-b-2-2-46-chapter-45-md-5eb.json
+            |-- site-docs-languages-german-intensive-b-2-2-47-chapter-46-md-513.json
+            |-- site-docs-languages-german-intensive-b-2-2-48-chapter-47-md-3cc.json
+            |-- site-docs-languages-german-intensive-b-2-2-49-chapter-48-md-0a2.json
+            |-- site-docs-languages-german-intensive-b-2-2-5-chapter-4-md-efc.json
+            |-- site-docs-languages-german-intensive-b-2-2-50-chapter-49-md-869.json
+            |-- site-docs-languages-german-intensive-b-2-2-51-chapter-50-md-0d5.json
+            |-- site-docs-languages-german-intensive-b-2-2-6-chapter-5-md-984.json
+            |-- site-docs-languages-german-intensive-b-2-2-7-chapter-6-md-2dc.json
+            |-- site-docs-languages-german-intensive-b-2-2-8-chapter-7-md-d13.json
+            |-- site-docs-languages-german-intensive-b-2-2-9-chapter-8-md-427.json
+            |-- site-docs-languages-german-intensive-c-1-1-1-introduction-md-df3.json
+            |-- site-docs-languages-german-intensive-c-1-1-10-chapter-9-md-ce5.json
+            |-- site-docs-languages-german-intensive-c-1-1-11-chapter-10-md-ac8.json
+            |-- site-docs-languages-german-intensive-c-1-1-12-chapter-11-md-454.json
+            |-- site-docs-languages-german-intensive-c-1-1-13-chapter-12-md-04f.json
+            |-- site-docs-languages-german-intensive-c-1-1-14-chapter-13-md-e25.json
+            |-- site-docs-languages-german-intensive-c-1-1-15-chapter-14-md-39e.json
+            |-- site-docs-languages-german-intensive-c-1-1-16-chapter-15-md-503.json
+            |-- site-docs-languages-german-intensive-c-1-1-17-chapter-16-md-00a.json
+            |-- site-docs-languages-german-intensive-c-1-1-18-chapter-17-md-041.json
+            |-- site-docs-languages-german-intensive-c-1-1-19-chapter-18-md-8de.json
+            |-- site-docs-languages-german-intensive-c-1-1-2-chapter-1-md-146.json
+            |-- site-docs-languages-german-intensive-c-1-1-20-chapter-19-md-4fd.json
+            |-- site-docs-languages-german-intensive-c-1-1-21-chapter-20-md-e2e.json
+            |-- site-docs-languages-german-intensive-c-1-1-22-chapter-21-md-2d6.json
+            |-- site-docs-languages-german-intensive-c-1-1-23-chapter-22-md-02f.json
+            |-- site-docs-languages-german-intensive-c-1-1-24-chapter-23-md-2ad.json
+            |-- site-docs-languages-german-intensive-c-1-1-25-chapter-24-md-932.json
+            |-- site-docs-languages-german-intensive-c-1-1-26-chapter-25-md-6bd.json
+            |-- site-docs-languages-german-intensive-c-1-1-27-chapter-26-md-04d.json
+            |-- site-docs-languages-german-intensive-c-1-1-28-chapter-27-md-aea.json
+            |-- site-docs-languages-german-intensive-c-1-1-29-chapter-28-md-c1c.json
+            |-- site-docs-languages-german-intensive-c-1-1-3-chapter-2-md-564.json
+            |-- site-docs-languages-german-intensive-c-1-1-30-chapter-29-md-069.json
+            |-- site-docs-languages-german-intensive-c-1-1-31-chapter-30-md-3b3.json
+            |-- site-docs-languages-german-intensive-c-1-1-32-chapter-31-md-798.json
+            |-- site-docs-languages-german-intensive-c-1-1-33-chapter-32-md-52f.json
+            |-- site-docs-languages-german-intensive-c-1-1-34-chapter-33-md-0aa.json
+            |-- site-docs-languages-german-intensive-c-1-1-35-chapter-34-md-04f.json
+            |-- site-docs-languages-german-intensive-c-1-1-36-chapter-35-md-30c.json
+            |-- site-docs-languages-german-intensive-c-1-1-37-chapter-36-md-5d8.json
+            |-- site-docs-languages-german-intensive-c-1-1-38-chapter-37-md-1db.json
+            |-- site-docs-languages-german-intensive-c-1-1-39-chapter-38-md-deb.json
+            |-- site-docs-languages-german-intensive-c-1-1-4-chapter-3-md-5d4.json
+            |-- site-docs-languages-german-intensive-c-1-1-40-chapter-39-md-f51.json
+            |-- site-docs-languages-german-intensive-c-1-1-41-chapter-40-md-232.json
+            |-- site-docs-languages-german-intensive-c-1-1-42-chapter-41-md-063.json
+            |-- site-docs-languages-german-intensive-c-1-1-43-chapter-42-md-9bf.json
+            |-- site-docs-languages-german-intensive-c-1-1-44-chapter-43-md-be0.json
+            |-- site-docs-languages-german-intensive-c-1-1-45-chapter-44-md-a5d.json
+            |-- site-docs-languages-german-intensive-c-1-1-46-chapter-45-md-f2b.json
+            |-- site-docs-languages-german-intensive-c-1-1-47-chapter-46-md-f11.json
+            |-- site-docs-languages-german-intensive-c-1-1-48-chapter-47-md-3c0.json
+            |-- site-docs-languages-german-intensive-c-1-1-49-chapter-48-md-68a.json
+            |-- site-docs-languages-german-intensive-c-1-1-5-chapter-4-md-389.json
+            |-- site-docs-languages-german-intensive-c-1-1-50-chapter-49-md-050.json
+            |-- site-docs-languages-german-intensive-c-1-1-51-chapter-50-md-01a.json
+            |-- site-docs-languages-german-intensive-c-1-1-6-chapter-5-md-791.json
+            |-- site-docs-languages-german-intensive-c-1-1-7-chapter-6-md-166.json
+            |-- site-docs-languages-german-intensive-c-1-1-8-chapter-7-md-af0.json
+            |-- site-docs-languages-german-intensive-c-1-1-9-chapter-8-md-f4a.json
             |-- site-docs-my-learnings-hard-reset-50-psychology-skills-md-7f6.json
             |-- site-docs-my-learnings-hard-reset-90-days-hard-reset-md-26e.json
             |-- site-docs-my-learnings-hard-reset-life-formula-md-7a0.json
-            |-- site-docs-portfolio-certificates-md-e61.json
             |-- site-docs-portfolio-resume-md-906.json
+            |-- site-docs-tools-collection-adblocking-privacy-md-a5f.json
+            |-- site-docs-tools-collection-android-ios-md-29d.json
+            |-- site-docs-tools-collection-artificial-intelligence-md-833.json
+            |-- site-docs-tools-collection-beginners-guide-md-2de.json
+            |-- site-docs-tools-collection-developer-tools-md-754.json
+            |-- site-docs-tools-collection-downloading-md-fde.json
+            |-- site-docs-tools-collection-educational-md-3d7.json
+            |-- site-docs-tools-collection-file-tools-md-18e.json
+            |-- site-docs-tools-collection-gaming-md-0b8.json
+            |-- site-docs-tools-collection-gaming-tools-md-11b.json
+            |-- site-docs-tools-collection-image-tools-md-d0e.json
+            |-- site-docs-tools-collection-internet-tools-md-a3e.json
+            |-- site-docs-tools-collection-linux-macos-md-99f.json
+            |-- site-docs-tools-collection-listening-md-0c3.json
+            |-- site-docs-tools-collection-miscellaneous-md-bb0.json
+            |-- site-docs-tools-collection-non-english-md-e77.json
+            |-- site-docs-tools-collection-reading-md-a62.json
+            |-- site-docs-tools-collection-social-media-tools-md-5f5.json
+            |-- site-docs-tools-collection-streaming-md-d44.json
+            |-- site-docs-tools-collection-system-tools-md-54e.json
+            |-- site-docs-tools-collection-text-tools-md-14b.json
+            |-- site-docs-tools-collection-torrenting-md-7f9.json
+            |-- site-docs-tools-collection-video-tools-md-4ff.json
+            |-- __mdx-loader-dependency.json
             |-- __plugin.json
     |-- docusaurus-plugin-content-pages
         |-- default
             |-- site-src-pages-markdown-page-md-393.json
-            |-- site-src-pages-myreviews-101-essays-that-will-change-the-way-you-think-md-37a.json
-            |-- site-src-pages-myreviews-8-rules-of-love-md-f56.json
-            |-- site-src-pages-myreviews-accounting-101-md-92e.json
-            |-- site-src-pages-myreviews-american-government-101-md-dcb.json
-            |-- site-src-pages-myreviews-bharat-ek-nayi-soch-md-910.json
-            |-- site-src-pages-myreviews-boss-basics-of-sanatan-sanskriti-md-410.json
-            |-- site-src-pages-myreviews-chanakyas-100-best-sutras-md-dca.json
-            |-- site-src-pages-myreviews-corporate-chanakya-md-855.json
-            |-- site-src-pages-myreviews-crucial-conversations-md-c22.json
-            |-- site-src-pages-myreviews-dare-to-lead-md-e78.json
-            |-- site-src-pages-myreviews-deep-work-rules-for-focused-success-in-a-distracted-world-md-373.json
-            |-- site-src-pages-myreviews-dopamine-detox-md-f35.json
-            |-- site-src-pages-myreviews-economics-101-md-5b4.json
-            |-- site-src-pages-myreviews-emotional-intelligence-md-529.json
-            |-- site-src-pages-myreviews-four-thousand-weeks-time-management-for-mortals-md-09b.json
-            |-- site-src-pages-myreviews-hindus-in-hindu-rashtra-md-036.json
-            |-- site-src-pages-myreviews-how-to-stop-worrying-and-start-living-md-bca.json
-            |-- site-src-pages-myreviews-how-to-talk-to-anyone-and-everyone-about-anything-md-992.json
-            |-- site-src-pages-myreviews-how-to-talk-to-anyone-md-d55.json
-            |-- site-src-pages-myreviews-how-to-win-friends-influence-people-md-326.json
-            |-- site-src-pages-myreviews-ikigai-the-japanese-secret-md-4e5.json
-            |-- site-src-pages-myreviews-immediate-action-md-59f.json
-            |-- site-src-pages-myreviews-india-that-is-bharat-md-223.json
-            |-- site-src-pages-myreviews-investing-101-md-db4.json
-            |-- site-src-pages-myreviews-invisible-women-md-63f.json
-            |-- site-src-pages-myreviews-kautileeya-arthshastra-md-027.json
-            |-- site-src-pages-myreviews-management-101-md-ac5.json
-            |-- site-src-pages-myreviews-master-your-belifes-md-4ea.json
-            |-- site-src-pages-myreviews-master-your-destiny-md-54e.json
-            |-- site-src-pages-myreviews-master-your-emotions-md-e0e.json
-            |-- site-src-pages-myreviews-master-your-focus-md-724.json
-            |-- site-src-pages-myreviews-master-your-motivation-md-a03.json
-            |-- site-src-pages-myreviews-master-your-thinking-md-c04.json
-            |-- site-src-pages-myreviews-master-your-time-md-b26.json
-            |-- site-src-pages-myreviews-men-are-from-mars-women-are-from-venus-md-da0.json
-            |-- site-src-pages-myreviews-mindset-the-new-psychology-of-success-md-b5a.json
-            |-- site-src-pages-myreviews-moneyworks-md-1c1.json
-            |-- site-src-pages-myreviews-negotiating-101-md-635.json
-            |-- site-src-pages-myreviews-never-split-the-difference-md-7ef.json
-            |-- site-src-pages-myreviews-philosophy-101-md-27f.json
-            |-- site-src-pages-myreviews-powerful-focus-md-ee3.json
-            |-- site-src-pages-myreviews-principles-life-and-work-md-ffa.json
-            |-- site-src-pages-myreviews-psych-101-md-b50.json
-            |-- site-src-pages-myreviews-radical-candor-be-a-kick-ass-boss-without-losing-your-humanity-md-346.json
-            |-- site-src-pages-myreviews-radical-candor-how-to-get-what-you-want-by-saying-what-you-mean-md-e8e.json
-            |-- site-src-pages-myreviews-read-people-like-a-book-md-106.json
-            |-- site-src-pages-myreviews-relentless-from-good-to-great-to-unstoppable-books-md-2b6.json
-            |-- site-src-pages-myreviews-same-as-ever-book-md-ec2.json
-            |-- site-src-pages-myreviews-semen-retention-miracles-md-940.json
-            |-- site-src-pages-myreviews-srimad-bhagavadgita-volumn-1-md-e9a.json
-            |-- site-src-pages-myreviews-srimad-bhagavadgita-volumn-2-md-455.json
-            |-- site-src-pages-myreviews-stock-market-101-md-afb.json
-            |-- site-src-pages-myreviews-strategic-mindset-md-545.json
-            |-- site-src-pages-myreviews-surrounded-by-bad-bosses-md-7b4.json
-            |-- site-src-pages-myreviews-surrounded-by-idiots-md-b4d.json
-            |-- site-src-pages-myreviews-surrounded-by-liars-md-09a.json
-            |-- site-src-pages-myreviews-surrounded-by-narcissists-md-34e.json
-            |-- site-src-pages-myreviews-surrounded-by-psychopaths-by-thomas-erikson-md-001.json
-            |-- site-src-pages-myreviews-surrounded-by-setbacks-md-3f2.json
-            |-- site-src-pages-myreviews-team-topologies-md-82d.json
-            |-- site-src-pages-myreviews-thank-god-for-the-feedback-md-1b6.json
-            |-- site-src-pages-myreviews-thanks-for-the-feedback-md-08b.json
-            |-- site-src-pages-myreviews-the-80-20-principle-md-9c5.json
-            |-- site-src-pages-myreviews-the-almanack-of-naval-ravikant-md-e07.json
-            |-- site-src-pages-myreviews-the-book-on-rental-property-investing-md-b88.json
-            |-- site-src-pages-myreviews-the-coaching-habit-md-bd8.json
-            |-- site-src-pages-myreviews-the-communication-skills-bible-md-767.json
-            |-- site-src-pages-myreviews-the-concise-48-laws-of-power-md-551.json
-            |-- site-src-pages-myreviews-the-concise-art-of-seduction-md-5a9.json
-            |-- site-src-pages-myreviews-the-concise-laws-of-human-nature-md-d94.json
-            |-- site-src-pages-myreviews-the-concise-strategies-of-war-md-c60.json
-            |-- site-src-pages-myreviews-the-courage-to-be-disliked-md-e57.json
-            |-- site-src-pages-myreviews-the-daily-laws-md-f7f.json
-            |-- site-src-pages-myreviews-the-daily-stoic-by-ryan-holiday-md-b96.json
-            |-- site-src-pages-myreviews-the-fine-art-of-small-talk-md-ead.json
-            |-- site-src-pages-myreviews-the-millionaire-fastlane-md-143.json
-            |-- site-src-pages-myreviews-the-one-success-habit-md-55e.json
-            |-- site-src-pages-myreviews-the-personal-mba-md-816.json
-            |-- site-src-pages-myreviews-the-psychology-of-money-md-bc3.json
-            |-- site-src-pages-myreviews-u-s-history-101-md-986.json
-            |-- site-src-pages-myreviews-vaidik-dincharya-rituals-md-1db.json
             |-- __plugin.json
     |-- docusaurus-plugin-debug
         |-- default
@@ -188,6 +622,13 @@
     |-- site-metadata.json
     |-- site-storage.json
 |-- .gitignore
+|-- 1. comprehensive_project_plan.md
+|-- 2. detailed_portfolio_sections.md
+|-- 3. frontend_plan.md
+|-- 4. backend_plan.md
+|-- 5. new_requirements_analysis.md
+|-- 6. notion_import_instructions.md
+|-- 7. technical_analysis.md
 |-- babel.config.js
 |-- blog
     |-- 2018
@@ -212,6 +653,7 @@
         |-- 2024-01-10-future-of-devops.md
     |-- authors.yml
     |-- tags.yml
+|-- clean-lucide-imports.js
 |-- compress-images.js
 |-- docs
     |-- ComputerScience
@@ -222,6 +664,7 @@
                 |-- DockerOperations.md
                 |-- DockerTool&TermCheatsheet.md
             |-- _category_.json
+        |-- index.md
         |-- Programming
             |-- Git
                 |-- figures
@@ -251,7 +694,465 @@
     |-- intro.md
     |-- Languages
         |-- German
-            |-- GermanCheatSheet1.md
+            |-- Intensive A1.1
+                |-- 1. Introduction A1.1.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 5. Chapter 4.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
+            |-- Intensive A1.2
+                |-- 1. Introduction.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 43. Chapter 42.md
+                |-- 44. Chapter 43.md
+                |-- 45. Chapter 44.md
+                |-- 46. Chapter 45.md
+                |-- 47. Chapter 46.md
+                |-- 48. Chapter 47.md
+                |-- 49. Chapter 48.md
+                |-- 5. Chapter 4.md
+                |-- 50. Chapter 49.md
+                |-- 51. Chapter 50.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
+            |-- Intensive A2.1
+                |-- 1. Introduction.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 43. Chapter 42.md
+                |-- 44. Chapter 43.md
+                |-- 45. Chapter 44.md
+                |-- 46. Chapter 45.md
+                |-- 47. Chapter 46.md
+                |-- 48. Chapter 47.md
+                |-- 49. Chapter 48.md
+                |-- 5. Chapter 4.md
+                |-- 50. Chapter 49.md
+                |-- 51. Chapter 50.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
+            |-- Intensive A2.2
+                |-- 1. Introduction.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 43. Chapter 42.md
+                |-- 44. Chapter 43.md
+                |-- 45. Chapter 44.md
+                |-- 46. Chapter 45.md
+                |-- 47. Chapter 46.md
+                |-- 48. Chapter 47.md
+                |-- 49. Chapter 48.md
+                |-- 5. Chapter 4.md
+                |-- 50. Chapter 49.md
+                |-- 51. Chapter 50.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
+            |-- Intensive B1.1
+                |-- 1. Introduction.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 43. Chapter 42.md
+                |-- 44. Chapter 43.md
+                |-- 45. Chapter 44.md
+                |-- 46. Chapter 45.md
+                |-- 47. Chapter 46.md
+                |-- 48. Chapter 47.md
+                |-- 49. Chapter 48.md
+                |-- 5. Chapter 4.md
+                |-- 50. Chapter 49.md
+                |-- 51. Chapter 50.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
+            |-- Intensive B1.2
+                |-- 1. Introduction.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 43. Chapter 42.md
+                |-- 44. Chapter 43.md
+                |-- 45. Chapter 44.md
+                |-- 46. Chapter 45.md
+                |-- 47. Chapter 46.md
+                |-- 48. Chapter 47.md
+                |-- 49. Chapter 48.md
+                |-- 5. Chapter 4.md
+                |-- 50. Chapter 49.md
+                |-- 51. Chapter 50.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
+            |-- Intensive B2.1
+                |-- 1. Introduction.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 43. Chapter 42.md
+                |-- 44. Chapter 43.md
+                |-- 45. Chapter 44.md
+                |-- 46. Chapter 45.md
+                |-- 47. Chapter 46.md
+                |-- 48. Chapter 47.md
+                |-- 49. Chapter 48.md
+                |-- 5. Chapter 4.md
+                |-- 50. Chapter 49.md
+                |-- 51. Chapter 50.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
+            |-- Intensive B2.2
+                |-- 1. Introduction.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 43. Chapter 42.md
+                |-- 44. Chapter 43.md
+                |-- 45. Chapter 44.md
+                |-- 46. Chapter 45.md
+                |-- 47. Chapter 46.md
+                |-- 48. Chapter 47.md
+                |-- 49. Chapter 48.md
+                |-- 5. Chapter 4.md
+                |-- 50. Chapter 49.md
+                |-- 51. Chapter 50.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
+            |-- Intensive C1.1
+                |-- 1. Introduction.md
+                |-- 10. Chapter 9.md
+                |-- 11. Chapter 10.md
+                |-- 12. Chapter 11.md
+                |-- 13. Chapter 12.md
+                |-- 14. Chapter 13.md
+                |-- 15. Chapter 14.md
+                |-- 16. Chapter 15.md
+                |-- 17. Chapter 16.md
+                |-- 18. Chapter 17.md
+                |-- 19. Chapter 18.md
+                |-- 2. Chapter 1.md
+                |-- 20. Chapter 19.md
+                |-- 21. Chapter 20.md
+                |-- 22. Chapter 21.md
+                |-- 23. Chapter 22.md
+                |-- 24. Chapter 23.md
+                |-- 25. Chapter 24.md
+                |-- 26. Chapter 25.md
+                |-- 27. Chapter 26.md
+                |-- 28. Chapter 27.md
+                |-- 29. Chapter 28.md
+                |-- 3. Chapter 2.md
+                |-- 30. Chapter 29.md
+                |-- 31. Chapter 30.md
+                |-- 32. Chapter 31.md
+                |-- 33. Chapter 32.md
+                |-- 34. Chapter 33.md
+                |-- 35. Chapter 34.md
+                |-- 36. Chapter 35.md
+                |-- 37. Chapter 36.md
+                |-- 38. Chapter 37.md
+                |-- 39. Chapter 38.md
+                |-- 4. Chapter 3.md
+                |-- 40. Chapter 39.md
+                |-- 41. Chapter 40.md
+                |-- 42. Chapter 41.md
+                |-- 43. Chapter 42.md
+                |-- 44. Chapter 43.md
+                |-- 45. Chapter 44.md
+                |-- 46. Chapter 45.md
+                |-- 47. Chapter 46.md
+                |-- 48. Chapter 47.md
+                |-- 49. Chapter 48.md
+                |-- 5. Chapter 4.md
+                |-- 50. Chapter 49.md
+                |-- 51. Chapter 50.md
+                |-- 6. Chapter 5.md
+                |-- 7. Chapter 6.md
+                |-- 8. Chapter 7.md
+                |-- 9. Chapter 8.md
         |-- _category_.json
     |-- MyLearnings
         |-- HardReset
@@ -260,7 +1161,6 @@
             |-- LifeFormula.md
         |-- _category_.json
     |-- Portfolio
-        |-- Certificates.md
         |-- img
             |-- aws_certificate1.jpg
             |-- aws_certificate2.jpg
@@ -362,55 +1262,77 @@
         |-- Resume.md
         |-- _category_.json
     |-- profilepic.png
+    |-- ToolsCollection
+        |-- AdblockingPrivacy.md
+        |-- AndroidIos.md
+        |-- ArtificialIntelligence.md
+        |-- BeginnersGuide.md
+        |-- DeveloperTools.md
+        |-- Downloading.md
+        |-- Educational.md
+        |-- FileTools.md
+        |-- Gaming.md
+        |-- GamingTools.md
+        |-- ImageTools.md
+        |-- InternetTools.md
+        |-- LinuxMacos.md
+        |-- Listening.md
+        |-- Miscellaneous.md
+        |-- NonEnglish.md
+        |-- Reading.md
+        |-- SocialMediaTools.md
+        |-- Streaming.md
+        |-- SystemTools.md
+        |-- TextTools.md
+        |-- Torrenting.md
+        |-- VideoTools.md
     |-- _category_.json
 |-- docusaurus.config.ts
 |-- LICENSE
-<<<<<<< HEAD
-=======
 |-- package-lock.json
->>>>>>> af53f70b4ac267b15b52934d55cef4392fcd3dd2
 |-- package.json
+|-- PROJECT_STATUS.md
 |-- README.md
+|-- remove-unused-lucide-icons.js
 |-- sidebars.ts
 |-- src
     |-- components
         |-- ArtGallery
-            |-- ArtGallery.module.css
-<<<<<<< HEAD
-            |-- index-glider.js
             |-- index.js
             |-- styles.module.css
-=======
+        |-- BookNavigation
             |-- index.js
->>>>>>> af53f70b4ac267b15b52934d55cef4392fcd3dd2
+            |-- styles.module.css
         |-- ContactForm
             |-- index.js
+            |-- styles.module.css
         |-- ContactPanel
             |-- index.js
             |-- styles.module.css
         |-- ContinueExploring
             |-- index.js
             |-- styles.module.css
-<<<<<<< HEAD
+        |-- CuriousVisitorDashboard
+            |-- index.js
+            |-- styles.module.css
         |-- DashboardLayout
             |-- index.js
             |-- styles.module.css
-=======
->>>>>>> af53f70b4ac267b15b52934d55cef4392fcd3dd2
         |-- ExperienceTimeline
             |-- index.js
             |-- styles.module.css
+        |-- GrowthPartnerDashboard
+            |-- index.js
+            |-- styles.module.css
         |-- HomepageFeatures
-<<<<<<< HEAD
-            |-- home.js
             |-- index.js
         |-- LatestArticles
             |-- index.js
             |-- styles.module.css
-=======
-            |-- index.js
->>>>>>> af53f70b4ac267b15b52934d55cef4392fcd3dd2
         |-- MainNavigation
+            |-- index.js
+            |-- styles.module.css
+        |-- ProductDesignerDashboard
             |-- index.js
             |-- styles.module.css
         |-- RecommendationsPanel
@@ -419,26 +1341,25 @@
         |-- ResumeCenter
             |-- index.js
             |-- styles.module.css
-<<<<<<< HEAD
         |-- SectionTemplate
             |-- index.js
             |-- styles.module.css
         |-- SkillsMatrix
             |-- index-tech.js
-=======
-        |-- SkillsMatrix
->>>>>>> af53f70b4ac267b15b52934d55cef4392fcd3dd2
             |-- index.js
             |-- styles.module.css
         |-- SpotifyPodcast
             |-- index.js
             |-- styles.module.css
-<<<<<<< HEAD
+        |-- TechEnthusiastDashboard
+            |-- index.js
+            |-- styles.module.css
         |-- Timeline
             |-- index.js
             |-- styles.module.css
-=======
->>>>>>> af53f70b4ac267b15b52934d55cef4392fcd3dd2
+        |-- ToolCollections
+            |-- index.js
+            |-- styles.module.css
     |-- css
         |-- custom.css
         |-- _aboutme.css
@@ -447,6 +1368,11 @@
         |-- _contact.css
         |-- _projects.css
         |-- _timeline.css
+    |-- data
+        |-- booksNavigation.js
+        |-- recruitment-specialist
+            |-- content.js
+            |-- projectsData.js
     |-- index.d.ts
     |-- pages
         |-- articles
@@ -469,7 +1395,6 @@
             |-- corporate-chanakya.js
             |-- crucial-conversations.js
             |-- dare-to-lead.js
-            |-- deep-work-rules-for-focused-success-in-a-distracted-world.js
             |-- deep-work.js
             |-- dopamine-detox.js
             |-- economics-101.js
@@ -550,33 +1475,18 @@
             |-- vaidik-dincharya-rituals.js
         |-- books.js
         |-- contact.js
-<<<<<<< HEAD
         |-- curious-visitor
-            |-- articles.js
-            |-- books.js
-            |-- contact.js
-            |-- experience.js
             |-- index.js
             |-- introduction.js
-            |-- portfolio.js
             |-- styles.module.css
-        |-- curious-visitor.js
-        |-- docusaurus.js
+            |-- travel.js
         |-- docusaurus.module.css
         |-- growth-partner
-            |-- art-gallery.js
-            |-- contact.js
             |-- index.js
             |-- introduction.js
-            |-- projects.js
             |-- styles.module.css
-        |-- growth-partner.js
-=======
-        |-- curious-visitor.js
-        |-- docusaurus.module.css
-        |-- growth-partner.js
+            |-- testimonials.js
         |-- home.js
->>>>>>> af53f70b4ac267b15b52934d55cef4392fcd3dd2
         |-- index.js
         |-- landing.js
         |-- landing.module.css
@@ -588,37 +1498,39 @@
             |-- Experience.js
             |-- Projects.js
             |-- styles.module.css
-<<<<<<< HEAD
+        |-- product-designer
+            |-- index.js
+            |-- introduction.js
+            |-- styles.module.css
         |-- recruitment-specialist
+            |-- components
+                |-- PersonalityChart.js
+                |-- PersonalityChart.module.css
+                |-- ProfessionalTimeline.js
+                |-- ProfessionalTimeline.module.css
             |-- contact.js
+            |-- continue-watching.js
             |-- experience.js
             |-- index.js
             |-- introduction.js
+            |-- personality.js
             |-- projects.js
             |-- recommendations.js
             |-- resume.js
             |-- skills.js
             |-- styles.module.css
         |-- role-pages.module.css
-        |-- talent-seeker.js
         |-- tech-enthusiast
-            |-- articles.js
-            |-- code-samples.js
             |-- index.js
             |-- introduction.js
-            |-- projects.js
-            |-- resources.js
             |-- styles.module.css
-        |-- tech-enthusiast.js
+            |-- tool-collection.js
     |-- store
         |-- roleStore.js
-=======
-        |-- role-pages.module.css
-        |-- talent-seeker.js
-        |-- tech-enthusiast.js
->>>>>>> af53f70b4ac267b15b52934d55cef4392fcd3dd2
 |-- static
     |-- .nojekyll
+    |-- documents
+        |-- summary_resume.pdf
     |-- img
         |-- books
             |-- accounting101.jpg
@@ -706,15 +1618,14 @@
             |-- the-personal-mba.jpg
             |-- usHistory101.jpg
             |-- vaidikDincharya.jpg
-        |-- certificates
         |-- docusaurus-social-card.jpg
         |-- docusaurus.png
         |-- favicon.ico
         |-- logo.png
         |-- profile.png
+        |-- profileintro.png
         |-- profilepic.png
         |-- profilesquare.png
-        |-- projects
         |-- undraw_docusaurus_mountain.svg
         |-- undraw_docusaurus_react.svg
         |-- undraw_docusaurus_tree.svg

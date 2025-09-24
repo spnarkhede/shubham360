@@ -25,22 +25,288 @@ The landing page system consists of the following components:
 ## File Structure
 
 ```
-src/
-├── pages/
-│   ├── landing.js                 # Welcome screen and role selection
-│   ├── landing.module.css         # Styles for landing page
-│   ├── talent-seeker.js           # Content for recruiters
-│   ├── tech-enthusiast.js         # Content for developers
-│   ├── curious-visitor.js         # Content for general visitors
-│   ├── growth-partner.js          # Content for collaborators
-│   ├── role-pages.module.css      # Shared styles for role pages
-│   ├── navigation-guide.js        # Guide to role-based navigation
-│   ├── navigation-guide.module.css # Styles for navigation guide
-│   └── docusaurus.js              # Redirect from homepage to landing
-├── components/
-│   ├── ArtGallery/
-│   │   ├── index.js               # Art gallery component
-│   │   └── ArtGallery.module.css  # Styles for art gallery
+|-- blog
+    |-- 2018
+        |-- 2018-01-05-futureofai.md
+        |-- 2018-01-12-readbodylanguagelikefbi.md
+        |-- 2018-02-15-my-journey-in-software-development.md
+        |-- images
+            |-- blog1_futureai.png
+    |-- 2019
+        |-- 2019-05-10-first-steps-at-amazon.md
+    |-- 2020
+        |-- 2020-10-15-transitioning-to-bosch-rexroth.md
+    |-- 2021
+        |-- 2021-03-08-leadershipmindset.md
+        |-- images
+            |-- leadership.png
+    |-- 2022
+        |-- 2022-08-20-devops-at-robert-bosch.md
+    |-- 2023
+        |-- 2023-03-15-five-years-in-tech.md
+    |-- 2024
+        |-- 2024-01-10-future-of-devops.md
+    |-- authors.yml
+    |-- tags.yml
+|-- clean-lucide-imports.js
+|-- compress-images.js
+|-- docs
+    |-- ComputerScience
+        |-- DevOpsTools
+            |-- Docker
+                |-- DockerBasicNotes.md
+                |-- DockerizeAngularSetup.md
+                |-- DockerOperations.md
+                |-- DockerTool&TermCheatsheet.md
+            |-- _category_.json
+        |-- index.md
+        |-- Programming
+            |-- Git
+                |-- figures
+                    |-- 6_free_software_licenses.png
+                    |-- gitcheatsheet.png
+                    |-- GitObjects.webp
+                    |-- GitPackfile.webp
+                |-- GitBasicNotes.md
+            |-- Nvm
+                |-- NvmUserGuide.md
+            |-- Vim
+                |-- VimBasicNotes.md
+                |-- VimCheatSheet.md
+            |-- _category_.json
+        |-- WebTechnologies
+            |-- Angular
+                |-- AngularBasicNotes.md
+            |-- CSS
+                |-- BootstrapBasicNotes.md
+                |-- CSSAdvancedNotes.md
+                |-- CSSAnimationNotes.md
+                |-- CSSBasicNotes.md
+            |-- HTML
+                |-- HTMLBasicNotes.md
+            |-- _category_.json
+        |-- _category_.json
+    |-- intro.md
+    |-- Languages
+        |-- German
+            |-- Intensive A1.1
+            |-- Intensive A1.2
+            |-- Intensive A2.1
+            |-- Intensive A2.2
+            |-- Intensive B1.1
+            |-- Intensive B1.2
+            |-- Intensive B2.1
+            |-- Intensive B2.2
+            |-- Intensive C1.1
+        |-- _category_.json
+    |-- MyLearnings
+        |-- HardReset
+            |-- 50PsychologySkills.md
+            |-- 90DaysHardReset.md
+            |-- LifeFormula.md
+        |-- _category_.json
+    |-- Portfolio
+        |-- img
+        |-- pdf
+        |-- Resume.md
+        |-- _category_.json
+    |-- profilepic.png
+    |-- ToolsCollection
+        |-- AdblockingPrivacy.md
+        |-- AndroidIos.md
+        |-- ArtificialIntelligence.md
+        |-- BeginnersGuide.md
+        |-- DeveloperTools.md
+        |-- Downloading.md
+        |-- Educational.md
+        |-- FileTools.md
+        |-- Gaming.md
+        |-- GamingTools.md
+        |-- ImageTools.md
+        |-- InternetTools.md
+        |-- LinuxMacos.md
+        |-- Listening.md
+        |-- Miscellaneous.md
+        |-- NonEnglish.md
+        |-- Reading.md
+        |-- SocialMediaTools.md
+        |-- Streaming.md
+        |-- SystemTools.md
+        |-- TextTools.md
+        |-- Torrenting.md
+        |-- VideoTools.md
+    |-- _category_.json
+|-- docusaurus.config.ts
+|-- LICENSE
+|-- package-lock.json
+|-- package.json
+|-- PROJECT_STATUS.md
+|-- README.md
+|-- remove-unused-lucide-icons.js
+|-- sidebars.ts
+|-- src
+    |-- components
+        |-- ArtGallery
+            |-- index.js
+            |-- styles.module.css
+        |-- BookNavigation
+            |-- index.js
+            |-- styles.module.css
+        |-- ContactForm
+            |-- index.js
+            |-- styles.module.css
+        |-- ContactPanel
+            |-- index.js
+            |-- styles.module.css
+        |-- ContinueExploring
+            |-- index.js
+            |-- styles.module.css
+        |-- CuriousVisitorDashboard
+            |-- index.js
+            |-- styles.module.css
+        |-- DashboardLayout
+            |-- index.js
+            |-- styles.module.css
+        |-- ExperienceTimeline
+            |-- index.js
+            |-- styles.module.css
+        |-- GrowthPartnerDashboard
+            |-- index.js
+            |-- styles.module.css
+        |-- HomepageFeatures
+            |-- index.js
+        |-- LatestArticles
+            |-- index.js
+            |-- styles.module.css
+        |-- MainNavigation
+            |-- index.js
+            |-- styles.module.css
+        |-- ProductDesignerDashboard
+            |-- index.js
+            |-- styles.module.css
+        |-- RecommendationsPanel
+            |-- index.js
+            |-- styles.module.css
+        |-- ResumeCenter
+            |-- index.js
+            |-- styles.module.css
+        |-- SectionTemplate
+            |-- index.js
+            |-- styles.module.css
+        |-- SkillsMatrix
+            |-- index-tech.js
+            |-- index.js
+            |-- styles.module.css
+        |-- SpotifyPodcast
+            |-- index.js
+            |-- styles.module.css
+        |-- TechEnthusiastDashboard
+            |-- index.js
+            |-- styles.module.css
+        |-- Timeline
+            |-- index.js
+            |-- styles.module.css
+        |-- ToolCollections
+            |-- index.js
+            |-- styles.module.css
+    |-- css
+        |-- custom.css
+        |-- _aboutme.css
+        |-- _books.css
+        |-- _certificates.css
+        |-- _contact.css
+        |-- _projects.css
+        |-- _timeline.css
+    |-- data
+        |-- booksNavigation.js
+        |-- recruitment-specialist
+            |-- content.js
+            |-- projectsData.js
+    |-- index.d.ts
+    |-- pages
+        |-- articles
+            |-- ai-revolution-2025.js
+            |-- future-of-jobs-report-2025.js
+            |-- generative-ai-enterprise.js
+            |-- index.js
+            |-- quantum-computing-business.js
+            |-- styles.module.css
+        |-- books
+        |-- books.js
+        |-- contact.js
+        |-- curious-visitor
+            |-- index.js
+            |-- introduction.js
+            |-- styles.module.css
+            |-- travel.js
+        |-- docusaurus.module.css
+        |-- growth-partner
+            |-- index.js
+            |-- introduction.js
+            |-- styles.module.css
+            |-- testimonials.js
+        |-- home.js
+        |-- index.js
+        |-- landing.js
+        |-- landing.module.css
+        |-- markdown-page.md
+        |-- navigation-guide.js
+        |-- navigation-guide.module.css
+        |-- Portfolio
+            |-- Certificates.js
+            |-- Experience.js
+            |-- Projects.js
+            |-- styles.module.css
+        |-- product-designer
+            |-- index.js
+            |-- introduction.js
+            |-- styles.module.css
+        |-- recruitment-specialist
+            |-- components
+                |-- PersonalityChart.js
+                |-- PersonalityChart.module.css
+                |-- ProfessionalTimeline.js
+                |-- ProfessionalTimeline.module.css
+            |-- contact.js
+            |-- continue-watching.js
+            |-- experience.js
+            |-- index.js
+            |-- introduction.js
+            |-- personality.js
+            |-- projects.js
+            |-- recommendations.js
+            |-- resume.js
+            |-- skills.js
+            |-- styles.module.css
+        |-- role-pages.module.css
+        |-- tech-enthusiast
+            |-- index.js
+            |-- introduction.js
+            |-- styles.module.css
+            |-- tool-collection.js
+    |-- store
+        |-- roleStore.js
+|-- static
+    |-- .nojekyll
+    |-- documents
+        |-- summary_resume.pdf
+    |-- img
+        |-- books
+        |-- docusaurus-social-card.jpg
+        |-- docusaurus.png
+        |-- favicon.ico
+        |-- logo.png
+        |-- profile.png
+        |-- profileintro.png
+        |-- profilepic.png
+        |-- profilesquare.png
+        |-- undraw_docusaurus_mountain.svg
+        |-- undraw_docusaurus_react.svg
+        |-- undraw_docusaurus_tree.svg
+|-- tailwind.config.js
+|-- tsconfig.json
+|-- updateMarkdown.js
+
 ```
 
 ## Implementation Steps

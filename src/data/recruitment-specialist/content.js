@@ -57,10 +57,10 @@ export const workEligibility = {
 export const contactInfo = {
   email: "shubhamnarkhede@gmail.com",
   phone: "+49 (0) 171-510-8059",
-  location: "Available for Remote/Hybrid work",
+  location: "Available for Onsite/Hybrid/Remote work",
   linkedin: "https://linkedin.com/in/spnarkhede",
   github: "https://github.com/spnarkhede",
-  timezone: "EST (Eastern Standard Time)"
+  timezone: "CET (Central European Time)"
 };
 
 export const documents = [

@@ -12,6 +12,75 @@ description: Explore the world of AI and machine learning.
 
 ***
 
+## AI Tools for Job
+
+* [Loop CV](https://www.loopcv.pro/) - Auto Apply for Jobs
+* [Huntr.Co](https://huntr.co/track/resume-builder/home/job-tailored) - Tailor the resume based on Position
+* [Randstad Risesmart](https://login.risesmart.com/) -  External Consultant company for job Search
+* [Awesome GitHub Profile README Template Collection](https://durgeshsamariya.github.io/awesome-github-profile-readme-templates/#/)
+* [Gemini Prompts](https://gemini-prompts.vercel.app/)
+* [Prompt Aura](https://prompt-aura.vercel.app/) 
+* [DEV Jobs.de](https://devjobs.de/)
+* [Docsbot.ai](https://docsbot.ai/)
+* [RESLINK.io](https://reslink.io/) - Reslink helps you stand out and land more interviews by creating personalized video resumes that build instant connections with recruiters
+* [Assista](https://app.assista.us/)
+* [Notion.so](https://www.notion.so/)
+* [Abfindungs-Rechner mit Fünftel-Regelung](https://www.online-tools.biz/abfindung/index/nklO1IOlYSjyHhKK)
+* [Hera](https://hera.video/) -  Your AI Motion Designer
+* [System Prompts and Models of AI tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools.git)
+* [Agent Opas](https://beta-agent.opus.pro/)
+* [Ollama LLM Library](https://ollama.com/library)
+* [Ideogram.ai](https://ideogram.ai/g/6MP5_EKDQAW2FyD4wfb-CA/0) - Create Best Icon with Text Grow within
+* [Bolt.New](https://bolt.new/) - AI application builder..
+* [Chef](https://chef.convex.dev/) - AI app builder that knows backend.
+* [Kyutai.org](https://kyutai.org/) - Text to Speech and Speech to Text
+* [Cursor](https://cursor.com/) - Built to make you extraordinarily productive, Cursor is the best way to code with AI.
+* [Nomic AI](https://www.nomic.ai/) - The domain-specific AI platform for architecture, engineering, and construction firms leading innovation.
+* [Nomic Altas](https://atlas.nomic.ai/) - Atlas is a production-ready data layer for your AI applications, data analytics and AI workflows.
+* [Stitch Google](https://stitch.withgoogle.com/) - Stitch generates UIs for mobile and web applications
+* [Hello CV](https://hello.cv/) -Create a profile and personal site in 30 secs. Generate resumes, cover letters, and find opportunities — all powered by AI.
+* [Prompt Cowboy](https://www.promptcowboy.ai/) - Turn your lazy prompts into great ones
+* [Seedream 4.0](https://seed.bytedance.com/en/seedream4_0) - A New generation Image Creation Model
+* [Google AI Studio](https://aistudio.google.com/prompts/new_chat) - generate image, Text, Code, Speech 
+* [Genspark Super Agent](https://www.genspark.ai/) -Genspark Super Agent. Created with Sketch.
+* [Google Flow](https://labs.google/fx/tools/flow) - Flow is an AI filmmaking tool build with an for creatives.
+* [Tavily Crawl](https://crawl-to-rag.tavily.com/) - Turn Any Website into a Searchable Knowledge Base
+* [Natively Dev](https://natively.dev/examples) - Describe your mobile app idea and watch it come to life
+* [Venngage | Professional Infographic Software](https://infograph.venngage.com/signin) - Create Infographics Smarter with AI.
+* [Gamma App](https://gamma.app/) - Create a Webpages within second UI/UX of your topic
+* [Infography ](https://www.infography.in/) -Turn your blogs into stunning, shareable infographics.
+* [Text2infographic](https://text2infographic.com/) - AI Infographic Generator, Text to Infographic in ~2 minutes.
+* [Play AI](https://play.ht/) - AI Infographic Generator. Text to Infographic in ~2 minutes. No design skills required.
+* [Prompt Genie](https://www.prompt-genie.com/login) - time to level up your AI conversations
+* [RecCloud AI](https://reccloud.com/) - AI-Powered Audio & Video Workshop for Everyone
+* [Teable AI](https://teable.ai/) - The Next Gen Airtable Alternative: Database, No-Code Postgres / [GitHub](https://github.com/teableio/teable)
+* [LOVO](https://lovo.ai/) - Hyper realistic AI voice generator that captivates your audience
+* [Solar](https://console.upstage.ai/playground/chat)
+* [StepFun](https://stepfun.ai/)
+* [Ernie](https://ernie.baidu.com/)
+* [Firebase Studio](https://firebase.studio/) - The full stack AI workspace. Build backends, front ends, and mobile apps, all in one place.
+* [MURF AI](https://murf.ai/) - AI Voice Generator with Ultra-Realistic AI Voices
+* [Midjourney](https://www.midjourney.com/) - Image to Video, Image to Video generator
+* [TRAE AI](https://www.trae.ai/) - The real AI Engineer for Collaborate with Intelligence
+* [Prompt Base](https://promptbase.com/) -AI Prompt Marketplace. Explore 210k expert-crafted prompt templates Midjourney, ChatGPT, Veo, Gemini & more
+* [NotebookLM Google](https://notebooklm.google.com/) - Talk with Books, PPT, pdf, websites, and notes.
+* [Director AI](https://www.director.ai/) - Build simple web automations by prompting. No coding needed.
+* [MANUS AI](https://manus.im/) - The Action Engine that delivers result for you.
+* [Z AI](https://chat.z.ai/) -The best choice for AI-powered coding.
+* [Rapid API](https://rapidapi.com/) - Your dream API is on the market
+* [V0 App](https://v0.app/chat) - Start building with a single prompt. No coding needed.
+* [LMAreana AI](https://lmarena.ai/) -All AI at one place, Compare answers across top AI models.
+* [AI Trendz ](https://aitrendz.xyz/) - Find The Best AI Tools On The Internet
+* [NEWS OID](https://www.newsoid.io/) - Advanced News Search for researchers tired of noisy data / [GitHub](https://github.com/Newsoid/news-ai)
+* [Skywork.ai](https://skywork.ai/) - Skywork turns simple input into multimodal content - docs, slides, sheets with deep research, podcasts & webpages.
+* [Builder.io](https://www.builder.io/) - Turn Any Site Into a Custom GPT With Just a URL
+* [Flowise](https://flowiseai.com/) - Open source agentic systems development platform
+* [POE](https://poe.com/) - All AI LLM Models at one place
+* [Reve](https://app.reve.com/) -  Create AI Images with just Text
+* [Gemini Chat](https://gemini.google.com/)
+* [GROK](https://grok.com/)
+* [DeepSeek AI](https://chat.deepseek.com/)
+
 ##  Official Model Sites
 
 * ⭐ **[AI Studio](https://aistudio.google.com/app/prompts/new_chat)** or 

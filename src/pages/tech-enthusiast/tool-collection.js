@@ -289,6 +289,17 @@ const toolsData = [
     usedInProjects: true
   },
   {
+    id: 'tiny-tools-directory',
+    title: 'Tiny Tools Directory',
+    description: 'A curated collection of small, experimental, and artful tools for creative projects and game development.',
+    icon: <Wrench size={32} />,
+    category: 'Development',
+    tags: ['Creative Tools', 'Game Development', 'Experimental', 'Small Tools', 'Art Tools'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'torrenting',
     title: 'Torrenting',
     description: 'Download your favourite media using the BitTorrent protocol.',

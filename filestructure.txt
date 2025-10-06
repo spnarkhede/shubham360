@@ -1539,6 +1539,7 @@
         |-- summary_resume.pdf
     |-- img
         |-- badges
+            |-- data-science-foundations-level-1.png
             |-- generative-ai-overview-for-project-managers.png
             |-- python-for-data-science.png
         |-- books

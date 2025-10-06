@@ -17,13 +17,13 @@ export default function RecruitmentSpecialistCertifications() {
       verificationUrl: "https://www.ibm.com/badges/verify"
     },
     {
-      name: "Microsoft Certified: Azure DevOps Engineer Expert",
-      issuer: "Microsoft",
-      platform: "Microsoft",
-      date: "2023",
-      description: "Validates expertise in designing and implementing DevOps practices for building, testing, and maintaining applications on Microsoft Azure.",
-      skills: ["Azure", "DevOps", "CI/CD", "Infrastructure as Code", "Monitoring"],
-      verificationUrl: "https://learn.microsoft.com/en-us/certifications/azure-devops"
+      name: "Easing the Transition to GIMP for Photoshop Users",
+      issuer: "Deprecated Guided Projects",
+      platform: "Coursera",
+      date: "2020-10-01",
+      description: "Completed a guided project to help Photoshop users transition to GIMP, covering essential tools and techniques.",
+      skills: ["Image Quality", "Photo Editing", "Graphic and Visual Design", "Adobe Photoshop", "Graphic Design", "Graphic and Visual Design Software"],
+      verificationUrl: "https://www.coursera.org/account/accomplishments/verify/E3NY99KLEAX3"
     },
     {
       name: "AWS Certified DevOps Engineer - Professional",
@@ -58,7 +58,7 @@ export default function RecruitmentSpecialistCertifications() {
     {
       name: "Generative AI Overview for Project Managers",
       issuer: "Project Management Institute",
-      platform: "Project Management Institute",
+      platform: "LinkedIn Learning",
       date: "Apr 2025",
       description: "Demonstrated understanding of generative AI concepts and applications for project management",
       imageUrl: "/img/badges/generative-ai-overview-for-project-managers.png",
@@ -67,11 +67,20 @@ export default function RecruitmentSpecialistCertifications() {
     {
       name: "Python for Data Science",
       issuer: "IBM",
-      platform: "IBM",
-      date: "2024",
+      platform: "Cognitive Class",
+      date: "Jan 02, 2021",
       description: "The badge earner is able to write their own Python scripts and perform basic hands-on data analysis using IBM's Jupyter-based lab environment.",
       imageUrl: "/img/badges/python-for-data-science.png",
-      verificationUrl: "https://www.ibm.com/badges/verify"
+      verificationUrl: "https://www.credly.com/badges/47a39917-a8c1-41f7-b745-73b2fe8dcba9/public_url"
+    },
+    {
+      name: "Data Science Foundations - Level 1",
+      issuer: "IBM",
+      platform: "Cognitive Class",
+      date: "Jan 02, 2021",
+      description: "This badge earner has an understanding of the possibilities and opportunities that data science, analytics and big data bring to new applications in any industry.",
+      imageUrl: "/img/badges/data-science-foundations-level-1.png",
+      verificationUrl: "https://www.credly.com/badges/e97fb38c-4adf-4e65-b992-ceea41718418/public_url"
     }
   ];
 

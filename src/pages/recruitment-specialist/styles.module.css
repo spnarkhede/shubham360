@@ -2487,3 +2487,38 @@ html[data-theme='dark'] .badgeImage {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Platform Section Styles */
+.platformSection {
+  margin-bottom: 3rem;
+}
+
+.platformSection:last-child {
+  margin-bottom: 0;
+}
+
+.platformTitle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.platformTitle:first-child {
+  margin-top: 0;
+}
+
+/* Responsive adjustments for platform sections */
+@media (max-width: 768px) {
+  .platformTitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* Dark mode adjustments for platform sections */
+html[data-theme='dark'] .platformTitle {
+  border-bottom-color: var(--ifm-color-primary-light);
+}

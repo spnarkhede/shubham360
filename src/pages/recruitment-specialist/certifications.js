@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
 import { Award, CheckCircle, Calendar, Link } from 'lucide-react';
 
 export default function RecruitmentSpecialistCertifications() {
+  const [selectedPlatform, setSelectedPlatform] = useState('All');
+  const [activeContent, setActiveContent] = useState('certifications'); // 'certifications' or 'badges'
+
   // All certifications with platform information
   const certifications = [
     {
@@ -505,178 +508,178 @@ export default function RecruitmentSpecialistCertifications() {
       skills: ["Angular", "Routing", "SPA", "Navigation"],
       verificationUrl: ""
     },
-  {
-    name: "Building Applications with React 16 and Flux 3",
-    issuer: "Cory House",
-    platform: "Pluralsight",
-    date: "Feb 10, 2021",
-    description: "Learn to build scalable React 16 apps using the Flux architecture.",
-    skills: ["React 16", "Flux", "State Management", "Component Design"],
-    verificationUrl: ""
-  },
-  {
-    name: "TypeScript 4: Getting Started",
-    issuer: "Brice Wilson",
-    platform: "Pluralsight",
-    date: "Feb 10, 2021",
-    description: "Introduction to TypeScript 4 for building type-safe JavaScript applications.",
-    skills: ["TypeScript 4", "JavaScript", "Type Safety", "Object-Oriented Programming"],
-    verificationUrl: ""
-  },
-  {
-    name: "Spring: The Big Picture",
-    issuer: "Dustin Schultz",
-    platform: "Pluralsight",
-    date: "Feb 10, 2021",
-    description: "Understand the Spring Framework and its role in modern Java development.",
-    skills: ["Spring Framework", "Java", "Dependency Injection", "Web Development"],
-    verificationUrl: ""
-  },
-  {
-    name: "Spring Framework: Spring MVC 5 Fundamentals",
-    issuer: "Bryan Hansen",
-    platform: "Pluralsight",
-    date: "Feb 10, 2021",
-    description: "Learn the fundamentals of building web applications using Spring MVC 5.",
-    skills: ["Spring MVC 5", "Java", "Web Development", "MVC Pattern"],
-    verificationUrl: ""
-  },
-  {
-    name: "Introduction to TensorFlow",
-    issuer: "Google Cloud",
-    platform: "Pluralsight",
-    date: "Feb 10, 2021",
-    description: "Get started with TensorFlow to create and train machine learning models.",
-    skills: ["TensorFlow", "Machine Learning", "Python", "Neural Networks"],
-    verificationUrl: ""
-  },
-  {
-    name: "One Codebase, Many Screens - Flutter in a Nutshell: CodeMash",
-    issuer: "CodeMash",
-    platform: "Pluralsight",
-    date: "Feb 10, 2021",
-    description: "Learn how Flutter enables a single codebase to target multiple devices seamlessly.",
-    skills: ["Flutter", "Cross-Platform Development", "Dart", "UI Design"],
-    verificationUrl: ""
-  },
-  {
-    name: "Getting Started with Your First SQL Server Instance",
-    issuer: "Kevin Hill",
-    platform: "Pluralsight",
-    date: "Feb 9, 2021",
-    description: "Learn to set up and configure your first SQL Server instance efficiently.",
-    skills: ["SQL Server", "Database Administration", "SQL", "Configuration"],
-    verificationUrl: ""
-  },
-  {
-    name: "Python: The Big Picture",
-    issuer: "Jason Olson",
-    platform: "Pluralsight",
-    date: "Feb 9, 2021",
-    description: "Get an overview of Python’s capabilities for software development and data tasks.",
-    skills: ["Python", "Programming", "Scripting", "Software Development"],
-    verificationUrl: ""
-  },
-  {
-    name: "Google Cloud Platform Big Data and Machine Learning Fundamentals",
-    issuer: "Google Cloud",
-    platform: "Pluralsight",
-    date: "Feb 9, 2021",
-    description: "Explore Google Cloud tools for big data processing and machine learning applications.",
-    skills: ["Google Cloud", "Big Data", "Machine Learning", "Cloud Computing"],
-    verificationUrl: ""
-  },
-  {
-    name: "Ethical Hacking: Social Engineering",
-    issuer: "Troy Hunt",
-    platform: "Pluralsight",
-    date: "Feb 9, 2021",
-    description: "Understand social engineering tactics and strategies to improve security awareness.",
-    skills: ["Ethical Hacking", "Social Engineering", "Cybersecurity", "Risk Assessment"],
-    verificationUrl: ""
-  },
-  {
-    name: "MySQL Fundamentals",
-    issuer: "Pinal Dave",
-    platform: "Pluralsight",
-    date: "Feb 9, 2021",
-    description: "Learn core concepts and techniques for managing MySQL databases effectively.",
-    skills: ["MySQL", "Database Fundamentals", "SQL", "Data Management"],
-    verificationUrl: ""
-  },
-  {
-    name: "PHP Fundamentals",
-    issuer: "Jill Gundersen",
-    platform: "Pluralsight",
-    date: "Feb 8, 2021",
-    description: "Learn the essentials of PHP for building dynamic web applications.",
-    skills: ["PHP", "Web Development", "Scripting", "Server-Side Programming"],
-    verificationUrl: ""
-  },
-  {
-    name: "Angular NgRx: Getting Started",
-    issuer: "Deborah Kurata and Duncan Hunter",
-    platform: "Pluralsight",
-    date: "Feb 8, 2021",
-    description: "Learn how to manage Angular app state using the NgRx framework.",
-    skills: ["Angular", "NgRx", "State Management", "Reactive Programming"],
-    verificationUrl: ""
-  },
-  {
-    name: "Angular Reactive Forms",
-    issuer: "Deborah Kurata",
-    platform: "Pluralsight",
-    date: "Feb 8, 2021",
-    description: "Build powerful and flexible forms in Angular using reactive patterns.",
-    skills: ["Angular", "Reactive Forms", "Form Validation", "TypeScript"],
-    verificationUrl: ""
-  },
-  {
-    name: "Angular Architecture and Best Practices",
-    issuer: "Dan Wahlin",
-    platform: "Pluralsight",
-    date: "Feb 8, 2021",
-    description: "Learn best practices and architectural strategies for building Angular apps.",
-    skills: ["Angular", "Architecture", "Best Practices", "TypeScript"],
-    verificationUrl: ""
-  },
-  {
-    name: "Styling Applications with Angular Material",
-    issuer: "Ajden Towfeek",
-    platform: "Pluralsight",
-    date: "Feb 8, 2021",
-    description: "Learn to create visually appealing Angular apps using Angular Material.",
-    skills: ["Angular", "Angular Material", "UI Design", "Component Styling"],
-    verificationUrl: ""
-  },
-  {
-    name: "Angular 12 Services",
-    issuer: "Brice Wilson",
-    platform: "Pluralsight",
-    date: "Feb 7, 2021",
-    description: "Understand Angular 12 services to share data and logic across components.",
-    skills: ["Angular 12", "Services", "Dependency Injection", "TypeScript"],
-    verificationUrl: ""
-  },
-  {
-    name: "Angular CLI",
-    issuer: "John Papa",
-    platform: "Pluralsight",
-    date: "Feb 7, 2021",
-    description: "Learn Angular CLI commands and workflow to streamline development.",
-    skills: ["Angular", "CLI", "Project Setup", "Development Workflow"],
-    verificationUrl: ""
-  },
-  {
-    name: "Securing Angular Apps with OpenID Connect and OAuth 2",
-    issuer: "Brian Noyes",
-    platform: "Pluralsight",
-    date: "Feb 7, 2021",
-    description: "Implement authentication and authorization in Angular using OAuth 2 and OpenID.",
-    skills: ["Angular", "Security", "OAuth 2", "OpenID Connect"],
-    verificationUrl: ""
-  },
-  {
+    {
+      name: "Building Applications with React 16 and Flux 3",
+      issuer: "Cory House",
+      platform: "Pluralsight",
+      date: "Feb 10, 2021",
+      description: "Learn to build scalable React 16 apps using the Flux architecture.",
+      skills: ["React 16", "Flux", "State Management", "Component Design"],
+      verificationUrl: ""
+    },
+    {
+      name: "TypeScript 4: Getting Started",
+      issuer: "Brice Wilson",
+      platform: "Pluralsight",
+      date: "Feb 10, 2021",
+      description: "Introduction to TypeScript 4 for building type-safe JavaScript applications.",
+      skills: ["TypeScript 4", "JavaScript", "Type Safety", "Object-Oriented Programming"],
+      verificationUrl: ""
+    },
+    {
+      name: "Spring: The Big Picture",
+      issuer: "Dustin Schultz",
+      platform: "Pluralsight",
+      date: "Feb 10, 2021",
+      description: "Understand the Spring Framework and its role in modern Java development.",
+      skills: ["Spring Framework", "Java", "Dependency Injection", "Web Development"],
+      verificationUrl: ""
+    },
+    {
+      name: "Spring Framework: Spring MVC 5 Fundamentals",
+      issuer: "Bryan Hansen",
+      platform: "Pluralsight",
+      date: "Feb 10, 2021",
+      description: "Learn the fundamentals of building web applications using Spring MVC 5.",
+      skills: ["Spring MVC 5", "Java", "Web Development", "MVC Pattern"],
+      verificationUrl: ""
+    },
+    {
+      name: "Introduction to TensorFlow",
+      issuer: "Google Cloud",
+      platform: "Pluralsight",
+      date: "Feb 10, 2021",
+      description: "Get started with TensorFlow to create and train machine learning models.",
+      skills: ["TensorFlow", "Machine Learning", "Python", "Neural Networks"],
+      verificationUrl: ""
+    },
+    {
+      name: "One Codebase, Many Screens - Flutter in a Nutshell: CodeMash",
+      issuer: "CodeMash",
+      platform: "Pluralsight",
+      date: "Feb 10, 2021",
+      description: "Learn how Flutter enables a single codebase to target multiple devices seamlessly.",
+      skills: ["Flutter", "Cross-Platform Development", "Dart", "UI Design"],
+      verificationUrl: ""
+    },
+    {
+      name: "Getting Started with Your First SQL Server Instance",
+      issuer: "Kevin Hill",
+      platform: "Pluralsight",
+      date: "Feb 9, 2021",
+      description: "Learn to set up and configure your first SQL Server instance efficiently.",
+      skills: ["SQL Server", "Database Administration", "SQL", "Configuration"],
+      verificationUrl: ""
+    },
+    {
+      name: "Python: The Big Picture",
+      issuer: "Jason Olson",
+      platform: "Pluralsight",
+      date: "Feb 9, 2021",
+      description: "Get an overview of Python’s capabilities for software development and data tasks.",
+      skills: ["Python", "Programming", "Scripting", "Software Development"],
+      verificationUrl: ""
+    },
+    {
+      name: "Google Cloud Platform Big Data and Machine Learning Fundamentals",
+      issuer: "Google Cloud",
+      platform: "Pluralsight",
+      date: "Feb 9, 2021",
+      description: "Explore Google Cloud tools for big data processing and machine learning applications.",
+      skills: ["Google Cloud", "Big Data", "Machine Learning", "Cloud Computing"],
+      verificationUrl: ""
+    },
+    {
+      name: "Ethical Hacking: Social Engineering",
+      issuer: "Troy Hunt",
+      platform: "Pluralsight",
+      date: "Feb 9, 2021",
+      description: "Understand social engineering tactics and strategies to improve security awareness.",
+      skills: ["Ethical Hacking", "Social Engineering", "Cybersecurity", "Risk Assessment"],
+      verificationUrl: ""
+    },
+    {
+      name: "MySQL Fundamentals",
+      issuer: "Pinal Dave",
+      platform: "Pluralsight",
+      date: "Feb 9, 2021",
+      description: "Learn core concepts and techniques for managing MySQL databases effectively.",
+      skills: ["MySQL", "Database Fundamentals", "SQL", "Data Management"],
+      verificationUrl: ""
+    },
+    {
+      name: "PHP Fundamentals",
+      issuer: "Jill Gundersen",
+      platform: "Pluralsight",
+      date: "Feb 8, 2021",
+      description: "Learn the essentials of PHP for building dynamic web applications.",
+      skills: ["PHP", "Web Development", "Scripting", "Server-Side Programming"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular NgRx: Getting Started",
+      issuer: "Deborah Kurata and Duncan Hunter",
+      platform: "Pluralsight",
+      date: "Feb 8, 2021",
+      description: "Learn how to manage Angular app state using the NgRx framework.",
+      skills: ["Angular", "NgRx", "State Management", "Reactive Programming"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular Reactive Forms",
+      issuer: "Deborah Kurata",
+      platform: "Pluralsight",
+      date: "Feb 8, 2021",
+      description: "Build powerful and flexible forms in Angular using reactive patterns.",
+      skills: ["Angular", "Reactive Forms", "Form Validation", "TypeScript"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular Architecture and Best Practices",
+      issuer: "Dan Wahlin",
+      platform: "Pluralsight",
+      date: "Feb 8, 2021",
+      description: "Learn best practices and architectural strategies for building Angular apps.",
+      skills: ["Angular", "Architecture", "Best Practices", "TypeScript"],
+      verificationUrl: ""
+    },
+    {
+      name: "Styling Applications with Angular Material",
+      issuer: "Ajden Towfeek",
+      platform: "Pluralsight",
+      date: "Feb 8, 2021",
+      description: "Learn to create visually appealing Angular apps using Angular Material.",
+      skills: ["Angular", "Angular Material", "UI Design", "Component Styling"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular 12 Services",
+      issuer: "Brice Wilson",
+      platform: "Pluralsight",
+      date: "Feb 7, 2021",
+      description: "Understand Angular 12 services to share data and logic across components.",
+      skills: ["Angular 12", "Services", "Dependency Injection", "TypeScript"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular CLI",
+      issuer: "John Papa",
+      platform: "Pluralsight",
+      date: "Feb 7, 2021",
+      description: "Learn Angular CLI commands and workflow to streamline development.",
+      skills: ["Angular", "CLI", "Project Setup", "Development Workflow"],
+      verificationUrl: ""
+    },
+    {
+      name: "Securing Angular Apps with OpenID Connect and OAuth 2",
+      issuer: "Brian Noyes",
+      platform: "Pluralsight",
+      date: "Feb 7, 2021",
+      description: "Implement authentication and authorization in Angular using OAuth 2 and OpenID.",
+      skills: ["Angular", "Security", "OAuth 2", "OpenID Connect"],
+      verificationUrl: ""
+    },
+    {
       name: "Angular 13 Best Practices",
       issuer: "Jim Cooper",
       platform: "Pluralsight",
@@ -777,6 +780,31 @@ export default function RecruitmentSpecialistCertifications() {
     }
   ];
 
+    // Get unique platforms and their counts
+  const platformCounts = useMemo(() => {
+    const counts = { 'All': certifications.length };
+    certifications.forEach(cert => {
+      counts[cert.platform] = (counts[cert.platform] || 0) + 1;
+    });
+    return counts;
+  }, [certifications]);
+
+  // Get sorted unique platforms
+  const sortedPlatforms = useMemo(() => {
+    return Object.keys(platformCounts)
+      .filter(platform => platform !== 'All')
+      .sort((a, b) => platformCounts[b] - platformCounts[a]);
+  }, [platformCounts]);
+
+  // Get filtered certifications based on selected platform
+  const filteredCertifications = useMemo(() => {
+    if (selectedPlatform === 'All') {
+      return certifications;
+    }
+    return certifications.filter(cert => cert.platform === selectedPlatform);
+  }, [certifications, selectedPlatform]);
+
+  // Badges data
   const badges = [
     {
       name: "Generative AI Overview for Project Managers",
@@ -807,10 +835,54 @@ export default function RecruitmentSpecialistCertifications() {
     }
   ];
 
+  // Function to render content toggle
+  const renderContentToggle = () => (
+    <div className={styles.contentToggleContainer}>
+      <div className={styles.contentToggleButtons}>
+        <button
+          className={`${styles.contentToggleButton} ${activeContent === 'certifications' ? styles.active : ''}`}
+          onClick={() => setActiveContent('certifications')}
+        >
+          Certifications <span className={styles.contentCount}>{certifications.length}</span>
+        </button>
+        <button
+          className={`${styles.contentToggleButton} ${activeContent === 'badges' ? styles.active : ''}`}
+          onClick={() => setActiveContent('badges')}
+        >
+          Badges <span className={styles.contentCount}>{badges.length}</span>
+        </button>
+      </div>
+    </div>
+  );
+
+  // Function to render platform filter
+  const renderPlatformFilter = () => (
+    <div className={styles.platformFilterContainer}>
+      <h3 className={styles.platformFilterTitle}>Filter by Platform</h3>
+      <div className={styles.platformFilterButtons}>
+        <button
+          className={`${styles.platformFilterButton} ${styles.all} ${selectedPlatform === 'All' ? styles.active : ''}`}
+          onClick={() => setSelectedPlatform('All')}
+        >
+          All <span className={styles.platformCount}>{platformCounts['All']}</span>
+        </button>
+        {sortedPlatforms.map(platform => (
+          <button
+            key={platform}
+            className={`${styles.platformFilterButton} ${selectedPlatform === platform ? styles.active : ''}`}
+            onClick={() => setSelectedPlatform(platform)}
+          >
+            {platform} <span className={styles.platformCount}>{platformCounts[platform]}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+
   // Function to render certification cards
   const renderCertificationCards = () => (
     <div className={styles.certificatesGrid}>
-      {certifications.map((cert, index) => (
+      {filteredCertifications.map((cert, index) => (
         <div key={index} className={styles.certificateCard}>
           <div className={styles.certificateHeader}>
             <div className={styles.certificateLogo}>
@@ -901,21 +973,28 @@ export default function RecruitmentSpecialistCertifications() {
       title="Recruitment Specialist | Certifications & Badges"
       description="Shubham Narkhede's professional certifications and industry badges"
     >
-      <SectionTemplate
-        title="Professional Certifications"
-        subtitle="Industry-recognized certifications and credentials"
-        className={styles.certificationsSection}
-      >
-        {renderCertificationCards()}
-      </SectionTemplate>
+      {renderContentToggle()}
+      
+      {activeContent === 'certifications' && (
+        <SectionTemplate
+          title="Professional Certifications & Badges"
+          subtitle="Industry-recognized certifications and credentials"
+          className={styles.certificationsSection}
+        >
+          {renderPlatformFilter()}
+          {renderCertificationCards()}
+        </SectionTemplate>
+      )}
 
-      <SectionTemplate
-        title="Professional Badges"
-        subtitle="Industry recognition and achievement badges"
-        className={styles.badgesSection}
-      >
-        {renderBadgeCards()}
-      </SectionTemplate>
+      {activeContent === 'badges' && (
+        <SectionTemplate
+          title="Professional Badges"
+          subtitle="Industry recognition and achievement badges"
+          className={styles.badgesSection}
+        >
+          {renderBadgeCards()}
+        </SectionTemplate>
+      )}
     </DashboardLayout>
   );
 }

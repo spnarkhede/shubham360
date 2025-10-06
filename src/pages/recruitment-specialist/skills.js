@@ -3,39 +3,80 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import { SkillsMatrix } from '../../components/SkillsMatrix';
 import styles from './styles.module.css';
-import { Award, CheckCircle, Globe } from 'lucide-react';
+import { Globe } from 'lucide-react';
 
 export default function RecruitmentSpecialistSkills() {
   const skills = {
-    "Technical Skills": [
-      { name: "React", level: 5 },
-      { name: "Node.js", level: 4 },
-      { name: "JavaScript/TypeScript", level: 5 },
+    "Frontend": [
+      { name: "JavaScript", level: 5 },
+      { name: "TypeScript", level: 5 },
+      { name: "Angular", level: 4 },
+      { name: "React.js", level: 5 },
+      { name: "Vue.js", level: 4 },
+      { name: "Next.js", level: 4 },
+      { name: "Dart", level: 3 },
+      { name: "Flutter", level: 3 },
+      { name: "HTML5", level: 5 },
+      { name: "CSS3", level: 5 },
+      { name: "Material UI", level: 4 }
+    ],
+    "Backend": [
+      { name: "Node.js", level: 5 },
+      { name: "Express.js", level: 5 },
+      { name: "Spring Boot", level: 4 },
+      { name: "Java", level: 4 },
+      { name: "Kotlin", level: 3 },
+      { name: "PHP", level: 3 },
+      { name: "Python", level: 4 },
+      { name: ".NET", level: 3 },
+      { name: "C++", level: 3 },
+      { name: "C", level: 3 },
+      { name: "MySQL", level: 4 },
+      { name: "MongoDB", level: 4 },
+      { name: "SQL", level: 5 }
+    ],
+    "Designer": [
+      { name: "Miro", level: 4 },
+      { name: "Notion", level: 5 },
+      { name: "Figma", level: 4 },
+      { name: "Sketch", level: 3 },
+      { name: "Adobe XD", level: 3 },
+      { name: "Balsamiq", level: 4 },
+      { name: "Canva", level: 4 },
+      { name: "Wireframing", level: 4 },
+      { name: "Prototyping", level: 4 }
+    ],
+    "Testing": [
+      { name: "Playwright", level: 4 },
+      { name: "Cypress", level: 4 },
+      { name: "Jest", level: 5 },
+      { name: "Postman", level: 5 },
+      { name: "Swagger/Open API", level: 4 },
       { name: "AWS", level: 4 },
-      { name: "Docker", level: 4 },
-      { name: "Kubernetes", level: 3 },
-      { name: "CI/CD", level: 4 }
-    ],
-    "DevOps & Infrastructure": [
-      { name: "Infrastructure as Code", level: 4 },
-      { name: "Monitoring & Logging", level: 4 },
-      { name: "Cloud Architecture", level: 4 },
-      { name: "Security Best Practices", level: 3 },
-      { name: "Performance Optimization", level: 4 }
-    ],
-    "Backend Development": [
-      { name: "RESTful APIs", level: 5 },
       { name: "GraphQL", level: 4 },
-      { name: "Database Design", level: 4 },
-      { name: "Microservices", level: 4 },
-      { name: "Authentication/Authorization", level: 4 }
+      { name: "SoapUI", level: 3 },
+      { name: "Manual Testing", level: 5 }
     ],
-    "Soft Skills": [
-      { name: "Team Leadership", level: 4 },
-      { name: "Communication", level: 5 },
-      { name: "Problem Solving", level: 5 },
-      { name: "Project Management", level: 4 },
-      { name: "Mentoring", level: 4 }
+    "DevOps": [
+      { name: "GitHub", level: 5 },
+      { name: "Docker", level: 5 },
+      { name: "Jenkins", level: 4 },
+      { name: "Azure DevOps", level: 4 },
+      { name: "CI/CD Pipeline", level: 5 },
+      { name: "Maven", level: 4 },
+      { name: "Grafana", level: 4 },
+      { name: "Nginx", level: 4 },
+      { name: "IAM (SSO, OpenID/SKID)", level: 4 }
+    ],
+    "Documentation": [
+      { name: "JIRA", level: 5 },
+      { name: "arc 42", level: 4 },
+      { name: "Kanban", level: 4 },
+      { name: "Confluence", level: 5 },
+      { name: "Docupedia", level: 3 },
+      { name: "Docusaurus", level: 4 },
+      { name: "InnerScource", level: 4 },
+      { name: "VitePress", level: 3 }
     ]
   };
 
@@ -130,49 +171,6 @@ export default function RecruitmentSpecialistSkills() {
     }
   ];
 
-  const certifications = [
-    {
-      name: "AWS Certified DevOps Engineer - Professional",
-      issuer: "Amazon Web Services",
-      date: "2024",
-      validUntil: "2027",
-      credentialId: "AWS-DEP-12345",
-      description: "Validates technical expertise in designing, implementing, and managing continuous delivery systems and methodologies on the AWS platform.",
-      skills: ["AWS", "CI/CD", "Infrastructure as Code", "Monitoring", "Security"],
-      verificationUrl: "https://aws.amazon.com/verification"
-    },
-    {
-      name: "Certified Kubernetes Administrator (CKA)",
-      issuer: "Cloud Native Computing Foundation",
-      date: "2023",
-      validUntil: "2026",
-      credentialId: "CKA-1234-5678-9012",
-      description: "Demonstrates proficiency in Kubernetes installation, configuration, and management in production environments.",
-      skills: ["Kubernetes", "Container Orchestration", "Cloud Native", "Microservices"],
-      verificationUrl: "https://www.cncf.io/certification/verify"
-    },
-    {
-      name: "Microsoft Certified: Azure DevOps Engineer Expert",
-      issuer: "Microsoft",
-      date: "2023",
-      validUntil: "2025",
-      credentialId: "MS-ADOE-987654",
-      description: "Validates expertise in designing and implementing DevOps practices for building, testing, and maintaining applications on Microsoft Azure.",
-      skills: ["Azure", "DevOps", "CI/CD", "Infrastructure as Code", "Monitoring"],
-      verificationUrl: "https://learn.microsoft.com/en-us/certifications/azure-devops"
-    },
-    {
-      name: "Professional Scrum Master I (PSM I)",
-      issuer: "Scrum.org",
-      date: "2022",
-      validUntil: "No Expiration",
-      credentialId: "PSM-I-123456",
-      description: "Demonstrates understanding of Scrum framework and ability to apply Scrum in team environments.",
-      skills: ["Agile", "Scrum", "Project Management", "Team Leadership"],
-      verificationUrl: "https://www.scrum.org/certificates/verify"
-    }
-  ];
-
   return (
     <DashboardLayout
       role="recruitment-specialist"
@@ -222,66 +220,7 @@ export default function RecruitmentSpecialistSkills() {
         </div>
       </SectionTemplate>
 
-      <SectionTemplate
-          title="Professional Certifications"
-          subtitle="Industry-recognized certifications and credentials"
-          className={styles.certificationsSection}
-        >
-          <div className={styles.certificatesGrid}>
-            {certifications.map((cert, index) => (
-              <div key={index} className={styles.certificateCard}>
-                <div className={styles.certificateHeader}>
-                  <div className={styles.certificateLogo}>
-                    <Award size={32} />
-                  </div>
-                  <div className={styles.certificateHeaderContent}>
-                    <h3 className={styles.certificateTitle}>{cert.name}</h3>
-                    <p className={styles.certificateIssuer}>{cert.issuer}</p>
-                    <div className={styles.certificateMetadata}>
-                      <div className={styles.certificateDate}>
-                        <span>📅 Issued:</span>
-                        <span>{cert.date}</span>
-                      </div>
-                      <div className={styles.certificateValidity}>
-                        <span>⏳ Valid Until:</span>
-                        <span>{cert.validUntil}</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={styles.certificateBody}>
-                  <p className={styles.certificateDescription}>{cert.description}</p>
-
-                  <div className={styles.certificateCredential}>
-                    <strong>Credential ID:</strong> {cert.credentialId}
-                  </div>
-
-                  <div className={styles.certificateSkills}>
-                    {cert.skills.map((skill, skillIndex) => (
-                      <span key={skillIndex} className={styles.certificateSkill}>
-                        <CheckCircle size={14} /> {skill}
-                      </span>
-                    ))}
-                  </div>
-
-                  <a
-                    href={cert.verificationUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.certificateVerifyLink}
-                  >
-                    🔗 Verify Credential
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </SectionTemplate>
-
-
-
-      <SectionTemplate
+      {/* <SectionTemplate
         title="Continuous Learning"
         subtitle="My approach to skill development and ongoing education"
         withBackground={true}
@@ -326,7 +265,7 @@ export default function RecruitmentSpecialistSkills() {
             </div>
           </div>
         </div>
-      </SectionTemplate>
+      </SectionTemplate> */}
     </DashboardLayout>
   );
 }

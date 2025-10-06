@@ -101,28 +101,28 @@ export default function RecruitmentSpecialistIntroduction() {
           <div className={styles.statusCard}>
             <h3 className={styles.statusTitle}>Work Permit Status</h3>
             <p className={styles.statusText}>
-              EU Blue Card holder in Germany, settlement permit in process. Fully authorized to work for any employer.
+              EU Blau Karte holder in Germany & Niederlassungserlaubnis in process, fully authorized to work for any employer.
             </p>
           </div>
           
           <div className={styles.statusCard}>
             <h3 className={styles.statusTitle}>Availability</h3>
             <p className={styles.statusText}>
-              Open to new opportunities with a 2-month's notice period.
+              Open to new opportunities with a 2-month notice period.
             </p>
           </div>
           
           <div className={styles.statusCard}>
             <h3 className={styles.statusTitle}>Preferred Work Model</h3>
             <p className={styles.statusText}>
-              Open to remote, hybrid and on-site roles, with a preference for hybrid arrangements.
+              Flexible to remote, hybrid, or on-site roles, with a preference for hybrid arrangements.
             </p>
           </div>
           
           <div className={styles.statusCard}>
             <h3 className={styles.statusTitle}>Relocation</h3>
             <p className={styles.statusText}>
-              Willing to relocate for the right opportunity, particularly to major tech hubs.
+              Open to relocating for the right opportunity, particularly to major technology hubs.
             </p>
           </div>
         </div>

@@ -216,7 +216,7 @@
   }
 }
 
-/* Certification CSS Styles */
+/* Certificates and Badges Styles */
 .certificatesGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -261,10 +261,8 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.certificateLogo img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+.certificateLogo svg {
+  color: var(--ifm-color-primary);
 }
 
 .certificateHeaderContent {
@@ -336,9 +334,12 @@
   border-radius: 16px;
   font-size: 0.75rem;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
-.certificateVerifyLink {
+.certificateVerifyButton {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -351,31 +352,89 @@
   text-decoration: none;
   transition: all 0.2s ease;
   align-self: flex-start;
+  border: 1px solid var(--ifm-color-primary-lighter);
 }
 
-.certificateVerifyLink:hover {
+.certificateVerifyButton:hover {
   background-color: var(--ifm-color-primary-lighter);
   text-decoration: none;
 }
 
-.certificateNote {
+.badgesSection {
+  margin-top: 3rem;
+}
+
+.badgesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.badgeCard {
   background-color: var(--ifm-card-background-color);
   border-radius: 8px;
-  padding: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
-.certificateNote h3 {
-  margin-top: 0;
-  margin-bottom: 16px;
+.badgeCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.badgeImage {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ifm-color-emphasis-100);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.badgeImage img {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
+.badgeContent {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.badgeTitle {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  color: var(--ifm-heading-color);
+}
+
+.badgeIssuer {
+  font-size: 0.9rem;
   color: var(--ifm-color-primary);
+  margin-bottom: 4px;
+  font-weight: 500;
 }
 
-.certificateNote p:last-child {
-  margin-bottom: 0;
+.badgeDate {
+  font-size: 0.8125rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 12px;
 }
 
-/* Responsive adjustments */
+.badgeDescription {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-800);
+  flex: 1;
+}
+
+/* Responsive adjustments for certificates and badges */
 @media (max-width: 768px) {
   .certificatesGrid {
     grid-template-columns: 1fr;
@@ -391,8 +450,16 @@
     margin-bottom: 12px;
   }
   
-  .certificateVerifyLink {
+  .certificateVerifyButton {
     align-self: center;
+  }
+  
+  .badgesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .badgeImage {
+    padding: 15px;
   }
 }
 
@@ -405,13 +472,23 @@ html[data-theme='dark'] .certificateLogo {
   background-color: var(--ifm-color-emphasis-200);
 }
 
-html[data-theme='dark'] .certificateVerifyLink {
+html[data-theme='dark'] .certificateVerifyButton {
   background-color: var(--ifm-color-primary-darkest);
   color: var(--ifm-color-primary-lightest);
+  border-color: var(--ifm-color-primary-darker);
 }
 
-html[data-theme='dark'] .certificateVerifyLink:hover {
+html[data-theme='dark'] .certificateVerifyButton:hover {
   background-color: var(--ifm-color-primary-darker);
+}
+
+html[data-theme='dark'] .badgeCard {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+html[data-theme='dark'] .badgeImage {
+  background-color: var(--ifm-color-emphasis-200);
+  border-bottom-color: var(--ifm-color-emphasis-300);
 }
 
 /* Area of Expertise */

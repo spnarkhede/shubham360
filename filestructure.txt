@@ -1507,6 +1507,7 @@
             |-- introduction.js
             |-- styles.module.css
         |-- recruitment-specialist
+            |-- certifications.js
             |-- components
                 |-- PersonalityChart.js
                 |-- PersonalityChart.module.css
@@ -1533,9 +1534,13 @@
         |-- roleStore.js
 |-- static
     |-- .nojekyll
+    |-- certificates
     |-- documents
         |-- summary_resume.pdf
     |-- img
+        |-- badges
+            |-- generative-ai-overview-for-project-managers.png
+            |-- python-for-data-science.png
         |-- books
             |-- accounting101.jpg
             |-- almanackOfNavalRavikant.jpg

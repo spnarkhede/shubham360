@@ -225,8 +225,556 @@ export default function RecruitmentSpecialistCertifications() {
       skills: ["Personal Branding", "Charismatic Leadership"],
       verificationUrl: "https://www.linkedin.com/learning/certificates/c2481ea465d87ac6971adc56ed5b4aff0d113d93dd206b5fad196db60984fae4?trk=share_certificate"
     },
-    
-
+    // Here are the all the Pluralsight Course Certifications
+    {
+      name: "React 17: Getting Started",
+      issuer: "Samer Buna",
+      platform: "Pluralsight",
+      date: "Dec 15, 2021",
+      description: "An introduction to building interactive web apps using React 17 fundamentals.",
+      skills: ["React 17", "JavaScript", "Component Lifecycle", "JSX"],
+      verificationUrl: ""
+    },
+    {
+      name: "Flutter: Getting Started",
+      issuer: "Simone Alessandria",
+      platform: "Pluralsight",
+      date: "May 10, 2021",
+      description: "Learn the basics of Flutter to build beautiful cross-platform mobile apps.",
+      skills: ["Flutter", "Dart", "Mobile App Development", "UI Design"],
+      verificationUrl: ""
+    },
+    {
+      name: "Building React Apps with TypeScript",
+      issuer: "Mat Warger",
+      platform: "Pluralsight",
+      date: "Apr 29, 2021",
+      description: "Combine TypeScript with React to create strongly typed, maintainable apps.",
+      skills: ["React", "TypeScript", "Component Design", "Type Safety"],
+      verificationUrl: ""
+    },
+    {
+      name: "Choosing a React Framework",
+      issuer: "Anthony Alampi",
+      platform: "Pluralsight",
+      date: "Apr 29, 2021",
+      description: "Evaluate and select the right React framework for your project needs.",
+      skills: ["React", "Framework Comparison", "Project Architecture"],
+      verificationUrl: ""
+    },
+    {
+      name: "Optimize Performance for React",
+      issuer: "Hendrik Swanepoel",
+      platform: "Pluralsight",
+      date: "Apr 29, 2021",
+      description: "Learn techniques to improve the performance of your React applications.",
+      skills: ["React", "Performance Optimization", "Rendering", "Profiling"],
+      verificationUrl: ""
+    },
+    {
+      name: "Calling APIs with React 17",
+      issuer: "Christian Wenz",
+      platform: "Pluralsight",
+      date: "Apr 29, 2021",
+      description: "Master API integration in React 17 apps to fetch and display dynamic data.",
+      skills: ["React 17", "APIs", "Fetch", "Async Programming"],
+      verificationUrl: ""
+    },
+    {
+      name: "Using React 17 Hooks",
+      issuer: "Peter Kellner",
+      platform: "Pluralsight",
+      date: "Apr 29, 2021",
+      description: "Implement React Hooks to manage state and side effects efficiently.",
+      skills: ["React 17", "Hooks", "State Management", "Functional Components"],
+      verificationUrl: ""
+    },
+    {
+      name: "Testing React 16 Components",
+      issuer: "Liam McLennan",
+      platform: "Pluralsight",
+      date: "Apr 28, 2021",
+      description: "Learn techniques for unit and integration testing in React 16 apps.",
+      skills: ["React 16", "Testing", "Jest", "Component Validation"],
+      verificationUrl: ""
+    },
+    {
+      name: "Server Rendering React 16 Components",
+      issuer: "Daniel Stern",
+      platform: "Pluralsight",
+      date: "Apr 28, 2021",
+      description: "Implement server-side rendering for React 16 to improve performance and SEO.",
+      skills: ["React 16", "SSR", "Performance", "SEO Optimization"],
+      verificationUrl: ""
+    },
+    {
+      name: "Styling React Components",
+      issuer: "Jake Trent",
+      platform: "Pluralsight",
+      date: "Apr 28, 2021",
+      description: "Explore styling strategies for React components using modern CSS techniques.",
+      skills: ["React", "CSS", "Component Styling", "Styled Components"],
+      verificationUrl: ""
+    },
+    {
+      name: "Managing React State",
+      issuer: "Cory House",
+      platform: "Pluralsight",
+      date: "Apr 28, 2021",
+      description: "Learn state management approaches for scalable React applications.",
+      skills: ["React", "State Management", "Redux", "Context API"],
+      verificationUrl: ""
+    },
+    {
+      name: "Building Applications with React 18 and Redux",
+      issuer: "Cory House",
+      platform: "Pluralsight",
+      date: "Apr 28, 2021",
+      description: "Create modern React 18 apps leveraging Redux for predictable state management.",
+      skills: ["React 18", "Redux", "State Management", "Modern JavaScript"],
+      verificationUrl: ""
+    },
+    {
+      name: "React: The Big Picture",
+      issuer: "Cory House",
+      platform: "Pluralsight",
+      date: "Apr 26, 2021",
+      description: "Understand React’s architecture, concepts, and ecosystem in one overview course.",
+      skills: ["React", "JavaScript", "Component-Based Architecture", "Ecosystem"],
+      verificationUrl: ""
+    },
+    {
+      name: "Continuous Monitoring: The Big Picture",
+      issuer: "David Clinton",
+      platform: "Pluralsight",
+      date: "Apr 23, 2021",
+      description: "Learn the principles and benefits of continuous monitoring in software environments.",
+      skills: ["Continuous Monitoring", "DevOps", "Observability"],
+      verificationUrl: ""
+    },
+    {
+      name: "Testing Automation: The Big Picture",
+      issuer: "Jason Roberts",
+      platform: "Pluralsight",
+      date: "Apr 23, 2021",
+      description: "Get a high-level understanding of automated testing and its importance in software delivery.",
+      skills: ["Test Automation", "Quality Assurance", "DevOps"],
+      verificationUrl: ""
+    },
+    {
+      name: "Infrastructure from Code: The Big Picture",
+      issuer: "Jason Helmick",
+      platform: "Pluralsight",
+      date: "Apr 22, 2021",
+      description: "Explore the concept of defining infrastructure through code for consistency and automation.",
+      skills: ["Infrastructure as Code", "DevOps", "Automation"],
+      verificationUrl: ""
+    },
+    {
+      name: "Orchestration and Automation: The Big Picture",
+      issuer: "Josh Duffney",
+      platform: "Pluralsight",
+      date: "Apr 22, 2021",
+      description: "Understand orchestration and automation processes in modern IT operations.",
+      skills: ["Orchestration", "Automation", "DevOps"],
+      verificationUrl: ""
+    },
+    {
+      name: "Continuous Integration and Continuous Delivery: The Big Picture",
+      issuer: "Barry Luijbregts",
+      platform: "Pluralsight",
+      date: "Apr 22, 2021",
+      description: "Learn CI/CD practices to streamline development and deployment pipelines.",
+      skills: ["CI/CD", "DevOps", "Automation", "Continuous Delivery"],
+      verificationUrl: ""
+    },
+    {
+      name: "Test-driven Development: The Big Picture",
+      issuer: "Jason Olson",
+      platform: "Pluralsight",
+      date: "Apr 22, 2021",
+      description: "Understand the principles of test-driven development and its benefits.",
+      skills: ["TDD", "Unit Testing", "Software Quality"],
+      verificationUrl: ""
+    },
+    {
+      name: "AgilePM® Project Management",
+      issuer: "",
+      platform: "Pluralsight",
+      date: "Apr 22, 2021",
+      description: "An introduction to Agile Project Management practices and frameworks.",
+      skills: ["AgilePM", "Project Management", "Agile Methodology"],
+      verificationUrl: ""
+    },
+    {
+      name: "Implementing DevOps in the Real World",
+      issuer: "Richard Seroter",
+      platform: "Pluralsight",
+      date: "Apr 22, 2021",
+      description: "Practical strategies to implement DevOps practices effectively in organizations.",
+      skills: ["DevOps", "Continuous Delivery", "Automation"],
+      verificationUrl: ""
+    },
+    {
+      name: "DevOps: The Big Picture",
+      issuer: "Richard Seroter",
+      platform: "Pluralsight",
+      date: "Apr 22, 2021",
+      description: "Learn the foundational concepts of DevOps and its value to modern software development.",
+      skills: ["DevOps", "Collaboration", "Automation"],
+      verificationUrl: ""
+    },
+    {
+      name: "Relational Database Design",
+      issuer: "Hugo Kornelis",
+      platform: "Pluralsight",
+      date: "Apr 22, 2021",
+      description: "Learn the principles of designing efficient relational databases.",
+      skills: ["Database Design", "SQL", "Normalization"],
+      verificationUrl: ""
+    },
+    {
+      name: "phpMyAdmin Fundamentals",
+      issuer: "Pinal Dave",
+      platform: "Pluralsight",
+      date: "Apr 21, 2021",
+      description: "Master phpMyAdmin tools for managing MySQL databases efficiently.",
+      skills: ["phpMyAdmin", "MySQL", "Database Management"],
+      verificationUrl: ""
+    },
+    {
+      name: "MySQL Query Optimization and Performance Tuning",
+      issuer: "Pinal Dave",
+      platform: "Pluralsight",
+      date: "Apr 21, 2021",
+      description: "Optimize MySQL queries to improve database performance and scalability.",
+      skills: ["MySQL", "Query Optimization", "Performance Tuning"],
+      verificationUrl: ""
+    },
+    {
+      name: "MySQL Backup and Recovery Fundamentals",
+      issuer: "Pinal Dave",
+      platform: "Pluralsight",
+      date: "Apr 21, 2021",
+      description: "Learn strategies for backing up and recovering MySQL databases securely.",
+      skills: ["MySQL", "Backup", "Recovery", "Database Management"],
+      verificationUrl: ""
+    },
+    {
+      name: "Introduction to SQL",
+      issuer: "Jon Flanders",
+      platform: "Pluralsight",
+      date: "Apr 21, 2021",
+      description: "Learn the basics of SQL for querying and managing relational databases.",
+      skills: ["SQL", "Database Queries", "Data Management"],
+      verificationUrl: ""
+    },
+    {
+      name: "MySQL Indexing for Performance",
+      issuer: "Pinal Dave",
+      platform: "Pluralsight",
+      date: "Apr 20, 2021",
+      description: "Understand indexing strategies to boost MySQL database performance.",
+      skills: ["MySQL", "Indexing", "Performance Optimization"],
+      verificationUrl: ""
+    },
+    {
+      name: "MySQL Workbench Guided Tour",
+      issuer: "Pinal Dave",
+      platform: "Pluralsight",
+      date: "Apr 20, 2021",
+      description: "Learn how to navigate and use MySQL Workbench effectively for database tasks.",
+      skills: ["MySQL", "MySQL Workbench", "Database Management"],
+      verificationUrl: ""
+    },
+    {
+      name: "MySQL Fundamentals Part 2",
+      issuer: "Pinal Dave",
+      platform: "Pluralsight",
+      date: "Apr 20, 2021",
+      description: "Advanced concepts in MySQL to manage and query databases efficiently.",
+      skills: ["MySQL", "Advanced SQL", "Database Management"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular Routing",
+      issuer: "Deborah Kurata",
+      platform: "Pluralsight",
+      date: "Apr 8, 2021",
+      description: "Learn how to configure and manage navigation in Angular applications.",
+      skills: ["Angular", "Routing", "SPA", "Navigation"],
+      verificationUrl: ""
+    },
+  {
+    name: "Building Applications with React 16 and Flux 3",
+    issuer: "Cory House",
+    platform: "Pluralsight",
+    date: "Feb 10, 2021",
+    description: "Learn to build scalable React 16 apps using the Flux architecture.",
+    skills: ["React 16", "Flux", "State Management", "Component Design"],
+    verificationUrl: ""
+  },
+  {
+    name: "TypeScript 4: Getting Started",
+    issuer: "Brice Wilson",
+    platform: "Pluralsight",
+    date: "Feb 10, 2021",
+    description: "Introduction to TypeScript 4 for building type-safe JavaScript applications.",
+    skills: ["TypeScript 4", "JavaScript", "Type Safety", "Object-Oriented Programming"],
+    verificationUrl: ""
+  },
+  {
+    name: "Spring: The Big Picture",
+    issuer: "Dustin Schultz",
+    platform: "Pluralsight",
+    date: "Feb 10, 2021",
+    description: "Understand the Spring Framework and its role in modern Java development.",
+    skills: ["Spring Framework", "Java", "Dependency Injection", "Web Development"],
+    verificationUrl: ""
+  },
+  {
+    name: "Spring Framework: Spring MVC 5 Fundamentals",
+    issuer: "Bryan Hansen",
+    platform: "Pluralsight",
+    date: "Feb 10, 2021",
+    description: "Learn the fundamentals of building web applications using Spring MVC 5.",
+    skills: ["Spring MVC 5", "Java", "Web Development", "MVC Pattern"],
+    verificationUrl: ""
+  },
+  {
+    name: "Introduction to TensorFlow",
+    issuer: "Google Cloud",
+    platform: "Pluralsight",
+    date: "Feb 10, 2021",
+    description: "Get started with TensorFlow to create and train machine learning models.",
+    skills: ["TensorFlow", "Machine Learning", "Python", "Neural Networks"],
+    verificationUrl: ""
+  },
+  {
+    name: "One Codebase, Many Screens - Flutter in a Nutshell: CodeMash",
+    issuer: "CodeMash",
+    platform: "Pluralsight",
+    date: "Feb 10, 2021",
+    description: "Learn how Flutter enables a single codebase to target multiple devices seamlessly.",
+    skills: ["Flutter", "Cross-Platform Development", "Dart", "UI Design"],
+    verificationUrl: ""
+  },
+  {
+    name: "Getting Started with Your First SQL Server Instance",
+    issuer: "Kevin Hill",
+    platform: "Pluralsight",
+    date: "Feb 9, 2021",
+    description: "Learn to set up and configure your first SQL Server instance efficiently.",
+    skills: ["SQL Server", "Database Administration", "SQL", "Configuration"],
+    verificationUrl: ""
+  },
+  {
+    name: "Python: The Big Picture",
+    issuer: "Jason Olson",
+    platform: "Pluralsight",
+    date: "Feb 9, 2021",
+    description: "Get an overview of Python’s capabilities for software development and data tasks.",
+    skills: ["Python", "Programming", "Scripting", "Software Development"],
+    verificationUrl: ""
+  },
+  {
+    name: "Google Cloud Platform Big Data and Machine Learning Fundamentals",
+    issuer: "Google Cloud",
+    platform: "Pluralsight",
+    date: "Feb 9, 2021",
+    description: "Explore Google Cloud tools for big data processing and machine learning applications.",
+    skills: ["Google Cloud", "Big Data", "Machine Learning", "Cloud Computing"],
+    verificationUrl: ""
+  },
+  {
+    name: "Ethical Hacking: Social Engineering",
+    issuer: "Troy Hunt",
+    platform: "Pluralsight",
+    date: "Feb 9, 2021",
+    description: "Understand social engineering tactics and strategies to improve security awareness.",
+    skills: ["Ethical Hacking", "Social Engineering", "Cybersecurity", "Risk Assessment"],
+    verificationUrl: ""
+  },
+  {
+    name: "MySQL Fundamentals",
+    issuer: "Pinal Dave",
+    platform: "Pluralsight",
+    date: "Feb 9, 2021",
+    description: "Learn core concepts and techniques for managing MySQL databases effectively.",
+    skills: ["MySQL", "Database Fundamentals", "SQL", "Data Management"],
+    verificationUrl: ""
+  },
+  {
+    name: "PHP Fundamentals",
+    issuer: "Jill Gundersen",
+    platform: "Pluralsight",
+    date: "Feb 8, 2021",
+    description: "Learn the essentials of PHP for building dynamic web applications.",
+    skills: ["PHP", "Web Development", "Scripting", "Server-Side Programming"],
+    verificationUrl: ""
+  },
+  {
+    name: "Angular NgRx: Getting Started",
+    issuer: "Deborah Kurata and Duncan Hunter",
+    platform: "Pluralsight",
+    date: "Feb 8, 2021",
+    description: "Learn how to manage Angular app state using the NgRx framework.",
+    skills: ["Angular", "NgRx", "State Management", "Reactive Programming"],
+    verificationUrl: ""
+  },
+  {
+    name: "Angular Reactive Forms",
+    issuer: "Deborah Kurata",
+    platform: "Pluralsight",
+    date: "Feb 8, 2021",
+    description: "Build powerful and flexible forms in Angular using reactive patterns.",
+    skills: ["Angular", "Reactive Forms", "Form Validation", "TypeScript"],
+    verificationUrl: ""
+  },
+  {
+    name: "Angular Architecture and Best Practices",
+    issuer: "Dan Wahlin",
+    platform: "Pluralsight",
+    date: "Feb 8, 2021",
+    description: "Learn best practices and architectural strategies for building Angular apps.",
+    skills: ["Angular", "Architecture", "Best Practices", "TypeScript"],
+    verificationUrl: ""
+  },
+  {
+    name: "Styling Applications with Angular Material",
+    issuer: "Ajden Towfeek",
+    platform: "Pluralsight",
+    date: "Feb 8, 2021",
+    description: "Learn to create visually appealing Angular apps using Angular Material.",
+    skills: ["Angular", "Angular Material", "UI Design", "Component Styling"],
+    verificationUrl: ""
+  },
+  {
+    name: "Angular 12 Services",
+    issuer: "Brice Wilson",
+    platform: "Pluralsight",
+    date: "Feb 7, 2021",
+    description: "Understand Angular 12 services to share data and logic across components.",
+    skills: ["Angular 12", "Services", "Dependency Injection", "TypeScript"],
+    verificationUrl: ""
+  },
+  {
+    name: "Angular CLI",
+    issuer: "John Papa",
+    platform: "Pluralsight",
+    date: "Feb 7, 2021",
+    description: "Learn Angular CLI commands and workflow to streamline development.",
+    skills: ["Angular", "CLI", "Project Setup", "Development Workflow"],
+    verificationUrl: ""
+  },
+  {
+    name: "Securing Angular Apps with OpenID Connect and OAuth 2",
+    issuer: "Brian Noyes",
+    platform: "Pluralsight",
+    date: "Feb 7, 2021",
+    description: "Implement authentication and authorization in Angular using OAuth 2 and OpenID.",
+    skills: ["Angular", "Security", "OAuth 2", "OpenID Connect"],
+    verificationUrl: ""
+  },
+  {
+      name: "Angular 13 Best Practices",
+      issuer: "Jim Cooper",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Learn recommended coding standards and practices for Angular 13 development.",
+      skills: ["Angular 13", "Best Practices", "TypeScript", "Development Workflow"],
+      verificationUrl: ""
+    },
+    {
+      name: "Developing Packages in Flutter",
+      issuer: "Miguel Beltran",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Create reusable Flutter packages to simplify app development.",
+      skills: ["Flutter", "Package Development", "Dart", "Modular Design"],
+      verificationUrl: ""
+    },
+    {
+      name: "Creating Localized Apps with Flutter 2",
+      issuer: "Christian Wenz",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Implement localization in Flutter 2 apps for multi-language support.",
+      skills: ["Flutter 2", "Localization", "Dart", "Internationalization"],
+      verificationUrl: ""
+    },
+    {
+      name: "Creating Forms with Flutter 1",
+      issuer: "Afzaal Ahmad Zeeshan",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Build interactive and validated forms in Flutter 1 applications.",
+      skills: ["Flutter 1", "Forms", "Validation", "UI Design"],
+      verificationUrl: ""
+    },
+    {
+      name: "Persisting Data Locally with Flutter 2",
+      issuer: "Simone Alessandria",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Learn to store and retrieve data locally in Flutter 2 apps.",
+      skills: ["Flutter 2", "Local Storage", "Dart", "State Management"],
+      verificationUrl: ""
+    },
+    {
+      name: "Managing State in Flutter 1",
+      issuer: "Mike VanSickle",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Master state management techniques for efficient Flutter 1 development.",
+      skills: ["Flutter 1", "State Management", "Dart", "Reactive Programming"],
+      verificationUrl: ""
+    },
+    {
+      name: "Creating a Connected App with Flutter 1",
+      issuer: "Douglas Starnes",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Build Flutter 1 apps that connect seamlessly to APIs and services.",
+      skills: ["Flutter 1", "API Integration", "Dart", "Networking"],
+      verificationUrl: ""
+    },
+    {
+      name: "Creating Layouts with Flutter 2",
+      issuer: "Simone Alessandria",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Learn to design responsive and adaptive layouts in Flutter 2 applications.",
+      skills: ["Flutter 2", "Layouts", "UI Design", "Responsive Design"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular 6: The Big Picture",
+      issuer: "Joe Eames",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Get an overview of Angular 6 features and its ecosystem for modern web apps.",
+      skills: ["Angular 6", "Web Development", "TypeScript", "SPA"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular 7 Crash Course",
+      issuer: "Joe Eames",
+      platform: "Pluralsight",
+      date: "Feb 6, 2021",
+      description: "Quickly learn Angular 7 essentials to build dynamic web applications.",
+      skills: ["Angular 7", "TypeScript", "Web Development", "SPA"],
+      verificationUrl: ""
+    },
+    {
+      name: "Angular Forms",
+      issuer: "Mark Zamoyta",
+      platform: "Pluralsight",
+      date: "Jan 7, 2021",
+      description: "Master Angular forms to capture and validate user input efficiently.",
+      skills: ["Angular", "Forms", "Validation", "Reactive Programming"],
+      verificationUrl: ""
+    }
   ];
 
   const badges = [

@@ -2602,13 +2602,20 @@ html[data-theme='dark'] .platformTitle {
 }
 
 .certificateIssuer,
-.badgeIssuer,
-.certificatePlatform,
-.badgePlatform {
+.badgeIssuer {
   font-size: 0.85rem;
   color: var(--ifm-color-primary);
   margin-bottom: 4px;
   font-weight: 500;
+}
+
+.certificatePlatform,
+.badgePlatform {
+  font-size: 0.70rem;
+  color: #ffffff;
+  margin-bottom: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .certificateMetadata {

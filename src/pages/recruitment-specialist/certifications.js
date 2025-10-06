@@ -154,7 +154,6 @@ export default function RecruitmentSpecialistCertifications() {
             <p className={styles.badgeIssuer}>{badge.issuer}</p>
             <p className={styles.badgePlatform}>{badge.platform}</p>
             <p className={styles.badgeDate}>Issued: {badge.date}</p>
-            <p className={styles.badgeDescription}>{badge.description}</p>
             {badge.verificationUrl && (
               <a
                 href={badge.verificationUrl}

@@ -216,16 +216,10 @@
   }
 } 
 
-/* Platform Filter Styles */
-.platformFilterContainer {
-  margin-bottom: 2rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
-}
-
+/* Content Toggle Styles */
 .contentToggleContainer {
-  margin-bottom: 2rem;
-  padding: 1rem 0;
+  margin: 1.5rem 0;
+  padding: 0.5rem 0;
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
 }
 
@@ -240,7 +234,7 @@
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -272,11 +266,10 @@
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.platformFilterTitle {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-  color: var(--ifm-color-emphasis-900);
+/* Platform Filter Styles */
+.platformFilterContainer {
+  margin: 1.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .platformFilterButtons {

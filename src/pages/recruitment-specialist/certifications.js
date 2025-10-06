@@ -780,7 +780,7 @@ export default function RecruitmentSpecialistCertifications() {
     }
   ];
 
-    // Get unique platforms and their counts
+  // Get unique platforms and their counts
   const platformCounts = useMemo(() => {
     const counts = { 'All': certifications.length };
     certifications.forEach(cert => {
@@ -843,7 +843,7 @@ export default function RecruitmentSpecialistCertifications() {
           className={`${styles.contentToggleButton} ${activeContent === 'certifications' ? styles.active : ''}`}
           onClick={() => setActiveContent('certifications')}
         >
-          Certifications <span className={styles.contentCount}>{certifications.length}</span>
+          Certificates <span className={styles.contentCount}>{certifications.length}</span>
         </button>
         <button
           className={`${styles.contentToggleButton} ${activeContent === 'badges' ? styles.active : ''}`}
@@ -857,26 +857,27 @@ export default function RecruitmentSpecialistCertifications() {
 
   // Function to render platform filter
   const renderPlatformFilter = () => (
-    <div className={styles.platformFilterContainer}>
-      <h3 className={styles.platformFilterTitle}>Filter by Platform</h3>
-      <div className={styles.platformFilterButtons}>
-        <button
-          className={`${styles.platformFilterButton} ${styles.all} ${selectedPlatform === 'All' ? styles.active : ''}`}
-          onClick={() => setSelectedPlatform('All')}
-        >
-          All <span className={styles.platformCount}>{platformCounts['All']}</span>
-        </button>
-        {sortedPlatforms.map(platform => (
+    activeContent === 'certifications' && (
+      <div className={styles.platformFilterContainer}>
+        <div className={styles.platformFilterButtons}>
           <button
-            key={platform}
-            className={`${styles.platformFilterButton} ${selectedPlatform === platform ? styles.active : ''}`}
-            onClick={() => setSelectedPlatform(platform)}
+            className={`${styles.platformFilterButton} ${styles.all} ${selectedPlatform === 'All' ? styles.active : ''}`}
+            onClick={() => setSelectedPlatform('All')}
           >
-            {platform} <span className={styles.platformCount}>{platformCounts[platform]}</span>
+            All <span className={styles.platformCount}>{platformCounts['All']}</span>
           </button>
-        ))}
+          {sortedPlatforms.map(platform => (
+            <button
+              key={platform}
+              className={`${styles.platformFilterButton} ${selectedPlatform === platform ? styles.active : ''}`}
+              onClick={() => setSelectedPlatform(platform)}
+            >
+              {platform} <span className={styles.platformCount}>{platformCounts[platform]}</span>
+            </button>
+          ))}
+        </div>
       </div>
-    </div>
+    )
   );
 
   // Function to render certification cards
@@ -973,28 +974,18 @@ export default function RecruitmentSpecialistCertifications() {
       title="Recruitment Specialist | Certifications & Badges"
       description="Shubham Narkhede's professional certifications and industry badges"
     >
-      {renderContentToggle()}
-      
-      {activeContent === 'certifications' && (
-        <SectionTemplate
-          title="Professional Certifications & Badges"
-          subtitle="Industry-recognized certifications and credentials"
-          className={styles.certificationsSection}
-        >
-          {renderPlatformFilter()}
-          {renderCertificationCards()}
-        </SectionTemplate>
-      )}
-
-      {activeContent === 'badges' && (
-        <SectionTemplate
-          title="Professional Badges"
-          subtitle="Industry recognition and achievement badges"
-          className={styles.badgesSection}
-        >
-          {renderBadgeCards()}
-        </SectionTemplate>
-      )}
+      <SectionTemplate
+        title="Professional Certifications & Badges"
+        subtitle="Industry-recognized certifications and badges"
+        className={styles.certificationsSection}
+      >
+        {renderContentToggle()}
+        {renderPlatformFilter()}
+        
+        {activeContent === 'certifications' && renderCertificationCards()}
+        {activeContent === 'badges' && renderBadgeCards()}
+      </SectionTemplate>
     </DashboardLayout>
   );
+
 }

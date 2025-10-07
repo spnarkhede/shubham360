@@ -2656,19 +2656,22 @@ html[data-theme='dark'] .platformTitle {
 /* Certificates and Badges Styles */
 .certificatesGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-  margin-bottom: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 .badgesGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
 }
 
 @media (min-width: 1200px) {
-  .certificatesGrid,
+  .certificatesGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
   .badgesGrid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -2678,22 +2681,22 @@ html[data-theme='dark'] .platformTitle {
 .badgeCard {
   background-color: var(--ifm-card-background-color);
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   height: 100%;
   display: flex;
   flex-direction: column;
+  max-width: 260px;
 }
 
 .certificateCard:hover,
 .badgeCard:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-.certificateHeader,
-.badgeImage {
+.certificateHeader{
   padding: 16px;
   display: flex;
   align-items: flex-start;
@@ -2701,8 +2704,15 @@ html[data-theme='dark'] .platformTitle {
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
 }
 
-.certificateLogo,
-.badgeImage img {
+.badgeImage {
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.certificateLogo{
   width: 48px;
   height: 48px;
   flex-shrink: 0;
@@ -2713,6 +2723,19 @@ html[data-theme='dark'] .platformTitle {
   border-radius: 6px;
   padding: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.badgeImage img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px;
+  padding: 6px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
 }
 
 .certificateLogo svg {

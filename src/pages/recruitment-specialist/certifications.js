@@ -236,7 +236,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Dec 15, 2021",
       description: "An introduction to building interactive web apps using React 17 fundamentals.",
       skills: ["React 17", "JavaScript", "Component Lifecycle", "JSX"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Flutter: Getting Started",
@@ -245,7 +245,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "May 10, 2021",
       description: "Learn the basics of Flutter to build beautiful cross-platform mobile apps.",
       skills: ["Flutter", "Dart", "Mobile App Development", "UI Design"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Building React Apps with TypeScript",
@@ -254,7 +254,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Combine TypeScript with React to create strongly typed, maintainable apps.",
       skills: ["React", "TypeScript", "Component Design", "Type Safety"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Choosing a React Framework",
@@ -263,7 +263,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Evaluate and select the right React framework for your project needs.",
       skills: ["React", "Framework Comparison", "Project Architecture"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Optimize Performance for React",
@@ -272,7 +272,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Learn techniques to improve the performance of your React applications.",
       skills: ["React", "Performance Optimization", "Rendering", "Profiling"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Calling APIs with React 17",
@@ -281,7 +281,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Master API integration in React 17 apps to fetch and display dynamic data.",
       skills: ["React 17", "APIs", "Fetch", "Async Programming"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Using React 17 Hooks",
@@ -290,7 +290,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Implement React Hooks to manage state and side effects efficiently.",
       skills: ["React 17", "Hooks", "State Management", "Functional Components"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Testing React 16 Components",
@@ -299,7 +299,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Learn techniques for unit and integration testing in React 16 apps.",
       skills: ["React 16", "Testing", "Jest", "Component Validation"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Server Rendering React 16 Components",
@@ -308,7 +308,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Implement server-side rendering for React 16 to improve performance and SEO.",
       skills: ["React 16", "SSR", "Performance", "SEO Optimization"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Styling React Components",
@@ -317,7 +317,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Explore styling strategies for React components using modern CSS techniques.",
       skills: ["React", "CSS", "Component Styling", "Styled Components"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Managing React State",
@@ -326,7 +326,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Learn state management approaches for scalable React applications.",
       skills: ["React", "State Management", "Redux", "Context API"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Building Applications with React 18 and Redux",
@@ -335,7 +335,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Create modern React 18 apps leveraging Redux for predictable state management.",
       skills: ["React 18", "Redux", "State Management", "Modern JavaScript"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "React: The Big Picture",
@@ -344,7 +344,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 26, 2021",
       description: "Understand React’s architecture, concepts, and ecosystem in one overview course.",
       skills: ["React", "JavaScript", "Component-Based Architecture", "Ecosystem"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Continuous Monitoring: The Big Picture",
@@ -353,7 +353,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 23, 2021",
       description: "Learn the principles and benefits of continuous monitoring in software environments.",
       skills: ["Continuous Monitoring", "DevOps", "Observability"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Testing Automation: The Big Picture",
@@ -362,7 +362,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 23, 2021",
       description: "Get a high-level understanding of automated testing and its importance in software delivery.",
       skills: ["Test Automation", "Quality Assurance", "DevOps"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Infrastructure from Code: The Big Picture",
@@ -371,7 +371,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Explore the concept of defining infrastructure through code for consistency and automation.",
       skills: ["Infrastructure as Code", "DevOps", "Automation"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Orchestration and Automation: The Big Picture",
@@ -380,7 +380,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Understand orchestration and automation processes in modern IT operations.",
       skills: ["Orchestration", "Automation", "DevOps"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Continuous Integration and Continuous Delivery: The Big Picture",
@@ -389,7 +389,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Learn CI/CD practices to streamline development and deployment pipelines.",
       skills: ["CI/CD", "DevOps", "Automation", "Continuous Delivery"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Test-driven Development: The Big Picture",
@@ -398,7 +398,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Understand the principles of test-driven development and its benefits.",
       skills: ["TDD", "Unit Testing", "Software Quality"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "AgilePM® Project Management",
@@ -407,7 +407,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "An introduction to Agile Project Management practices and frameworks.",
       skills: ["AgilePM", "Project Management", "Agile Methodology"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Implementing DevOps in the Real World",
@@ -416,7 +416,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Practical strategies to implement DevOps practices effectively in organizations.",
       skills: ["DevOps", "Continuous Delivery", "Automation"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "DevOps: The Big Picture",
@@ -425,7 +425,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Learn the foundational concepts of DevOps and its value to modern software development.",
       skills: ["DevOps", "Collaboration", "Automation"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Relational Database Design",
@@ -434,7 +434,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Learn the principles of designing efficient relational databases.",
       skills: ["Database Design", "SQL", "Normalization"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "phpMyAdmin Fundamentals",
@@ -443,7 +443,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 21, 2021",
       description: "Master phpMyAdmin tools for managing MySQL databases efficiently.",
       skills: ["phpMyAdmin", "MySQL", "Database Management"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "MySQL Query Optimization and Performance Tuning",
@@ -452,7 +452,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 21, 2021",
       description: "Optimize MySQL queries to improve database performance and scalability.",
       skills: ["MySQL", "Query Optimization", "Performance Tuning"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "MySQL Backup and Recovery Fundamentals",
@@ -461,7 +461,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 21, 2021",
       description: "Learn strategies for backing up and recovering MySQL databases securely.",
       skills: ["MySQL", "Backup", "Recovery", "Database Management"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Introduction to SQL",
@@ -470,7 +470,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 21, 2021",
       description: "Learn the basics of SQL for querying and managing relational databases.",
       skills: ["SQL", "Database Queries", "Data Management"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "MySQL Indexing for Performance",
@@ -479,7 +479,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 20, 2021",
       description: "Understand indexing strategies to boost MySQL database performance.",
       skills: ["MySQL", "Indexing", "Performance Optimization"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "MySQL Workbench Guided Tour",
@@ -488,7 +488,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 20, 2021",
       description: "Learn how to navigate and use MySQL Workbench effectively for database tasks.",
       skills: ["MySQL", "MySQL Workbench", "Database Management"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "MySQL Fundamentals Part 2",
@@ -497,7 +497,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 20, 2021",
       description: "Advanced concepts in MySQL to manage and query databases efficiently.",
       skills: ["MySQL", "Advanced SQL", "Database Management"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular Routing",
@@ -506,7 +506,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 8, 2021",
       description: "Learn how to configure and manage navigation in Angular applications.",
       skills: ["Angular", "Routing", "SPA", "Navigation"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Building Applications with React 16 and Flux 3",
@@ -515,7 +515,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Learn to build scalable React 16 apps using the Flux architecture.",
       skills: ["React 16", "Flux", "State Management", "Component Design"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "TypeScript 4: Getting Started",
@@ -524,7 +524,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Introduction to TypeScript 4 for building type-safe JavaScript applications.",
       skills: ["TypeScript 4", "JavaScript", "Type Safety", "Object-Oriented Programming"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Spring: The Big Picture",
@@ -533,7 +533,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Understand the Spring Framework and its role in modern Java development.",
       skills: ["Spring Framework", "Java", "Dependency Injection", "Web Development"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Spring Framework: Spring MVC 5 Fundamentals",
@@ -542,7 +542,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Learn the fundamentals of building web applications using Spring MVC 5.",
       skills: ["Spring MVC 5", "Java", "Web Development", "MVC Pattern"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Introduction to TensorFlow",
@@ -551,7 +551,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Get started with TensorFlow to create and train machine learning models.",
       skills: ["TensorFlow", "Machine Learning", "Python", "Neural Networks"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "One Codebase, Many Screens - Flutter in a Nutshell: CodeMash",
@@ -560,7 +560,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Learn how Flutter enables a single codebase to target multiple devices seamlessly.",
       skills: ["Flutter", "Cross-Platform Development", "Dart", "UI Design"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Getting Started with Your First SQL Server Instance",
@@ -569,7 +569,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Learn to set up and configure your first SQL Server instance efficiently.",
       skills: ["SQL Server", "Database Administration", "SQL", "Configuration"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Python: The Big Picture",
@@ -578,7 +578,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Get an overview of Python’s capabilities for software development and data tasks.",
       skills: ["Python", "Programming", "Scripting", "Software Development"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Google Cloud Platform Big Data and Machine Learning Fundamentals",
@@ -587,7 +587,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Explore Google Cloud tools for big data processing and machine learning applications.",
       skills: ["Google Cloud", "Big Data", "Machine Learning", "Cloud Computing"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Ethical Hacking: Social Engineering",
@@ -596,7 +596,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Understand social engineering tactics and strategies to improve security awareness.",
       skills: ["Ethical Hacking", "Social Engineering", "Cybersecurity", "Risk Assessment"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "MySQL Fundamentals",
@@ -605,7 +605,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Learn core concepts and techniques for managing MySQL databases effectively.",
       skills: ["MySQL", "Database Fundamentals", "SQL", "Data Management"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "PHP Fundamentals",
@@ -614,7 +614,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Learn the essentials of PHP for building dynamic web applications.",
       skills: ["PHP", "Web Development", "Scripting", "Server-Side Programming"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular NgRx: Getting Started",
@@ -623,7 +623,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Learn how to manage Angular app state using the NgRx framework.",
       skills: ["Angular", "NgRx", "State Management", "Reactive Programming"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular Reactive Forms",
@@ -632,7 +632,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Build powerful and flexible forms in Angular using reactive patterns.",
       skills: ["Angular", "Reactive Forms", "Form Validation", "TypeScript"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular Architecture and Best Practices",
@@ -641,7 +641,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Learn best practices and architectural strategies for building Angular apps.",
       skills: ["Angular", "Architecture", "Best Practices", "TypeScript"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Styling Applications with Angular Material",
@@ -650,7 +650,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Learn to create visually appealing Angular apps using Angular Material.",
       skills: ["Angular", "Angular Material", "UI Design", "Component Styling"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular 12 Services",
@@ -659,7 +659,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 7, 2021",
       description: "Understand Angular 12 services to share data and logic across components.",
       skills: ["Angular 12", "Services", "Dependency Injection", "TypeScript"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular CLI",
@@ -668,7 +668,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 7, 2021",
       description: "Learn Angular CLI commands and workflow to streamline development.",
       skills: ["Angular", "CLI", "Project Setup", "Development Workflow"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Securing Angular Apps with OpenID Connect and OAuth 2",
@@ -677,7 +677,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 7, 2021",
       description: "Implement authentication and authorization in Angular using OAuth 2 and OpenID.",
       skills: ["Angular", "Security", "OAuth 2", "OpenID Connect"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular 13 Best Practices",
@@ -686,7 +686,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Learn recommended coding standards and practices for Angular 13 development.",
       skills: ["Angular 13", "Best Practices", "TypeScript", "Development Workflow"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Developing Packages in Flutter",
@@ -695,7 +695,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Create reusable Flutter packages to simplify app development.",
       skills: ["Flutter", "Package Development", "Dart", "Modular Design"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Creating Localized Apps with Flutter 2",
@@ -704,7 +704,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Implement localization in Flutter 2 apps for multi-language support.",
       skills: ["Flutter 2", "Localization", "Dart", "Internationalization"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Creating Forms with Flutter 1",
@@ -713,7 +713,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Build interactive and validated forms in Flutter 1 applications.",
       skills: ["Flutter 1", "Forms", "Validation", "UI Design"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Persisting Data Locally with Flutter 2",
@@ -722,7 +722,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Learn to store and retrieve data locally in Flutter 2 apps.",
       skills: ["Flutter 2", "Local Storage", "Dart", "State Management"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Managing State in Flutter 1",
@@ -731,7 +731,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Master state management techniques for efficient Flutter 1 development.",
       skills: ["Flutter 1", "State Management", "Dart", "Reactive Programming"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Creating a Connected App with Flutter 1",
@@ -740,7 +740,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Build Flutter 1 apps that connect seamlessly to APIs and services.",
       skills: ["Flutter 1", "API Integration", "Dart", "Networking"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Creating Layouts with Flutter 2",
@@ -749,7 +749,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Learn to design responsive and adaptive layouts in Flutter 2 applications.",
       skills: ["Flutter 2", "Layouts", "UI Design", "Responsive Design"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular 6: The Big Picture",
@@ -758,7 +758,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Get an overview of Angular 6 features and its ecosystem for modern web apps.",
       skills: ["Angular 6", "Web Development", "TypeScript", "SPA"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular 7 Crash Course",
@@ -767,7 +767,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Quickly learn Angular 7 essentials to build dynamic web applications.",
       skills: ["Angular 7", "TypeScript", "Web Development", "SPA"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     },
     {
       name: "Angular Forms",
@@ -776,7 +776,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Jan 7, 2021",
       description: "Master Angular forms to capture and validate user input efficiently.",
       skills: ["Angular", "Forms", "Validation", "Reactive Programming"],
-      verificationUrl: ""
+      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
     }
   ];
 

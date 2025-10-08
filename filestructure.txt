@@ -1630,6 +1630,7 @@
             |-- the-personal-mba.jpg
             |-- usHistory101.jpg
             |-- vaidikDincharya.jpg
+        |-- default-bosch.png
         |-- docusaurus-social-card.jpg
         |-- docusaurus.png
         |-- favicon.ico

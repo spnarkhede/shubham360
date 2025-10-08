@@ -12,7 +12,7 @@ export default function Projects() {
     description: "Led the development of a comprehensive management system for electric vehicle charging infrastructure. The system provides real-time monitoring, user management, and analytics capabilities for charging stations across Europe.",
     longDescription: "The Connected Charging Cable (CCC) project is a flagship initiative at Robert Bosch GmbH that revolutionizes how electric vehicle charging infrastructure is managed. As the lead developer, I architected and implemented a scalable solution that handles thousands of concurrent connections while providing real-time monitoring, user management, payment processing, and analytics capabilities. The system integrates with multiple third-party services and employs a microservices architecture for maximum flexibility and resilience.",
     technologies: ["Angular", "Node.js", "AWS", "Docker", "CI/CD", "Playwright"],
-    image: "/img/projects/ccc-project.jpg",
+    image: "/img/projects/default-bosch.png",
     demoLink: "https://example.com/ccc-demo",
     codeLink: "https://github.com/example/ccc-project",
   };

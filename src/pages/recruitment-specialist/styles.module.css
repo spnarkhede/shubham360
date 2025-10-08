@@ -1605,19 +1605,57 @@ html[data-theme='dark'] .badgeImage {
   transform: translateY(-2px);
 }
 
+/* Project Image Styles for 9:16 Ratio */
 .projectImageContainer {
   position: relative;
+  width: 100%;
+  padding-top: 177.78%; /* 9:16 aspect ratio (16/9 = 1.7778, inverted as padding-top percentage) */
   overflow: hidden;
   border-radius: 8px;
-  height: 200px;
+  margin-bottom: 1.5rem;
 }
 
 .projectImage {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* This ensures the image covers the container while maintaining aspect ratio */
+  object-position: center;
   transition: transform 0.3s ease;
 }
+
+.projectImage:hover {
+  transform: scale(1.05);
+}
+
+/* Featured Project Card Layout */
+.featuredProjectCard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* Responsive adjustments for project images */
+@media (max-width: 1024px) {
+  .featuredProjectCard {
+    grid-template-columns: 1fr;
+  }
+  
+  .projectImageContainer {
+    padding-top: 177.78%; /* Maintain 9:16 ratio on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .projectImageContainer {
+    padding-top: 177.78%; /* Maintain 9:16 ratio on mobile */
+    margin-bottom: 1rem;
+  }
+}
+
 
 .featuredProjectCard:hover .projectImage {
   transform: scale(1.05);

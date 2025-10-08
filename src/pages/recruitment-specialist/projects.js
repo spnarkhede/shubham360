@@ -34,7 +34,7 @@ export default function RecruitmentSpecialistProjects() {
                 className={styles.projectImage}
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/default-project.jpg";
+                  e.target.src="/img/default-bosch.png";
                 }}
               />
             </div>

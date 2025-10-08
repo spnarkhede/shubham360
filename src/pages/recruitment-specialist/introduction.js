@@ -7,6 +7,17 @@ import Link from '@docusaurus/Link';
 import { ArrowRight } from 'lucide-react';
 
 export default function RecruitmentSpecialistIntroduction() {
+  // Calculate years and months of experience dynamically from April 2019 to current date
+  const startDate = new Date('2019-04-01');
+  const currentDate = new Date();
+  const diffMonths = (currentDate.getFullYear() - startDate.getFullYear()) * 12 + (currentDate.getMonth() - startDate.getMonth());
+  const yearsOfExperience = Math.floor(diffMonths / 12);
+  const monthsOfExperience = diffMonths % 12;
+  
+  // Format the experience string in short format (e.g., 6.5 years)
+  const totalYears = yearsOfExperience + (monthsOfExperience / 12);
+  const shortExperienceString = `${totalYears.toFixed(1)} years`;
+
   return (
     <DashboardLayout
       role="recruitment-specialist"
@@ -16,7 +27,7 @@ export default function RecruitmentSpecialistIntroduction() {
     >
       <SectionTemplate
         title="Professional Summary"
-        subtitle="DevOps Engineer & Full Stack Developer with 6+ years of experience"
+        subtitle={`DevOps Engineer & Full Stack Developer with ${shortExperienceString} of experience in Germany`}
       >
         <div className={styles.introductionContent}>
           <div className={styles.profileImageContainer}>
@@ -47,7 +58,7 @@ export default function RecruitmentSpecialistIntroduction() {
             <div className={styles.keyHighlights}>
               <h3 className={styles.highlightsTitle}>Key Highlights</h3>
               <ul className={styles.highlightsList}>
-                <li>6+ years of experience in software development and DevOps</li>
+                <li>{shortExperienceString} of experience in software development and DevOps</li>
                 <li>Expertise in React, Node.js, Docker, Kubernetes, and AWS</li>
                 <li>Led multiple successful projects from conception to deployment</li>
                 <li>Strong problem-solving skills and attention to detail</li>

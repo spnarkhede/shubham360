@@ -1536,6 +1536,7 @@
     |-- .nojekyll
     |-- certificates
     |-- documents
+        |-- Resume_ShubhamNarkhede_InDetailed.pdf
         |-- summary_resume.pdf
     |-- img
         |-- badges

@@ -1536,7 +1536,7 @@
     |-- .nojekyll
     |-- certificates
     |-- documents
-        |-- Resume_ShubhamNarkhede_InDetailed.pdf
+        |-- detailed_resume.pdf
         |-- summary_resume.pdf
     |-- img
         |-- badges
@@ -1640,6 +1640,7 @@
         |-- profilesquare.png
         |-- testimonials
             |-- akshay.jpg
+            |-- alexander.jpg
             |-- andrea.jpg
             |-- anup.jpg
             |-- ashwini.jpg

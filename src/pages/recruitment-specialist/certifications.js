@@ -236,7 +236,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Dec 15, 2021",
       description: "An introduction to building interactive web apps using React 17 fundamentals.",
       skills: ["React 17", "JavaScript", "Component Lifecycle", "JSX"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/cb023a50-6da5-40b7-8b24-ed3d0a140da0/certificate"
     },
     {
       name: "Flutter: Getting Started",
@@ -245,7 +245,16 @@ export default function RecruitmentSpecialistCertifications() {
       date: "May 10, 2021",
       description: "Learn the basics of Flutter to build beautiful cross-platform mobile apps.",
       skills: ["Flutter", "Dart", "Mobile App Development", "UI Design"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/6f47539d-5e21-4de7-9a72-d47576e08641/certificate"
+    },
+    {
+      name: "Flutter 2: The Big Picture",
+      issuer: "Simone Alessandria",
+      platform: "Pluralsight",
+      date: "May 10, 2021",
+      description: "Learn the basics of Flutter to build beautiful cross-platform mobile apps.",
+      skills: ["Flutter", "Dart", "Mobile App Development", "UI Design"],
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/94f47606-7753-4f24-a29f-4a0ad81957d3/certificate"
     },
     {
       name: "Building React Apps with TypeScript",
@@ -254,7 +263,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Combine TypeScript with React to create strongly typed, maintainable apps.",
       skills: ["React", "TypeScript", "Component Design", "Type Safety"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/072a7839-9311-4079-ac9f-c5e8e2603c51/certificate"
     },
     {
       name: "Choosing a React Framework",
@@ -263,7 +272,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Evaluate and select the right React framework for your project needs.",
       skills: ["React", "Framework Comparison", "Project Architecture"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/a11cc0ce-b714-463b-9fae-194596c4c9fa/certificate"
     },
     {
       name: "Optimize Performance for React",
@@ -272,7 +281,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Learn techniques to improve the performance of your React applications.",
       skills: ["React", "Performance Optimization", "Rendering", "Profiling"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/655db88b-5ea8-4124-a3aa-19296e5b2b4a/certificate"
     },
     {
       name: "Calling APIs with React 17",
@@ -281,7 +290,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Master API integration in React 17 apps to fetch and display dynamic data.",
       skills: ["React 17", "APIs", "Fetch", "Async Programming"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/213b340a-2d07-4e4a-82f7-217c7dad08c1/certificate"
     },
     {
       name: "Using React 17 Hooks",
@@ -290,7 +299,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 29, 2021",
       description: "Implement React Hooks to manage state and side effects efficiently.",
       skills: ["React 17", "Hooks", "State Management", "Functional Components"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/73649873-9a51-4e1e-9dbf-3073c4a0e4f6/certificate"
     },
     {
       name: "Testing React 16 Components",
@@ -299,7 +308,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Learn techniques for unit and integration testing in React 16 apps.",
       skills: ["React 16", "Testing", "Jest", "Component Validation"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/28bb8507-59db-4b3e-a046-736e6998fbca/certificate"
     },
     {
       name: "Server Rendering React 16 Components",
@@ -308,7 +317,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Implement server-side rendering for React 16 to improve performance and SEO.",
       skills: ["React 16", "SSR", "Performance", "SEO Optimization"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/28bb8507-59db-4b3e-a046-736e6998fbca/certificate"
     },
     {
       name: "Styling React Components",
@@ -317,7 +326,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Explore styling strategies for React components using modern CSS techniques.",
       skills: ["React", "CSS", "Component Styling", "Styled Components"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/1ef160de-fee5-4883-bb13-fbb7f90fba8d/certificate"
     },
     {
       name: "Managing React State",
@@ -326,7 +335,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Learn state management approaches for scalable React applications.",
       skills: ["React", "State Management", "Redux", "Context API"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/8b7ffce9-7573-4d3a-89dd-674b9b31f513/certificate"
     },
     {
       name: "Building Applications with React 18 and Redux",
@@ -335,7 +344,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 28, 2021",
       description: "Create modern React 18 apps leveraging Redux for predictable state management.",
       skills: ["React 18", "Redux", "State Management", "Modern JavaScript"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/00454b2e-e8d2-43c1-9424-aa542d120404/certificate"
     },
     {
       name: "React: The Big Picture",
@@ -344,7 +353,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 26, 2021",
       description: "Understand React’s architecture, concepts, and ecosystem in one overview course.",
       skills: ["React", "JavaScript", "Component-Based Architecture", "Ecosystem"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/80fdd67f-b801-4bb8-bcd7-a0ba598643b5/certificate"
     },
     {
       name: "Continuous Monitoring: The Big Picture",
@@ -353,7 +362,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 23, 2021",
       description: "Learn the principles and benefits of continuous monitoring in software environments.",
       skills: ["Continuous Monitoring", "DevOps", "Observability"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/a06e37a3-dc7d-4ec8-8253-327cac8bafdc/certificate"
     },
     {
       name: "Testing Automation: The Big Picture",
@@ -362,7 +371,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 23, 2021",
       description: "Get a high-level understanding of automated testing and its importance in software delivery.",
       skills: ["Test Automation", "Quality Assurance", "DevOps"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/3792258d-08ee-426c-aa53-c095c716b58d/certificate"
     },
     {
       name: "Infrastructure from Code: The Big Picture",
@@ -371,7 +380,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Explore the concept of defining infrastructure through code for consistency and automation.",
       skills: ["Infrastructure as Code", "DevOps", "Automation"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/ec4e06e8-0cde-4df4-8de8-b981e8c8efb6/certificate"
     },
     {
       name: "Orchestration and Automation: The Big Picture",
@@ -380,7 +389,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Understand orchestration and automation processes in modern IT operations.",
       skills: ["Orchestration", "Automation", "DevOps"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/86c71275-fe65-415d-97cb-2615c7e8ffce/certificate"
     },
     {
       name: "Continuous Integration and Continuous Delivery: The Big Picture",
@@ -389,7 +398,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Learn CI/CD practices to streamline development and deployment pipelines.",
       skills: ["CI/CD", "DevOps", "Automation", "Continuous Delivery"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/06c4af54-d1b8-4399-8211-a1a329a7aff6/certificate"
     },
     {
       name: "Test-driven Development: The Big Picture",
@@ -398,7 +407,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Understand the principles of test-driven development and its benefits.",
       skills: ["TDD", "Unit Testing", "Software Quality"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/ca36297b-51f4-4895-a91c-899cd512506e/certificate"
     },
     {
       name: "AgilePM® Project Management",
@@ -407,7 +416,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "An introduction to Agile Project Management practices and frameworks.",
       skills: ["AgilePM", "Project Management", "Agile Methodology"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/2c4fc12d-1269-4772-9215-93260b65728c/certificate"
     },
     {
       name: "Implementing DevOps in the Real World",
@@ -416,7 +425,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Practical strategies to implement DevOps practices effectively in organizations.",
       skills: ["DevOps", "Continuous Delivery", "Automation"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/8af477a5-c4a3-420d-8d5b-19517a5b1e4f/certificate"
     },
     {
       name: "DevOps: The Big Picture",
@@ -425,7 +434,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Learn the foundational concepts of DevOps and its value to modern software development.",
       skills: ["DevOps", "Collaboration", "Automation"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/eedd48d4-6b23-4705-827f-3a15f81161dc/certificate"
     },
     {
       name: "Relational Database Design",
@@ -434,7 +443,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 22, 2021",
       description: "Learn the principles of designing efficient relational databases.",
       skills: ["Database Design", "SQL", "Normalization"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/2cc54889-def9-4c8f-9911-11116631a73e/certificate"
     },
     {
       name: "phpMyAdmin Fundamentals",
@@ -443,7 +452,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 21, 2021",
       description: "Master phpMyAdmin tools for managing MySQL databases efficiently.",
       skills: ["phpMyAdmin", "MySQL", "Database Management"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/ae76e239-525f-4ac8-9cbb-779572ccb71e/certificate"
     },
     {
       name: "MySQL Query Optimization and Performance Tuning",
@@ -452,7 +461,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 21, 2021",
       description: "Optimize MySQL queries to improve database performance and scalability.",
       skills: ["MySQL", "Query Optimization", "Performance Tuning"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/19846e62-7fb0-441c-9508-f585db56804c/certificate"
     },
     {
       name: "MySQL Backup and Recovery Fundamentals",
@@ -461,7 +470,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 21, 2021",
       description: "Learn strategies for backing up and recovering MySQL databases securely.",
       skills: ["MySQL", "Backup", "Recovery", "Database Management"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/fc9f130b-d4b7-4b0f-bb8d-d362de6df7e3/certificate"
     },
     {
       name: "Introduction to SQL",
@@ -470,7 +479,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 21, 2021",
       description: "Learn the basics of SQL for querying and managing relational databases.",
       skills: ["SQL", "Database Queries", "Data Management"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/723a9c4f-79d2-467e-9b1f-71654ccaa3a2/certificate"
     },
     {
       name: "MySQL Indexing for Performance",
@@ -479,7 +488,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 20, 2021",
       description: "Understand indexing strategies to boost MySQL database performance.",
       skills: ["MySQL", "Indexing", "Performance Optimization"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/4497a058-726a-4c5c-9106-f27bfc205eaa/certificate"
     },
     {
       name: "MySQL Workbench Guided Tour",
@@ -488,7 +497,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 20, 2021",
       description: "Learn how to navigate and use MySQL Workbench effectively for database tasks.",
       skills: ["MySQL", "MySQL Workbench", "Database Management"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/c0f1f6bb-d275-456d-b455-a13fadddb1dc/certificate"
     },
     {
       name: "MySQL Fundamentals Part 2",
@@ -497,7 +506,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 20, 2021",
       description: "Advanced concepts in MySQL to manage and query databases efficiently.",
       skills: ["MySQL", "Advanced SQL", "Database Management"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/4829da96-7c94-4149-8bdc-1941f1abac5e/certificate"
     },
     {
       name: "Angular Routing",
@@ -506,7 +515,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Apr 8, 2021",
       description: "Learn how to configure and manage navigation in Angular applications.",
       skills: ["Angular", "Routing", "SPA", "Navigation"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/01cc5a0e-4a99-4e27-ad9d-3157eb1b67ba/certificate"
     },
     {
       name: "Building Applications with React 16 and Flux 3",
@@ -515,7 +524,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Learn to build scalable React 16 apps using the Flux architecture.",
       skills: ["React 16", "Flux", "State Management", "Component Design"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/f95d0bc9-ba3a-4380-809d-98fd382e4c9d/certificate"
     },
     {
       name: "TypeScript 4: Getting Started",
@@ -524,7 +533,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Introduction to TypeScript 4 for building type-safe JavaScript applications.",
       skills: ["TypeScript 4", "JavaScript", "Type Safety", "Object-Oriented Programming"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/59ef547c-8bd8-473c-827d-9902af15ad46/certificate"
     },
     {
       name: "Spring: The Big Picture",
@@ -533,7 +542,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Understand the Spring Framework and its role in modern Java development.",
       skills: ["Spring Framework", "Java", "Dependency Injection", "Web Development"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/19d5cfd1-6a53-4919-a499-f46c3581152b/certificate"
     },
     {
       name: "Spring Framework: Spring MVC 5 Fundamentals",
@@ -542,7 +551,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Learn the fundamentals of building web applications using Spring MVC 5.",
       skills: ["Spring MVC 5", "Java", "Web Development", "MVC Pattern"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/4c9ac681-7e90-4d7c-80eb-5f744471889b/certificate"
     },
     {
       name: "Introduction to TensorFlow",
@@ -551,7 +560,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Get started with TensorFlow to create and train machine learning models.",
       skills: ["TensorFlow", "Machine Learning", "Python", "Neural Networks"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/6e8ce1fb-c738-4381-90cd-c3a22067f6f8/certificate"
     },
     {
       name: "One Codebase, Many Screens - Flutter in a Nutshell: CodeMash",
@@ -560,7 +569,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 10, 2021",
       description: "Learn how Flutter enables a single codebase to target multiple devices seamlessly.",
       skills: ["Flutter", "Cross-Platform Development", "Dart", "UI Design"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/13af37c5-c264-4cf2-af53-836a78b376f2/certificate"
     },
     {
       name: "Getting Started with Your First SQL Server Instance",
@@ -569,7 +578,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Learn to set up and configure your first SQL Server instance efficiently.",
       skills: ["SQL Server", "Database Administration", "SQL", "Configuration"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/197f800e-f238-480b-8351-354ec3e47ab5/certificate"
     },
     {
       name: "Python: The Big Picture",
@@ -578,7 +587,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Get an overview of Python’s capabilities for software development and data tasks.",
       skills: ["Python", "Programming", "Scripting", "Software Development"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/1c445fc4-c48e-4cc0-89d4-0bb3cc123ef2/certificate"
     },
     {
       name: "Google Cloud Platform Big Data and Machine Learning Fundamentals",
@@ -587,7 +596,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Explore Google Cloud tools for big data processing and machine learning applications.",
       skills: ["Google Cloud", "Big Data", "Machine Learning", "Cloud Computing"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/3cf29611-7e43-4f3c-9537-504651cb027c/certificate"
     },
     {
       name: "Ethical Hacking: Social Engineering",
@@ -596,7 +605,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Understand social engineering tactics and strategies to improve security awareness.",
       skills: ["Ethical Hacking", "Social Engineering", "Cybersecurity", "Risk Assessment"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/6e87783c-6551-400c-af52-9b1256451640/certificate"
     },
     {
       name: "MySQL Fundamentals",
@@ -605,7 +614,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 9, 2021",
       description: "Learn core concepts and techniques for managing MySQL databases effectively.",
       skills: ["MySQL", "Database Fundamentals", "SQL", "Data Management"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/3e93b6ad-5432-4487-97e7-266dc0d6e509/certificate"
     },
     {
       name: "PHP Fundamentals",
@@ -614,7 +623,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Learn the essentials of PHP for building dynamic web applications.",
       skills: ["PHP", "Web Development", "Scripting", "Server-Side Programming"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/7602819e-1a26-4308-a5bf-06520bdf88e1/certificate"
     },
     {
       name: "Angular NgRx: Getting Started",
@@ -623,7 +632,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Learn how to manage Angular app state using the NgRx framework.",
       skills: ["Angular", "NgRx", "State Management", "Reactive Programming"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/59f77e9f-78a4-457c-8055-83ca9137d556/certificate"
     },
     {
       name: "Angular Reactive Forms",
@@ -632,7 +641,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Build powerful and flexible forms in Angular using reactive patterns.",
       skills: ["Angular", "Reactive Forms", "Form Validation", "TypeScript"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/66a1b3cd-1d38-4962-952a-78bf63ae8a74/certificate"
     },
     {
       name: "Angular Architecture and Best Practices",
@@ -641,7 +650,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Learn best practices and architectural strategies for building Angular apps.",
       skills: ["Angular", "Architecture", "Best Practices", "TypeScript"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/cb3d0dbc-8c19-4003-983e-a1ff4cdbd7fd/certificate"
     },
     {
       name: "Styling Applications with Angular Material",
@@ -650,7 +659,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 8, 2021",
       description: "Learn to create visually appealing Angular apps using Angular Material.",
       skills: ["Angular", "Angular Material", "UI Design", "Component Styling"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/6611d058-2eb5-4b9b-86e8-6fad2703a94a/certificate"
     },
     {
       name: "Angular 12 Services",
@@ -659,7 +668,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 7, 2021",
       description: "Understand Angular 12 services to share data and logic across components.",
       skills: ["Angular 12", "Services", "Dependency Injection", "TypeScript"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/59bd5c8f-df7d-4691-990c-f7499f8e9eac/certificate"
     },
     {
       name: "Angular CLI",
@@ -668,7 +677,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 7, 2021",
       description: "Learn Angular CLI commands and workflow to streamline development.",
       skills: ["Angular", "CLI", "Project Setup", "Development Workflow"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/7a5ea0d6-67cb-4b91-8d8b-8648e1d30725/certificate"
     },
     {
       name: "Securing Angular Apps with OpenID Connect and OAuth 2",
@@ -677,7 +686,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 7, 2021",
       description: "Implement authentication and authorization in Angular using OAuth 2 and OpenID.",
       skills: ["Angular", "Security", "OAuth 2", "OpenID Connect"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/7f9a2bbe-1cbb-4597-a954-a8205b1f28be/certificate"
     },
     {
       name: "Angular 13 Best Practices",
@@ -686,7 +695,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Learn recommended coding standards and practices for Angular 13 development.",
       skills: ["Angular 13", "Best Practices", "TypeScript", "Development Workflow"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/8525a84d-8923-43d7-b752-6fa8d94b2a0a/certificate"
     },
     {
       name: "Developing Packages in Flutter",
@@ -695,7 +704,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Create reusable Flutter packages to simplify app development.",
       skills: ["Flutter", "Package Development", "Dart", "Modular Design"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/a44b8fc9-394a-4b9c-ba3c-f186bebe4735/certificate"
     },
     {
       name: "Creating Localized Apps with Flutter 2",
@@ -704,7 +713,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Implement localization in Flutter 2 apps for multi-language support.",
       skills: ["Flutter 2", "Localization", "Dart", "Internationalization"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/b9b3e327-c2d6-43a2-be8b-03ecbd5541fa/certificate"
     },
     {
       name: "Creating Forms with Flutter 1",
@@ -713,7 +722,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Build interactive and validated forms in Flutter 1 applications.",
       skills: ["Flutter 1", "Forms", "Validation", "UI Design"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/bcc46880-41e5-4627-a545-33996aa629b5/certificate"
     },
     {
       name: "Persisting Data Locally with Flutter 2",
@@ -722,7 +731,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Learn to store and retrieve data locally in Flutter 2 apps.",
       skills: ["Flutter 2", "Local Storage", "Dart", "State Management"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/a7482890-2e07-4ab1-b0dc-a9dc684a3d1d/certificate"
     },
     {
       name: "Managing State in Flutter 1",
@@ -731,7 +740,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Master state management techniques for efficient Flutter 1 development.",
       skills: ["Flutter 1", "State Management", "Dart", "Reactive Programming"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/71098006-3523-46c3-88fa-233141ffc364/certificate"
     },
     {
       name: "Creating a Connected App with Flutter 1",
@@ -740,7 +749,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Build Flutter 1 apps that connect seamlessly to APIs and services.",
       skills: ["Flutter 1", "API Integration", "Dart", "Networking"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/c5c4c789-a7a9-4f4d-bd2a-4bb588633e8d/certificate"
     },
     {
       name: "Creating Layouts with Flutter 2",
@@ -749,7 +758,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Learn to design responsive and adaptive layouts in Flutter 2 applications.",
       skills: ["Flutter 2", "Layouts", "UI Design", "Responsive Design"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/1e9ebe82-d418-4953-b422-c8f3d1d6ab80/certificate"
     },
     {
       name: "Angular 6: The Big Picture",
@@ -758,7 +767,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Get an overview of Angular 6 features and its ecosystem for modern web apps.",
       skills: ["Angular 6", "Web Development", "TypeScript", "SPA"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/7c8fb1e8-044d-4067-9928-0ab7e25863f0/certificate"
     },
     {
       name: "Angular 7 Crash Course",
@@ -767,7 +776,7 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Feb 6, 2021",
       description: "Quickly learn Angular 7 essentials to build dynamic web applications.",
       skills: ["Angular 7", "TypeScript", "Web Development", "SPA"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/99a8390c-0ec4-46e2-ad9f-fd9b14b9e6a8/certificate"
     },
     {
       name: "Angular Forms",
@@ -776,8 +785,109 @@ export default function RecruitmentSpecialistCertifications() {
       date: "Jan 7, 2021",
       description: "Master Angular forms to capture and validate user input efficiently.",
       skills: ["Angular", "Forms", "Validation", "Reactive Programming"],
-      verificationUrl: "https://app.pluralsight.com/profile/shubham-narkhede-44"
-    }
+      verificationUrl: "https://app.pluralsight.com/learner/user/courses/v2/604a909e-ed7f-4d4b-949d-b341dc1d5046/certificate"
+    },
+    // LearnVern more certifications
+    { 
+      name: "A Webinar on How to Build Android App", 
+      issuer: "LearnVern", 
+      platform: "LearnVern", 
+      date: "February 06, 2021", 
+      description: "Introductory webinar on Android app development covering app structure, layouts, and basic coding concepts.", 
+      skills: ["Android Development", "Java", "Mobile App Development", "Flutter", "Dart", "React Native"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/learnvern_certificate1-a501dd11e4164d57507ccaf62bd34e9e.pdf" 
+    },
+    // Udemy Certifications 
+    { 
+      name: "Complete Machine Learning Course: Go from Zero to Hero", 
+      issuer: "Masud Rana", 
+      platform: "Udemy", 
+      date: "April 08, 2020", 
+      description: "Comprehensive introduction to machine learning, including supervised and unsupervised learning, algorithms, and real-world applications.", 
+      skills: ["Machine Learning", "Data Science", "Python", "Supervised Learning", "Unsupervised Learning"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate1-533933943ec7420b91761746267ed43e.pdf" 
+    },
+    { 
+      name: "Introduction to FPGA's and Prototyping with the Elbert", 
+      issuer: "Stephen Borsay", 
+      platform: "Udemy", 
+      date: "April 24, 2020", 
+      description: "Learn the basics of FPGA architecture, digital logic design, and hands-on prototyping with the Elbert board.", 
+      skills: ["FPGA", "Digital Logic", "Prototyping", "Hardware Design"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate2-2555f615276f1f98fb2118495979d83d.pdf" 
+    },  
+    { 
+      name: "The Complete Self-Driving Car Course - Applied Deep Learning", 
+      issuer: "Rayan Slim & Sarmad Tanveer", 
+      platform: "Udemy", 
+      date: "April 24, 2020", 
+      description: "Hands-on deep learning applications in self-driving cars including computer vision, lane detection, and neural networks.", 
+      skills: ["Deep Learning", "Computer Vision", "Autonomous Vehicles", "Python", "Neural Networks"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate3-18a4823cfa77dcb28f263557b09c6243.pdf" 
+    },  
+    { 
+      name: "HTML and CSS Basics", 
+      issuer: "Udemy", 
+      platform: "Udemy", 
+      date: "June 10, 2018", 
+      description: "Beginner-friendly course covering the essentials of HTML structure and CSS styling for building web pages.", 
+      skills: ["HTML", "CSS", "Web Development", "Frontend Design"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate5-1cf8986621fd2c95f91c51c79343b3d3.pdf" 
+    },  
+    { 
+      name: "Data Structures and Algorithms in Python", 
+      issuer: "Muhammad Hamza Abdul Rehman", 
+      platform: "Udemy", 
+      date: "April 24, 2020", 
+      description: "Learn to implement and optimize core data structures and algorithms using Python programming language.", 
+      skills: ["Python", "Data Structures", "Algorithms", "Problem Solving"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate6-d1df4725d5cfcd8639ed0545707a0ab8.pdf" 
+    },  
+    { 
+      name: "The Complete Python 3 Course: Beginner to Advanced", 
+      issuer: "Joseph Delgadillo & Nick Germaine", 
+      platform: "Udemy", 
+      date: "May 04, 2020", 
+      description: "Full Python 3 course covering programming fundamentals, OOP, file handling, and advanced features.", 
+      skills: ["Python", "Object-Oriented Programming", "Data Handling", "Problem Solving"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate7-551519fb7c9d28c1d64aaaa9eebd3714.pdf" 
+    },  
+    { 
+      name: "Big Data and Hadoop Essentials", 
+      issuer: "Nitesh Jain", 
+      platform: "Udemy", 
+      date: "May 10, 2018", 
+      description: "Fundamentals of big data concepts and Hadoop ecosystem including HDFS, MapReduce, and related tools.", 
+      skills: ["Big Data", "Hadoop", "MapReduce", "Data Processing"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate8-6b868862659102b081e4f55c1aedbd9b.pdf" 
+    },  
+    { 
+      name: "Web Development (HTML) - For Beginner", 
+      issuer: "Harsha Vardhan", 
+      platform: "Udemy", 
+      date: "June 10, 2018", 
+      description: "Beginner course on web development fundamentals using HTML to create static web pages.", 
+      skills: ["HTML", "Web Development", "Frontend Basics"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate9-6669568dff1456204c064c5555b93311.pdf" 
+    },  
+    { 
+      name: "Build Your Own Cyber Lab at Home", 
+      issuer: "Kyle Slosek", 
+      platform: "Udemy", 
+      date: "May 18, 2018", 
+      description: "Practical guide to setting up a personal cybersecurity lab environment for penetration testing and learning.", 
+      skills: ["Cybersecurity", "Networking", "Penetration Testing", "Lab Setup"], 
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate10-128edfcae3c8ef39c84e224e7c95eb41.pdf" 
+    },  
+    { 
+      name: "Getting Started as a Web Developer", 
+      issuer: "RefactorU LLC", 
+      platform: "Udemy", 
+      date: "May 10, 2018", 
+      description: "Introductory course covering the fundamentals of web development, client-server concepts, and basic tools.", 
+      skills: ["Web Development", "HTML", "CSS", "JavaScript"],  
+      verificationUrl: "https://guide-book.vercel.app/assets/files/udemy_certificate11-ffe69b0a088395a5dfcb48c6dd791f9d.pdf" 
+    },
   ];
 
   // Get unique platforms and their counts
@@ -832,7 +942,16 @@ export default function RecruitmentSpecialistCertifications() {
       description: "This badge earner has an understanding of the possibilities and opportunities that data science, analytics and big data bring to new applications in any industry.",
       imageUrl: "/img/badges/data-science-foundations-level-1.png",
       verificationUrl: "https://www.credly.com/badges/e97fb38c-4adf-4e65-b992-ceea41718418/public_url"
-    }
+    },
+    { 
+      name: "Pluralsight: Badges", 
+      issuer: "Pluralsight", 
+      platform: "Pluralsight", 
+      date: "Throughout", 
+      description: " My learning accomplishments as I completed the courses and handons trainings while skilling up!", 
+      imageUrl: "/img/badges/pluralsightbadge.png",
+      verificationUrl: "https://app.pluralsight.com/profile/spnarkhede" 
+    } 
   ];
 
   // Function to render content toggle

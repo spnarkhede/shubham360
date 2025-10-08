@@ -1541,6 +1541,7 @@
         |-- badges
             |-- data-science-foundations-level-1.png
             |-- generative-ai-overview-for-project-managers.png
+            |-- pluralsightbadge.png
             |-- python-for-data-science.png
         |-- books
             |-- accounting101.jpg

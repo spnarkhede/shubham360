@@ -4,6 +4,11 @@ import styles from './styles.module.css';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
 const RecommendationCard = ({ recommendation, nameFormatter, index }) => {
+  // Add a check to ensure recommendation exists
+  if (!recommendation) {
+    return <div className={styles.recommendationCard}>Loading...</div>;
+  }
+
   return (
     <div className={styles.recommendationCard}>
       <div className={styles.recommendationHeader}>
@@ -19,7 +24,7 @@ const RecommendationCard = ({ recommendation, nameFormatter, index }) => {
           />
         ) : (
           <div className={styles.recommendationImagePlaceholder}>
-            {recommendation.firstName.charAt(0)}
+            {recommendation.firstName?.charAt(0) || 'A'}
           </div>
         )}
         <div className={styles.recommendationAuthor}>
@@ -37,7 +42,7 @@ const RecommendationCard = ({ recommendation, nameFormatter, index }) => {
             size={16} 
             className={clsx(
               styles.ratingStar,
-              i < recommendation.rating && styles.ratingStarFilled
+              i < (recommendation.rating || 0) && styles.ratingStarFilled
             )} 
           />
         ))}
@@ -123,11 +128,15 @@ const RecommendationsPanel = ({ recommendations = [], nameFormatter, className }
         </button>
         
         <div className={styles.recommendationsContainer}>
-          <RecommendationCard 
-            recommendation={recommendations[currentIndex]} 
-            nameFormatter={nameFormatter}
-            index={currentIndex}
-          />
+          {recommendations && recommendations.length > 0 && recommendations[currentIndex] ? (
+            <RecommendationCard 
+              recommendation={recommendations[currentIndex]} 
+              nameFormatter={nameFormatter}
+              index={currentIndex}
+            />
+          ) : (
+            <div>Loading recommendations...</div>
+          )}
         </div>
         
         <button 
@@ -140,7 +149,7 @@ const RecommendationsPanel = ({ recommendations = [], nameFormatter, className }
       </div>
       
       <div className={styles.recommendationIndicators}>
-        {recommendations.map((_, index) => (
+        {recommendations && recommendations.map((_, index) => (
           <button
             key={index}
             className={clsx(

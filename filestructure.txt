@@ -1637,6 +1637,16 @@
         |-- profileintro.png
         |-- profilepic.png
         |-- profilesquare.png
+        |-- testimonials
+            |-- akshay.jpg
+            |-- andrea.jpg
+            |-- anup.jpg
+            |-- ashwini.jpg
+            |-- deepak.jpg
+            |-- edgar.jpg
+            |-- jakob.jpg
+            |-- neeranjan.jpg
+            |-- selin.jpg
         |-- undraw_docusaurus_mountain.svg
         |-- undraw_docusaurus_react.svg
         |-- undraw_docusaurus_tree.svg

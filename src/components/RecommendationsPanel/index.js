@@ -68,7 +68,7 @@ const RecommendationsPanel = ({ recommendations = [], nameFormatter, className }
       setCurrentIndex((prevIndex) => 
         prevIndex === recommendations.length - 1 ? 0 : prevIndex + 1
       );
-    }, 8000);
+    }, 13000);
     
     return () => clearInterval(interval);
   }, [recommendations.length]);

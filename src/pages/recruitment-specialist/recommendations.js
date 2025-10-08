@@ -9,7 +9,7 @@ export default function RecruitmentSpecialistRecommendations() {
   const [showPasswordModal, setShowPasswordModal] = useState(false);
   const [password, setPassword] = useState('');
   const [passwordError, setPasswordError] = useState('');
-  const [unlockedTestimonials, setUnlockedTestimonials] = useState({}); // Changed from boolean to object
+  const [unlockedTestimonial, setUnlockedTestimonial] = useState(null); // Changed to store single index
   const [currentRecommendationIndex, setCurrentRecommendationIndex] = useState(null);
 
   // Extended recommendations data
@@ -112,11 +112,8 @@ export default function RecruitmentSpecialistRecommendations() {
     // For demo purposes, we'll use a simple password
     // In a real application, this should be handled securely on the backend
     if (password === 'portfolio') {
-      // Unlock only the specific testimonial
-      setUnlockedTestimonials(prev => ({
-        ...prev,
-        [currentRecommendationIndex]: true
-      }));
+      // Unlock only the specific testimonial that was requested
+      setUnlockedTestimonial(currentRecommendationIndex);
       setShowPasswordModal(false);
       setPassword('');
       setPasswordError('');
@@ -133,8 +130,8 @@ export default function RecruitmentSpecialistRecommendations() {
 
   // Function to hide last name
   const hideLastName = (recommendation, index) => {
-    // Check if this specific testimonial is unlocked
-    if (unlockedTestimonials[index]) return `${recommendation.firstName} ${recommendation.lastName}`;
+    // Check if this specific testimonial is the currently unlocked one
+    if (unlockedTestimonial === index) return `${recommendation.firstName} ${recommendation.lastName}`;
     
     // Keep first name, hide last name with blurred effect
     return (
@@ -184,7 +181,7 @@ export default function RecruitmentSpecialistRecommendations() {
                 }}
               />
               <div className={styles.featuredAuthorInfo}>
-                <h3>{unlockedTestimonials['featured'] ? "Dr. Alexander Boronka" : <span className={styles.hiddenName} onClick={() => showPasswordModalForRecommendation('featured')}><span>Dr. Alexander</span> <span className={styles.blurredName}>•••••</span> <Eye size={16} className={styles.eyeIcon} /></span>}</h3>
+                <h3>{unlockedTestimonial === 'featured' ? "Dr. Alexander Boronka" : <span className={styles.hiddenName} onClick={() => showPasswordModalForRecommendation('featured')}><span>Dr. Alexander</span> <span className={styles.blurredName}>•••••</span> <Eye size={16} className={styles.eyeIcon} /></span>}</h3>
                 <p>Product Manager for eMobility Services</p>
               </div>
             </div>

@@ -228,6 +228,86 @@ export default function RecruitmentSpecialistExperience() {
     }
   ];
 
+  const internshipItems = [
+    {
+      title: "Software Engineering Intern",
+      subtitle: "BMW Group",
+      location: "Munich, Germany",
+      period: "06/2019 – 09/2019",
+      content: "Worked on developing automotive software solutions for connected vehicle services, focusing on backend systems and data processing pipelines.",
+      achievements: [
+        "Developed a real-time data processing pipeline for vehicle telemetry data using Apache Kafka and Spark",
+        "Implemented RESTful APIs for vehicle status monitoring, reducing latency by 40%",
+        "Collaborated with cross-functional teams to integrate new features into the existing vehicle ecosystem",
+        "Created automated testing scripts that improved code coverage by 25%"
+      ],
+      tags: ["Java", "Spring Boot", "Apache Kafka", "Spark", "RESTful APIs", "Docker", "Git"],
+      icon: <Briefcase size={24} />,
+      color: "#0078D7",
+      expandable: true
+    },
+    {
+      title: "Full Stack Developer Intern",
+      subtitle: "Siemens AG",
+      location: "Berlin, Germany",
+      period: "01/2018 – 04/2018",
+      content: "Contributed to the development of web applications for industrial automation systems, working with both frontend and backend technologies.",
+      achievements: [
+        "Built responsive UI components using React and Redux, improving user experience scores by 30%",
+        "Developed backend services in Node.js for data visualization dashboards",
+        "Implemented unit tests with Jest, achieving 90% code coverage",
+        "Participated in Agile ceremonies and code reviews with senior developers"
+      ],
+      tags: ["React", "Node.js", "Redux", "Jest", "RESTful APIs", "MongoDB", "Git"],
+      icon: <Code size={24} />,
+      color: "#00A4EF",
+      expandable: true
+    }
+  ];
+
+  const thesisItems = [
+    {
+      title: "Master's Thesis",
+      subtitle: "Technical University of Chemnitz",
+      location: "Chemnitz, Germany",
+      collabWithCompany: "Bosch Rexroth AG",
+      period: "6 months",
+      content: "Development of an Automotive System Selector of Mobile Machinery for Sales Partner based on Azure Cloud Technology, integrating cloud computing, full-stack development, and business process automation to enhance operational efficiency and sales performance.",
+      achievements: [
+        "Developed a centralized business application using MBaaS to support CRM, ITSM, and CM, streamlining complex business operations for sales partners.",
+        "Utilized ReactJS, MongoDB, Power BI, DevOps, RESTful APIs, CI/CD Pipelines, NodeJS, and Azure Cloud hosting services to deliver a scalable, secure, and high-performing solution.",
+        "Automated manual engineering processes by analyzing large datasets of project records, enabling engineers to generate complete machine design files with material suggestions, resulting in improved efficiency, time reduction, and increased profitability.",
+        "Demonstrated mastery in cloud-based application development, integrating multiple business functions into a single, user-friendly platform, applying theoretical knowledge to real-world industrial challenges.",
+        "Conducted data-driven analysis to identify key optimization opportunities, providing actionable insights that contributed to strategic decision-making for mobile machinery sales.",
+        "Enhanced collaboration between sales partners, engineers, and internal stakeholders through an intuitive digital tool, improving communication and operational transparency.",
+        "Showcased ability to bridge academic research with industrial application, highlighting skills in full-stack development, cloud computing, business process automation, and data analytics."
+      ],
+      tags: ["ReactJS", "NodeJS", "Azure", "Cloud Computing", "Full-Stack Development", "DevOps", "Business Process Automation", "Data Analytics"],
+      icon: <GraduationCap size={24} />,
+      color: "#7FBA00",
+      expandable: true
+    },
+    {
+      title: "Bachelor's Thesis",
+      subtitle: "Rastrasant Tukadoji Maharaj Nagpur University, India",
+      location: "Nagpur, India",
+      collabWithCompany: "",
+      period: "6 months",
+      content: "Personalization of Search Engine by Using Server-Side Cache Based Approach, implementing a user-focused indexing and ranking system to deliver faster and more relevant search results.",
+      achievements: [
+        "Developed a web search engine indexer for ranking results retrieved from the WWW, implementing personalized URL ranking based on user behavior and cloud cache optimization.",
+        "Created a responsive and functional frontend using XHTML, CSS3, Java JSP, and Java development tools (JDK), ensuring seamless user interaction and integration with backend services.",
+        "Designed and integrated web services and APIs using JSON format to provide public data efficiently, supporting personalized recommendation results based on previous search history and user preferences.",
+        "Delivered a search-engine application that significantly improved user experience by providing quick, relevant, and personalized search results."
+      ],
+      tags: ["Java", "JSP", "XHTML", "CSS3", "JSON", "Web Development", "Search Engine", "Personalization", "Cloud Cache"],
+      icon: <GraduationCap size={24} />,
+      color: "#F25022",
+      expandable: true
+    }
+  ];
+  
+
   return (
     <DashboardLayout
       role="recruitment-specialist"
@@ -247,6 +327,20 @@ export default function RecruitmentSpecialistExperience() {
         subtitle="Academic background and qualifications"
       >
         <CustomExperienceTimeline items={educationItems} />
+      </SectionTemplate>
+
+       <SectionTemplate
+        title="Internships"
+        subtitle="Hands-on experience through industry internships"
+      >
+        <CustomExperienceTimeline items={internshipItems} />
+      </SectionTemplate>
+
+      <SectionTemplate
+        title="Thesis Projects"
+        subtitle="Research and academic thesis work"
+      >
+        <CustomExperienceTimeline items={thesisItems} />
       </SectionTemplate>
 
       <SectionTemplate

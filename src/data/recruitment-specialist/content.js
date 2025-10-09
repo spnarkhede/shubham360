@@ -49,13 +49,14 @@ export const certifications = [
 
 export const workEligibility = {
   status: "Authorized to work",
-  description: "I am authorized to work in the United States and do not require sponsorship for employment authorization at this time.",
-  sponsorship: "I do not require sponsorship for employment authorization at this time. All necessary documentation can be provided upon request, and I am eligible to start work immediately.",
-  relocation: "I am open to relocation opportunities both domestically and internationally. I have experience working in multiple countries and adapting to different work environments."
+  description: "Holder of German Niederlassungserlaubnis (Permanent Residence Permit) and citizen of India — no sponsorship required in Germany or across the EU.",
+  sponsorship: "No sponsorship required within Europe; may be required for roles outside the region.",
+  relocation: "Open to relocation and international opportunities, with proven adaptability across diverse work environments."
 };
 
+
 export const contactInfo = {
-  email: "shubhamnarkhede@gmail.com",
+  email: "shubhampnarkhede@gmail.com",
   phone: "+49 (0) 171-510-8059",
   location: "Available for Onsite/Hybrid/Remote work",
   linkedin: "https://linkedin.com/in/spnarkhede",

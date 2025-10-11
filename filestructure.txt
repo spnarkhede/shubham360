@@ -623,15 +623,6 @@
     |-- site-metadata.json
     |-- site-storage.json
 |-- .gitignore
-|-- 1. comprehensive_project_plan.md
-|-- 2. detailed_portfolio_sections.md
-|-- 3. frontend_plan.md
-|-- 4. backend_plan.md
-|-- 5. new_requirements_analysis.md
-|-- 6. notion_import_instructions.md
-|-- 7. technical_analysis.md
-|-- 8. Phase_1_Improvement.md
-|-- 9. Detailed Portfolio Sections.md
 |-- babel.config.js
 |-- blog
     |-- 2018
@@ -1295,7 +1286,17 @@
 |-- LICENSE
 |-- package-lock.json
 |-- package.json
-|-- PROJECT_STATUS.md
+|-- project_docs
+    |-- 1. comprehensive_project_plan.md
+    |-- 2. detailed_portfolio_sections.md
+    |-- 3. frontend_plan.md
+    |-- 4. backend_plan.md
+    |-- 5. new_requirements_analysis.md
+    |-- 6. notion_import_instructions.md
+    |-- 7. technical_analysis.md
+    |-- 8. Phase_1_Improvement.md
+    |-- 9. Detailed Portfolio Sections.md
+    |-- PROJECT_STATUS.md
 |-- README.md
 |-- remove-unused-lucide-icons.js
 |-- sidebars.ts

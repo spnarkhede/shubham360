@@ -33,7 +33,7 @@ export default function NavigationGuide() {
             <div className={styles.roleCardContent}>
               <h2 className={styles.roleTitle}>Recruitment Specialist</h2>
               <p className={styles.roleDescription}>
-                For hiring managers and recruiters looking for skilled professionals
+               A quick gateway for recruiters — discover my professional story, impact, and potential.
               </p>
               <div className={styles.roleCardFooter}>
                 <span className={styles.viewProfileText}>View Profile</span>
@@ -52,7 +52,7 @@ export default function NavigationGuide() {
             <div className={styles.roleCardContent}>
               <h2 className={styles.roleTitle}>Tech Enthusiast</h2>
               <p className={styles.roleDescription}>
-                For developers and technical professionals interested in technical insights
+                Bridging creativity and technology through experiments that inspire.
               </p>
               <div className={styles.roleCardFooter}>
                 <span className={styles.viewProfileText}>View Profile</span>
@@ -71,7 +71,7 @@ export default function NavigationGuide() {
             <div className={styles.roleCardContent}>
               <h2 className={styles.roleTitle}>Curious Visitor</h2>
               <p className={styles.roleDescription}>
-                For those who want to explore my journey, discoveries, and diverse interests
+                Passions that inspire, adventures that shape, and hobbies that delight.
               </p>
               <div className={styles.roleCardFooter}>
                 <span className={styles.viewProfileText}>View Profile</span>
@@ -89,7 +89,7 @@ export default function NavigationGuide() {
             <div className={styles.roleCardContent}>
               <h2 className={styles.roleTitle}>Growth Partner</h2>
               <p className={styles.roleDescription}>
-                For those interested in collaboration, mentorship, and partnership opportunities
+              Building stronger teams and ideas through collaboration and guidance.
               </p>
               <div className={styles.roleCardFooter}>
                 <span className={styles.viewProfileText}>View Profile</span>
@@ -110,7 +110,7 @@ export default function NavigationGuide() {
             <div className={styles.roleCardContent}>
               <h2 className={styles.roleTitle}>Product Designer</h2>
               <p className={styles.roleDescription}>
-                For those interested in design thinking, creative solutions, and visual storytelling
+                Turning ideas into intuitive, meaningful, and beautiful products.
               </p>
               <div className={styles.roleCardFooter}>
                 <span className={styles.viewProfileText}>View Profile</span>

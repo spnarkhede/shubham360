@@ -10,8 +10,8 @@ export default function RecruitmentSpecialistContact() {
     {
       icon: <Mail size={20} />,
       title: "Email",
-      value: "shubhamnarkhede@gmail.com",
-      link: "mailto:shubhamnarkhede@gmail.com",
+      value: "shubhampnarkhede@gmail.com",
+      link: "mailto:shubhampnarkhede@gmail.com",
       description: "Best for detailed inquiries and formal communication"
     },
     {
@@ -185,7 +185,7 @@ export default function RecruitmentSpecialistContact() {
               Connect on LinkedIn
             </a>
             <a 
-              href="mailto:shubhamnarkhede@gmail.com?subject=Job%20Opportunity%20Inquiry" 
+              href="mailto:shubhampnarkhede@gmail.com?subject=Job%20Opportunity%20Inquiry" 
               className={styles.quickActionButton}
             >
               <Mail size={20} />

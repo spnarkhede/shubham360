@@ -240,7 +240,7 @@ export default function RecruitmentSpecialistContinueWatching() {
             GitHub
           </a>
           <a 
-            href="mailto:shubhamnarkhede@gmail.com" 
+            href="mailto:shubhampnarkhede@gmail.com" 
             className={styles.socialLink}
           >
             Email

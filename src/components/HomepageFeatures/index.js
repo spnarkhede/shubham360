@@ -28,7 +28,7 @@ export function HeroSection() {
               <a href="https://linkedin.com/in/spnarkhede" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:shubhamnarkhede@gmail.com" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Email Contact">
+              <a href="mailto:shubhampnarkhede@gmail.com" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Email Contact">
                 <Mail size={20} />
               </a>
               <a href="/books" className="social-link" aria-label="Book Reviews">

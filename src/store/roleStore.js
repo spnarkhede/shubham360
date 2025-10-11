@@ -28,7 +28,7 @@ const useRoleStore = create((set) => ({
   roles: {
     'recruitment-specialist': {
       title: 'Recruitment Specialist',
-      description: 'Information tailored for hiring managers and recruiters',
+      description: 'Because great hiring starts with understanding the person behind the profession.',
       theme: 'light',
       tabs: [
         { id: 'introduction', label: 'Introduction' },
@@ -45,7 +45,7 @@ const useRoleStore = create((set) => ({
     },
     'product-designer': {
       title: 'Product Designer',
-      description: 'Design philosophy, creative process, and portfolio showcase',
+      description: 'Exploring the intersection of creativity, usability, and human emotion.',
       theme: 'design',
       tabs: [
         { id: 'introduction', label: 'Introduction' },
@@ -60,7 +60,7 @@ const useRoleStore = create((set) => ({
     },
     'tech-enthusiast': {
       title: 'Tech Enthusiast',
-      description: 'Technical insights and development resources for tech lovers',
+      description: 'Exploring innovation, technology, and the art of building the future',
       theme: 'tech',
       tabs: [
         { id: 'introduction', label: 'Introduction' },
@@ -74,8 +74,8 @@ const useRoleStore = create((set) => ({
       ]
     },
     'curious-visitor': {
-      title: 'Curious Visitor',
-      description: 'Explore my journey, discoveries, and diverse interests',
+      title: '💫 Life Beyond Work',
+      description: 'Explore my life beyond work — where creativity meets curiosity.',
       theme: 'curious',
       tabs: [
         { id: 'introduction', label: 'Introduction' },
@@ -91,7 +91,7 @@ const useRoleStore = create((set) => ({
     },
     'growth-partner': {
       title: 'Growth Partner',
-      description: 'Collaboration, mentorship, and partnership opportunities',
+      description: 'Collaborating for mutual growth, learning, and meaningful impact.',
       theme: 'growth',
       tabs: [
         { id: 'introduction', label: 'Introduction' },

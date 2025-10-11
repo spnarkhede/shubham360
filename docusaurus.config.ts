@@ -124,7 +124,7 @@ const config: Config = {
             { label: 'LinkedIn', href: 'https://linkedin.com/in/spnarkhede' },
             { label: 'Stack Overflow', href: 'https://stackoverflow.com/users/spnarkhede' },
             { label: 'Twitter', href: 'https://twitter.com/snarkhede1996' },
-            { label: 'Email', href: 'mailto:shubhamnarkhede@gmail.com' },
+            { label: 'Email', href: 'mailto:shubhampnarkhede@gmail.com' },
           ],
         },
         {

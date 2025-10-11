@@ -27,7 +27,7 @@ export default function Contact() {
                   </div>
                   <div className="contact-info-content">
                     <h3 className="contact-info-title">Email</h3>
-                    <a href="mailto:shubhamnarkhede@gmail.com" className="contact-info-value">shubhamnarkhede@gmail.com</a>
+                    <a href="mailto:shubhampnarkhede@gmail.com" className="contact-info-value">shubhampnarkhede@gmail.com</a>
                   </div>
                 </div>
                 

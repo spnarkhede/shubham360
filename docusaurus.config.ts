@@ -11,7 +11,7 @@ const config: Config = {
   // baseUrl: ciInfo.GITHUB_ACTIONS ? '/portfolio/' : '/',
   baseUrl: '/',
   organizationName: 'spnarkhede',
-  projectName: 'shubham360',
+  projectName: 'shubham360.github.io',
   deploymentBranch: 'gh-pages', // this is where the build will go
   trailingSlash: false,
   onBrokenLinks: 'ignore',

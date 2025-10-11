@@ -1297,7 +1297,7 @@
     |-- 8. Phase_1_Improvement.md
     |-- 9. Detailed Portfolio Sections.md
     |-- PROJECT_STATUS.md
-|-- README.md
+    |-- README.md
 |-- remove-unused-lucide-icons.js
 |-- sidebars.ts
 |-- src

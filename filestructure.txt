@@ -1500,8 +1500,6 @@
             |-- introsample.js
             |-- personality.js
             |-- styles.module.css
-            |-- travel.js
-            |-- wellness.js
         |-- docusaurus.module.css
         |-- growth-partner
             |-- index.js

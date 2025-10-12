@@ -607,6 +607,7 @@
     |-- docusaurus-plugin-content-pages
         |-- default
             |-- site-src-pages-markdown-page-md-393.json
+            |-- site-src-pages-recruitment-specialist-recruiter-curated-data-md-a59.json
             |-- __plugin.json
     |-- docusaurus-plugin-debug
         |-- default
@@ -623,6 +624,9 @@
     |-- site-metadata.json
     |-- site-storage.json
 |-- .gitignore
+|-- 1. RecruiterCuratedData.md
+|-- 2. TechEnthusiast.md
+|-- 3. CuriousVisitor.md
 |-- babel.config.js
 |-- blog
     |-- 2018

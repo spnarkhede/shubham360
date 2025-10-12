@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
@@ -6,6 +6,26 @@ import Link from '@docusaurus/Link';
 import { ArrowRight, Code, Book, Briefcase, Heart, User, Sparkles, Target, Lightbulb, Zap } from 'lucide-react';
 
 export default function CuriousVisitorIntroduction() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  
+  // Array of 5 images for the carousel
+  const carouselImages = [
+    { src: "/img/painterprofile.png", alt: "Shubham Narkhede - Art" },
+    { src: "/img/readerprofile.jpeg", alt: "Shubham Narkhede - Reader" },
+    { src: "/img/handpanprofile.png", alt: "Shubham Narkhede - Music" },
+    { src: "/img/tabletennisprofile.png", alt: "Shubham Narkhede - Sports" },
+    { src: "/img/workoutprofile.png", alt: "Shubham Narkhede - Fitness" }
+  ];
+
+  // Auto-advance carousel every 6 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide(prev => (prev + 1) % carouselImages.length);
+    }, 10000);
+    
+    return () => clearInterval(interval);
+  }, [carouselImages.length]);
+
   const interestAreas = {
     "Technology": [
       "Web Development", "Cloud Computing", "DevOps", "AI/ML", "Open Source", "Software Architecture", "Mobile Apps", "Data Analytics"
@@ -121,11 +141,11 @@ export default function CuriousVisitorIntroduction() {
         <div className={styles.profileLayout}>
           <div className={styles.profileText}>
             <p className={styles.summaryText}>
-              Beyond job titles and technical frameworks, I’m the kind of person who notices the little wonders: sunlight quilting the pavement, the perfect rhythm of a solved problem, or a chance conversation that changes the day. My curiosity travels beyond screens — it reaches into people, places, and the curious threads that connect cultures and ideas.
+              Beyond job titles and technical frameworks, I'm the kind of person who notices the little wonders: sunlight quilting the pavement, the perfect rhythm of a solved problem, or a chance conversation that changes the day. My curiosity travels beyond screens — it reaches into people, places, and the curious threads that connect cultures and ideas.
             </p>
 
             <p className={styles.summaryText}>
-              I value honesty, steady growth, and conversations that matter. I believe passions outside the office — whether messy, quiet, or wildly social — sharpen how I think and create. So when I’m not debugging, I’m learning from hikes, sketches, or the unexpected insights of a late-night chat.
+              I value honesty, steady growth, and conversations that matter. I believe passions outside the office — whether messy, quiet, or wildly social — sharpen how I think and create. So when I'm not debugging, I'm learning from hikes, sketches, or the unexpected insights of a late-night chat.
             </p>
 
             <p className={styles.summaryText}>
@@ -133,7 +153,7 @@ export default function CuriousVisitorIntroduction() {
             </p>
 
             <p className={styles.summaryText}>
-              I’m also a wanderer and a listener — traveling to learn new rhythms, playing frequency instruments to feel sound as texture, and reading books that nudge my thinking. Each hobby teaches me something useful: patience, pattern-recognition, or a new way to see the world. That curiosity is the constant — energetic, open, and easily delighted.
+              I'm also a wanderer and a listener — traveling to learn new rhythms, playing frequency instruments to feel sound as texture, and reading books that nudge my thinking. Each hobby teaches me something useful: patience, pattern-recognition, or a new way to see the world. That curiosity is the constant — energetic, open, and easily delighted.
             </p>
             
             <div className={styles.ctaButtons}>
@@ -148,15 +168,33 @@ export default function CuriousVisitorIntroduction() {
           </div>
           
           <div className={styles.profileImageContainer}>
-            <img 
-              src="/img/painterprofile.png" 
-              alt="Shubham Narkhede" 
-              className={styles.profileImage}
-              onError={(e) => {
-                e.target.onerror = null;
-                e.target.src="/img/default-profile.png";
-              }}
-            />
+            <div className={styles.carousel}>
+              {carouselImages.map((image, index) => (
+                <div 
+                  key={index} 
+                  className={`${styles.carouselSlide} ${index === currentSlide ? styles.active : ''}`}
+                >
+                  <img 
+                    src={image.src} 
+                    alt={image.alt} 
+                    className={styles.carouselImage}
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      e.target.src="/img/default-profile.png";
+                    }}
+                  />
+                </div>
+              ))}
+              <div className={styles.carouselIndicators}>
+                {carouselImages.map((_, index) => (
+                  <div 
+                    key={index} 
+                    className={`${styles.carouselIndicator} ${index === currentSlide ? styles.active : ''}`}
+                    onClick={() => setCurrentSlide(index)}
+                  />
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </SectionTemplate>

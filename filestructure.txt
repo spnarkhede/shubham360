@@ -1491,10 +1491,14 @@
         |-- contact.js
         |-- curious-visitor
             |-- books.js
+            |-- components
+                |-- PersonalityChart.js
+                |-- PersonalityChart.module.css
             |-- creativity.js
             |-- index.js
             |-- introduction.js
             |-- introsample.js
+            |-- personality.js
             |-- styles.module.css
             |-- travel.js
             |-- wellness.js
@@ -1523,8 +1527,6 @@
         |-- recruitment-specialist
             |-- certifications.js
             |-- components
-                |-- PersonalityChart.js
-                |-- PersonalityChart.module.css
                 |-- ProfessionalTimeline.js
                 |-- ProfessionalTimeline.module.css
             |-- contact.js
@@ -1532,7 +1534,6 @@
             |-- experience.js
             |-- index.js
             |-- introduction.js
-            |-- personality.js
             |-- projects.js
             |-- recommendations.js
             |-- resume.js

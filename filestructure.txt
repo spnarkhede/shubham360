@@ -627,6 +627,8 @@
 |-- 1. RecruiterCuratedData.md
 |-- 2. TechEnthusiast.md
 |-- 3. CuriousVisitor.md
+|-- 4. GrowthPartner.md
+|-- 5. ProductDesigner.md
 |-- babel.config.js
 |-- blog
     |-- 2018

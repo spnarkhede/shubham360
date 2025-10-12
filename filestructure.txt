@@ -1654,13 +1654,16 @@
         |-- docusaurus.png
         |-- favicon.ico
         |-- handpanprofile.png
+        |-- linearts
         |-- logo.png
         |-- painterprofile.png
+        |-- paintings
         |-- profile.png
         |-- profileintro.png
         |-- profilepic.png
         |-- profilesquare.png
         |-- readerprofile.jpeg
+        |-- sketches
         |-- tabletennisprofile.png
         |-- testimonials
             |-- akshay.jpg

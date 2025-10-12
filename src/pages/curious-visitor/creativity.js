@@ -16,19 +16,22 @@ export default function CuriousVisitorCreativity() {
   // Sample gallery data - you can replace this with actual data
   const galleryData = {
     sketches: [
-      { id: 1, src: '/img/art/sketch1.jpg', alt: 'Sketch 1', title: 'Urban Sketch' },
-      { id: 2, src: '/img/art/sketch2.jpg', alt: 'Sketch 2', title: 'Nature Study' },
-      { id: 3, src: '/img/art/sketch3.jpg', alt: 'Sketch 3', title: 'Portrait Study' }
+        { id: 1, src: '/img/sketches/sketch1.jpg', alt: 'Sketch 1', title: 'Urban Sketch' },
+        { id: 2, src: '/img/sketches/sketch2.jpg', alt: 'Sketch 2', title: 'Nature Study' },
+        { id: 3, src: '/img/sketches/sketch3.jpg', alt: 'Sketch 3', title: 'Portrait Study' },
+        { id: 4, src: '/img/sketches/sketch1.jpg', alt: 'Sketch 4', title: 'Urban Sketch' },
+        { id: 5, src: '/img/sketches/sketch2.jpg', alt: 'Sketch 5', title: 'Nature Study' },
+        { id: 6, src: '/img/sketches/sketch3.jpg', alt: 'Sketch 6', title: 'Portrait Study' }
     ],
     painting: [
-      { id: 1, src: '/img/art/painting1.jpg', alt: 'Painting 1', title: 'Watercolor Landscape' },
-      { id: 2, src: '/img/art/painting2.jpg', alt: 'Painting 2', title: 'Acrylic Portrait' },
-      { id: 3, src: '/img/art/painting3.jpg', alt: 'Painting 3', title: 'Oil Still Life' }
+      { id: 1, src: '/img/paintings/painting1.jpg', alt: 'Painting 1', title: 'Watercolor Landscape' },
+      { id: 2, src: '/img/paintings/painting2.jpg', alt: 'Painting 2', title: 'Acrylic Portrait' },
+      { id: 3, src: '/img/paintings/painting3.jpg', alt: 'Painting 3', title: 'Oil Still Life' }
     ],
     'one-line-art': [
-      { id: 1, src: '/img/art/oneline1.jpg', alt: 'One Line Art 1', title: 'Mountain Range' },
-      { id: 2, src: '/img/art/oneline2.jpg', alt: 'One Line Art 2', title: 'Animal Silhouette' },
-      { id: 3, src: '/img/art/oneline3.jpg', alt: 'One Line Art 3', title: 'Abstract Form' }
+      { id: 1, src: '/img/linearts/oneline1.jpg', alt: 'One Line Art 1', title: 'Mountain Range' },
+      { id: 2, src: '/img/linearts/oneline2.jpg', alt: 'One Line Art 2', title: 'Animal Silhouette' },
+      { id: 3, src: '/img/linearts/oneline3.jpg', alt: 'One Line Art 3', title: 'Abstract Form' }
     ]
   };
 

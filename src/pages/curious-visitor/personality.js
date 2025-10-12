@@ -35,9 +35,9 @@ export default function RecruitmentSpecialistPersonality() {
 
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="curious-visitor"
       activeTab="personality"
-      title="Recruitment Specialist | Personality Insights"
+      title="Curious Visitor | Personality Insights"
       description="Evidence-based personality assessment results for Shubham Narkhede, providing hiring managers with insights into working style and team compatibility"
     >
       <SectionTemplate

@@ -10,7 +10,7 @@ export default function CuriousVisitorCreativity() {
   const tabs = [
     { id: 'sketches', label: 'Sketches', icon: Pen },
     { id: 'painting', label: 'Painting', icon: Brush },
-    { id: 'one-line-art', label: 'One Line Art', icon: Image }
+    { id: 'onelineart', label: 'One Line Art', icon: Image }
   ];
 
   // Sample gallery data - you can replace this with actual data
@@ -28,7 +28,7 @@ export default function CuriousVisitorCreativity() {
       { id: 2, src: '/img/paintings/painting2.jpg', alt: 'Painting 2', title: 'Acrylic Portrait' },
       { id: 3, src: '/img/paintings/painting3.jpg', alt: 'Painting 3', title: 'Oil Still Life' }
     ],
-    'one-line-art': [
+    onelineart: [
       { id: 1, src: '/img/linearts/oneline1.jpg', alt: 'One Line Art 1', title: 'Mountain Range' },
       { id: 2, src: '/img/linearts/oneline2.jpg', alt: 'One Line Art 2', title: 'Animal Silhouette' },
       { id: 3, src: '/img/linearts/oneline3.jpg', alt: 'One Line Art 3', title: 'Abstract Form' }
@@ -116,13 +116,13 @@ export default function CuriousVisitorCreativity() {
         )}
 
         {/* One Line Art Tab */}
-        {activeTab === 'one-line-art' && (
+        {activeTab === 'onelineart' && (
           <SectionTemplate
             title="One Line Art"
             subtitle="Simplifying complex forms into elegant single-line compositions"
           >
             <div className={styles.galleryGrid}>
-              {galleryData['one-line-art'].map((item) => (
+              {galleryData['onelineart'].map((item) => (
                 <div key={item.id} className={styles.galleryItem}>
                   <img 
                     src={item.src} 

@@ -64,7 +64,7 @@ const useRoleStore = create((set) => ({
       theme: 'curious',
       tabs: [
         { id: 'introduction', label: 'Introduction' },
-        { id: 'media', label: 'Books' },
+        { id: 'books', label: 'Books' },
         { id: 'creativity', label: 'Creativity' },
         { id: 'wellness', label: 'Wellness' },
         { id: 'culture', label: 'Culture' },

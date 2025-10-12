@@ -1487,10 +1487,14 @@
         |-- books.js
         |-- contact.js
         |-- curious-visitor
+            |-- books.js
+            |-- creativity.js
             |-- index.js
             |-- introduction.js
+            |-- introsample.js
             |-- styles.module.css
             |-- travel.js
+            |-- wellness.js
         |-- docusaurus.module.css
         |-- growth-partner
             |-- index.js
@@ -1642,6 +1646,7 @@
         |-- docusaurus.png
         |-- favicon.ico
         |-- logo.png
+        |-- painterprofile.png
         |-- profile.png
         |-- profileintro.png
         |-- profilepic.png

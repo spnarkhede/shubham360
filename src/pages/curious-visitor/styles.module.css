@@ -687,34 +687,269 @@
   color: var(--ifm-color-emphasis-800);
 }
 
+/* Remove tab navigation styles and add section spacing */
+.sectionSpacing {
+  margin-bottom: 3rem;
+}
+
+/* Profile Layout - Text Left, Image Right */
+.profileLayout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.profileText {
+  flex: 1;
+}
+
+.profileImageContainer {
+  flex: 0 0 300px;
+}
+
+.profileImage {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9/16;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 3px solid var(--ifm-color-primary);
+}
+
+/* Button Styles - Matching Recruitment Specialist */
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: flex-start;
+}
+
+.primaryButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(var(--ifm-color-primary-rgb), 0.3);
+}
+
+.primaryButton:hover {
+  background-color: var(--ifm-color-primary-darker);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(var(--ifm-color-primary-rgb), 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: var(--ifm-color-primary);
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.secondaryButton:hover {
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.1);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+/* Personal Passions Grid */
+.passionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.passionCard {
+  background-color: var(--ifm-card-background-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.passionCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.passionCard h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.passionDescription {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.passionLesson {
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Favorite Quotes */
+.favoriteQuotes {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+}
+
+.favoriteQuotes h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-primary);
+}
+
+.favoriteQuotes blockquote {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 4px solid var(--ifm-color-primary);
+  color: var(--ifm-color-emphasis-800);
+}
+
+.favoriteQuotes blockquote:last-child {
+  margin-bottom: 0;
+}
+
+/* Life Lessons Grid */
+.lifeLessonsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.lifeLessonCard {
+  background-color: var(--ifm-card-background-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+.lessonHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.lessonHeader h3 {
+  color: var(--ifm-color-primary);
+  margin: 0;
+}
+
+.hobbyReference {
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.1);
+  color: var(--ifm-color-primary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.lessonInsight {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
+/* Values Grid */
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.valueCard {
+  background-color: var(--ifm-card-background-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.valueCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.valueCard h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.valueCard p {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
+.reflectionSection {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+}
+
+.reflectionSection h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.reflectionSection p {
+  color: var(--ifm-color-emphasis-800);
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .welcomeHeading {
-    font-size: 2rem;
+  .profileLayout {
+    flex-direction: column;
   }
   
-  .welcomeSubheading {
-    font-size: 1.3rem;
+  .profileImageContainer {
+    max-width: 300px;
+    margin: 0 auto;
   }
   
-  .profileImage {
-    width: 200px;
-    height: 200px;
+  .ctaButtons {
+    justify-content: center;
   }
   
-  .profileName {
-    font-size: 1.8rem;
-  }
-  
-  .profileTitle {
-    font-size: 1.1rem;
-  }
-  
-  .galleryGrid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
-  
-  .bookReviewsGrid {
+  .passionsGrid,
+  .lifeLessonsGrid,
+  .valuesGrid {
     grid-template-columns: 1fr;
+  }
+  
+  .lessonHeader {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }

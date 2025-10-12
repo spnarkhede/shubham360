@@ -3,7 +3,7 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
-import { ArrowRight, Code, Book, Briefcase, Heart } from 'lucide-react';
+import { ArrowRight, Code, Book, Briefcase, Heart, User, Sparkles, Target, Lightbulb, Zap } from 'lucide-react';
 
 export default function CuriousVisitorIntroduction() {
   const interestAreas = {
@@ -21,6 +21,90 @@ export default function CuriousVisitorIntroduction() {
     ]
   };
 
+  const personalPassions = [
+    {
+      title: "Art & Creativity",
+      description: "Exploring various art forms and creative outlets. From digital design to traditional sketching, art teaches patience and attention to detail.",
+      lessons: "Patience and precision developed through artistic practice translates directly to meticulous code review and thoughtful problem-solving."
+    },
+    {
+      title: "Fitness & Wellness",
+      description: "Regular fitness routine including yoga, running, and strength training. Physical wellness is deeply connected to mental clarity and emotional stability.",
+      lessons: "Discipline and consistency required in fitness mirrors the approach needed for continuous learning and skill development in technology."
+    },
+    {
+      title: "Travel & Exploration",
+      description: "Love exploring new places, cultures, and cuisines. Each journey brings fresh perspectives and breaks routine thinking patterns.",
+      lessons: "Cultural exposure enhances empathy and adaptability, crucial traits for understanding diverse user needs and collaborating with global teams."
+    },
+    {
+      title: "Sports & Strategy Games",
+      description: "Enjoy team sports like basketball and strategic board games. Both require planning ahead and adapting to changing circumstances.",
+      lessons: "Strategic thinking and teamwork skills are invaluable in project planning and cross-functional collaboration."
+    },
+    {
+      title: "Photography",
+      description: "Capturing moments through photography. It's about observing details, composition, and finding beauty in ordinary scenes.",
+      lessons: "Attention to detail and aesthetic sensibility developed through photography enhances UI/UX design intuition."
+    },
+    {
+      title: "Music",
+      description: "Playing guitar and exploring various genres of music. Music is both a creative outlet and a way to relax and recharge.",
+      lessons: "Rhythm and harmony teach the importance of balance and coordination, essential for orchestrating complex technical systems."
+    }
+  ];
+
+  const lifeLessons = [
+    {
+      title: "Patience",
+      hobby: "Art/Music",
+      insight: "Creating something beautiful takes time. Whether it's a painting or a melody, rushing leads to mediocrity. In software development, taking time to plan and refactor produces cleaner, more maintainable code."
+    },
+    {
+      title: "Strategy",
+      hobby: "Sports/Games",
+      insight: "Winning requires more than raw talent—it needs planning, adaptability, and understanding your opponents. Similarly, successful projects need strategic thinking, risk assessment, and course correction based on feedback."
+    },
+    {
+      title: "Cultural Awareness",
+      hobby: "Travel",
+      insight: "Experiencing different cultures broadens perspective and builds empathy. This translates to designing products that serve diverse users and collaborating effectively with international teams."
+    },
+    {
+      title: "Leadership",
+      hobby: "Team Events",
+      insight: "Organizing group activities taught me that leadership isn't about authority but about enabling others to perform their best. In tech teams, this means creating environments where everyone can contribute meaningfully."
+    },
+    {
+      title: "Mindfulness",
+      hobby: "Fitness/Nature",
+      insight: "Physical activity grounds me in the present moment, reducing stress and improving focus. This mindfulness directly impacts my ability to debug complex issues and make thoughtful decisions under pressure."
+    }
+  ];
+
+  const valuesInAction = [
+    {
+      value: "Environmental Consciousness",
+      action: "Choosing sustainable options in daily life—reusable items, minimal packaging, supporting eco-friendly brands, and carbon offsetting for travel."
+    },
+    {
+      value: "Community Engagement",
+      action: "Actively participating in local tech meetups, volunteering for coding workshops, and mentoring newcomers to the field."
+    },
+    {
+      value: "Authentic Relationships",
+      action: "Prioritizing quality time with family and friends, maintaining regular contact, and being genuinely present during interactions."
+    },
+    {
+      value: "Financial Mindfulness",
+      action: "Practicing conscious spending, investing in experiences over possessions, and saving for meaningful goals like education and travel."
+    },
+    {
+      value: "Health & Wellness",
+      action: "Maintaining consistent sleep schedules, preparing nutritious meals, scheduling regular health check-ups, and balancing work with relaxation."
+    }
+  ];
+
   return (
     <DashboardLayout
       role="curious-visitor"
@@ -28,14 +112,44 @@ export default function CuriousVisitorIntroduction() {
       title="Curious Visitor | Introduction"
       description="Welcome to Shubham Narkhede's personal website. Learn about my background, interests, and explore my portfolio."
     >
+      {/* Personal Profile Section */}
       <SectionTemplate
-        title="Personal Profile"
-        subtitle="Full Stack Developer & Technology Enthusiast"
+        title="Personal Overview"
+        subtitle="The Art of Living Curiously"
+        icon={User}
       >
-        <div className={styles.introductionContent}>
+        <div className={styles.profileLayout}>
+          <div className={styles.profileText}>
+            <p className={styles.summaryText}>
+              Beyond job titles and technical frameworks, I’m the kind of person who notices the little wonders: sunlight quilting the pavement, the perfect rhythm of a solved problem, or a chance conversation that changes the day. My curiosity travels beyond screens — it reaches into people, places, and the curious threads that connect cultures and ideas.
+            </p>
+
+            <p className={styles.summaryText}>
+              I value honesty, steady growth, and conversations that matter. I believe passions outside the office — whether messy, quiet, or wildly social — sharpen how I think and create. So when I’m not debugging, I’m learning from hikes, sketches, or the unexpected insights of a late-night chat.
+            </p>
+
+            <p className={styles.summaryText}>
+              My life beyond work is a patchwork of practical play and creative ritual: organizing team events that spark laughter and connection, sketching and painting to slow time, keeping fit with yoga and workouts, and chasing sunlight with a camera on nature walks. I love the quick focus of a table-tennis rally, the friendly chaos of foosball, and the quiet aim of darts — all tiny laboratories of attention.
+            </p>
+
+            <p className={styles.summaryText}>
+              I’m also a wanderer and a listener — traveling to learn new rhythms, playing frequency instruments to feel sound as texture, and reading books that nudge my thinking. Each hobby teaches me something useful: patience, pattern-recognition, or a new way to see the world. That curiosity is the constant — energetic, open, and easily delighted.
+            </p>
+            
+            <div className={styles.ctaButtons}>
+              <Link to="/curious-visitor/books" className={styles.primaryButton}>
+                Explore My Books
+                <ArrowRight size={16} />
+              </Link>
+              <Link to="/curious-visitor/gallery" className={styles.secondaryButton}>
+                View Gallery
+              </Link>
+            </div>
+          </div>
+          
           <div className={styles.profileImageContainer}>
             <img 
-              src="/img/profilesquare.png" 
+              src="/img/painterprofile.png" 
               alt="Shubham Narkhede" 
               className={styles.profileImage}
               onError={(e) => {
@@ -44,86 +158,34 @@ export default function CuriousVisitorIntroduction() {
               }}
             />
           </div>
-          
-          <div className={styles.profileSummary}>
-            <p className={styles.summaryText}>
-              I'm a technology enthusiast with a passion for building innovative solutions that solve real-world problems. 
-              With experience spanning front-end development, back-end systems, and cloud infrastructure, I bring a 
-              holistic approach to software development and continuous learning.
-            </p>
-            
-            <p className={styles.summaryText}>
-              Beyond coding, I enjoy reading, writing technical articles, and contributing to open source projects. 
-              I believe in continuous learning and sharing knowledge with the community to foster growth and innovation 
-              in the tech industry. Welcome to my digital space where curiosity meets creativity.
-            </p>
-            
-            <div className={styles.techStack}>
-              <h3 className={styles.techStackTitle}>Areas of Interest</h3>
-              <div className={styles.techCategories}>
-                <div className={styles.techCategory}>
-                  <h4 className={styles.categoryTitle}>
-                    <Code size={16} /> Technology
-                  </h4>
-                  <div className={styles.techList}>
-                    {interestAreas["Technology"].map((interest, index) => (
-                      <span key={index} className={styles.techTag}>{interest}</span>
-                    ))}
-                  </div>
-                </div>
-                
-                <div className={styles.techCategory}>
-                  <h4 className={styles.categoryTitle}>
-                    <Book size={16} /> Reading & Learning
-                  </h4>
-                  <div className={styles.techList}>
-                    {interestAreas["Reading & Learning"].map((interest, index) => (
-                      <span key={index} className={styles.techTag}>{interest}</span>
-                    ))}
-                  </div>
-                </div>
-                
-                <div className={styles.techCategory}>
-                  <h4 className={styles.categoryTitle}>
-                    <Briefcase size={16} /> Professional Growth
-                  </h4>
-                  <div className={styles.techList}>
-                    {interestAreas["Professional Growth"].map((interest, index) => (
-                      <span key={index} className={styles.techTag}>{interest}</span>
-                    ))}
-                  </div>
-                </div>
-                
-                <div className={styles.techCategory}>
-                  <h4 className={styles.categoryTitle}>
-                    <Heart size={16} /> Community & Networking
-                  </h4>
-                  <div className={styles.techList}>
-                    {interestAreas["Community & Networking"].map((interest, index) => (
-                      <span key={index} className={styles.techTag}>{interest}</span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className={styles.ctaButtons}>
-              <Link to="/curious-visitor/portfolio" className={styles.primaryButton}>
-                View Portfolio
-                <ArrowRight size={16} />
-              </Link>
-              <Link to="/curious-visitor/articles" className={styles.secondaryButton}>
-                Read Articles
-              </Link>
-            </div>
-          </div>
         </div>
       </SectionTemplate>
-      
+
+      {/* Area of Personal Passions Section */}
+      <SectionTemplate
+        title="Personal Interests & Hobbies"
+        subtitle="Personal Passions & Reflective Insights"
+        icon={Sparkles}
+        withBackground={true}
+      >
+        <div className={styles.passionsGrid}>
+          {personalPassions.map((passion, index) => (
+            <div key={index} className={styles.passionCard}>
+              <h3>{passion.title}</h3>
+              <p className={styles.passionDescription}>{passion.description}</p>
+              <div className={styles.passionLesson}>
+                <strong>Key Lesson:</strong> {passion.lessons}
+              </div>
+            </div>
+          ))}
+        </div>
+      </SectionTemplate>
+
+      {/* Personal Philosophy Section */}
       <SectionTemplate
         title="Personal Philosophy"
-        subtitle="My approach to life, learning, and professional growth"
-        withBackground={true}
+        subtitle="Life lessons & guiding mindset"
+        icon={Lightbulb}
       >
         <div className={styles.philosophyGrid}>
           <div className={styles.philosophyCard}>
@@ -161,12 +223,46 @@ export default function CuriousVisitorIntroduction() {
               I believe technology should be used to solve real problems and improve lives.
             </p>
           </div>
+          
+          <div className={styles.philosophyCard}>
+            <h3>Authentic Connections</h3>
+            <p>
+              Genuine relationships—with colleagues, friends, and strangers alike—are what make life rich. 
+              I value honest communication, empathy, and the willingness to be vulnerable. These qualities 
+              not only enrich personal life but also lead to more collaborative and innovative work environments.
+            </p>
+          </div>
+          
+          <div className={styles.philosophyCard}>
+            <h3>Growth Through Adversity</h3>
+            <p>
+              Challenges and setbacks aren't roadblocks—they're stepping stones. I've learned that resilience 
+              and adaptability are cultivated through difficult times. Embracing discomfort and uncertainty 
+              has made me a better problem solver and more compassionate person.
+            </p>
+          </div>
+        </div>
+        
+        <div className={styles.favoriteQuotes}>
+          <h3>Favorite Quotes That Guide Me</h3>
+          <blockquote>
+            "The only way to do great work is to love what you do." – Steve Jobs
+          </blockquote>
+          <blockquote>
+            "Be the change you wish to see in the world." – Mahatma Gandhi
+          </blockquote>
+          <blockquote>
+            "In the middle of difficulty lies opportunity." – Albert Einstein
+          </blockquote>
         </div>
       </SectionTemplate>
-      
+
+      {/* Current Explorations Section */}
       <SectionTemplate
-        title="Current Exploration"
-        subtitle="What I'm currently reading, learning, and exploring"
+        title="Current Explorations"
+        subtitle="Ongoing learning & projects"
+        icon={Target}
+        withBackground={true}
       >
         <div className={styles.learningFocusGrid}>
           <div className={styles.learningFocusCard}>
@@ -198,11 +294,73 @@ export default function CuriousVisitorIntroduction() {
           <div className={styles.learningFocusCard}>
             <h3>Travel & Cultural Exploration</h3>
             <p>
-              I believe that experiencing different cultures and places broadens perspective and inspires creativity. 
-              I love to travel, meet new people, and learn about different ways of life, which often leads to 
-              new insights and approaches in my professional work.
+              Planning upcoming trips to experience different cultures and perspectives. I'm researching destinations 
+              that offer unique historical insights and opportunities to engage with local communities and traditions.
             </p>
           </div>
+          
+          <div className={styles.learningFocusCard}>
+            <h3>Photography Project</h3>
+            <p>
+              Working on a long-term photography project documenting urban landscapes and street life. This project 
+              combines my interest in visual storytelling with my desire to capture the essence of different places 
+              and moments.
+            </p>
+          </div>
+          
+          <div className={styles.learningFocusCard}>
+            <h3>Wellness & Mindfulness Practices</h3>
+            <p>
+              Experimenting with different wellness routines and mindfulness techniques to optimize mental and physical 
+              health. Tracking the impact of various practices on productivity, creativity, and overall well-being.
+            </p>
+          </div>
+        </div>
+      </SectionTemplate>
+
+      {/* Life Lessons Section */}
+      <SectionTemplate
+        title="Life Lessons from Hobbies"
+        subtitle="How hobbies inform life & work"
+        icon={Zap}
+      >
+        <div className={styles.lifeLessonsGrid}>
+          {lifeLessons.map((lesson, index) => (
+            <div key={index} className={styles.lifeLessonCard}>
+              <div className={styles.lessonHeader}>
+                <h3>{lesson.title}</h3>
+                <span className={styles.hobbyReference}>({lesson.hobby})</span>
+              </div>
+              <p className={styles.lessonInsight}>{lesson.insight}</p>
+            </div>
+          ))}
+        </div>
+      </SectionTemplate>
+
+      {/* Values in Action Section */}
+      <SectionTemplate
+        title="Values in Action"
+        subtitle="Daily application of personal values"
+        icon={Heart}
+        withBackground={true}
+      >
+        <div className={styles.valuesGrid}>
+          {valuesInAction.map((valueItem, index) => (
+            <div key={index} className={styles.valueCard}>
+              <h3>{valueItem.value}</h3>
+              <p>{valueItem.action}</p>
+            </div>
+          ))}
+        </div>
+        
+        <div className={styles.reflectionSection}>
+          <h3>Reflection on Values</h3>
+          <p>
+            Living according to my values isn't always easy—it requires constant self-awareness and intentional choices. 
+            But I've found that when my actions align with my beliefs, I experience greater fulfillment and authenticity. 
+            These values serve as my compass, guiding decisions both big and small, and helping me stay true to myself 
+            even in challenging situations.
+          </p>
         </div>
       </SectionTemplate>
     </DashboardLayout>

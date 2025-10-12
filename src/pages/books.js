@@ -87,16 +87,6 @@ export default function Books() {
       categories: ['Memoir', 'Business'],
       reviewLink: '/books/shoe-dog',
     },
-    // {
-    //   title: 'Principles',
-    //   author: 'Ray Dalio',
-    //   cover: '/img/books/lifeAndWorkPrinciples.jpg',
-    //   rating: 4,
-    //   readDate: 'November 2018',
-    //   summary: 'Life and work principles from the founder of Bridgewater Associates.',
-    //   categories: ['Business', 'Self-Improvement'],
-    //   reviewLink: '/books/principles',
-    // },
     {
       title: 'The Power of Habit',
       author: 'Charles Duhigg',

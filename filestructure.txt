@@ -1599,6 +1599,7 @@
             |-- investing101.jpg
             |-- invisibleWomen.jpg
             |-- kautileeyaArthshastra.jpg
+            |-- lean-startup.jpg
             |-- lifeAndWorkPrinciples.jpg
             |-- management101.jpg
             |-- masterYourBeliefs (2).jpg
@@ -1619,6 +1620,7 @@
             |-- oneHundredOneEssays.jpg
             |-- oneSuccessHabit.jpg
             |-- philosophy101.jpg
+            |-- power-of-habit.jpg
             |-- powerfulFocus.jpg
             |-- psych101.jpg
             |-- psychologyOfMoney.jpg
@@ -1627,9 +1629,12 @@
             |-- readPeopleLikeABook.jpg
             |-- relentless.jpg
             |-- sameAsEver.jpg
+            |-- sapiens.jpg
             |-- semenRetentionMiracles.jpg
+            |-- shoe-dog.jpg
             |-- srimadBhagavadgitaVolumn1.jpg
             |-- srimadBhagavadgitaVolumn2.jpg
+            |-- start-with-why.jpg
             |-- stockMarket101.jpg
             |-- strategicmindset.jpg
             |-- surroundedByBadBosses.jpg
@@ -1642,18 +1647,22 @@
             |-- thankGodForFeedback.jpg
             |-- thanksForFeedback.jpg
             |-- the-personal-mba.jpg
+            |-- thinking-fast-slow.jpg
             |-- usHistory101.jpg
             |-- vaidikDincharya.jpg
         |-- default-bosch.png
         |-- docusaurus-social-card.jpg
         |-- docusaurus.png
         |-- favicon.ico
+        |-- handpanprofile.png
         |-- logo.png
         |-- painterprofile.png
         |-- profile.png
         |-- profileintro.png
         |-- profilepic.png
         |-- profilesquare.png
+        |-- readerprofile.jpeg
+        |-- tabletennisprofile.png
         |-- testimonials
             |-- akshay.jpg
             |-- alexander.jpg
@@ -1668,6 +1677,7 @@
         |-- undraw_docusaurus_mountain.svg
         |-- undraw_docusaurus_react.svg
         |-- undraw_docusaurus_tree.svg
+        |-- workoutprofile.png
 |-- tailwind.config.js
 |-- tsconfig.json
 |-- updateMarkdown.js

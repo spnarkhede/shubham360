@@ -1536,7 +1536,7 @@
             |-- index.js
             |-- introduction.js
             |-- styles.module.css
-            |-- tool-collection.js
+            |-- tools-collection.js
     |-- store
         |-- roleStore.js
 |-- static

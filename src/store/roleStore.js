@@ -43,6 +43,52 @@ const useRoleStore = create((set) => ({
         // { id: 'continue-watching', label: 'Continue Watching' }
       ]
     },
+    'tech-enthusiast': {
+      title: 'Tech Enthusiast',
+      description: 'Exploring innovation, technology, and the art of building the future',
+      theme: 'tech',
+      tabs: [
+        { id: 'introduction', label: 'Introduction' },
+        { id: 'technical-learnings', label: 'Technical Learnings' },
+        { id: 'tools-collection', label: 'Tools Collection' },
+        { id: 'code-samples', label: 'Code Samples' },
+        { id: 'articles', label: 'Articles' },
+        { id: 'sandbox', label: 'Sandbox' },
+        { id: 'engagement', label: 'Engagement' },
+        { id: 'contact', label: 'Contact' }
+      ]
+    },
+    'curious-visitor': {
+      title: '💫 Life Beyond Work',
+      description: 'Explore my life beyond work — where creativity meets curiosity.',
+      theme: 'curious',
+      tabs: [
+        { id: 'introduction', label: 'Introduction' },
+        { id: 'media', label: 'Books' },
+        { id: 'creativity', label: 'Creativity' },
+        { id: 'wellness', label: 'Wellness' },
+        { id: 'culture', label: 'Culture' },
+        { id: 'sports', label: 'Sports' },
+        { id: 'gallery', label: 'Gallery' },
+        { id: 'adventures', label: 'Adventures' },
+        { id: 'contact', label: 'Contact' }
+      ]
+    },
+    'growth-partner': {
+      title: 'Growth Partner',
+      description: 'Collaborating for mutual growth, learning, and meaningful impact.',
+      theme: 'growth',
+      tabs: [
+        { id: 'introduction', label: 'Introduction' },
+        { id: 'mentorship', label: 'Mentorship' },
+        { id: 'collaboration', label: 'Collaboration' },
+        { id: 'partnerships', label: 'Partnerships' },
+        { id: 'speaking', label: 'Speaking' },
+        { id: 'leadership', label: 'Leadership' },
+        { id: 'recognition', label: 'Recognition' },
+        { id: 'contact', label: 'Contact' }
+      ]
+    },
     'product-designer': {
       title: 'Product Designer',
       description: 'Exploring the intersection of creativity, usability, and human emotion.',
@@ -58,52 +104,6 @@ const useRoleStore = create((set) => ({
         { id: 'contact', label: 'Contact' }
       ]
     },
-    'tech-enthusiast': {
-      title: 'Tech Enthusiast',
-      description: 'Exploring innovation, technology, and the art of building the future',
-      theme: 'tech',
-      tabs: [
-        { id: 'introduction', label: 'Introduction' },
-        { id: 'technical-expertise', label: 'Technical Expertise' },
-        { id: 'tool-collection', label: 'Tools Collections' },
-        { id: 'code-samples', label: 'Code Samples' },
-        { id: 'articles', label: 'Articles' },
-        { id: 'certifications', label: 'Certifications' },
-        { id: 'resources', label: 'Resources' },
-        { id: 'contact', label: 'Contact' }
-      ]
-    },
-    'curious-visitor': {
-      title: '💫 Life Beyond Work',
-      description: 'Explore my life beyond work — where creativity meets curiosity.',
-      theme: 'curious',
-      tabs: [
-        { id: 'introduction', label: 'Introduction' },
-        { id: 'about-me', label: 'About Me' },
-        { id: 'experience', label: 'Experience' },
-        { id: 'portfolio', label: 'Portfolio' },
-        { id: 'articles', label: 'Articles' },
-        { id: 'books', label: 'Books' },
-        { id: 'hobbies', label: 'Hobbies & Interests' },
-        { id: 'travel', label: 'Travel & Adventures' },
-        { id: 'contact', label: 'Contact' }
-      ]
-    },
-    'growth-partner': {
-      title: 'Growth Partner',
-      description: 'Collaborating for mutual growth, learning, and meaningful impact.',
-      theme: 'growth',
-      tabs: [
-        { id: 'introduction', label: 'Introduction' },
-        { id: 'collaboration', label: 'Collaboration' },
-        { id: 'mentorship', label: 'Mentorship' },
-        { id: 'projects', label: 'Joint Projects' },
-        { id: 'services', label: 'Services' },
-        { id: 'testimonials', label: 'Testimonials' },
-        { id: 'partnership', label: 'Partnership' },
-        { id: 'contact', label: 'Contact' }
-      ]
-    }
   }
 }));
 

@@ -1590,11 +1590,9 @@
 /* Tab Navigation Styles */
 .tabNavigation {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;
-  border-bottom: 2px solid var(--ifm-color-emphasis-200);
-  padding-bottom: 0.5rem;
 }
 
 .tabButton {
@@ -1605,28 +1603,21 @@
   background-color: var(--ifm-color-emphasis-100);
   color: var(--ifm-color-emphasis-800);
   border: none;
-  border-radius: 8px 8px 0 0;
+  border-radius: 25px;
+  font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.2s ease;
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-bottom: none;
+  transition: all 0.3s ease;
 }
 
 .tabButton:hover {
   background-color: var(--ifm-color-emphasis-200);
-  color: var(--ifm-color-emphasis-900);
   transform: translateY(-2px);
 }
 
 .tabButton.activeTab {
   background-color: var(--ifm-color-primary);
   color: white;
-  border-color: var(--ifm-color-primary);
-}
-
-.tabContent {
-  min-height: 400px;
 }
 
 /* Gallery Styles */
@@ -1644,7 +1635,7 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.3s ease;
-  aspect-ratio: 1 / 1;
+  /* Removed aspect-ratio to prevent image cropping */
 }
 
 .galleryItem:hover {
@@ -1654,9 +1645,10 @@
 
 .galleryImage {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto; /* Changed from fixed height to auto to show full image */
+  display: block;
   transition: all 0.3s ease;
+  object-fit: contain; /* Changed to contain to show full image without cropping */
 }
 
 .galleryItem:hover .galleryImage {
@@ -1686,18 +1678,18 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .galleryGrid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
   .tabNavigation {
-    gap: 0.25rem;
+    gap: 0.5rem;
   }
   
   .tabButton {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
-  }
-  
-  .galleryGrid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1rem;
   }
 }
 

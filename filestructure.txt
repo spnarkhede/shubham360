@@ -1385,6 +1385,7 @@
     |-- data
         |-- booksNavigation.js
         |-- recruitment-specialist
+            |-- certificationData.js
             |-- content.js
             |-- projectsData.js
     |-- index.d.ts
@@ -1525,7 +1526,6 @@
         |-- recruitment-specialist
             |-- certifications.js
             |-- components
-                |-- certificationData.js
                 |-- ProfessionalTimeline.js
                 |-- ProfessionalTimeline.module.css
             |-- contact.js

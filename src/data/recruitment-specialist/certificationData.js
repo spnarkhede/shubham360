@@ -1,4 +1,3 @@
-import React from 'react';
 // All certifications with platform information
 export const certifications = [
     // All certifications with platform information

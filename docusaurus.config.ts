@@ -15,7 +15,11 @@ const config: Config = {
   deploymentBranch: 'gh-pages', // this is where the build will go
   trailingSlash: false,
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'ignore',
+    },
+  },
   onBrokenAnchors: 'ignore',
   i18n: {
     defaultLocale: 'en',

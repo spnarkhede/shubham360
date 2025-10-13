@@ -3,7 +3,7 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
 import { Award, CheckCircle, Calendar, Link } from 'lucide-react';
-import { certifications, badges, corporateTrainings } from './components/certificationData';
+import { certifications, badges, corporateTrainings } from '../../data/recruitment-specialist/certificationData';
 
 export default function RecruitmentSpecialistCertifications() {
   const [selectedPlatform, setSelectedPlatform] = useState('All');

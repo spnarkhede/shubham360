@@ -7,6 +7,7 @@ import { certifications, badges, corporateTrainings } from './components/certifi
 
 export default function RecruitmentSpecialistCertifications() {
   const [selectedPlatform, setSelectedPlatform] = useState('All');
+  const [selectedIssuer, setSelectedIssuer] = useState('All');
   const [activeContent, setActiveContent] = useState('certifications'); // 'certifications' or 'badges'
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [pdfUrl, setPdfUrl] = useState('');
@@ -35,6 +36,29 @@ export default function RecruitmentSpecialistCertifications() {
     return certifications.filter(cert => cert.platform === selectedPlatform);
   }, [certifications, selectedPlatform]);
 
+  // Get unique issuers and their counts for corporate trainings
+  const issuerCounts = useMemo(() => {
+    const counts = { 'All': corporateTrainings.length };
+    corporateTrainings.forEach(training => {
+      counts[training.issuer] = (counts[training.issuer] || 0) + 1;
+    });
+    return counts;
+  }, [corporateTrainings]);
+
+  // Get sorted unique issuers
+  const sortedIssuers = useMemo(() => {
+    return Object.keys(issuerCounts)
+      .filter(issuer => issuer !== 'All')
+      .sort((a, b) => issuerCounts[b] - issuerCounts[a]);
+  }, [issuerCounts]);
+
+  // Get filtered corporate trainings based on selected issuer
+  const filteredCorporateTrainings = useMemo(() => {
+    if (selectedIssuer === 'All') {
+      return corporateTrainings;
+    }
+    return corporateTrainings.filter(training => training.issuer === selectedIssuer);
+  }, [corporateTrainings, selectedIssuer]);
 
   // Function to render content toggle
   const renderContentToggle = () => (
@@ -80,6 +104,31 @@ export default function RecruitmentSpecialistCertifications() {
               onClick={() => setSelectedPlatform(platform)}
             >
               {platform} <span className={styles.platformCount}>{platformCounts[platform]}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+    )
+  );
+
+  // Function to render issuer filter
+  const renderIssuerFilter = () => (
+    activeContent === 'corporate' && (
+      <div className={styles.platformFilterContainer}>
+        <div className={styles.platformFilterButtons}>
+          <button
+            className={`${styles.platformFilterButton} ${styles.all} ${selectedIssuer === 'All' ? styles.active : ''}`}
+            onClick={() => setSelectedIssuer('All')}
+          >
+            All <span className={styles.platformCount}>{issuerCounts['All']}</span>
+          </button>
+          {sortedIssuers.map(issuer => (
+            <button
+              key={issuer}
+              className={`${styles.platformFilterButton} ${selectedIssuer === issuer ? styles.active : ''}`}
+              onClick={() => setSelectedIssuer(issuer)}
+            >
+              {issuer} <span className={styles.platformCount}>{issuerCounts[issuer]}</span>
             </button>
           ))}
         </div>
@@ -177,7 +226,7 @@ export default function RecruitmentSpecialistCertifications() {
   // Function to render corporate training cards
   const renderCorporateTrainingCards = () => (
     <div className={styles.certificatesGrid}>
-      {corporateTrainings.map((training, index) => (
+      {filteredCorporateTrainings.map((training, index) => (
         <div key={index} className={styles.certificateCard}>
           <div className={styles.certificateHeader}>
             <div className={styles.certificateLogo}>
@@ -248,6 +297,7 @@ export default function RecruitmentSpecialistCertifications() {
       >
         {renderContentToggle()}
         {renderPlatformFilter()}
+        {renderIssuerFilter()}
         
         {activeContent === 'certifications' && renderCertificationCards()}
         {activeContent === 'badges' && renderBadgeCards()}

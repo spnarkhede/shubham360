@@ -1525,6 +1525,7 @@
         |-- recruitment-specialist
             |-- certifications.js
             |-- components
+                |-- certificationData.js
                 |-- ProfessionalTimeline.js
                 |-- ProfessionalTimeline.module.css
             |-- contact.js
@@ -1658,6 +1659,52 @@
         |-- logo.png
         |-- painterprofile.png
         |-- paintings
+        |-- pdf
+            |-- bosch
+                |-- agile-basics-at-bosch.pdf
+                |-- anti-corruption-gratuities.pdf
+                |-- anticorruption-formar-gratitude-A.pdf
+                |-- antitrust-law-2019.pdf
+                |-- antitrust-law-2022.pdf
+                |-- basic-information-product-liability.pdf
+                |-- basics-information-security-privacy-2021.pdf
+                |-- basics-information-security-privacy-cybersecurity-1.pdf
+                |-- basics-information-security-privacy.pdf
+                |-- bosch-corporate-design.pdf
+                |-- boschdeclaration-confidentiality.pdf
+                |-- cd07900-introduction.pdf
+                |-- certificate-attendance-code-of-business-conduct.pdf
+                |-- classified-information-trade-secrets.pdf
+                |-- code-of-business-conduct.pdf
+                |-- compliance-code-of-conduct-2025.pdf
+                |-- compliance-document-code-of-business-conduct.pdf
+                |-- compliance-gratuities-2019.pdf
+                |-- data-protection-and-information-security.pdf
+                |-- data-protection-in-bosch-products.pdf
+                |-- data-protection-in-IT-bosch-products.pdf
+                |-- dealing-with-classified-information-2024.pdf
+                |-- digital-basics-ai-privacy-cybersecurity.pdf
+                |-- document-code-of-conduct.pdf
+                |-- export-control-2019.pdf
+                |-- export-control.pdf
+                |-- general-isp-rules.pdf
+                |-- handling-customer-requirements.pdf
+                |-- isp-rules-germany.pd.pdf
+                |-- lessons-learned-project-managers.pdf
+                |-- lessons-learned.pdf
+                |-- my-mail-management-outlook.pdf
+                |-- pm-pep-configuration.pdf
+                |-- product-compliance-2023.pdf
+                |-- product-safety-and-liability.pdf
+                |-- project-management-fundamentals.pdf
+                |-- risk-management-B.pdf
+                |-- risk-management-in-projects-basicsB.pdf
+                |-- risk-management-in-projects.pdf
+                |-- software-license-management.pdf
+                |-- speexx-german.pdf
+                |-- travel-security.pdf
+                |-- user-experience-getting-started-A.pdf
+                |-- user-experience-getting-started.pdf
         |-- profile.png
         |-- profileintro.png
         |-- profilepic.png

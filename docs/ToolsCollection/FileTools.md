@@ -204,7 +204,7 @@ description: File management, compression, conversion, and organization utilitie
 * [View-only PDF](https://rentry.co/cm4b7) - Download View-Only PDF on Google Drive
 * [PDFEncrypt](https://pdfencrypt.net/) - PDF File Encryption
 * [GraphPaper](https://incompetech.com/graphpaper/) - PDF Graphs
-* [Aspose](https://products.aspose.app/pdf/annotation) or [pdf-unstamper](https://github.com/hwding/pdf-unstamper) - PDF Watermark Remover
+* [Aspose](https://products.aspose.app/img/pdf/annotation) or [pdf-unstamper](https://github.com/hwding/pdf-unstamper) - PDF Watermark Remover
 * [PDF Fixer](https://pdffixer.com/) - Repair Damaged PDFs
 * [OpenSign](https://github.com/OpenSignLabs/OpenSign), [FalsiScan](https://gitlab.com/edouardklein/falsisign), [JustSignPDF](https://justsignpdf.com/) or [Adobe Sign](https://www.adobe.com/acrobat/online/sign-pdf.html) - PDF Signature Tools
 * [Google Drive PDF Downloader](https://github.com/zeltox/Google-Drive-PDF-Downloader) - Download Protected Google Drive PDFs

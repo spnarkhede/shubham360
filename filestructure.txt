@@ -1501,6 +1501,7 @@
             |-- introsample.js
             |-- personality.js
             |-- styles.module.css
+            |-- wellness.js
         |-- docusaurus.module.css
         |-- growth-partner
             |-- index.js
@@ -1547,7 +1548,6 @@
     |-- store
         |-- roleStore.js
 |-- static
-    |-- .nojekyll
     |-- certificates
     |-- documents
         |-- detailed_resume.pdf

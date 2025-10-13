@@ -37,7 +37,7 @@ export default function Landing() {
             />
           </div>
           <h1 className={styles.welcomeTitle}>Shubham Narkhede</h1>
-          <p className={styles.welcomeSubtitle}>DevOps Engineer & Full Stack Developer</p>
+          <p className={styles.welcomeSubtitle}>DevOps Engineer | Software Developer | Product Designer</p>
           
           <div className={styles.sloganCarousel}>
             <p className={styles.slogan} key={currentSloganIndex}>

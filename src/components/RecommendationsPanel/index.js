@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
-const RecommendationCard = ({ recommendation, nameFormatter, index }) => {
+const RecommendationCard = ({ recommendation, nameFormatter, imageRenderer, index }) => {
   // Add a check to ensure recommendation exists
   if (!recommendation) {
     return <div className={styles.recommendationCard}>Loading...</div>;
@@ -12,7 +12,9 @@ const RecommendationCard = ({ recommendation, nameFormatter, index }) => {
   return (
     <div className={styles.recommendationCard}>
       <div className={styles.recommendationHeader}>
-        {recommendation.image ? (
+        {imageRenderer && recommendation.image ? (
+          imageRenderer(recommendation.image, `${recommendation.firstName} ${recommendation.lastName}`, index)
+        ) : recommendation.image ? (
           <img 
             src={recommendation.image} 
             alt={`${recommendation.firstName} ${recommendation.lastName}`}
@@ -62,7 +64,7 @@ const RecommendationCard = ({ recommendation, nameFormatter, index }) => {
   );
 };
 
-const RecommendationsPanel = ({ recommendations = [], nameFormatter, className }) => {
+const RecommendationsPanel = ({ recommendations = [], nameFormatter, imageRenderer, className }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
@@ -132,6 +134,7 @@ const RecommendationsPanel = ({ recommendations = [], nameFormatter, className }
             <RecommendationCard 
               recommendation={recommendations[currentIndex]} 
               nameFormatter={nameFormatter}
+              imageRenderer={imageRenderer}
               index={currentIndex}
             />
           ) : (

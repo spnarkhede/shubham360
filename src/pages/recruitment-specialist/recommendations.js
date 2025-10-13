@@ -3,7 +3,7 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import RecommendationsPanel from '../../components/RecommendationsPanel';
 import styles from './styles.module.css';
-import { Quote, Users, MessageSquare, Eye } from 'lucide-react';
+import { Quote, Users, MessageSquare, Eye, Lock } from 'lucide-react';
 
 export default function RecruitmentSpecialistRecommendations() {
   const [showPasswordModal, setShowPasswordModal] = useState(false);
@@ -11,6 +11,7 @@ export default function RecruitmentSpecialistRecommendations() {
   const [passwordError, setPasswordError] = useState('');
   const [unlockedTestimonial, setUnlockedTestimonial] = useState(null); // Changed to store single index
   const [currentRecommendationIndex, setCurrentRecommendationIndex] = useState(null);
+  const [unlockedImages, setUnlockedImages] = useState(new Set()); // Track unlocked images
 
   // Extended recommendations data
  const professionalRecommendations = [
@@ -114,6 +115,12 @@ export default function RecruitmentSpecialistRecommendations() {
     if (password === 'portfolio') {
       // Unlock only the specific testimonial that was requested
       setUnlockedTestimonial(currentRecommendationIndex);
+      
+      // If it's an image unlock request, add to unlocked images
+      if (typeof currentRecommendationIndex === 'number' || currentRecommendationIndex === 'featured') {
+        setUnlockedImages(prev => new Set([...prev, currentRecommendationIndex]));
+      }
+      
       setShowPasswordModal(false);
       setPassword('');
       setPasswordError('');
@@ -138,6 +145,38 @@ export default function RecruitmentSpecialistRecommendations() {
       <span className={styles.hiddenName} onClick={() => showPasswordModalForRecommendation(index)}>
         <span>{recommendation.firstName}</span> <span className={styles.blurredName}>•••••</span> <Eye size={16} className={styles.eyeIcon} />
       </span>
+    );
+  };
+
+  // Function to render image with privacy protection
+  const renderProtectedImage = (imageSrc, alt, index, isFeatured = false) => {
+    const isUnlocked = isFeatured 
+      ? unlockedImages.has('featured') 
+      : unlockedImages.has(index);
+    
+    if (isUnlocked) {
+      return (
+        <img 
+          src={imageSrc} 
+          alt={alt} 
+          className={isFeatured ? styles.featuredAuthorImage : styles.authorImage}
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src="/img/default-avatar.png";
+          }}
+        />
+      );
+    }
+    
+    // Render blurred/locked image
+    return (
+      <div 
+        className={`${isFeatured ? styles.featuredAuthorImage : styles.authorImage} ${styles.protectedImage}`}
+        onClick={() => showPasswordModalForRecommendation(isFeatured ? 'featured' : index)}
+      >
+        <Lock size={24} className={styles.lockIcon} />
+        <span className={styles.unlockText}>Unlock</span>
+      </div>
     );
   };
 
@@ -171,17 +210,14 @@ export default function RecruitmentSpecialistRecommendations() {
               leader who elevates the entire team.
             </blockquote>
             <div className={styles.featuredAuthor}>
-              <img 
-                src="https://media.licdn.com/dms/image/v2/C4E03AQGo2VfKAySFWg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517459866915?e=1762992000&v=beta&t=vtIdo9hVYyLQwfDWLfsjwR4kJmVYt1X7OLmMkOKaOIM" 
-                alt="Alexander Boronka" 
-                className={styles.featuredAuthorImage}
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src="/img/default-avatar.png";
-                }}
-              />
+              {renderProtectedImage(
+                "https://media.licdn.com/dms/image/v2/C4E03AQGo2VfKAySFWg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517459866915?e=1762992000&v=beta&t=vtIdo9hVYyLQwfDWLfsjwR4kJmVYt1X7OLmMkOKaOIM", 
+                "Alex", 
+                null, 
+                true
+              )}
               <div className={styles.featuredAuthorInfo}>
-                <h3>{unlockedTestimonial === 'featured' ? "Dr. Alexander Boronka" : <span className={styles.hiddenName} onClick={() => showPasswordModalForRecommendation('featured')}><span>Dr. Alexander</span> <span className={styles.blurredName}>•••••</span> <Eye size={16} className={styles.eyeIcon} /></span>}</h3>
+                <h3>{unlockedTestimonial === 'featured' ? "Alex" : <span className={styles.hiddenName} onClick={() => showPasswordModalForRecommendation('featured')}><span>Alex</span> <span className={styles.blurredName}>•••••</span> <Eye size={16} className={styles.eyeIcon} /></span>}</h3>
                 <p>Product Manager for eMobility Services</p>
               </div>
             </div>
@@ -192,6 +228,7 @@ export default function RecruitmentSpecialistRecommendations() {
           <RecommendationsPanel 
             recommendations={professionalRecommendations} 
             nameFormatter={(recommendation, index) => hideLastName(recommendation, index)} 
+            imageRenderer={(imageSrc, alt, index) => renderProtectedImage(imageSrc, alt, index)}
           />
         </div>
       </SectionTemplate>
@@ -250,8 +287,8 @@ export default function RecruitmentSpecialistRecommendations() {
         <div className={styles.passwordModalOverlay}>
           <div className={styles.passwordModal}>
             <div className={styles.passwordModalHeader}>
-              <h2 className={styles.passwordModalTitle}>View Full Name</h2>
-              <p className={styles.passwordModalDescription}>Enter password to view the full name of this recommender</p>
+              <h2 className={styles.passwordModalTitle}>View Protected Content</h2>
+              <p className={styles.passwordModalDescription}>Enter password to view the protected content</p>
             </div>
             <form onSubmit={handlePasswordSubmit}>
               <input

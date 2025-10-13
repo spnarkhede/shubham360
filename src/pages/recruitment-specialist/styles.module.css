@@ -101,6 +101,67 @@
   margin: 3rem 0;
 } 
 
+/* Protected Image Styles */
+.protectedImage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ifm-color-emphasis-200);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  filter: blur(5px);
+  overflow: hidden;
+}
+
+.protectedImage:hover {
+  filter: blur(3px);
+  transform: scale(1.05);
+}
+
+.protectedImage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.lockIcon {
+  position: relative;
+  color: var(--ifm-color-emphasis-800);
+  z-index: 1;
+}
+
+.unlockText {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.featuredAuthorImage.protectedImage {
+  width: 60px;
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.authorImage.protectedImage {
+  width: 48px;
+  height: 48px;
+  margin-right: 1rem;
+}
+
 /* Password Protection Modal Styles */
 .passwordModalOverlay {
   position: fixed;
@@ -227,6 +288,16 @@
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--ifm-color-primary);
+  margin-right: 1rem;
+}
+
+.authorImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--ifm-color-primary);
+  margin-right: 1rem;
 }
 
 .statusGrid {

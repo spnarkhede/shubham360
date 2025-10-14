@@ -18,7 +18,7 @@ export default function CuriousVisitorCreativity() {
   // Sample gallery data - you can replace this with actual data
   const galleryData = {
     sketches: [
-        { id: 1, src: '/img/sketches/1.png', alt: 'Sketch 1', title: '' },
+        { id: 1, src: '/img/sketches/mr_bean.png', alt: 'Sketch 1', title: '' },
         { id: 2, src: '/img/sketches/2.png', alt: 'Sketch 2', title: '' },
         { id: 3, src: '/img/sketches/3.png', alt: 'Sketch 3', title: '' },
         { id: 4, src: '/img/sketches/4.png', alt: 'Sketch 4', title: '' },

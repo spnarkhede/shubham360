@@ -1659,6 +1659,18 @@
         |-- logo.png
         |-- painterprofile.png
         |-- paintings
+            |-- painting1.png
+            |-- painting10.png
+            |-- painting11.png
+            |-- painting12.png
+            |-- painting2.png
+            |-- painting3.png
+            |-- painting4.png
+            |-- painting5.png
+            |-- painting6.png
+            |-- painting7.png
+            |-- painting8.png
+            |-- painting9.png
         |-- pdf
             |-- bosch
                 |-- agile-basics-at-bosch.pdf
@@ -1761,11 +1773,27 @@
             |-- 52.png
             |-- 53.png
             |-- 54.png
+            |-- 55.png
+            |-- 56.png
+            |-- 57.png
+            |-- 58.png
+            |-- 59.png
             |-- 6.png
+            |-- 60.png
+            |-- 61.png
+            |-- 62.png
+            |-- 63.png
+            |-- 64.png
+            |-- 65.png
+            |-- 66.png
+            |-- 67.png
+            |-- 68.png
+            |-- 69.png
             |-- 7.png
+            |-- 70.png
+            |-- 71.png
             |-- 8.png
             |-- 9.png
-            |-- logo1.png
         |-- tabletennisprofile.png
         |-- testimonials
             |-- akshay.jpg

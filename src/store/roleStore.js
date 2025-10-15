@@ -42,6 +42,21 @@ const useRoleStore = create((set) => ({
         // { id: 'continue-watching', label: 'Continue Watching' }
       ]
     },
+    'product-designer': {
+      title: 'Product Designer',
+      description: 'Exploring the intersection of creativity, usability, and human emotion.',
+      theme: 'design',
+      tabs: [
+        { id: 'introduction', label: 'Introduction' },
+        { id: 'design-philosophy', label: 'Design Philosophy' },
+        { id: 'portfolio', label: 'Portfolio' },
+        { id: 'process', label: 'Design Process' },
+        { id: 'case-studies', label: 'Case Studies' },
+        { id: 'tools', label: 'Tools & Skills' },
+        { id: 'testimonials', label: 'Client Reviews' },
+        { id: 'contact', label: 'Contact' }
+      ]
+    },
     'tech-enthusiast': {
       title: 'Tech Enthusiast',
       description: 'Exploring innovation, technology, and the art of building the future',
@@ -86,21 +101,6 @@ const useRoleStore = create((set) => ({
         { id: 'speaking', label: 'Speaking' },
         { id: 'leadership', label: 'Leadership' },
         { id: 'recognition', label: 'Recognition' },
-        { id: 'contact', label: 'Contact' }
-      ]
-    },
-    'product-designer': {
-      title: 'Product Designer',
-      description: 'Exploring the intersection of creativity, usability, and human emotion.',
-      theme: 'design',
-      tabs: [
-        { id: 'introduction', label: 'Introduction' },
-        { id: 'design-philosophy', label: 'Design Philosophy' },
-        { id: 'portfolio', label: 'Portfolio' },
-        { id: 'process', label: 'Design Process' },
-        { id: 'case-studies', label: 'Case Studies' },
-        { id: 'tools', label: 'Tools & Skills' },
-        { id: 'testimonials', label: 'Client Reviews' },
         { id: 'contact', label: 'Contact' }
       ]
     },

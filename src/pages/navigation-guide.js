@@ -40,6 +40,27 @@ export default function NavigationGuide() {
                 <ChevronRight size={16} />
               </div>
             </div>
+          </Link> 
+
+          <Link to="/product-designer" className={styles.roleCard}>
+            <div className={styles.roleCardIcon}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"></path>
+                <path d="m9 16 1.5-1.5L12 16l1.5-1.5L15 16"></path>
+                <path d="m9 8 1.5 1.5L12 8l1.5 1.5L15 8"></path>
+              </svg>
+            </div>
+            <div className={styles.roleCardContent}>
+              <h2 className={styles.roleTitle}>Product Designer</h2>
+              <p className={styles.roleDescription}>
+                Turning ideas into intuitive, meaningful, and beautiful products.
+              </p>
+              <div className={styles.roleCardFooter}>
+                <span className={styles.viewProfileText}>View Profile</span>
+                <ChevronRight size={16} />
+              </div>
+            </div>
           </Link>
           
           <Link to="/tech-enthusiast" className={styles.roleCard}>
@@ -80,7 +101,7 @@ export default function NavigationGuide() {
             </div>
           </Link>
           
-          <Link to="/growth-partner" className={styles.roleCard}>
+          {/* <Link to="/growth-partner" className={styles.roleCard}>
             <div className={styles.roleCardIcon}>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
@@ -96,28 +117,8 @@ export default function NavigationGuide() {
                 <ChevronRight size={16} />
               </div>
             </div>
-          </Link>
-
-          <Link to="/product-designer" className={styles.roleCard}>
-            <div className={styles.roleCardIcon}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="3"></circle>
-                <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"></path>
-                <path d="m9 16 1.5-1.5L12 16l1.5-1.5L15 16"></path>
-                <path d="m9 8 1.5 1.5L12 8l1.5 1.5L15 8"></path>
-              </svg>
-            </div>
-            <div className={styles.roleCardContent}>
-              <h2 className={styles.roleTitle}>Product Designer</h2>
-              <p className={styles.roleDescription}>
-                Turning ideas into intuitive, meaningful, and beautiful products.
-              </p>
-              <div className={styles.roleCardFooter}>
-                <span className={styles.viewProfileText}>View Profile</span>
-                <ChevronRight size={16} />
-              </div>
-            </div>
-          </Link>
+          </Link> */}
+          
         </div>
         
         <div className={styles.guideFooter}>

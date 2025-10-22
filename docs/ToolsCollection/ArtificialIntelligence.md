@@ -123,6 +123,39 @@ description: Explore the world of AI and machine learning.
 
 ***
 
+## 🕵️‍♂️ AI Text Detection Websites (Free)
+
+* 🌐 **[GPTZero](https://gptzero.me/)** - Detects AI-generated content from ChatGPT, GPT-4, Claude, and Bard with sentence-by-sentence analysis. Free plan includes 10,000 words per month.  
+* ⭐ **[ZeroGPT](https://www.zerogpt.com/)** - Free unlimited AI detection up to 15,000 characters (~2,500 words) per submission with multi-language support.  
+* **[Sapling AI Detector](https://sapling.ai/ai-content-detector)** - Free AI detector with 97% claimed accuracy, highlights AI-likely sentences, supports PDF/DOCX uploads.  
+* **[QuillBot AI Detector](https://quillbot.com/ai-content-detector)** - Free detector with 1,200-word limit, integrates with QuillBot’s paraphrasing tools.  
+* **[Writer.com AI Detector](https://writer.com/ai-content-detector/)** - Free, no signup required, analyzes up to 5,000 words per submission with instant results.  
+* **[Copyleaks AI Detector](https://copyleaks.com/ai-content-detector)** - Free plan available, detects AI content with built-in plagiarism checking features.  
+* **[Scribbr AI Detector](https://www.scribbr.com/ai-detector/)** - Free unlimited checks up to 1,200 words, supports multiple languages including German, French, and Spanish.  
+* **[Originality.ai](https://originality.ai/)** - Highly accurate (85% overall), freemium model with $0.01 per 100 words, best for content marketers and SEO professionals.  
+* **[Hugging Face AI Detectors](https://huggingface.co/)** - Free open-source AI detection models including GPT-2 Output Detector and RADAR.  
+* **[Content at Scale AI Detector](https://contentatscale.ai/ai-content-detector/)** - Free tool analyzing up to 25,000 characters, runs content through multiple AI detectors.  
+
+
+***
+
+## 🧠 AI Humanizer Websites (Remove AI Detection - Free)
+
+* 🌐 **[Undetectable.AI](https://undetectable.ai/)** - Advanced AI humanizer, free up to 250 words, bypasses GPTZero, Turnitin, and Copyleaks with 99% success rate.  
+* ⭐ **[HIX Humanizer (formerly HIX Bypass)](https://hixbypass.com/)** - Free trial available, 99.5% success rate, humanizes AI text while retaining original meaning.  
+* **[BypassGPT](https://bypassgpt.ai/)** - Free AI humanizer and detector combo, supports 50+ languages, creates plagiarism-free human-like text.  
+* **[BypassAI](https://bypassai.ai/)** - Free plan available, removes ChatGPT watermarks, bypasses all major AI detectors.  
+* **[QuillBot AI Humanizer](https://quillbot.com/ai-humanizer)** - Free tool that transforms AI text into natural, human-like content instantly.  
+* **[GPTinf](https://www.gptinf.com/)** - Free AI detector and humanizer with 99% success rate, tested against Turnitin and GPTZero.  
+* **[StealthWriter](https://stealthwriter.ai/)** - Free version available with Ninja and Ghost modes, bypasses Originality.AI, GPTZero, and Turnitin.  
+* **[Humanize AI](https://humanizeai.com/)** - Free AI humanizer that makes AI text 100% undetectable, improves readability and SEO-friendly.  
+* **[Rephrasy AI Humanizer](https://rephrasy.ai/)** - Free built-in AI detector, bypasses GPTZero, Copyleaks, and Turnitin.  
+* **[Decopy.AI Humanizer](https://decopy.ai/ai-humanizer/)** - Free AI humanizer processing up to 50,000 characters with 8 tone options.  
+* **[Duey.AI](https://www.duey.ai/free-humanizer-for-undetectable-ai)** - Completely free humanizer, no account needed, bypasses 12+ AI detectors within 30 seconds.  
+* **[Ahrefs AI Humanizer](https://ahrefs.com/writing-tools/ai-humanizer)** - Free AI text humanizer tool from Ahrefs.  
+
+***
+
 ##  Multiple Model Sites
 
 * 🌐 **[Free LLM API Resources](https://github.com/cheahjs/free-llm-api-resources)** - Chatbot Resources / Mirrors

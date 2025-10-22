@@ -323,8 +323,8 @@ const toolsData = [
   }
 ];
 
-// Available filter categories - ALPHABETICAL ORDER with Beginners first
-const categories = ['All', 'Beginners', 'AI', 'Audio', 'Audio Tools', 'Development', 'Downloads', 'Education', 'Educational Tools', 'Entertainment', 'Files', 'Gaming', 'Gaming Tools', 'Images', 'International', 'Internet', 'Literature', 'Mobile', 'Operating Systems', 'P2P', 'Privacy', 'Social Media', 'System', 'Text', 'Utilities', 'Video'];
+// Available filter categories - Automatically generated from data
+const categories = ['All', ...new Set(toolsData.map(item => item.category).sort())];
 
 // Individual Tool Card Component
 const ToolCard = ({ tool }) => {

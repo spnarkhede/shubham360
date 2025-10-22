@@ -108,6 +108,8 @@
                 |-- tags-mindset-df1.json
                 |-- tags-strategic-ea8.json
                 |-- tags-web-fcc.json
+            |-- site-docs-computer-science-artificial-intelligence-llm-llm-basic-notes-md-74f.json
+            |-- site-docs-computer-science-artificial-intelligence-llm-prompt-engineering-basic-notes-md-45b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-basic-notes-md-fbd.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-operations-md-c1b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
@@ -657,6 +659,10 @@
 |-- compress-images.js
 |-- docs
     |-- ComputerScience
+        |-- ArtificialIntelligence
+            |-- LLM
+                |-- LLMBasicNotes.md
+                |-- PromptEngineeringBasicNotes.md
         |-- DevOpsTools
             |-- Docker
                 |-- DockerBasicNotes.md
@@ -1544,6 +1550,7 @@
             |-- index.js
             |-- introduction.js
             |-- styles.module.css
+            |-- technical-learnings.js
             |-- tools-collection.js
     |-- store
         |-- roleStore.js

@@ -143,6 +143,7 @@ const LearningCard = ({ learning }) => {
   const getDocumentationUrl = (learningId) => {
     // Map each learning topic to its documentation path
     const documentationFolderMap = {
+      'product-manager-guide-for-team': '/Design/Principles/ProductManagerGuide',
       'human-centered-design': '/Design/Principles/HumanCenteredDesign',
       'design-systems': '/Design/Systems/DesignSystems',
       'prototyping': '/Design/Process/Prototyping',
@@ -247,7 +248,7 @@ const DesignLearnings = () => {
       <SectionTemplate
         title="📚 Design Learnings & Knowledge"
         subtitle="Explore my curated collection of design skills, principles, and concepts I've mastered through hands-on experience and continuous learning."
-        className={styles.sectionWrapper}
+        className={`${styles.sectionWrapper} product-designer-dashboard`}
       >
         {/* Search and Filter Controls */}
         <div className={styles.controlsSection}>

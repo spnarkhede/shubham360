@@ -125,6 +125,9 @@
             |-- site-docs-computer-science-web-technologies-css-css-animation-notes-md-8f7.json
             |-- site-docs-computer-science-web-technologies-css-css-basic-notes-md-16c.json
             |-- site-docs-computer-science-web-technologies-html-html-basic-notes-md-4d3.json
+            |-- site-docs-design-principles-product-manager-guide-for-team-md-8d7.json
+            |-- site-docs-design-principles-product-manager-guide-md-8ba.json
+            |-- site-docs-design-product-manager-guide-for-team-md-573.json
             |-- site-docs-intro-md-0e3.json
             |-- site-docs-languages-german-intensive-a-1-1-1-introduction-a-1-1-md-489.json
             |-- site-docs-languages-german-intensive-a-1-1-10-chapter-9-md-0c6.json
@@ -697,6 +700,12 @@
                 |-- HTMLBasicNotes.md
             |-- _category_.json
         |-- _category_.json
+    |-- Design
+        |-- images
+            |-- ui_ux_differences.png
+            |-- ux_designer_responsibilites.png
+        |-- Principles
+            |-- ProductManagerGuide.md
     |-- intro.md
     |-- Languages
         |-- German
@@ -1533,10 +1542,10 @@
         |-- product-designer
             |-- certificates.js
             |-- contact.js
+            |-- design-learning.js
             |-- design-philosophy.js
             |-- index.js
             |-- introduction.js
-            |-- learning.js
             |-- styles.module.css
         |-- recruitment-specialist
             |-- certifications.js

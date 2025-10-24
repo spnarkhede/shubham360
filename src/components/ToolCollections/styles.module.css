@@ -541,3 +541,94 @@
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
+
+/* Product Designer Theme Overrides */
+[data-theme='dark'] .product-designer-dashboard .toolIcon,
+:global(.product-designer-dashboard) .toolIcon {
+  color: #9b59b6;
+  background: var(--pd-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme='dark'] .product-designer-dashboard .toolTitle,
+:global(.product-designer-dashboard) .toolTitle {
+  background: var(--pd-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme='dark'] .product-designer-dashboard .exploreButton,
+:global(.product-designer-dashboard) .exploreButton {
+  background: var(--pd-gradient);
+  box-shadow: 0 4px 15px rgba(155, 89, 182, 0.4);
+}
+
+[data-theme='dark'] .product-designer-dashboard .exploreButton:hover,
+:global(.product-designer-dashboard) .exploreButton:hover {
+  box-shadow: 0 8px 25px rgba(155, 89, 182, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Product Designer Theme Overrides for Filters */
+:global(.product-designer-dashboard) .filterLabel {
+  color: var(--pd-primary);
+  font-weight: 600;
+}
+
+:global(.product-designer-dashboard) .categoryChip {
+  border-color: rgba(155, 89, 182, 0.3);
+  color: var(--pd-primary-darker);
+  background: var(--pd-gradient-light);
+}
+
+:global(.product-designer-dashboard) .categoryChip:hover {
+  border-color: var(--pd-primary);
+  background: var(--pd-gradient);
+  color: white;
+  box-shadow: 0 4px 15px rgba(155, 89, 182, 0.4);
+}
+
+:global(.product-designer-dashboard) .activeChip {
+  background: var(--pd-gradient);
+  border-color: var(--pd-primary);
+  color: white;
+  box-shadow: 0 4px 15px rgba(155, 89, 182, 0.4);
+}
+
+:global(.product-designer-dashboard) .activeChip:hover {
+  background: var(--pd-gradient);
+  border-color: var(--pd-primary);
+  color: white;
+}
+
+:global(.product-designer-dashboard) .toggleLabel {
+  color: var(--pd-primary-darker);
+}
+
+:global(.product-designer-dashboard) .toggleIcon {
+  color: var(--pd-accent);
+}
+
+:global(.product-designer-dashboard) .toggleSlider {
+  background-color: rgba(155, 89, 182, 0.3);
+}
+
+:global(.product-designer-dashboard) .toggleInput:checked + .toggleSlider {
+  background: var(--pd-gradient);
+}
+
+:global(.product-designer-dashboard) .clearFiltersButton {
+  background: var(--pd-gradient-light);
+  border-color: rgba(155, 89, 182, 0.3);
+  color: var(--pd-primary-darker);
+}
+
+:global(.product-designer-dashboard) .clearFiltersButton:hover {
+  background: var(--pd-gradient);
+  border-color: var(--pd-primary);
+  color: white;
+  box-shadow: 0 4px 15px rgba(155, 89, 182, 0.4);
+}

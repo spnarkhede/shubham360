@@ -53,6 +53,7 @@ const useRoleStore = create((set) => ({
         { id: 'process', label: 'Design Process' },
         // { id: 'case-studies', label: 'Case Studies' },
         { id: 'tools', label: 'Tools & Skills' },
+        { id: 'learning', label: 'Learnings' },
         { id: 'certificates', label: 'Certifications' },
         { id: 'contact', label: 'Contact' }
       ]

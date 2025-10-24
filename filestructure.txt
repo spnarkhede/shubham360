@@ -1533,8 +1533,10 @@
         |-- product-designer
             |-- certificates.js
             |-- contact.js
+            |-- design-philosophy.js
             |-- index.js
             |-- introduction.js
+            |-- learning.js
             |-- styles.module.css
         |-- recruitment-specialist
             |-- certifications.js

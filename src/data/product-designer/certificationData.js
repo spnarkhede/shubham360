@@ -144,6 +144,33 @@ export const badges = [
 // Product Designer Corporate Trainings Data
 export const corporateTrainings = [
   {
+    name: "User Experience – getting started-B",
+    issuer: "Bosch",
+    platform: "Course",
+    date: "Jul 10, 2024",
+    description: "Introduced UX principles, usability testing, and customer-centered design basics.",
+    skills: ["User Experience", "Design Thinking", "Customer Focus"],
+    verificationUrl: "/img/pdf/bosch/user-experience-getting-started.pdf"
+  },
+  {
+    name: "User Experience – getting started-A",
+    issuer: "Bosch",
+    platform: "Course",
+    date: "Jul 08, 2024",
+    description: "Introduced UX principles, usability testing, and customer-centered design basics.",
+    skills: ["User Experience", "Design Thinking", "Customer Focus"],
+    verificationUrl: "/img/pdf/bosch/user-experience-getting-started-A.pdf"
+  },
+  {
+    name: "Bosch Corporate Design-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Feb 5, 2024",
+    description: "Learned visual identity, communication style, and branding guidelines at Bosch.",
+    skills: ["Corporate Branding", "Communication Design"],
+    verificationUrl: "/img/pdf/bosch/bosch-corporate-design.pdf"
+  },
+  {
     name: "Advanced Design Workshops",
     issuer: "Adobe",
     platform: "Corporate Training",

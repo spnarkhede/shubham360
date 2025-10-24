@@ -1,6 +1,15 @@
 // Product Designer Certifications Data
 export const certifications = [
   {
+    name: "Engineering and Product Design Processes",
+    issuer: "Arizona State University",
+    platform: "Coursera",
+    date: "October 24, 2025",
+    description: "Analyzed engineering and product design processes, identifying and distinguishing the key steps involved in both methodologies.",
+    skills: ["Engineering Design", "Product Design", "Design Process Analysis", "Innovation", "Problem Solving"],
+    verificationUrl: "https://coursera.org/share/3d92b81f37a891f901c7ce1aa8fc9f7e"
+  },
+  {
     name: "Design Thinking Fundamentals",
     issuer: "IDEO U",
     platform: "Online Course",

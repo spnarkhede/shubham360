@@ -1501,6 +1501,7 @@
             |-- components
                 |-- PersonalityChart.js
                 |-- PersonalityChart.module.css
+            |-- contact.js
             |-- creativity.js
             |-- index.js
             |-- introduction.js
@@ -1510,6 +1511,7 @@
             |-- wellness.js
         |-- docusaurus.module.css
         |-- growth-partner
+            |-- contact.js
             |-- index.js
             |-- introduction.js
             |-- styles.module.css
@@ -1527,6 +1529,7 @@
             |-- Projects.js
             |-- styles.module.css
         |-- product-designer
+            |-- contact.js
             |-- index.js
             |-- introduction.js
             |-- styles.module.css
@@ -1547,6 +1550,7 @@
             |-- styles.module.css
         |-- role-pages.module.css
         |-- tech-enthusiast
+            |-- contact.js
             |-- index.js
             |-- introduction.js
             |-- styles.module.css

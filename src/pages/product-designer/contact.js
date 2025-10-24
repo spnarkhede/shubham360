@@ -1,5 +1,5 @@
 import React from 'react';
-import DashboardLayout from '../../components/DashboardLayout';
+import ProductDesignerDashboard from '../../components/ProductDesignerDashboard';
 import SectionTemplate from '../../components/SectionTemplate';
 import { ContactForm } from '@site/src/components/ContactForm';
 import { Mail, Linkedin, Github, MapPin, Phone, Calendar, Palette, Coffee } from 'lucide-react';
@@ -57,7 +57,7 @@ export default function ProductDesignerContact() {
   };
 
   return (
-    <DashboardLayout
+    <ProductDesignerDashboard
       role="product-designer"
       activeTab="contact"
       title="Product Designer | Contact"
@@ -194,6 +194,6 @@ export default function ProductDesignerContact() {
           </div>
         </div>
       </SectionTemplate>
-    </DashboardLayout>
+    </ProductDesignerDashboard>
   );
 }

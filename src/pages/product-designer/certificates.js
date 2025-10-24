@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import DashboardLayout from '../../components/DashboardLayout';
+import ProductDesignerDashboard from '../../components/ProductDesignerDashboard';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
 import { Award, CheckCircle, Calendar, Link, Users, Building } from 'lucide-react';
@@ -140,31 +140,29 @@ export default function ProductDesignerCertificates() {
   const renderCertificationCards = () => (
     <div className={styles.certificatesGrid}>
       {filteredCertifications.map((cert, index) => (
-        <div key={index} className={styles.certificateCard}>
-          <div className={styles.certificateHeader}>
-            <div className={styles.certificateLogo}>
+        <div key={index} className={styles.card}>
+          <div className={styles.cardHeader}>
+            <div className={styles.cardLogo}>
               <Award size={24} />
             </div>
-            <div className={styles.certificateHeaderContent}>
-              <h3 className={styles.certificateTitle}>{cert.name}</h3>
-              <p className={styles.certificateIssuer}>{cert.issuer}</p>
-              <p className={styles.certificatePlatform}>{cert.platform}</p>
+            <div className={styles.cardHeaderContent}>
+              <h3 className={styles.cardTitle}>{cert.name}</h3>
+              <p className={styles.cardIssuer}>{cert.issuer}</p>
+              <p className={styles.cardPlatform}>{cert.platform}</p>
               
-              <div className={styles.certificateMetadata}>
-                <div className={styles.certificateDate}>
-                  <Calendar size={12} />
-                  <span>Issued: {cert.date}</span>
-                </div>
+              <div className={styles.cardDate}>
+                <Calendar size={12} />
+                <span>Issued: {cert.date}</span>
               </div>
             </div>
           </div>
 
-          <div className={styles.certificateBody}>
-            <p className={styles.certificateDescription}>{cert.description}</p>
+          <div className={styles.cardBody}>
+            <p className={styles.cardDescription}>{cert.description}</p>
 
-            <div className={styles.certificateSkills}>
+            <div className={styles.cardSkills}>
               {cert.skills.slice(0, 3).map((skill, skillIndex) => (
-                <span key={skillIndex} className={styles.certificateSkill}>
+                <span key={skillIndex} className={styles.cardSkill}>
                   <CheckCircle size={10} />
                   {skill}
                 </span>
@@ -175,7 +173,7 @@ export default function ProductDesignerCertificates() {
               href={cert.verificationUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.certificateVerifyButton}
+              className={styles.cardVerifyButton}
             >
               <Link size={12} />
               Verify
@@ -190,8 +188,8 @@ export default function ProductDesignerCertificates() {
   const renderBadgeCards = () => (
     <div className={styles.badgesGrid}>
       {badges.map((badge, index) => (
-        <div key={index} className={styles.badgeCard}>
-          <div className={styles.badgeImage}>
+        <div key={index} className={styles.card}>
+          <div className={styles.cardImage}>
             <img 
               src={badge.imageUrl} 
               alt={badge.name} 
@@ -201,23 +199,21 @@ export default function ProductDesignerCertificates() {
               }}
             />
           </div>
-          <div className={styles.badgeContent}>
-            <h3 className={styles.badgeTitle}>{badge.name}</h3>
-            <p className={styles.badgeIssuer}>{badge.issuer}</p>
-            <p className={styles.badgePlatform}>{badge.platform}</p>
+          <div className={styles.cardBody}>
+            <h3 className={styles.cardTitle}>{badge.name}</h3>
+            <p className={styles.cardIssuer}>{badge.issuer}</p>
+            <p className={styles.cardPlatform}>{badge.platform}</p>
             
-            <div className={styles.badgeMetadata}>
-              <div className={styles.badgeDate}>
-                <Calendar size={12} />
-                <span>Awarded: {badge.date}</span>
-              </div>
+            <div className={styles.cardDate}>
+              <Calendar size={12} />
+              <span>Awarded: {badge.date}</span>
             </div>
             
-            <p className={styles.badgeDescription}>{badge.description}</p>
+            <p className={styles.cardDescription}>{badge.description}</p>
             
-            <div className={styles.badgeSkills}>
+            <div className={styles.cardSkills}>
               {badge.skills.map((skill, skillIndex) => (
-                <span key={skillIndex} className={styles.badgeSkill}>
+                <span key={skillIndex} className={styles.cardSkill}>
                   <CheckCircle size={10} />
                   {skill}
                 </span>
@@ -228,7 +224,7 @@ export default function ProductDesignerCertificates() {
               href={badge.verificationUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.badgeVerifyButton}
+              className={styles.cardVerifyButton}
             >
               <Link size={12} />
               Verify
@@ -243,31 +239,29 @@ export default function ProductDesignerCertificates() {
   const renderCorporateTrainingCards = () => (
     <div className={styles.corporateTrainingsGrid}>
       {filteredCorporateTrainings.map((training, index) => (
-        <div key={index} className={styles.corporateTrainingCard}>
-          <div className={styles.corporateTrainingHeader}>
-            <div className={styles.corporateTrainingLogo}>
+        <div key={index} className={styles.card}>
+          <div className={styles.cardHeader}>
+            <div className={styles.cardLogo}>
               <Building size={24} />
             </div>
-            <div className={styles.corporateTrainingHeaderContent}>
-              <h3 className={styles.corporateTrainingTitle}>{training.name}</h3>
-              <p className={styles.corporateTrainingIssuer}>{training.issuer}</p>
-              <p className={styles.corporateTrainingPlatform}>{training.platform}</p>
+            <div className={styles.cardHeaderContent}>
+              <h3 className={styles.cardTitle}>{training.name}</h3>
+              <p className={styles.cardIssuer}>{training.issuer}</p>
+              <p className={styles.cardPlatform}>{training.platform}</p>
               
-              <div className={styles.corporateTrainingMetadata}>
-                <div className={styles.corporateTrainingDate}>
-                  <Calendar size={12} />
-                  <span>Completed: {training.date}</span>
-                </div>
+              <div className={styles.cardDate}>
+                <Calendar size={12} />
+                <span>Completed: {training.date}</span>
               </div>
             </div>
           </div>
 
-          <div className={styles.corporateTrainingBody}>
-            <p className={styles.corporateTrainingDescription}>{training.description}</p>
+          <div className={styles.cardBody}>
+            <p className={styles.cardDescription}>{training.description}</p>
 
-            <div className={styles.corporateTrainingSkills}>
+            <div className={styles.cardSkills}>
               {training.skills.slice(0, 3).map((skill, skillIndex) => (
-                <span key={skillIndex} className={styles.corporateTrainingSkill}>
+                <span key={skillIndex} className={styles.cardSkill}>
                   <Users size={10} />
                   {skill}
                 </span>
@@ -278,7 +272,7 @@ export default function ProductDesignerCertificates() {
               href={training.verificationUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.corporateTrainingVerifyButton}
+              className={styles.cardVerifyButton}
             >
               <Link size={12} />
               Verify
@@ -304,7 +298,7 @@ export default function ProductDesignerCertificates() {
   };
 
   return (
-    <DashboardLayout
+    <ProductDesignerDashboard
       role="product-designer"
       activeTab="certificates"
       title="Product Designer | Certificates"
@@ -327,6 +321,6 @@ export default function ProductDesignerCertificates() {
         {renderIssuerFilter()}
         {renderActiveContent()}
       </SectionTemplate>
-    </DashboardLayout>
+    </ProductDesignerDashboard>
   );
 }

@@ -82,6 +82,15 @@ export const certifications = [
       skills: ["Image Quality", "Photo Editing", "Graphic and Visual Design", "Adobe Photoshop", "Graphic Design", "Graphic and Visual Design Software"],
       verificationUrl: "https://www.coursera.org/account/accomplishments/verify/E3NY99KLEAX3"
     },
+    {
+      name: "Engineering and Product Design Processes",
+      issuer: "Arizona State University",
+      platform: "Coursera",
+      date: "October 24, 2025",
+      description: "Analyzed engineering and product design processes, identifying and distinguishing the key steps involved in both methodologies.",
+      skills: ["Engineering Design", "Product Design", "Design Process Analysis", "Innovation", "Problem Solving"],
+      verificationUrl: "https://coursera.org/share/3d92b81f37a891f901c7ce1aa8fc9f7e"
+    },
     // CognitiveClass Ai Courses Certifications
     {
       name: "Introduction to Data Science",

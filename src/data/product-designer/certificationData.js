@@ -10,6 +10,48 @@ export const certifications = [
     verificationUrl: "https://coursera.org/share/3d92b81f37a891f901c7ce1aa8fc9f7e"
   },
   {
+    name: "Product Design and UX/UI Fundamentals",
+    issuer: "Microsoft",
+    platform: "Coursera",
+    date: "June 2025",
+    description: "Developed core UX/UI design skills including wireframing, mockups, and product testing. Gained hands-on experience with user research, design thinking, responsible AI, and collaborative design workflows.",
+    skills: [
+      "Microsoft Design System",
+      "UX/UI Design",
+      "Design Thinking",
+      "User Research",
+      "Prototyping",
+      "Usability",
+      "User-Centered Design",
+      "Mockups",
+      "Wireframing",
+      "Product Testing",
+      "Responsible AI",
+      "User Story Creation"      
+    ],
+    verificationUrl: "https://www.coursera.org/learn/microsoft-product-design-and-ux-ui-fundamentals/supplement/7TZ7K/welcome-to-the-product-design-and-ux-ui-fundamentals-syllabus"
+  },
+  {
+    name: "Prototyping",
+    issuer: "Arizona State University",
+    platform: "Coursera",
+    date: "2025",
+    description: "Learned how to design and create functional prototypes, perform usability testing, and gather user feedback to enhance product development and design outcomes.",
+    skills: [
+      "Prototyping",
+      "Product Design",
+      "3D Modeling",
+      "Computer-Aided Design (CAD)",
+      "Product Development",
+      "Usability Testing",
+      "Development Testing",
+      "Mockups",
+      "User Feedback",
+      "Industrial Design"
+    ],
+    verificationUrl: "https://www.coursera.org/programs/bosch-learning-program-8hold/learn/prototyping?authProvider=bosch&source=search"
+  },
+  {
     name: "Design Thinking Fundamentals",
     issuer: "IDEO U",
     platform: "Online Course",

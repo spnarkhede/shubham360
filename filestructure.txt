@@ -1390,6 +1390,8 @@
         |-- _timeline.css
     |-- data
         |-- booksNavigation.js
+        |-- product-designer
+            |-- certificationData.js
         |-- recruitment-specialist
             |-- certificationData.js
             |-- content.js
@@ -1529,6 +1531,7 @@
             |-- Projects.js
             |-- styles.module.css
         |-- product-designer
+            |-- certificates.js
             |-- contact.js
             |-- index.js
             |-- introduction.js

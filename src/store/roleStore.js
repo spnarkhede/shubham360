@@ -51,9 +51,9 @@ const useRoleStore = create((set) => ({
         { id: 'design-philosophy', label: 'Design Philosophy' },
         { id: 'portfolio', label: 'Portfolio' },
         { id: 'process', label: 'Design Process' },
-        { id: 'case-studies', label: 'Case Studies' },
+        // { id: 'case-studies', label: 'Case Studies' },
         { id: 'tools', label: 'Tools & Skills' },
-        { id: 'testimonials', label: 'Client Reviews' },
+        { id: 'certificates', label: 'Certifications' },
         { id: 'contact', label: 'Contact' }
       ]
     },

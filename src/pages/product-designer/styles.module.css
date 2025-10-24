@@ -999,7 +999,8 @@
 .certificatesGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -1010,38 +1011,41 @@
 
 .certificateCard {
   background: var(--ifm-background-color);
-  border: 1px solid rgba(155, 89, 182, 0.2);
-  border-radius: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  transition: all 0.3s ease;
-  position: relative;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
 }
 
 .certificateCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   border-color: var(--pd-primary);
-  box-shadow: 0 12px 30px var(--pd-glow);
-  transform: translateY(-5px);
 }
 
 .certificateHeader {
+  padding: 16px;
   display: flex;
-  gap: 1rem;
-  padding: 1.5rem;
+  align-items: flex-start;
+  gap: 12px;
   border-bottom: 1px solid rgba(155, 89, 182, 0.1);
 }
 
 .certificateLogo {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
   background: var(--pd-gradient);
-  border-radius: 12px;
-  color: white;
-  flex-shrink: 0;
-  box-shadow: 0 4px 15px var(--pd-glow);
+  border-radius: 6px;
+  padding: 6px;
+  box-shadow: 0 2px 8px var(--pd-glow);
 }
 
 .certificateHeaderContent {
@@ -1049,99 +1053,107 @@
 }
 
 .certificateTitle {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+  line-height: 1.3;
   color: var(--pd-primary);
 }
 
 .certificateIssuer {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  color: var(--pd-primary-darker);
+  margin-bottom: 4px;
   font-weight: 500;
-  margin: 0 0 0.25rem 0;
-  color: var(--ifm-color-emphasis-700);
 }
 
 .certificatePlatform {
-  font-size: 0.8rem;
-  margin: 0 0 0.5rem 0;
-  color: var(--ifm-color-emphasis-600);
-  background: var(--pd-gradient-light);
+  font-size: 0.70rem;
+  color: white;
+  margin-bottom: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--pd-gradient);
   display: inline-block;
-  padding: 0.2rem 0.5rem;
+  padding: 2px 6px;
   border-radius: 12px;
 }
 
 .certificateMetadata {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-700);
 }
 
 .certificateDate {
   display: flex;
   align-items: center;
-  gap: 0.25rem;
-  font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-600);
+  gap: 4px;
 }
 
 .certificateBody {
-  padding: 1.5rem;
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .certificateDescription {
-  font-size: 0.9rem;
+  margin-bottom: 12px;
+  font-size: 0.875rem;
   line-height: 1.5;
+  flex: 1;
   color: var(--ifm-color-emphasis-700);
-  margin: 0 0 1rem 0;
 }
 
 .certificateSkills {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  gap: 6px;
+  margin-bottom: 12px;
 }
 
 .certificateSkill {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-  font-size: 0.75rem;
   background: var(--pd-gradient-light);
   color: var(--pd-primary-darker);
-  padding: 0.25rem 0.5rem;
+  padding: 3px 8px;
   border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .certificateVerifyButton {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  background: var(--pd-gradient);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-  font-size: 0.85rem;
+  gap: 4px;
+  padding: 6px 12px;
+  background: var(--pd-gradient-light);
+  color: var(--pd-primary-darker);
+  border-radius: 4px;
+  font-size: 0.8rem;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease;
-  box-shadow: 0 4px 15px var(--pd-glow);
+  align-self: flex-start;
+  border: 1px solid rgba(155, 89, 182, 0.2);
 }
 
 .certificateVerifyButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px var(--pd-glow-accent);
+  background: var(--pd-gradient);
   color: white;
+  text-decoration: none;
 }
 
 /* Badges Grid */
 .badgesGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -1152,27 +1164,29 @@
 
 .badgeCard {
   background: var(--ifm-background-color);
-  border: 1px solid rgba(155, 89, 182, 0.2);
-  border-radius: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  transition: all 0.3s ease;
-  position: relative;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .badgeCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   border-color: var(--pd-primary);
-  box-shadow: 0 12px 30px var(--pd-glow);
-  transform: translateY(-5px);
 }
 
 .badgeImage {
-  height: 180px;
-  background: var(--pd-gradient-light);
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  border-bottom: 1px solid rgba(155, 89, 182, 0.1);
+  height: 180px;
+  background: var(--pd-gradient-light);
 }
 
 .badgeImage img {
@@ -1182,100 +1196,108 @@
 }
 
 .badgeContent {
-  padding: 1.5rem;
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .badgeTitle {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+  line-height: 1.3;
   color: var(--pd-primary);
 }
 
 .badgeIssuer {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  color: var(--pd-primary-darker);
+  margin-bottom: 4px;
   font-weight: 500;
-  margin: 0 0 0.25rem 0;
-  color: var(--ifm-color-emphasis-700);
 }
 
 .badgePlatform {
-  font-size: 0.8rem;
-  margin: 0 0 0.5rem 0;
-  color: var(--ifm-color-emphasis-600);
-  background: var(--pd-gradient-light);
+  font-size: 0.70rem;
+  color: white;
+  margin-bottom: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--pd-gradient);
   display: inline-block;
-  padding: 0.2rem 0.5rem;
+  padding: 2px 6px;
   border-radius: 12px;
 }
 
 .badgeMetadata {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 12px;
 }
 
 .badgeDate {
   display: flex;
   align-items: center;
-  gap: 0.25rem;
-  font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-600);
+  gap: 4px;
 }
 
 .badgeDescription {
-  font-size: 0.9rem;
+  margin-bottom: 12px;
+  font-size: 0.875rem;
   line-height: 1.5;
+  flex: 1;
   color: var(--ifm-color-emphasis-700);
-  margin: 0 0 1rem 0;
 }
 
 .badgeSkills {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  gap: 6px;
+  margin-bottom: 12px;
 }
 
 .badgeSkill {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-  font-size: 0.75rem;
   background: var(--pd-gradient-light);
   color: var(--pd-primary-darker);
-  padding: 0.25rem 0.5rem;
+  padding: 3px 8px;
   border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .badgeVerifyButton {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  background: var(--pd-gradient);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-  font-size: 0.85rem;
+  gap: 4px;
+  padding: 6px 12px;
+  background: var(--pd-gradient-light);
+  color: var(--pd-primary-darker);
+  border-radius: 4px;
+  font-size: 0.8rem;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease;
-  box-shadow: 0 4px 15px var(--pd-glow);
+  align-self: flex-start;
+  border: 1px solid rgba(155, 89, 182, 0.2);
 }
 
 .badgeVerifyButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px var(--pd-glow-accent);
+  background: var(--pd-gradient);
   color: white;
+  text-decoration: none;
 }
 
 /* Corporate Trainings Grid */
 .corporateTrainingsGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -1286,38 +1308,40 @@
 
 .corporateTrainingCard {
   background: var(--ifm-background-color);
-  border: 1px solid rgba(155, 89, 182, 0.2);
-  border-radius: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  transition: all 0.3s ease;
-  position: relative;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .corporateTrainingCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   border-color: var(--pd-primary);
-  box-shadow: 0 12px 30px var(--pd-glow);
-  transform: translateY(-5px);
 }
 
 .corporateTrainingHeader {
+  padding: 16px;
   display: flex;
-  gap: 1rem;
-  padding: 1.5rem;
+  align-items: flex-start;
+  gap: 12px;
   border-bottom: 1px solid rgba(155, 89, 182, 0.1);
 }
 
 .corporateTrainingLogo {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
   background: var(--pd-gradient);
-  border-radius: 12px;
-  color: white;
-  flex-shrink: 0;
-  box-shadow: 0 4px 15px var(--pd-glow);
+  border-radius: 6px;
+  padding: 6px;
+  box-shadow: 0 2px 8px var(--pd-glow);
 }
 
 .corporateTrainingHeaderContent {
@@ -1325,92 +1349,99 @@
 }
 
 .corporateTrainingTitle {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+  line-height: 1.3;
   color: var(--pd-primary);
 }
 
 .corporateTrainingIssuer {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  color: var(--pd-primary-darker);
+  margin-bottom: 4px;
   font-weight: 500;
-  margin: 0 0 0.25rem 0;
-  color: var(--ifm-color-emphasis-700);
 }
 
 .corporateTrainingPlatform {
-  font-size: 0.8rem;
-  margin: 0 0 0.5rem 0;
-  color: var(--ifm-color-emphasis-600);
-  background: var(--pd-gradient-light);
+  font-size: 0.70rem;
+  color: white;
+  margin-bottom: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--pd-gradient);
   display: inline-block;
-  padding: 0.2rem 0.5rem;
+  padding: 2px 6px;
   border-radius: 12px;
 }
 
 .corporateTrainingMetadata {
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-700);
 }
 
 .corporateTrainingDate {
   display: flex;
   align-items: center;
-  gap: 0.25rem;
-  font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-600);
+  gap: 4px;
 }
 
 .corporateTrainingBody {
-  padding: 1.5rem;
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .corporateTrainingDescription {
-  font-size: 0.9rem;
+  margin-bottom: 12px;
+  font-size: 0.875rem;
   line-height: 1.5;
+  flex: 1;
   color: var(--ifm-color-emphasis-700);
-  margin: 0 0 1rem 0;
 }
 
 .corporateTrainingSkills {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+  gap: 6px;
+  margin-bottom: 12px;
 }
 
 .corporateTrainingSkill {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-  font-size: 0.75rem;
   background: var(--pd-gradient-light);
   color: var(--pd-primary-darker);
-  padding: 0.25rem 0.5rem;
+  padding: 3px 8px;
   border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .corporateTrainingVerifyButton {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  background: var(--pd-gradient);
-  color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-  font-size: 0.85rem;
+  gap: 4px;
+  padding: 6px 12px;
+  background: var(--pd-gradient-light);
+  color: var(--pd-primary-darker);
+  border-radius: 4px;
+  font-size: 0.8rem;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease;
-  box-shadow: 0 4px 15px var(--pd-glow);
+  align-self: flex-start;
+  border: 1px solid rgba(155, 89, 182, 0.2);
 }
 
 .corporateTrainingVerifyButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px var(--pd-glow-accent);
+  background: var(--pd-gradient);
   color: white;
+  text-decoration: none;
 }
 
 /* Responsive Design - Certifications */

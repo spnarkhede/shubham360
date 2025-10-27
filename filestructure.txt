@@ -1540,13 +1540,16 @@
             |-- Projects.js
             |-- styles.module.css
         |-- product-designer
+            |-- case-studies.js
             |-- certificates.js
             |-- contact.js
             |-- design-learning.js
             |-- design-philosophy.js
             |-- index.js
             |-- introduction.js
+            |-- portfolio.js
             |-- styles.module.css
+            |-- tools.js
         |-- recruitment-specialist
             |-- certifications.js
             |-- components
@@ -1742,6 +1745,11 @@
                 |-- travel-security.pdf
                 |-- user-experience-getting-started-A.pdf
                 |-- user-experience-getting-started.pdf
+        |-- portfolio
+            |-- carsmobile-app.jpg
+            |-- design-system.jpg
+            |-- ecommerce-dashboard.jpg
+            |-- healthcare.jpg
         |-- profile.png
         |-- profileintro.png
         |-- profilepic.png

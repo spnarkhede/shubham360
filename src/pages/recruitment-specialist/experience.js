@@ -2,7 +2,7 @@ import React from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
-import { Briefcase, Award, Code, Building, GraduationCap, MapPin, Calendar, ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
+import { Briefcase, Award, Code, Building, GraduationCap, MapPin, Calendar, ChevronDown, ChevronUp, ExternalLink, Palette } from 'lucide-react';
 import Link from '@docusaurus/Link';
 
 // Create a custom timeline component that combines the content from the current page with the styling from ExperienceTimeline
@@ -230,37 +230,64 @@ export default function RecruitmentSpecialistExperience() {
 
   const internshipItems = [
     {
-      title: "Software Engineering Intern",
-      subtitle: "BMW Group",
-      location: "Munich, Germany",
-      period: "06/2019 – 09/2019",
-      content: "Worked on developing automotive software solutions for connected vehicle services, focusing on backend systems and data processing pipelines.",
+      title: "Application Developer",
+      subtitle: "Paarsh Touch Software Solutions",
+      location: "Nagpur, India",
+      period: "08/2017 – 02/2018",
+      content: "Developed and optimized Java-based applications using Java 8, JSP, Spring, and Hibernate, resulting in 20% improvement in application performance and maintainability.",
       achievements: [
-        "Developed a real-time data processing pipeline for vehicle telemetry data using Apache Kafka and Spark",
-        "Implemented RESTful APIs for vehicle status monitoring, reducing latency by 40%",
-        "Collaborated with cross-functional teams to integrate new features into the existing vehicle ecosystem",
-        "Created automated testing scripts that improved code coverage by 25%"
+        "Developed and optimized Java-based applications using Java 8, JSP, Spring, and Hibernate, resulting in 20% improvement in application performance and maintainability.",
+        "Collaborated with cross-functional teams to integrate new features and streamline API/database interactions, reducing data retrieval time by 15% and enhancing user experience."
       ],
-      tags: ["Java", "Spring Boot", "Apache Kafka", "Spark", "RESTful APIs", "Docker", "Git"],
+      tags: ["Java", "JSP", "Spring", "Hibernate", "API Integration"],
       icon: <Briefcase size={24} />,
       color: "#0078D7",
       expandable: true
     },
     {
-      title: "Full Stack Developer Intern",
-      subtitle: "Siemens AG",
-      location: "Berlin, Germany",
-      period: "01/2018 – 04/2018",
-      content: "Contributed to the development of web applications for industrial automation systems, working with both frontend and backend technologies.",
+      title: "Application Developer",
+      subtitle: "IT-Networkz Infosystems Pvt. Ltd.",
+      location: "Nagpur, India",
+      period: "07/2017 – 02/2018",
+      content: "Built and launched 'Food on Phone System,' an online food ordering portal, leading to a 40% boost in initial user engagement.",
       achievements: [
-        "Built responsive UI components using React and Redux, improving user experience scores by 30%",
-        "Developed backend services in Node.js for data visualization dashboards",
-        "Implemented unit tests with Jest, achieving 90% code coverage",
-        "Participated in Agile ceremonies and code reviews with senior developers"
+        "Built and launched 'Food on Phone System,' an online food ordering portal, leading to a 40% boost in initial user engagement.",
+        "Utilized full-stack technologies (Java, JDBC, MySQL, HTML5, JavaScript, Bootstrap) to deliver end-to-end solutions within aggressive project timelines."
       ],
-      tags: ["React", "Node.js", "Redux", "Jest", "RESTful APIs", "MongoDB", "Git"],
+      tags: ["Java", "JDBC", "MySQL", "HTML5", "JavaScript", "Bootstrap"],
       icon: <Code size={24} />,
       color: "#00A4EF",
+      expandable: true
+    },
+    {
+      title: "Java Software Developer",
+      subtitle: "Paarsh Touch Software Solutions",
+      location: "Nagpur, India",
+      period: "09/2016 – 03/2017",
+      content: "Engineered server-side applications with Servlets, JDBC, and Tomcat, supporting secure data processing for 3 client contracts.",
+      achievements: [
+        "Engineered server-side applications with Servlets, JDBC, and Tomcat, supporting secure data processing for 3 client contracts.",
+        "Managed hosting and real-time database integration using Firebase, enabling client-side analytics and reducing downtime incidents."
+      ],
+      tags: ["Java", "Servlets", "JDBC", "Tomcat", "Firebase"],
+      icon: <Building size={24} />,
+      color: "#FF9900",
+      expandable: true
+    },
+    {
+      title: "Web Developer & UI/UX Designer",
+      subtitle: "Paarsh Touch Software Solutions",
+      location: "Nagpur, India",
+      period: "02/2016 – 08/2016",
+      content: "Designed and developed responsive websites and web applications using HTML5, CSS3, Bootstrap, and JavaScript, improving mobile accessibility by 50%.",
+      achievements: [
+        "Designed and developed responsive websites and web applications using HTML5, CSS3, Bootstrap, and JavaScript, improving mobile accessibility by 50%.",
+        "Delivered UI/UX enhancements guided by user feedback, increasing client satisfaction ratings by 25%.",
+        "Customized WordPress and PHP5 implementations for rapid website launches, supporting 6+ client brands."
+      ],
+      tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "WordPress", "PHP5"],
+      icon: <Palette size={24} />,
+      color: "#9b59b6",
       expandable: true
     }
   ];

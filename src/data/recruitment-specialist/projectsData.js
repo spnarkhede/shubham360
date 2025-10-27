@@ -27,7 +27,8 @@ export const companyProjects = {
       longDescription: "The Charge Point Management System (CPMS) is a sophisticated platform designed to monitor, manage, and analyze electric vehicle charging infrastructure. I led the development of this system, which includes features such as real-time status monitoring, predictive maintenance alerts, usage analytics, and integration with payment systems. The platform supports both DC and AC charging stations and complies with OCPP standards for maximum compatibility.",
       technologies: ["React", "TypeScript", "Docker", "CI/CD", "Azure", "REST APIs", "OCPP Protocol"],
       achievements: [
-        "Supports 500+ charging stations across Europe",
+        "Supports 450,000+ publically accessible charging points in 30 European Countries",
+        "Highly customizable functionality, design and energy pricing models",
         "Reduced maintenance costs by 40%",
         "99.9% uptime achieved",
         "OCPP 2.0.1 compliance implemented"

@@ -1404,6 +1404,7 @@
         |-- booksNavigation.js
         |-- product-designer
             |-- certificationData.js
+            |-- experienceData.js
         |-- recruitment-specialist
             |-- certificationData.js
             |-- content.js

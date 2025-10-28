@@ -612,6 +612,9 @@
     |-- docusaurus-plugin-content-pages
         |-- default
             |-- site-src-pages-markdown-page-md-393.json
+            |-- site-src-pages-product-designer-blogs-design-systems-md-141.json
+            |-- site-src-pages-product-designer-blogs-prototyping-md-4d5.json
+            |-- site-src-pages-product-designer-blogs-user-research-md-7cc.json
             |-- site-src-pages-recruitment-specialist-recruiter-curated-data-md-a59.json
             |-- __plugin.json
     |-- docusaurus-plugin-debug
@@ -1540,9 +1543,15 @@
             |-- Projects.js
             |-- styles.module.css
         |-- product-designer
+            |-- blog-styles.module.css
+            |-- blogs
+                |-- design-systems.md
+                |-- prototyping.md
+                |-- user-research.md
             |-- case-studies.js
             |-- certificates.js
             |-- contact.js
+            |-- design-blog.js
             |-- design-learning.js
             |-- design-philosophy.js
             |-- index.js
@@ -1586,6 +1595,7 @@
             |-- generative-ai-overview-for-project-managers.png
             |-- pluralsightbadge.png
             |-- python-for-data-science.png
+        |-- blogs
         |-- books
             |-- accounting101.jpg
             |-- almanackOfNavalRavikant.jpg

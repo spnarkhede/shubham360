@@ -48,9 +48,9 @@ const useRoleStore = create((set) => ({
       theme: 'design',
       tabs: [
         { id: 'introduction', label: 'Introduction' },
-        { id: 'design-philosophy', label: 'Design Philosophy' },
+        { id: 'design-philosophy', label: 'Philosophy' },
         { id: 'portfolio', label: 'Portfolio' },
-        // { id: 'process', label: 'Design Process' },
+        { id: 'design-blog', label: 'Blogs' },
         { id: 'case-studies', label: 'Case Studies' },
         { id: 'tools', label: 'Tools & Skills' },
         { id: 'design-learning', label: 'Learnings' },

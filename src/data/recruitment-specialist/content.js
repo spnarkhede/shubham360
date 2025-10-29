@@ -68,11 +68,13 @@ export const documents = [
   {
     title: "Professional Resume",
     description: "Comprehensive resume highlighting experience, skills, and achievements",
-    fileName: "Shubham_Narkhede_Professional_Resume_2025.pdf",
+    // fileName: `Shubham_Narkhede_Resume.pdf`,
+    // fileName: `Shubham_Narkhede_Resume_${new Date().toISOString().split('T')[0]}.pdf`,
+    fileName: `Shubham_Narkhede_Resume_${new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-')}.pdf`,
     fileSize: "520 KB",
     lastUpdated: "March 2024",
     primary: true,
-    downloadUrl: "/documents/detailed_resume.pdf"
+    downloadUrl: "/documents/ShubhamNarkhede_CV.pdf"
   },
   {
     title: "Executive Summary",

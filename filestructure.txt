@@ -1588,7 +1588,7 @@
 |-- static
     |-- certificates
     |-- documents
-        |-- detailed_resume.pdf
+        |-- ShubhamNarkhede_CV.pdf
         |-- summary_resume.pdf
     |-- img
         |-- badges

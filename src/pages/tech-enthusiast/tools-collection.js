@@ -69,6 +69,17 @@ const toolsData = [
     usedInProjects: true
   },
   {
+    id: 'free-tools-for-developers',
+    title: 'Free Tools for Developers',
+    description: 'Collection of free tools, resources, and services available for developers.',
+    icon: <Code size={32} />,
+    category: 'Development',
+    tags: ['Free Tools', 'Developer Resources', 'Open Source', 'Services'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'artificial-intelligence',
     title: 'Artificial Intelligence',
     description: 'Explore the world of AI and machine learning.',

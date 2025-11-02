@@ -598,6 +598,7 @@
             |-- site-docs-tools-collection-downloading-md-fde.json
             |-- site-docs-tools-collection-educational-md-3d7.json
             |-- site-docs-tools-collection-file-tools-md-18e.json
+            |-- site-docs-tools-collection-free-tools-for-developers-md-7d7.json
             |-- site-docs-tools-collection-gaming-md-0b8.json
             |-- site-docs-tools-collection-gaming-tools-md-11b.json
             |-- site-docs-tools-collection-image-tools-md-d0e.json
@@ -612,6 +613,7 @@
             |-- site-docs-tools-collection-system-tools-md-54e.json
             |-- site-docs-tools-collection-text-tools-md-14b.json
             |-- site-docs-tools-collection-tiny-tools-directory-md-2ab.json
+            |-- site-docs-tools-collection-toolsfor-developers-md-2b2.json
             |-- site-docs-tools-collection-torrenting-md-7f9.json
             |-- site-docs-tools-collection-video-tools-md-4ff.json
             |-- __mdx-loader-dependency.json
@@ -1299,6 +1301,7 @@
         |-- Downloading.md
         |-- Educational.md
         |-- FileTools.md
+        |-- FreeToolsForDevelopers.md
         |-- Gaming.md
         |-- GamingTools.md
         |-- ImageTools.md

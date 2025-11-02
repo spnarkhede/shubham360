@@ -34,6 +34,28 @@ const designLearningsData = [
     free: true,
     usedInProjects: true
   },
+   {
+    id: 'design-and-ui-tools',
+    title: 'Design and UI Tools',
+    description: 'Principles and practices for designing products that prioritize user needs, behaviors, and experiences throughout the design process.',
+    icon: <Users size={32} />,
+    category: 'Design Principles',
+    tags: ['User Research', 'Empathy', 'Usability', 'Accessibility'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'design-inspiration',
+    title: 'Design Inspiration',
+    description: 'Sources and techniques for finding design inspiration to fuel creativity and innovative solutions.',
+    icon: <Lightbulb size={32} />,
+    category: 'Design Inspiration',
+    tags: ['UI Patterns', 'Creative Process', 'Trend Analysis', 'Portfolio Building'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
   {
     id: 'human-centered-design',
     title: 'Human-Centered Design',
@@ -132,6 +154,28 @@ const designLearningsData = [
     recommended: true,
     free: true,
     usedInProjects: true
+  },
+  {
+    id: 'ui-animation-principles',
+    title: 'UI Animation Principles',
+    description: 'Fundamental principles of motion design and animation for enhancing user experience and interface interactions.',
+    icon: <FileText size={32} />,
+    category: 'Visual Design',
+    tags: ['Microinteractions', 'Motion Design', 'Transitions', 'Performance'],
+    recommended: false,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'design-trends-2025',
+    title: 'Design Trends 2025',
+    description: 'Latest trends and predictions in UI/UX design for 2025, including new patterns and emerging technologies.',
+    icon: <Palette size={32} />,
+    category: 'Design Inspiration',
+    tags: ['Trend Analysis', 'Future Design', 'Innovation', 'Predictions'],
+    recommended: true,
+    free: true,
+    usedInProjects: false
   }
 ];
 
@@ -144,6 +188,8 @@ const LearningCard = ({ learning }) => {
     // Map each learning topic to its documentation path
     const documentationFolderMap = {
       'product-manager-guide-for-team': '/Design/Principles/ProductManagerGuide',
+      'design-and-ui-tools': '/Design/Tools/DesignandUitools',
+      'design-inspiration': '/Design/Tools/DesignInspiration',
       'human-centered-design': '/Design/Principles/HumanCenteredDesign',
       'design-systems': '/Design/Systems/DesignSystems',
       'prototyping': '/Design/Process/Prototyping',

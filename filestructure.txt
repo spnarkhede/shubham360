@@ -125,9 +125,16 @@
             |-- site-docs-computer-science-web-technologies-css-css-animation-notes-md-8f7.json
             |-- site-docs-computer-science-web-technologies-css-css-basic-notes-md-16c.json
             |-- site-docs-computer-science-web-technologies-html-html-basic-notes-md-4d3.json
+            |-- site-docs-design-design-inspiration-md-d66.json
+            |-- site-docs-design-designand-uitools-md-69d.json
+            |-- site-docs-design-principles-design-inspiration-md-f32.json
+            |-- site-docs-design-principles-designand-uitools-md-22b.json
             |-- site-docs-design-principles-product-manager-guide-for-team-md-8d7.json
             |-- site-docs-design-principles-product-manager-guide-md-8ba.json
             |-- site-docs-design-product-manager-guide-for-team-md-573.json
+            |-- site-docs-design-product-manager-guide-md-8f8.json
+            |-- site-docs-design-tools-design-inspiration-md-af6.json
+            |-- site-docs-design-tools-designand-uitools-md-71a.json
             |-- site-docs-intro-md-0e3.json
             |-- site-docs-languages-german-intensive-a-1-1-1-introduction-a-1-1-md-489.json
             |-- site-docs-languages-german-intensive-a-1-1-10-chapter-9-md-0c6.json
@@ -709,6 +716,9 @@
             |-- ux_designer_responsibilites.png
         |-- Principles
             |-- ProductManagerGuide.md
+        |-- Tools
+            |-- DesignandUitools.md
+            |-- DesignInspiration.md
     |-- intro.md
     |-- Languages
         |-- German

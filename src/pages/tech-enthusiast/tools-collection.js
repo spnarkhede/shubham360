@@ -58,6 +58,17 @@ const toolsData = [
     usedInProjects: true
   },
   {
+    id: 'ai-directory-cheatsheets',
+    title: 'AI Directory Cheatsheets',
+    description: 'Comprehensive directory of AI tools and resources for various categories.',
+    icon: <Brain size={32} />,
+    category: 'AI',
+    tags: ['AI', 'Tools', 'Resources', 'Cheatsheets'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'android-ios',
     title: 'Android / iOS',
     description: 'All forms of content for Android and iOS.',

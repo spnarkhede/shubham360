@@ -99,15 +99,20 @@
                 |-- de-tags-strategic-15d.json
                 |-- de-tags-web-10d.json
                 |-- index-466.json
+                |-- tags-ai-7df.json
                 |-- tags-angular-455.json
                 |-- tags-b9f.json
                 |-- tags-book-6d4.json
                 |-- tags-bootstrap-c6b.json
                 |-- tags-css-369.json
                 |-- tags-learnings-cda.json
+                |-- tags-list-b03.json
                 |-- tags-mindset-df1.json
+                |-- tags-resources-330.json
                 |-- tags-strategic-ea8.json
+                |-- tags-tools-a72.json
                 |-- tags-web-fcc.json
+            |-- site-docs-computer-science-artificial-intelligence-ai-directory-cheetsheets-md-c36.json
             |-- site-docs-computer-science-artificial-intelligence-llm-llm-basic-notes-md-74f.json
             |-- site-docs-computer-science-artificial-intelligence-llm-prompt-engineering-basic-notes-md-45b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-basic-notes-md-fbd.json
@@ -592,6 +597,8 @@
             |-- site-docs-my-learnings-hard-reset-life-formula-md-7a0.json
             |-- site-docs-portfolio-resume-md-906.json
             |-- site-docs-tools-collection-adblocking-privacy-md-a5f.json
+            |-- site-docs-tools-collection-ai-directory-cheatsheets-md-173.json
+            |-- site-docs-tools-collection-ai-directory-cheetsheets-md-db5.json
             |-- site-docs-tools-collection-android-ios-md-29d.json
             |-- site-docs-tools-collection-artificial-intelligence-md-833.json
             |-- site-docs-tools-collection-beginners-guide-md-2de.json
@@ -1296,6 +1303,7 @@
     |-- profilepic.png
     |-- ToolsCollection
         |-- AdblockingPrivacy.md
+        |-- AiDirectoryCheatsheets.md
         |-- AndroidIos.md
         |-- ArtificialIntelligence.md
         |-- BeginnersGuide.md

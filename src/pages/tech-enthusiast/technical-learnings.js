@@ -17,7 +17,8 @@ import {
   Terminal,
   FileText,
   Settings,
-  Wrench
+  Wrench,
+  Brain
 } from 'lucide-react';
 
 // Technical learnings data with categories, descriptions, and metadata - ALPHABETICAL ORDER
@@ -110,17 +111,138 @@ const technicalLearningsData = [
     free: true,
     usedInProjects: true
   },
-  // {
-  //   id: 'javascript',
-  //   title: 'JavaScript',
-  //   description: 'Core JavaScript concepts, ES6+ features, and modern development patterns.',
-  //   icon: <Code size={32} />,
-  //   category: 'Frontend',
-  //   tags: ['JavaScript', 'ES6', 'Programming', 'Frontend'],
-  //   recommended: true,
-  //   free: true,
-  //   usedInProjects: true
-  // },
+  {
+    id: 'ai-directory-cheatsheets',
+    title: 'AI Directory Cheatsheets',
+    description: 'Comprehensive directory of AI tools and resources for various categories.',
+    icon: <Brain size={32} />,
+    category: 'AI',
+    tags: ['AI', 'Tools', 'Resources', 'Cheatsheets'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'c',
+    title: 'C',
+    description: 'Fundamentals of C programming language - pointers, memory management, and system programming.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['C', 'System Programming', 'Pointers', 'Memory Management'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'csharp',
+    title: 'C#',
+    description: 'Object-oriented programming with C# - .NET framework, LINQ, and modern C# features.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['C#', 'Object-Oriented', '.NET', 'LINQ'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'cpp',
+    title: 'C++',
+    description: 'Advanced C++ programming - templates, STL, and performance optimization techniques.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['C++', 'Templates', 'STL', 'Performance'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'es6',
+    title: 'ES6 (JavaScript)',
+    description: 'Modern JavaScript features - arrow functions, promises, modules, and ES6+ syntax.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['JavaScript', 'ES6', 'ECMAScript', 'Modern JS'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'go',
+    title: 'Go',
+    description: 'Go programming language - concurrency, goroutines, and building efficient backend services.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['Go', 'Golang', 'Concurrency', 'Backend'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'java',
+    title: 'Java',
+    description: 'Java programming - object-oriented design, collections, and enterprise development.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['Java', 'Object-Oriented', 'Enterprise', 'JVM'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'javascript',
+    title: 'JavaScript',
+    description: 'Core JavaScript concepts, ES6+ features, and modern development patterns.',
+    icon: <Code size={32} />,
+    category: 'Frontend',
+    tags: ['JavaScript', 'ES6', 'Programming', 'Frontend'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'kotlin',
+    title: 'Kotlin',
+    description: 'Modern Kotlin programming - Android development, coroutines, and functional programming.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['Kotlin', 'Android', 'Coroutines', 'JVM'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'kubernetes',
+    title: 'Kubernetes',
+    description: 'Container orchestration with Kubernetes - deployments, services, and cluster management.',
+    icon: <Server size={32} />,
+    category: 'DevOps',
+    tags: ['Kubernetes', 'Container Orchestration', 'DevOps', 'Cloud'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'php',
+    title: 'PHP',
+    description: 'Server-side scripting with PHP - web development, frameworks, and modern PHP practices.',
+    icon: <Code size={32} />,
+    category: 'Backend',
+    tags: ['PHP', 'Web Development', 'Backend', 'Server-side'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'python',
+    title: 'Python',
+    description: 'Python programming - data science, automation, web development, and scripting.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['Python', 'Data Science', 'Automation', 'Scripting'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
   // {
   //   id: 'typescript',
   //   title: 'TypeScript',
@@ -171,7 +293,18 @@ const LearningCard = ({ learning }) => {
       'angular': '/ComputerScience/WebTechnologies/Angular/AngularBasicNotes',
       'css': '/ComputerScience/WebTechnologies/CSS/CSSAdvancedNotes',
       'html': '/ComputerScience/WebTechnologies/HTML/HTMLBasicNotes',
-      // 'javascript': '/ComputerScience/Programming/JavaScript/',
+      'ai-directory-cheatsheets': '/ComputerScience/ArtificialIntelligence/AIDirectoryCheatsheets',
+      'c': '/ComputerScience/Programming/C/CBasicNotes',
+      'csharp': '/ComputerScience/Programming/CSharp/CSharpBasicNotes',
+      'cpp': '/ComputerScience/Programming/Cpp/CppBasicNotes',
+      'es6': '/ComputerScience/Programming/JavaScript/ES6Guide',
+      'go': '/ComputerScience/Programming/Go/GoBasicNotes',
+      'java': '/ComputerScience/Programming/Java/JavaBasicNotes',
+      'javascript': '/ComputerScience/Programming/JavaScript/JavaScriptBasicNotes',
+      'kotlin': '/ComputerScience/Programming/Kotlin/KotlinBasicNotes',
+      'kubernetes': '/ComputerScience/DevOpsTools/Kubernetes/KubernetesBasicNotes',
+      'php': '/ComputerScience/Programming/PHP/PHPBasicNotes',
+      'python': '/ComputerScience/Programming/Python/PythonBasicNotes',
       // 'typescript': '/ComputerScience/Programming/TypeScript/',
       // 'react': '/ComputerScience/Frontend/React/',
       // 'nodejs': '/ComputerScience/Backend/NodeJS/'

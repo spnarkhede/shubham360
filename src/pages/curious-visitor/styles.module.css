@@ -2331,3 +2331,90 @@
     padding: 1.5rem;
   }
 }
+
+/* Musical Instruments Styles */
+.musicalInstrumentsContainer {
+  margin: 2rem 0;
+}
+
+.instrumentItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: var(--ifm-card-background-color);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.instrumentItem:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.instrumentItem.evenLayout {
+  /* Image | Title and Text */
+}
+
+.instrumentItem.oddLayout {
+  /* Title and Text | Image */
+  direction: rtl;
+}
+
+.instrumentItem.oddLayout > div {
+  direction: ltr;
+}
+
+.instrumentImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 250px;
+}
+
+.instrumentImage {
+  max-width: 100%;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.instrumentContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.instrumentContent .highlightTitle {
+  margin-top: 0;
+}
+
+.instrumentContent .highlightText {
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments for musical instruments */
+@media (max-width: 768px) {
+  .instrumentItem {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .instrumentItem.oddLayout {
+    direction: ltr;
+  }
+  
+  .instrumentImageContainer {
+    min-height: 200px;
+  }
+  
+  .instrumentImage {
+    max-height: 200px;
+  }
+}

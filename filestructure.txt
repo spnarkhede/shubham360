@@ -111,6 +111,7 @@
             |-- site-docs-computer-science-artificial-intelligence-llm-llm-basic-notes-md-74f.json
             |-- site-docs-computer-science-artificial-intelligence-llm-prompt-engineering-basic-notes-md-45b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-basic-notes-md-fbd.json
+            |-- site-docs-computer-science-dev-ops-tools-docker-docker-cheatsheet-md-f37.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-operations-md-c1b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
@@ -681,6 +682,7 @@
         |-- DevOpsTools
             |-- Docker
                 |-- DockerBasicNotes.md
+                |-- DockerCheatsheet.md
                 |-- DockerizeAngularSetup.md
                 |-- DockerOperations.md
                 |-- DockerTool&TermCheatsheet.md
@@ -1590,7 +1592,6 @@
             |-- styles.module.css
         |-- role-pages.module.css
         |-- tech-enthusiast
-            |-- articles.js
             |-- contact.js
             |-- index.js
             |-- introduction.js

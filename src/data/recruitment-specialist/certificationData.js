@@ -940,7 +940,7 @@ export const corporateTrainings = [
     date: "Oct 13, 2025",
     description: "Introduces foundational concepts of AI, privacy principles, and cybersecurity essentials.",
     skills: ["AI Basics", "Privacy", "Cybersecurity"],
-    verificationUrl: "/img/pdf/bosch/digital-basics-ai-privacy-cybersecurity.pdf"
+    verificationUrl: "/certificates/bosch/digital-basics-ai-privacy-cybersecurity.pdf"
   },
   {
     name: "Basics on Information Security, Cyber Security and Privacy",
@@ -949,7 +949,7 @@ export const corporateTrainings = [
     date: "Feb 8, 2025",
     description: "Covered core concepts of information security, data privacy, and protection standards.",
     skills: ["Information Security", "Cybersecurity", "Privacy"],
-    verificationUrl: "/img/pdf/bosch/basics-information-security-privacy.pdf"
+    verificationUrl: "/certificates/bosch/basics-information-security-privacy.pdf"
   },
   {
     name: "Compliance – Code of Conduct V2025-B",
@@ -958,7 +958,7 @@ export const corporateTrainings = [
     date: "Feb 8, 2025",
     description: "Outlined Bosch’s ethical standards and compliance requirements for responsible conduct.",
     skills: ["Compliance", "Ethics", "Corporate Policy"],
-    verificationUrl: "/img/pdf/bosch/compliance-code-of-conduct-2025.pdf"
+    verificationUrl: "/certificates/bosch/compliance-code-of-conduct-2025.pdf"
   },
   {
     name: "Compliance – Document: Code of Conduct",
@@ -967,7 +967,7 @@ export const corporateTrainings = [
     date: "Feb 8, 2025",
     description: "Acknowledged understanding and agreement to Bosch’s Code of Conduct policies.",
     skills: ["Compliance", "Ethics"],
-    verificationUrl: "/img/pdf/bosch/document-code-of-conduct.pdf"
+    verificationUrl: "/certificates/bosch/document-code-of-conduct.pdf"
   },
   {
     name: "Compliance - Product Compliance V2023-B",
@@ -976,7 +976,7 @@ export const corporateTrainings = [
     date: "Feb 8, 2025",
     description: "Introduced regulatory compliance standards for Bosch products and manufacturing.",
     skills: ["Compliance", "Product Safety", "Regulations"],
-    verificationUrl: "/img/pdf/bosch/product-compliance-2023.pdf"
+    verificationUrl: "/certificates/bosch/product-compliance-2023.pdf"
   },
   {
     name: "CD07900 -IT Security Introduction-B",
@@ -985,7 +985,7 @@ export const corporateTrainings = [
     date: "Dec 2, 2024",
     description: "Overview of IT security introduction and Bosch-specific system procedures.",
     skills: ["IT Security", "Systems Management"],
-    verificationUrl: "/img/pdf/bosch/cd07900-introduction.pdf"
+    verificationUrl: "/certificates/bosch/cd07900-introduction.pdf"
   },
   {
     name: "Compliance - Dealing with Classified Information (trade secrets) V2024-B",
@@ -994,7 +994,7 @@ export const corporateTrainings = [
     date: "Oct 30, 2024",
     description: "Trained on managing and protecting confidential and trade-secret information.",
     skills: ["Information Security", "Confidentiality", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/dealing-with-classified-information-2024.pdf"
+    verificationUrl: "/certificates/bosch/dealing-with-classified-information-2024.pdf"
   },
   {
     name: "Risk Management in Projects - Basics-B",
@@ -1003,7 +1003,7 @@ export const corporateTrainings = [
     date: "Sep 20, 2024",
     description: "Introduced principles and methods of identifying and mitigating project risks.",
     skills: ["Risk Management", "Project Management"],
-    verificationUrl: "/img/pdf/bosch/risk-management-in-projects.pdf"
+    verificationUrl: "/certificates/bosch/risk-management-in-projects.pdf"
   },
   {
     name: "Data Protection, Information Security and Cybersecurity in Bosch-Products-B",
@@ -1012,7 +1012,7 @@ export const corporateTrainings = [
     date: "Sep 20, 2024",
     description: "Explored Bosch’s data protection and cybersecurity requirements for connected products.",
     skills: ["Data Protection", "Cybersecurity", "Product Security"],
-    verificationUrl: "/img/pdf/bosch/data-protection-in-bosch-products.pdf"
+    verificationUrl: "/certificates/bosch/data-protection-in-bosch-products.pdf"
   },
   {
     name: "Data Protection and Information Security in Bosch-Products-B",
@@ -1021,7 +1021,7 @@ export const corporateTrainings = [
     date: "Sep 20, 2024",
     description: "Explored Bosch’s data protection and cybersecurity requirements for connected products.",
     skills: ["Data Protection", "Cybersecurity", "Product Security"],
-    verificationUrl: "/img/pdf/bosch/data-protection-in-IT-bosch-products.pdf"
+    verificationUrl: "/certificates/bosch/data-protection-in-IT-bosch-products.pdf"
   },
   {
     name: "Travel Security-B",
@@ -1030,7 +1030,7 @@ export const corporateTrainings = [
     date: "Sep 2, 2024",
     description: "Guidelines and best practices to ensure personal and data security while traveling.",
     skills: ["Travel Safety", "Security Awareness"],
-    verificationUrl: "/img/pdf/bosch/travel-security.pdf"
+    verificationUrl: "/certificates/bosch/travel-security.pdf"
   },
   {
     name: "Lessons Learned-A",
@@ -1039,7 +1039,7 @@ export const corporateTrainings = [
     date: "Jul 11, 2024",
     description: "Focused on capturing, documenting, and applying lessons learned in projects.",
     skills: ["Continuous Improvement", "Knowledge Management"],
-    verificationUrl: "/img/pdf/bosch/lessons-learned.pdf"
+    verificationUrl: "/certificates/bosch/lessons-learned.pdf"
   },
   {
     name: "Lessons Learned for Project Manager and Project Members: method and workshop exercise -B",
@@ -1048,7 +1048,7 @@ export const corporateTrainings = [
     date: "Jul 11, 2024",
     description: "Applied workshop-based techniques for managing and sharing project lessons.",
     skills: ["Project Management", "Collaboration"],
-    verificationUrl: "/img/pdf/bosch/lessons-learned-project-managers.pdf"
+    verificationUrl: "/certificates/bosch/lessons-learned-project-managers.pdf"
   },
   {
     name: "User Experience – getting started-B",
@@ -1057,7 +1057,7 @@ export const corporateTrainings = [
     date: "Jul 10, 2024",
     description: "Introduced UX principles, usability testing, and customer-centered design basics.",
     skills: ["User Experience", "Design Thinking", "Customer Focus"],
-    verificationUrl: "/img/pdf/bosch/user-experience-getting-started.pdf"
+    verificationUrl: "/certificates/bosch/user-experience-getting-started.pdf"
   },
   {
     name: "User Experience – getting started-A",
@@ -1066,7 +1066,7 @@ export const corporateTrainings = [
     date: "Jul 08, 2024",
     description: "Introduced UX principles, usability testing, and customer-centered design basics.",
     skills: ["User Experience", "Design Thinking", "Customer Focus"],
-    verificationUrl: "/img/pdf/bosch/user-experience-getting-started-A.pdf"
+    verificationUrl: "/certificates/bosch/user-experience-getting-started-A.pdf"
   },
   {
     name: "Data Protection and Information Security in Bosch-Products-B",
@@ -1075,7 +1075,7 @@ export const corporateTrainings = [
     date: "Feb 5, 2024",
     description: "Covered Bosch product-specific standards for data protection and security design.",
     skills: ["Data Security", "Privacy", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/data-protection-and-information-security.pdf"
+    verificationUrl: "/certificates/bosch/data-protection-and-information-security.pdf"
   },
   {
     name: "Bosch Corporate Design-B",
@@ -1084,7 +1084,7 @@ export const corporateTrainings = [
     date: "Feb 5, 2024",
     description: "Learned visual identity, communication style, and branding guidelines at Bosch.",
     skills: ["Corporate Branding", "Communication Design"],
-    verificationUrl: "/img/pdf/bosch/bosch-corporate-design.pdf"
+    verificationUrl: "/certificates/bosch/bosch-corporate-design.pdf"
   },
   {
     name: "[PS-PM-RM-WN] MM-620.16-PS Risk Management-B",
@@ -1093,7 +1093,7 @@ export const corporateTrainings = [
     date: "Oct 19, 2023",
     description: "Introduced foundational risk management principles, analysis, and planning tools.",
     skills: ["Corporate Branding", "Communication Design"],
-    verificationUrl: "/img/pdf/bosch/risk-management-B.pdf"
+    verificationUrl: "/certificates/bosch/risk-management-B.pdf"
   },
   {
     name: "Compliance - AntiCorruption (former: Gratuities)-A",
@@ -1102,7 +1102,7 @@ export const corporateTrainings = [
     date: "Oct 13, 2023",
     description: "Introduced potentials risks, ethics, process, principles, report, and guidance.",
     skills: ["Corporate Branding", "Communication Design"],
-    verificationUrl: "/img/pdf/bosch/anticorruption-formar-gratitude-A.pdf"
+    verificationUrl: "/certificates/bosch/anticorruption-formar-gratitude-A.pdf"
   },
   {
     name: "[PS-PM-PEP-Basics-DOC] PA-201 PM & PEP Configuration - Basics-B",
@@ -1111,7 +1111,7 @@ export const corporateTrainings = [
     date: "Sep 6, 2023",
     description: "Introduced foundational project management principles, lifecycle, and planning tools.",
     skills: ["Project Management", "Planning", "Leadership"],
-    verificationUrl: "/img/pdf/bosch/pm-pep-configuration.pdf"
+    verificationUrl: "/certificates/bosch/pm-pep-configuration.pdf"
   },
   {
     name: "Project Management Fundamentals - WBT Basics 0-B",
@@ -1120,7 +1120,7 @@ export const corporateTrainings = [
     date: "Sep 5, 2023",
     description: "Introduced foundational project management principles, lifecycle, and planning tools.",
     skills: ["Project Management", "Planning", "Leadership"],
-    verificationUrl: "/img/pdf/bosch/project-management-fundamentals.pdf"
+    verificationUrl: "/certificates/bosch/project-management-fundamentals.pdf"
   },
   {
     name: "Handling Customer Requirements with CRS (Customer Requirement Server)-B",
@@ -1129,7 +1129,7 @@ export const corporateTrainings = [
     date: "Sep 5, 2023",
     description: "Trained on managing and documenting customer requirements using Bosch CRS.",
     skills: ["Requirements Management", "Customer Collaboration"],
-    verificationUrl: "/img/pdf/bosch/handling-customer-requirements.pdf"
+    verificationUrl: "/certificates/bosch/handling-customer-requirements.pdf"
   },
   {
     name: "Speexx German-A",
@@ -1138,7 +1138,7 @@ export const corporateTrainings = [
     date: "Aug 31, 2023",
     description: "Language learning program focused on improving German communication skills.",
     skills: ["Language Learning", "Communication"],
-    verificationUrl: "/img/pdf/bosch/speexx-german.pdf"
+    verificationUrl: "/certificates/bosch/speexx-german.pdf"
   },
   {
     name: "Compliance - Software License Management V2022-B",
@@ -1147,7 +1147,7 @@ export const corporateTrainings = [
     date: "May 4, 2023",
     description: "Outlined rules for software license use, compliance, and audits within Bosch.",
     skills: ["License Management", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/software-license-management.pdf"
+    verificationUrl: "/certificates/bosch/software-license-management.pdf"
   },
   {
     name: "Compliance – Export Control V2022-B",
@@ -1156,7 +1156,7 @@ export const corporateTrainings = [
     date: "May 4, 2023",
     description: "Detailed export control regulations and Bosch global compliance policies.",
     skills: ["Export Control", "Compliance", "Regulations"],
-    verificationUrl: "/img/pdf/bosch/export-control.pdf"
+    verificationUrl: "/certificates/bosch/export-control.pdf"
   },
   {
     name: "Compliance – Anti-Corruption: Gratuities in Dealings with Third Parties V2022-B",
@@ -1165,7 +1165,7 @@ export const corporateTrainings = [
     date: "Apr 6, 2023",
     description: "Trained on anti-corruption practices and managing third-party relationships ethically.",
     skills: ["Ethics", "Compliance", "Anti-Corruption"],
-    verificationUrl: "/img/pdf/bosch/anti-corruption-gratuities.pdf"
+    verificationUrl: "/certificates/bosch/anti-corruption-gratuities.pdf"
   },
   {
     name: "Agile Basics @ Bosch-B",
@@ -1174,7 +1174,7 @@ export const corporateTrainings = [
     date: "Jan 23, 2023",
     description: "Introduced Agile principles, Scrum framework, and iterative project methodologies.",
     skills: ["Agile", "Scrum", "Project Management"],
-    verificationUrl: "/img/pdf/bosch/agile-basics-at-bosch.pdf"
+    verificationUrl: "/certificates/bosch/agile-basics-at-bosch.pdf"
   },
   {
     name: "Product Safety and Product Liability V2021-B",
@@ -1183,7 +1183,7 @@ export const corporateTrainings = [
     date: "Jan 20, 2023",
     description: "Provided insight into product safety, liability laws, and Bosch compliance expectations.",
     skills: ["Product Safety", "Risk Management", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/product-safety-and-liability.pdf"
+    verificationUrl: "/certificates/bosch/product-safety-and-liability.pdf"
   },
   {
     name: "Compliance - Dealing with Classified Information (trade secrets) V2021-B",
@@ -1192,7 +1192,7 @@ export const corporateTrainings = [
     date: "Jan 20, 2023",
     description: "Focused on handling classified and trade-secret information securely.",
     skills: ["Confidentiality", "Data Protection", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/classified-information-trade-secrets.pdf"
+    verificationUrl: "/certificates/bosch/classified-information-trade-secrets.pdf"
   },
   {
     name: "Compliance - Code of Business Conduct V2022-B",
@@ -1201,7 +1201,7 @@ export const corporateTrainings = [
     date: "Jul 7, 2022",
     description: "Introduced Bosch’s business conduct principles, fairness, and accountability standards.",
     skills: ["Compliance", "Corporate Ethics"],
-    verificationUrl: "/img/pdf/bosch/code-of-business-conduct.pdf"
+    verificationUrl: "/certificates/bosch/code-of-business-conduct.pdf"
   },
   {
     name: "[PM-AGI-RM-WBT] Risk Management in Projects - Basics-B",
@@ -1210,7 +1210,7 @@ export const corporateTrainings = [
     date: "Oct 19, 2023",
     description: "Introduced foundational risk management principles, analysis, and planning tools.",
     skills: ["Corporate Branding", "Communication Design"],
-    verificationUrl: "/img/pdf/bosch/risk-management-in-projects-basicsB.pdf"
+    verificationUrl: "/certificates/bosch/risk-management-in-projects-basicsB.pdf"
   },
   {
     name: "Basic Information Product Liability-B",
@@ -1219,7 +1219,7 @@ export const corporateTrainings = [
     date: "Oct 19, 2023",
     description: "Introduced foundational risk management principles, analysis, and planning tools.",
     skills: ["Corporate Branding", "Communication Design"],
-    verificationUrl: "/img/pdf/bosch/basic-information-product-liability.pdf"
+    verificationUrl: "/certificates/bosch/basic-information-product-liability.pdf"
   },
   {
     name: "Compliance - Antitrust Law V2022-B",
@@ -1228,7 +1228,7 @@ export const corporateTrainings = [
     date: "Jul 6, 2022",
     description: "Covered antitrust laws and fair competition principles in global operations.",
     skills: ["Antitrust Law", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/antitrust-law-2022.pdf"
+    verificationUrl: "/certificates/bosch/antitrust-law-2022.pdf"
   },
   {
     name: "Compliance - Gratuities V2019-B",
@@ -1237,7 +1237,7 @@ export const corporateTrainings = [
     date: "Jun 9, 2021",
     description: "Focused on anti-bribery, gratuities, and compliance with integrity policies.",
     skills: ["Ethics", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/compliance-gratuities.pdf"
+    verificationUrl: "/certificates/bosch/compliance-gratuities.pdf"
   },
   {
     name: "Compliance - Export Control V2019-B",
@@ -1246,7 +1246,7 @@ export const corporateTrainings = [
     date: "Jun 9, 2021",
     description: "Introduced Bosch export control policies and international trade compliance.",
     skills: ["Export Control", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/export-control-2019.pdf"
+    verificationUrl: "/certificates/bosch/export-control-2019.pdf"
   },
   {
     name: "Compliance - Antitrust Law V2019-B",
@@ -1255,7 +1255,7 @@ export const corporateTrainings = [
     date: "Jun 9, 2021",
     description: "Reviewed global competition laws and anti-monopoly principles.",
     skills: ["Antitrust Law", "Corporate Compliance"],
-    verificationUrl: "/img/pdf/bosch/antitrust-law-2019.pdf"
+    verificationUrl: "/certificates/bosch/antitrust-law-2019.pdf"
   },
   {
     name: "Declaration of confidentiality for the processing of personal data -B",
@@ -1264,7 +1264,7 @@ export const corporateTrainings = [
     date: "Jan 29, 2021",
     description: "Acknowledged and agreed to data confidentiality principles for personal data processing.",
     skills: ["Data Privacy", "Confidentiality"],
-    verificationUrl: "/img/pdf/bosch/boschdeclaration-confidentiality.pdf"
+    verificationUrl: "/certificates/bosch/boschdeclaration-confidentiality.pdf"
   },
   {
     name: "General ISP rules for associates-B",
@@ -1273,7 +1273,7 @@ export const corporateTrainings = [
     date: "Jan 5, 2021",
     description: "Reviewed internal Bosch ISP rules on information security and employee conduct.",
     skills: ["Information Security", "Corporate Policy"],
-    verificationUrl: "/img/pdf/bosch/general-isp-rules.pdf"
+    verificationUrl: "/certificates/bosch/general-isp-rules.pdf"
   },
   {
     name: "Compliance – Document: Code of Business Conduct",
@@ -1282,7 +1282,7 @@ export const corporateTrainings = [
     date: "Jul 6, 2022",
     description: "Acknowledged and agreed to Bosch’s Code of Business Conduct policies.",
     skills: ["Compliance", "Corporate Ethics"],
-    verificationUrl: "/img/pdf/bosch/compliance-document-code-of-business-conduct.pdf"
+    verificationUrl: "/certificates/bosch/compliance-document-code-of-business-conduct.pdf"
   },
   {
     name: "Certificate of Attendance: Compliance – Document: Code of Business Conduct",
@@ -1291,7 +1291,7 @@ export const corporateTrainings = [
     date: "Jul 6, 2022",
     description: "Received official acknowledgment of attendance for the Code of Business Conduct training.",
     skills: ["Compliance", "Corporate Ethics"],
-    verificationUrl: "/img/pdf/bosch/certificate-attendance-code-of-business-conduct.pdf"
+    verificationUrl: "/certificates/bosch/certificate-attendance-code-of-business-conduct.pdf"
   },
   {
     name: "Compliance - Gratuities V2019-B",
@@ -1300,7 +1300,7 @@ export const corporateTrainings = [
     date: "Jun 9, 2021",
     description: "Trained on anti-bribery practices and handling gratuities according to Bosch policies.",
     skills: ["Ethics", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/compliance-gratuities-2019.pdf"
+    verificationUrl: "/certificates/bosch/compliance-gratuities-2019.pdf"
   },
   {
     name: "My Mail Management - new rules for Outlook User-B",
@@ -1309,7 +1309,7 @@ export const corporateTrainings = [
     date: "Jun 9, 2021",
     description: "Acknowledged updated rules for email management and secure Outlook usage.",
     skills: ["Email Management", "Information Security"],
-    verificationUrl: "/img/pdf/bosch/my-mail-management-outlook.pdf"
+    verificationUrl: "/certificates/bosch/my-mail-management-outlook.pdf"
   },
   {
     name: "Country specific ISP rules for associates in Germany (DE)-B",
@@ -1318,7 +1318,7 @@ export const corporateTrainings = [
     date: "Jan 5, 2021",
     description: "Reviewed and agreed to country-specific information security policies for Germany.",
     skills: ["Information Security", "Compliance"],
-    verificationUrl: "/img/pdf/bosch/isp-rules-germany.pdf"
+    verificationUrl: "/certificates/bosch/isp-rules-germany.pdf"
   },
   {
     name: "Basics on information security and privacy-B",
@@ -1327,7 +1327,7 @@ export const corporateTrainings = [
     date: "Jan 5, 2021",
     description: "Completed foundational training on information security, privacy, and Bosch compliance standards.",
     skills: ["Information Security", "Privacy", "Cybersecurity"],
-    verificationUrl: "/img/pdf/bosch/basics-information-security-privacy-2021.pdf"
+    verificationUrl: "/certificates/bosch/basics-information-security-privacy-2021.pdf"
   }
 
 ];

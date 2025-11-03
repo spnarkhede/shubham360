@@ -71,28 +71,28 @@ export const documents = [
     // fileName: `Shubham_Narkhede_Resume.pdf`,
     // fileName: `Shubham_Narkhede_Resume_${new Date().toISOString().split('T')[0]}.pdf`,
     fileName: `Shubham_Narkhede_Resume_${new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-')}.pdf`,
-    fileSize: "520 KB",
+    fileSize: "463 KB",
     lastUpdated: "March 2024",
     primary: true,
-    downloadUrl: "/documents/ShubhamNarkhede_CV.pdf"
+    downloadUrl: "/documents/resume/ShubhamNarkhede_CV.pdf"
   },
   {
     title: "Executive Summary",
     description: "Concise resume highlighting key skills and experience",
-    fileName: "Shubham_Narkhede_Summary.pdf",
-    fileSize: "450 KB",
+    fileName: `Shubham_Narkhede_Summary_${new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-')}.pdf`,
+    fileSize: "299 KB",
     lastUpdated: "March 2024",
     primary: false,
-    downloadUrl: "/documents/summary_resume.pdf"
+    downloadUrl: "/documents/resume/summary_resume.pdf"
   },
   {
     title: "Work Authorization Documents",
     description: "Proof of work authorization and eligibility",
-    fileName: "Work_Authorization_Documents.pdf",
+    fileName: "Work_Authorization_Documents.pdf", 
     fileSize: "850 KB",
     lastUpdated: "January 2024",
     primary: false,
-    downloadUrl: "/documents/work-auth.pdf"
+    downloadUrl: "/documents/resume/work-auth.pdf"
   },
   {
     title: "Project Portfolio",
@@ -101,7 +101,7 @@ export const documents = [
     fileSize: "3.5 MB",
     lastUpdated: "February 2024",
     primary: false,
-    downloadUrl: "/documents/portfolio.pdf"
+    downloadUrl: "/documents/resume/portfolio.pdf"
   },
   {
     title: "Certifications Package",
@@ -110,7 +110,7 @@ export const documents = [
     fileSize: "1.2 MB",
     lastUpdated: "March 2024",
     primary: false,
-    downloadUrl: "/documents/certifications.pdf"
+    downloadUrl: "/documents/resume/certifications.pdf"
   }
 ];
 

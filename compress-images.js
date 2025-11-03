@@ -3,8 +3,40 @@ const fs = require("fs").promises;
 const path = require("path");
 
 // Source and destination directories
-const sourceDir = "src/pages/books/covers"; // Original high-quality images
-const outputDir = "static/books/covers"; // Optimized images (recommended for Docusaurus)
+// const sourceDir = "static/img/books"; // Original high-quality images
+// const outputDir = "static/images/books"; // Optimized images (recommended for Docusaurus)
+
+// Source and destination directories
+// const sourceDir = "static/img/badges"; // Original high-quality images
+// const outputDir = "static/images/badges"; // Optimized images (recommended for Docusaurus)
+
+// Source and destination directories
+// const sourceDir = "static/img/linearts"; // Original high-quality images
+// const outputDir = "static/images/linearts"; // Optimized images (recommended for Docusaurus)
+
+// Source and destination directories
+// const sourceDir = "static/img/music"; // Original high-quality images
+// const outputDir = "static/images/music"; // Optimized images (recommended for Docusaurus)
+
+// Source and destination directories
+// const sourceDir = "static/img/paintings"; // Original high-quality images
+// const outputDir = "static/images/paintings"; // Optimized images (recommended for Docusaurus)
+
+// Source and destination directories
+// const sourceDir = "static/img/portfolio"; // Original high-quality images
+// const outputDir = "static/images/portfolio"; // Optimized images (recommended for Docusaurus)
+
+// Source and destination directories
+// const sourceDir = "static/img/sketches"; // Original high-quality images
+// const outputDir = "static/images/sketches"; // Optimized images (recommended for Docusaurus)
+
+// // Source and destination directories
+// const sourceDir = "static/img/testimonials"; // Original high-quality images
+// const outputDir = "static/images/testimonials"; // Optimized images (recommended for Docusaurus)
+
+// // Source and destination directories
+const sourceDir = "static/img/testimonials"; // Original high-quality images
+const outputDir = "static/images/testimonials"; // Optimized images (recommended for Docusaurus)
 
 // Compression settings
 const MAX_WIDTH = 300; // Resize to max 300px width (adjust as needed)

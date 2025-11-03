@@ -683,6 +683,7 @@
     |-- tags.yml
 |-- clean-lucide-imports.js
 |-- compress-images.js
+|-- compress-pdf.js
 |-- docs
     |-- ComputerScience
         |-- ArtificialIntelligence
@@ -1615,16 +1616,61 @@
         |-- roleStore.js
 |-- static
     |-- certificates
+        |-- bosch
+            |-- agile-basics-at-bosch.pdf
+            |-- anti-corruption-gratuities.pdf
+            |-- anticorruption-formar-gratitude-A.pdf
+            |-- antitrust-law-2019.pdf
+            |-- antitrust-law-2022.pdf
+            |-- basic-information-product-liability.pdf
+            |-- basics-information-security-privacy-2021.pdf
+            |-- basics-information-security-privacy-cybersecurity-1.pdf
+            |-- basics-information-security-privacy.pdf
+            |-- bosch-corporate-design.pdf
+            |-- boschdeclaration-confidentiality.pdf
+            |-- cd07900-introduction.pdf
+            |-- certificate-attendance-code-of-business-conduct.pdf
+            |-- classified-information-trade-secrets.pdf
+            |-- code-of-business-conduct.pdf
+            |-- compliance-code-of-conduct-2025.pdf
+            |-- compliance-document-code-of-business-conduct.pdf
+            |-- compliance-gratuities-2019.pdf
+            |-- data-protection-and-information-security.pdf
+            |-- data-protection-in-bosch-products.pdf
+            |-- data-protection-in-IT-bosch-products.pdf
+            |-- dealing-with-classified-information-2024.pdf
+            |-- digital-basics-ai-privacy-cybersecurity.pdf
+            |-- document-code-of-conduct.pdf
+            |-- export-control-2019.pdf
+            |-- export-control.pdf
+            |-- general-isp-rules.pdf
+            |-- handling-customer-requirements.pdf
+            |-- isp-rules-germany.pd.pdf
+            |-- lessons-learned-project-managers.pdf
+            |-- lessons-learned.pdf
+            |-- my-mail-management-outlook.pdf
+            |-- pm-pep-configuration.pdf
+            |-- product-compliance-2023.pdf
+            |-- product-safety-and-liability.pdf
+            |-- project-management-fundamentals.pdf
+            |-- risk-management-B.pdf
+            |-- risk-management-in-projects-basicsB.pdf
+            |-- risk-management-in-projects.pdf
+            |-- software-license-management.pdf
+            |-- speexx-german.pdf
+            |-- travel-security.pdf
+            |-- user-experience-getting-started-A.pdf
+            |-- user-experience-getting-started.pdf
     |-- documents
-        |-- ShubhamNarkhede_CV.pdf
-        |-- summary_resume.pdf
+        |-- resume
+            |-- ShubhamNarkhede_CV.pdf
+            |-- summary_resume.pdf
     |-- img
         |-- badges
             |-- data-science-foundations-level-1.png
             |-- generative-ai-overview-for-project-managers.png
             |-- pluralsightbadge.png
             |-- python-for-data-science.png
-        |-- blogs
         |-- books
             |-- accounting101.jpg
             |-- almanackOfNavalRavikant.jpg
@@ -1648,8 +1694,11 @@
             |-- dailyStoic.jpg
             |-- dareToLead.jpg
             |-- deepWork.jpg
+            |-- dontBelieveEverythingYouThink.jpg
             |-- dopamineDetox.jpg
+            |-- eatThatFrog.jpg
             |-- economics101.jpg
+            |-- egoIsTheEnemy.jpg
             |-- eightRulesOfLove.jpg
             |-- eightyTwentyPrinciple.jpg
             |-- emotionalIntelligence.jpg
@@ -1697,6 +1746,7 @@
             |-- relentless.jpg
             |-- sameAsEver.jpg
             |-- sapiens.jpg
+            |-- selfHealByDesign.jpg
             |-- semenRetentionMiracles.jpg
             |-- shoe-dog.jpg
             |-- srimadBhagavadgitaVolumn1.jpg
@@ -1710,13 +1760,19 @@
             |-- surroundedByNarcissists.jpg
             |-- surroundedByPsychopaths.jpg
             |-- surroundedBySetbacks.jpg
+            |-- sustainMe.jpg
             |-- teamTopologies.jpg
             |-- thankGodForFeedback.jpg
             |-- thanksForFeedback.jpg
             |-- the-personal-mba.jpg
+            |-- the7HabitsOfHighlyEffectivePeople.jpg
+            |-- theCompoundEffect.jpg
+            |-- thePowerOfNow.jpg
             |-- thinking-fast-slow.jpg
             |-- usHistory101.jpg
             |-- vaidikDincharya.jpg
+            |-- whyMenLoveBitches.jpg
+            |-- yourNextFiveMoves.jpg
         |-- default-bosch.png
         |-- docusaurus-social-card.jpg
         |-- docusaurus.png
@@ -1791,52 +1847,6 @@
             |-- painting7.png
             |-- painting8.png
             |-- painting9.png
-        |-- pdf
-            |-- bosch
-                |-- agile-basics-at-bosch.pdf
-                |-- anti-corruption-gratuities.pdf
-                |-- anticorruption-formar-gratitude-A.pdf
-                |-- antitrust-law-2019.pdf
-                |-- antitrust-law-2022.pdf
-                |-- basic-information-product-liability.pdf
-                |-- basics-information-security-privacy-2021.pdf
-                |-- basics-information-security-privacy-cybersecurity-1.pdf
-                |-- basics-information-security-privacy.pdf
-                |-- bosch-corporate-design.pdf
-                |-- boschdeclaration-confidentiality.pdf
-                |-- cd07900-introduction.pdf
-                |-- certificate-attendance-code-of-business-conduct.pdf
-                |-- classified-information-trade-secrets.pdf
-                |-- code-of-business-conduct.pdf
-                |-- compliance-code-of-conduct-2025.pdf
-                |-- compliance-document-code-of-business-conduct.pdf
-                |-- compliance-gratuities-2019.pdf
-                |-- data-protection-and-information-security.pdf
-                |-- data-protection-in-bosch-products.pdf
-                |-- data-protection-in-IT-bosch-products.pdf
-                |-- dealing-with-classified-information-2024.pdf
-                |-- digital-basics-ai-privacy-cybersecurity.pdf
-                |-- document-code-of-conduct.pdf
-                |-- export-control-2019.pdf
-                |-- export-control.pdf
-                |-- general-isp-rules.pdf
-                |-- handling-customer-requirements.pdf
-                |-- isp-rules-germany.pd.pdf
-                |-- lessons-learned-project-managers.pdf
-                |-- lessons-learned.pdf
-                |-- my-mail-management-outlook.pdf
-                |-- pm-pep-configuration.pdf
-                |-- product-compliance-2023.pdf
-                |-- product-safety-and-liability.pdf
-                |-- project-management-fundamentals.pdf
-                |-- risk-management-B.pdf
-                |-- risk-management-in-projects-basicsB.pdf
-                |-- risk-management-in-projects.pdf
-                |-- software-license-management.pdf
-                |-- speexx-german.pdf
-                |-- travel-security.pdf
-                |-- user-experience-getting-started-A.pdf
-                |-- user-experience-getting-started.pdf
         |-- portfolio
             |-- carsmobile-app.jpg
             |-- design-system.jpg

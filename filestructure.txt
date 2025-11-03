@@ -1723,6 +1723,38 @@
         |-- favicon.ico
         |-- handpanprofile.png
         |-- linearts
+            |-- oneline1.jpg
+            |-- oneline10.jpg
+            |-- oneline11.jpg
+            |-- oneline12.jpg
+            |-- oneline13.jpg
+            |-- oneline14.jpg
+            |-- oneline15.jpg
+            |-- oneline16.jpg
+            |-- oneline17.jpg
+            |-- oneline18.jpg
+            |-- oneline19.jpg
+            |-- oneline2.jpg
+            |-- oneline20.jpg
+            |-- oneline21.jpg
+            |-- oneline22.jpg
+            |-- oneline23.jpg
+            |-- oneline24.jpg
+            |-- oneline25.jpg
+            |-- oneline26.jpg
+            |-- oneline27.jpg
+            |-- oneline28.jpg
+            |-- oneline29.jpg
+            |-- oneline3.jpg
+            |-- oneline30.jpg
+            |-- oneline31.jpg
+            |-- oneline32.jpg
+            |-- oneline4.jpg
+            |-- oneline5.jpg
+            |-- oneline6.jpg
+            |-- oneline7.jpg
+            |-- oneline8.jpg
+            |-- oneline9.jpg
         |-- logo.png
         |-- music
             |-- energybeamchimes.png
@@ -1740,7 +1772,18 @@
             |-- painting10.png
             |-- painting11.png
             |-- painting12.png
+            |-- painting13.png
+            |-- painting14.png
+            |-- painting15.png
+            |-- painting16.png
+            |-- painting17.png
+            |-- painting18.png
+            |-- painting19.png
             |-- painting2.png
+            |-- painting20.png
+            |-- painting21.png
+            |-- painting22.png
+            |-- painting23.png
             |-- painting3.png
             |-- painting4.png
             |-- painting5.png

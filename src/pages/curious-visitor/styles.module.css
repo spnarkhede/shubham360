@@ -2396,7 +2396,14 @@
 }
 
 .instrumentContent .highlightText {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+.spotifyCompact {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
 }
 
 /* Responsive adjustments for musical instruments */

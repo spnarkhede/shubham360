@@ -75,8 +75,8 @@ export default function ContactPanel() {
                 </div>
                 <div className={styles.contactMethodContent}>
                   <h4 className={styles.contactMethodTitle}>Phone</h4>
-                  <a href="tel:+4917151080595" className={styles.contactMethodValue}>
-                    +49 171 510 8059
+                  <a href="tel:+491715108059" className={styles.contactMethodValue}>
+                    +49 123 456 7890
                   </a>
                 </div>
               </div>

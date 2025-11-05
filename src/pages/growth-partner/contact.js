@@ -31,8 +31,8 @@ export default function GrowthPartnerContact() {
     {
       icon: <Phone size={20} />,
       title: "Phone",
-      value: "+49 171 510 8059",
-      link: "tel:+4917151080592",
+      value: "+49 123 456 789",
+      link: "tel:+491715108059",
       description: "Available for partnership discussions and collaborative calls"
     },
     {

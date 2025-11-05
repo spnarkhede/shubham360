@@ -98,7 +98,7 @@ export default function CuriousVisitorWellness() {
         id: 8,
         name: "Energy Beam Chime",
         description: "This unique instrument came into my life during a period of deep personal transformation. A sound therapist friend introduced me to this extraordinary chime that produces sustained harmonic tones when activated. The vibrations travel through the entire body, creating a sensation of energetic alignment. I've used it during healing sessions and personal meditation practices. The pure tones seem to recalibrate my entire being, releasing stored tension and promoting deep inner peace. It's become an essential tool in my wellness toolkit, helping me maintain balance between my demanding professional life and my need for spiritual connection.",
-        image: "/img/music/energy-beam-chime.png",
+        image: "/img/music/energybeamchimes.png",
         spotifyUrl: "https://open.spotify.com/embed/track/2eP76TEl98ohCpFHIZNBHj"
       }
     ];

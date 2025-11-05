@@ -57,7 +57,7 @@ export const workEligibility = {
 
 export const contactInfo = {
   email: "shubhampnarkhede@gmail.com",
-  phone: "+49 (0) 171-510-8059",
+  phone: "+49 (0) 171-510-****",
   location: "Available for Onsite/Hybrid/Remote work",
   linkedin: "https://linkedin.com/in/spnarkhede",
   github: "https://github.com/spnarkhede",

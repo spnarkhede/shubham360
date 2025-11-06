@@ -146,7 +146,9 @@
             |-- site-docs-computer-science-hyperautomation-rpa-robotic-process-automation-md-f28.json
             |-- site-docs-computer-science-hyperautomation-rpa-rpa-md-842.json
             |-- site-docs-computer-science-index-md-d29.json
+            |-- site-docs-computer-science-programming-databricks-databricks-md-f35.json
             |-- site-docs-computer-science-programming-git-git-basic-notes-md-315.json
+            |-- site-docs-computer-science-programming-kotlin-kotlin-md-ec6.json
             |-- site-docs-computer-science-programming-nvm-nvm-user-guide-md-879.json
             |-- site-docs-computer-science-programming-python-python-basic-notes-md-684.json
             |-- site-docs-computer-science-programming-vim-vim-basic-notes-md-da8.json
@@ -749,6 +751,12 @@
                 |-- RoboticProcessAutomation.md
         |-- index.md
         |-- Programming
+            |-- Databricks
+                |-- Databricks.md
+                |-- img
+                    |-- comparison_matrix.png
+                    |-- databricks_arch.png
+                    |-- mlflow_lifecycle.png
             |-- Git
                 |-- figures
                     |-- 6_free_software_licenses.png
@@ -756,6 +764,8 @@
                     |-- GitObjects.webp
                     |-- GitPackfile.webp
                 |-- GitBasicNotes.md
+            |-- Kotlin
+                |-- Kotlin.md
             |-- Nvm
                 |-- NvmUserGuide.md
             |-- Python

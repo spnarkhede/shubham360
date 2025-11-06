@@ -110,10 +110,13 @@
                 |-- tags-chatbot-8ff.json
                 |-- tags-css-369.json
                 |-- tags-development-db1.json
+                |-- tags-generative-ai-e54.json
+                |-- tags-hyperautomation-53a.json
                 |-- tags-idp-474.json
                 |-- tags-interpret-a81.json
                 |-- tags-learnings-cda.json
                 |-- tags-list-b03.json
+                |-- tags-llm-248.json
                 |-- tags-lowcode-945.json
                 |-- tags-mindset-df1.json
                 |-- tags-nlp-c3f.json
@@ -134,6 +137,8 @@
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
             |-- site-docs-computer-science-hyperautomation-chatbots-idp-chatbots-idp-md-871.json
+            |-- site-docs-computer-science-hyperautomation-generative-ai-gen-ai-introduction-md-0a4.json
+            |-- site-docs-computer-science-hyperautomation-generative-ai-gen-ai-introduction-md-b00.json
             |-- site-docs-computer-science-hyperautomation-hyper-automation-hyper-automation-md-818.json
             |-- site-docs-computer-science-hyperautomation-hyper-automation-md-27f.json
             |-- site-docs-computer-science-hyperautomation-low-code-no-code-low-code-no-code-md-5b3.json
@@ -719,17 +724,22 @@
         |-- Hyperautomation
             |-- Chatbots & IDP
                 |-- Chatbots_IDP.md
+            |-- Generative AI
+                |-- GenAIIntroduction.md
             |-- Hyper Automation
                 |-- HyperAutomation.md
             |-- img
+                |-- architecture_diagram.png
                 |-- chatbot_comparison.png
                 |-- comparison_table.png
                 |-- hyperautomation_flowchart.png
                 |-- hyperautomation_stack.png
                 |-- hyperautomation_workflow.png
                 |-- idp_architecture.png
+                |-- llm_capability_matrix.png
                 |-- lowcode_architecture.png
                 |-- positioning_matrix.png
+                |-- rag_architecture.png
                 |-- rpa_architecture.png
                 |-- rpa_comparison.png
                 |-- rpa_workflow.png

@@ -100,20 +100,31 @@
                 |-- de-tags-web-10d.json
                 |-- index-466.json
                 |-- tags-ai-7df.json
+                |-- tags-ais-59b.json
                 |-- tags-angular-455.json
+                |-- tags-automation-2fd.json
                 |-- tags-b9f.json
                 |-- tags-book-6d4.json
                 |-- tags-bootstrap-c6b.json
+                |-- tags-bots-b38.json
+                |-- tags-chatbot-8ff.json
                 |-- tags-css-369.json
+                |-- tags-development-db1.json
+                |-- tags-idp-474.json
                 |-- tags-interpret-a81.json
                 |-- tags-learnings-cda.json
                 |-- tags-list-b03.json
+                |-- tags-lowcode-945.json
                 |-- tags-mindset-df1.json
+                |-- tags-nlp-c3f.json
+                |-- tags-nocode-cb4.json
                 |-- tags-resources-330.json
+                |-- tags-rpa-ab4.json
                 |-- tags-script-ac1.json
                 |-- tags-strategic-ea8.json
                 |-- tags-tools-a72.json
                 |-- tags-web-fcc.json
+                |-- tags-workflow-95b.json
             |-- site-docs-computer-science-artificial-intelligence-ai-directory-cheetsheets-md-c36.json
             |-- site-docs-computer-science-artificial-intelligence-llm-llm-basic-notes-md-74f.json
             |-- site-docs-computer-science-artificial-intelligence-llm-prompt-engineering-basic-notes-md-45b.json
@@ -122,6 +133,13 @@
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-operations-md-c1b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
+            |-- site-docs-computer-science-hyperautomation-chatbots-idp-chatbots-idp-md-871.json
+            |-- site-docs-computer-science-hyperautomation-hyper-automation-hyper-automation-md-818.json
+            |-- site-docs-computer-science-hyperautomation-hyper-automation-md-27f.json
+            |-- site-docs-computer-science-hyperautomation-low-code-no-code-low-code-no-code-md-5b3.json
+            |-- site-docs-computer-science-hyperautomation-low-code-no-code-md-463.json
+            |-- site-docs-computer-science-hyperautomation-rpa-robotic-process-automation-md-f28.json
+            |-- site-docs-computer-science-hyperautomation-rpa-rpa-md-842.json
             |-- site-docs-computer-science-index-md-d29.json
             |-- site-docs-computer-science-programming-git-git-basic-notes-md-315.json
             |-- site-docs-computer-science-programming-nvm-nvm-user-guide-md-879.json
@@ -698,6 +716,27 @@
                 |-- DockerOperations.md
                 |-- DockerTool&TermCheatsheet.md
             |-- _category_.json
+        |-- Hyperautomation
+            |-- Chatbots & IDP
+                |-- Chatbots_IDP.md
+            |-- Hyper Automation
+                |-- HyperAutomation.md
+            |-- img
+                |-- chatbot_comparison.png
+                |-- comparison_table.png
+                |-- hyperautomation_flowchart.png
+                |-- hyperautomation_stack.png
+                |-- hyperautomation_workflow.png
+                |-- idp_architecture.png
+                |-- lowcode_architecture.png
+                |-- positioning_matrix.png
+                |-- rpa_architecture.png
+                |-- rpa_comparison.png
+                |-- rpa_workflow.png
+            |-- Low Code_No Code
+                |-- LowCodeNoCode.md
+            |-- RPA
+                |-- RoboticProcessAutomation.md
         |-- index.md
         |-- Programming
             |-- Git

@@ -23,61 +23,6 @@ import {
 
 // Technical learnings data with categories, descriptions, and metadata - ALPHABETICAL ORDER
 const technicalLearningsData = [
-  // {
-  //   id: 'technical-writing',
-  //   title: 'Technical Writing and Knowledge Summarization',
-  //   description: 'Master the art of documenting technical concepts, creating knowledge bases, and summarizing complex information.',
-  //   icon: <BookOpen size={32} />,
-  //   category: 'Documentation',
-  //   tags: ['Technical Writing', 'Documentation', 'Knowledge Base', 'Summarization'],
-  //   recommended: true,
-  //   free: true,
-  //   usedInProjects: true
-  // },
-  {
-    id: 'git',
-    title: 'Git',
-    description: 'Version control mastery with Git - branching strategies, merging, rebasing, and collaboration workflows.',
-    icon: <GitBranch size={32} />,
-    category: 'Version Control',
-    tags: ['Git', 'Version Control', 'Branching', 'Collaboration'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'nvm',
-    title: 'NVM (Node Version Manager)',
-    description: 'Managing multiple Node.js versions efficiently with NVM for different project requirements.',
-    icon: <Terminal size={32} />,
-    category: 'Development Tools',
-    tags: ['NVM', 'Node.js', 'Version Management', 'Development'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'vim',
-    title: 'Vim',
-    description: 'Advanced text editing with Vim - commands, shortcuts, and productivity tips for efficient coding.',
-    icon: <FileText size={32} />,
-    category: 'Text Editors',
-    tags: ['Vim', 'Text Editor', 'Productivity', 'Terminal'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'docker',
-    title: 'Docker',
-    description: 'Containerization with Docker - building images, managing containers, and orchestration basics.',
-    icon: <Server size={32} />,
-    category: 'DevOps',
-    tags: ['Docker', 'Containers', 'DevOps', 'Virtualization'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
   {
     id: 'angular',
     title: 'Angular',
@@ -85,28 +30,6 @@ const technicalLearningsData = [
     icon: <Code size={32} />,
     category: 'Frontend',
     tags: ['Angular', 'Frontend', 'Framework', 'TypeScript'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'css',
-    title: 'CSS',
-    description: 'Modern CSS techniques - Flexbox, Grid, animations, and responsive design patterns.',
-    icon: <Palette size={32} />,
-    category: 'Frontend',
-    tags: ['CSS', 'Styling', 'Responsive Design', 'Animations'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
-  {
-    id: 'html',
-    title: 'HTML',
-    description: 'Semantic HTML, accessibility best practices, and modern markup techniques.',
-    icon: <Globe size={32} />,
-    category: 'Frontend',
-    tags: ['HTML', 'Markup', 'Accessibility', 'Semantics'],
     recommended: true,
     free: true,
     usedInProjects: true
@@ -134,6 +57,17 @@ const technicalLearningsData = [
     usedInProjects: true
   },
   {
+    id: 'cpp',
+    title: 'C++',
+    description: 'Advanced C++ programming - templates, STL, and performance optimization techniques.',
+    icon: <Code size={32} />,
+    category: 'Programming Languages',
+    tags: ['C++', 'Templates', 'STL', 'Performance'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'csharp',
     title: 'C#',
     description: 'Object-oriented programming with C# - .NET framework, LINQ, and modern C# features.',
@@ -145,12 +79,23 @@ const technicalLearningsData = [
     usedInProjects: true
   },
   {
-    id: 'cpp',
-    title: 'C++',
-    description: 'Advanced C++ programming - templates, STL, and performance optimization techniques.',
-    icon: <Code size={32} />,
-    category: 'Programming Languages',
-    tags: ['C++', 'Templates', 'STL', 'Performance'],
+    id: 'css',
+    title: 'CSS',
+    description: 'Modern CSS techniques - Flexbox, Grid, animations, and responsive design patterns.',
+    icon: <Palette size={32} />,
+    category: 'Frontend',
+    tags: ['CSS', 'Styling', 'Responsive Design', 'Animations'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'docker',
+    title: 'Docker',
+    description: 'Containerization with Docker - building images, managing containers, and orchestration basics.',
+    icon: <Server size={32} />,
+    category: 'DevOps',
+    tags: ['Docker', 'Containers', 'DevOps', 'Virtualization'],
     recommended: true,
     free: true,
     usedInProjects: true
@@ -167,12 +112,45 @@ const technicalLearningsData = [
     usedInProjects: true
   },
   {
+    id: 'git',
+    title: 'Git',
+    description: 'Version control mastery with Git - branching strategies, merging, rebasing, and collaboration workflows.',
+    icon: <GitBranch size={32} />,
+    category: 'Version Control',
+    tags: ['Git', 'Version Control', 'Branching', 'Collaboration'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'go',
     title: 'Go',
     description: 'Go programming language - concurrency, goroutines, and building efficient backend services.',
     icon: <Code size={32} />,
     category: 'Programming Languages',
     tags: ['Go', 'Golang', 'Concurrency', 'Backend'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'html',
+    title: 'HTML',
+    description: 'Semantic HTML, accessibility best practices, and modern markup techniques.',
+    icon: <Globe size={32} />,
+    category: 'Frontend',
+    tags: ['HTML', 'Markup', 'Accessibility', 'Semantics'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'hyperautomation',
+    title: 'Hyperautomation',
+    description: 'End-to-end automation strategy that orchestrates diverse technologies including AI, ML, RPA, low-code/no-code platforms, IDP, and workflow orchestration for comprehensive digital transformation.',
+    icon: <Brain size={32} />,
+    category: 'Automation',
+    tags: ['Hyperautomation', 'AI', 'RPA', 'Digital Transformation', 'Workflow'],
     recommended: true,
     free: true,
     usedInProjects: true
@@ -222,6 +200,28 @@ const technicalLearningsData = [
     usedInProjects: true
   },
   {
+    id: 'low-code-no-code',
+    title: 'Low-Code / No-Code',
+    description: 'Platforms that democratize automation by eliminating the need for extensive programming expertise, enabling citizen developers to build solutions using visual interfaces.',
+    icon: <Settings size={32} />,
+    category: 'Development Tools',
+    tags: ['Low-Code', 'No-Code', 'Citizen Developers', 'Rapid Development'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'nvm',
+    title: 'NVM (Node Version Manager)',
+    description: 'Managing multiple Node.js versions efficiently with NVM for different project requirements.',
+    icon: <Terminal size={32} />,
+    category: 'Development Tools',
+    tags: ['NVM', 'Node.js', 'Version Management', 'Development'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'php',
     title: 'PHP',
     description: 'Server-side scripting with PHP - web development, frameworks, and modern PHP practices.',
@@ -243,39 +243,28 @@ const technicalLearningsData = [
     free: true,
     usedInProjects: true
   },
-  // {
-  //   id: 'typescript',
-  //   title: 'TypeScript',
-  //   description: 'Type-safe JavaScript development with TypeScript - interfaces, generics, and advanced types.',
-  //   icon: <Settings size={32} />,
-  //   category: 'Development',
-  //   tags: ['TypeScript', 'Typing', 'JavaScript', 'Development'],
-  //   recommended: true,
-  //   free: true,
-  //   usedInProjects: true
-  // },
-  // {
-  //   id: 'react',
-  //   title: 'React',
-  //   description: 'Building modern UIs with React - hooks, context, performance optimization, and best practices.',
-  //   icon: <Code size={32} />,
-  //   category: 'Frontend',
-  //   tags: ['React', 'Frontend', 'Hooks', 'Components'],
-  //   recommended: true,
-  //   free: true,
-  //   usedInProjects: true
-  // },
-  // {
-  //   id: 'nodejs',
-  //   title: 'Node.js',
-  //   description: 'Server-side JavaScript with Node.js - APIs, middleware, and backend development.',
-  //   icon: <Server size={32} />,
-  //   category: 'Backend',
-  //   tags: ['Node.js', 'Backend', 'API', 'Server'],
-  //   recommended: true,
-  //   free: true,
-  //   usedInProjects: true
-  // }
+  {
+    id: 'rpa',
+    title: 'Robotic Process Automation (RPA)',
+    description: 'Automating high-volume, repetitive, rule-based tasks by mimicking human interactions with digital systems - clicking buttons, entering data, copying information.',
+    icon: <Server size={32} />,
+    category: 'Automation',
+    tags: ['RPA', 'Automation', 'Process Automation', 'Task Automation'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'vim',
+    title: 'Vim',
+    description: 'Advanced text editing with Vim - commands, shortcuts, and productivity tips for efficient coding.',
+    icon: <FileText size={32} />,
+    category: 'Text Editors',
+    tags: ['Vim', 'Text Editor', 'Productivity', 'Terminal'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  }
 ];
 
 // Available filter categories - Automatically generated from data
@@ -286,6 +275,9 @@ const LearningCard = ({ learning }) => {
   const getDocumentationUrl = (learningId) => {
     // Map each technology to its documentation folder path
     const documentationFolderMap = {
+      'hyperautomation': '/ComputerScience/Hyperautomation/Hyper Automation/HyperAutomation',
+      'low-code-no-code': '/ComputerScience/Hyperautomation/Low Code_No Code/LowCodeNoCode',
+      'rpa': '/ComputerScience/Hyperautomation/RPA/RoboticProcessAutomation',
       'git': '/ComputerScience/Programming/Git/GitBasicNotes',
       'docker': '/ComputerScience/DevOpsTools/Docker/DockerizeAngularSetup',
       'nvm': '/ComputerScience/Programming/Nvm/NvmUserGuide',
@@ -401,7 +393,7 @@ const TechnicalLearnings = () => {
   return (
     <DashboardLayout role="tech-enthusiast" activeTab="technical-learnings">
       <SectionTemplate
-        title="📚 Technical Learnings & Knowlege Summarization"
+        title="📚 Technical Learnings & Knowledge Summarization"
         subtitle="Explore my curated collection of technical skills, tools, and concepts I've mastered through hands-on experience and continuous learning."
         className={styles.sectionWrapper}
       >

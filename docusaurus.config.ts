@@ -18,6 +18,7 @@ const config: Config = {
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'ignore',
+      onBrokenMarkdownImages: 'ignore',
     },
   },
   onBrokenAnchors: 'ignore',

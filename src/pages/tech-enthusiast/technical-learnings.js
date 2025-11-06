@@ -79,6 +79,17 @@ const technicalLearningsData = [
     usedInProjects: true
   },
   {
+    id: 'chatbots-idp',
+    title: 'Chatbots & Intelligent Document Processing (IDP)',
+    description: 'AI-powered conversational interfaces and automated document understanding technologies that extract, classify, and process unstructured data from various document types.',
+    icon: <Brain size={32} />,
+    category: 'AI',
+    tags: ['Chatbots', 'IDP', 'AI', 'Document Processing', 'NLP'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'css',
     title: 'CSS',
     description: 'Modern CSS techniques - Flexbox, Grid, animations, and responsive design patterns.',
@@ -107,6 +118,17 @@ const technicalLearningsData = [
     icon: <Code size={32} />,
     category: 'Programming Languages',
     tags: ['JavaScript', 'ES6', 'ECMAScript', 'Modern JS'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'generative-ai-hyperautomation',
+    title: 'Generative AI in Hyperautomation',
+    description: 'The fusion of autonomous process execution with AI-driven creativity and reasoning through Large Language Models, Generative Transformers, and AI orchestration layers for intelligent, adaptive decision-making.',
+    icon: <Brain size={32} />,
+    category: 'AI',
+    tags: ['Generative AI', 'Hyperautomation', 'LLM', 'AI', 'Automation'],
     recommended: true,
     free: true,
     usedInProjects: true
@@ -275,6 +297,8 @@ const LearningCard = ({ learning }) => {
   const getDocumentationUrl = (learningId) => {
     // Map each technology to its documentation folder path
     const documentationFolderMap = {
+      'chatbots-idp': '/ComputerScience/Hyperautomation/Chatbots & IDP/Chatbots_IDP',
+      'generative-ai-hyperautomation': '/ComputerScience/Hyperautomation/Generative AI/GenAIIntroduction',
       'hyperautomation': '/ComputerScience/Hyperautomation/Hyper Automation/HyperAutomation',
       'low-code-no-code': '/ComputerScience/Hyperautomation/Low Code_No Code/LowCodeNoCode',
       'rpa': '/ComputerScience/Hyperautomation/RPA/RoboticProcessAutomation',

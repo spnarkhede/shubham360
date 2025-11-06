@@ -20,7 +20,7 @@ plugins:
   - runCode
 ---
 
-## Generative AI in Hyperautomation – Complete Learning Guide
+### Generative AI in Hyperautomation – Complete Learning Guide
 
 **Generative AI represents the "cognitive transformation" layer of hyperautomation**, elevating automation from rigid rule-following to intelligent, adaptive systems that understand context, make nuanced decisions, and learn from outcomes. While traditional RPA excels at repetitive task execution and low-code platforms democratize application development, **generative AI—powered by Large Language Models (LLMs)—adds reasoning, creativity, and adaptive intelligence** that enable automation of complex, unpredictable processes previously requiring human judgment.[1][2][3][4]
 

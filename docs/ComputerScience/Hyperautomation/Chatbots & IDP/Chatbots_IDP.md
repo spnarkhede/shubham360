@@ -21,7 +21,7 @@ plugins:
 ---
 
 
-## Chatbots & Intelligent Document Processing (IDP) in Hyperautomation
+### Chatbots & Intelligent Document Processing (IDP) in Hyperautomation
 
 Building on the hyperautomation, low-code/no-code, and RPA foundations we've covered, **chatbots and intelligent document processing represent the "sensory and cognitive" layer of intelligent automation**—enabling systems to understand human communication, interpret complex documents, and make informed decisions before orchestrating action through RPA and workflow systems.[1][2][3]
 

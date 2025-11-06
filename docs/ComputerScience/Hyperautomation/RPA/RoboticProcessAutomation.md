@@ -19,7 +19,7 @@ plugins:
 ---
 
 
-## Robotic Process Automation (RPA)
+### Robotic Process Automation (RPA)
 
 **Robotic Process Automation (RPA) is a form of business process automation technology that uses software robots (bots) to automate repetitive, rule-based tasks performed by humans**, such as data entry, form processing, document handling, and system integration across enterprise applications. Unlike traditional automation which requires custom coding for each process, RPA mimics human interactions with digital systems—clicking buttons, entering data, copying information between applications, navigating systems—allowing organizations to rapidly automate high-volume, repetitive work that previously required manual labor.[1][2][3]
 

@@ -108,16 +108,23 @@
                 |-- tags-bootstrap-c6b.json
                 |-- tags-bots-b38.json
                 |-- tags-chatbot-8ff.json
+                |-- tags-config-982.json
                 |-- tags-css-369.json
+                |-- tags-data-engineering-ed1.json
+                |-- tags-data-science-fbd.json
+                |-- tags-databricks-21c.json
                 |-- tags-development-db1.json
+                |-- tags-format-a76.json
                 |-- tags-generative-ai-e54.json
                 |-- tags-hyperautomation-53a.json
                 |-- tags-idp-474.json
                 |-- tags-interpret-a81.json
+                |-- tags-lakehouse-54a.json
                 |-- tags-learnings-cda.json
                 |-- tags-list-b03.json
                 |-- tags-llm-248.json
                 |-- tags-lowcode-945.json
+                |-- tags-machine-learning-4b7.json
                 |-- tags-mindset-df1.json
                 |-- tags-nlp-c3f.json
                 |-- tags-nocode-cb4.json
@@ -153,6 +160,7 @@
             |-- site-docs-computer-science-programming-python-python-basic-notes-md-684.json
             |-- site-docs-computer-science-programming-vim-vim-basic-notes-md-da8.json
             |-- site-docs-computer-science-programming-vim-vim-cheat-sheet-md-4a6.json
+            |-- site-docs-computer-science-programming-yaml-yaml-md-c47.json
             |-- site-docs-computer-science-web-technologies-angular-angular-basic-notes-md-08d.json
             |-- site-docs-computer-science-web-technologies-css-bootstrap-basic-notes-md-394.json
             |-- site-docs-computer-science-web-technologies-css-css-advanced-notes-md-413.json
@@ -765,6 +773,10 @@
                     |-- GitPackfile.webp
                 |-- GitBasicNotes.md
             |-- Kotlin
+                |-- img
+                    |-- kotlin_comparison.png
+                    |-- kotlin_coroutines.png
+                    |-- kotlin_ecosystem.png
                 |-- Kotlin.md
             |-- Nvm
                 |-- NvmUserGuide.md
@@ -773,6 +785,8 @@
             |-- Vim
                 |-- VimBasicNotes.md
                 |-- VimCheatSheet.md
+            |-- Yaml
+                |-- Yaml.md
             |-- _category_.json
         |-- WebTechnologies
             |-- Angular

@@ -37,8 +37,7 @@ const useRoleStore = create((set) => ({
         { id: 'projects', label: 'Projects' },
         { id: 'skills', label: 'Skills' },
         { id: 'certifications', label: 'Certifications & Badges' },
-        { id: 'recommendations', label: 'Testimonials' },
-        { id: 'contact', label: 'Contact', path: '/contact' },
+        { id: 'recommendations', label: 'Testimonials' }
         // { id: 'continue-watching', label: 'Continue Watching' }
       ]
     },
@@ -54,8 +53,7 @@ const useRoleStore = create((set) => ({
         { id: 'case-studies', label: 'Case Studies' },
         { id: 'tools', label: 'Tools & Skills' },
         { id: 'design-learning', label: 'Learnings' },
-        { id: 'certificates', label: 'Certifications' },
-        { id: 'contact', label: 'Contact', path: '/contact' }
+        { id: 'certificates', label: 'Certifications' }
       ]
     },
     'tech-enthusiast': {
@@ -66,11 +64,10 @@ const useRoleStore = create((set) => ({
         { id: 'introduction', label: 'Introduction' },
         { id: 'technical-learnings', label: 'Technical Learnings' },
         { id: 'tools-collection', label: 'Tools Collection' },
-        { id: 'code-samples', label: 'Code Samples' },
+        { id: 'code-samples', label: 'Code Samples' }
         // { id: 'articles', label: 'Articles' },
         // { id: 'sandbox', label: 'Sandbox' },
-        // { id: 'engagement', label: 'Engagement' },
-        { id: 'contact', label: 'Contact', path: '/contact' }
+        // { id: 'engagement', label: 'Engagement' }
       ]
     },
     'curious-visitor': {
@@ -86,8 +83,7 @@ const useRoleStore = create((set) => ({
         { id: 'culture', label: 'Culture' },
         { id: 'sports', label: 'Sports' },
         { id: 'gallery', label: 'Gallery' },
-        { id: 'adventures', label: 'Adventures' },
-        { id: 'contact', label: 'Contact', path: '/contact' }
+        { id: 'adventures', label: 'Adventures' }
       ]
     },
     'growth-partner': {
@@ -101,8 +97,7 @@ const useRoleStore = create((set) => ({
         { id: 'partnerships', label: 'Partnerships' },
         { id: 'speaking', label: 'Speaking' },
         { id: 'leadership', label: 'Leadership' },
-        { id: 'recognition', label: 'Recognition' },
-        { id: 'contact', label: 'Contact', path: '/contact' }
+        { id: 'recognition', label: 'Recognition' }
       ]
     },
   }

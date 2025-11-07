@@ -719,7 +719,7 @@
     |-- 2021
         |-- 2021-03-08-leadershipmindset.md
         |-- images
-            |-- leadership.png
+            |-- leadership.webp
     |-- 2022
         |-- 2022-08-20-devops-at-robert-bosch.md
     |-- 2023
@@ -750,6 +750,10 @@
                 |-- Chatbots_IDP.md
             |-- CI_CD
                 |-- CICDGuide.md
+                |-- img
+                    |-- cicd_comparison.webp
+                    |-- deployment_strategies.webp
+                    |-- testing_pyramid.webp
             |-- Generative AI
                 |-- GenAIIntroduction.md
             |-- Hyper Automation
@@ -1442,6 +1446,7 @@
     |-- README.md
 |-- remove-unused-lucide-icons.js
 |-- scripts
+    |-- analyze-book-images.js
     |-- cleanup-original-images.bat
     |-- cleanup-original-images.js
     |-- cleanup-original-images.sh
@@ -1450,6 +1455,9 @@
     |-- convert-to-webp.js
     |-- image-stats.js
     |-- README.md
+    |-- rotate-book-images.js
+    |-- rotate-single-image.js
+    |-- rotate-specific-images.js
 |-- sidebars.ts
 |-- src
     |-- components
@@ -1871,12 +1879,115 @@
             |-- vaidikDincharya.webp
             |-- whyMenLoveBitches.webp
             |-- yourNextFiveMoves.webp
+        |-- books_backup
+            |-- accounting101.webp
+            |-- almanackOfNavalRavikant.webp
+            |-- americanGovernment101.webp
+            |-- atomicHabits.webp
+            |-- bharatEkNayiSoch.webp
+            |-- bookOnRentalPropertyInvesting.webp
+            |-- bossBasicsOfSanatanSanskriti.webp
+            |-- carelessPeople.webp
+            |-- chanakyas100BestSutras.webp
+            |-- coachingHabit.webp
+            |-- communicationSkillsBible.webp
+            |-- concise48LawsOfPower.webp
+            |-- conciseArtOfSeduction.webp
+            |-- conciseLawsOfHumanNature.webp
+            |-- conciseStrategiesOfWar.webp
+            |-- corporateChanakya.webp
+            |-- courageToBeDisliked.webp
+            |-- crucialConversations.webp
+            |-- dailyLaws.webp
+            |-- dailyStoic.webp
+            |-- dareToLead.webp
+            |-- deepWork.webp
+            |-- dontBelieveEverythingYouThink.webp
+            |-- dopamineDetox.webp
+            |-- eatThatFrog.webp
+            |-- economics101.webp
+            |-- egoIsTheEnemy.webp
+            |-- eightRulesOfLove.webp
+            |-- eightyTwentyPrinciple.webp
+            |-- emotionalIntelligence.webp
+            |-- fineArtOfSmallTalk.webp
+            |-- fourThousandWeeks.webp
+            |-- hindusInHinduRashtra.webp
+            |-- howToStopWorrying.webp
+            |-- howToTalkToAnyone.webp
+            |-- howToTalkToAnyone2.webp
+            |-- howToWinFriends.webp
+            |-- ikigai.webp
+            |-- immediateaction.webp
+            |-- indiaThatIsBharat.webp
+            |-- investing101.webp
+            |-- invisibleWomen.webp
+            |-- kautileeyaArthshastra.webp
+            |-- lean-startup.webp
+            |-- lifeAndWorkPrinciples.webp
+            |-- management101.webp
+            |-- masterYourBeliefs (2).webp
+            |-- masterYourBeliefs.webp
+            |-- masterYourDestiny.webp
+            |-- masterYourEmotions.webp
+            |-- masterYourFocus.webp
+            |-- masterYourMotivation.webp
+            |-- masterYourThinking (2).webp
+            |-- masterYourThinking.webp
+            |-- masterYourTime.webp
+            |-- menAreFromMarsWomenAreFromVenus.webp
+            |-- millionaireFastlane.webp
+            |-- mindset.webp
+            |-- moneyworks.webp
+            |-- negotiating101.webp
+            |-- neverSplitTheDifference.webp
+            |-- oneHundredOneEssays.webp
+            |-- oneSuccessHabit.webp
+            |-- philosophy101.webp
+            |-- power-of-habit.webp
+            |-- powerfulFocus.webp
+            |-- psych101.webp
+            |-- psychologyOfMoney.webp
+            |-- radicalCandorBoss.webp
+            |-- radicalCandorRevised.webp
+            |-- readPeopleLikeABook.webp
+            |-- relentless.webp
+            |-- sameAsEver.webp
+            |-- sapiens.webp
+            |-- selfHealByDesign.webp
+            |-- semenRetentionMiracles.webp
+            |-- shoe-dog.webp
+            |-- srimadBhagavadgitaVolumn1.webp
+            |-- srimadBhagavadgitaVolumn2.webp
+            |-- start-with-why.webp
+            |-- stockMarket101.webp
+            |-- strategicmindset.webp
+            |-- surroundedByBadBosses.webp
+            |-- surroundedByIdiots.webp
+            |-- surroundedByLiars.webp
+            |-- surroundedByNarcissists.webp
+            |-- surroundedByPsychopaths.webp
+            |-- surroundedBySetbacks.webp
+            |-- sustainMe.webp
+            |-- teamTopologies.webp
+            |-- thankGodForFeedback.webp
+            |-- thanksForFeedback.webp
+            |-- the-personal-mba.webp
+            |-- the7HabitsOfHighlyEffectivePeople.webp
+            |-- theCompoundEffect.webp
+            |-- thePowerOfNow.webp
+            |-- thinking-fast-slow.webp
+            |-- usHistory101.webp
+            |-- vaidikDincharya.webp
+            |-- whyMenLoveBitches.webp
+            |-- yourNextFiveMoves.webp
         |-- default-bosch.webp
         |-- docusaurus-social-card.webp
         |-- docusaurus.webp
         |-- favicon.ico
         |-- handpanprofile.webp
         |-- landingprofile.png
+        |-- landingprofile.webp
         |-- linearts
             |-- oneline1.webp
             |-- oneline10.webp
@@ -1956,6 +2067,62 @@
         |-- profilepic.webp
         |-- profilesquare.webp
         |-- readerprofile.webp
+        |-- single_image_backup
+            |-- carelessPeople.webp
+            |-- concise48LawsOfPower.webp
+            |-- conciseArtOfSeduction.webp
+            |-- crucialConversations.webp
+            |-- economics101.webp
+            |-- hindusInHinduRashtra.webp
+            |-- howToWinFriends.webp
+            |-- investing101.webp
+            |-- invisibleWomen.webp
+            |-- kautileeyaArthshastra.webp
+            |-- lean-startup.webp
+            |-- masterYourBeliefs.webp
+            |-- masterYourDestiny.webp
+            |-- masterYourThinking.webp
+            |-- mindset.webp
+            |-- moneyworks.webp
+            |-- neverSplitTheDifference.webp
+            |-- oneline10.webp
+            |-- oneline11.webp
+            |-- oneline12.webp
+            |-- oneline13.webp
+            |-- oneline14.webp
+            |-- oneline15.webp
+            |-- oneline16.webp
+            |-- oneline17.webp
+            |-- oneline18.webp
+            |-- oneline19.webp
+            |-- oneline20.webp
+            |-- oneline21.webp
+            |-- oneline22.webp
+            |-- oneline23.webp
+            |-- oneline24.webp
+            |-- oneline25.webp
+            |-- oneline26.webp
+            |-- oneline27.webp
+            |-- oneline28.webp
+            |-- oneline29.webp
+            |-- oneline30.webp
+            |-- oneline31.webp
+            |-- oneline32.webp
+            |-- oneline6.webp
+            |-- oneline7.webp
+            |-- oneline8.webp
+            |-- oneline9.webp
+            |-- power-of-habit.webp
+            |-- sapiens.webp
+            |-- semenRetentionMiracles.webp
+            |-- shoe-dog.webp
+            |-- start-with-why.webp
+            |-- surroundedByLiars.webp
+            |-- surroundedBySetbacks.webp
+            |-- teamTopologies.webp
+            |-- thanksForFeedback.webp
+            |-- thinking-fast-slow.webp
+            |-- vaidikDincharya.webp
         |-- sketches
             |-- 10.webp
             |-- 11.webp

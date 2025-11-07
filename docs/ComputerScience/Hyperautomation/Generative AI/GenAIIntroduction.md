@@ -46,7 +46,9 @@ Modern LLMs use **Transformer architecture**, introduced in 2017, which revoluti
 
 **Emergent Abilities**: LLMs demonstrate "emergent capabilities"—abilities not explicitly programmed but arising from scale. With sufficient parameters and training data, models suddenly demonstrate abilities to perform in-context learning, few-shot learning, and chain-of-thought reasoning that weren't present in smaller models.[1][6]
 
-### Traditional AI vs. Generative AI: Capabilities Comparison| **Dimension** | **Traditional Machine Learning** | **Generative AI** |
+### Traditional AI vs. Generative AI: Capabilities Comparison
+
+| **Dimension** | **Traditional Machine Learning** | **Generative AI** |
 |---|---|---|
 | **Primary Function** | Analyze, predict, classify | Create, generate, synthesize |
 | **Data Requirements** | Smaller curated datasets | Massive diverse datasets (billions of examples) |

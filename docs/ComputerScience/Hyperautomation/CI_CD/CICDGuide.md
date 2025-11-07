@@ -35,7 +35,11 @@ In the hyperautomation context we've explored—combining RPA, generative AI, lo
 
 CI/CD enables all of this through automation, testing gates, and safe deployment strategies.
 
-### The Four Core Stages of CI/CD Pipelines**Stage 1: Source Control** - The foundation. All code (application code, IaC, automation scripts, ML models) lives in Git repositories with clear versioning. When developers push code, webhooks automatically trigger the pipeline.[1][2][3][4]
+### The Four Core Stages of CI/CD Pipelines
+
+![CI/CD Platforms Comparison Matrix 2025](./img/cicd_comparison.webp)
+
+**Stage 1: Source Control** - The foundation. All code (application code, IaC, automation scripts, ML models) lives in Git repositories with clear versioning. When developers push code, webhooks automatically trigger the pipeline.[1][2][3][4]
 
 ```yaml
 # Example: Trigger on code push
@@ -79,6 +83,9 @@ fun testWorkflowExecution() = runTest {
     val result = workflowService.execute(testWorkflow)
     assert(result.status == "completed")
 }
+
+![CI/CD Testing Pyramid: Distribution and Balance](./img/deployment_strategies.webp)
+
 ```The **Testing Pyramid** shows optimal distribution: Fast, cheap unit tests form the base (catch most bugs quickly), integration tests in the middle (catch cross-component issues), and expensive E2E tests at the top (catch user-facing issues).
 
 **Stage 4: Deploy** - Automated release to production with safety mechanisms.[2][8][11][7]
@@ -89,7 +96,11 @@ fun testWorkflowExecution() = runTest {
 - **Production Deployment**: Gradual rollout using safe deployment strategies
 - **Post-Deployment Monitoring**: Verify application health, collect metrics
 
-### Deployment Strategies: Safety vs. SpeedOrganizations must choose deployment strategies balancing risk and speed:
+### Deployment Strategies: Safety vs. Speed
+
+![CI/CD Deployment Strategies Comparison](./img/testing_pyramid.webp)
+
+Organizations must choose deployment strategies balancing risk and speed:
 
 **All-at-Once (Big Bang)**: Replace all instances simultaneously.[11][7]
 
@@ -320,7 +331,9 @@ deploy_production:
     url: https://automation.company.com
 ```
 
-### CI/CD for Hyperautomation: Real-World ExampleImagine deploying an improved ML model for customer churn prediction RPA workflow:
+### CI/CD for Hyperautomation: Real-World Example
+
+Imagine deploying an improved ML model for customer churn prediction RPA workflow:
 
 **Stage 1: Development**
 - Data scientist trains new model, tests on historical data
@@ -353,7 +366,9 @@ deploy_production:
 
 This entire process—commit to full production deployment with real-time monitoring—happens automatically, safely, and reliably.[5][6][15][7]
 
-### CI/CD for Kubernetes and Cloud-Native DeploymentModern hyperautomation platforms typically deploy to Kubernetes, requiring specific CI/CD considerations:[11][7][18]
+### CI/CD for Kubernetes and Cloud-Native Deployment
+
+Modern hyperautomation platforms typically deploy to Kubernetes, requiring specific CI/CD considerations:[11][7][18]
 
 ```yaml
 # Example: Deploying Kotlin microservice to Kubernetes via GitLab CI
@@ -401,7 +416,9 @@ Key Kubernetes CI/CD considerations:
 - **Health Checks**: Kubernetes verifies pod health, automatically rolls back if unhealthy
 - **Scaling**: Horizontal pod autoscaling adjusts replicas based on load
 
-### ConclusionCI/CD transforms hyperautomation from manual, error-prone operations to **reliable, rapid, safe continuous delivery**. By automating testing, security scanning, and deployment, organizations can:
+### Conclusion 
+
+CI/CD transforms hyperautomation from manual, error-prone operations to **reliable, rapid, safe continuous delivery**. By automating testing, security scanning, and deployment, organizations can:
 
 - **Deploy multiple times daily** without fear
 - **Fix issues in production within minutes** rather than hours

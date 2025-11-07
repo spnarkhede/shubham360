@@ -67,8 +67,9 @@ async function convertToWebP(inputPath, outputPath) {
       // Output file doesn't exist, continue with conversion
     }
 
-    // Convert image to WebP
+    // Convert image to WebP with automatic EXIF orientation handling
     await sharp(inputPath)
+      .rotate() // Automatically rotate based on EXIF orientation data
       .webp({ quality: QUALITY })
       .toFile(outputPath);
     

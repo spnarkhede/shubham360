@@ -18,6 +18,10 @@
     "typecheck": "tsc",
     "convert-images": "node scripts/convert-to-webp.js",
     "image-stats": "node scripts/image-stats.js",
+    "analyze-book-images": "node scripts/analyze-book-images.js",
+    "rotate-book-images": "node scripts/rotate-book-images.js",
+    "rotate-single-image": "node scripts/rotate-single-image.js",
+    "rotate-specific-images": "node scripts/rotate-specific-images.js",
     "cleanup-original-images": "node scripts/cleanup-original-images.js"
   },
   "dependencies": {

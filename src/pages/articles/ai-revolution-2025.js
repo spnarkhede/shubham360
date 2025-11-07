@@ -11,7 +11,7 @@ export default function AIRevolution2025() {
     readTime: '12 min read',
     author: 'Shubham Narkhede',
     tags: ['Artificial Intelligence', 'Industry Trends', 'Future of Work'],
-    image: '/img/articles/ai-revolution-2025.jpg'
+    image: '/img/articles/ai-revolution-2025.webp'
   };
 
   return (

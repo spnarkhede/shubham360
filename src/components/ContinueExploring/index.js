@@ -13,13 +13,13 @@ export default function ContinueExploring() {
           title: "Spotify Playlists",
           description: "My curated playlists for coding, relaxation, and workouts.",
           link: "https://open.spotify.com/user/example",
-          image: "/img/exploring/spotify-playlists.jpg"
+          image: "/img/exploring/spotify-playlists.webp"
         },
         {
           title: "Favorite Artists",
           description: "Musicians and bands that inspire my creativity and focus.",
           link: "/exploring/music",
-          image: "/img/exploring/favorite-artists.jpg"
+          image: "/img/exploring/favorite-artists.webp"
         }
       ]
     },
@@ -32,13 +32,13 @@ export default function ContinueExploring() {
           title: "Reading List 2025",
           description: "Books I'm currently reading or planning to read this year.",
           link: "/exploring/reading-list",
-          image: "/img/exploring/reading-list.jpg"
+          image: "/img/exploring/reading-list.webp"
         },
         {
           title: "Book Recommendations",
           description: "My personal recommendations for professional and personal growth.",
           link: "/books",
-          image: "/img/exploring/book-recommendations.jpg"
+          image: "/img/exploring/book-recommendations.webp"
         }
       ]
     },
@@ -51,13 +51,13 @@ export default function ContinueExploring() {
           title: "My Medium Blog",
           description: "Articles I've written about software development and technology.",
           link: "https://medium.com/@example",
-          image: "/img/exploring/medium-blog.jpg"
+          image: "/img/exploring/medium-blog.webp"
         },
         {
           title: "Recommended Reads",
           description: "Insightful articles from around the web that I've found valuable.",
           link: "/exploring/tech-articles",
-          image: "/img/exploring/tech-articles.jpg"
+          image: "/img/exploring/tech-articles.webp"
         }
       ]
     },
@@ -70,13 +70,13 @@ export default function ContinueExploring() {
           title: "Conference Talks",
           description: "Presentations I've given at industry conferences and meetups.",
           link: "/exploring/talks",
-          image: "/img/exploring/conference-talks.jpg"
+          image: "/img/exploring/conference-talks.webp"
         },
         {
           title: "Podcast Appearances",
           description: "Interviews and discussions I've participated in.",
           link: "/exploring/podcasts",
-          image: "/img/exploring/podcast-appearances.jpg"
+          image: "/img/exploring/podcast-appearances.webp"
         }
       ]
     },
@@ -89,13 +89,13 @@ export default function ContinueExploring() {
           title: "Tech Trends 2025",
           description: "My analysis of emerging technologies and industry trends.",
           link: "/exploring/tech-trends",
-          image: "/img/exploring/tech-trends.jpg"
+          image: "/img/exploring/tech-trends.webp"
         },
         {
           title: "Learning Roadmap",
           description: "Technologies and skills I'm currently exploring and learning.",
           link: "/exploring/learning-roadmap",
-          image: "/img/exploring/learning-roadmap.jpg"
+          image: "/img/exploring/learning-roadmap.webp"
         }
       ]
     }

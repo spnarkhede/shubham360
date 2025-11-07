@@ -15,12 +15,12 @@ export default function ImmediateActionReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/immediateaction.jpg"
+                src="/img/books/immediateaction.webp"
                 alt="Immediate Action by Thibaut Meurisse" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/immediateaction.jpg";
+                  e.target.src="/img/books/immediateaction.webp";
                 }}
               />
               

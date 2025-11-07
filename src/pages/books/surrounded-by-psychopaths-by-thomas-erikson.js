@@ -15,12 +15,12 @@ export default function SurroundedByPsychopathsReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/surroundedByPsychopaths.jpg"
+                src="/img/books/surroundedByPsychopaths.webp"
                 alt="Surrounded by Psychopaths by Thomas Erikson" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/surroundedByPsychopaths.jpg";
+                  e.target.src="/img/books/surroundedByPsychopaths.webp";
                 }}
               />
               

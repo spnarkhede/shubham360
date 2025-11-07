@@ -15,12 +15,12 @@ export default function MasterYourThinkingReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/masterYourThinking.jpg"
+                src="/img/books/masterYourThinking.webp"
                 alt="Master Your Thinking by Thibaut Meurisse"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/masterYourThinking.jpg";
+                  e.target.src = "/img/books/masterYourThinking.webp";
                 }}
               />
               <div className="book-review-info">

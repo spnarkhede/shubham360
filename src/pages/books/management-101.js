@@ -15,12 +15,12 @@ export default function Management101Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/management101.jpg"
+                src="/img/books/management101.webp"
                 alt="Management 101 by Stephan Soundering"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/management101.jpg";
+                  e.target.src = "/img/books/management101.webp";
                 }}
               />
               <div className="book-review-info">

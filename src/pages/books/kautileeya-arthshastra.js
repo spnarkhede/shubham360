@@ -15,12 +15,12 @@ export default function KautileeyaArthshastraReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/kautileeyaArthshastra.jpg"
+                src="/img/books/kautileeyaArthshastra.webp"
                 alt="Kautileeya Arthshastra by Kautilya"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/kautileeyaArthshastra.jpg";
+                  e.target.src = "/img/books/kautileeyaArthshastra.webp";
                 }}
               />
               <div className="book-review-info">

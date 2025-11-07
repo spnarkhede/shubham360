@@ -15,12 +15,12 @@ export default function PowerfulFocusReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/powerfulFocus.jpg"
+                src="/img/books/powerfulFocus.webp"
                 alt="Powerful Focus by Thibaut Meurisse" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/powerfulFocus.jpg";
+                  e.target.src="/img/books/powerfulFocus.webp";
                 }}
               />
               

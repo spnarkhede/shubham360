@@ -15,12 +15,12 @@ export default function AlmanackOfNavalReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/almanackOfNavalRavikant.jpg"
+                src="/img/books/almanackOfNavalRavikant.webp"
                 alt="The Almanack of Naval Ravikant by Eric Jorgenson" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/almanackOfNavalRavikant.jpg";
+                  e.target.src="/img/books/almanackOfNavalRavikant.webp";
                 }}
               />
               

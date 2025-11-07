@@ -15,12 +15,12 @@ export default function PsychologyOfMoneyReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/psychologyOfMoney.jpg"
+                src="/img/books/psychologyOfMoney.webp"
                 alt="The Psychology of Money by Morgan Housel"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/psychologyOfMoney.jpg";
+                  e.target.src = "/img/books/psychologyOfMoney.webp";
                 }}
               />
 

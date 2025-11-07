@@ -15,12 +15,12 @@ export default function LeanStartupReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/lean-startup.jpg"
+                src="/img/books/lean-startup.webp"
                 alt="The Lean Startup by Eric Ries" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/lean-startup.jpg";
+                  e.target.src="/img/books/lean-startup.webp";
                 }}
               />
               

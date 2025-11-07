@@ -11,7 +11,7 @@ export default function FutureOfJobs2025() {
     readTime: '15 min read',
     author: 'Shubham Narkhede',
     tags: ['Future of Work', 'Skills Development', 'Job Market'],
-    image: '/img/articles/future-of-jobs-2025.jpg'
+    image: '/img/articles/future-of-jobs-2025.webp'
   };
 
   return (

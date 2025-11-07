@@ -15,12 +15,12 @@ export default function IndiaThatIsBharatReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/indiaThatIsBharat.jpg"
+                src="/img/books/indiaThatIsBharat.webp"
                 alt="India That Is Bharat by Deepak J. Sai"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/indiaThatIsBharat.jpg";
+                  e.target.src = "/img/books/indiaThatIsBharat.webp";
                 }}
               />
               <div className="book-review-info">

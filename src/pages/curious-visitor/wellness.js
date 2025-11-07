@@ -49,56 +49,56 @@ export default function CuriousVisitorWellness() {
         id: 1,
         name: "Handpan 10 Nodes",
         description: "My journey with the handpan began during a transformative trip to Goa in 2019. Walking along the beach one evening, I heard the most ethereal sounds echoing across the shoreline. Following the music, I discovered a street performer playing this magnificent instrument. The resonant tones seemed to touch something deep within my soul, and I knew I had to learn. After months of searching, I finally found a craftsman who could create one for me. Each of the 10 nodes produces distinct harmonic frequencies that create a meditative soundscape. When I play, it feels like the entire universe is resonating in harmony, and all my worries simply dissolve into the evening breeze.",
-        image: "/img/music/handpan.png",
+        image: "/img/music/handpan.webp",
         spotifyUrl: "https://open.spotify.com/embed/track/3SfNTJMkZaYnMCNduvxQSa"
       },
       {
         id: 2,
         name: "Guitars",
         description: "My relationship with guitars began in my teenage years, but it wasn't until my stressful software engineering days that I truly understood their therapeutic power. During late nights debugging code, I would pick up my old acoustic guitar and let my fingers wander across the strings. The gentle melodies became my emotional release valve. Over time, I've collected several guitars - each with its own voice and personality. The warm, woody tones ground me when I'm feeling overwhelmed, while brighter chords uplift my spirit. Playing guitar has become my daily meditation, a way to reconnect with my creative essence beyond lines of code.",
-        image: "/img/music/guitars.png",
+        image: "/img/music/guitars.webp",
         spotifyUrl: "https://open.spotify.com/embed/track/5dsZOeLti9ZLhULcLZEzlq"
       },
       {
         id: 3,
         name: "Singing Bowl Set of 7",
         description: "During a particularly challenging period in my career, I was introduced to sound healing by a yoga instructor. She brought out these beautiful crystal singing bowls, each tuned to a different chakra frequency. As she played them, I felt layers of tension melting away from my body. I was so moved by the experience that I invested in my own set of seven bowls. Now, every morning begins with a ritual - I play each bowl in sequence, starting from the root chakra and moving to the crown. The pure tones create a bridge between my physical and spiritual self, setting a peaceful intention for the day ahead.",
-        image: "/img/music/singing-bowl.png",
+        image: "/img/music/singing-bowl.webp",
         spotifyUrl: "https://open.spotify.com/embed/track/153ieEwQs9TxlU4fP0dpXI"
       },
       {
         id: 4,
         name: "Koshi Chimes France",
         description: "These delicate chimes came to me as a gift from a dear friend who knew of my fascination with ambient sounds. Made in the south of France, each chime is tuned to a specific note that creates a unique harmonic blend. I hang them in my garden where the gentle breeze transforms them into nature's own orchestra. The random, unpredictable melodies they create remind me that beauty often emerges from chaos. During meditation sessions, their soft tinkling helps me drift into deeper states of consciousness. They've taught me to appreciate the subtle moments that often go unnoticed in our fast-paced digital world.",
-        image: "/img/music/koshi-chimes.png",
+        image: "/img/music/koshi-chimes.webp",
         spotifyUrl: "https://open.spotify.com/embed/track/6iLzj40p8OdJ7c6YHTxKoi"
       },
       {
         id: 5,
         name: "Kalimba Thumb Piano",
         description: "I discovered the kalimba during a visit to a world music store in Mumbai. Its small size and intricate metal tines immediately captivated me. The shopkeeper showed me how to pluck the notes with my thumbs, and within minutes I was creating beautiful, percussive melodies. What fascinates me most is how such a simple instrument can produce such complex harmonies. I take it with me wherever I travel - it fits in my carry-on bag and provides instant comfort in unfamiliar environments. The kalimba has become my creative playground, where I compose little musical stories that reflect my daily experiences and emotions.",
-        image: "/img/music/kalimba.png",
+        image: "/img/music/kalimba.webp",
         spotifyUrl: "https://open.spotify.com/embed/track/3BCp42YSWQhpoTNSEdbJPj"
       },
       {
         id: 6,
         name: "Tibetan Tingsha Cymbals Bells",
         description: "These sacred cymbals were gifted to me during a meditation retreat in the Himalayas. Crafted by Tibetan artisans, they produce a clear, penetrating tone that cuts through mental chatter. My meditation teacher explained that the sharp sound represents the clarity that comes from transcending ordinary consciousness. I use them to mark the beginning and end of my meditation sessions, creating a sacred boundary between my practice and the outside world. The reverberations seem to linger long after the initial strike, much like how moments of insight continue to influence our perspective long after they occur.",
-        image: "/img/music/tingsha-cymbals.png",
+        image: "/img/music/tingsha-cymbals.webp",
         spotifyUrl: "https://open.spotify.com/embed/track/68MjgBrVMM9K0UI7DSTl0c"
       },
       {
         id: 7,
         name: "Musical Boxes",
         description: "My collection of musical boxes began with a vintage piece I found in my grandmother's attic. When I wound it up and heard the delicate melody, I was transported back to my childhood. Since then, I've been drawn to these intricate mechanisms that combine precision engineering with artistic expression. Each box holds a different tune - some classical, others folk melodies from around the world. The repetitive, gentle nature of their music has a hypnotic quality that quiets my analytical mind. They remind me that sometimes the most profound experiences come from the simplest sources.",
-        image: "/img/music/musical-boxes.png",
+        image: "/img/music/musical-boxes.webp",
         spotifyUrl: "https://open.spotify.com/embed/track/42Jp7EHs2OISSN6Rcq2RBV"
       },
       {
         id: 8,
         name: "Energy Beam Chime",
         description: "This unique instrument came into my life during a period of deep personal transformation. A sound therapist friend introduced me to this extraordinary chime that produces sustained harmonic tones when activated. The vibrations travel through the entire body, creating a sensation of energetic alignment. I've used it during healing sessions and personal meditation practices. The pure tones seem to recalibrate my entire being, releasing stored tension and promoting deep inner peace. It's become an essential tool in my wellness toolkit, helping me maintain balance between my demanding professional life and my need for spiritual connection.",
-        image: "/img/music/energybeamchimes.png",
+        image: "/img/music/energybeamchimes.webp",
         spotifyUrl: "https://open.spotify.com/embed/track/2eP76TEl98ohCpFHIZNBHj"
       }
     ];

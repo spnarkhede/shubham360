@@ -15,12 +15,12 @@ export default function RentalPropertyInvestingReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/bookOnRentalPropertyInvesting.jpg"
+                src="/img/books/bookOnRentalPropertyInvesting.webp"
                 alt="The Book on Rental Property Investing by Brandon Turner" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/bookOnRentalPropertyInvesting.jpg";
+                  e.target.src="/img/books/bookOnRentalPropertyInvesting.webp";
                 }}
               />
               

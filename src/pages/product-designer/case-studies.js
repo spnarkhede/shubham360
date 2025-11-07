@@ -43,7 +43,7 @@ export default function ProductDesignerCaseStudies() {
         description: 'Fullstack platform enabling consultancies to manage engineer portfolios, support client matching, and streamline hiring processes with role-based dashboards.',
         category: 'Product Management & Fullstack Development',
         year: '2025',
-        thumbnail: '/img/portfolio/engineer-consultancy.jpg',
+        thumbnail: '/img/portfolio/engineer-consultancy.webp',
 
         overview: {
         context: 'The platform serves engineering consultancies, professional engineers, and OEM customers by providing structured portfolios, advanced search, and project management capabilities.',
@@ -163,7 +163,7 @@ export default function ProductDesignerCaseStudies() {
         description: 'Transformation of Shubham Narkhede’s Docusaurus-based portfolio into a highly engaging, personalized, and interactive website for multiple visitor personas.',
         category: 'UI/UX Design & Frontend Development',
         year: '2025',
-        thumbnail: '/img/portfolio/advanced-portfolio.jpg',
+        thumbnail: '/img/portfolio/advanced-portfolio.webp',
 
         overview: {
         context: 'The existing portfolio was functional but lacked interactivity, persona-based uniqueness, and advanced UI/UX elements. The goal was to redesign and expand the website to offer tailored experiences for recruiters, tech enthusiasts, curious visitors, growth partners, and product designers.',
@@ -293,7 +293,7 @@ export default function ProductDesignerCaseStudies() {
         description: 'A scalable, cloud-native system for managing and monitoring thousands of concurrent electric vehicle charging sessions with real-time analytics and integrated payments.',
         category: 'Software Development / Cloud Architecture',
         year: '2022 - Present',
-        thumbnail: '/img/portfolio/connected-charging-cable.jpg',
+        thumbnail: '/img/portfolio/connected-charging-cable.webp',
 
         overview: {
         context: 'The Connected Charging Cable (CCC) project is a flagship initiative at Robert Bosch GmbH that redefines how electric vehicle charging infrastructure is managed globally.',
@@ -406,7 +406,7 @@ export default function ProductDesignerCaseStudies() {
         description: 'Redesigned and enhanced the support portal with an improved user interface and streamlined ticket management system for faster resolution and better customer experience.',
         category: 'UI/UX Design & Full-Stack Development',
         year: '2023 – Present',
-        thumbnail: '/img/portfolio/support-portal-2.jpg',
+        thumbnail: '/img/portfolio/support-portal-2.webp',
 
         overview: {
         context: 'Developed for Robert Bosch GmbH, the Support Portal 2.0 initiative aimed to modernize the company’s internal and external support ecosystem. The previous system had usability and performance challenges that slowed down ticket management and created bottlenecks for service teams.',
@@ -514,7 +514,7 @@ export default function ProductDesignerCaseStudies() {
       description: 'Complete redesign of an enterprise e-commerce analytics dashboard with focus on data visualization and user workflows.',
       category: 'UI/UX Design',
       year: '2024',
-      thumbnail: '/img/portfolio/ecommerce-dashboard.jpg',
+      thumbnail: '/img/portfolio/ecommerce-dashboard.webp',
       overview: {
         context: 'The client is a leading e-commerce platform serving over 2 million merchants worldwide. Their existing analytics dashboard was outdated and difficult to use, leading to low adoption rates among merchants.',
         problem: 'Merchants struggled to find key metrics and insights, resulting in poor decision-making and decreased platform engagement.',
@@ -609,7 +609,7 @@ export default function ProductDesignerCaseStudies() {
       description: 'User-centered mobile banking application with emphasis on security and accessibility.',
       category: 'Mobile Design',
       year: '2023',
-      thumbnail: '/img/portfolio/banking-app.jpg',
+      thumbnail: '/img/portfolio/banking-app.webp',
       overview: {
         context: 'A major financial institution wanted to modernize their mobile banking app to compete with fintech startups.',
         problem: 'The existing app had low user satisfaction scores and high abandonment rates during onboarding.',

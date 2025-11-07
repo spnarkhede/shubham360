@@ -11,7 +11,7 @@ export default function GenerativeAIEnterprise() {
     readTime: '10 min read',
     author: 'Shubham Narkhede',
     tags: ['Generative AI', 'Enterprise Technology', 'Business Strategy'],
-    image: '/img/articles/generative-ai-enterprise.jpg'
+    image: '/img/articles/generative-ai-enterprise.webp'
   };
 
   return (

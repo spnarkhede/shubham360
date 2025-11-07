@@ -2,7 +2,7 @@
 author: spnarkhede
 authorTitle: Web Developer
 authorURL: https://github.com/spnarkhede
-authorImageURL: https://github.com/spnarkhede.png
+authorImageURL: https://github.com/spnarkhede.webp
 tags: [Web, CSS, Bootstrap]
 ---
 

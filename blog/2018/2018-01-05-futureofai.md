@@ -37,7 +37,7 @@ AI is at the heart of autonomous driving technology. Companies like Tesla, Googl
 - **Logistics Optimization**: AI helps logistics companies streamline delivery routes, optimize fuel consumption, and reduce operational costs.
 - **Traffic Management**: AI models predict traffic flows and manage traffic signals, aiming to reduce congestion in urban areas. 
 
-![The future of Artificial Intelligence](./images/blog1_futureai.png)
+![The future of Artificial Intelligence](./images/blog1_futureai.webp)
 
 ## Ethical Considerations of AI
 

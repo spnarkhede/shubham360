@@ -624,7 +624,7 @@ Tools that provide a backend or new programming environment in which to make oth
 *   [Open Font Library](http://openfontlibrary.org/) - A collection of freely licensed fonts.
 *   [Google Fonts](https://www.google.com/fonts) - A collection of freely-licensed fonts.
 *   [Anna Anthropy’s world of fonts](https://w.itch.io/world-of-fonts) - Sixteen free game fonts.
-*   [FontSprite](https://adamstrange.itch.io/fontsprite) - Complete .png fontsprite editor.
+*   [FontSprite](https://adamstrange.itch.io/fontsprite) - Complete .webp fontsprite editor.
 *   [BitfontMaker2](http://www.pentacom.jp/pentacom/bitfontmaker2/) - Online editor for bitmap fonts with remixable gallery
 *   [Get the Font](https://www.getthefont.com/) - A huge font search engine. (Check that you can use them tho.)
 *   [unilist](https://unilist.raphaelbastide.com/#arrows) - Kool Unicode icons.

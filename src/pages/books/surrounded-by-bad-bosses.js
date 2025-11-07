@@ -15,12 +15,12 @@ export default function SurroundedByBadBossesReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/surroundedByBadBosses.jpg"
+                src="/img/books/surroundedByBadBosses.webp"
                 alt="Surrounded by Bad Bosses by Thomas Erikson" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/surroundedByBadBosses.jpg";
+                  e.target.src="/img/books/surroundedByBadBosses.webp";
                 }}
               />
               

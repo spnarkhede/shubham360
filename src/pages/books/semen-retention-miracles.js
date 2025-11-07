@@ -15,12 +15,12 @@ export default function SemenRetentionMiraclesReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/semenRetentionMiracles.jpg"
+                src="/img/books/semenRetentionMiracles.webp"
                 alt="Semen Retention Miracles by Prateeik Prajapati"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/semenRetentionMiracles.jpg";
+                  e.target.src = "/img/books/semenRetentionMiracles.webp";
                 }}
               />
               <div className="book-review-info">

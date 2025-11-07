@@ -711,6 +711,7 @@
         |-- 2018-02-15-my-journey-in-software-development.md
         |-- images
             |-- blog1_futureai.png
+            |-- blog1_futureai.webp
     |-- 2019
         |-- 2019-05-10-first-steps-at-amazon.md
     |-- 2020

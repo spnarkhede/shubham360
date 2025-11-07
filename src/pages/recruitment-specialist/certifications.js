@@ -197,7 +197,7 @@ export default function RecruitmentSpecialistCertifications() {
               alt={badge.name} 
               onError={(e) => {
                 e.target.onerror = null;
-                e.target.src = "/img/default-badge.png";
+                e.target.src = "/img/default-badge.webp";
               }}
             />
           </div>

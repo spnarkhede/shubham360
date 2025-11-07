@@ -16,7 +16,7 @@ export default function Certificates() {
       credentialId: "AWS-ASA-12345",
       description: "Validates expertise in designing distributed systems on AWS, including deployment of compute, storage, database, and networking services according to architectural best practices.",
       skills: ["AWS", "Cloud Architecture", "Distributed Systems", "Security", "Networking"],
-      logo: "/img/certificates/aws-certified-solutions-architect.png",
+      logo: "/img/certificates/aws-certified-solutions-architect.webp",
       verificationUrl: "https://www.credly.com/badges/example"
     },
     {
@@ -27,7 +27,7 @@ export default function Certificates() {
       credentialId: "CSM-123456",
       description: "Demonstrates knowledge of Scrum methodologies and their practical application in software development teams. Skilled in facilitating sprint planning, daily standups, reviews, and retrospectives.",
       skills: ["Agile", "Scrum", "Project Management", "Team Leadership", "Sprint Planning"],
-      logo: "/img/certificates/certified-scrum-master.png",
+      logo: "/img/certificates/certified-scrum-master.webp",
       verificationUrl: "https://certification.scrumalliance.org/verify"
     },
     {
@@ -38,7 +38,7 @@ export default function Certificates() {
       credentialId: "ACD-2020-07123",
       description: "Certified expertise in building applications with Angular, including component architecture, state management, routing, and integration with backend services.",
       skills: ["Angular", "TypeScript", "Frontend Development", "SPA", "Component Architecture"],
-      logo: "/img/certificates/angular-certified-developer.png",
+      logo: "/img/certificates/angular-certified-developer.webp",
       verificationUrl: "https://www.angulartraining.com/certification.html"
     },
     {
@@ -49,7 +49,7 @@ export default function Certificates() {
       credentialId: "MSFT-AZ204-12345",
       description: "Validates skills in developing solutions that use Azure services, including compute, storage, security, and API integration. Demonstrates proficiency in Azure SDKs, data storage options, and authentication methods.",
       skills: ["Azure", "Cloud Development", "Serverless", "Microservices", "API Management"],
-      logo: "/img/certificates/microsoft-azure-developer.png",
+      logo: "/img/certificates/microsoft-azure-developer.webp",
       verificationUrl: "https://learn.microsoft.com/en-us/certifications/azure-developer/"
     },
     {
@@ -60,7 +60,7 @@ export default function Certificates() {
       credentialId: "PSD-I-12345",
       description: "Demonstrates understanding of how to build complex software products using Scrum. Validates knowledge of Scrum framework, development practices, and collaboration in a Scrum Team.",
       skills: ["Scrum", "DevOps", "Continuous Integration", "Test-Driven Development", "Pair Programming"],
-      logo: "/img/certificates/professional-scrum-developer.png",
+      logo: "/img/certificates/professional-scrum-developer.webp",
       verificationUrl: "https://www.scrum.org/certificates/verify"
     },
     {
@@ -71,7 +71,7 @@ export default function Certificates() {
       credentialId: "MCD-2020-11123",
       description: "Validates skills in developing applications using MongoDB, including data modeling, CRUD operations, indexing, aggregation, and performance optimization.",
       skills: ["MongoDB", "NoSQL", "Database Design", "Data Modeling", "Query Optimization"],
-      logo: "/img/certificates/mongodb-certified-developer.png",
+      logo: "/img/certificates/mongodb-certified-developer.webp",
       verificationUrl: "https://university.mongodb.com/certification/verify"
     }
   ];

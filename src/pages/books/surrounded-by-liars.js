@@ -15,12 +15,12 @@ export default function SurroundedByLiarsReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/surroundedByLiars.jpg"
+                src="/img/books/surroundedByLiars.webp"
                 alt="Surrounded by Liars by Thomas Erikson" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/surroundedByLiars.jpg";
+                  e.target.src="/img/books/surroundedByLiars.webp";
                 }}
               />
               

@@ -11,7 +11,7 @@ export default function QuantumComputingBusiness() {
     readTime: '11 min read',
     author: 'Shubham Narkhede',
     tags: ['Quantum Computing', 'Business Strategy', 'Emerging Technology'],
-    image: '/img/articles/quantum-computing-business.jpg'
+    image: '/img/articles/quantum-computing-business.webp'
   };
 
   return (

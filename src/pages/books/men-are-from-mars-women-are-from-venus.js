@@ -15,12 +15,12 @@ export default function MenAreFromMarsReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/menAreFromMarsWomenAreFromVenus.jpg"
+                src="/img/books/menAreFromMarsWomenAreFromVenus.webp"
                 alt="Men Are From Mars, Women Are From Venus by John Gray" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/menAreFromMarsWomenAreFromVenus.jpg";
+                  e.target.src="/img/books/menAreFromMarsWomenAreFromVenus.webp";
                 }}
               />
               

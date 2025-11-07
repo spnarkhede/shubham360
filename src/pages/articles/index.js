@@ -13,7 +13,7 @@ export default function Articles() {
       readTime: '12 min read',
       excerpt: 'An in-depth analysis of how artificial intelligence is reshaping major industries in 2025, from healthcare to manufacturing, and what it means for the future of work.',
       tags: ['Artificial Intelligence', 'Industry Trends', 'Future of Work'],
-      image: '/img/articles/ai-revolution-2025.jpg',
+      image: '/img/articles/ai-revolution-2025.webp',
       featured: true
     },
     {
@@ -23,7 +23,7 @@ export default function Articles() {
       readTime: '15 min read',
       excerpt: 'A comprehensive analysis of the World Economic Forums Future of Jobs Report 2025, examining the changing landscape of employment, emerging skills, and strategies for workforce adaptation.',
       tags: ['Future of Work', 'Skills Development', 'Job Market'],
-      image: '/img/articles/future-of-jobs-2025.jpg',
+      image: '/img/articles/future-of-jobs-2025.webp',
       featured: true
     },
     {
@@ -33,7 +33,7 @@ export default function Articles() {
       readTime: '10 min read',
       excerpt: 'Exploring the practical applications of generative AI in enterprise environments, examining real-world case studies, implementation challenges, and measurable business outcomes.',
       tags: ['Generative AI', 'Enterprise Technology', 'Business Strategy'],
-      image: '/img/articles/generative-ai-enterprise.jpg',
+      image: '/img/articles/generative-ai-enterprise.webp',
       featured: false
     },
     {
@@ -43,7 +43,7 @@ export default function Articles() {
       readTime: '14 min read',
       excerpt: 'Analyzing recent quantum computing advancements and their profound implications for cryptography, data security, and the future of secure communications.',
       tags: ['Quantum Computing', 'Cybersecurity', 'Cryptography'],
-      image: '/img/articles/quantum-computing.jpg',
+      image: '/img/articles/quantum-computing.webp',
       featured: false
     },
     {
@@ -53,7 +53,7 @@ export default function Articles() {
       readTime: '11 min read',
       excerpt: 'Examining how technology is driving sustainability initiatives across industries, from renewable energy innovations to circular economy solutions and carbon capture technologies.',
       tags: ['Sustainability', 'Green Tech', 'Climate Tech'],
-      image: '/img/articles/sustainable-tech.jpg',
+      image: '/img/articles/sustainable-tech.webp',
       featured: false
     },
     {
@@ -63,7 +63,7 @@ export default function Articles() {
       readTime: '13 min read',
       excerpt: 'A critical analysis of Web3 technologies and their practical applications in enterprise environments, examining real use cases, adoption challenges, and future potential.',
       tags: ['Web3', 'Blockchain', 'Enterprise Technology'],
-      image: '/img/articles/web3-enterprise.jpg',
+      image: '/img/articles/web3-enterprise.webp',
       featured: false
     },
     {
@@ -73,7 +73,7 @@ export default function Articles() {
       readTime: '16 min read',
       excerpt: 'Proposing a comprehensive framework for developing and deploying ethical AI systems, addressing bias, transparency, accountability, and governance considerations.',
       tags: ['AI Ethics', 'Responsible AI', 'Technology Governance'],
-      image: '/img/articles/ai-ethics.jpg',
+      image: '/img/articles/ai-ethics.webp',
       featured: false
     },
     {
@@ -83,7 +83,7 @@ export default function Articles() {
       readTime: '14 min read',
       excerpt: 'Analyzing successful digital transformation initiatives from industry leaders, extracting key lessons, strategies, and implementation approaches for organizations at various stages of digital maturity.',
       tags: ['Digital Transformation', 'Business Strategy', 'Technology Leadership'],
-      image: '/img/articles/digital-transformation.jpg',
+      image: '/img/articles/digital-transformation.webp',
       featured: false
     },
     {
@@ -93,7 +93,7 @@ export default function Articles() {
       readTime: '12 min read',
       excerpt: 'Examining practical enterprise applications of metaverse technologies, from virtual collaboration and training to digital twins and immersive customer experiences.',
       tags: ['Metaverse', 'Enterprise Technology', 'Virtual Reality'],
-      image: '/img/articles/metaverse-enterprise.jpg',
+      image: '/img/articles/metaverse-enterprise.webp',
       featured: false
     },
     {
@@ -103,7 +103,7 @@ export default function Articles() {
       readTime: '15 min read',
       excerpt: 'A technical deep dive into cloud-native architecture principles, examining microservices, containers, orchestration, and serverless computing approaches for building resilient, scalable applications.',
       tags: ['Cloud Computing', 'Software Architecture', 'DevOps'],
-      image: '/img/articles/cloud-native.jpg',
+      image: '/img/articles/cloud-native.webp',
       featured: false
     },
     {
@@ -113,7 +113,7 @@ export default function Articles() {
       readTime: '17 min read',
       excerpt: 'A comprehensive guide to deploying AI/ML models in production environments, addressing challenges in scalability, monitoring, maintenance, and continuous improvement.',
       tags: ['Machine Learning', 'MLOps', 'Production AI'],
-      image: '/img/articles/ai-ml-production.jpg',
+      image: '/img/articles/ai-ml-production.webp',
       featured: false
     },
     {
@@ -123,7 +123,7 @@ export default function Articles() {
       readTime: '13 min read',
       excerpt: 'Exploring edge computing architectures for IoT applications, examining data processing strategies, security considerations, and real-world implementation patterns.',
       tags: ['Edge Computing', 'IoT', 'Distributed Systems'],
-      image: '/img/articles/edge-computing.jpg',
+      image: '/img/articles/edge-computing.webp',
       featured: false
     },
     {
@@ -133,7 +133,7 @@ export default function Articles() {
       readTime: '14 min read',
       excerpt: 'Analyzing the evolution from DevOps to DevSecOps, examining strategies for integrating security throughout the software development lifecycle without sacrificing agility.',
       tags: ['DevSecOps', 'Security', 'Software Development'],
-      image: '/img/articles/devsecops.jpg',
+      image: '/img/articles/devsecops.webp',
       featured: false
     },
     {
@@ -143,7 +143,7 @@ export default function Articles() {
       readTime: '16 min read',
       excerpt: 'A technical exploration of data mesh architecture, examining principles of domain-oriented data ownership, self-service infrastructure, and federated governance.',
       tags: ['Data Architecture', 'Data Engineering', 'Data Governance'],
-      image: '/img/articles/data-mesh.jpg',
+      image: '/img/articles/data-mesh.webp',
       featured: false
     },
     {
@@ -153,7 +153,7 @@ export default function Articles() {
       readTime: '11 min read',
       excerpt: 'Evaluating the role of low-code development platforms in enterprise environments, examining use cases, integration challenges, and governance considerations.',
       tags: ['Low-Code', 'Enterprise Development', 'Digital Transformation'],
-      image: '/img/articles/low-code.jpg',
+      image: '/img/articles/low-code.webp',
       featured: false
     },
     {
@@ -163,7 +163,7 @@ export default function Articles() {
       readTime: '15 min read',
       excerpt: 'Examining the impact of AI automation on the workforce, analyzing job displacement patterns, emerging roles, and strategies for individual and organizational adaptation.',
       tags: ['AI Automation', 'Future of Work', 'Workforce Transition'],
-      image: '/img/articles/ai-automation.jpg',
+      image: '/img/articles/ai-automation.webp',
       featured: false
     },
     {
@@ -173,7 +173,7 @@ export default function Articles() {
       readTime: '14 min read',
       excerpt: 'A comprehensive guide to implementing zero trust security architecture, examining principles, technologies, implementation strategies, and organizational considerations.',
       tags: ['Cybersecurity', 'Zero Trust', 'Security Architecture'],
-      image: '/img/articles/zero-trust.jpg',
+      image: '/img/articles/zero-trust.webp',
       featured: false
     },
     {
@@ -183,7 +183,7 @@ export default function Articles() {
       readTime: '12 min read',
       excerpt: 'Analyzing the strategic importance of APIs in the digital economy, examining business models, monetization strategies, and governance approaches for API platforms.',
       tags: ['API Economy', 'Digital Strategy', 'Platform Business'],
-      image: '/img/articles/api-economy.jpg',
+      image: '/img/articles/api-economy.webp',
       featured: false
     },
     {
@@ -193,7 +193,7 @@ export default function Articles() {
       readTime: '16 min read',
       excerpt: 'Examining the transformative impact of AI in healthcare, from diagnostic imaging and personalized medicine to operational efficiency and patient experience.',
       tags: ['Healthcare Technology', 'AI in Medicine', 'Medical Innovation'],
-      image: '/img/articles/ai-healthcare.jpg',
+      image: '/img/articles/ai-healthcare.webp',
       featured: false
     },
     {
@@ -203,7 +203,7 @@ export default function Articles() {
       readTime: '13 min read',
       excerpt: 'Exploring practical enterprise applications of blockchain technology beyond cryptocurrency, examining supply chain, identity management, and smart contract implementations.',
       tags: ['Blockchain', 'Enterprise Technology', 'Distributed Ledger'],
-      image: '/img/articles/blockchain-enterprise.jpg',
+      image: '/img/articles/blockchain-enterprise.webp',
       featured: false
     },
     {
@@ -213,7 +213,7 @@ export default function Articles() {
       readTime: '14 min read',
       excerpt: 'Analyzing the long-term implications of remote work adoption, examining technology requirements, cultural shifts, and strategic considerations for organizations.',
       tags: ['Remote Work', 'Future of Work', 'Digital Workplace'],
-      image: '/img/articles/remote-work.jpg',
+      image: '/img/articles/remote-work.webp',
       featured: false
     },
     {
@@ -223,7 +223,7 @@ export default function Articles() {
       readTime: '15 min read',
       excerpt: 'A technical exploration of approaches for making AI/ML models more explainable and interpretable, examining techniques, tools, and regulatory considerations.',
       tags: ['Explainable AI', 'Machine Learning', 'AI Ethics'],
-      image: '/img/articles/explainable-ai.jpg',
+      image: '/img/articles/explainable-ai.webp',
       featured: false
     },
     {
@@ -233,7 +233,7 @@ export default function Articles() {
       readTime: '13 min read',
       excerpt: 'Examining the implementation of digital twin technology across industries, from manufacturing and energy to urban planning and healthcare.',
       tags: ['Digital Twins', 'Industry 4.0', 'IoT'],
-      image: '/img/articles/digital-twins.jpg',
+      image: '/img/articles/digital-twins.webp',
       featured: false
     },
     {
@@ -243,7 +243,7 @@ export default function Articles() {
       readTime: '16 min read',
       excerpt: 'A comprehensive guide to identifying and mitigating bias in AI systems, examining data collection, model development, testing, and ongoing monitoring approaches.',
       tags: ['AI Ethics', 'Bias Mitigation', 'Responsible AI'],
-      image: '/img/articles/ai-bias.jpg',
+      image: '/img/articles/ai-bias.webp',
       featured: false
     },
     {
@@ -253,7 +253,7 @@ export default function Articles() {
       readTime: '17 min read',
       excerpt: 'A technical deep dive into microservices architecture patterns, examining service design, communication strategies, data management, and common anti-patterns.',
       tags: ['Microservices', 'Software Architecture', 'Distributed Systems'],
-      image: '/img/articles/microservices.jpg',
+      image: '/img/articles/microservices.webp',
       featured: false
     },
     {
@@ -263,7 +263,7 @@ export default function Articles() {
       readTime: '14 min read',
       excerpt: 'Analyzing the application of AI in manufacturing environments, from predictive maintenance and quality control to supply chain optimization and production planning.',
       tags: ['Manufacturing Technology', 'Industrial AI', 'Industry 4.0'],
-      image: '/img/articles/ai-manufacturing.jpg',
+      image: '/img/articles/ai-manufacturing.webp',
       featured: false
     },
     {
@@ -273,7 +273,7 @@ export default function Articles() {
       readTime: '15 min read',
       excerpt: 'A comprehensive guide to serverless architecture, examining design patterns, operational considerations, and strategies for building scalable, resilient applications.',
       tags: ['Serverless', 'Cloud Computing', 'Software Architecture'],
-      image: '/img/articles/serverless.jpg',
+      image: '/img/articles/serverless.webp',
       featured: false
     },
     {
@@ -283,7 +283,7 @@ export default function Articles() {
       readTime: '16 min read',
       excerpt: 'Examining frameworks for AI ethics and governance, analyzing approaches for ensuring responsible development and deployment of AI systems.',
       tags: ['AI Ethics', 'Technology Governance', 'Responsible AI'],
-      image: '/img/articles/ai-governance.jpg',
+      image: '/img/articles/ai-governance.webp',
       featured: false
     },
     {
@@ -293,7 +293,7 @@ export default function Articles() {
       readTime: '13 min read',
       excerpt: 'Analyzing emerging cybersecurity threats and defensive strategies for 2020, examining ransomware evolution, supply chain attacks, and zero-trust implementation approaches.',
       tags: ['Cybersecurity', 'Threat Intelligence', 'Security Strategy'],
-      image: '/img/articles/cybersecurity-2020.jpg',
+      image: '/img/articles/cybersecurity-2020.webp',
       featured: false
     },
     {
@@ -303,7 +303,7 @@ export default function Articles() {
       readTime: '14 min read',
       excerpt: 'A comprehensive guide to navigating global data privacy regulations, examining compliance requirements, implementation strategies, and technology solutions.',
       tags: ['Data Privacy', 'Compliance', 'Regulatory Technology'],
-      image: '/img/articles/data-privacy.jpg',
+      image: '/img/articles/data-privacy.webp',
       featured: false
     },
     {
@@ -313,7 +313,7 @@ export default function Articles() {
       readTime: '15 min read',
       excerpt: 'Exploring the application of AI in predictive analytics, examining methodologies, implementation approaches, and strategies for translating insights into business decisions.',
       tags: ['Predictive Analytics', 'Business Intelligence', 'Data Science'],
-      image: '/img/articles/predictive-analytics.jpg',
+      image: '/img/articles/predictive-analytics.webp',
       featured: false
     },
     {
@@ -323,7 +323,7 @@ export default function Articles() {
       readTime: '16 min read',
       excerpt: 'A comprehensive guide to cloud migration strategy, examining assessment methodologies, migration patterns, risk mitigation, and operational considerations.',
       tags: ['Cloud Migration', 'Digital Transformation', 'IT Strategy'],
-      image: '/img/articles/cloud-migration.jpg',
+      image: '/img/articles/cloud-migration.webp',
       featured: false
     },
     {
@@ -333,7 +333,7 @@ export default function Articles() {
       readTime: '14 min read',
       excerpt: 'Analyzing the World Economic Forums Future of Jobs Report 2018, examining changing skill requirements, job displacement patterns, and strategies for workforce adaptation.',
       tags: ['Future of Work', 'Skills Development', 'Digital Economy'],
-      image: '/img/articles/future-of-jobs-2018.jpg',
+      image: '/img/articles/future-of-jobs-2018.webp',
       featured: false
     }
   ];
@@ -371,7 +371,7 @@ export default function Articles() {
                         alt={article.title}
                         onError={(e) => {
                           e.target.onerror = null;
-                          e.target.src="/img/default-article.jpg";
+                          e.target.src="/img/default-article.webp";
                         }}
                       />
                     </div>

@@ -15,12 +15,12 @@ export default function StrategicMindsetReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/strategicmindset.jpg"
+                src="/img/books/strategicmindset.webp"
                 alt="Strategic Mindset by Thibaut Meurisse" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/strategicmindset.jpg";
+                  e.target.src="/img/books/strategicmindset.webp";
                 }}
               />
               

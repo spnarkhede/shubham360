@@ -15,12 +15,12 @@ export default function MillionaireFastlaneReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/millionaireFastlane.jpg"
+                src="/img/books/millionaireFastlane.webp"
                 alt="The Millionaire Fastlane by MJ DeMarco" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/millionaireFastlane.jpg";
+                  e.target.src="/img/books/millionaireFastlane.webp";
                 }}
               />
               

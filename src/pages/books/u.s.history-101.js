@@ -15,12 +15,12 @@ export default function UsHistory101Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/usHistory101.jpg"
+                src="/img/books/usHistory101.webp"
                 alt="U.S. History 101 by Kathleen Sears"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/usHistory101.jpg";
+                  e.target.src = "/img/books/usHistory101.webp";
                 }}
               />
 

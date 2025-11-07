@@ -15,12 +15,12 @@ export default function ThankGodForFeedbackReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/thankGodForFeedback.jpg"
+                src="/img/books/thankGodForFeedback.webp"
                 alt="Thank God for the Feedback by Sheila Heen & Elaine Lin" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/thankGodForFeedback.jpg";
+                  e.target.src="/img/books/thankGodForFeedback.webp";
                 }}
               />
               

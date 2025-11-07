@@ -15,12 +15,12 @@ export default function DareToLeadReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/dareToLead.jpg"
+                src="/img/books/dareToLead.webp"
                 alt="Dare to Lead by Brené Brown" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/dareToLead.jpg";
+                  e.target.src="/img/books/dareToLead.webp";
                 }}
               />
               

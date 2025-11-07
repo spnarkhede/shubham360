@@ -16,12 +16,12 @@ export default function DeepWorkReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/deepWork.jpg"
+                src="/img/books/deepWork.webp"
                 alt="Deep Work by Cal Newport" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/deepWork.jpg";
+                  e.target.src="/img/books/deepWork.webp";
                 }}
               />
               

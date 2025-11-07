@@ -15,12 +15,12 @@ export default function CommunicationSkillsBibleReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/communicationSkillsBible.jpg"
+                src="/img/books/communicationSkillsBible.webp"
                 alt="The Communication Skills Bible by Lewis J. Korg" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/communicationSkillsBible.jpg";
+                  e.target.src="/img/books/communicationSkillsBible.webp";
                 }}
               />
               

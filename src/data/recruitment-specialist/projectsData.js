@@ -13,7 +13,7 @@ export const companyProjects = {
       "Improved system reliability by 60%",
       "Integrated with 15+ third-party payment providers"
     ],
-    image: "/img/projects/ccc-project.jpg",
+    image: "/img/projects/ccc-project.webp",
     demoLink: "https://example.com/ccc-demo",
     codeLink: null, // Company proprietary
   },
@@ -33,7 +33,7 @@ export const companyProjects = {
         "99.9% uptime achieved",
         "OCPP 2.0.1 compliance implemented"
       ],
-      image: "/img/projects/cpms-project.jpg",
+      image: "/img/projects/cpms-project.webp",
       demoLink: "https://example.com/cpms-demo",
       codeLink: null,
     },
@@ -50,7 +50,7 @@ export const companyProjects = {
         "Automated 60% of routine support tasks",
         "Multi-language support for 12 languages"
       ],
-      image: "/img/projects/support-portal.jpg",
+      image: "/img/projects/support-portal.webp",
       demoLink: "https://example.com/support-portal-demo",
       codeLink: null,
     },
@@ -67,7 +67,7 @@ export const companyProjects = {
         "Real-time dashboard visualization",
         "Automated KPI alerts implemented"
       ],
-      image: "/img/projects/dc-mh-sdi-tool.jpg",
+      image: "/img/projects/dc-mh-sdi-tool.webp",
       demoLink: "https://example.com/dc-mh-sdi-demo",
       codeLink: null,
     },
@@ -84,7 +84,7 @@ export const companyProjects = {
         "AI-powered project risk assessment",
         "Real-time collaboration features"
       ],
-      image: "/img/projects/spm-v3-project.jpg",
+      image: "/img/projects/spm-v3-project.webp",
       demoLink: "https://example.com/spm-v3-demo",
       codeLink: null,
     },
@@ -101,7 +101,7 @@ export const companyProjects = {
         "99.5% uptime during critical events",
         "Reduced event costs by 70%"
       ],
-      image: "/img/projects/vscp-project.jpg",
+      image: "/img/projects/vscp-project.webp",
       demoLink: "https://example.com/vscp-demo",
       codeLink: null,
     },
@@ -118,7 +118,7 @@ export const companyProjects = {
         "Reduced operational costs by 25%",
         "Supports millions of concurrent users"
       ],
-      image: "/img/projects/amazon-tools.jpg",
+      image: "/img/projects/amazon-tools.webp",
       demoLink: null,
       codeLink: null,
     }
@@ -138,7 +138,7 @@ export const personalProjects = {
       "Advanced state management implementation",
       "Interactive UI components"
     ],
-    image: "/img/projects/portfolio-website.jpg",
+    image: "/img/projects/portfolio-website.webp",
     demoLink: "https://spnarkhede.github.io",
     codeLink: "https://github.com/spnarkhede/portfolio",
   },
@@ -156,7 +156,7 @@ export const personalProjects = {
         "Comprehensive monitoring setup",
         "Documentation and tutorials included"
       ],
-      image: "/img/projects/devops-toolkit.jpg",
+      image: "/img/projects/devops-toolkit.webp",
       demoLink: null,
       codeLink: "https://github.com/spnarkhede/devops-toolkit",
     },
@@ -172,7 +172,7 @@ export const personalProjects = {
         "WCAG 2.1 AA compliance",
         "Comprehensive Storybook documentation"
       ],
-      image: "/img/projects/react-library.jpg",
+      image: "/img/projects/react-library.webp",
       demoLink: "https://spnarkhede-components.netlify.app",
       codeLink: "https://github.com/spnarkhede/react-component-library",
     },
@@ -188,7 +188,7 @@ export const personalProjects = {
         "Payment gateway integration",
         "Real-time order tracking"
       ],
-      image: "/img/projects/ecommerce-platform.jpg",
+      image: "/img/projects/ecommerce-platform.webp",
       demoLink: "https://ecommerce-demo.spnarkhede.dev",
       codeLink: "https://github.com/spnarkhede/microservices-ecommerce",
     },
@@ -204,7 +204,7 @@ export const personalProjects = {
         "Interactive data visualization",
         "Comprehensive model evaluation"
       ],
-      image: "/img/projects/ml-price-predictor.jpg",
+      image: "/img/projects/ml-price-predictor.webp",
       demoLink: "https://price-predictor-demo.spnarkhede.dev",
       codeLink: "https://github.com/spnarkhede/ml-price-predictor",
     }

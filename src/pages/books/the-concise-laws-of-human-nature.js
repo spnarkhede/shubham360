@@ -15,12 +15,12 @@ export default function ConciseLawsOfHumanNatureReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/conciseLawsOfHumanNature.jpg"
+                src="/img/books/conciseLawsOfHumanNature.webp"
                 alt="The Concise Laws of Human Nature by Robert Greene"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/conciseLawsOfHumanNature.jpg";
+                  e.target.src = "/img/books/conciseLawsOfHumanNature.webp";
                 }}
               />
               <div className="book-review-info">

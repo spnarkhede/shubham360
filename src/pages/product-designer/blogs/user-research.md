@@ -1,12 +1,11 @@
 ---
----
 title: "Effective User Research Techniques"
 date: "2023-12-10"
 readTime: "10 min read"
 tags: ["User Research", "UX", "Methodology"]
 excerpt: "Practical approaches to gathering meaningful user insights for product design."
 author: "Shubham Narkhede"
-image: "/img/blog/user-research.jpg"
+image: "/img/blog/user-research.webp"
 ---
 
 # Effective User Research Techniques

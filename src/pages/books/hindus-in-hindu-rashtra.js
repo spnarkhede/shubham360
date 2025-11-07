@@ -15,12 +15,12 @@ export default function HindusInHinduRashtraReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/hindusInHinduRashtra.jpg"
+                src="/img/books/hindusInHinduRashtra.webp"
                 alt="Hindus in Hindu Rashtra by Anand Ranganathan"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/hindusInHinduRashtra.jpg";
+                  e.target.src = "/img/books/hindusInHinduRashtra.webp";
                 }}
               />
               <div className="book-review-info">

@@ -15,12 +15,12 @@ export default function MasterYourEmotionsReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/masterYourEmotions.jpg"
+                src="/img/books/masterYourEmotions.webp"
                 alt="Master Your Emotions by Thibaut Meurisse"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/masterYourEmotions.jpg";
+                  e.target.src = "/img/books/masterYourEmotions.webp";
                 }}
               />
               <div className="book-review-info">

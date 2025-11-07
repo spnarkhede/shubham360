@@ -15,12 +15,12 @@ export default function CorporateChanakyaReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/corporateChanakya.jpg"
+                src="/img/books/corporateChanakya.webp"
                 alt="Corporate Chanakya by Radhakrishnan Pillai"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/corporateChanakya.jpg";
+                  e.target.src = "/img/books/corporateChanakya.webp";
                 }}
               />
               <div className="book-review-info">

@@ -15,12 +15,12 @@ export default function SurroundedByNarcissistsReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/surroundedByNarcissists.jpg"
+                src="/img/books/surroundedByNarcissists.webp"
                 alt="Surrounded by Narcissists by Thomas Erikson" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/surroundedByNarcissists.jpg";
+                  e.target.src="/img/books/surroundedByNarcissists.webp";
                 }}
               />
               

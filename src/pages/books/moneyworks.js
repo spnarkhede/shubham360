@@ -15,12 +15,12 @@ export default function MoneyWorksReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/moneyworks.jpg"
+                src="/img/books/moneyworks.webp"
                 alt="Money Works by Prateeik Prajapati"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/moneyworks.jpg";
+                  e.target.src = "/img/books/moneyworks.webp";
                 }}
               />
               <div className="book-review-info">

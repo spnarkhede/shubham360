@@ -15,12 +15,12 @@ export default function StockMarket101Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/stockMarket101.jpg"
+                src="/img/books/stockMarket101.webp"
                 alt="Stock Market 101 by Michele Cagan" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/stockMarket101.jpg";
+                  e.target.src="/img/books/stockMarket101.webp";
                 }}
               />
               

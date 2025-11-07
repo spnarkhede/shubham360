@@ -899,7 +899,7 @@ export const badges = [
       platform: "LinkedIn Learning",
       date: "Apr 2025",
       description: "Demonstrated understanding of generative AI concepts and applications for project management",
-      imageUrl: "/img/badges/generative-ai-overview-for-project-managers.png",
+      imageUrl: "/img/badges/generative-ai-overview-for-project-managers.webp",
       verificationUrl: "https://www.pmi.org/certifications/verify"
     },
     {
@@ -908,7 +908,7 @@ export const badges = [
       platform: "Cognitive Class",
       date: "Jan 02, 2021",
       description: "The badge earner is able to write their own Python scripts and perform basic hands-on data analysis using IBM's Jupyter-based lab environment.",
-      imageUrl: "/img/badges/python-for-data-science.png",
+      imageUrl: "/img/badges/python-for-data-science.webp",
       verificationUrl: "https://www.credly.com/badges/47a39917-a8c1-41f7-b745-73b2fe8dcba9/public_url"
     },
     {
@@ -917,7 +917,7 @@ export const badges = [
       platform: "Cognitive Class",
       date: "Jan 02, 2021",
       description: "This badge earner has an understanding of the possibilities and opportunities that data science, analytics and big data bring to new applications in any industry.",
-      imageUrl: "/img/badges/data-science-foundations-level-1.png",
+      imageUrl: "/img/badges/data-science-foundations-level-1.webp",
       verificationUrl: "https://www.credly.com/badges/e97fb38c-4adf-4e65-b992-ceea41718418/public_url"
     },
     { 
@@ -926,7 +926,7 @@ export const badges = [
       platform: "Pluralsight", 
       date: "Throughout", 
       description: " My learning accomplishments as I completed the courses and handons trainings while skilling up!", 
-      imageUrl: "/img/badges/pluralsightbadge.png",
+      imageUrl: "/img/badges/pluralsightbadge.webp",
       verificationUrl: "https://app.pluralsight.com/profile/spnarkhede" 
     } 
 ];

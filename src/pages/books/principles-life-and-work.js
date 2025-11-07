@@ -16,12 +16,12 @@ export default function PrinciplesReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/lifeAndWorkPrinciples.jpg"
+                src="/img/books/lifeAndWorkPrinciples.webp"
                 alt="Principles: Life and Work by Ray Dalio" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/lifeAndWorkPrinciples.jpg";
+                  e.target.src="/img/books/lifeAndWorkPrinciples.webp";
                 }}
               />
               

@@ -15,12 +15,12 @@ export default function RadicalCandorReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/radicalCandorRevised.jpg"
+                src="/img/books/radicalCandorRevised.webp"
                 alt="Radical Candor by Kim Scott" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/radicalCandorRevised.jpg";
+                  e.target.src="/img/books/radicalCandorRevised.webp";
                 }}
               />
               

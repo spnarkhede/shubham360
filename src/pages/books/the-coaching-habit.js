@@ -15,12 +15,12 @@ export default function CoachingHabitReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/coachingHabit.jpg"
+                src="/img/books/coachingHabit.webp"
                 alt="The Coaching Habit by Michael Bungay Stanier" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/coachingHabit.jpg";
+                  e.target.src="/img/books/coachingHabit.webp";
                 }}
               />
               

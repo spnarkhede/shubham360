@@ -15,12 +15,12 @@ export default function AmericanGovernment101Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/americanGovernment101.jpg"
+                src="/img/books/americanGovernment101.webp"
                 alt="American Government 101 by Kathleen Sears"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/americanGovernment101.jpg";
+                  e.target.src = "/img/books/americanGovernment101.webp";
                 }}
               />
               <div className="book-review-info">

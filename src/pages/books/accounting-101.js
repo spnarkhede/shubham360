@@ -15,7 +15,7 @@ export default function Accounting101Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/accounting101.jpg"
+                src="/img/books/accounting101.webp"
                 alt="Accounting 101 by Michele Cagan"
                 className="book-review-cover"
               />

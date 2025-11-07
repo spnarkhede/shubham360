@@ -15,12 +15,12 @@ export default function EightyTwentyPrincipleReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/eightyTwentyPrinciple.jpg"
+                src="/img/books/eightyTwentyPrinciple.webp"
                 alt="The 80/20 Principle by Richard Koch" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/eightyTwentyPrinciple.jpg";
+                  e.target.src="/img/books/eightyTwentyPrinciple.webp";
                 }}
               />
               

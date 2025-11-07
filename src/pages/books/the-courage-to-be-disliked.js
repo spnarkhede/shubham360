@@ -15,12 +15,12 @@ export default function CourageToBeDislikedReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/courageToBeDisliked.jpg"
+                src="/img/books/courageToBeDisliked.webp"
                 alt="The Courage To Be Disliked by Ichiro Kishimi & Fumitake Koga" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/courageToBeDisliked.jpg";
+                  e.target.src="/img/books/courageToBeDisliked.webp";
                 }}
               />
               

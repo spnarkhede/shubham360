@@ -15,12 +15,12 @@ export default function Chanakyas100BestSutrasReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/chanakyas100BestSutras.jpg"
+                src="/img/books/chanakyas100BestSutras.webp"
                 alt="Chanakya's 100 Best Sutras by Radhakrishnan Pillai"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/chanakyas100BestSutras.jpg";
+                  e.target.src = "/img/books/chanakyas100BestSutras.webp";
                 }}
               />
               <div className="book-review-info">

@@ -15,12 +15,12 @@ export default function SameAsEverReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/sameAsEver.jpg"
+                src="/img/books/sameAsEver.webp"
                 alt="Same As Ever by Morgan Housel" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/sameAsEver.jpg";
+                  e.target.src="/img/books/sameAsEver.webp";
                 }}
               />
               

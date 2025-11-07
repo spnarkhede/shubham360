@@ -10,11 +10,11 @@ export default function CuriousVisitorIntroduction() {
   
   // Array of 5 images for the carousel
   const carouselImages = [
-    { src: "/img/painterprofile.png", alt: "Shubham Narkhede - Art" },
-    { src: "/img/readerprofile.jpeg", alt: "Shubham Narkhede - Reader" },
-    { src: "/img/handpanprofile.png", alt: "Shubham Narkhede - Music" },
-    { src: "/img/tabletennisprofile.png", alt: "Shubham Narkhede - Sports" },
-    { src: "/img/workoutprofile.png", alt: "Shubham Narkhede - Fitness" }
+    { src: "/img/painterprofile.webp", alt: "Shubham Narkhede - Art" },
+    { src: "/img/readerprofile.webp", alt: "Shubham Narkhede - Reader" },
+    { src: "/img/handpanprofile.webp", alt: "Shubham Narkhede - Music" },
+    { src: "/img/tabletennisprofile.webp", alt: "Shubham Narkhede - Sports" },
+    { src: "/img/workoutprofile.webp", alt: "Shubham Narkhede - Fitness" }
   ];
 
   // Auto-advance carousel every 6 seconds
@@ -180,7 +180,7 @@ export default function CuriousVisitorIntroduction() {
                     className={styles.carouselImage}
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src="/img/default-profile.png";
+                      e.target.src="/img/default-profile.webp";
                     }}
                   />
                 </div>

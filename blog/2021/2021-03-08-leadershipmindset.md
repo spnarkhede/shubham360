@@ -23,7 +23,7 @@ If you’re still clinging to rigid hierarchies and outdated methods, you’re a
 
 ### **How to Build a Leadership Mindset**  
 
-![Leadership is Mindset](./images/leadership.png)
+![Leadership is Mindset](./images/leadership.webp)
 
 Transforming leadership begins with rethinking what it means to lead. The focus is no longer on “being in charge” but on creating an environment where others can succeed. Here are six key ways to evolve your approach:  
 

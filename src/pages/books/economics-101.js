@@ -15,12 +15,12 @@ export default function Economics101Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/economics101.jpg"
+                src="/img/books/economics101.webp"
                 alt="Economics 101 by Alfred Mill"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/economics101.jpg";
+                  e.target.src = "/img/books/economics101.webp";
                 }}
               />
               <div className="book-review-info">

@@ -15,12 +15,12 @@ export default function FineArtOfSmallTalkReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/fineArtOfSmallTalk.jpg"
+                src="/img/books/fineArtOfSmallTalk.webp"
                 alt="The Fine Art of Small Talk by Debra Fine" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/fineArtOfSmallTalk.jpg";
+                  e.target.src="/img/books/fineArtOfSmallTalk.webp";
                 }}
               />
               

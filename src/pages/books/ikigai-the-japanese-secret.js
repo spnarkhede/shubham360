@@ -15,12 +15,12 @@ export default function IkigaiReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/ikigai.jpg"
+                src="/img/books/ikigai.webp"
                 alt="Ikigai by Hector Garcia"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/ikigai.jpg";
+                  e.target.src = "/img/books/ikigai.webp";
                 }}
               />
               <div className="book-review-info">

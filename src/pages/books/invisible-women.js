@@ -15,12 +15,12 @@ export default function InvisibleWomenReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/invisibleWomen.jpg"
+                src="/img/books/invisibleWomen.webp"
                 alt="Invisible Women by Caroline Criado-Perez"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/invisibleWomen.jpg";
+                  e.target.src = "/img/books/invisibleWomen.webp";
                 }}
               />
               <div className="book-review-info">

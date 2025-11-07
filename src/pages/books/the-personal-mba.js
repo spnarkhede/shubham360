@@ -16,12 +16,12 @@ export default function PersonalMBAReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/the-personal-mba.jpg"
+                src="/img/books/the-personal-mba.webp"
                 alt="The Personal MBA by Josh Kaufman" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/the-personal-mba.jpg";
+                  e.target.src="/img/books/the-personal-mba.webp";
                 }}
               />
               

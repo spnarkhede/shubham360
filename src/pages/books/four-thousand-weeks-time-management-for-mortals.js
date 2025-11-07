@@ -15,12 +15,12 @@ export default function FourThousandWeeksReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/fourThousandWeeks.jpg"
+                src="/img/books/fourThousandWeeks.webp"
                 alt="Four Thousand Weeks by Oliver Burkeman" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/fourThousandWeeks.jpg";
+                  e.target.src="/img/books/fourThousandWeeks.webp";
                 }}
               />
               

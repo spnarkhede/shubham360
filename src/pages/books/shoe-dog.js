@@ -15,12 +15,12 @@ export default function ShoeDogReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/shoe-dog.jpg"
+                src="/img/books/shoe-dog.webp"
                 alt="Shoe Dog by Phil Knight" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/shoe-dog.jpg";
+                  e.target.src="/img/books/shoe-dog.webp";
                 }}
               />
               

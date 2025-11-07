@@ -15,12 +15,12 @@ export default function TeamTopologiesReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/teamTopologies.jpg"
+                src="/img/books/teamTopologies.webp"
                 alt="Team Topologies by Matthew Skelton and Manuel Pais" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/teamTopologies.jpg";
+                  e.target.src="/img/books/teamTopologies.webp";
                 }}
               />
               

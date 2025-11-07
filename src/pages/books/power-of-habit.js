@@ -17,12 +17,12 @@ export default function PowerOfHabitReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="../../../static/img/books/.jpg" 
+                src="../../../static/img/books/.webp" 
                 alt="The Power of Habit by Charles Duhigg" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="../../../static/img/books/.jpg";
+                  e.target.src="../../../static/img/books/.webp";
                 }}
               />
               

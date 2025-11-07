@@ -10,21 +10,21 @@ export default function LatestArticles() {
       title: 'The AI Revolution: Transforming Industries in 2025',
       date: 'April 10, 2025',
       excerpt: 'An in-depth analysis of how artificial intelligence is reshaping major industries in 2025, from healthcare to manufacturing, and what it means for the future of work.',
-      image: '/img/articles/ai-revolution-2025.jpg',
+      image: '/img/articles/ai-revolution-2025.webp',
     },
     {
       id: 'future-of-jobs-report-2025',
       title: 'Future of Jobs Report 2025: Skills, Displacement, and Growth',
       date: 'March 15, 2025',
       excerpt: 'A comprehensive analysis of the World Economic Forums Future of Jobs Report 2025, examining the changing landscape of employment, emerging skills, and strategies for workforce adaptation.',
-      image: '/img/articles/future-of-jobs-2025.jpg',
+      image: '/img/articles/future-of-jobs-2025.webp',
     },
     {
       id: 'generative-ai-enterprise',
       title: 'Generative AI in the Enterprise: Beyond the Hype',
       date: 'February 22, 2025',
       excerpt: 'Exploring the practical applications of generative AI in enterprise environments, examining real-world case studies, implementation challenges, and measurable business outcomes.',
-      image: '/img/articles/generative-ai-enterprise.jpg',
+      image: '/img/articles/generative-ai-enterprise.webp',
     }
   ];
 

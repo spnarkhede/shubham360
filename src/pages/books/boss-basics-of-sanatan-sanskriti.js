@@ -15,12 +15,12 @@ export default function BossBasicsOfSanatanSanskritiReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/bossBasicsOfSanatanSanskriti.jpg"
+                src="/img/books/bossBasicsOfSanatanSanskriti.webp"
                 alt="B.O.S.S. Basics of Sanatan Sanskriti by Prateeik Prajapati"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/bossBasicsOfSanatanSanskriti.jpg";
+                  e.target.src = "/img/books/bossBasicsOfSanatanSanskriti.webp";
                 }}
               />
               <div className="book-review-info">

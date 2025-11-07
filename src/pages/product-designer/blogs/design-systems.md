@@ -5,7 +5,7 @@ readTime: "8 min read"
 tags: ["Design Systems", "UI/UX", "Frontend"]
 excerpt: "Learn how to create design systems that scale with your product and team."
 author: "Shubham Narkhede"
-image: "/img/blog/design-systems.jpg"
+image: "/img/blog/design-systems.webp"
 ---
 
 # Building Scalable Design Systems

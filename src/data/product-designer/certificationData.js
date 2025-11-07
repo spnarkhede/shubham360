@@ -116,7 +116,7 @@ export const badges = [
     date: "June 12, 2023",
     description: "Certified to facilitate design sprint workshops for rapid prototyping and validation.",
     skills: ["Design Sprints", "Facilitation", "Workshop Design", "Rapid Prototyping"],
-    imageUrl: "/img/badges/design-sprint.png",
+    imageUrl: "/img/badges/design-sprint.webp",
     verificationUrl: "#"
   },
   {
@@ -126,7 +126,7 @@ export const badges = [
     date: "September 30, 2023",
     description: "Demonstrated expertise in qualitative and quantitative user research methodologies.",
     skills: ["User Research", "Interviewing", "Surveys", "Analytics", "Persona Development"],
-    imageUrl: "/img/badges/user-research.png",
+    imageUrl: "/img/badges/user-research.webp",
     verificationUrl: "#"
   },
   {
@@ -136,7 +136,7 @@ export const badges = [
     date: "February 14, 2024",
     description: "Recognized for advanced prototyping skills using InVision and related tools.",
     skills: ["Prototyping", "InVision", "Interactive Design", "User Testing"],
-    imageUrl: "/img/badges/prototyping.png",
+    imageUrl: "/img/badges/prototyping.webp",
     verificationUrl: "#"
   }
 ];

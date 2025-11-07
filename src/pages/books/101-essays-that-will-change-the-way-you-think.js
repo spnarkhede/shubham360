@@ -15,12 +15,12 @@ export default function OneHundredOneEssaysReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/oneHundredOneEssays.jpg"
+                src="/img/books/oneHundredOneEssays.webp"
                 alt="101 Essays That Will Change The Way You Think by Brianna Wiest"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/oneHundredOneEssays.jpg";
+                  e.target.src = "/img/books/oneHundredOneEssays.webp";
                 }}
               />
 

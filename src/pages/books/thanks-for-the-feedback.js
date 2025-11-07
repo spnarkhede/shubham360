@@ -15,12 +15,12 @@ export default function ThanksForFeedbackReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/thanksForFeedback.jpg"
+                src="/img/books/thanksForFeedback.webp"
                 alt="Thanks for the Feedback by Douglas Stone and Sheila Heen" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/thanksForFeedback.jpg";
+                  e.target.src="/img/books/thanksForFeedback.webp";
                 }}
               />
               

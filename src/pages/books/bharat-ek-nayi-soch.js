@@ -15,12 +15,12 @@ export default function BharatEkNayiSochReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/bharatEkNayiSoch.jpg"
+                src="/img/books/bharatEkNayiSoch.webp"
                 alt="Bharat Ek Nayi Soch by Harsh Madhusudan & Rajiv Mantri"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/bharatEkNayiSoch.jpg";
+                  e.target.src = "/img/books/bharatEkNayiSoch.webp";
                 }}
               />
               <div className="book-review-info">

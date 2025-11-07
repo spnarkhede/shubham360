@@ -15,12 +15,12 @@ export default function ReadPeopleLikeABookReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/readPeopleLikeABook.jpg"
+                src="/img/books/readPeopleLikeABook.webp"
                 alt="Read People Like a Book by Patrick King" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/readPeopleLikeABook.jpg";
+                  e.target.src="/img/books/readPeopleLikeABook.webp";
                 }}
               />
               

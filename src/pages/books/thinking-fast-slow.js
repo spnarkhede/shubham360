@@ -15,12 +15,12 @@ export default function ThinkingFastSlowReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/thinking-fast-slow.jpg"
+                src="/img/books/thinking-fast-slow.webp"
                 alt="Thinking, Fast and Slow by Daniel Kahneman" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/thinking-fast-slow.jpg";
+                  e.target.src="/img/books/thinking-fast-slow.webp";
                 }}
               />
               

@@ -15,12 +15,12 @@ export default function ShrimadBhagavadGeetaVolume2Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/srimadBhagavadgitaVolumn2.jpg"
+                src="/img/books/srimadBhagavadgitaVolumn2.webp"
                 alt="Shrimad Bhagavad Geeta Volume 2 by Swami Ramsukhdas"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/srimadBhagavadgitaVolumn2.jpg";
+                  e.target.src = "/img/books/srimadBhagavadgitaVolumn2.webp";
                 }}
               />
               <div className="book-review-info">

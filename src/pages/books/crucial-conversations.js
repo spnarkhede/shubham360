@@ -15,12 +15,12 @@ export default function CrucialConversationsReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/crucialConversations.jpg"
+                src="/img/books/crucialConversations.webp"
                 alt="Crucial Conversations by Joseph Grenny" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/crucialConversations.jpg";
+                  e.target.src="/img/books/crucialConversations.webp";
                 }}
               />
               

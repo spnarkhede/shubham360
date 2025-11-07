@@ -5,7 +5,7 @@ readTime: "6 min read"
 tags: ["Prototyping", "Design Process", "Tools"]
 excerpt: "Speed up your design process with effective prototyping techniques."
 author: "Shubham Narkhede"
-image: "/img/blog/prototyping.jpg"
+image: "/img/blog/prototyping.webp"
 ---
 
 # Rapid Prototyping Strategies

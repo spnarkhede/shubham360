@@ -15,12 +15,12 @@ export default function Negotiating101Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/negotiating101.jpg"
+                src="/img/books/negotiating101.webp"
                 alt="Negotiating 101 by Peter Sander"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/negotiating101.jpg";
+                  e.target.src = "/img/books/negotiating101.webp";
                 }}
               />
               <div className="book-review-info">

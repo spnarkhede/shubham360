@@ -15,12 +15,12 @@ export default function MasterYourDestinyReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/masterYourDestiny.jpg"
+                src="/img/books/masterYourDestiny.webp"
                 alt="Master Your Destiny by Thibaut Meurisse" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/masterYourDestiny.jpg";
+                  e.target.src="/img/books/masterYourDestiny.webp";
                 }}
               />
               

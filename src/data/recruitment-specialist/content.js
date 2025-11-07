@@ -118,7 +118,7 @@ export const testimonials = [
   {
     name: "Sarah Mitchell",
     title: "Engineering Manager at TechCorp",
-    image: "/img/testimonials/sarah.jpg",
+    image: "/img/testimonials/sarah.webp",
     quote: "Shubham is an exceptional DevOps engineer who consistently delivers high-quality solutions. His expertise in cloud architecture and automation has been instrumental in our digital transformation journey.",
     rating: 5,
     date: "January 2024",
@@ -127,7 +127,7 @@ export const testimonials = [
   {
     name: "Michael Chen",
     title: "Senior Software Developer at InnovateWeb",
-    image: "/img/testimonials/michael.jpg",
+    image: "/img/testimonials/michael.webp",
     quote: "Working with Shubham has been a pleasure. His deep understanding of both frontend and backend technologies, combined with his collaborative approach, makes him an invaluable team member.",
     rating: 5,
     date: "December 2023",
@@ -136,7 +136,7 @@ export const testimonials = [
   {
     name: "David Rodriguez",
     title: "CTO at StartupTech Inc.",
-    image: "/img/testimonials/david.jpg",
+    image: "/img/testimonials/david.webp",
     quote: "Shubham joined our team during a critical phase of our platform migration, and his impact was immediate. His deep understanding of cloud architecture and DevOps practices helped us overcome significant technical challenges.",
     rating: 5,
     date: "December 2023",

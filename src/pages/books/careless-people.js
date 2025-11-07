@@ -15,12 +15,12 @@ export default function CarelessPeopleReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/carelessPeople.jpg"
+                src="/img/books/carelessPeople.webp"
                 alt="Careless People by Sarah Wynn-Williams" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/carelessPeople.jpg";
+                  e.target.src="/img/books/carelessPeople.webp";
                 }}
               />
               

@@ -227,7 +227,7 @@ Here’s your simplified Markdown list:
 * [Faker Ruby](https://github.com/faker-ruby/faker) - Generate Fake Data
 * [Fakery Swift](https://github.com/vadymmarkov/Fakery) - Generate Fake Data
 * [Qdrant](https://qdrant.tech/) - Vector Database
-* [SQL Cheat Sheet](https://files.catbox.moe/5q57h3.png) - SQL Cheat Sheet
+* [SQL Cheat Sheet](https://files.catbox.moe/5q57h3.webp) - SQL Cheat Sheet
 * [Gel](https://www.geldata.com/) - SQL Alternative
 * [QueryStorm](https://querystorm.com/) - SQL and .NET Programming in Excel
 * [franchise](https://franchise.cloud/) - SQL Notebook

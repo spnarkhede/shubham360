@@ -151,12 +151,12 @@ export default function CuriousVisitorIntroduction() {
             <div className={styles.introductionContent}>
               <div className={styles.profileImageContainer}>
                 <img 
-                  src="/img/profilesquare.png" 
+                  src="/img/profilesquare.webp" 
                   alt="Shubham Narkhede" 
                   className={styles.profileImage}
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src="/img/default-profile.png";
+                    e.target.src="/img/default-profile.webp";
                   }}
                 />
               </div>

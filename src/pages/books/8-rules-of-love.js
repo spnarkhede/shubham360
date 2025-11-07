@@ -14,12 +14,12 @@ export default function EightRulesOfLoveReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/8RulesOfLove.jpg"
+                src="/img/books/8RulesOfLove.webp"
                 alt="8 Rules of Love by Jay Shetty" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/8RulesOfLove.jpg";
+                  e.target.src="/img/books/8RulesOfLove.webp";
                 }}
               />
               

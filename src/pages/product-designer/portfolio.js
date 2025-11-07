@@ -18,7 +18,7 @@ export default function ProductDesignerPortfolio() {
       description: "Complete redesign of an enterprise e-commerce analytics dashboard with focus on data visualization and user workflows.",
       category: "UI/UX Design",
       figmaUrl: "https://uxpilot.ai/s/adbfb26191286f2e5f2a5ead062c9669",
-      thumbnail: "/img/portfolio/ecommerce-dashboard.jpg",
+      thumbnail: "/img/portfolio/ecommerce-dashboard.webp",
       year: "2024"
     },
     {
@@ -27,7 +27,7 @@ export default function ProductDesignerPortfolio() {
       description: "User-centered mobile Cars application with emphasis on brands and accessibility.",
       category: "Mobile Design",
       figmaUrl: "https://www.figma.com/design/OFr9SRlIotOpwSwU0Z0yoW/Car-Marketplace-App-Design?node-id=0-1&t=BzqGKxSIviorHDJX-1",
-      thumbnail: "/img/portfolio/carsmobile-app.jpg",
+      thumbnail: "/img/portfolio/carsmobile-app.webp",
       year: "2023"
     },
     {
@@ -36,7 +36,7 @@ export default function ProductDesignerPortfolio() {
       description: "Enterprise design system for consistent UI components across multiple products.",
       category: "Design Systems",
       figmaUrl: "https://uxpilot.ai/s/8849ee04a6b29f45fe24169dd04cb368",
-      thumbnail: "/img/portfolio/design-system.jpg",
+      thumbnail: "/img/portfolio/design-system.webp",
       year: "2023"
     },
     {
@@ -45,7 +45,7 @@ export default function ProductDesignerPortfolio() {
       description: "Patient portal redesign focusing on usability for diverse age groups and technical abilities.",
       category: "UI/UX Design",
       figmaUrl: "https://uxpilot.ai/s/8849ee04a6b29f45fe24169dd04cb368",
-      thumbnail: "/img/portfolio/healthcare.jpg",
+      thumbnail: "/img/portfolio/healthcare.webp",
       year: "2022"
     }
   ];

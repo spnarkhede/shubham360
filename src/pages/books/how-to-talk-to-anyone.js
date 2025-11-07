@@ -15,12 +15,12 @@ export default function HowToTalkToAnyoneReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/howToTalkToAnyone.jpg"
+                src="/img/books/howToTalkToAnyone.webp"
                 alt="How To Talk To Anyone by Leil Lowndes" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/howToTalkToAnyone.jpg";
+                  e.target.src="/img/books/howToTalkToAnyone.webp";
                 }}
               />
               

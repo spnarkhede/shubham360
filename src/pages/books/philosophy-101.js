@@ -15,12 +15,12 @@ export default function Philosophy101Review() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/philosophy101.jpg"
+                src="/img/books/philosophy101.webp"
                 alt="Philosophy 101 by Paul Kleinman"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/philosophy101.jpg";
+                  e.target.src = "/img/books/philosophy101.webp";
                 }}
               />
               <div className="book-review-info">

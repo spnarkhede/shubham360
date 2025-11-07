@@ -15,12 +15,12 @@ export default function NeverSplitTheDifferenceReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/neverSplitTheDifference.jpg"
+                src="/img/books/neverSplitTheDifference.webp"
                 alt="Never Split The Difference by Chris Voss & Tahl Raz" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/neverSplitTheDifference.jpg";
+                  e.target.src="/img/books/neverSplitTheDifference.webp";
                 }}
               />
               

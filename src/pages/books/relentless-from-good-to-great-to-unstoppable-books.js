@@ -15,12 +15,12 @@ export default function RelentlessReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/relentless.jpg"
+                src="/img/books/relentless.webp"
                 alt="Relentless: From Good to Great to Unstoppable by Tim Grover" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/relentless.jpg";
+                  e.target.src="/img/books/relentless.webp";
                 }}
               />
               

@@ -15,12 +15,12 @@ export default function HowToStopWorryingReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/howToStopWorrying.jpg"
+                src="/img/books/howToStopWorrying.webp"
                 alt="How to Stop Worrying And Start Living by Dale Carnegie" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/howToStopWorrying.jpg";
+                  e.target.src="/img/books/howToStopWorrying.webp";
                 }}
               />
               

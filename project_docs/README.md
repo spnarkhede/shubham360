@@ -31,7 +31,7 @@ The landing page system consists of the following components:
         |-- 2018-01-12-readbodylanguagelikefbi.md
         |-- 2018-02-15-my-journey-in-software-development.md
         |-- images
-            |-- blog1_futureai.png
+            |-- blog1_futureai.webp
     |-- 2019
         |-- 2019-05-10-first-steps-at-amazon.md
     |-- 2020
@@ -39,7 +39,7 @@ The landing page system consists of the following components:
     |-- 2021
         |-- 2021-03-08-leadershipmindset.md
         |-- images
-            |-- leadership.png
+            |-- leadership.webp
     |-- 2022
         |-- 2022-08-20-devops-at-robert-bosch.md
     |-- 2023
@@ -63,8 +63,8 @@ The landing page system consists of the following components:
         |-- Programming
             |-- Git
                 |-- figures
-                    |-- 6_free_software_licenses.png
-                    |-- gitcheatsheet.png
+                    |-- 6_free_software_licenses.webp
+                    |-- gitcheatsheet.webp
                     |-- GitObjects.webp
                     |-- GitPackfile.webp
                 |-- GitBasicNotes.md
@@ -110,7 +110,7 @@ The landing page system consists of the following components:
         |-- pdf
         |-- Resume.md
         |-- _category_.json
-    |-- profilepic.png
+    |-- profilepic.webp
     |-- ToolsCollection
         |-- AdblockingPrivacy.md
         |-- AndroidIos.md
@@ -292,14 +292,14 @@ The landing page system consists of the following components:
         |-- summary_resume.pdf
     |-- img
         |-- books
-        |-- docusaurus-social-card.jpg
-        |-- docusaurus.png
+        |-- docusaurus-social-card.webp
+        |-- docusaurus.webp
         |-- favicon.ico
-        |-- logo.png
-        |-- profile.png
-        |-- profileintro.png
-        |-- profilepic.png
-        |-- profilesquare.png
+        |-- logo.webp
+        |-- profile.webp
+        |-- profileintro.webp
+        |-- profilepic.webp
+        |-- profilesquare.webp
         |-- undraw_docusaurus_mountain.svg
         |-- undraw_docusaurus_react.svg
         |-- undraw_docusaurus_tree.svg

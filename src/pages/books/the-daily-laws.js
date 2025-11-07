@@ -15,7 +15,7 @@ export default function TheDailyLawsReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/dailyLaws.jpg"
+                src="/img/books/dailyLaws.webp"
                 alt="The Daily Laws by Robert Greene"
                 className="book-review-cover"
               />

@@ -15,12 +15,12 @@ export default function MasterYourFocusReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/masterYourFocus.jpg"
+                src="/img/books/masterYourFocus.webp"
                 alt="Master Your Focus by Thibaut Meurisse"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/masterYourFocus.jpg";
+                  e.target.src = "/img/books/masterYourFocus.webp";
                 }}
               />
               <div className="book-review-info">

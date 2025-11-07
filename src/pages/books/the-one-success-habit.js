@@ -15,12 +15,12 @@ export default function OneSuccessHabitReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/oneSuccessHabit.jpg"
+                src="/img/books/oneSuccessHabit.webp"
                 alt="The One Success Habit (For Managers) by Dr. Fred Ray Lybrand" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/oneSuccessHabit.jpg";
+                  e.target.src="/img/books/oneSuccessHabit.webp";
                 }}
               />
               

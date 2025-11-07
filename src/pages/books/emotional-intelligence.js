@@ -15,12 +15,12 @@ export default function EmotionalIntelligenceReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/emotionalIntelligence.jpg"
+                src="/img/books/emotionalIntelligence.webp"
                 alt="Emotional Intelligence by Daniel Goleman" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/emotionalIntelligence.jpg";
+                  e.target.src="/img/books/emotionalIntelligence.webp";
                 }}
               />
               

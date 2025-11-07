@@ -15,12 +15,12 @@ export default function DailyStoicReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/dailyStoic.jpg"
+                src="/img/books/dailyStoic.webp"
                 alt="The Daily Stoic by Ryan Holiday and Stephen Hanselman" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/dailyStoic.jpg";
+                  e.target.src="/img/books/dailyStoic.webp";
                 }}
               />
               

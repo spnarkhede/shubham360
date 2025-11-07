@@ -15,12 +15,12 @@ export default function Concise48LawsOfPowerReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img
-                src="/img/books/concise48LawsOfPower.jpg"
+                src="/img/books/concise48LawsOfPower.webp"
                 alt="The Concise 48 Laws of Power by Robert Greene"
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src = "/img/books/concise48LawsOfPower.jpg";
+                  e.target.src = "/img/books/concise48LawsOfPower.webp";
                 }}
               />
               <div className="book-review-info">

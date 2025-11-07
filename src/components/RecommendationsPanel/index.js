@@ -16,12 +16,19 @@ const RecommendationCard = ({ recommendation, nameFormatter, imageRenderer, inde
           imageRenderer(recommendation.image, `${recommendation.firstName} ${recommendation.lastName}`, index)
         ) : recommendation.image ? (
           <img 
-            src={recommendation.image} 
+            src={recommendation.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+            srcSet={
+              recommendation.image.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+              recommendation.image.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+              recommendation.image.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+            }
+            sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+            loading="lazy"
             alt={`${recommendation.firstName} ${recommendation.lastName}`}
             className={styles.recommendationImage}
             onError={(e) => {
               e.target.onerror = null;
-              e.target.src="/img/default-avatar.png";
+              e.target.src="/img/default-avatar.webp";
             }}
           />
         ) : (

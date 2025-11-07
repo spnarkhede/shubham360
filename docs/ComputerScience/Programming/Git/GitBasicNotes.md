@@ -124,7 +124,7 @@ git add .gitignore
 git commit -m "Add .gitignore"
 ```
 
-![GitHub Cheat Sheet](./figures/gitcheatsheet.png 'GitHub Cheat Sheet')
+![GitHub Cheat Sheet](./figures/gitcheatsheet.webp 'GitHub Cheat Sheet')
 
 ## 2. Git Operations
 

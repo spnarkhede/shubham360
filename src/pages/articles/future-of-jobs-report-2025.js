@@ -56,11 +56,18 @@ export default function FutureOfJobs2025() {
                 
                 <div className={styles.articleHeroImage}>
                   <img 
-                    src={articleMeta.image} 
+                    src={articleMeta.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+                    srcSet={
+                      articleMeta.image.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                      articleMeta.image.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                      articleMeta.image.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+                    }
+                    sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+                    loading="lazy"
                     alt={articleMeta.title}
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src="/img/default-article.jpg";
+                      e.target.src="/img/default-article.webp";
                     }}
                   />
                 </div>

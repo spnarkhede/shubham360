@@ -34,7 +34,7 @@ A UX designer working on a data analytics platform may map out user flows that s
 - 🧩 **Wireframes** – low-fidelity structural blueprints  
 - 🧪 **Prototypes** – interactive models for usability testing   
 
-![UX Designer Responsibilities](../images/ux_designer_responsibilites.png)
+![UX Designer Responsibilities](../images/ux_designer_responsibilites.webp)
 
 ### Impact
 UX Designers ensure that the product:
@@ -60,7 +60,7 @@ A UI designer working on a logistics app might define a color-coded system for t
 
 **Tools Commonly Used:** Figma, Adobe XD, Sketch, InVision   
 
-![UI and UX Differences](../images/ui_ux_differences.png)
+![UI and UX Differences](../images/ui_ux_differences.webp)
 
 ### UX vs UI: The Connection
 | UX Design | UI Design |

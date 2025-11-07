@@ -59,7 +59,10 @@ export function HeroSection() {
           </div>
           <div className="col col--5">
             <img 
-              src={require('@site/static/img/profilesquare.png').default} 
+              src="/img/profilesquare.webp" 
+              srcSet="/img/profilesquare-small.webp 400w, /img/profilesquare-medium.webp 800w, /img/profilesquare.webp 1200w"
+              sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+              loading="lazy"
               alt="Shubham Narkhede" 
               className="hero-image"
               style={{
@@ -67,6 +70,10 @@ export function HeroSection() {
                 maxWidth: '60%',
                 borderRadius: '8px',
                 boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
+              }}
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src="/img/default-profile.webp";
               }}
             />
           </div>

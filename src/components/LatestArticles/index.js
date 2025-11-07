@@ -45,12 +45,19 @@ export default function LatestArticles() {
           <div key={index} className={styles.articleCard}>
             <div className={styles.articleImageContainer}>
               <img 
-                src={article.image} 
+                src={article.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+                srcSet={
+                  article.image.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                  article.image.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                  article.image.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+                }
+                sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+                loading="lazy"
                 alt={article.title} 
                 className={styles.articleImage}
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/default-article.jpg";
+                  e.target.src="/img/default-article.webp";
                 }}
               />
             </div>

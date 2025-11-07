@@ -65,7 +65,7 @@ This shift isn't about eliminating professional developers—it's about **multip
 However, this empowerment requires governance. Organizations must establish **Centers of Excellence (CoE)** providing training, enforcing security standards, monitoring application development, and ensuring compliance with regulatory requirements.[11][12]
 
 ### Low-Code/No-Code Platforms Architecture
-![Low-Code/No-Code Platforms Architecture](../img/lowcode_architecture.png)
+![Low-Code/No-Code Platforms Architecture](../img/lowcode_architecture.webp)
 
 A typical LCNC platform consists of five integrated layers. The **Infrastructure Layer** (bottom) provides cloud hosting options through major providers like AWS, Azure, or Google Cloud, plus on-premises alternatives for organizations with specific data residency requirements. This foundation ensures scalability, reliability, and security.
 
@@ -96,7 +96,7 @@ Cross-cutting concerns—Security & Compliance, Governance & Monitoring, AI/ML c
 ### Market-Leading Platforms by Category
 
 **Enterprise-Grade Low-Code Platforms** dominate large organization adoption:
-![Low-Code/No-Code Platform Matrix](../img/positioning_matrix.png)
+![Low-Code/No-Code Platform Matrix](../img/positioning_matrix.webp)
 
 **Mendix** stands as the market leader according to Gartner's Magic Quadrant for enterprise low-code application platforms. Mendix emphasizes **model-driven development**, visual application modeling, comprehensive testing capabilities, excellent logging and monitoring, and a large marketplace of third-party extensions. Its Marketplace provides hundreds of pre-built modules extending platform capabilities. Mendix suits medium to large businesses needing to balance rapid development with governance and scalability. The platform offers local testing environments, continuous quality assurance, and strong collaboration tools—making it ideal for enterprise development teams. Learning curve is steeper than some competitors, but the power and scalability justify the investment.[17][18]
 
@@ -120,7 +120,7 @@ Cross-cutting concerns—Security & Compliance, Governance & Monitoring, AI/ML c
 
 ### Comparing Across the Development Spectrum
 
-![Comparing Across the Development Spectrum](../img/comparison_table.png)
+![Comparing Across the Development Spectrum](../img/comparison_table.webp)
 
 **Development Speed** dramatically favors LCNC approaches. No-code platforms enable application delivery in **hours or days**. Low-code platforms, still 10x faster than traditional development, typically require **weeks** for moderate complexity. Traditional pro-code development requires **months to years** for equivalent functionality.[10][6]
 
@@ -154,7 +154,7 @@ Cross-cutting concerns—Security & Compliance, Governance & Monitoring, AI/ML c
 
 ### Implementation Best Practices for Organizations 
 
-![Low-Code/No-Code Platform Matrix](../img/positioning_matrix.png)
+![Low-Code/No-Code Platform Matrix](../img/positioning_matrix.webp)
 
 **Start with a Center of Excellence (CoE)** model rather than uncontrolled citizen development. A CoE team includes IT architects, business analysts, and experienced developers who:
 

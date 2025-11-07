@@ -96,6 +96,14 @@ node scripts/cleanup-original-images.js
 - Shows detailed statistics
 - Implements safety checks
 
+### Results
+
+After running the cleanup script:
+- **341 original image files** were removed (PNG, JPG, JPEG)
+- **325.93 MB** of disk space was saved
+- Only **346 total images** remain (343 WebP + 3 SVG)
+- **99.7%** of images are now in WebP format
+
 ### Next Steps After Conversion
 
 1. Update your code to reference .webp files instead of original formats

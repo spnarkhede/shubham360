@@ -27,12 +27,12 @@ export default function Landing() {
         <div className={styles.welcomeContent}>
           <div className={styles.logoContainer}>
             <img 
-              src="/img/profilesquare.png"
+              src="/img/profilesquare.webp"
               alt="Shubham Narkhede Logo" 
               className={styles.logo}
               onError={(e) => {
                 e.target.onerror = null;
-                e.target.src="/img/profilesquare.png";
+                e.target.src="/img/profilesquare.webp";
               }}
             />
           </div>

@@ -1875,6 +1875,7 @@
         |-- docusaurus.webp
         |-- favicon.ico
         |-- handpanprofile.webp
+        |-- landingprofile.png
         |-- linearts
             |-- oneline1.webp
             |-- oneline10.webp

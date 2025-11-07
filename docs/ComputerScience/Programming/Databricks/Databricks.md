@@ -31,7 +31,7 @@ Traditional data architectures forced painful tradeoffs. **Data warehouses** pro
 
 **Databricks Lakehouse** eliminates this tradeoff by implementing data warehouse structures and governance directly on low-cost cloud object storage (S3, Azure Blob Storage, Google Cloud Storage), the same infrastructure data lakes use. This achieves warehouse-like reliability and performance while maintaining lake-like flexibility and cost efficiency.[7][3][5]
 
-![Databricks Lakehouse Platform Complete Architecture Stack](./img/databricks_arch.png)
+![Databricks Lakehouse Platform Complete Architecture Stack](./img/databricks_arch.webp)
 
 ### Core Databricks Architecture: Seven-Layer Stac
 
@@ -78,7 +78,7 @@ Traditional data architectures forced painful tradeoffs. **Data warehouses** pro
 
 ### Data Warehouse vs Data Lake vs Lakehouse: Strategic Comparison
 
-![Data Warehouse vs Data Lake vs Databricks Lakehouse Comparison](./img/comparison_matrix.png)
+![Data Warehouse vs Data Lake vs Databricks Lakehouse Comparison](./img/comparison_matrix.webp)
 
 | **Dimension** | **Data Warehouse** | **Data Lake** | **Databricks Lakehouse** |
 |---|---|---|---|
@@ -102,7 +102,7 @@ The key insight: **If your organization needs both analytics (warehouse use case
 
 ### Machine Learning Lifecycle with MLflow
 
-![Machine Learning Lifecycle with MLflow](./img/mlflow_lifecycle.png)
+![Machine Learning Lifecycle with MLflow](./img/mlflow_lifecycle.webp)
 
 **MLflow** represents Databricks' contribution to the machine learning community, providing open-source tools for managing the complete ML lifecycle within the Databricks platform. MLflow consists of four core components:[10][11][12]
 

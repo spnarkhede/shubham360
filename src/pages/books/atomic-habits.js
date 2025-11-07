@@ -16,12 +16,15 @@ export default function AtomicHabitsReview() {
           <div className="col col--8 col--offset-2">
             <div className="book-review-header">
               <img 
-                src="/img/books/atomicHabits.jpg"
+                src="/img/books/atomicHabits.webp"
+                srcSet="/img/books/atomicHabits-small.webp 400w, /img/books/atomicHabits-medium.webp 800w, /img/books/atomicHabits.webp 1200w"
+                sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+                loading="lazy"
                 alt="Atomic Habits by James Clear" 
                 className="book-review-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/books/atomicHabits.jpg";
+                  e.target.src="/img/default-book.webp";
                 }}
               />
               

@@ -974,12 +974,19 @@ export default function Books() {
           {books.map((book, index) => (
             <div key={index} className="book-card">
               <img 
-                src={book.cover} 
+                src={book.cover.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+                srcSet={
+                  book.cover.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                  book.cover.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                  book.cover.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+                }
+                sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+                loading="lazy"
                 alt={book.title} 
                 className="book-cover"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="../../static/img/books/.jpg";
+                  e.target.src="/img/default-book.webp";
                 }}
               />
               <div className="book-content">

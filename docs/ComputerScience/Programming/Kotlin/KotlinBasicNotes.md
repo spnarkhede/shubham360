@@ -41,7 +41,7 @@ In the hyperautomation context we've explored throughout this conversation, **Ko
 
 ### Kotlin Fundamentals: Language Features
 
-![Kotlin vs Java vs Scala vs Groovy - Comprehensive Feature Comparison](./img/kotlin_comparison.png)
+![Kotlin vs Java vs Scala vs Groovy - Comprehensive Feature Comparison](./img/kotlin_comparison.webp)
 
 **Null Safety**: Kotlin eliminates `NullPointerException` through compile-time null safety. Variables are non-nullable by default; nullable variables are explicitly marked with `?`:[2][3][14]
 
@@ -125,7 +125,7 @@ sendEmail("user@example.com", subject = "Important", priority = 1)
 
 ### Kotlin Coroutines: Asynchronous Programming Revolution
 
-![Kotlin Coroutines: Asynchronous Programming Model](./img/kotlin_coroutines.png)
+![Kotlin Coroutines: Asynchronous Programming Model](./img/kotlin_coroutines.webp)
 
 **Traditional Java Threading Model** creates one thread per concurrent operation. With thousands of RPA bots executing simultaneously, managing thousands of threads becomes problematic—each thread consumes significant memory, context switching overhead multiplies, and debugging becomes nearly impossible.[9][10][16]
 
@@ -229,7 +229,7 @@ GlobalScope.launch {
 
 ### Building Backend Services: Spring Boot + Kotlin
 
-![Kotlin Full-Stack Development Ecosystem](./img/kotlin_ecosystem.png)
+![Kotlin Full-Stack Development Ecosystem](./img/kotlin_ecosystem.webp)
 
 **Spring Boot is the dominant framework for building microservices**, and Kotlin has first-class support:[7][4][8][17]
 

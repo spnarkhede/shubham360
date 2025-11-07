@@ -153,12 +153,19 @@ export default function Projects() {
             <h2>Featured Project</h2>
             <div className="featured-project">
               <img 
-                src={featuredProject.image} 
+                src={featuredProject.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+                srcSet={
+                  featuredProject.image.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                  featuredProject.image.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                  featuredProject.image.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+                }
+                sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+                loading="lazy"
                 alt={featuredProject.title} 
                 className="project-image"
                 onError={(e) => {
                   e.target.onerror = null;
-                  e.target.src="/img/default-project.jpg";
+                  e.target.src="/img/default-project.webp";
                 }}
               />
               <div className="project-content">
@@ -197,12 +204,19 @@ export default function Projects() {
               {projects.map((project, index) => (
                 <div key={index} className="project-card">
                   <img 
-                    src={project.image} 
+                    src={project.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+                    srcSet={
+                      project.image.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                      project.image.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                      project.image.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+                    }
+                    sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+                    loading="lazy"
                     alt={project.title} 
                     className="project-image"
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src="/img/default-project.jpg";
+                      e.target.src="/img/default-project.webp";
                     }}
                   />
                   <div className="project-content">

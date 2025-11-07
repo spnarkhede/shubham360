@@ -88,7 +88,7 @@ Modern LLMs use **Transformer architecture**, introduced in 2017, which revoluti
 
 ### Retrieval Augmented Generation (RAG): Solving the Knowledge Problem
 
-![Three Levels of RAG Architecture for Hyperautomation](../img/rag_architecture.png)
+![Three Levels of RAG Architecture for Hyperautomation](../img/rag_architecture.webp)
 
 A critical challenge with LLMs: their training data has a knowledge cutoff date. An LLM trained on data through April 2024 cannot know about events occurring in October 2024. Additionally, LLMs sometimes "hallucinate"—confidently stating false information. **Retrieval Augmented Generation (RAG)** solves these problems by augmenting LLMs with external knowledge.[16][17][18]
 
@@ -150,7 +150,7 @@ Example: "Analyze how this customer's behavior has changed since Q1 and recommen
 
 ### Large Language Models: Choosing the Right Tool
 
-![LLM Types Positioned by Specialization and Task Complexity](../img/llm_capability_matrix.png)
+![LLM Types Positioned by Specialization and Task Complexity](../img/llm_capability_matrix.webp)
 
 Different LLM types serve different hyperautomation needs:
 
@@ -265,7 +265,7 @@ A customer requesting "Help me resolve this billing discrepancy" triggers an age
 
 By 2028, **enterprises with AI agents integrated into core operations** outpace those without in speed, cost-efficiency, and agility—creating competitive advantage approaching digital imperatives.[9][3]
 
-![Generative AI Hyperautomation Integrated Technology Stack](../img/architecture_diagram.png)
+![Generative AI Hyperautomation Integrated Technology Stack](../img/architecture_diagram.webp)
 
 ### Conclusion
 

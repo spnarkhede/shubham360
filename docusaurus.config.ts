@@ -83,7 +83,7 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
-    image: 'img/social-card.png',
+    image: 'img/social-card.webp',
     metadata: [
       {name: 'keywords', content: 'devops, software development, portfolio, full stack, ui/ux, professional'},
       {name: 'description', content: 'Professional portfolio of Shubham Narkhede, DevOps Engineer and Full Stack Developer with expertise in UI/UX design and cloud technologies.'},
@@ -96,7 +96,7 @@ const config: Config = {
     },
     navbar: {
       title: 'Shubham Narkhede',
-      logo: { alt: 'Shubham Narkhede', src: 'img/profile.png' },
+      logo: { alt: 'Shubham Narkhede', src: 'img/profile.webp' },
       items: [
         { to: '/navigation-guide', label: 'Home', position: 'left' },
         // { to: '/intro', label: 'About Me', position: 'left' },

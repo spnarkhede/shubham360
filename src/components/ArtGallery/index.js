@@ -104,10 +104,20 @@ const ArtGallery = ({ artworks = [] }) => {
             onClick={() => openModal(artwork)}
           >
             <img 
-              src={artwork.image} 
+              src={artwork.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+              srcSet={
+                artwork.image.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                artwork.image.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                artwork.image.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+              }
+              sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+              loading="lazy"
               alt={artwork.title} 
               className={styles.galleryImage}
-              loading="lazy"
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src="/img/default-art.webp";
+              }}
             />
             <div className={styles.galleryItemOverlay}>
               <h3 className={styles.galleryItemTitle}>{artwork.title}</h3>
@@ -133,9 +143,20 @@ const ArtGallery = ({ artworks = [] }) => {
             </button>
             
             <img 
-              src={currentArtwork.image} 
+              src={currentArtwork.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+              srcSet={
+                currentArtwork.image.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                currentArtwork.image.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                currentArtwork.image.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+              }
+              sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+              loading="lazy"
               alt={currentArtwork.title} 
               className={styles.modalImage}
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src="/img/default-art.webp";
+              }}
             />
             
             <div className={styles.modalInfo}>

@@ -40,7 +40,7 @@ The complete RPA ecosystem consists of three essential components that function 
 **The Bots (Execution Engines)** are the robots themselves—software agents that execute the workflows defined in Studio according to triggers and schedules set in the Orchestrator. Bots run on servers, virtual machines, or user workstations and interact directly with applications to perform the work.[5][4]
 
 ### RPA Architecture and System Design
-![RPA Architecture and System Design](../img/rpa_architecture.png)
+![RPA Architecture and System Design](../img/rpa_architecture.webp)
 
 The RPA platform architecture consists of three integrated tiers. **The Studio Tier** (development layer) provides the visual development environment, activity libraries, testing tools, and version control repository. Developers assemble automation workflows by dragging pre-built components onto a canvas, connecting them logically, and configuring parameters—all without writing code (though low-code/pro-code capabilities exist for complex logic).
 
@@ -54,7 +54,7 @@ The RPA platform architecture consists of three integrated tiers. **The Studio T
 
 ### RPA Process Lifecycle and Workflow
 
-![RPA Process Lifecycle and Workflow](../img/rpa_workflow.png)
+![RPA Process Lifecycle and Workflow](../img/rpa_workflow.webp)
 
 **Phase 1: Process Discovery and Assessment** begins with identifying automation candidates. Organizations analyze existing processes to find high-volume, repetitive, rule-based workflows with clear entry points and exit criteria. Process mining tools analyze event logs and system transactions to discover what actually happens (not what documentation claims), identify inefficiencies, and flag automation opportunities. This phase qualifies candidates based on criteria like transaction volume, manual effort, error rates, strategic importance, and expected ROI. Quick-win processes (simpler with high ROI) are often prioritized first to demonstrate value and build organizational confidence.
 
@@ -122,7 +122,7 @@ When developing an RPA solution, developers follow these key steps:
 
 ### Leading RPA Platforms: Market Landscape
 
-![RPA Platforms: Market Landscape](../img/rpa_comparison.png)
+![RPA Platforms: Market Landscape](../img/rpa_comparison.webp)
 
 **UiPath** dominates the market based on user-friendliness and rapid deployment capability. UiPath emphasizes ease of use with extensive pre-built activities and community-contributed components. The platform offers cloud-based orchestration, scalable architecture, and strong AI capabilities integrating computer vision and NLP. UiPath excels for organizations prioritizing rapid automation rollout and ease of use, particularly strong for mid-market companies and digital-native organizations. However, some enterprise customers find UiPath requires more management overhead at extreme scale compared to Blue Prism. UiPath pricing is moderate ($3,990/user/year) with flexible licensing models. Community support is exceptional with extensive online resources, making it ideal for organizations beginning their RPA journey.[14][15][16][17]
 

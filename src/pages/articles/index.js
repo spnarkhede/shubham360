@@ -418,7 +418,21 @@ export default function Articles() {
               {regularArticles.map((article) => (
                 <div className={styles.articleCard} key={article.id}>
                   <div className={styles.articleImage}>
-                    <img src={article.image} alt={article.title} />
+                    <img 
+                      src={article.image.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+                      srcSet={
+                        article.image.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                        article.image.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                        article.image.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+                      }
+                      sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+                      loading="lazy"
+                      alt={article.title} 
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src="/img/default-article.webp";
+                      }}
+                    />
                   </div>
                   <div className={styles.articleContent}>
                     <div className={styles.articleMeta}>

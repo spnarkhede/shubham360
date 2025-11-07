@@ -101,11 +101,18 @@ export default function Certificates() {
                   <div className={styles.certificateHeader}>
                     <div className={styles.certificateLogo}>
                       <img 
-                        src={cert.logo} 
+                        src={cert.logo.replace(/\.(png|jpg|jpeg)$/i, '.webp')} 
+                        srcSet={
+                          cert.logo.replace(/\.(png|jpg|jpeg)$/i, '-small.webp') + ' 400w, ' +
+                          cert.logo.replace(/\.(png|jpg|jpeg)$/i, '-medium.webp') + ' 800w, ' +
+                          cert.logo.replace(/\.(png|jpg|jpeg)$/i, '.webp') + ' 1200w'
+                        }
+                        sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+                        loading="lazy"
                         alt={`${cert.issuer} logo`} 
                         onError={(e) => {
                           e.target.onerror = null;
-                          e.target.src="/img/default-certificate.png";
+                          e.target.src="/img/default-certificate.webp";
                         }}
                       />
                     </div>

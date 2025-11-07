@@ -10,8 +10,8 @@ export const professionalSummary = {
     "Excellent communicator and team player",
     "Passionate about clean code and best practices"
   ],
-  profileImage: "/img/profilesquare.png",
-  fallbackImage: "/img/default-profile.png"
+  profileImage: "/img/profilesquare.webp",
+  fallbackImage: "/img/default-profile.webp"
 };
 
 export const certifications = [

@@ -29,7 +29,7 @@ The fundamental difference between automation and hyperautomation lies in scope 
 Gartner, which coined the term, defines hyperautomation as leveraging a combination of machine learning, packaged software, and automation tools to deliver work. It encompasses all steps of automation itself: discover, analyze, design, automate, measure, monitor, and reassess.[5]
 
 ### The Hyperautomation Technology Stack
-![HyperAutomation Stack](../img/hyperautomation_stack.png)
+![HyperAutomation Stack](../img/hyperautomation_stack.webp)
 
 The hyperautomation ecosystem operates across four integrated layers, each serving distinct functions:
 
@@ -169,7 +169,7 @@ In **healthcare**, hyperautomation streamlines **claims processing, appointment 
 
 ### The Implementation Roadmap
 
-![HyperAutomation Flowchart](../img/hyperautomation_flowchart.png)
+![HyperAutomation Flowchart](../img/hyperautomation_flowchart.webp)
 
 **Phase 1: Process Discovery and Assessment** begins with organizational readiness evaluation. Teams identify current processes, assess existing automation, and evaluate organizational skills and culture. Using process mining tools, organizations discover and map workflows, identifying high-automation-potential processes and quick-win opportunities. **Process qualification and prioritization** evaluate candidates based on volume, manual effort, error rates, strategic importance, and ROI potential.[13][25][26]
 

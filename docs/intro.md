@@ -8,12 +8,11 @@ last_update:
 # Introduction 
 
 
-
 import { Github, Linkedin, Mail } from 'lucide-react';
 
 <div className="about-container">
   <div className="hero-section">
-    <img className="profile-picture" src={require('../static/img/profilesquare.png').default} alt="profile"/>
+    <img className="profile-picture" src={require('../static/img/profilesquare.webp').default} alt="profile"/>
     
     <div className="profile-info">
       <h1>Shubham Narkhede</h1>

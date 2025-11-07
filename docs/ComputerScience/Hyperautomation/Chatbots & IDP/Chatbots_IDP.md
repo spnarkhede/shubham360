@@ -75,7 +75,7 @@ Modern chatbots incorporate machine learning to improve over time. Every convers
 
 ### Four Chatbot Architectures: Capabilities and Limitations
 
-![Four Chatbot Architectures: Capabilities and Limitations](../img/chatbot_comparison.png)
+![Four Chatbot Architectures: Capabilities and Limitations](../img/chatbot_comparison.webp)
 
 Organizations deploy fundamentally different chatbot types depending on use case, complexity, and organizational capabilities.
 
@@ -123,7 +123,7 @@ Traditional **Optical Character Recognition (OCR)** converts images of text into
 | **Workflow Automation** | Outputs to files; requires manual next steps | Automatically triggers downstream workflows and systems |
 | **Continuous Improvement** | Static; doesn't improve over time | Learns from corrections; improves accuracy continuously |### IDP Five-Layer ArchitectureThe IDP process consists of five integrated stages:
 
-![Intelligent Document Processing (IDP) Five-Layer Architecture](../img/idp_architecture.png)
+![Intelligent Document Processing (IDP) Five-Layer Architecture](../img/idp_architecture.webp)
 
 **Layer 1: Input & Capture** receives documents in various formats—scanned paper (PDFs, images), digital documents (emails, Word documents, Excel spreadsheets), handwritten notes, or complex layouts (forms, contracts with tables). Preprocessing enhances document quality: deskewing (straightening tilted scans), binarization (converting to black-and-white), contrast enhancement (making faint text readable), and outlier filtering (removing noise).
 
@@ -174,7 +174,7 @@ Result: Processing that previously took 10 minutes per invoice (5,000 invoices w
 
 ### Chatbots and IDP Integration in Hyperautomation
 
-![Chatbots and IDP Integration in Hyperautomation Workflow](../img/hyperautomation_workflow.png)
+![Chatbots and IDP Integration in Hyperautomation Workflow](../img/hyperautomation_workflow.webp)
 
 The true power emerges when chatbots and IDP work together within hyperautomation frameworks. Consider a customer service scenario: a customer emails a complex question with an attached document. The hyperautomation workflow might proceed as:
 

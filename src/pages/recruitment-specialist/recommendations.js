@@ -198,7 +198,7 @@ export default function RecruitmentSpecialistRecommendations() {
           </p>
         </div>
         
-        <div className={styles.featuredRecommendation}>
+        {/* <div className={styles.featuredRecommendation}>
           <div className={styles.featuredRecommendationContent}>
             <div className={styles.quoteIconLarge}>
               <Quote size={40} />
@@ -222,7 +222,7 @@ export default function RecruitmentSpecialistRecommendations() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         
         <div className={styles.recommendationsCarousel}>
           <RecommendationsPanel 

@@ -67,7 +67,7 @@ export default function Contact() {
                   </div>
                   <div className="contact-info-content">
                     <h3 className="contact-info-title">Phone</h3>
-                    <p className="contact-info-value">+49 123 456 7890</p>
+                    <p className="contact-info-value">+49 171 510 8059</p>
                   </div>
                 </div>
               </div>

@@ -34,17 +34,17 @@ const technicalLearningsData = [
     free: true,
     usedInProjects: true
   },
-  {
-    id: 'ai-directory-cheatsheets',
-    title: 'AI Directory Cheatsheets',
-    description: 'Comprehensive directory of AI tools and resources for various categories.',
-    icon: <Brain size={32} />,
-    category: 'AI',
-    tags: ['AI', 'Tools', 'Resources', 'Cheatsheets'],
-    recommended: true,
-    free: true,
-    usedInProjects: true
-  },
+  // {
+  //   id: 'ai-directory-cheatsheets',
+  //   title: 'AI Directory Cheatsheets',
+  //   description: 'Comprehensive directory of AI tools and resources for various categories.',
+  //   icon: <Brain size={32} />,
+  //   category: 'AI',
+  //   tags: ['AI', 'Tools', 'Resources', 'Cheatsheets'],
+  //   recommended: true,
+  //   free: true,
+  //   usedInProjects: true
+  // },
   {
     id: 'c',
     title: 'C',
@@ -344,7 +344,7 @@ const LearningCard = ({ learning }) => {
       'angular': '/ComputerScience/WebTechnologies/Angular/AngularBasicNotes',
       'css': '/ComputerScience/WebTechnologies/CSS/CSSAdvancedNotes',
       'html': '/ComputerScience/WebTechnologies/HTML/HTMLBasicNotes',
-      'ai-directory-cheatsheets': '/ComputerScience/ArtificialIntelligence/AIDirectoryCheatsheets',
+      // 'ai-directory-cheatsheets': '/ComputerScience/ArtificialIntelligence/AIDirectoryCheatsheets',
       'c': '/ComputerScience/Programming/C/CBasicNotes',
       'csharp': '/ComputerScience/Programming/CSharp/CSharpBasicNotes',
       'cpp': '/ComputerScience/Programming/Cpp/CppBasicNotes',

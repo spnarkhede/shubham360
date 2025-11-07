@@ -31,7 +31,7 @@ export default function ProductDesignerContact() {
     {
       icon: <Phone size={20} />,
       title: "Phone",
-      value: "+49 123 456 7890",
+      value: "+49 171 510 8059",
       link: "tel:+491715108059",
       description: "Available for design discussions and project calls"
     },

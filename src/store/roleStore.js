@@ -34,10 +34,10 @@ const useRoleStore = create((set) => ({
         { id: 'introduction', label: 'Introduction' },
         { id: 'experience', label: 'Experience' },
         { id: 'resume', label: 'Resume Download' },
+        { id: 'projects', label: 'Projects' },
         { id: 'skills', label: 'Skills' },
         { id: 'certifications', label: 'Certifications & Badges' },
         { id: 'recommendations', label: 'Testimonials' },
-        { id: 'projects', label: 'Projects' },
         { id: 'contact', label: 'Contact' },
         // { id: 'continue-watching', label: 'Continue Watching' }
       ]

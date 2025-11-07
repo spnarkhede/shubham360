@@ -31,7 +31,7 @@ export default function RecruitmentSpecialistContact() {
     {
       icon: <Phone size={20} />,
       title: "Phone",
-      value: "+49 123 456 7890",
+      value: "+49 171 510 8059",
       link: "tel:+4917151080592",
       description: "Available for scheduled calls and urgent matters"
     },

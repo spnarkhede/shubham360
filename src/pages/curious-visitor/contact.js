@@ -31,7 +31,7 @@ export default function CuriousVisitorContact() {
     {
       icon: <Phone size={20} />,
       title: "Phone",
-      value: "+49 123 456 7890",
+      value: "+49 171 510 8059",
       link: "tel:+491234567890",
       description: "Available for meaningful conversations and catch-ups"
     },

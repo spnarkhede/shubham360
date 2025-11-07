@@ -32,12 +32,15 @@ export default function RecruitmentSpecialistIntroduction() {
         <div className={styles.introductionContent}>
           <div className={styles.profileImageContainer}>
             <img 
-              src="/img/profileintro.png" 
+              src="/img/profileintro-thumb.webp" 
+              srcSet="/img/profileintro-small.webp 400w, /img/profileintro-medium.webp 800w, /img/profileintro.webp 1200w"
+              sizes="(max-width: 400px) 400px, (max-width: 800px) 800px, 1200px"
+              loading="lazy"
               alt="Shubham Narkhede" 
               className={styles.profileImage}
               onError={(e) => {
                 e.target.onerror = null;
-                e.target.src="/img/default-profile.png";
+                e.target.src="/img/default-profile.webp";
               }}
             />
           </div>
@@ -58,8 +61,8 @@ export default function RecruitmentSpecialistIntroduction() {
             <div className={styles.keyHighlights}>
               <h3 className={styles.highlightsTitle}>Key Highlights</h3>
               <ul className={styles.highlightsList}>
-                <li>{shortExperienceString} of experience in software development and DevOps</li>
-                <li>Expertise in React, Node.js, Docker, Kubernetes, and AWS</li>
+                <li>{shortExperienceString} of experience in software development, CI/CD and DevOps</li>
+                <li>Expertise in Angular, React, Node.js, Docker, Kubernetes, and AWS</li>
                 <li>Led multiple successful projects from conception to deployment</li>
                 <li>Strong problem-solving skills and attention to detail</li>
                 <li>Excellent communicator and team player</li>

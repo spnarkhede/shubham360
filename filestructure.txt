@@ -754,33 +754,19 @@
             |-- Hyper Automation
                 |-- HyperAutomation.md
             |-- img
-                |-- architecture_diagram.png
                 |-- architecture_diagram.webp
-                |-- chatbot_comparison.png
                 |-- chatbot_comparison.webp
-                |-- comparison_table.png
                 |-- comparison_table.webp
-                |-- hyperautomation_flowchart.png
                 |-- hyperautomation_flowchart.webp
-                |-- hyperautomation_stack.png
                 |-- hyperautomation_stack.webp
-                |-- hyperautomation_workflow.png
                 |-- hyperautomation_workflow.webp
-                |-- idp_architecture.png
                 |-- idp_architecture.webp
-                |-- llm_capability_matrix.png
                 |-- llm_capability_matrix.webp
-                |-- lowcode_architecture.png
                 |-- lowcode_architecture.webp
-                |-- positioning_matrix.png
                 |-- positioning_matrix.webp
-                |-- rag_architecture.png
                 |-- rag_architecture.webp
-                |-- rpa_architecture.png
                 |-- rpa_architecture.webp
-                |-- rpa_comparison.png
                 |-- rpa_comparison.webp
-                |-- rpa_workflow.png
                 |-- rpa_workflow.webp
             |-- Low Code_No Code
                 |-- LowCodeNoCode.md
@@ -791,28 +777,20 @@
             |-- Databricks
                 |-- Databricks.md
                 |-- img
-                    |-- comparison_matrix.png
                     |-- comparison_matrix.webp
-                    |-- databricks_arch.png
                     |-- databricks_arch.webp
-                    |-- mlflow_lifecycle.png
                     |-- mlflow_lifecycle.webp
             |-- Git
                 |-- figures
-                    |-- 6_free_software_licenses.png
                     |-- 6_free_software_licenses.webp
-                    |-- gitcheatsheet.png
                     |-- gitcheatsheet.webp
                     |-- GitObjects.webp
                     |-- GitPackfile.webp
                 |-- GitBasicNotes.md
             |-- Kotlin
                 |-- img
-                    |-- kotlin_comparison.png
                     |-- kotlin_comparison.webp
-                    |-- kotlin_coroutines.png
                     |-- kotlin_coroutines.webp
-                    |-- kotlin_ecosystem.png
                     |-- kotlin_ecosystem.webp
                 |-- KotlinBasicNotes.md
             |-- Nvm
@@ -839,9 +817,7 @@
         |-- _category_.json
     |-- Design
         |-- images
-            |-- ui_ux_differences.png
             |-- ui_ux_differences.webp
-            |-- ux_designer_responsibilites.png
             |-- ux_designer_responsibilites.webp
         |-- Principles
             |-- ProductManagerGuide.md
@@ -1319,103 +1295,54 @@
         |-- _category_.json
     |-- Portfolio
         |-- img
-            |-- aws_certificate1.jpg
             |-- aws_certificate1.webp
-            |-- aws_certificate2.jpg
             |-- aws_certificate2.webp
-            |-- coursera_certificate1.png
             |-- coursera_certificate1.webp
-            |-- google_certificate1.png
             |-- google_certificate1.webp
-            |-- google_certificate2.png
             |-- google_certificate2.webp
-            |-- ibm_certificate1.jpg
             |-- ibm_certificate1.webp
-            |-- ibm_certificate2.jpg
             |-- ibm_certificate2.webp
-            |-- learnvern_certificate1.png
             |-- learnvern_certificate1.webp
-            |-- pluralsight_certificate.png
             |-- pluralsight_certificate.webp
-            |-- pluralsight_certificate1.png
             |-- pluralsight_certificate1.webp
-            |-- pluralsight_certificate11.png
             |-- pluralsight_certificate11.webp
-            |-- pluralsight_certificate12.png
             |-- pluralsight_certificate12.webp
-            |-- pluralsight_certificate13.png
             |-- pluralsight_certificate13.webp
-            |-- pluralsight_certificate14.png
             |-- pluralsight_certificate14.webp
-            |-- pluralsight_certificate15.png
             |-- pluralsight_certificate15.webp
-            |-- pluralsight_certificate16.png
             |-- pluralsight_certificate16.webp
-            |-- pluralsight_certificate17.png
             |-- pluralsight_certificate17.webp
-            |-- pluralsight_certificate18.png
             |-- pluralsight_certificate18.webp
-            |-- pluralsight_certificate19.png
             |-- pluralsight_certificate19.webp
-            |-- pluralsight_certificate2.png
             |-- pluralsight_certificate2.webp
-            |-- pluralsight_certificate20.png
             |-- pluralsight_certificate20.webp
-            |-- pluralsight_certificate21.png
             |-- pluralsight_certificate21.webp
-            |-- pluralsight_certificate22.png
             |-- pluralsight_certificate22.webp
-            |-- pluralsight_certificate23.png
             |-- pluralsight_certificate23.webp
-            |-- pluralsight_certificate24.png
             |-- pluralsight_certificate24.webp
-            |-- pluralsight_certificate25.png
             |-- pluralsight_certificate25.webp
-            |-- pluralsight_certificate26.png
             |-- pluralsight_certificate26.webp
-            |-- pluralsight_certificate27.png
             |-- pluralsight_certificate27.webp
-            |-- pluralsight_certificate28.png
             |-- pluralsight_certificate28.webp
-            |-- pluralsight_certificate29.png
             |-- pluralsight_certificate29.webp
-            |-- pluralsight_certificate3.png
             |-- pluralsight_certificate3.webp
-            |-- pluralsight_certificate30.png
             |-- pluralsight_certificate30.webp
-            |-- pluralsight_certificate4.png
             |-- pluralsight_certificate4.webp
-            |-- pluralsight_certificate5.png
             |-- pluralsight_certificate5.webp
-            |-- pluralsight_certificate6.png
             |-- pluralsight_certificate6.webp
-            |-- pluralsight_certificate7.png
             |-- pluralsight_certificate7.webp
-            |-- pluralsight_certificate8.png
             |-- pluralsight_certificate8.webp
-            |-- pluralsight_certificate9.png
             |-- pluralsight_certificate9.webp
-            |-- udemy_certificate1.png
             |-- udemy_certificate1.webp
-            |-- udemy_certificate10.jpg
             |-- udemy_certificate10.webp
-            |-- udemy_certificate11.jpg
             |-- udemy_certificate11.webp
-            |-- udemy_certificate2.png
             |-- udemy_certificate2.webp
-            |-- udemy_certificate3.png
             |-- udemy_certificate3.webp
-            |-- udemy_certificate4.jpg
             |-- udemy_certificate4.webp
-            |-- udemy_certificate5.jpg
             |-- udemy_certificate5.webp
-            |-- udemy_certificate6.jpg
             |-- udemy_certificate6.webp
-            |-- udemy_certificate7.jpg
             |-- udemy_certificate7.webp
-            |-- udemy_certificate8.jpg
             |-- udemy_certificate8.webp
-            |-- udemy_certificate9.jpg
             |-- udemy_certificate9.webp
         |-- pdf
             |-- coursera_certificate1.pdf
@@ -1467,7 +1394,6 @@
             |-- udemy_certificate9.pdf
         |-- Resume.md
         |-- _category_.json
-    |-- profilepic.png
     |-- profilepic.webp
     |-- ToolsCollection
         |-- AdblockingPrivacy.md
@@ -1515,7 +1441,9 @@
     |-- README.md
 |-- remove-unused-lucide-icons.js
 |-- scripts
+    |-- cleanup-original-images.bat
     |-- cleanup-original-images.js
+    |-- cleanup-original-images.sh
     |-- convert-images.bat
     |-- convert-images.sh
     |-- convert-to-webp.js
@@ -1836,550 +1764,283 @@
             |-- summary_resume.pdf
     |-- img
         |-- badges
-            |-- data-science-foundations-level-1.png
             |-- data-science-foundations-level-1.webp
-            |-- generative-ai-overview-for-project-managers.png
             |-- generative-ai-overview-for-project-managers.webp
-            |-- pluralsightbadge.png
             |-- pluralsightbadge.webp
-            |-- python-for-data-science.png
             |-- python-for-data-science.webp
         |-- books
-            |-- accounting101.jpg
             |-- accounting101.webp
-            |-- almanackOfNavalRavikant.jpg
             |-- almanackOfNavalRavikant.webp
-            |-- americanGovernment101.jpg
             |-- americanGovernment101.webp
-            |-- atomicHabits.jpg
             |-- atomicHabits.webp
-            |-- bharatEkNayiSoch.jpg
             |-- bharatEkNayiSoch.webp
-            |-- bookOnRentalPropertyInvesting.jpg
             |-- bookOnRentalPropertyInvesting.webp
-            |-- bossBasicsOfSanatanSanskriti.jpg
             |-- bossBasicsOfSanatanSanskriti.webp
-            |-- carelessPeople.jpg
             |-- carelessPeople.webp
-            |-- chanakyas100BestSutras.jpg
             |-- chanakyas100BestSutras.webp
-            |-- coachingHabit.jpg
             |-- coachingHabit.webp
-            |-- communicationSkillsBible.jpg
             |-- communicationSkillsBible.webp
-            |-- concise48LawsOfPower.jpg
             |-- concise48LawsOfPower.webp
-            |-- conciseArtOfSeduction.jpg
             |-- conciseArtOfSeduction.webp
-            |-- conciseLawsOfHumanNature.jpg
             |-- conciseLawsOfHumanNature.webp
-            |-- conciseStrategiesOfWar.jpg
             |-- conciseStrategiesOfWar.webp
-            |-- corporateChanakya.jpg
             |-- corporateChanakya.webp
-            |-- courageToBeDisliked.jpg
             |-- courageToBeDisliked.webp
-            |-- crucialConversations.jpg
             |-- crucialConversations.webp
-            |-- dailyLaws.jpg
             |-- dailyLaws.webp
-            |-- dailyStoic.jpg
             |-- dailyStoic.webp
-            |-- dareToLead.jpg
             |-- dareToLead.webp
-            |-- deepWork.jpg
             |-- deepWork.webp
-            |-- dontBelieveEverythingYouThink.jpg
             |-- dontBelieveEverythingYouThink.webp
-            |-- dopamineDetox.jpg
             |-- dopamineDetox.webp
-            |-- eatThatFrog.jpg
             |-- eatThatFrog.webp
-            |-- economics101.jpg
             |-- economics101.webp
-            |-- egoIsTheEnemy.jpg
             |-- egoIsTheEnemy.webp
-            |-- eightRulesOfLove.jpg
             |-- eightRulesOfLove.webp
-            |-- eightyTwentyPrinciple.jpg
             |-- eightyTwentyPrinciple.webp
-            |-- emotionalIntelligence.jpg
             |-- emotionalIntelligence.webp
-            |-- fineArtOfSmallTalk.jpg
             |-- fineArtOfSmallTalk.webp
-            |-- fourThousandWeeks.jpg
             |-- fourThousandWeeks.webp
-            |-- hindusInHinduRashtra.jpg
             |-- hindusInHinduRashtra.webp
-            |-- howToStopWorrying.jpg
             |-- howToStopWorrying.webp
-            |-- howToTalkToAnyone.jpg
             |-- howToTalkToAnyone.webp
-            |-- howToTalkToAnyone2.jpg
             |-- howToTalkToAnyone2.webp
-            |-- howToWinFriends.jpg
             |-- howToWinFriends.webp
-            |-- ikigai.jpg
             |-- ikigai.webp
-            |-- immediateaction.jpg
             |-- immediateaction.webp
-            |-- indiaThatIsBharat.jpg
             |-- indiaThatIsBharat.webp
-            |-- investing101.jpg
             |-- investing101.webp
-            |-- invisibleWomen.jpg
             |-- invisibleWomen.webp
-            |-- kautileeyaArthshastra.jpg
             |-- kautileeyaArthshastra.webp
-            |-- lean-startup.jpg
             |-- lean-startup.webp
-            |-- lifeAndWorkPrinciples.jpg
             |-- lifeAndWorkPrinciples.webp
-            |-- management101.jpg
             |-- management101.webp
-            |-- masterYourBeliefs (2).jpg
             |-- masterYourBeliefs (2).webp
-            |-- masterYourBeliefs.jpg
             |-- masterYourBeliefs.webp
-            |-- masterYourDestiny.jpg
             |-- masterYourDestiny.webp
-            |-- masterYourEmotions.jpg
             |-- masterYourEmotions.webp
-            |-- masterYourFocus.jpg
             |-- masterYourFocus.webp
-            |-- masterYourMotivation.jpg
             |-- masterYourMotivation.webp
-            |-- masterYourThinking (2).jpg
             |-- masterYourThinking (2).webp
-            |-- masterYourThinking.jpg
             |-- masterYourThinking.webp
-            |-- masterYourTime.jpg
             |-- masterYourTime.webp
-            |-- menAreFromMarsWomenAreFromVenus.jpg
             |-- menAreFromMarsWomenAreFromVenus.webp
-            |-- millionaireFastlane.jpg
             |-- millionaireFastlane.webp
-            |-- mindset.jpg
             |-- mindset.webp
-            |-- moneyworks.jpg
             |-- moneyworks.webp
-            |-- negotiating101.jpg
             |-- negotiating101.webp
-            |-- neverSplitTheDifference.jpg
             |-- neverSplitTheDifference.webp
-            |-- oneHundredOneEssays.jpg
             |-- oneHundredOneEssays.webp
-            |-- oneSuccessHabit.jpg
             |-- oneSuccessHabit.webp
-            |-- philosophy101.jpg
             |-- philosophy101.webp
-            |-- power-of-habit.jpg
             |-- power-of-habit.webp
-            |-- powerfulFocus.jpg
             |-- powerfulFocus.webp
-            |-- psych101.jpg
             |-- psych101.webp
-            |-- psychologyOfMoney.jpg
             |-- psychologyOfMoney.webp
-            |-- radicalCandorBoss.jpg
             |-- radicalCandorBoss.webp
-            |-- radicalCandorRevised.jpg
             |-- radicalCandorRevised.webp
-            |-- readPeopleLikeABook.jpg
             |-- readPeopleLikeABook.webp
-            |-- relentless.jpg
             |-- relentless.webp
-            |-- sameAsEver.jpg
             |-- sameAsEver.webp
-            |-- sapiens.jpg
             |-- sapiens.webp
-            |-- selfHealByDesign.jpg
             |-- selfHealByDesign.webp
-            |-- semenRetentionMiracles.jpg
             |-- semenRetentionMiracles.webp
-            |-- shoe-dog.jpg
             |-- shoe-dog.webp
-            |-- srimadBhagavadgitaVolumn1.jpg
             |-- srimadBhagavadgitaVolumn1.webp
-            |-- srimadBhagavadgitaVolumn2.jpg
             |-- srimadBhagavadgitaVolumn2.webp
-            |-- start-with-why.jpg
             |-- start-with-why.webp
-            |-- stockMarket101.jpg
             |-- stockMarket101.webp
-            |-- strategicmindset.jpg
             |-- strategicmindset.webp
-            |-- surroundedByBadBosses.jpg
             |-- surroundedByBadBosses.webp
-            |-- surroundedByIdiots.jpg
             |-- surroundedByIdiots.webp
-            |-- surroundedByLiars.jpg
             |-- surroundedByLiars.webp
-            |-- surroundedByNarcissists.jpg
             |-- surroundedByNarcissists.webp
-            |-- surroundedByPsychopaths.jpg
             |-- surroundedByPsychopaths.webp
-            |-- surroundedBySetbacks.jpg
             |-- surroundedBySetbacks.webp
-            |-- sustainMe.jpg
             |-- sustainMe.webp
-            |-- teamTopologies.jpg
             |-- teamTopologies.webp
-            |-- thankGodForFeedback.jpg
             |-- thankGodForFeedback.webp
-            |-- thanksForFeedback.jpg
             |-- thanksForFeedback.webp
-            |-- the-personal-mba.jpg
             |-- the-personal-mba.webp
-            |-- the7HabitsOfHighlyEffectivePeople.jpg
             |-- the7HabitsOfHighlyEffectivePeople.webp
-            |-- theCompoundEffect.jpg
             |-- theCompoundEffect.webp
-            |-- thePowerOfNow.jpg
             |-- thePowerOfNow.webp
-            |-- thinking-fast-slow.jpg
             |-- thinking-fast-slow.webp
-            |-- usHistory101.jpg
             |-- usHistory101.webp
-            |-- vaidikDincharya.jpg
             |-- vaidikDincharya.webp
-            |-- whyMenLoveBitches.jpg
             |-- whyMenLoveBitches.webp
-            |-- yourNextFiveMoves.jpg
             |-- yourNextFiveMoves.webp
-        |-- default-bosch.png
         |-- default-bosch.webp
-        |-- docusaurus-social-card.jpg
         |-- docusaurus-social-card.webp
-        |-- docusaurus.png
         |-- docusaurus.webp
         |-- favicon.ico
-        |-- handpanprofile.png
         |-- handpanprofile.webp
         |-- linearts
-            |-- oneline1.jpg
             |-- oneline1.webp
-            |-- oneline10.jpg
             |-- oneline10.webp
-            |-- oneline11.jpg
             |-- oneline11.webp
-            |-- oneline12.jpg
             |-- oneline12.webp
-            |-- oneline13.jpg
             |-- oneline13.webp
-            |-- oneline14.jpg
             |-- oneline14.webp
-            |-- oneline15.jpg
             |-- oneline15.webp
-            |-- oneline16.jpg
             |-- oneline16.webp
-            |-- oneline17.jpg
             |-- oneline17.webp
-            |-- oneline18.jpg
             |-- oneline18.webp
-            |-- oneline19.jpg
             |-- oneline19.webp
-            |-- oneline2.jpg
             |-- oneline2.webp
-            |-- oneline20.jpg
             |-- oneline20.webp
-            |-- oneline21.jpg
             |-- oneline21.webp
-            |-- oneline22.jpg
             |-- oneline22.webp
-            |-- oneline23.jpg
             |-- oneline23.webp
-            |-- oneline24.jpg
             |-- oneline24.webp
-            |-- oneline25.jpg
             |-- oneline25.webp
-            |-- oneline26.jpg
             |-- oneline26.webp
-            |-- oneline27.jpg
             |-- oneline27.webp
-            |-- oneline28.jpg
             |-- oneline28.webp
-            |-- oneline29.jpg
             |-- oneline29.webp
-            |-- oneline3.jpg
             |-- oneline3.webp
-            |-- oneline30.jpg
             |-- oneline30.webp
-            |-- oneline31.jpg
             |-- oneline31.webp
-            |-- oneline32.jpg
             |-- oneline32.webp
-            |-- oneline4.jpg
             |-- oneline4.webp
-            |-- oneline5.jpg
             |-- oneline5.webp
-            |-- oneline6.jpg
             |-- oneline6.webp
-            |-- oneline7.jpg
             |-- oneline7.webp
-            |-- oneline8.jpg
             |-- oneline8.webp
-            |-- oneline9.jpg
             |-- oneline9.webp
-        |-- logo.png
         |-- logo.webp
         |-- music
-            |-- energybeamchimes.png
             |-- energybeamchimes.webp
-            |-- guitars.png
             |-- guitars.webp
-            |-- handpan.png
             |-- handpan.webp
-            |-- kalimba.png
             |-- kalimba.webp
-            |-- koshi-chime.png
             |-- koshi-chime.webp
-            |-- koshi-chimes.png
             |-- koshi-chimes.webp
-            |-- musical-boxes.png
             |-- musical-boxes.webp
-            |-- singing-bowl.png
             |-- singing-bowl.webp
-            |-- tingsha-cymbals.png
             |-- tingsha-cymbals.webp
-        |-- painterprofile.png
         |-- painterprofile.webp
         |-- paintings
-            |-- painting1.png
             |-- painting1.webp
-            |-- painting10.png
             |-- painting10.webp
-            |-- painting11.png
             |-- painting11.webp
-            |-- painting12.png
             |-- painting12.webp
-            |-- painting13.png
             |-- painting13.webp
-            |-- painting14.png
             |-- painting14.webp
-            |-- painting15.png
             |-- painting15.webp
-            |-- painting16.png
             |-- painting16.webp
-            |-- painting17.png
             |-- painting17.webp
-            |-- painting18.png
             |-- painting18.webp
-            |-- painting19.png
             |-- painting19.webp
-            |-- painting2.png
             |-- painting2.webp
-            |-- painting20.png
             |-- painting20.webp
-            |-- painting21.png
             |-- painting21.webp
-            |-- painting22.png
             |-- painting22.webp
-            |-- painting23.png
             |-- painting23.webp
-            |-- painting3.png
             |-- painting3.webp
-            |-- painting4.png
             |-- painting4.webp
-            |-- painting5.png
             |-- painting5.webp
-            |-- painting6.png
             |-- painting6.webp
-            |-- painting7.png
             |-- painting7.webp
-            |-- painting8.png
             |-- painting8.webp
-            |-- painting9.png
             |-- painting9.webp
         |-- portfolio
-            |-- carsmobile-app.jpg
             |-- carsmobile-app.webp
-            |-- design-system.jpg
             |-- design-system.webp
-            |-- ecommerce-dashboard.jpg
             |-- ecommerce-dashboard.webp
-            |-- healthcare.jpg
             |-- healthcare.webp
-        |-- profile.png
         |-- profile.webp
-        |-- profileintro.png
         |-- profileintro.webp
-        |-- profilepic.png
         |-- profilepic.webp
-        |-- profilesquare.png
         |-- profilesquare.webp
-        |-- readerprofile.jpeg
         |-- readerprofile.webp
         |-- sketches
-            |-- 10.png
             |-- 10.webp
-            |-- 11.png
             |-- 11.webp
-            |-- 12.png
             |-- 12.webp
-            |-- 13.png
             |-- 13.webp
-            |-- 14.png
             |-- 14.webp
-            |-- 15.png
             |-- 15.webp
-            |-- 16.png
             |-- 16.webp
-            |-- 17.png
             |-- 17.webp
-            |-- 18.png
             |-- 18.webp
-            |-- 19.png
             |-- 19.webp
-            |-- 2.png
             |-- 2.webp
-            |-- 20.png
             |-- 20.webp
-            |-- 21.png
             |-- 21.webp
-            |-- 22.png
             |-- 22.webp
-            |-- 23.png
             |-- 23.webp
-            |-- 24.png
             |-- 24.webp
-            |-- 25.png
             |-- 25.webp
-            |-- 26.png
             |-- 26.webp
-            |-- 27.png
             |-- 27.webp
-            |-- 28.png
             |-- 28.webp
-            |-- 29.png
             |-- 29.webp
-            |-- 3.png
             |-- 3.webp
-            |-- 30.png
             |-- 30.webp
-            |-- 31.png
             |-- 31.webp
-            |-- 32.png
             |-- 32.webp
-            |-- 33.png
             |-- 33.webp
-            |-- 34.png
             |-- 34.webp
-            |-- 35.png
             |-- 35.webp
-            |-- 36.png
             |-- 36.webp
-            |-- 37.png
             |-- 37.webp
-            |-- 38.png
             |-- 38.webp
-            |-- 39.png
             |-- 39.webp
-            |-- 4.png
             |-- 4.webp
-            |-- 40.png
             |-- 40.webp
-            |-- 41.png
             |-- 41.webp
-            |-- 42.png
             |-- 42.webp
-            |-- 43.png
             |-- 43.webp
-            |-- 44.png
             |-- 44.webp
-            |-- 45.png
             |-- 45.webp
-            |-- 46.png
             |-- 46.webp
-            |-- 47.png
             |-- 47.webp
-            |-- 48.png
             |-- 48.webp
-            |-- 49.png
             |-- 49.webp
-            |-- 5.png
             |-- 5.webp
-            |-- 50.png
             |-- 50.webp
-            |-- 51.png
             |-- 51.webp
-            |-- 52.png
             |-- 52.webp
-            |-- 53.png
             |-- 53.webp
-            |-- 54.png
             |-- 54.webp
-            |-- 55.png
             |-- 55.webp
-            |-- 56.png
             |-- 56.webp
-            |-- 57.png
             |-- 57.webp
-            |-- 58.png
             |-- 58.webp
-            |-- 59.png
             |-- 59.webp
-            |-- 6.png
             |-- 6.webp
-            |-- 60.png
             |-- 60.webp
-            |-- 61.png
             |-- 61.webp
-            |-- 62.png
             |-- 62.webp
-            |-- 63.png
             |-- 63.webp
-            |-- 64.png
             |-- 64.webp
-            |-- 65.png
             |-- 65.webp
-            |-- 66.png
             |-- 66.webp
-            |-- 67.png
             |-- 67.webp
-            |-- 68.png
             |-- 68.webp
-            |-- 69.png
             |-- 69.webp
-            |-- 7.png
             |-- 7.webp
-            |-- 70.png
             |-- 70.webp
-            |-- 71.png
             |-- 71.webp
-            |-- 8.png
             |-- 8.webp
-            |-- 9.png
             |-- 9.webp
-            |-- mr_bean.png
             |-- mr_bean.webp
-        |-- tabletennisprofile.png
         |-- tabletennisprofile.webp
         |-- testimonials
-            |-- akshay.jpg
             |-- akshay.webp
-            |-- alexander.jpg
             |-- alexander.webp
-            |-- andrea.jpg
             |-- andrea.webp
-            |-- anup.jpg
             |-- anup.webp
-            |-- ashwini.jpg
             |-- ashwini.webp
-            |-- deepak.jpg
             |-- deepak.webp
-            |-- edgar.jpg
             |-- edgar.webp
-            |-- jakob.jpg
             |-- jakob.webp
-            |-- neeranjan.jpg
             |-- neeranjan.webp
-            |-- selin.jpg
             |-- selin.webp
         |-- undraw_docusaurus_mountain.svg
         |-- undraw_docusaurus_react.svg
         |-- undraw_docusaurus_tree.svg
-        |-- workoutprofile.png
         |-- workoutprofile.webp
 |-- tailwind.config.js
 |-- tsconfig.json

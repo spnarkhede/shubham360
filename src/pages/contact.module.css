@@ -14,68 +14,28 @@
   color: var(--ifm-color-content-secondary);
 }
 
+/* Two-column layout */
+.contactLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.contactFormColumn {
+  order: 1;
+}
+
+.contactInfoColumn {
+  order: 2;
+}
+
 /* Availability Section */
 .availabilitySection {
   background: var(--ifm-background-color);
   border: 2px solid var(--ifm-color-success-lighter);
   border-radius: 12px;
   padding: 2rem;
-  margin-bottom: 2rem;
-}
-
-.availabilityHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.availabilityStatus {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.statusIndicator {
-  width: 12px;
-  height: 12px;
-  background: var(--ifm-color-success);
-  border-radius: 50%;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.availabilityStatus h3 {
-  margin: 0;
-  color: var(--ifm-color-success-darker);
-  font-size: 1.2rem;
-}
-
-.availabilityMeta {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.timeZone {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--ifm-color-emphasis-700);
-  font-size: 0.9rem;
 }
 
 .availabilityDetails ul {
@@ -89,6 +49,20 @@
   line-height: 1.5;
 }
 
+.availabilityMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.timeZone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+}
+
 .responseTime {
   margin: 0;
   padding: 1rem;
@@ -98,24 +72,24 @@
   color: var(--ifm-color-content-secondary);
 }
 
-/* Contact Methods Grid */
-.contactMethodsGrid {
+/* Contact Methods List */
+.contactMethodsList {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
 }
 
-.contactMethodCard {
+.contactMethodItem {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
   background: var(--ifm-background-color);
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 12px;
-  padding: 1.5rem;
   transition: all 0.3s ease;
-  display: flex;
-  gap: 1rem;
 }
 
-.contactMethodCard:hover {
+.contactMethodItem:hover {
   border-color: var(--ifm-color-primary-lighter);
   box-shadow: var(--ifm-global-shadow-md);
   transform: translateY(-2px);
@@ -127,10 +101,13 @@
   justify-content: center;
   width: 48px;
   height: 48px;
-  background: var(--ifm-color-primary-lightest);
-  color: var(--ifm-color-primary);
-  border-radius: 50%;
   flex-shrink: 0;
+}
+
+.contactMethodIconImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .contactMethodContent {
@@ -157,41 +134,65 @@
   text-decoration: underline;
 }
 
-.contactMethodDescription {
-  margin: 0;
+/* Social Media Grid */
+.socialMediaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.socialMediaCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: all 0.3s ease;
+}
+
+.socialMediaCard:hover {
+  border-color: var(--ifm-color-primary-lighter);
+  box-shadow: var(--ifm-global-shadow-md);
+  transform: translateY(-2px);
+}
+
+.socialMediaIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.socialMediaIconImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.socialMediaContent {
+  flex: 1;
+}
+
+.socialMediaName {
+  margin: 0 0 0.25rem 0;
   font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-content);
+}
+
+.socialMediaUsername {
+  margin: 0;
+  font-size: 0.8rem;
   color: var(--ifm-color-content-secondary);
-  line-height: 1.4;
 }
 
 /* Contact Form Section */
-.contactFormSection {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.formIntroduction {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.formIntroduction p {
-  margin-bottom: 1rem;
-  color: var(--ifm-color-content-secondary);
-}
-
-.formGuidelines {
-  text-align: left;
-  display: inline-block;
-  padding-left: 1.5rem;
-  color: var(--ifm-color-content-secondary);
-}
-
-.formGuidelines li {
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
-}
-
 .contactFormContainer {
   background: var(--ifm-background-color);
   border: 1px solid var(--ifm-color-emphasis-300);
@@ -242,19 +243,39 @@
 }
 
 /* Responsive Design - Contact */
-@media (max-width: 768px) {
-  .contactMethodsGrid {
+@media (max-width: 996px) {
+  .contactLayout {
     grid-template-columns: 1fr;
   }
   
-  .contactMethodCard {
-    flex-direction: column;
-    text-align: center;
+  .contactFormColumn {
+    order: 2;
   }
   
-  .availabilityHeader {
-    flex-direction: column;
-    align-items: flex-start;
+  .contactInfoColumn {
+    order: 1;
+  }
+  
+  .socialMediaGrid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .contactIntro {
+    padding: 1.5rem;
+  }
+  
+  .contactLayout {
+    gap: 1.5rem;
+  }
+  
+  .socialMediaGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contactMethodsList {
+    grid-template-columns: 1fr;
   }
   
   .quickActionsGrid {

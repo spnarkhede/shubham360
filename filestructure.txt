@@ -89,15 +89,51 @@
                 |-- category-languages-462.json
                 |-- de-category-languages-fba.json
                 |-- de-f9d.json
+                |-- de-tags-ai-26a.json
+                |-- de-tags-ais-605.json
+                |-- de-tags-android-52c.json
                 |-- de-tags-angular-5cd.json
+                |-- de-tags-automation-11b.json
                 |-- de-tags-b38.json
                 |-- de-tags-book-661.json
                 |-- de-tags-bootstrap-48a.json
+                |-- de-tags-bots-599.json
+                |-- de-tags-chatbot-7d3.json
+                |-- de-tags-cicd-41f.json
+                |-- de-tags-config-b7b.json
                 |-- de-tags-css-fc2.json
+                |-- de-tags-data-engineering-676.json
+                |-- de-tags-data-science-41a.json
+                |-- de-tags-databricks-826.json
+                |-- de-tags-deployment-02d.json
+                |-- de-tags-development-bbc.json
+                |-- de-tags-devops-6cc.json
+                |-- de-tags-format-839.json
+                |-- de-tags-generative-ai-3b8.json
+                |-- de-tags-hyperautomation-d0a.json
+                |-- de-tags-idp-c1b.json
+                |-- de-tags-interpret-9e8.json
+                |-- de-tags-jetbrains-0cd.json
+                |-- de-tags-jvm-d86.json
+                |-- de-tags-kotlin-cf9.json
+                |-- de-tags-lakehouse-b93.json
                 |-- de-tags-learnings-167.json
+                |-- de-tags-list-977.json
+                |-- de-tags-llm-c8d.json
+                |-- de-tags-lowcode-1ff.json
+                |-- de-tags-machine-learning-c39.json
                 |-- de-tags-mindset-8b6.json
+                |-- de-tags-nlp-091.json
+                |-- de-tags-nocode-01c.json
+                |-- de-tags-pipeline-bac.json
+                |-- de-tags-programming-c7a.json
+                |-- de-tags-resources-243.json
+                |-- de-tags-rpa-6d2.json
+                |-- de-tags-script-947.json
                 |-- de-tags-strategic-15d.json
+                |-- de-tags-tools-c6b.json
                 |-- de-tags-web-10d.json
+                |-- de-tags-workflow-f02.json
                 |-- index-466.json
                 |-- tags-ai-7df.json
                 |-- tags-ais-59b.json
@@ -2063,62 +2099,6 @@
         |-- profilepic.webp
         |-- profilesquare.webp
         |-- readerprofile.webp
-        |-- single_image_backup
-            |-- carelessPeople.webp
-            |-- concise48LawsOfPower.webp
-            |-- conciseArtOfSeduction.webp
-            |-- crucialConversations.webp
-            |-- economics101.webp
-            |-- hindusInHinduRashtra.webp
-            |-- howToWinFriends.webp
-            |-- investing101.webp
-            |-- invisibleWomen.webp
-            |-- kautileeyaArthshastra.webp
-            |-- lean-startup.webp
-            |-- masterYourBeliefs.webp
-            |-- masterYourDestiny.webp
-            |-- masterYourThinking.webp
-            |-- mindset.webp
-            |-- moneyworks.webp
-            |-- neverSplitTheDifference.webp
-            |-- oneline10.webp
-            |-- oneline11.webp
-            |-- oneline12.webp
-            |-- oneline13.webp
-            |-- oneline14.webp
-            |-- oneline15.webp
-            |-- oneline16.webp
-            |-- oneline17.webp
-            |-- oneline18.webp
-            |-- oneline19.webp
-            |-- oneline20.webp
-            |-- oneline21.webp
-            |-- oneline22.webp
-            |-- oneline23.webp
-            |-- oneline24.webp
-            |-- oneline25.webp
-            |-- oneline26.webp
-            |-- oneline27.webp
-            |-- oneline28.webp
-            |-- oneline29.webp
-            |-- oneline30.webp
-            |-- oneline31.webp
-            |-- oneline32.webp
-            |-- oneline6.webp
-            |-- oneline7.webp
-            |-- oneline8.webp
-            |-- oneline9.webp
-            |-- power-of-habit.webp
-            |-- sapiens.webp
-            |-- semenRetentionMiracles.webp
-            |-- shoe-dog.webp
-            |-- start-with-why.webp
-            |-- surroundedByLiars.webp
-            |-- surroundedBySetbacks.webp
-            |-- teamTopologies.webp
-            |-- thanksForFeedback.webp
-            |-- thinking-fast-slow.webp
-            |-- vaidikDincharya.webp
         |-- sketches
             |-- 10.webp
             |-- 11.webp
@@ -2191,6 +2171,24 @@
             |-- 8.webp
             |-- 9.webp
             |-- mr_bean.webp
+        |-- social
+            |-- email.svg
+            |-- facebook.svg
+            |-- facebook_circle.svg
+            |-- github.svg
+            |-- instagram.svg
+            |-- linkedin.svg
+            |-- location.svg
+            |-- medium.svg
+            |-- phone.svg
+            |-- reddit.svg
+            |-- spotify.svg
+            |-- stackoverflow.svg
+            |-- telegram.svg
+            |-- tiktok.svg
+            |-- twitter.svg
+            |-- website.svg
+            |-- youtube.svg
         |-- tabletennisprofile.webp
         |-- testimonials
             |-- akshay.webp

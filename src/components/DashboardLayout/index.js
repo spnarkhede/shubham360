@@ -109,7 +109,7 @@ const DashboardLayout = ({
             {roleConfig.tabs && roleConfig.tabs.map((tab) => (
               <Link
                 key={tab.id}
-                to={`/${role}/${tab.id}`}
+                to={tab.path || `/${role}/${tab.id}`}
                 className={clsx(
                   styles.dashboardNavItem,
                   activeTab === tab.id && styles.activeNavItem

@@ -277,7 +277,7 @@ export default function RecruitmentSpecialistRecommendations() {
           Additional professional references are available upon request. These include former managers, 
           colleagues, and clients who can speak to my technical abilities, work ethic, and collaborative approach.
         </p>
-        <a href="/recruitment-specialist/contact" className={styles.referencesButton}>
+        <a href="/contact" className={styles.referencesButton}>
           Request References
         </a>
       </SectionTemplate>

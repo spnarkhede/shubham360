@@ -117,7 +117,7 @@ export default function RecruitmentSpecialistContinueWatching() {
     {
       title: 'Contact Information',
       description: 'Get in touch for opportunities or questions',
-      url: '/recruitment-specialist/contact',
+      url: '/contact',
       icon: <ExternalLink size={20} />
     },
     {

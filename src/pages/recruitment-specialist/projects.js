@@ -302,7 +302,7 @@ export default function RecruitmentSpecialistProjects() {
           </p>
           <div className={styles.exploreMoreButtons}>
             <Link 
-              to="/recruitment-specialist/contact" 
+              to="/contact" 
               className={styles.primaryButton}
             >
               Contact Me

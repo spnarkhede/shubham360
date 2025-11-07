@@ -1646,12 +1646,12 @@
             |-- vaidik-dincharya-rituals.js
         |-- books.js
         |-- contact.js
+        |-- contact.module.css
         |-- curious-visitor
             |-- books.js
             |-- components
                 |-- PersonalityChart.js
                 |-- PersonalityChart.module.css
-            |-- contact.js
             |-- creativity.js
             |-- index.js
             |-- introduction.js
@@ -1661,7 +1661,6 @@
             |-- wellness.js
         |-- docusaurus.module.css
         |-- growth-partner
-            |-- contact.js
             |-- index.js
             |-- introduction.js
             |-- styles.module.css
@@ -1686,7 +1685,6 @@
                 |-- user-research.md
             |-- case-studies.js
             |-- certificates.js
-            |-- contact.js
             |-- design-blog.js
             |-- design-learning.js
             |-- design-philosophy.js
@@ -1700,7 +1698,6 @@
             |-- components
                 |-- ProfessionalTimeline.js
                 |-- ProfessionalTimeline.module.css
-            |-- contact.js
             |-- continue-watching.js
             |-- experience.js
             |-- index.js
@@ -1712,7 +1709,6 @@
             |-- styles.module.css
         |-- role-pages.module.css
         |-- tech-enthusiast
-            |-- contact.js
             |-- index.js
             |-- introduction.js
             |-- styles.module.css

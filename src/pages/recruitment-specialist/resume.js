@@ -116,7 +116,7 @@ export default function RecruitmentSpecialistResume() {
                 For any specific questions regarding my work authorization or to request verification documents,
                 please contact me directly.
               </p>
-              <a href="/recruitment-specialist/contact" className={styles.contactCtaButton}>
+              <a href="/contact" className={styles.contactCtaButton}>
                 Contact Me
               </a>
             </div>

@@ -75,7 +75,7 @@ export default function RecruitmentSpecialistIntroduction() {
                 View Resume
                 <ArrowRight size={16} />
               </Link>
-              <Link to="/recruitment-specialist/contact" className={styles.secondaryButton}>
+              <Link to="/contact" className={styles.secondaryButton}>
                 Contact Me
               </Link>
             </div>

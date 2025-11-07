@@ -90,12 +90,34 @@ const technicalLearningsData = [
     usedInProjects: true
   },
   {
+    id: 'ci-cd',
+    title: 'CI/CD',
+    description: 'Continuous Integration and Continuous Deployment practices for automating software delivery pipelines, testing, and deployment processes.',
+    icon: <GitBranch size={32} />,
+    category: 'DevOps',
+    tags: ['CI/CD', 'DevOps', 'Automation', 'Deployment'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'css',
     title: 'CSS',
     description: 'Modern CSS techniques - Flexbox, Grid, animations, and responsive design patterns.',
     icon: <Palette size={32} />,
     category: 'Frontend',
     tags: ['CSS', 'Styling', 'Responsive Design', 'Animations'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
+    id: 'databricks',
+    title: 'Databricks',
+    description: 'Unified analytics platform for big data processing, machine learning, and collaborative data science workflows.',
+    icon: <Database size={32} />,
+    category: 'Data Science',
+    tags: ['Databricks', 'Big Data', 'Analytics', 'Machine Learning'],
     recommended: true,
     free: true,
     usedInProjects: true
@@ -286,6 +308,17 @@ const technicalLearningsData = [
     recommended: true,
     free: true,
     usedInProjects: true
+  },
+  {
+    id: 'yaml',
+    title: 'YAML',
+    description: 'Human-readable data serialization standard for configuration files and data exchange between languages with different data structures.',
+    icon: <FileText size={32} />,
+    category: 'Configuration',
+    tags: ['YAML', 'Configuration', 'Data Serialization', 'DevOps'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
   }
 ];
 
@@ -298,6 +331,8 @@ const LearningCard = ({ learning }) => {
     // Map each technology to its documentation folder path
     const documentationFolderMap = {
       'chatbots-idp': '/ComputerScience/Hyperautomation/Chatbots & IDP/Chatbots_IDP',
+      'ci-cd': '/ComputerScience/DevOpsTools/CICD/CICDGuide',
+      'databricks': '/ComputerScience/Programming/Databricks/Databricks',
       'generative-ai-hyperautomation': '/ComputerScience/Hyperautomation/Generative AI/GenAIIntroduction',
       'hyperautomation': '/ComputerScience/Hyperautomation/Hyper Automation/HyperAutomation',
       'low-code-no-code': '/ComputerScience/Hyperautomation/Low Code_No Code/LowCodeNoCode',
@@ -321,6 +356,7 @@ const LearningCard = ({ learning }) => {
       'kubernetes': '/ComputerScience/DevOpsTools/Kubernetes/KubernetesBasicNotes',
       'php': '/ComputerScience/Programming/PHP/PHPBasicNotes',
       'python': '/ComputerScience/Programming/Python/PythonBasicNotes',
+      'yaml': '/ComputerScience/DevOpsTools/YAML/YAMLGuide',
       // 'typescript': '/ComputerScience/Programming/TypeScript/',
       // 'react': '/ComputerScience/Frontend/React/',
       // 'nodejs': '/ComputerScience/Backend/NodeJS/'

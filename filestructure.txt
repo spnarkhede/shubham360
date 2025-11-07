@@ -101,6 +101,7 @@
                 |-- index-466.json
                 |-- tags-ai-7df.json
                 |-- tags-ais-59b.json
+                |-- tags-android-7a7.json
                 |-- tags-angular-455.json
                 |-- tags-automation-2fd.json
                 |-- tags-b9f.json
@@ -108,17 +109,23 @@
                 |-- tags-bootstrap-c6b.json
                 |-- tags-bots-b38.json
                 |-- tags-chatbot-8ff.json
+                |-- tags-cicd-738.json
                 |-- tags-config-982.json
                 |-- tags-css-369.json
                 |-- tags-data-engineering-ed1.json
                 |-- tags-data-science-fbd.json
                 |-- tags-databricks-21c.json
+                |-- tags-deployment-56b.json
                 |-- tags-development-db1.json
+                |-- tags-devops-687.json
                 |-- tags-format-a76.json
                 |-- tags-generative-ai-e54.json
                 |-- tags-hyperautomation-53a.json
                 |-- tags-idp-474.json
                 |-- tags-interpret-a81.json
+                |-- tags-jetbrains-94f.json
+                |-- tags-jvm-410.json
+                |-- tags-kotlin-c14.json
                 |-- tags-lakehouse-54a.json
                 |-- tags-learnings-cda.json
                 |-- tags-list-b03.json
@@ -128,6 +135,8 @@
                 |-- tags-mindset-df1.json
                 |-- tags-nlp-c3f.json
                 |-- tags-nocode-cb4.json
+                |-- tags-pipeline-d47.json
+                |-- tags-programming-c39.json
                 |-- tags-resources-330.json
                 |-- tags-rpa-ab4.json
                 |-- tags-script-ac1.json
@@ -144,6 +153,8 @@
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
             |-- site-docs-computer-science-hyperautomation-chatbots-idp-chatbots-idp-md-871.json
+            |-- site-docs-computer-science-hyperautomation-ci-cd-cicd-guide-md-363.json
+            |-- site-docs-computer-science-hyperautomation-ci-cd-cicd-md-5a2.json
             |-- site-docs-computer-science-hyperautomation-generative-ai-gen-ai-introduction-md-0a4.json
             |-- site-docs-computer-science-hyperautomation-generative-ai-gen-ai-introduction-md-b00.json
             |-- site-docs-computer-science-hyperautomation-hyper-automation-hyper-automation-md-818.json
@@ -155,11 +166,13 @@
             |-- site-docs-computer-science-index-md-d29.json
             |-- site-docs-computer-science-programming-databricks-databricks-md-f35.json
             |-- site-docs-computer-science-programming-git-git-basic-notes-md-315.json
+            |-- site-docs-computer-science-programming-kotlin-kotlin-basic-notes-md-07c.json
             |-- site-docs-computer-science-programming-kotlin-kotlin-md-ec6.json
             |-- site-docs-computer-science-programming-nvm-nvm-user-guide-md-879.json
             |-- site-docs-computer-science-programming-python-python-basic-notes-md-684.json
             |-- site-docs-computer-science-programming-vim-vim-basic-notes-md-da8.json
             |-- site-docs-computer-science-programming-vim-vim-cheat-sheet-md-4a6.json
+            |-- site-docs-computer-science-programming-yaml-yaml-guide-md-99a.json
             |-- site-docs-computer-science-programming-yaml-yaml-md-c47.json
             |-- site-docs-computer-science-web-technologies-angular-angular-basic-notes-md-08d.json
             |-- site-docs-computer-science-web-technologies-css-bootstrap-basic-notes-md-394.json
@@ -734,6 +747,8 @@
         |-- Hyperautomation
             |-- Chatbots & IDP
                 |-- Chatbots_IDP.md
+            |-- CI_CD
+                |-- CICDGuide.md
             |-- Generative AI
                 |-- GenAIIntroduction.md
             |-- Hyper Automation
@@ -777,7 +792,7 @@
                     |-- kotlin_comparison.png
                     |-- kotlin_coroutines.png
                     |-- kotlin_ecosystem.png
-                |-- Kotlin.md
+                |-- KotlinBasicNotes.md
             |-- Nvm
                 |-- NvmUserGuide.md
             |-- Python
@@ -786,7 +801,7 @@
                 |-- VimBasicNotes.md
                 |-- VimCheatSheet.md
             |-- Yaml
-                |-- Yaml.md
+                |-- YAMLGuide.md
             |-- _category_.json
         |-- WebTechnologies
             |-- Angular

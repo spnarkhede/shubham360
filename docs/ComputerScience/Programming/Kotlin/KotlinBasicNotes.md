@@ -1,3 +1,26 @@
+---
+title: Kotlin
+date: 2025-11-06 11:45:00
+background: bg-[#7f52ff]
+tags:
+  - kotlin
+  - android
+  - programming
+  - jetbrains
+  - jvm
+categories:
+  - Programming
+intro: |
+  **Kotlin** is a modern, statically typed programming language developed by **JetBrains**, designed to run on the **Java Virtual Machine (JVM)**.  
+  It offers **concise syntax**, **null safety**, **coroutines**, and full **interoperability with Java**, making it a preferred language for **Android app development** and **server-side applications**.  
+  Kotlin enhances developer productivity with expressive features, type inference, and clean code structures — combining the safety of static typing with the elegance of modern language design.  
+  Its growing ecosystem, seamless IDE support, and multiplatform capabilities make Kotlin one of the most powerful languages for today’s development landscape.
+plugins:
+  - copyCode
+  - runCode
+---
+
+
 ### Kotlin – Complete Learning Guide for Full-Stack Development & Hyperautomation
 
 **Kotlin is a modern, statically-typed programming language developed by JetBrains (creators of IntelliJ IDEA) that runs on the Java Virtual Machine (JVM), enabling developers to write expressive, concise code with superior null safety, powerful functional programming capabilities, and native support for asynchronous programming through coroutines.** Officially adopted by Google as the preferred language for Android development in 2019, Kotlin has evolved into a full-stack development platform enabling everything from Android and iOS mobile apps to cloud-native microservices to desktop and web applications—all using a single language and shared code.[1][2][3][4][5][6]

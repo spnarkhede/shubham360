@@ -2017,6 +2017,25 @@
         |-- docusaurus-social-card.webp
         |-- docusaurus.webp
         |-- favicon.ico
+        |-- ganpati
+            |-- 2019
+                |-- 2019ganpati1.webp
+                |-- 2019ganpati2.webp
+                |-- 2019ganpati3.webp
+                |-- 2019ganpati4.webp
+            |-- 2022
+                |-- 2022ganpati1.webp
+                |-- 2022ganpati2.webp
+                |-- 2022ganpati3.webp
+                |-- 2022ganpati4.webp
+                |-- 2022ganpati5.webp
+                |-- 2022ganpati6.webp
+            |-- 2024
+                |-- 2024ganpati1.webp
+                |-- 2024ganpati2.webp
+                |-- 2024ganpati3.webp
+                |-- 2024ganpati4.webp
+            |-- 2025
         |-- handpanprofile.webp
         |-- landingprofile.png
         |-- landingprofile.webp

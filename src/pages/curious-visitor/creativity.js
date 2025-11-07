@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
-import { Palette, Brush, Pen, Image, ZoomIn } from 'lucide-react';
+import { Brush, Pen, Image, Calendar, ZoomIn } from 'lucide-react';
 
 export default function CuriousVisitorCreativity() {
   const [activeTab, setActiveTab] = useState('sketches');
@@ -12,7 +12,9 @@ export default function CuriousVisitorCreativity() {
   const tabs = [
     { id: 'sketches', label: 'Sketches', icon: Pen },
     { id: 'painting', label: 'Painting', icon: Brush },
-    { id: 'onelineart', label: 'One Line Art', icon: Image }
+    { id: 'onelineart', label: 'One Line Art', icon: Image },
+    // { id: 'artdecoration', label: 'Art Decoration', icon: Home },
+    { id: 'ganpati', label: 'Ganpati Competition', icon: Calendar }
   ];
 
   // Sample gallery data - you can replace this with actual data
@@ -176,7 +178,47 @@ export default function CuriousVisitorCreativity() {
       // { id: 48, src: '/img/linearts/oneline48.webp', alt: 'One Line Art 48', title: '' },
       // { id: 49, src: '/img/linearts/oneline49.webp', alt: 'One Line Art 49', title: '' },
       // { id: 50, src: '/img/linearts/oneline50.webp', alt: 'One Line Art 50', title: '' }
-    ]
+    ],
+    artdecoration: [
+      { id: 1, src: '/img/portfolio/ecommerce-dashboard.webp', alt: 'Art Decoration 1', title: 'Home Decor Concept' },
+      { id: 2, src: '/img/portfolio/design-system.webp', alt: 'Art Decoration 2', title: 'Interior Design Sketch' },
+      { id: 3, src: '/img/portfolio/healthcare.webp', alt: 'Art Decoration 3', title: 'Wall Art Design' },
+      { id: 4, src: '/img/portfolio/carsmobile-app.webp', alt: 'Art Decoration 4', title: 'Modern Decor' }
+    ],
+    ganpati: {
+      // '2025': [
+      //   { id: 1, src: '/img/ganpati/2025/2025ganpati1.webp', alt: 'Ganpati 2025 - Image 1', title: 'Ganpati 2025 - Image 1' },
+      //   { id: 2, src: '/img/ganpati/2025/2025ganpati2.webp', alt: 'Ganpati 2025 - Image 2', title: 'Ganpati 2025 - Image 2' },
+      //   { id: 3, src: '/img/ganpati/2025/2025ganpati3.webp', alt: 'Ganpati 2025 - Image 3', title: 'Ganpati 2025 - Image 3' },
+      //   { id: 4, src: '/img/ganpati/2025/2025ganpati4.webp', alt: 'Ganpati 2025 - Image 4', title: 'Ganpati 2025 - Image 4' }
+      // ],
+      '2024': [
+        { id: 1, src: '/img/ganpati/2024/2024ganpati1.webp', alt: 'Ganpati 2024 - Image 1', title: 'Ganpati 2024 - Image 1' },
+        { id: 2, src: '/img/ganpati/2024/2024ganpati2.webp', alt: 'Ganpati 2024 - Image 2', title: 'Ganpati 2024 - Image 2' },
+        { id: 3, src: '/img/ganpati/2024/2024ganpati3.webp', alt: 'Ganpati 2024 - Image 3', title: 'Ganpati 2024 - Image 3' },
+        { id: 4, src: '/img/ganpati/2024/2024ganpati4.webp', alt: 'Ganpati 2024 - Image 4', title: 'Ganpati 2024 - Image 4' }
+      ],
+      // '2023': [
+      //   { id: 1, src: '/img/ganpati/2023/2023ganpati1.webp', alt: 'Ganpati 2023 - Image 1', title: 'Ganpati 2023 - Image 1' },
+      //   { id: 2, src: '/img/ganpati/2023/2023ganpati2.webp', alt: 'Ganpati 2023 - Image 2', title: 'Ganpati 2023 - Image 2' },
+      //   { id: 3, src: '/img/ganpati/2023/2023ganpati3.webp', alt: 'Ganpati 2023 - Image 3', title: 'Ganpati 2023 - Image 3' },
+      //   { id: 4, src: '/img/ganpati/2023/2023ganpati4.webp', alt: 'Ganpati 2023 - Image 4', title: 'Ganpati 2023 - Image 4' },
+      // ],
+      '2022': [
+        { id: 1, src: '/img/ganpati/2022/2022ganpati1.webp', alt: 'Ganpati 2022 - Image 1', title: 'Ganpati 2022 - Image 1' },
+        { id: 2, src: '/img/ganpati/2022/2022ganpati2.webp', alt: 'Ganpati 2022 - Image 2', title: 'Ganpati 2022 - Image 2' },
+        { id: 3, src: '/img/ganpati/2022/2022ganpati3.webp', alt: 'Ganpati 2022 - Image 3', title: 'Ganpati 2022 - Image 3' },
+        { id: 4, src: '/img/ganpati/2022/2022ganpati4.webp', alt: 'Ganpati 2022 - Image 4', title: 'Ganpati 2022 - Image 4' },
+        { id: 5, src: '/img/ganpati/2022/2022ganpati5.webp', alt: 'Ganpati 2022 - Image 5', title: 'Ganpati 2022 - Image 5' },
+        { id: 6, src: '/img/ganpati/2022/2022ganpati6.webp', alt: 'Ganpati 2022 - Image 6', title: 'Ganpati 2022 - Image 6' }
+      ],
+      '2019': [
+        { id: 1, src: '/img/ganpati/2019/2019ganpati1.webp', alt: 'Ganpati 2019 - Image 1', title: 'Ganpati 2019 - Image 1' },
+        { id: 2, src: '/img/ganpati/2019/2019ganpati2.webp', alt: 'Ganpati 2019 - Image 2', title: 'Ganpati 2019 - Image 2' },
+        { id: 3, src: '/img/ganpati/2019/2019ganpati3.webp', alt: 'Ganpati 2019 - Image 3', title: 'Ganpati 2019 - Image 3' },
+        { id: 4, src: '/img/ganpati/2019/2019ganpati4.webp', alt: 'Ganpati 2019 - Image 4', title: 'Ganpati 2019 - Image 4' }
+      ]
+    }
   };
 
   // Function to open modal with image
@@ -331,6 +373,106 @@ export default function CuriousVisitorCreativity() {
                 </div>
               ))}
             </div>
+          </SectionTemplate>
+        )}
+
+        {/* Art Decoration Tab */}
+        {activeTab === 'artdecoration' && (
+          <SectionTemplate
+            title="Art Decoration"
+            subtitle="Creative concepts for home and space decoration"
+          >
+            <div className={styles.galleryGrid}>
+              {galleryData['artdecoration'].map((item) => (
+                <div 
+                  key={item.id} 
+                  className={styles.galleryItem}
+                  onClick={() => openModal(item)}
+                >
+                  <img 
+                    src={item.src} 
+                    alt={item.alt} 
+                    className={styles.galleryImage}
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      e.target.src = "/img/default-art.webp";
+                    }}
+                  />
+                  <div className={styles.galleryPopupIcon}>
+                    <ZoomIn size={16} />
+                  </div>
+                  <div className={styles.galleryOverlay}>
+                    <h3 className={styles.galleryItemTitle}>{item.title}</h3>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </SectionTemplate>
+        )}
+
+        {/* Ganpati Competition Tab */}
+        {activeTab === 'ganpati' && (
+          <SectionTemplate
+            title="Ganpati Decoration Competition -  Ganpati.TV"
+            subtitle={
+              <span>
+                Pictures and decoration ideas from the{' '}
+                <a 
+                  href="https://www.ganpati.tv/shubham-narkhede-8026653/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--ifm-color-primary)', textDecoration: 'underline' }}
+                >
+                  Live Ganpati.TV
+                </a>{' '}
+                competition every year. Helpful for others to follow for the next year.
+              </span>
+            }
+          >
+            {/* Dynamic Year Sections */}
+            {Object.keys(galleryData.ganpati)
+              .sort((a, b) => b - a) // Sort years in descending order
+              .map((year) => {
+                // Check if the year data exists and is an array
+                const yearData = galleryData.ganpati[year];
+                if (!yearData || !Array.isArray(yearData)) {
+                  return null; // Skip if data is missing or not an array
+                }
+                
+                return (
+                  <SectionTemplate
+                    key={year}
+                    title={year}
+                    subtitle="Ganpati Competition Images"
+                  >
+                    <div className={styles.galleryGrid}>
+                      {yearData.map((item) => (
+                        <div 
+                          key={item.id} 
+                          className={styles.galleryItem}
+                          onClick={() => openModal(item)}
+                        >
+                          <img 
+                            src={item.src} 
+                            alt={item.alt} 
+                            className={styles.galleryImage}
+                            onError={(e) => {
+                              e.target.onerror = null;
+                              e.target.src = "/img/default-art.webp";
+                            }}
+                          />
+                          <div className={styles.galleryPopupIcon}>
+                            <ZoomIn size={16} />
+                          </div>
+                          <div className={styles.galleryOverlay}>
+                            <h3 className={styles.galleryItemTitle}>{item.title}</h3>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </SectionTemplate>
+                );
+              })}
           </SectionTemplate>
         )}
       </div>

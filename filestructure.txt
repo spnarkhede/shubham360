@@ -733,6 +733,8 @@
     |-- routesChunkNames.json
     |-- site-metadata.json
     |-- site-storage.json
+|-- .env
+|-- .env.example
 |-- .gitignore
 |-- 1. RecruiterCuratedData.md
 |-- 2. TechEnthusiast.md

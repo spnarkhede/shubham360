@@ -61,6 +61,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .formLabel {
@@ -183,6 +184,65 @@
   margin: 1rem 0 0 0;
 }
 
+/* Simple form styles */
+.simpleForm {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: var(--ifm-card-background-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.simpleForm .formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.simpleForm .formInput,
+.simpleForm .formTextarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-emphasis-900);
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.simpleForm .formInput:focus,
+.simpleForm .formTextarea:focus {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px var(--ifm-color-primary-lighter);
+}
+
+.simpleForm .formTextarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.simpleForm .submitButton {
+  padding: 1rem 2rem;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.simpleForm .submitButton:hover {
+  background-color: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 /* Success Message Styles */
 .successMessage {
   max-width: 500px;
@@ -252,6 +312,11 @@
     margin: 0 1rem;
     padding: 2rem 1.5rem;
   }
+  
+  .simpleForm {
+    padding: 1.5rem;
+    margin: 0 1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -270,21 +335,42 @@
     padding: 0.875rem 1.5rem;
     font-size: 0.875rem;
   }
+  
+  .simpleForm {
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .simpleForm .formInput,
+  .simpleForm .formTextarea {
+    padding: 0.625rem 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .simpleForm .submitButton {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.875rem;
+  }
 }
 
 /* Dark Mode Adjustments */
 html[data-theme='dark'] .contactForm,
-html[data-theme='dark'] .successMessage {
+html[data-theme='dark'] .successMessage,
+html[data-theme='dark'] .simpleForm {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 html[data-theme='dark'] .formInput,
-html[data-theme='dark'] .formTextarea {
+html[data-theme='dark'] .formTextarea,
+html[data-theme='dark'] .simpleForm .formInput,
+html[data-theme='dark'] .simpleForm .formTextarea {
   background-color: var(--ifm-color-emphasis-100);
 }
 
 html[data-theme='dark'] .formInput:focus,
-html[data-theme='dark'] .formTextarea:focus {
+html[data-theme='dark'] .formTextarea:focus,
+html[data-theme='dark'] .simpleForm .formInput:focus,
+html[data-theme='dark'] .simpleForm .formTextarea:focus {
   background-color: var(--ifm-background-color);
 }
 

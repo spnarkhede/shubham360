@@ -69,7 +69,7 @@ export default function Contact() {
     {
       name: "Stack Overflow",
       username: "@spnarkhede",
-      link: "https://stackoverflow.com/users/spnarkhede",
+      link: "https://stackoverflow.com/users/22744195/spnarkhede",
       icon: "/img/social/stackoverflow.svg"
     }
   ];

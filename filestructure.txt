@@ -87,6 +87,7 @@
         |-- default
             |-- p
                 |-- category-languages-462.json
+                |-- category-prompt-engineering-b56.json
                 |-- de-category-languages-fba.json
                 |-- de-f9d.json
                 |-- de-tags-ai-26a.json
@@ -144,6 +145,7 @@
                 |-- tags-book-6d4.json
                 |-- tags-bootstrap-c6b.json
                 |-- tags-bots-b38.json
+                |-- tags-career-56c.json
                 |-- tags-chatbot-8ff.json
                 |-- tags-cicd-738.json
                 |-- tags-config-982.json
@@ -160,6 +162,7 @@
                 |-- tags-idp-474.json
                 |-- tags-interpret-a81.json
                 |-- tags-jetbrains-94f.json
+                |-- tags-job-search-b18.json
                 |-- tags-jvm-410.json
                 |-- tags-kotlin-c14.json
                 |-- tags-lakehouse-54a.json
@@ -173,7 +176,9 @@
                 |-- tags-nocode-cb4.json
                 |-- tags-pipeline-d47.json
                 |-- tags-programming-c39.json
+                |-- tags-prompts-443.json
                 |-- tags-resources-330.json
+                |-- tags-resume-52b.json
                 |-- tags-rpa-ab4.json
                 |-- tags-script-ac1.json
                 |-- tags-strategic-ea8.json
@@ -188,6 +193,7 @@
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-operations-md-c1b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
+            |-- site-docs-computer-science-hyperautomation-chatbots-idp-all-in-one-ai-md-77c.json
             |-- site-docs-computer-science-hyperautomation-chatbots-idp-chatbots-idp-md-871.json
             |-- site-docs-computer-science-hyperautomation-ci-cd-cicd-guide-md-363.json
             |-- site-docs-computer-science-hyperautomation-ci-cd-cicd-md-5a2.json
@@ -681,6 +687,9 @@
             |-- site-docs-my-learnings-hard-reset-90-days-hard-reset-md-26e.json
             |-- site-docs-my-learnings-hard-reset-life-formula-md-7a0.json
             |-- site-docs-portfolio-resume-md-906.json
+            |-- site-docs-prompt-engineering-all-in-one-ai-copy-md-0f8.json
+            |-- site-docs-prompt-engineering-all-in-one-ai-md-78d.json
+            |-- site-docs-prompt-engineering-job-search-md-d2f.json
             |-- site-docs-tools-collection-adblocking-privacy-md-a5f.json
             |-- site-docs-tools-collection-ai-directory-cheatsheets-md-173.json
             |-- site-docs-tools-collection-ai-directory-cheetsheets-md-db5.json
@@ -1438,6 +1447,13 @@
         |-- Resume.md
         |-- _category_.json
     |-- profilepic.webp
+    |-- PromptEngineering
+        |-- All-in-One-AI.json
+        |-- All-in-One-AI.md
+        |-- img
+            |-- coverlettersample.png
+        |-- JobSearch.md
+        |-- _category_.json
     |-- ToolsCollection
         |-- AdblockingPrivacy.md
         |-- AiDirectoryCheatsheets.md

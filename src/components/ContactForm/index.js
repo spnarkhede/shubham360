@@ -2,6 +2,14 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import styles from './styles.module.css';
 
+// Get the EmailJS User ID from environment variables or use fallback
+const EMAILJS_USER_ID = typeof process !== 'undefined' && process.env.REACT_APP_EMAILJS_USER_ID 
+  ? process.env.REACT_APP_EMAILJS_USER_ID 
+  : 'user_EBgfHBnyIaWEhqu6jcd9I';
+
+// Initialize EmailJS with the User ID
+emailjs.init(EMAILJS_USER_ID);
+
 const ContactForm = () => {
   function sendEmail(e) {
     e.preventDefault();
@@ -9,8 +17,7 @@ const ContactForm = () => {
     emailjs.sendForm(
       'service_flalmf3',
       'template_cjxu76w', 
-      e.target, 
-      process.env.REACT_APP_EMAILJS_USER_ID || 'user_EBgfHBnyIaWEhqu6jcd9I'
+      e.target
     )
     .then((result) => {
         console.log(result.text);

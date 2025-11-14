@@ -278,6 +278,17 @@ const toolsData = [
     usedInProjects: false
   },
   {
+    id: 'prompt-engineering',
+    title: 'Prompt Engineering',
+    description: 'Master the art of crafting effective prompts for AI models with comprehensive job search templates.',
+    icon: <Brain size={32} />,
+    category: 'AI',
+    tags: ['AI', 'Prompt Engineering', 'Job Search', 'LLM'],
+    recommended: true,
+    free: true,
+    usedInProjects: true
+  },
+  {
     id: 'social-media-tools',
     title: 'Social Media Tools',
     description: 'Social media enhancement, privacy tools, and alternative frontends.',
@@ -351,6 +362,11 @@ const categories = ['All', ...new Set(toolsData.map(item => item.category).sort(
 // Individual Tool Card Component
 const ToolCard = ({ tool }) => {
   const getDocumentationUrl = (toolId) => {
+    // Special case for prompt-engineering to point to the JobSearch.md file
+    if (toolId === 'prompt-engineering') {
+      return '/PromptEngineering/JobSearch';
+    }
+    
     // Convert tool ID to proper documentation filename
     const docName = toolId.split('-').map(word => 
       word.charAt(0).toUpperCase() + word.slice(1)

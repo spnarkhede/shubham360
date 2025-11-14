@@ -1,0 +1,702 @@
+{
+  "title": "COMPLETE JOB SEEKER'S GUIDE TO AI PROMPTS & TOOLS",
+  "subtitle": "Everything You Need to Land Your Dream Job Using AI",
+  "date_created": "November 14, 2025",
+  "target_audience": "Job Seekers, Career Changers, Professionals",
+  "SECTION_1_AI_JOB_SEARCH_PLATFORMS": {
+    "description": "All-in-One Platforms with Ready-to-Use AI Prompts for Job Seekers",
+    "platforms": [
+      {
+        "rank": 1,
+        "name": "Teal (tealhq.com)",
+        "website": "https://www.tealhq.com",
+        "description": "Complete AI-powered job search platform with free tier",
+        "key_benefits": [
+          "AI Resume Bullet Coach - rewrites bullets with keywords",
+          "Job Match Scoring - shows how well you fit each role",
+          "Application Tracker - organize all applications",
+          "Interview Preparation AI - practice with AI interviewer",
+          "Free tier generous (no credit card required)"
+        ],
+        "how_it_helps_you": "Optimize resume for each job, track applications, practice interviews all in one place",
+        "pricing": "Free tier + Premium",
+        "best_for": "Comprehensive job search support"
+      },
+      {
+        "rank": 2,
+        "name": "JobCopilot (jobcopilot.com)",
+        "website": "https://www.jobcopilot.com",
+        "description": "AI-powered job application automation platform",
+        "key_benefits": [
+          "Auto-apply to hundreds of jobs",
+          "AI Resume Generator - tailored for each role",
+          "AI Cover Letter Generator - personalized for each job",
+          "Application Tracker Dashboard",
+          "Interview Preparation Module",
+          "Career Advice from AI"
+        ],
+        "how_it_helps_you": "Apply to 50+ jobs daily with personalized cover letters without manual effort",
+        "pricing": "$8.90/week or $29.90/month",
+        "best_for": "High-volume job applications with personalization"
+      },
+      {
+        "rank": 3,
+        "name": "Jobcamp (jobcamp.ai)",
+        "website": "https://www.jobcamp.ai",
+        "description": "AI-powered resume and cover letter tailor-made for each job",
+        "key_benefits": [
+          "Copy job posting link -> Get tailored resume instantly",
+          "AI-generated cover letters specific to role",
+          "ATS keyword optimization",
+          "Match score with job requirements",
+          "Ready-to-apply documents"
+        ],
+        "how_it_helps_you": "Spend 2 minutes per job instead of 30 minutes customizing resume and cover letter",
+        "pricing": "$8/week (Lite) or $12/week (Pro)",
+        "best_for": "Quick document customization per job"
+      },
+      {
+        "rank": 4,
+        "name": "CareerFlow (careerflow.ai)",
+        "website": "https://www.careerflow.ai",
+        "description": "All-in-one career management platform",
+        "key_benefits": [
+          "AI Resume Builder with ATS optimization",
+          "Job Tracker for applications",
+          "Auto-fill job application forms",
+          "LinkedIn Profile Optimizer",
+          "AI Cover Letter Generator",
+          "Interview Preparation AI"
+        ],
+        "how_it_helps_you": "Manage entire job search from resume to interview in one platform",
+        "pricing": "Varies (check website)",
+        "best_for": "End-to-end job search management"
+      },
+      {
+        "rank": 5,
+        "name": "Simplify.jobs (simplify.jobs)",
+        "website": "https://www.simplify.jobs",
+        "description": "Browser extension for job application auto-fill",
+        "key_benefits": [
+          "Auto-fill job applications while browsing",
+          "Avoid duplicate listings automatically",
+          "Get personalized job recommendations",
+          "Free browser extension",
+          "Works with all major job boards"
+        ],
+        "how_it_helps_you": "Apply to jobs 10x faster with auto-fill functionality",
+        "pricing": "Free tier available",
+        "best_for": "Quick applications while job hunting"
+      },
+      {
+        "rank": 6,
+        "name": "Jobright (jobright.ai)",
+        "website": "https://www.jobright.ai",
+        "description": "AI job matching and career copilot",
+        "key_benefits": [
+          "AI algorithm matches you with best-fit jobs",
+          "AI Job Coach explains role fit",
+          "Resume improvement suggestions",
+          "Real-time job notifications",
+          "Direct application through platform"
+        ],
+        "how_it_helps_you": "Find jobs that match your skills with AI explanations of why they fit",
+        "pricing": "Free with premium options",
+        "best_for": "Finding perfectly matched roles"
+      },
+      {
+        "rank": 7,
+        "name": "BulkApply (bulkapply.com)",
+        "website": "https://www.bulkapply.com",
+        "description": "Multi-portal job application automation",
+        "key_benefits": [
+          "Apply to 30+ jobs daily automatically",
+          "Multi-portal support (Indeed, LinkedIn, etc.)",
+          "Free trial available",
+          "Filters for job preferences",
+          "Application tracking"
+        ],
+        "how_it_helps_you": "Apply to hundreds of jobs monthly with minimal effort",
+        "pricing": "$15.99/month (Basic)",
+        "best_for": "Bulk applications across multiple platforms"
+      },
+      {
+        "rank": 8,
+        "name": "LazyApply (lazyapply.com)",
+        "website": "https://www.lazyapply.com",
+        "description": "AI auto-apply tool with personalization",
+        "key_benefits": [
+          "Apply to 750+ jobs daily (depending on plan)",
+          "AI personalization of applications",
+          "Works with LinkedIn, Indeed, Glassdoor",
+          "Custom resumes for different roles",
+          "Performance analytics and CV tips"
+        ],
+        "how_it_helps_you": "Automate job applications while maintaining personalization",
+        "pricing": "Varies by plan",
+        "best_for": "High-volume automated applications"
+      }
+    ]
+  },
+  "SECTION_2_RESUME_TOOLS": {
+    "description": "AI Resume Builders and Optimizers with Prompts",
+    "tools": [
+      {
+        "name": "Rezi.ai (rezi.ai)",
+        "website": "https://www.rezi.ai",
+        "description": "Free AI resume builder trusted by 4M+ job seekers",
+        "features": [
+          "Free ATS-friendly resume builder",
+          "AI keyword targeting for each job",
+          "Bullet point optimization",
+          "Custom URL sharing",
+          "AI summary writer"
+        ],
+        "job_seeker_benefit": "Build ATS-optimized resume for free in minutes",
+        "pricing": "Free"
+      },
+      {
+        "name": "Enhancv (enhancv.com)",
+        "website": "https://www.enhancv.com",
+        "description": "AI resume builder with tailoring features",
+        "features": [
+          "AI resume builder",
+          "Resume tailoring for specific jobs",
+          "Cover letter generation",
+          "Professional templates"
+        ],
+        "job_seeker_benefit": "Create multiple tailored versions of your resume automatically",
+        "pricing": "Varies"
+      },
+      {
+        "name": "Kickresume (kickresume.com)",
+        "website": "https://www.kickresume.com",
+        "description": "AI resume builder for polished, ATS-optimized resumes",
+        "features": [
+          "AI resume builder",
+          "ATS optimization",
+          "Modern professional templates",
+          "Cover letter builder",
+          "Job-specific tailoring"
+        ],
+        "job_seeker_benefit": "Get professional resume that passes ATS filters",
+        "pricing": "Varies"
+      },
+      {
+        "name": "Resume.io (resume.io)",
+        "website": "https://www.resume.io",
+        "description": "Resume builder with AI phrases and cover letter",
+        "features": [
+          "AI phrase suggestions",
+          "Cover letter generator",
+          "Professional templates",
+          "Tailoring suggestions"
+        ],
+        "job_seeker_benefit": "Use AI-suggested phrases to strengthen resume bullets",
+        "pricing": "Varies"
+      },
+      {
+        "name": "ResumeWorded (resumeworded.com)",
+        "website": "https://www.resumeworded.com",
+        "description": "AI resume grader and optimizer",
+        "features": [
+          "AI resume grader",
+          "Keyword gap analysis",
+          "LinkedIn profile review",
+          "Improvement suggestions"
+        ],
+        "job_seeker_benefit": "Get AI feedback on resume strengths and gaps",
+        "pricing": "Varies"
+      }
+    ]
+  },
+  "SECTION_3_INTERVIEW_PREP": {
+    "description": "AI Interview Preparation Tools with Ready-to-Use Prompts",
+    "tools": [
+      {
+        "name": "FinalRound AI (finalroundai.com)",
+        "website": "https://www.finalroundai.com",
+        "description": "AI mock interviews with real-time feedback",
+        "features": [
+          "AI mock interview simulations",
+          "Real-time feedback on answers",
+          "Role-specific question generation",
+          "STAR method coaching",
+          "Resume upload for tailored prep"
+        ],
+        "job_seeker_benefit": "Practice interviews with AI before real interviews",
+        "pricing": "$99/month (Pro)"
+      },
+      {
+        "name": "Interviewsby.ai (interviewsby.ai)",
+        "website": "https://www.interviewsby.ai",
+        "description": "Affordable AI interview practice",
+        "features": [
+          "AI interview simulations",
+          "Personalized questions",
+          "Progress analytics",
+          "Free basic plan available"
+        ],
+        "job_seeker_benefit": "Practice interviews affordably with personalized feedback",
+        "pricing": "Free (basic) or $9/month (Pro)"
+      },
+      {
+        "name": "Boterview (boterview.ai)",
+        "website": "https://www.boterview.ai",
+        "description": "AI-powered mock interview platform",
+        "features": [
+          "Mock interviews with AI",
+          "Feedback and improvement tips",
+          "Industry-specific questions"
+        ],
+        "job_seeker_benefit": "Get comfortable with interviews through practice",
+        "pricing": "Varies"
+      },
+      {
+        "name": "Yoodli (yoodli.ai)",
+        "website": "https://www.yoodli.ai",
+        "description": "AI speaking skills feedback",
+        "features": [
+          "Real-time speaking feedback",
+          "Tone and pacing analysis",
+          "Interview simulations"
+        ],
+        "job_seeker_benefit": "Improve speaking confidence and delivery",
+        "pricing": "Varies"
+      }
+    ]
+  },
+  "SECTION_4_PROMPT_LIBRARIES": {
+    "description": "Ready-to-Use Prompt Collections for AI Job Search (ChatGPT, Claude, etc.)",
+    "free_libraries": [
+      {
+        "rank": 1,
+        "name": "FlowGPT Job Hunting Collection (flowgpt.com)",
+        "url": "https://flowgpt.com/p/job-hunting",
+        "description": "Community-driven job search prompt library",
+        "what_you_get": [
+          "100+ ready-to-use job search prompts",
+          "Resume optimization prompts",
+          "Interview preparation prompts",
+          "Cover letter writing prompts",
+          "LinkedIn optimization prompts",
+          "Job search strategy prompts"
+        ],
+        "how_to_use": "Copy any prompt and paste into ChatGPT or Claude",
+        "cost": "100% FREE",
+        "why_valuable": "Community-tested prompts optimized for job seekers"
+      },
+      {
+        "rank": 2,
+        "name": "AIHR - 20+ ChatGPT Prompts for Job Search (aihr.com)",
+        "url": "https://www.aihr.com/blog/chatgpt-recruiting-prompts/",
+        "description": "HR-focused prompts adaptable for job seekers",
+        "what_you_get": [
+          "20+ professional ChatGPT prompts",
+          "Resume analysis prompts",
+          "Boolean search string generation",
+          "Interview question prompts",
+          "Job market research prompts",
+          "Salary negotiation prompts"
+        ],
+        "how_to_use": "Read blog, adapt prompts for your job search",
+        "cost": "FREE",
+        "why_valuable": "Created by HR professionals for recruiting (job seekers can reverse-engineer)"
+      },
+      {
+        "rank": 3,
+        "name": "Teal HQ - 45+ Resume Optimization Prompts (tealhq.com)",
+        "url": "https://www.tealhq.com/articles/chatgpt-prompts-for-resume",
+        "description": "Comprehensive resume prompts collection",
+        "what_you_get": [
+          "45+ ChatGPT prompts for resume",
+          "Bullet point optimization",
+          "ATS keyword suggestions",
+          "Tailoring prompts",
+          "Cover letter prompts",
+          "Interview prep prompts"
+        ],
+        "how_to_use": "Copy prompts and use with ChatGPT",
+        "cost": "FREE blog article",
+        "why_valuable": "Specifically designed for job seekers"
+      },
+      {
+        "rank": 4,
+        "name": "CareerFlow - 10 Interview Prep Prompts (careerflow.ai)",
+        "url": "https://www.careerflow.ai/blog/chatgpt-prompts-job-interview",
+        "description": "Role-specific interview preparation prompts",
+        "what_you_get": [
+          "10+ interview preparation prompts",
+          "Role-specific question generation",
+          "STAR method coaching prompts",
+          "Feedback improvement prompts"
+        ],
+        "how_to_use": "Use prompts with ChatGPT or Claude before interviews",
+        "cost": "FREE",
+        "why_valuable": "Interview-specific optimization"
+      },
+      {
+        "rank": 5,
+        "name": "Best Prompts DB - Job Search Collection (bestpromptsdb.com)",
+        "url": "https://www.bestpromptsdb.com",
+        "description": "Database of AI prompts for job search",
+        "what_you_get": [
+          "Resume optimization prompts",
+          "ATS scoring prompts",
+          "Interview preparation prompts",
+          "Cover letter generation prompts",
+          "Skill gap analysis prompts"
+        ],
+        "how_to_use": "Browse and copy ready-to-use prompts",
+        "cost": "FREE",
+        "why_valuable": "Organized database searchable by category"
+      },
+      {
+        "rank": 6,
+        "name": "GitHub - Awesome ChatGPT Prompts (github.com/f/awesome-chatgpt-prompts)",
+        "url": "https://github.com/f/awesome-chatgpt-prompts",
+        "description": "100k+ community-contributed ChatGPT prompts",
+        "what_you_get": [
+          "100,000+ prompts",
+          "Job search category",
+          "Resume writing prompts",
+          "Interview prompts",
+          "Career advice prompts"
+        ],
+        "how_to_use": "Search GitHub for 'job search' category",
+        "cost": "100% FREE (Open Source)",
+        "why_valuable": "Largest community prompt repository"
+      }
+    ],
+    "paid_prompt_collections": [
+      {
+        "name": "PromptBase - Job Search Collection (promptbase.com)",
+        "url": "https://www.promptbase.com",
+        "description": "Premium job search prompts marketplace",
+        "what_you_get": [
+          "220,000+ professional prompts",
+          "Job search focused collection",
+          "2,300+ free prompts included",
+          "Premium prompts $1.99-$9.99 each",
+          "Curated by professionals"
+        ],
+        "best_for": "Premium ready-to-use prompts",
+        "pricing": "$1.99-$9.99 per prompt"
+      },
+      {
+        "name": "Etsy - ChatGPT Prompts for Job Search (etsy.com)",
+        "url": "https://www.etsy.com",
+        "search": "Search 'ChatGPT Prompts for Job Search'",
+        "description": "Expertly crafted prompt bundles",
+        "what_you_get": [
+          "550+ job search prompt bundles",
+          "Resume templates + prompts",
+          "Interview prep bundles",
+          "Cover letter collections",
+          "Copy-paste ready format",
+          "Bonus materials included"
+        ],
+        "best_for": "Comprehensive prompt bundles",
+        "pricing": "$5-$20 per collection"
+      },
+      {
+        "name": "Gumroad - Digital AI Prompt Kits (gumroad.com)",
+        "url": "https://www.gumroad.com",
+        "description": "Creator-sold prompt collections",
+        "what_you_get": [
+          "Specialized prompt collections",
+          "Career-focused kits",
+          "AI prompt engineering guides",
+          "Done-for-you templates"
+        ],
+        "best_for": "Niche job search prompt collections",
+        "pricing": "$5-$50+"
+      }
+    ]
+  },
+  "SECTION_5_GENERAL_JOB_BOARDS": {
+    "description": "Major Job Boards with AI Features",
+    "boards": [
+      {
+        "name": "LinkedIn Jobs (linkedin.com/jobs)",
+        "features": [
+          "AI job recommendations",
+          "Resume-matched roles",
+          "AI messaging to recruiters",
+          "Skill-based job matching"
+        ],
+        "best_for": "Finding curated AI-matched jobs"
+      },
+      {
+        "name": "Indeed (indeed.com)",
+        "features": [
+          "Resume upload",
+          "Job alerts",
+          "Resume builder",
+          "Company reviews"
+        ],
+        "best_for": "Largest job database"
+      },
+      {
+        "name": "Glassdoor (glassdoor.com)",
+        "features": [
+          "Company reviews",
+          "Salary data",
+          "Interview insights",
+          "Easy apply"
+        ],
+        "best_for": "Research before applying"
+      },
+      {
+        "name": "ZipRecruiter (ziprecruiter.com)",
+        "features": [
+          "Job matching",
+          "One-click apply",
+          "Resume builder",
+          "Job alerts"
+        ],
+        "best_for": "One-click applications"
+      }
+    ]
+  },
+  "SECTION_6_GITHUB_AUTOMATION_TOOLS": {
+    "description": "Open-Source Tools for Job Search Automation",
+    "tools": [
+      {
+        "name": "Auto_job_applier_linkedIn",
+        "url": "https://github.com/GodsScion/Auto_job_applier_linkedIn",
+        "language": "Python",
+        "stars": "1k+",
+        "description": "Automated LinkedIn job application bot",
+        "for_job_seekers": "Apply to 100+ LinkedIn jobs automatically in 1 hour"
+      },
+      {
+        "name": "jobsync",
+        "url": "https://github.com/Gsync/jobsync",
+        "language": "TypeScript/React",
+        "stars": "195+",
+        "description": "Job tracker with AI integration",
+        "for_job_seekers": "Organize and track all job applications"
+      },
+      {
+        "name": "job-application-bot-by-ollama-ai",
+        "url": "https://github.com/lookr-fyi/job-application-bot-by-ollama-ai",
+        "language": "Python",
+        "stars": "324+",
+        "description": "AI job agent with semantic filtering",
+        "for_job_seekers": "Apply to matching jobs with on-device AI"
+      },
+      {
+        "name": "LazyApply equivalent options",
+        "url": "Multiple GitHub repos",
+        "language": "Python",
+        "description": "DIY job application automation",
+        "for_job_seekers": "Build custom automation for your job search"
+      }
+    ]
+  },
+  "SECTION_7_SAMPLE_PROMPTS": {
+    "description": "Ready-to-Copy Prompts for ChatGPT/Claude",
+    "prompts": [
+      {
+        "category": "RESUME OPTIMIZATION",
+        "prompts": [
+          {
+            "title": "Resume Match Score",
+            "prompt": "Analyze my resume against this job posting and provide:\n1. Match score (0-100%)\n2. Top 5 missing keywords\n3. Experience gaps\n4. Specific phrases to incorporate\nFormat as: Score | Critical Gaps | Keywords\n\nRESUME: [PASTE YOUR RESUME]\nJOB POSTING: [PASTE JOB DESCRIPTION]"
+          },
+          {
+            "title": "ATS Optimization",
+            "prompt": "Review my resume for ATS optimization. Identify:\n1. Formatting issues that hurt ATS scanning\n2. Missing keywords from common job descriptions\n3. Weak bullet points that need power words\n4. Action verbs to strengthen impact\n\nMY RESUME: [PASTE RESUME]"
+          },
+          {
+            "title": "Bullet Point Rewrite",
+            "prompt": "Rewrite these resume bullets using CAR (Challenge-Action-Result) method and add power verbs:\n- [BULLET 1]\n- [BULLET 2]\n- [BULLET 3]\n\nMake them stronger and more quantifiable."
+          }
+        ]
+      },
+      {
+        "category": "COVER LETTER GENERATION",
+        "prompts": [
+          {
+            "title": "Tailored Cover Letter",
+            "prompt": "Write a compelling cover letter for this job. Make it:\n- Specific to company mission and values\n- Highlight relevant skills from my background\n- Show enthusiasm for the role\n- 3-4 paragraphs, professional tone\n\nJOB DESCRIPTION: [PASTE]\nMY BACKGROUND: [DESCRIBE YOUR EXPERIENCE]\nCOMPANY: [COMPANY NAME]\nROLE: [POSITION TITLE]"
+          }
+        ]
+      },
+      {
+        "category": "INTERVIEW PREPARATION",
+        "prompts": [
+          {
+            "title": "Interview Question Practice",
+            "prompt": "I'm interviewing for [JOB TITLE] at [COMPANY].\nYou're a hiring manager for this role.\nJob description: [PASTE DESCRIPTION]\n\nAsk me 8 interview questions mapped to top required skills.\nAfter each answer:\n1. Provide STAR method feedback\n2. Suggest a stronger version\n3. Rate my answer (1-10)"
+          },
+          {
+            "title": "STAR Method Coach",
+            "prompt": "Help me answer this interview question using STAR method:\nQuestion: [PASTE QUESTION]\nMy experience: [DESCRIBE YOUR BACKGROUND]\n\nGuide me through:\n- Situation (provide context)\n- Task (what was your role)\n- Action (what did you do)\n- Result (what happened)"
+          }
+        ]
+      },
+      {
+        "category": "JOB SEARCH STRATEGY",
+        "prompts": [
+          {
+            "title": "Job Title Discovery",
+            "prompt": "I'm seeking a new job and want to broaden job titles I should consider.\nMy resume: [PASTE YOUR RESUME]\n\n1. Analyze my skills and experience\n2. Ask 3-4 questions about which skills I enjoy\n3. Create a table of 15+ job titles matching my profile\n4. Explain why each title fits"
+          },
+          {
+            "title": "Boolean Search String",
+            "prompt": "Create a Boolean search string for [JOB BOARD] to find candidates like me:\nDesired role: [YOUR TARGET ROLE]\nKey skills: [LIST 5-10 SKILLS]\nLocation: [LOCATION]\nExperience: [YEARS]\nEducation: [DEGREE]\n\nCreate search string with:\n- Include terms\n- Exclude terms\n- Location parameters"
+          }
+        ]
+      },
+      {
+        "category": "CAREER DEVELOPMENT",
+        "prompts": [
+          {
+            "title": "Skill Gap Analysis",
+            "prompt": "Analyze the skills gap for my target role:\nTarget role: [JOB TITLE]\nCurrent skills: [LIST YOUR SKILLS]\n\nProvide:\n1. Skills I have (strengths)\n2. Critical missing skills\n3. Nice-to-have skills\n4. 90-day learning plan to fill gaps"
+          },
+          {
+            "title": "Salary Negotiation",
+            "prompt": "Help me prepare for salary negotiation:\nRole: [JOB TITLE]\nLocation: [LOCATION]\nMy experience: [YEARS]\nCurrent salary: [CURRENT]\n\nProvide:\n1. Market salary range for this role\n2. Negotiation talking points\n3. How to present my value\n4. Negotiation phrases to use"
+          }
+        ]
+      }
+    ]
+  },
+  "SECTION_8_QUICK_START_GUIDE": {
+    "title": "YOUR 7-DAY QUICK START PLAN",
+    "day_by_day": [
+      {
+        "day": "DAY 1",
+        "action": "Setup & Prompt Collection",
+        "tasks": [
+          "Sign up for Teal (free tier)",
+          "Sign up for ChatGPT or Claude (free tier)",
+          "Copy 10 prompts from FlowGPT for resume optimization",
+          "Save prompts to Google Docs for easy access"
+        ]
+      },
+      {
+        "day": "DAY 2",
+        "action": "Resume Optimization",
+        "tasks": [
+          "Build free resume on Rezi.ai",
+          "Use ChatGPT prompt: 'Resume Match Score' against 3 target jobs",
+          "Rewrite bullets using Claude with provided prompts",
+          "Add keywords from job descriptions"
+        ]
+      },
+      {
+        "day": "DAY 3",
+        "action": "Application Setup",
+        "tasks": [
+          "Install Simplify.jobs browser extension (free)",
+          "Set job preferences in Teal",
+          "Customize Jobcamp for 3 target job titles",
+          "Create 3 resume versions for different roles"
+        ]
+      },
+      {
+        "day": "DAY 4",
+        "action": "Cover Letter & Prompts",
+        "tasks": [
+          "Use ChatGPT 'Tailored Cover Letter' prompt for 5 jobs",
+          "Test Jobcamp auto-generation on 3 target jobs",
+          "Save templates for easy reuse",
+          "Customize with company-specific details"
+        ]
+      },
+      {
+        "day": "DAY 5",
+        "action": "Interview Preparation",
+        "tasks": [
+          "Use Claude for 'Interview Question Practice' prompt",
+          "Try Interviewsby.ai free tier (3 questions)",
+          "Record yourself answering using STAR method",
+          "Get feedback from free AI interview tools"
+        ]
+      },
+      {
+        "day": "DAY 6",
+        "action": "Application Blitz",
+        "tasks": [
+          "Apply to 20-30 jobs using Simplify.jobs auto-fill",
+          "Track all applications in Teal",
+          "Use Jobcamp for 5-10 jobs needing customization",
+          "Note match scores and skill gaps"
+        ]
+      },
+      {
+        "day": "DAY 7",
+        "action": "Optimization & Scaling",
+        "tasks": [
+          "Review matched applications in Teal",
+          "Identify top skill gaps across jobs",
+          "Consider paid tools if free tier not enough",
+          "Plan next week's focus areas"
+        ]
+      }
+    ]
+  },
+  "SECTION_9_BUDGET_OPTIONS": {
+    "totally_free": {
+      "description": "Everything Free ($0/month)",
+      "tools": [
+        "Teal (free tier)",
+        "Rezi.ai (free resume builder)",
+        "FlowGPT (all prompts free)",
+        "GitHub awesome-chatgpt-prompts (all free)",
+        "ChatGPT (free tier)",
+        "Claude (free tier)",
+        "Simplify.jobs (free tier)",
+        "Indeed resume builder (free)",
+        "Glassdoor (free)",
+        "LinkedIn (free tier)",
+        "Interviewsby.ai (free 3 questions/month)"
+      ],
+      "monthly_cost": "$0",
+      "monthly_jobs_you_can_apply_to": "50-100 with organization"
+    },
+    "budget_friendly": {
+      "description": "Minimal Cost ($10-20/month)",
+      "tools": [
+        "Teal (premium tier)",
+        "JobCopilot ($8.90/week = ~$35/month)",
+        "OR Jobcamp ($8-12/week)",
+        "Interviewsby.ai Pro ($9/month)",
+        "Grammarly free tier"
+      ],
+      "monthly_cost": "$10-35",
+      "monthly_jobs_you_can_apply_to": "200-500 with personalization"
+    },
+    "comprehensive": {
+      "description": "Full-Stack Approach ($50-100/month)",
+      "tools": [
+        "JobCopilot ($30/month)",
+        "Teal Premium",
+        "CareerFlow Premium",
+        "FinalRound AI ($99/month)",
+        "PromptBase premium prompts ($10-20)",
+        "LinkedIn Premium ($40/month)"
+      ],
+      "monthly_cost": "$50-100+",
+      "monthly_jobs_you_can_apply_to": "1000+ fully personalized"
+    }
+  },
+  "SECTION_10_PRO_TIPS": {
+    "tips": [
+      "Use free tools first before upgrading - most have generous free tiers",
+      "Copy prompts from FlowGPT and GitHub for free - no need to pay for prompts",
+      "Combine 2-3 free tools (Teal + ChatGPT + Simplify.jobs) for comprehensive coverage",
+      "Test paid tools with free trials before committing",
+      "Use ChatGPT/Claude basic prompts instead of expensive prompt collections",
+      "Track which tools give you best interview conversion rate",
+      "Customize applications for 20% of jobs, auto-apply for 80%",
+      "Use AI for brainstorming but add personal touch to final submissions",
+      "Update your resume weekly based on trending job descriptions",
+      "Build your own prompt library from successful applications"
+    ]
+  }
+}

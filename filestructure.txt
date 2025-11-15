@@ -690,6 +690,9 @@
             |-- site-docs-prompt-engineering-all-in-one-ai-copy-md-0f8.json
             |-- site-docs-prompt-engineering-all-in-one-ai-md-78d.json
             |-- site-docs-prompt-engineering-job-search-md-d2f.json
+            |-- site-docs-prompt-engineering-resume-creation-md-bcb.json
+            |-- site-docs-prompt-engineering-resume-prompts-md-c8c.json
+            |-- site-docs-prompt-engineering-rough-prompts-md-e65.json
             |-- site-docs-tools-collection-adblocking-privacy-md-a5f.json
             |-- site-docs-tools-collection-ai-directory-cheatsheets-md-173.json
             |-- site-docs-tools-collection-ai-directory-cheetsheets-md-db5.json
@@ -1453,6 +1456,9 @@
         |-- img
             |-- coverlettersample.png
         |-- JobSearch.md
+        |-- Resume-Prompts.md
+        |-- ResumeCreation.md
+        |-- Rough-Prompts.md
         |-- _category_.json
     |-- ToolsCollection
         |-- AdblockingPrivacy.md

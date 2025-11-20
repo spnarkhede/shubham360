@@ -693,6 +693,7 @@
             |-- site-docs-prompt-engineering-resume-creation-md-bcb.json
             |-- site-docs-prompt-engineering-resume-prompts-md-c8c.json
             |-- site-docs-prompt-engineering-rough-prompts-md-e65.json
+            |-- site-docs-prompt-engineering-ultimate-resume-guide-2025-md-cab.json
             |-- site-docs-tools-collection-adblocking-privacy-md-a5f.json
             |-- site-docs-tools-collection-ai-directory-cheatsheets-md-173.json
             |-- site-docs-tools-collection-ai-directory-cheetsheets-md-db5.json
@@ -1459,6 +1460,7 @@
         |-- Resume-Prompts.md
         |-- ResumeCreation.md
         |-- Rough-Prompts.md
+        |-- Ultimate-Resume-Guide-2025.md
         |-- _category_.json
     |-- ToolsCollection
         |-- AdblockingPrivacy.md

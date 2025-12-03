@@ -5,7 +5,7 @@ import RecommendationsPanel from '../../components/RecommendationsPanel';
 import styles from './styles.module.css';
 import { Quote, Users, MessageSquare, Eye, Lock } from 'lucide-react';
 
-export default function RecruitmentSpecialistRecommendations() {
+export default function RecruiterDashboardRecommendations() {
   const [showPasswordModal, setShowPasswordModal] = useState(false);
   const [password, setPassword] = useState('');
   const [passwordError, setPasswordError] = useState('');
@@ -182,9 +182,9 @@ export default function RecruitmentSpecialistRecommendations() {
 
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="recruiter-dashboard"
       activeTab="recommendations"
-      title="Recruitment Specialist | Recommendations"
+      title="Recruiter Dashboard | Recommendations"
       description="Professional recommendations and testimonials for Shubham Narkhede"
     >
       <SectionTemplate

@@ -113,7 +113,7 @@ function CustomExperienceTimeline({ items }) {
   );
 }
 
-export default function RecruitmentSpecialistExperience() {
+export default function RecruiterDashboardExperience() {
   const experienceItems = [
     {
       title: "DevOps Software Engineer",
@@ -134,9 +134,9 @@ export default function RecruitmentSpecialistExperience() {
       ],
       tags: ["AWS", "Kubernetes", "Terraform", "CI/CD", "Docker", "Microservices", "Playwright", "SSO", "Grafana"],
       projects: [
-        { name: "Connected Charging Cable (CCC)", link: "/recruitment-specialist/projects" },
-        { name: "Charge Point Management System", link: "/recruitment-specialist/projects" },
-        { name: "Support Portal 2.0", link: "/recruitment-specialist/projects" }
+        { name: "Connected Charging Cable (CCC)", link: "/recruiter-dashboard/projects" },
+        { name: "Charge Point Management System", link: "/recruiter-dashboard/projects" },
+        { name: "Support Portal 2.0", link: "/recruiter-dashboard/projects" }
       ],
       icon: <Briefcase size={24} />,
       color: "#0078D7",
@@ -158,9 +158,9 @@ export default function RecruitmentSpecialistExperience() {
       ],
       tags: ["Angular", "Azure", "Azure DevOps", "Cloud Migration", "CI/CD", "React", "Node.js", "GraphQL", "MongoDB", "Express", "TypeScript"],
       projects: [
-        { name: "DC-MH/SDI Tool Overview", link: "/recruitment-specialist/projects" },
-        { name: "Smart Project Management (SPM) v3.0", link: "/recruitment-specialist/projects" },
-        { name: "Virtual Streaming Conference Platform", link: "/recruitment-specialist/projects" }
+        { name: "DC-MH/SDI Tool Overview", link: "/recruiter-dashboard/projects" },
+        { name: "Smart Project Management (SPM) v3.0", link: "/recruiter-dashboard/projects" },
+        { name: "Virtual Streaming Conference Platform", link: "/recruiter-dashboard/projects" }
       ],
       icon: <Code size={24} />,
       color: "#00A4EF",
@@ -182,7 +182,7 @@ export default function RecruitmentSpecialistExperience() {
       ],
       tags: ["Java", "Spring Boot", "Kotlin", "TypeScript", "OOP", "Agile", "Scalability", "AWS", "Microservices", "DynamoDB"],
       projects: [
-        { name: "Amazon Internal Tools", link: "/recruitment-specialist/projects" }
+        { name: "Amazon Internal Tools", link: "/recruiter-dashboard/projects" }
       ],
       icon: <Building size={24} />,
       color: "#FF9900",
@@ -337,9 +337,9 @@ export default function RecruitmentSpecialistExperience() {
 
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="recruiter-dashboard"
       activeTab="experience"
-      title="Recruitment Specialist | Experience"
+      title="Recruiter Dashboard | Experience"
       description="Shubham Narkhede's professional experience and career timeline"
     >
       <SectionTemplate

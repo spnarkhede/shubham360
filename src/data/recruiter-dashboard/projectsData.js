@@ -1,4 +1,4 @@
-// Projects data for recruitment-specialist role
+// Projects data for recruiter-dashboard role
 export const companyProjects = {
   featured: {
     title: "Connected Charging Cable (CCC)",
@@ -130,7 +130,7 @@ export const personalProjects = {
     title: "Portfolio Website & Multi-Role Experience",
     date: "2024 - Present",
     description: "A sophisticated portfolio website built with Docusaurus 3, featuring multiple visitor experiences and role-based navigation system.",
-    longDescription: "This portfolio website showcases an innovative approach to presenting professional information through role-based experiences. Built with Docusaurus 3 and React 18, it features four distinct visitor journeys (Recruitment Specialist, Software Developer, Investigator, and Adventurer), each tailored to different audiences. The site includes advanced state management with Zustand, responsive design, and interactive components that demonstrate both technical skills and creative problem-solving.",
+    longDescription: "This portfolio website showcases an innovative approach to presenting professional information through role-based experiences. Built with Docusaurus 3 and React 18, it features four distinct visitor journeys (Recruiter Dashboard, Software Developer, Investigator, and Adventurer), each tailored to different audiences. The site includes advanced state management with Zustand, responsive design, and interactive components that demonstrate both technical skills and creative problem-solving.",
     technologies: ["Docusaurus 3", "React 18", "Zustand", "CSS Modules", "JavaScript", "Responsive Design"],
     achievements: [
       "4 distinct role-based experiences",

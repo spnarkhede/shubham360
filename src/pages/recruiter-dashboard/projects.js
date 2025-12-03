@@ -3,15 +3,15 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
-import { companyProjects, personalProjects } from '../../data/recruitment-specialist/projectsData';
+import { companyProjects, personalProjects } from '../../data/recruiter-dashboard/projectsData';
 import { Github, ExternalLink, Calendar, Building2, User } from 'lucide-react';
 
-export default function RecruitmentSpecialistProjects() {
+export default function RecruiterDashboardProjects() {
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="recruiter-dashboard"
       activeTab="projects"
-      title="Recruitment Specialist | Projects"
+      title="Recruiter Dashboard | Projects"
       description="Showcase of Shubham Narkhede's significant projects and achievements"
     >
       {/* Company Projects Section */}

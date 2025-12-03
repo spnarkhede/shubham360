@@ -3,10 +3,10 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
 import { Download, FileText, FileCheck, ExternalLink } from 'lucide-react';
-import { workEligibility, contactInfo, documents } from '../../data/recruitment-specialist/content';
+import { workEligibility, contactInfo, documents } from '../../data/recruiter-dashboard/content';
 
 
-export default function RecruitmentSpecialistResume() {
+export default function RecruiterDashboardResume() {
   const handleDownload = (fileName, downloadUrl) => {
     try {
       // Create a temporary anchor element to trigger download
@@ -31,9 +31,9 @@ export default function RecruitmentSpecialistResume() {
 
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="recruiter-dashboard"
       activeTab="resume"
-      title="Recruitment Specialist | Resume Download"
+      title="Recruiter Dashboard | Resume Download"
       description="Download Shubham Narkhede's resume, CV, and related documents"
     >
       <SectionTemplate

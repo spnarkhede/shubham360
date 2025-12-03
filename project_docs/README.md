@@ -219,7 +219,7 @@ The landing page system consists of the following components:
         |-- _timeline.css
     |-- data
         |-- booksNavigation.js
-        |-- recruitment-specialist
+        |-- recruiter-dashboard
             |-- content.js
             |-- projectsData.js
     |-- index.d.ts
@@ -261,7 +261,7 @@ The landing page system consists of the following components:
             |-- index.js
             |-- introduction.js
             |-- styles.module.css
-        |-- recruitment-specialist
+        |-- recruiter-dashboard
             |-- components
                 |-- PersonalityChart.js
                 |-- PersonalityChart.module.css

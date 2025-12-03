@@ -21,7 +21,7 @@ export default function NavigationGuide() {
         </div>
         
         <div className={styles.roleCardsRow}>
-          <Link to="/recruitment-specialist" className={styles.roleCard}>
+          <Link to="/recruiter-dashboard" className={styles.roleCard}>
             <div className={styles.roleCardIcon}>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
@@ -31,7 +31,7 @@ export default function NavigationGuide() {
               </svg>
             </div>
             <div className={styles.roleCardContent}>
-              <h2 className={styles.roleTitle}>Recruitment Specialist</h2>
+              <h2 className={styles.roleTitle}>Recruiter Dashboard</h2>
               <p className={styles.roleDescription}>
                A quick gateway for recruiters — discover my professional story, impact, and potential.
               </p>

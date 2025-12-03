@@ -5,7 +5,7 @@ import { SkillsMatrix } from '../../components/SkillsMatrix';
 import styles from './styles.module.css';
 import { Globe } from 'lucide-react';
 
-export default function RecruitmentSpecialistSkills() {
+export default function RecruiterDashboardSkills() {
   const skills = {
     "Frontend": [
       { name: "JavaScript", level: 5 },
@@ -173,9 +173,9 @@ export default function RecruitmentSpecialistSkills() {
 
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="recruiter-dashboard"
       activeTab="skills"
-      title="Recruitment Specialist | Skills & Certifications"
+      title="Recruiter Dashboard | Skills & Certifications"
       description="Shubham Narkhede's technical skills, expertise, and professional certifications"
     >
       <SectionTemplate

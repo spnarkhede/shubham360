@@ -3,9 +3,9 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
 import { Award, CheckCircle, Calendar, Link } from 'lucide-react';
-import { certifications, badges, corporateTrainings } from '../../data/recruitment-specialist/certificationData';
+import { certifications, badges, corporateTrainings } from '../../data/recruiter-dashboard/certificationData';
 
-export default function RecruitmentSpecialistCertifications() {
+export default function RecruiterDashboardCertifications() {
   const [selectedPlatform, setSelectedPlatform] = useState('All');
   const [selectedIssuer, setSelectedIssuer] = useState('All');
   const [activeContent, setActiveContent] = useState('certifications'); // 'certifications' or 'badges'
@@ -285,9 +285,9 @@ export default function RecruitmentSpecialistCertifications() {
 
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="recruiter-dashboard"
       activeTab="certifications"
-      title="Recruitment Specialist | Certifications & Badges"
+      title="Recruiter Dashboard | Certifications & Badges"
       description="Shubham Narkhede's professional certifications and industry badges"
     >
       <SectionTemplate

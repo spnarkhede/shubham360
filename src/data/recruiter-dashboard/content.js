@@ -1,4 +1,4 @@
-// Content data for recruitment specialist role
+// Content data for recruiter dashboard role
 export const professionalSummary = {
   title: "DevOps Engineer & Full Stack Developer",
   experience: "6+ years",

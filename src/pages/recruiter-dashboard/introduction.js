@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 import { ArrowRight } from 'lucide-react';
 
-export default function RecruitmentSpecialistIntroduction() {
+export default function RecruiterDashboardIntroduction() {
   // Calculate years and months of experience dynamically from April 2019 to current date
   const startDate = new Date('2019-04-01');
   const currentDate = new Date();
@@ -20,9 +20,9 @@ export default function RecruitmentSpecialistIntroduction() {
 
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="recruiter-dashboard"
       activeTab="introduction"
-      title="Recruitment Specialist | Introduction"
+      title="Recruiter Dashboard | Introduction"
       description="Information for hiring managers and recruiters about Shubham Narkhede's professional background"
     >
       <SectionTemplate
@@ -71,7 +71,7 @@ export default function RecruitmentSpecialistIntroduction() {
             </div>
             
             <div className={styles.ctaButtons}>
-              <Link to="/recruitment-specialist/resume" className={styles.primaryButton}>
+              <Link to="/recruiter-dashboard/resume" className={styles.primaryButton}>
                 View Resume
                 <ArrowRight size={16} />
               </Link>
@@ -162,13 +162,13 @@ export default function RecruitmentSpecialistIntroduction() {
         </p>
         
         <div className={styles.nextStepsButtons}>
-          <Link to="/recruitment-specialist/experience" className={styles.nextStepButton}>
+          <Link to="/recruiter-dashboard/experience" className={styles.nextStepButton}>
             View Experience Timeline
           </Link>
-          <Link to="/recruitment-specialist/skills" className={styles.nextStepButton}>
+          <Link to="/recruiter-dashboard/skills" className={styles.nextStepButton}>
             Explore Skills & Certifications
           </Link>
-          <Link to="/recruitment-specialist/projects" className={styles.nextStepButton}>
+          <Link to="/recruiter-dashboard/projects" className={styles.nextStepButton}>
             Browse Projects
           </Link>
         </div>

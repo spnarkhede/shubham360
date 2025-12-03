@@ -952,6 +952,15 @@ export const corporateTrainings = [
     verificationUrl: "/certificates/bosch/basics-information-security-privacy.pdf"
   },
   {
+    name: "[LG-PC-WBT] Compliance - Product Compliance V2025-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Dec 3, 2025",
+    description: "Outlined Bosch’s ethical standards and compliance requirements for responsible conduct.",
+    skills: ["Compliance", "Ethics", "Corporate Policy"],
+    verificationUrl: "/certificates/bosch/product_compliance_v2025_B.pdf"
+  },
+  {
     name: "Compliance – Code of Conduct V2025-B",
     issuer: "Bosch",
     platform: "Web Based Training",

@@ -1,4 +1,4 @@
-// src/pages/recruitment-specialist/components/ProfessionalTimeline.js
+// src/pages/recruiter-dashboard/components/ProfessionalTimeline.js
 import React, { useState, useCallback } from 'react';
 import { Building, Calendar, Award, Target, Zap, TrendingUp, Code, Brain, User, BookOpen, FolderOpen, MapPin, ExternalLink } from 'lucide-react';
 import styles from './ProfessionalTimeline.module.css';

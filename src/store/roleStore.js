@@ -7,7 +7,7 @@ const useRoleStore = create((set) => ({
   
   // Current active tab for each role dashboard
   activeTab: {
-    'recruitment-specialist': 'introduction',
+    'recruiter-dashboard': 'introduction',
     'product-designer': 'introduction',
     'tech-enthusiast': 'introduction',
     'curious-visitor': 'introduction',
@@ -26,8 +26,8 @@ const useRoleStore = create((set) => ({
   
   // Role configuration data
   roles: {
-    'recruitment-specialist': {
-      title: 'Recruitment Specialist',
+    'recruiter-dashboard': {
+      title: 'Recruiter Dashboard',
       description: 'Because great hiring starts with understanding the person behind the profession.',
       theme: 'light',
       tabs: [

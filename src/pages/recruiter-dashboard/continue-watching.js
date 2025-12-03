@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 import { BookOpen, PlayCircle, ExternalLink, ArrowRight } from 'lucide-react';
 
-export default function RecruitmentSpecialistContinueWatching() {
+export default function RecruiterDashboardContinueWatching() {
   const contentRecommendations = [
     {
       id: 'technical-articles',
@@ -105,13 +105,13 @@ export default function RecruitmentSpecialistContinueWatching() {
     {
       title: 'Download Resume',
       description: 'Get my latest resume in PDF format',
-      url: '/recruitment-specialist/resume',
+      url: '/recruiter-dashboard/resume',
       icon: <ExternalLink size={20} />
     },
     {
       title: 'View Projects',
       description: 'Explore my technical projects and case studies',
-      url: '/recruitment-specialist/projects',
+      url: '/recruiter-dashboard/projects',
       icon: <ExternalLink size={20} />
     },
     {
@@ -123,16 +123,16 @@ export default function RecruitmentSpecialistContinueWatching() {
     {
       title: 'Professional References',
       description: 'View recommendations from colleagues',
-      url: '/recruitment-specialist/recommendations',
+      url: '/recruiter-dashboard/recommendations',
       icon: <ExternalLink size={20} />
     }
   ];
 
   return (
     <DashboardLayout
-      role="recruitment-specialist"
+      role="recruiter-dashboard"
       activeTab="continue-watching"
-      title="Recruitment Specialist | Continue Exploring"
+      title="Recruiter Dashboard | Continue Exploring"
       description="Additional content and resources for recruitment professionals"
     >
       <SectionTemplate

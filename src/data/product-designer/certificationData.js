@@ -196,5 +196,14 @@ export const corporateTrainings = [
     description: "Learned DesignOps principles for scaling design processes and improving team efficiency.",
     skills: ["DesignOps", "Process Optimization", "Team Scaling", "Workflow Management"],
     verificationUrl: "#"
+  },
+  {
+    name: "[LG-ATL-WBT] Compliance – Antitrust Law V2025-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Dec 11, 2025",
+    description: "Compliance training on antitrust laws and practices.",
+    skills: ["Compliance", "Antitrust Law", "Corporate Policy"],
+    verificationUrl: "/certificates/bosch/compliance-antitrust-law-v2025B.pdf"
   }
 ];

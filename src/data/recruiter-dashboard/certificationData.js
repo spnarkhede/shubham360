@@ -1024,6 +1024,15 @@ export const corporateTrainings = [
     verificationUrl: "/certificates/bosch/data-protection-in-bosch-products.pdf"
   },
   {
+    name: "[LG-AML-DOC] Compliance – AntiMoney Laundering V2024-B",
+    issuer: "Bosch",
+    platform: "Document",
+    date: "Dec 11, 2025",
+    description: "Compliance training on anti-money laundering regulations and practices.",
+    skills: ["Compliance", "Anti-Money Laundering", "Financial Regulations"],
+    verificationUrl: "/certificates/bosch/compliance-anti-money-laundering.pdf"
+  },
+  {
     name: "Data Protection and Information Security in Bosch-Products-B",
     issuer: "Bosch",
     platform: "Web Based Training",
@@ -1247,6 +1256,24 @@ export const corporateTrainings = [
     description: "Focused on anti-bribery, gratuities, and compliance with integrity policies.",
     skills: ["Ethics", "Compliance"],
     verificationUrl: "/certificates/bosch/compliance-gratuities.pdf"
+  },
+  {
+    name: "[LG-ATL-WBT] Compliance – Antitrust Law V2025-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Dec 11, 2025",
+    description: "Compliance training on antitrust laws and practices.",
+    skills: ["Compliance", "Antitrust Law", "Corporate Policy"],
+    verificationUrl: "/certificates/bosch/compliance-antitrust-law-v2025B.pdf"
+  },
+  {
+    name: "[LG-AC-WBT] Compliance – Anti-Corruption V2025-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Dec 11, 2025",
+    description: "Comprehensive training on anti-corruption policies and practices in compliance with Bosch standards.",
+    skills: ["Compliance", "Anti-Corruption", "Ethics"],
+    verificationUrl: "/certificates/bosch/compliance-anti-corruption-v2025B.pdf"
   },
   {
     name: "Compliance - Export Control V2019-B",

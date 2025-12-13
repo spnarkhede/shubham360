@@ -63,6 +63,34 @@ function CustomExperienceTimeline({ items }) {
             <div className={`${styles.timelineDetails} ${expandedItems[index] ? styles.expanded : ''}`}>
               <p className={styles.timelineDescription}>{item.content}</p>
               
+              {item.tasks && item.tasks.length > 0 && (
+                <div className={styles.timelineSection}>
+                  <h5 className={styles.timelineSectionTitle}>
+                    <Code size={16} />
+                    Key Tasks
+                  </h5>
+                  <ul className={styles.timelineList}>
+                    {item.tasks.map((task, i) => (
+                      <li key={i}>{task}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              
+              {item.responsibilities && item.responsibilities.length > 0 && (
+                <div className={styles.timelineSection}>
+                  <h5 className={styles.timelineSectionTitle}>
+                    <Briefcase size={16} />
+                  Responsibilities
+                  </h5>
+                  <ul className={styles.timelineList}>
+                    {item.responsibilities.map((responsibility, i) => (
+                      <li key={i}>{responsibility}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              
               {item.achievements && item.achievements.length > 0 && (
                 <div className={styles.timelineSection}>
                   <h5 className={styles.timelineSectionTitle}>
@@ -121,18 +149,31 @@ export default function RecruiterDashboardExperience() {
       location: "Stuttgart-Feuerbach, Germany",
       period: "07/2022 – Present",
       content: "Leading DevOps initiatives across multiple product teams, implementing CI/CD pipelines, and optimizing cloud infrastructure.",
-      achievements: [
-        "Led full-stack application development across backend and frontend to ensure robust, scalable, and user-friendly solutions.",
-        "Directed the design and optimization of UI/UX features, improving user engagement and satisfaction through prototyping, wireframing, and iterative design.",
-        "Managed and mentored a team of 7–8 developers, including the onboarding, training, and development of 5 on-site interns.",
-        "Implemented CI/CD pipelines with integrated Playwright for automated testing, ensuring comprehensive test coverage across unit, manual, and automation testing stages.",
-        "Streamlined code integration and deployment processes with Docker environments and GitHub strategies.",
-        "Utilized SSO integration and Grafana for monitoring, enabling continuous optimization and high performance across applications.",
-        "Optimized deployment environments by leveraging AWS cloud services to ensure secure, efficient, and scalable deployment for continuous integration and delivery.",
-        "Actively engaged with Git, maintained automated testing processes to validate frontend functionality, and identified issues early in the development lifecycle.",
-        "Conducted end-to-end project management, including requirement gathering, user story creation, project setup, and seamless project delivery.",
+      tasks: [
+        "Implemented frontend UI features within DevOps tools and dashboards, translating UI/UX specifications and Customer Journey (CJ) requirements into responsive and intuitive interfaces.",
+        "Built reusable, modular UI components in Angular/Vue/React, ensuring consistency, maintainability, and alignment with Bosch design guidelines.",
+        "Ensured cross-browser compatibility (Chrome, Firefox, Edge) by optimizing CSS/SCSS, resolving layout inconsistencies, and conducting targeted browser testing.",
+        "Hand-coded HTML5, CSS3/SCSS, and TypeScript for dashboards, monitoring interfaces, and configuration tools used by internal engineering teams.",
+        "Integrated the frontend with backend services and APIs, ensuring reliable communication, efficient data handling, and improved UX responsiveness.",
+        "Performed frontend module, integration, and E2E testing (Playwright), improving UI reliability and catching regressions early.",
+        "Collaborated closely with solution architects, backend developers, UI/UX designers, and product owners to align frontend architecture with platform-wide design principles.",
+        "Actively participated in frontend-focused code reviews, enforcing coding standards, accessibility, and best practices across teams.",
+        "Optimized frontend performance (load time, rendering efficiency, bundle size), contributing to faster and more stable internal applications."
       ],
-      tags: ["AWS", "Kubernetes", "Terraform", "CI/CD", "Docker", "Microservices", "Playwright", "SSO", "Grafana"],
+      responsibilities: [
+        "Architected and implemented CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions for 30+ microservices.",
+        "Used Docker/Kubernetes to containerize services, boosting developer productivity by 30% and reducing server count by 20%.",
+        "Implemented automated testing, reducing production bugs by 20% and increasing test pass rate to 95%.",
+        "Mentored 20+ engineers on DevOps best practices, IaC automation, and modern delivery workflows.",
+        "Led cross-team initiatives reducing time-to-market by 35% (12 weeks → 8 weeks)."
+      ],
+      achievements: [
+        "Reduced deployment time by 40–75%, enabling significantly faster release cycles.",
+        "Standardized 30+ microservices using Ansible, cutting delivery cycle time by 50%.",
+        "Containerized 45 microservices, slashing deployment time by 60%.",
+        "Built real-time Grafana monitoring, improving performance issue detection by 70%."
+      ],
+      tags: ["Angular", "GitHub Actions","AWS", "Kubernetes", "Terraform", "CI/CD", "Docker", "Microservices", "Playwright", "SSO", "Grafana"],
       projects: [
         { name: "Connected Charging Cable (CCC)", link: "/recruiter-dashboard/projects" },
         { name: "Charge Point Management System", link: "/recruiter-dashboard/projects" },

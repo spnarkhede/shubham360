@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
-import { Download, FileText, FileCheck, ExternalLink } from 'lucide-react';
+import { Download, FileText, FileCheck, ExternalLink, ChevronDown } from 'lucide-react';
 import { workEligibility, contactInfo, documents } from '../../data/recruiter-dashboard/content';
 
-
 export default function RecruiterDashboardResume() {
+  const [selectedRole, setSelectedRole] = useState(documents[0].roles ? documents[0].roles[0] : null);
+  
   const handleDownload = (fileName, downloadUrl) => {
     try {
       // Create a temporary anchor element to trigger download
@@ -28,6 +29,9 @@ export default function RecruiterDashboardResume() {
     }
     return <FileText size={24} />;
   };
+
+  // Get the main resume document
+  const resumeDoc = documents[0];
 
   return (
     <DashboardLayout
@@ -58,6 +62,31 @@ export default function RecruiterDashboardResume() {
                 <h3 className={styles.documentTitleCompact}>{doc.title}</h3>
                 <p className={styles.documentDescriptionCompact}>{doc.description}</p>
                 
+                {/* Role selection dropdown for Professional Resume */}
+                {doc.roles && (
+                  <div className={styles.roleSelector}>
+                    <label htmlFor="role-select" className={styles.roleLabel}>Select Role:</label>
+                    <div className={styles.selectWrapper}>
+                      <select 
+                        id="role-select"
+                        className={styles.roleSelect}
+                        value={selectedRole?.name || ''}
+                        onChange={(e) => {
+                          const role = doc.roles.find(r => r.name === e.target.value);
+                          setSelectedRole(role);
+                        }}
+                      >
+                        {doc.roles.map((role, roleIndex) => (
+                          <option key={roleIndex} value={role.name}>
+                            {role.name}
+                          </option>
+                        ))}
+                      </select>
+                      <ChevronDown size={16} className={styles.selectIcon} />
+                    </div>
+                  </div>
+                )}
+                
                 <div className={styles.documentMetaCompact}>
                   <span className={styles.fileSize}>{doc.fileSize}</span>
                   <span className={styles.lastUpdated}>{doc.lastUpdated}</span>
@@ -65,7 +94,10 @@ export default function RecruiterDashboardResume() {
               </div>
               
               <button 
-                onClick={() => handleDownload(doc.fileName, doc.downloadUrl)}
+                onClick={() => handleDownload(
+                  selectedRole && doc.roles ? selectedRole.fileName : doc.fileName,
+                  selectedRole && doc.roles ? selectedRole.url : doc.downloadUrl
+                )}
                 className={styles.downloadButtonCompact}
                 aria-label={`Download ${doc.title}`}
               >

@@ -64,24 +64,95 @@ export const contactInfo = {
   timezone: "CET (Central European Time)"
 };
 
+// Function to get date one week before today
+const getOneWeekBeforeDate = () => {
+  const date = new Date();
+  date.setDate(date.getDate() - 7);
+  return date.toLocaleDateString('en-GB', { 
+    day: '2-digit', 
+    month: 'long', 
+    year: 'numeric' 
+  });
+};
+
+// // Function to generate filename with role
+// const generateFileName = (roleName) => {
+//   const formattedDate = new Date().toLocaleDateString('en-GB', { 
+//     day: '2-digit', 
+//     month: 'short', 
+//     year: 'numeric' 
+//   }).replace(/ /g, '-');
+  
+//   // Convert role name to camelCase and remove spaces
+//   const rolePart = roleName.replace(/\s+/g, '');
+
+// Function to generate filename with role and YYYYMMDD date format
+const generateFileName = (roleName) => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  const formattedDate = `${year}${month}${day}`;
+  
+  // Convert role name to camelCase and remove spaces
+  const rolePart = roleName.replace(/\s+/g, '');
+  
+  return `Shubham_Narkhede_Resume_${rolePart}_${formattedDate}.pdf`;
+};
+
 export const documents = [
   {
     title: "Professional Resume",
     description: "Comprehensive resume highlighting experience, skills, and achievements",
-    // fileName: `Shubham_Narkhede_Resume.pdf`,
-    // fileName: `Shubham_Narkhede_Resume_${new Date().toISOString().split('T')[0]}.pdf`,
-    fileName: `Shubham_Narkhede_Resume_${new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-')}.pdf`,
+    fileName: generateFileName("DevOpsEngineer"),
     fileSize: "463 KB",
-    lastUpdated: "March 2024",
+    lastUpdated: getOneWeekBeforeDate(),
     primary: true,
-    downloadUrl: "/documents/resume/ShubhamNarkhede_CV.pdf"
+    downloadUrl: "/documents/resume/ShubhamNarkhede_CV.pdf",
+    roles: [
+      { 
+        name: "DevOps Engineer", 
+        url: "/documents/resume/ShubhamNarkhede_CV_DevOps.pdf",
+        fileName: generateFileName("DevOpsEngineer")
+      },
+      { 
+        name: "Fullstack Developer", 
+        url: "/documents/resume/ShubhamNarkhede_CV_Fullstack.pdf",
+        fileName: generateFileName("FullstackDeveloper")
+      },
+      { 
+        name: "Software Developer", 
+        url: "/documents/resume/ShubhamNarkhede_CV_Software.pdf",
+        fileName: generateFileName("SoftwareDeveloper")
+      },
+      { 
+        name: "Frontend Developer", 
+        url: "/documents/resume/ShubhamNarkhede_CV_Frontend.pdf",
+        fileName: generateFileName("FrontendDeveloper")
+      },
+      { 
+        name: "Backend Developer", 
+        url: "/documents/resume/ShubhamNarkhede_CV_Backend.pdf",
+        fileName: generateFileName("BackendDeveloper")
+      },
+      { 
+        name: "Product Designer", 
+        url: "/documents/resume/ShubhamNarkhede_CV_ProductDesigner.pdf",
+        fileName: generateFileName("ProductDesigner")
+      },
+      { 
+        name: "UI/UX Designer", 
+        url: "/documents/resume/ShubhamNarkhede_CV_UIUX.pdf",
+        fileName: generateFileName("UIUXDesigner")
+      }
+    ]
   },
   {
     title: "Executive Summary",
     description: "Concise resume highlighting key skills and experience",
     fileName: `Shubham_Narkhede_Summary_${new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).replace(/ /g, '-')}.pdf`,
     fileSize: "299 KB",
-    lastUpdated: "March 2024",
+    lastUpdated: getOneWeekBeforeDate(),
     primary: false,
     downloadUrl: "/documents/resume/summary_resume.pdf"
   },

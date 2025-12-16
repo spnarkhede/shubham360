@@ -1349,6 +1349,53 @@ html[data-theme='dark'] .badgeImage {
   color: var(--ifm-color-content-secondary);
 }
 
+/* Role Selector Styles */
+.roleSelector {
+  margin: 0.75rem 0;
+  text-align: left;
+}
+
+.roleLabel {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: var(--ifm-color-content);
+}
+
+.selectWrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.roleSelect {
+  width: 100%;
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  appearance: none;
+  cursor: pointer;
+}
+
+.roleSelect:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: -2px;
+  border-color: var(--ifm-color-primary);
+}
+
+.selectIcon {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--ifm-color-content-secondary);
+}
+
 .downloadButtonCompact {
   display: flex;
   align-items: center;

@@ -115,7 +115,7 @@ export default function RecruiterDashboardIntroduction() {
           <div className={styles.statusCard}>
             <h3 className={styles.statusTitle}>Work Permit Status</h3>
             <p className={styles.statusText}>
-              EU Blau Karte holder in Germany & Niederlassungserlaubnis in process, fully authorized to work for any employer.
+              Permanent resident of Germany (Niederlassungserlaubnis), fully authorized to work without restriction for any employer, in any sector, across Germany and the European Union.
             </p>
           </div>
           

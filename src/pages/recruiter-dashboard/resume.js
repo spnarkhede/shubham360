@@ -65,7 +65,7 @@ export default function RecruiterDashboardResume() {
                 {/* Role selection dropdown for Professional Resume */}
                 {doc.roles && (
                   <div className={styles.roleSelector}>
-                    <label htmlFor="role-select" className={styles.roleLabel}>Select Role:</label>
+                    <label htmlFor="role-select" className={styles.roleLabel}>Select Role for Hiring:</label>
                     <div className={styles.selectWrapper}>
                       <select 
                         id="role-select"

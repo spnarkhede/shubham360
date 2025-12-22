@@ -49,7 +49,7 @@ export const certifications = [
 
 export const workEligibility = {
   status: "Authorized to work",
-  description: "Holder of German Niederlassungserlaubnis (Permanent Residence Permit) and citizen of India — no sponsorship required in Germany or across the EU.",
+  description: "Permanent resident of Germany (Niederlassungserlaubnis), fully authorized to work without restriction for any employer, in any sector, across Germany and the European Union.",
   sponsorship: "No sponsorship required within Europe; may be required for roles outside the region.",
   relocation: "Open to relocation and international opportunities, with proven adaptability across diverse work environments."
 };

@@ -214,5 +214,14 @@ export const corporateTrainings = [
     description: "Life Cycle Process of a product, Overview in system landscape, Different sales channels, RACE roles and IdM, Product Folder concept, Release types / Cancelation types, Search, Work Center / Work Items",
     skills: ["Product Lifecycle", "System Landscape", "Sales Channels", "RACE Roles", "Product Management"],
     verificationUrl: "/certificates/bosch/race-release-cancelation-basics.pdf"
+  },
+  {
+    name: "[LG-COC-VIDEO2026] Compliance - Code of Conduct Refresher 2026-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Jan 26, 2026",
+    description: "This video refreshes Code of Conduct WBT knowledge, covering three common misconduct excuses and linking them to relevant Code sections. This optional training video is automatically assigned to all associates. Associates with access to HR Global can launch the video from HR Global and will receive an entry in their learning history. Associates without access to HR Global can access the video via Bosch Tube or receive it from their supervisor. Prior completion of the Code of Conduct WBT [LG-COC-WBT] is recommended.",
+    skills: ["Compliance", "Ethics", "Code of Conduct", "Corporate Policy"],
+    verificationUrl: "/certificates/bosch/compliance-code-of-conduct-refresher-2026.pdf"
   }
 ];

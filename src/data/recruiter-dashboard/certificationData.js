@@ -1373,6 +1373,14 @@ export const corporateTrainings = [
     description: "Completed foundational training on information security, privacy, and Bosch compliance standards.",
     skills: ["Information Security", "Privacy", "Cybersecurity"],
     verificationUrl: "/certificates/bosch/basics-information-security-privacy-2021.pdf"
+  },
+  {
+    name: "[LG-COC-VIDEO2026] Compliance - Code of Conduct Refresher 2026-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Jan 26, 2026",
+    description: "This video refreshes Code of Conduct WBT knowledge, covering three common misconduct excuses and linking them to relevant Code sections.",
+    skills: ["Compliance", "Ethics", "Code of Conduct", "Corporate Policy"],
+    verificationUrl: "/certificates/bosch/compliance-code-of-conduct-refresher-2026.pdf"
   }
-
 ];

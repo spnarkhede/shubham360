@@ -205,5 +205,14 @@ export const corporateTrainings = [
     description: "Compliance training on antitrust laws and practices.",
     skills: ["Compliance", "Antitrust Law", "Corporate Policy"],
     verificationUrl: "/certificates/bosch/compliance-antitrust-law-v2025B.pdf"
+  },
+  {
+    name: "[IT-RACE-PR-00-WBT] RACE Release and Cancelation Basics WBT-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Jan 26, 2026",
+    description: "Life Cycle Process of a product, Overview in system landscape, Different sales channels, RACE roles and IdM, Product Folder concept, Release types / Cancelation types, Search, Work Center / Work Items",
+    skills: ["Product Lifecycle", "System Landscape", "Sales Channels", "RACE Roles", "Product Management"],
+    verificationUrl: "/certificates/bosch/race-release-cancelation-basics.pdf"
   }
 ];

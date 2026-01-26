@@ -934,6 +934,15 @@ export const badges = [
 // Corporate Trainings data
 export const corporateTrainings = [
   {
+    name: "[IT-RACE-PR-00-WBT] RACE Release and Cancelation Basics WBT-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Jan 26, 2026",
+    description: "Life Cycle Process of a product, Overview in system landscape, Different sales channels, RACE roles and IdM, Product Folder concept, Release types / Cancelation types, Search, Work Center / Work Items",
+    skills: ["Product Lifecycle", "System Landscape", "Sales Channels", "RACE Roles", "Product Management"],
+    verificationUrl: "/certificates/bosch/race-release-cancelation-basics.pdf"
+  },
+  {
     name: "Digital Basics - Essentials of AI, Privacy, Information and Cybersecurity V2025-B",
     issuer: "Bosch",
     platform: "Web Based Training",

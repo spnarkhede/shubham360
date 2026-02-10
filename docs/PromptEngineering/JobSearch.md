@@ -564,7 +564,7 @@ Include:
 ```
 ---
 
-## ✅ How to Use This Prompt
+#### ✅ How to Use This Prompt
 
 1. Copy everything above
 2. Paste into ChatGPT
@@ -574,5 +574,225 @@ Include:
    * Your experience level (e.g., “3 years backend developer”)
    * Target company name
    * Interview type (Product / Service / Startup / FAANG)
+
+---
+
+
+## 34. Resume + JD Interview Analysis Master Prompt (Copy–Paste Ready)
+
+This prompt forces the AI to:
+
+* Read your **resume like a real interviewer**
+* Map it **line-by-line to the JD**
+* Generate **personalized interview answers**
+* Highlight **strengths, gaps, and improvement actions**
+* Produce a **full interview-ready report**
+
+#### Prompt Title
+```
+Below is a **second master prompt** designed specifically to **analyze your RESUME + JOB DESCRIPTION together** and then **answer every section from the previous Interview Consultant prompt**, with **customized examples, model answers, and gap analysis**.
+
+This prompt forces the AI to:
+
+* Read your **resume like a real interviewer**
+* Map it **line-by-line to the JD**
+* Generate **personalized interview answers**
+* Highlight **strengths, gaps, and improvement actions**
+* Produce a **full interview-ready report**
+
+---
+
+## 🔹 Resume + JD Interview Analysis Master Prompt (Copy–Paste Ready)
+
+**Prompt:**
+
+Act as a **Senior Interview Consultant, Technical Hiring Manager, and Career Coach**.
+You must **analyze my Resume and the provided Job Description together** and generate a **fully customized interview preparation report**.
+
+---
+
+## Inputs
+
+### 📄 Job Description:
+
+```
+[PASTE FULL JOB DESCRIPTION HERE]
+```
+
+### 📄 My Resume:
+
+```
+[PASTE FULL RESUME HERE]
+```
+
+---
+
+## Objectives
+
+You must:
+
+* Strictly follow the **Interview Preparation Framework** defined below
+* Base **all answers, examples, and explanations on my resume**
+* Fill gaps with **realistic, interview-safe examples**
+* Think like an interviewer evaluating *my profile for this role*
+
+---
+
+## INTERVIEW PREPARATION FRAMEWORK (MANDATORY)
+
+### 1️⃣ Role Fit & Readiness Assessment
+
+* How well my profile fits the role (Strong / Medium / Weak)
+* Key strengths from my resume aligned to the JD
+* Missing skills or experience gaps
+* Risk areas interviewers may challenge
+* How to position myself confidently despite gaps
+
+---
+
+### 2️⃣ Resume ↔ JD Keyword & Skill Mapping
+
+Create a table with:
+
+* JD keyword / requirement
+* Where it appears in my resume (project, role, skill)
+* Depth demonstrated (Basic / Intermediate / Advanced)
+* Interview talking points
+
+Highlight:
+
+* Strongly matched skills
+* Partially matched skills
+* Missing but learnable skills
+
+---
+
+### 3️⃣ Technology & Topic Preparation (Resume-Based)
+
+For **each technology, tool, and concept** from the JD:
+
+* My current level (from resume evidence)
+* What interviewers expect
+* Gaps to close
+* Topics I must prepare
+* How to explain my experience clearly in interviews
+
+---
+
+### 4️⃣ Personalized Technical Interview Questions & Answers
+
+Generate **custom interview questions** and **model answers** based on:
+
+* My projects
+* My tools & technologies
+* My responsibilities
+
+Include:
+
+#### 🔹 Screening Questions
+
+* Question
+* Sample answer **based on my resume**
+* What the interviewer is evaluating
+
+#### 🔹 Intermediate Questions
+
+* Scenario-based questions from my past work
+* Debugging / optimization / design questions
+* Step-by-step model answers
+
+#### 🔹 Advanced Questions
+
+* Architecture or system-level questions
+* Trade-offs and decision-making
+* How I should structure my answer
+
+---
+
+### 5️⃣ Project Deep-Dive Preparation
+
+For **each major project on my resume**:
+
+* Project summary (interview-ready)
+* Architecture explanation
+* My specific contributions
+* Challenges faced and solutions
+* Metrics, impact, and outcomes
+* Possible follow-up questions & strong answers
+
+---
+
+### 6️⃣ System Design & Architecture (If Applicable)
+
+* Design questions relevant to the JD
+* How my past experience maps to system design expectations
+* How to explain scalability, performance, and reliability
+* Sample system design answer using my background
+
+---
+
+### 7️⃣ Behavioral & HR Questions (Resume-Based)
+
+Provide **custom STAR-format answers** using:
+
+* My real experiences
+* My projects and roles
+
+Include questions on:
+
+* Leadership
+* Conflict resolution
+* Failure & learning
+* Ownership & accountability
+* Working under pressure
+
+---
+
+### 8️⃣ Coding & Practical Round Preparation
+
+* Coding topics I must focus on
+* Example problems aligned to the JD
+* How my past coding experience supports this role
+* Common mistakes to avoid
+
+---
+
+### 9️⃣ Resume Improvement Suggestions (Optional but Valuable)
+
+* Resume gaps exposed by the JD
+* Bullet-level improvements
+* Stronger wording for impact
+* Skills to add or emphasize
+
+---
+
+### 🔟 Final Interview Readiness Report
+
+* Overall readiness score (out of 10)
+* Strengths to highlight
+* Weak areas to prepare
+* 7-day / 14-day personalized preparation plan
+* Final interview tips tailored to my profile
+
+---
+
+## Output Rules
+
+* Use **clear headings and subheadings**
+* Use **tables and bullet points**
+* Be **resume-driven and interview-realistic**
+* Avoid generic advice
+* Assume this is a **high-stakes interview**
+
+**Do not skip any section. Provide deep, actionable detail.**
+```
+
+## ✅ How This Prompt Helps You
+
+✔ Turns ChatGPT into your **personal interview coach**
+✔ Generates **resume-specific answers**
+✔ Prepares you for **technical + behavioral rounds**
+✔ Exposes **hidden interview risks**
+✔ Saves **weeks of manual prep**
 
 ---

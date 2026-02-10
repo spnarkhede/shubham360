@@ -223,5 +223,23 @@ export const corporateTrainings = [
     description: "This video refreshes Code of Conduct WBT knowledge, covering three common misconduct excuses and linking them to relevant Code sections. This optional training video is automatically assigned to all associates. Associates with access to HR Global can launch the video from HR Global and will receive an entry in their learning history. Associates without access to HR Global can access the video via Bosch Tube or receive it from their supervisor. Prior completion of the Code of Conduct WBT [LG-COC-WBT] is recommended.",
     skills: ["Compliance", "Ethics", "Code of Conduct", "Corporate Policy"],
     verificationUrl: "/certificates/bosch/compliance-code-of-conduct-refresher-2026.pdf"
+  },
+  {
+    name: "[LG-PC-WBT] Compliance - Product Compliance V2025-B",
+    issuer: "Bosch",
+    platform: "Web Based Training",
+    date: "Jan 26, 2026",
+    description: "Completion Status: Web Based Training Complete. Covered Bosch's ethical standards and compliance requirements for responsible product conduct.",
+    skills: ["Compliance", "Product Ethics", "Corporate Policy"],
+    verificationUrl: "/certificates/bosch/product_compliance_v2025_B_jan2026.pdf"
+  },
+  {
+    name: "[LG-PL-BASIS-DOC] Basic Information Product Liability-B",
+    issuer: "Bosch",
+    platform: "Document",
+    date: "Jan 26, 2026",
+    description: "The Basic Information Product Liability explains fundamental notions and principles of product liability.",
+    skills: ["Product Liability", "Legal Compliance", "Risk Management"],
+    verificationUrl: "/certificates/bosch/basic-information-product-liability.pdf"
   }
 ];

@@ -27,8 +27,8 @@ const useRoleStore = create((set) => ({
   // Role configuration data
   roles: {
     'recruiter-dashboard': {
-      title: 'Recruiter Dashboard',
-      description: 'Because great hiring starts with understanding the person behind the profession.',
+      title: 'Shubham Narkhede',
+      description: 'DevOps & Full Stack Engineer',
       theme: 'light',
       tabs: [
         { id: 'introduction', label: 'Introduction' },

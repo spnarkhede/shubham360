@@ -1,0 +1,93 @@
+.dock {
+  position: fixed;
+  top: 50%;
+  right: 18px;
+  transform: translateY(-50%);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 10px;
+  background: rgba(30, 30, 60, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 22px;
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+:global([data-theme='light']) .dock {
+  background: rgba(255, 255, 255, 0.7);
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+.dock:hover {
+  background: rgba(30, 30, 60, 0.75);
+  box-shadow: 0 16px 48px rgba(139, 92, 246, 0.25);
+}
+:global([data-theme='light']) .dock:hover {
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 16px 48px rgba(139, 92, 246, 0.18);
+}
+
+.dockItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 999px;
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  overflow: hidden;
+  transition: width 0.32s cubic-bezier(0.4, 0, 0.2, 1),
+              background 0.22s ease,
+              transform 0.22s ease,
+              box-shadow 0.22s ease;
+  transition-delay: var(--dock-delay, 0ms);
+  white-space: nowrap;
+  background: transparent;
+}
+.dock:hover .dockItem { width: 184px; }
+.dockItem:hover {
+  background: color-mix(in srgb, var(--dock-color) 22%, transparent);
+  transform: translateX(-2px);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--dock-color) 30%, transparent);
+  text-decoration: none;
+}
+
+.dockIcon {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  background: var(--dock-color, #8B5CF6);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--dock-color) 35%, transparent);
+  transition: transform 0.22s ease;
+}
+.dockItem:hover .dockIcon { transform: scale(1.05); }
+.dockIcon svg { display: block; width: 18px; height: 18px; }
+
+.dockLabel {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding-right: 16px;
+  color: var(--ifm-font-color-base);
+  opacity: 0;
+  transform: translateX(6px);
+  transition: opacity 0.22s ease 0.08s, transform 0.22s ease 0.08s;
+}
+.dock:hover .dockLabel {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (max-width: 960px) {
+  .dock { display: none; }
+}

@@ -156,7 +156,7 @@ export default function CuriousVisitorIntroduction() {
                   className={styles.profileImage}
                   onError={(e) => {
                     e.target.onerror = null;
-                    e.target.src="/img/default-profile.webp";
+                    e.target.src="../../../static/img/profile.webp";
                   }}
                 />
               </div>

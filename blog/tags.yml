@@ -176,9 +176,7 @@ infrastructure:
 kubernetes:
   label: Kubernetes
   permalink: /kubernetes
-  description: Container orchestration and Kubernetes best practices.
 
-  description: Claude AI models and applications.
 
 reasoning:
   label: Reasoning

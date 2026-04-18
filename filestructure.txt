@@ -5,7 +5,6 @@
                 |-- generated-constants.js
                 |-- generated.js
                 |-- __plugin.json
-    |-- client-manifest.json
     |-- client-modules.js
     |-- codeTranslations.json
     |-- docusaurus-plugin-content-blog
@@ -16,63 +15,87 @@
                 |-- blog-archive-f05.json
                 |-- blog-authors-790.json
                 |-- blog-authors-spnarkhede-authors-2-8d4.json
+                |-- blog-authors-spnarkhede-authors-3-717.json
+                |-- blog-authors-spnarkhede-authors-4-4e3.json
+                |-- blog-authors-spnarkhede-authors-5-793.json
                 |-- blog-authors-spnarkhede-d5a.json
                 |-- blog-bd9.json
                 |-- blog-page-2-433.json
+                |-- blog-page-3-7c8.json
+                |-- blog-page-4-4d1.json
+                |-- blog-page-5-178.json
                 |-- blog-tags-ai-9a5.json
+                |-- blog-tags-ai-page-2-bd5.json
+                |-- blog-tags-ai-page-3-3e0.json
                 |-- blog-tags-amazon-7e8.json
+                |-- blog-tags-analysis-fac.json
+                |-- blog-tags-anthropic-c7d.json
                 |-- blog-tags-automation-dc1.json
+                |-- blog-tags-automotive-767.json
+                |-- blog-tags-best-practices-ee8.json
                 |-- blog-tags-books-1eb.json
                 |-- blog-tags-bosch-d73.json
+                |-- blog-tags-business-1df.json
                 |-- blog-tags-career-033.json
+                |-- blog-tags-career-page-2-3e2.json
+                |-- blog-tags-certifications-48b.json
+                |-- blog-tags-ci-cd-baf.json
+                |-- blog-tags-claude-ac3.json
+                |-- blog-tags-cloud-4d2.json
                 |-- blog-tags-cloud-native-86e.json
+                |-- blog-tags-coding-a1f.json
                 |-- blog-tags-concepts-f07.json
+                |-- blog-tags-coursera-57f.json
+                |-- blog-tags-dev-ops-9e4.json
+                |-- blog-tags-development-c3c.json
                 |-- blog-tags-devops-895.json
                 |-- blog-tags-df9.json
+                |-- blog-tags-digital-transformation-e14.json
+                |-- blog-tags-documentation-453.json
+                |-- blog-tags-enterprise-3a8.json
+                |-- blog-tags-generative-ai-8b2.json
+                |-- blog-tags-git-hub-copilot-880.json
+                |-- blog-tags-google-6fa.json
+                |-- blog-tags-google-gemini-1ef.json
+                |-- blog-tags-industry-5bd.json
+                |-- blog-tags-infrastructure-a92.json
                 |-- blog-tags-innovation-a1b.json
                 |-- blog-tags-inventions-8c3.json
+                |-- blog-tags-jira-2ac.json
                 |-- blog-tags-journey-dab.json
+                |-- blog-tags-kubernetes-bf9.json
                 |-- blog-tags-leadership-5fc.json
                 |-- blog-tags-learning-5c1.json
+                |-- blog-tags-lessons-learned-71c.json
+                |-- blog-tags-machine-learning-89e.json
+                |-- blog-tags-marketing-879.json
+                |-- blog-tags-microservices-27e.json
+                |-- blog-tags-microsoft-753.json
                 |-- blog-tags-mindset-986.json
+                |-- blog-tags-multi-modal-a2e.json
+                |-- blog-tags-planning-df2.json
+                |-- blog-tags-product-management-8f0.json
+                |-- blog-tags-productivity-557.json
+                |-- blog-tags-productivity-page-2-63d.json
+                |-- blog-tags-professional-development-d29.json
                 |-- blog-tags-professional-growth-742.json
+                |-- blog-tags-project-management-05e.json
+                |-- blog-tags-prompt-engineering-485.json
                 |-- blog-tags-psychology-dc3.json
+                |-- blog-tags-reasoning-b6c.json
+                |-- blog-tags-recession-e12.json
                 |-- blog-tags-reflection-442.json
+                |-- blog-tags-research-857.json
                 |-- blog-tags-robert-bosch-f8f.json
+                |-- blog-tags-skills-020.json
                 |-- blog-tags-software-development-c0f.json
                 |-- blog-tags-technology-3f2.json
                 |-- blog-tags-technology-trends-8b2.json
+                |-- blog-tags-transformation-271.json
                 |-- blog-tags-transition-88e.json
-                |-- de-blog-10b.json
-                |-- de-blog-archive-247.json
-                |-- de-blog-authors-9f2.json
-                |-- de-blog-authors-spnarkhede-authors-2-6e9.json
-                |-- de-blog-authors-spnarkhede-d6a.json
-                |-- de-blog-page-2-390.json
-                |-- de-blog-tags-ai-d68.json
-                |-- de-blog-tags-amazon-d2a.json
-                |-- de-blog-tags-automation-890.json
-                |-- de-blog-tags-books-bee.json
-                |-- de-blog-tags-bosch-f5a.json
-                |-- de-blog-tags-career-536.json
-                |-- de-blog-tags-cloud-native-0fb.json
-                |-- de-blog-tags-concepts-695.json
-                |-- de-blog-tags-devops-ca3.json
-                |-- de-blog-tags-e80.json
-                |-- de-blog-tags-innovation-bc8.json
-                |-- de-blog-tags-inventions-16a.json
-                |-- de-blog-tags-journey-b77.json
-                |-- de-blog-tags-leadership-475.json
-                |-- de-blog-tags-learning-d84.json
-                |-- de-blog-tags-mindset-d35.json
-                |-- de-blog-tags-professional-growth-d1a.json
-                |-- de-blog-tags-psychology-a42.json
-                |-- de-blog-tags-reflection-27e.json
-                |-- de-blog-tags-robert-bosch-fd5.json
-                |-- de-blog-tags-software-development-494.json
-                |-- de-blog-tags-technology-a66.json
-                |-- de-blog-tags-technology-trends-1ba.json
-                |-- de-blog-tags-transition-657.json
+                |-- blog-tags-workflow-978.json
+                |-- blog-tags-workforce-ee0.json
+                |-- blog-tags-writing-e9b.json
             |-- site-blog-2018-2018-01-05-futureofai-md-1aa.json
             |-- site-blog-2018-2018-01-12-readbodylanguagelikefbi-md-2a3.json
             |-- site-blog-2018-2018-02-15-my-journey-in-software-development-md-231.json
@@ -82,59 +105,25 @@
             |-- site-blog-2022-2022-08-20-devops-at-robert-bosch-md-70e.json
             |-- site-blog-2023-2023-03-15-five-years-in-tech-md-cdc.json
             |-- site-blog-2024-2024-01-10-future-of-devops-md-0eb.json
+            |-- site-blog-2024-2024-02-08-microservices-automation-md-9de.json
+            |-- site-blog-2024-2024-03-15-ai-revolution-bosch-md-cce.json
+            |-- site-blog-2024-2024-04-25-automotive-reckoning-md-d71.json
+            |-- site-blog-2025-2025-04-28-ai-automation-enterprise-md-805.json
+            |-- site-blog-2025-2025-10-15-ai-mastery-overview-md-fb6.json
+            |-- site-blog-2025-2025-10-20-github-copilot-coding-md-6c5.json
+            |-- site-blog-2025-2025-10-25-claude-opus-sonnet-md-b65.json
+            |-- site-blog-2025-2025-11-01-google-gemini-md-ce9.json
+            |-- site-blog-2025-2025-11-10-ai-workflow-integration-md-cec.json
+            |-- site-blog-2025-2025-11-20-prompt-engineering-mastery-md-e13.json
+            |-- site-blog-2025-2025-11-30-ai-certifications-learning-md-d49.json
+            |-- site-blog-2025-2025-12-10-ai-project-product-management-md-eaa.json
+            |-- site-blog-2026-2026-02-07-automotive-future-md-7f0.json
             |-- __plugin.json
     |-- docusaurus-plugin-content-docs
         |-- default
             |-- p
                 |-- category-languages-462.json
                 |-- category-prompt-engineering-b56.json
-                |-- de-category-languages-fba.json
-                |-- de-f9d.json
-                |-- de-tags-ai-26a.json
-                |-- de-tags-ais-605.json
-                |-- de-tags-android-52c.json
-                |-- de-tags-angular-5cd.json
-                |-- de-tags-automation-11b.json
-                |-- de-tags-b38.json
-                |-- de-tags-book-661.json
-                |-- de-tags-bootstrap-48a.json
-                |-- de-tags-bots-599.json
-                |-- de-tags-chatbot-7d3.json
-                |-- de-tags-cicd-41f.json
-                |-- de-tags-config-b7b.json
-                |-- de-tags-css-fc2.json
-                |-- de-tags-data-engineering-676.json
-                |-- de-tags-data-science-41a.json
-                |-- de-tags-databricks-826.json
-                |-- de-tags-deployment-02d.json
-                |-- de-tags-development-bbc.json
-                |-- de-tags-devops-6cc.json
-                |-- de-tags-format-839.json
-                |-- de-tags-generative-ai-3b8.json
-                |-- de-tags-hyperautomation-d0a.json
-                |-- de-tags-idp-c1b.json
-                |-- de-tags-interpret-9e8.json
-                |-- de-tags-jetbrains-0cd.json
-                |-- de-tags-jvm-d86.json
-                |-- de-tags-kotlin-cf9.json
-                |-- de-tags-lakehouse-b93.json
-                |-- de-tags-learnings-167.json
-                |-- de-tags-list-977.json
-                |-- de-tags-llm-c8d.json
-                |-- de-tags-lowcode-1ff.json
-                |-- de-tags-machine-learning-c39.json
-                |-- de-tags-mindset-8b6.json
-                |-- de-tags-nlp-091.json
-                |-- de-tags-nocode-01c.json
-                |-- de-tags-pipeline-bac.json
-                |-- de-tags-programming-c7a.json
-                |-- de-tags-resources-243.json
-                |-- de-tags-rpa-6d2.json
-                |-- de-tags-script-947.json
-                |-- de-tags-strategic-15d.json
-                |-- de-tags-tools-c6b.json
-                |-- de-tags-web-10d.json
-                |-- de-tags-workflow-f02.json
                 |-- index-466.json
                 |-- tags-ai-7df.json
                 |-- tags-ais-59b.json
@@ -185,7 +174,6 @@
                 |-- tags-tools-a72.json
                 |-- tags-web-fcc.json
                 |-- tags-workflow-95b.json
-            |-- site-docs-computer-science-artificial-intelligence-ai-directory-cheetsheets-md-c36.json
             |-- site-docs-computer-science-artificial-intelligence-llm-llm-basic-notes-md-74f.json
             |-- site-docs-computer-science-artificial-intelligence-llm-prompt-engineering-basic-notes-md-45b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-basic-notes-md-fbd.json
@@ -193,43 +181,28 @@
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-operations-md-c1b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
-            |-- site-docs-computer-science-hyperautomation-chatbots-idp-all-in-one-ai-md-77c.json
             |-- site-docs-computer-science-hyperautomation-chatbots-idp-chatbots-idp-md-871.json
             |-- site-docs-computer-science-hyperautomation-ci-cd-cicd-guide-md-363.json
-            |-- site-docs-computer-science-hyperautomation-ci-cd-cicd-md-5a2.json
             |-- site-docs-computer-science-hyperautomation-generative-ai-gen-ai-introduction-md-0a4.json
-            |-- site-docs-computer-science-hyperautomation-generative-ai-gen-ai-introduction-md-b00.json
             |-- site-docs-computer-science-hyperautomation-hyper-automation-hyper-automation-md-818.json
-            |-- site-docs-computer-science-hyperautomation-hyper-automation-md-27f.json
             |-- site-docs-computer-science-hyperautomation-low-code-no-code-low-code-no-code-md-5b3.json
-            |-- site-docs-computer-science-hyperautomation-low-code-no-code-md-463.json
             |-- site-docs-computer-science-hyperautomation-rpa-robotic-process-automation-md-f28.json
-            |-- site-docs-computer-science-hyperautomation-rpa-rpa-md-842.json
             |-- site-docs-computer-science-index-md-d29.json
             |-- site-docs-computer-science-programming-databricks-databricks-md-f35.json
             |-- site-docs-computer-science-programming-git-git-basic-notes-md-315.json
             |-- site-docs-computer-science-programming-kotlin-kotlin-basic-notes-md-07c.json
-            |-- site-docs-computer-science-programming-kotlin-kotlin-md-ec6.json
             |-- site-docs-computer-science-programming-nvm-nvm-user-guide-md-879.json
             |-- site-docs-computer-science-programming-python-python-basic-notes-md-684.json
             |-- site-docs-computer-science-programming-vim-vim-basic-notes-md-da8.json
             |-- site-docs-computer-science-programming-vim-vim-cheat-sheet-md-4a6.json
             |-- site-docs-computer-science-programming-yaml-yaml-guide-md-99a.json
-            |-- site-docs-computer-science-programming-yaml-yaml-md-c47.json
             |-- site-docs-computer-science-web-technologies-angular-angular-basic-notes-md-08d.json
             |-- site-docs-computer-science-web-technologies-css-bootstrap-basic-notes-md-394.json
             |-- site-docs-computer-science-web-technologies-css-css-advanced-notes-md-413.json
             |-- site-docs-computer-science-web-technologies-css-css-animation-notes-md-8f7.json
             |-- site-docs-computer-science-web-technologies-css-css-basic-notes-md-16c.json
             |-- site-docs-computer-science-web-technologies-html-html-basic-notes-md-4d3.json
-            |-- site-docs-design-design-inspiration-md-d66.json
-            |-- site-docs-design-designand-uitools-md-69d.json
-            |-- site-docs-design-principles-design-inspiration-md-f32.json
-            |-- site-docs-design-principles-designand-uitools-md-22b.json
-            |-- site-docs-design-principles-product-manager-guide-for-team-md-8d7.json
             |-- site-docs-design-principles-product-manager-guide-md-8ba.json
-            |-- site-docs-design-product-manager-guide-for-team-md-573.json
-            |-- site-docs-design-product-manager-guide-md-8f8.json
             |-- site-docs-design-tools-design-inspiration-md-af6.json
             |-- site-docs-design-tools-designand-uitools-md-71a.json
             |-- site-docs-intro-md-0e3.json
@@ -687,7 +660,6 @@
             |-- site-docs-my-learnings-hard-reset-90-days-hard-reset-md-26e.json
             |-- site-docs-my-learnings-hard-reset-life-formula-md-7a0.json
             |-- site-docs-portfolio-resume-md-906.json
-            |-- site-docs-prompt-engineering-all-in-one-ai-copy-md-0f8.json
             |-- site-docs-prompt-engineering-all-in-one-ai-md-78d.json
             |-- site-docs-prompt-engineering-job-search-md-d2f.json
             |-- site-docs-prompt-engineering-resume-creation-md-bcb.json
@@ -696,7 +668,6 @@
             |-- site-docs-prompt-engineering-ultimate-resume-guide-2025-md-cab.json
             |-- site-docs-tools-collection-adblocking-privacy-md-a5f.json
             |-- site-docs-tools-collection-ai-directory-cheatsheets-md-173.json
-            |-- site-docs-tools-collection-ai-directory-cheetsheets-md-db5.json
             |-- site-docs-tools-collection-android-ios-md-29d.json
             |-- site-docs-tools-collection-artificial-intelligence-md-833.json
             |-- site-docs-tools-collection-beginners-guide-md-2de.json
@@ -719,7 +690,6 @@
             |-- site-docs-tools-collection-system-tools-md-54e.json
             |-- site-docs-tools-collection-text-tools-md-14b.json
             |-- site-docs-tools-collection-tiny-tools-directory-md-2ab.json
-            |-- site-docs-tools-collection-toolsfor-developers-md-2b2.json
             |-- site-docs-tools-collection-torrenting-md-7f9.json
             |-- site-docs-tools-collection-video-tools-md-4ff.json
             |-- __mdx-loader-dependency.json
@@ -730,7 +700,6 @@
             |-- site-src-pages-product-designer-blogs-design-systems-md-141.json
             |-- site-src-pages-product-designer-blogs-prototyping-md-4d5.json
             |-- site-src-pages-product-designer-blogs-user-research-md-7cc.json
-            |-- site-src-pages-recruitment-specialist-recruiter-curated-data-md-a59.json
             |-- __plugin.json
     |-- docusaurus-plugin-debug
         |-- default
@@ -746,10 +715,13 @@
     |-- routesChunkNames.json
     |-- site-metadata.json
     |-- site-storage.json
-|-- .env
 |-- .env.example
 |-- .gitignore
+|-- .qoder
+    |-- agents
+    |-- skills
 |-- 1. RecruiterCuratedData.md
+|-- 1. RecruiterDashboardData.md
 |-- 2. TechEnthusiast.md
 |-- 3. CuriousVisitor.md
 |-- 4. GrowthPartner.md
@@ -777,8 +749,24 @@
         |-- 2023-03-15-five-years-in-tech.md
     |-- 2024
         |-- 2024-01-10-future-of-devops.md
+        |-- 2024-02-08_microservices_automation.md
+        |-- 2024-03-15_ai_revolution_bosch.md
+        |-- 2024-04-25_automotive_reckoning.md
+    |-- 2025
+        |-- 2025-04-28_ai_automation_enterprise.md
+        |-- 2025-10-15-ai-mastery-overview.md
+        |-- 2025-10-20-github-copilot-coding.md
+        |-- 2025-10-25-claude-opus-sonnet.md
+        |-- 2025-11-01-google-gemini.md
+        |-- 2025-11-10-ai-workflow-integration.md
+        |-- 2025-11-20-prompt-engineering-mastery.md
+        |-- 2025-11-30-ai-certifications-learning.md
+        |-- 2025-12-10_ai_project_product_management.md
+    |-- 2026
+        |-- 2026-02-07_automotive_future.md
     |-- authors.yml
     |-- tags.yml
+|-- CLAUDE.md
 |-- clean-lucide-imports.js
 |-- compress-images.js
 |-- compress-pdf.js
@@ -1547,17 +1535,17 @@
         |-- ExperienceTimeline
             |-- index.js
             |-- styles.module.css
+        |-- FloatingDock
+            |-- index.js
+            |-- styles.module.css
         |-- GrowthPartnerDashboard
             |-- index.js
             |-- styles.module.css
         |-- HomepageFeatures
             |-- index.js
-        |-- hooks
         |-- LatestArticles
             |-- index.js
             |-- styles.module.css
-        |-- lib
-        |-- lightswind
         |-- MainNavigation
             |-- index.js
             |-- styles.module.css
@@ -1602,7 +1590,7 @@
         |-- product-designer
             |-- certificationData.js
             |-- experienceData.js
-        |-- recruitment-specialist
+        |-- recruiter-dashboard
             |-- certificationData.js
             |-- content.js
             |-- projectsData.js
@@ -1755,7 +1743,7 @@
             |-- portfolio.js
             |-- styles.module.css
             |-- tools.js
-        |-- recruitment-specialist
+        |-- recruiter-dashboard
             |-- certifications.js
             |-- components
                 |-- ProfessionalTimeline.js
@@ -1778,6 +1766,8 @@
             |-- tools-collection.js
     |-- store
         |-- roleStore.js
+    |-- theme
+        |-- Root.js
 |-- static
     |-- certificates
         |-- bosch
@@ -1786,6 +1776,7 @@
             |-- anticorruption-formar-gratitude-A.pdf
             |-- antitrust-law-2019.pdf
             |-- antitrust-law-2022.pdf
+            |-- basic-information-product-liability-2026.pdf
             |-- basic-information-product-liability.pdf
             |-- basics-information-security-privacy-2021.pdf
             |-- basics-information-security-privacy-cybersecurity-1.pdf
@@ -1796,7 +1787,11 @@
             |-- certificate-attendance-code-of-business-conduct.pdf
             |-- classified-information-trade-secrets.pdf
             |-- code-of-business-conduct.pdf
+            |-- compliance-anti-corruption-v2025B.pdf
+            |-- compliance-anti-money-laundering.pdf
+            |-- compliance-antitrust-law-v2025B.pdf
             |-- compliance-code-of-conduct-2025.pdf
+            |-- compliance-code-of-conduct-refresher-2026.pdf
             |-- compliance-document-code-of-business-conduct.pdf
             |-- compliance-gratuities-2019.pdf
             |-- data-protection-and-information-security.pdf
@@ -1816,7 +1811,10 @@
             |-- pm-pep-configuration.pdf
             |-- product-compliance-2023.pdf
             |-- product-safety-and-liability.pdf
+            |-- product_compliance_v2025_B.pdf
+            |-- product_compliance_v2025_B_jan2026.pdf
             |-- project-management-fundamentals.pdf
+            |-- race-release-cancelation-basics.pdf
             |-- risk-management-B.pdf
             |-- risk-management-in-projects-basicsB.pdf
             |-- risk-management-in-projects.pdf
@@ -1827,9 +1825,13 @@
             |-- user-experience-getting-started.pdf
     |-- documents
         |-- resume
-            |-- ShubhamNarkhede_CV.pdf
+            |-- ShubhamNarkhede_CV_Backend.pdf
+            |-- ShubhamNarkhede_CV_DevOps.pdf
+            |-- ShubhamNarkhede_CV_Frontend.pdf
             |-- summary_resume.pdf
     |-- img
+        |-- amazon.png
+        |-- aws.png
         |-- badges
             |-- data-science-foundations-level-1.webp
             |-- generative-ai-overview-for-project-managers.webp
@@ -2039,6 +2041,7 @@
             |-- vaidikDincharya.webp
             |-- whyMenLoveBitches.webp
             |-- yourNextFiveMoves.webp
+        |-- bosch.png
         |-- default-bosch.webp
         |-- docusaurus-social-card.webp
         |-- docusaurus.webp
@@ -2061,7 +2064,6 @@
                 |-- 2024ganpati2.webp
                 |-- 2024ganpati3.webp
                 |-- 2024ganpati4.webp
-            |-- 2025
         |-- handpanprofile.webp
         |-- landingprofile.png
         |-- landingprofile.webp
@@ -2144,6 +2146,8 @@
         |-- profilepic.webp
         |-- profilesquare.webp
         |-- readerprofile.webp
+        |-- rexroth.png
+        |-- rtmnu.png
         |-- sketches
             |-- 10.webp
             |-- 11.webp
@@ -2246,6 +2250,7 @@
             |-- jakob.webp
             |-- neeranjan.webp
             |-- selin.webp
+        |-- tuc.png
         |-- undraw_docusaurus_mountain.svg
         |-- undraw_docusaurus_react.svg
         |-- undraw_docusaurus_tree.svg

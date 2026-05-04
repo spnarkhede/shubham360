@@ -14,11 +14,11 @@
             |-- p
                 |-- blog-archive-f05.json
                 |-- blog-authors-790.json
-                |-- blog-authors-spnarkhede-authors-2-8d4.json
-                |-- blog-authors-spnarkhede-authors-3-717.json
-                |-- blog-authors-spnarkhede-authors-4-4e3.json
-                |-- blog-authors-spnarkhede-authors-5-793.json
                 |-- blog-authors-spnarkhede-d5a.json
+                |-- blog-authors-spnarkhede-page-2-7eb.json
+                |-- blog-authors-spnarkhede-page-3-a5f.json
+                |-- blog-authors-spnarkhede-page-4-e35.json
+                |-- blog-authors-spnarkhede-page-5-938.json
                 |-- blog-bd9.json
                 |-- blog-page-2-433.json
                 |-- blog-page-3-7c8.json
@@ -656,6 +656,7 @@
             |-- site-docs-languages-german-intensive-c-1-1-7-chapter-6-md-166.json
             |-- site-docs-languages-german-intensive-c-1-1-8-chapter-7-md-af0.json
             |-- site-docs-languages-german-intensive-c-1-1-9-chapter-8-md-f4a.json
+            |-- site-docs-linked-in-linkedin-optimization-md-b0c.json
             |-- site-docs-my-learnings-hard-reset-50-psychology-skills-md-7f6.json
             |-- site-docs-my-learnings-hard-reset-90-days-hard-reset-md-26e.json
             |-- site-docs-my-learnings-hard-reset-life-formula-md-7a0.json
@@ -1331,6 +1332,8 @@
                 |-- 8. Chapter 7.md
                 |-- 9. Chapter 8.md
         |-- _category_.json
+    |-- LinkedIn
+        |-- LinkedinOptimization.md
     |-- MyLearnings
         |-- HardReset
             |-- 50PsychologySkills.md

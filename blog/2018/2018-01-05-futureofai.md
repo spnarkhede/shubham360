@@ -1,5 +1,6 @@
 ---
-slug: Exploring the Future of Artificial Intelligence
+slug: exploring-the-future-of-artificial-intelligence
+date: 2018-01-05
 title: Exploring the Future of Artificial Intelligence
 authors: [spnarkhede]
 tags: [technology, learning, inventions, innovation, concepts]

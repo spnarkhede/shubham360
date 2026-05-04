@@ -1,5 +1,6 @@
 ---
-slug: Former FBI Agent Explains How to Read Body Language
+slug: former-fbi-agent-explains-how-to-read-body-language
+date: 2018-01-12
 title: Former FBI Agent Explains How to Read Body Language
 authors: [spnarkhede]
 tags: [psychology, learning, leadership, books, concepts]

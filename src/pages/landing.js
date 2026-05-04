@@ -677,27 +677,98 @@ export default function Landing() {
               <h2 className={styles.sectionTitle}>Industrial projects</h2>
 
               <div className={styles.projGrid}>
+
                 <div className={styles.projCard}>
                   <span className={styles.projLogo}><BoschLogo /></span>
                   <div className={styles.projBody}>
-                    <h3 className={styles.projTitle}>Connected Charging Cables</h3>
+                    <h3 className={styles.projTitle}>Connected Charging Cable Platform</h3>
+                    <div className={styles.projTags}>
+                      {['React', 'TypeScript', 'Java Spring Boot', 'OCPP', 'AWS'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                    </div>
                     <p className={styles.projDesc}>
-                      Angular + AWS + Kubernetes. EV charging frontend handling 10,000+ sessions with 75% faster deployments. (Bosch GmbH)
+                      Real-time operator interface processing 10K+ OCPP messages/sec, sub-200ms latency across 8 European markets. (Bosch eMobility R&amp;D)
                     </p>
-                    <a className={styles.projLink} href="/recruiter-dashboard">
+                    <a className={styles.projLink} href="/recruiter-dashboard/projects">
                       <LinkIcon /> View case study
                     </a>
                   </div>
                 </div>
 
                 <div className={styles.projCard}>
-                  <span className={styles.projLogo}><ReactLogo /></span>
+                  <span className={styles.projLogo}><BoschLogo /></span>
                   <div className={styles.projBody}>
-                    <h3 className={styles.projTitle}>Charge Points Management System</h3>
+                    <h3 className={styles.projTitle}>Charge Point Management System</h3>
+                    <div className={styles.projTags}>
+                      {['React', 'Azure', 'OCPP', 'Docker', 'CI/CD'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                    </div>
                     <p className={styles.projDesc}>
-                      React + Azure + OCPP. Delivered across 450,000+ points in 30 countries with 99.9% uptime. (Bosch GmbH)
+                      450,000+ charge points across 30 countries, 99.9% uptime with real-time OCPP event processing. (Bosch GmbH)
                     </p>
-                    <a className={styles.projLink} href="/recruiter-dashboard">
+                    <a className={styles.projLink} href="/recruiter-dashboard/projects">
+                      <LinkIcon /> View case study
+                    </a>
+                  </div>
+                </div>
+
+                <div className={styles.projCard}>
+                  <span className={styles.projLogo}><BoschLogo /></span>
+                  <div className={styles.projBody}>
+                    <h3 className={styles.projTitle}>Real-Time Geospatial Dashboard</h3>
+                    <div className={styles.projTags}>
+                      {['React', 'TypeScript', 'Leaflet.js', 'REST APIs'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                    </div>
+                    <p className={styles.projDesc}>
+                      Interactive map rendering 50K+ data points — sub-300ms render time, 60fps pan/zoom with dynamic filtering. (Bosch GmbH)
+                    </p>
+                    <a className={styles.projLink} href="/recruiter-dashboard/projects">
+                      <LinkIcon /> View case study
+                    </a>
+                  </div>
+                </div>
+
+                <div className={styles.projCard}>
+                  <span className={styles.projLogo}><BoschLogo /></span>
+                  <div className={styles.projBody}>
+                    <h3 className={styles.projTitle}>High-Volume Data Visualization Platform</h3>
+                    <div className={styles.projTags}>
+                      {['React', 'TypeScript', 'D3.js', 'WebSockets'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                    </div>
+                    <p className={styles.projDesc}>
+                      10K+ data points/second charting at 60fps, canvas rendering across 8 enterprise products. (Bosch GmbH)
+                    </p>
+                    <a className={styles.projLink} href="/recruiter-dashboard/projects">
+                      <LinkIcon /> View case study
+                    </a>
+                  </div>
+                </div>
+
+                <div className={styles.projCard}>
+                  <span className={styles.projLogo}><BoschRexrothLogo /></span>
+                  <div className={styles.projBody}>
+                    <h3 className={styles.projTitle}>Application Product Selector (APS)</h3>
+                    <div className={styles.projTags}>
+                      {['Angular', 'TypeScript', '.NET Core', 'SAP UI5'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                    </div>
+                    <p className={styles.projDesc}>
+                      SAP-integrated catalog with 3D visualisation — 100+ global partners, 35% faster configuration, 200+ manual requests eliminated monthly. (Bosch Rexroth)
+                    </p>
+                    <a className={styles.projLink} href="/recruiter-dashboard/projects">
+                      <LinkIcon /> View case study
+                    </a>
+                  </div>
+                </div>
+
+                <div className={styles.projCard}>
+                  <span className={styles.projLogo}><BoschRexrothLogo /></span>
+                  <div className={styles.projBody}>
+                    <h3 className={styles.projTitle}>Smart Project Management v3.0</h3>
+                    <div className={styles.projTags}>
+                      {['Angular', 'Java Spring Boot', 'Kubernetes', 'PostgreSQL'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                    </div>
+                    <p className={styles.projDesc}>
+                      Multi-tenant PM system — 1,000+ users, 22% faster project cycles with real-time collaboration. (Bosch Rexroth)
+                    </p>
+                    <a className={styles.projLink} href="/recruiter-dashboard/projects">
                       <LinkIcon /> View case study
                     </a>
                   </div>
@@ -707,10 +778,13 @@ export default function Landing() {
                   <span className={styles.projLogo}><BoschLogo /></span>
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>Support Portal 2.0</h3>
+                    <div className={styles.projTags}>
+                      {['Angular', 'TypeScript', 'REST APIs', 'Figma'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                    </div>
                     <p className={styles.projDesc}>
-                      Angular + Figma. Cut ticket resolution by 40% and automated 60% of support tasks. (Bosch GmbH)
+                      40% faster ticket resolution, 60% of L1 tasks automated for 300+ users. (Bosch GmbH)
                     </p>
-                    <a className={styles.projLink} href="/recruiter-dashboard">
+                    <a className={styles.projLink} href="/recruiter-dashboard/projects">
                       <LinkIcon /> View case study
                     </a>
                   </div>
@@ -720,14 +794,18 @@ export default function Landing() {
                   <span className={`${styles.projLogo} ${styles.projLogoTeal}`}><BoltIcon /></span>
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>Chase My Career (Personal)</h3>
+                    <div className={styles.projTags}>
+                      {['Next.js', 'TypeScript', 'Supabase', 'Cloudflare'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                    </div>
                     <p className={styles.projDesc}>
-                      Next.js, TypeScript, Supabase, Cloudflare. AI-powered job matching &amp; resume review platform, live in Germany.
+                      AI-powered job matching &amp; resume review platform, live in Germany.
                     </p>
-                    <a className={styles.projLink} href="https://www.shubhamnarkhede.com" target="_blank" rel="noopener noreferrer">
-                      <LinkIcon /> shubhamnarkhede.com
+                    <a className={styles.projLink} href="https://www.chasemycareer.com" target="_blank" rel="noopener noreferrer">
+                      <LinkIcon /> chasemycareer.com
                     </a>
                   </div>
                 </div>
+
               </div>
             </section>
 

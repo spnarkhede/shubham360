@@ -1,218 +1,165 @@
 // Projects data for recruiter-dashboard role
 export const companyProjects = {
   featured: {
-    title: "Connected Charging Cable (CCC)",
+    title: "Connected Charging Cable Platform",
     date: "2022 - Present",
-    company: "Robert Bosch GmbH",
-    description: "Led the development of a comprehensive management system for electric vehicle charging infrastructure. The system provides real-time monitoring, user management, and analytics capabilities for charging stations across Europe.",
-    longDescription: "The Connected Charging Cable (CCC) project is a flagship initiative at Robert Bosch GmbH that revolutionizes how electric vehicle charging infrastructure is managed. As the lead developer, I architected and implemented a scalable solution that handles thousands of concurrent connections while providing real-time monitoring, user management, payment processing, and analytics capabilities. The system integrates with multiple third-party services and employs a microservices architecture for maximum flexibility and resilience.",
-    technologies: ["Angular", "Node.js", "AWS", "Docker", "Kubernetes", "Microservices", "CI/CD", "Playwright"],
+    company: "Robert Bosch GmbH (eMobility R&D)",
+    description: "Built real-time operator interface with backend API integration processing 10K+ OCPP messages per second across 8 European markets.",
+    longDescription: "Built real-time operator interface with backend API integration processing 10K+ OCPP messages per second, achieving sub-200ms latency and supporting hardware command flows across 8 European markets. React + TypeScript frontend communicating with Java Spring Boot microservices via REST APIs over OCPP protocol.",
+    technologies: ["React", "TypeScript", "Java Spring Boot", "REST APIs", "OCPP", "AWS", "Kubernetes", "CI/CD"],
     achievements: [
-      "Reduced deployment time by 75% across development teams",
-      "Handles 10,000+ concurrent charging sessions",
-      "Improved system reliability by 60%",
-      "Integrated with 15+ third-party payment providers"
+      "10K+ OCPP messages processed per second",
+      "Sub-200ms end-to-end latency",
+      "75% faster deployments via CI/CD pipeline",
+      "Deployed across 8 European markets"
     ],
     image: "/img/projects/ccc-project.webp",
-    demoLink: "https://example.com/ccc-demo",
-    codeLink: null, // Company proprietary
+    demoLink: null,
+    codeLink: null,
   },
-  
+
   projects: [
     {
-      title: "Charge Point Management System",
+      title: "Charge Point Management System (CPMS)",
       date: "2022 - Present",
       company: "Robert Bosch GmbH",
-      description: "Developed a comprehensive management system for electric vehicle charging points with monitoring and analytics capabilities.",
-      longDescription: "The Charge Point Management System (CPMS) is a sophisticated platform designed to monitor, manage, and analyze electric vehicle charging infrastructure. I led the development of this system, which includes features such as real-time status monitoring, predictive maintenance alerts, usage analytics, and integration with payment systems. The platform supports both DC and AC charging stations and complies with OCPP standards for maximum compatibility.",
-      technologies: ["React", "TypeScript", "Docker", "CI/CD", "Azure", "REST APIs", "OCPP Protocol"],
+      description: "Frontend monitoring dashboards and backend integration services for 450,000+ charge points across 30 countries with 99.9% uptime.",
+      longDescription: "Developed frontend monitoring dashboards and backend integration services for 450,000+ publicly accessible charge points across 30 countries, achieving 99.9% platform uptime and real-time OCPP event processing. The system handles live status monitoring, energy pricing models, and deep customisation per operator.",
+      technologies: ["React", "Azure", "OCPP", "Docker", "CI/CD", "TypeScript", "REST APIs"],
       achievements: [
-        "Supports 450,000+ publically accessible charging points in 30 European Countries",
-        "Highly customizable functionality, design and energy pricing models",
-        "Reduced maintenance costs by 40%",
-        "99.9% uptime achieved",
-        "OCPP 2.0.1 compliance implemented"
+        "450,000+ publicly accessible charge points",
+        "Deployed across 30 countries",
+        "99.9% platform uptime",
+        "Real-time OCPP event processing"
       ],
       image: "/img/projects/cpms-project.webp",
-      demoLink: "https://example.com/cpms-demo",
+      demoLink: null,
+      codeLink: null,
+    },
+    {
+      title: "Real-Time Geospatial Dashboard Prototype",
+      date: "2023",
+      company: "Robert Bosch GmbH",
+      description: "Interactive map interface rendering 50K+ geospatial data points with dynamic filtering and real-time updates — sub-300ms render, 60fps pan/zoom.",
+      longDescription: "Built interactive map interface rendering 50K+ geospatial data points with dynamic filtering and real-time updates, achieving sub-300ms render time and smooth pan/zoom at 60fps. Implemented tile-based progressive loading and WebSocket-driven delta updates.",
+      technologies: ["React", "TypeScript", "Leaflet.js", "REST APIs", "WebSockets"],
+      achievements: [
+        "50K+ geospatial data points rendered",
+        "Sub-300ms render time",
+        "60fps pan/zoom interaction",
+        "Dynamic filtering with real-time updates"
+      ],
+      image: "/img/projects/cpms-project.webp",
+      demoLink: null,
+      codeLink: null,
+    },
+    {
+      title: "High-Volume Data Visualization Platform",
+      date: "2022 - 2023",
+      company: "Robert Bosch GmbH",
+      description: "Real-time charting components processing 10K+ data points/second for operational dashboards — 60fps across 8 enterprise products.",
+      longDescription: "Developed real-time charting components processing 10K+ data points per second for operational dashboards, implementing canvas-based rendering and delta updates to maintain 60fps interaction across 8 enterprise products. Used D3.js for custom chart primitives and WebSockets for live data push.",
+      technologies: ["React", "TypeScript", "D3.js", "WebSockets", "Canvas API"],
+      achievements: [
+        "10K+ data points processed per second",
+        "60fps rendering maintained at peak load",
+        "Adopted across 8 enterprise products",
+        "Canvas-based rendering for performance"
+      ],
+      image: "/img/projects/ccc-project.webp",
+      demoLink: null,
+      codeLink: null,
+    },
+    {
+      title: "Application Product Selector (APS)",
+      date: "2021 - 2022",
+      company: "Bosch Rexroth AG",
+      description: "SAP-integrated product catalog with Angular components, XML filtering, and 3D visualisation — adopted by 100+ global partners, cutting configuration time by 35%.",
+      longDescription: "Developed SAP-integrated product catalog with reusable Angular components, XML-based filtering, and 3D visualization. Adopted by 100+ global partners, cutting configuration time by 35% and eliminating 200+ manual requests monthly. Integrated with .NET Core backend and SAP UI5 APIs.",
+      technologies: ["Angular", "TypeScript", "Java", ".NET Core", "SAP UI5", "REST APIs"],
+      achievements: [
+        "Adopted by 100+ global partners",
+        "35% reduction in configuration time",
+        "200+ manual requests eliminated monthly",
+        "3D product visualisation integrated"
+      ],
+      image: "/img/projects/dc-mh-sdi-tool.webp",
+      demoLink: null,
+      codeLink: null,
+    },
+    {
+      title: "Smart Project Management Platform v3.0",
+      date: "2021 - 2022",
+      company: "Bosch Rexroth AG",
+      description: "Multi-tenant project management with modular Angular UI, Spring Boot backend, and real-time collaboration — 1,000+ users, 22% faster project cycles.",
+      longDescription: "Built multi-tenant project management system with modular UI components, REST API backend, and real-time collaboration using Angular and Java Spring Boot on Kubernetes and PostgreSQL. Supports 1,000+ users and reduced project cycle time by 22%.",
+      technologies: ["Angular", "TypeScript", "Java Spring Boot", "Kubernetes", "PostgreSQL", "REST APIs"],
+      achievements: [
+        "1,000+ concurrent users supported",
+        "22% reduction in project cycle time",
+        "Multi-tenant architecture",
+        "Real-time collaboration features"
+      ],
+      image: "/img/projects/spm-v3-project.webp",
+      demoLink: null,
       codeLink: null,
     },
     {
       title: "Support Portal 2.0",
       date: "2023 - Present",
       company: "Robert Bosch GmbH",
-      description: "Redesigned and enhanced the support portal with improved user interface and streamlined ticket management system.",
-      longDescription: "Support Portal 2.0 represents a complete overhaul of the customer support experience at Robert Bosch GmbH. I led the UI/UX redesign process, conducting user research and creating wireframes and prototypes in Figma before implementing the new design. The portal features an intuitive ticket management system, knowledge base integration, automated routing, and real-time status updates. The redesign resulted in a 40% reduction in ticket resolution time and significantly improved customer satisfaction scores.",
-      technologies: ["UI/UX", "Angular", "Figma", "Azure", "Node.js", "MongoDB"],
+      description: "Internal support platform with automated workflow engine — 40% faster ticket resolution, 60% of L1 tasks automated for 300+ users.",
+      longDescription: "Designed and implemented internal support platform with automated workflow engine and ticketing integration using Angular and REST APIs, cutting ticket resolution time by 40% and automating 60% of level 1 support tasks for 300+ users. Figma prototyping preceded all UI development.",
+      technologies: ["Angular", "TypeScript", "REST APIs", "Figma", "Azure"],
       achievements: [
         "40% reduction in ticket resolution time",
-        "Customer satisfaction increased by 35%",
-        "Automated 60% of routine support tasks",
-        "Multi-language support for 12 languages"
+        "60% of L1 support tasks automated",
+        "Serves 300+ internal users",
+        "Full UX design-to-code workflow"
       ],
       image: "/img/projects/support-portal.webp",
-      demoLink: "https://example.com/support-portal-demo",
-      codeLink: null,
-    },
-    {
-      title: "DC-MH/SDI Tool Overview",
-      date: "2020 - 2022",
-      company: "Bosch Rexroth AG",
-      description: "Created a comprehensive dashboard for the Area Sales and Distribution department to visualize key metrics and streamline decision-making processes.",
-      longDescription: "The DC-MH/SDI Tool Overview is a centralized dashboard that provides real-time visibility into sales and distribution metrics for the management team. I designed and developed this tool to consolidate data from multiple sources, creating a single source of truth for decision-making. The dashboard includes interactive visualizations, customizable reports, and automated alerts for key performance indicators. This tool has become essential for strategic planning and has contributed to a 15% increase in operational efficiency.",
-      technologies: ["Angular", "D3.js", "Azure", "REST APIs", "SQL"],
-      achievements: [
-        "15% increase in operational efficiency",
-        "Consolidated data from 10+ sources",
-        "Real-time dashboard visualization",
-        "Automated KPI alerts implemented"
-      ],
-      image: "/img/projects/dc-mh-sdi-tool.webp",
-      demoLink: "https://example.com/dc-mh-sdi-demo",
-      codeLink: null,
-    },
-    {
-      title: "Smart Project Management (SPM) v3.0",
-      date: "2021 - 2022",
-      company: "Bosch Rexroth AG",
-      description: "Completely redesigned the Smart Project Management platform with a focus on scalability, performance, and enhanced collaboration features.",
-      longDescription: "SPM Version 3.0.0 was a ground-up redesign of the Smart Project Management platform, focusing on enterprise-scale deployment. I led the architecture and development of this version, which introduced real-time collaboration features, advanced permission management, and comprehensive audit logging. The system was rebuilt using a microservices architecture to improve scalability and resilience. This version also introduced AI-assisted project planning and risk assessment tools, helping project managers identify potential issues before they impact timelines.",
-      technologies: ["Angular", "Node.js", "Microservices", "Kubernetes", "PostgreSQL", "AI/ML", "WebRTC"],
-      achievements: [
-        "16% increase in sales efficiency",
-        "Supports 1000+ concurrent users",
-        "AI-powered project risk assessment",
-        "Real-time collaboration features"
-      ],
-      image: "/img/projects/spm-v3-project.webp",
-      demoLink: "https://example.com/spm-v3-demo",
-      codeLink: null,
-    },
-    {
-      title: "Virtual Streaming Conference Platform",
-      date: "2020 - 2021",
-      company: "Bosch Rexroth AG",
-      description: "Built a digital environment for remote collaboration and engagement during the COVID-19 pandemic.",
-      longDescription: "In response to the COVID-19 pandemic, I developed a Virtual Streaming Conference Platform to enable remote participation in company events and conferences. The platform features high-quality video streaming, interactive Q&A sessions, breakout rooms, and networking opportunities. I implemented a custom solution for presenter management, allowing seamless transitions between speakers and multimedia content. The platform successfully hosted several major company events with thousands of concurrent participants from around the world.",
-      technologies: ["WebRTC", "Node.js", "Angular", "MongoDB", "Media Streaming", "WebSockets"],
-      achievements: [
-        "Hosted 10+ major company events",
-        "Supported 5000+ concurrent participants",
-        "99.5% uptime during critical events",
-        "Reduced event costs by 70%"
-      ],
-      image: "/img/projects/vscp-project.webp",
-      demoLink: "https://example.com/vscp-demo",
-      codeLink: null,
-    },
-    {
-      title: "Amazon Internal Tools",
-      date: "2019 - 2020",
-      company: "Amazon",
-      description: "Designed and implemented Amazon-scale tools to facilitate internal business operations, focusing on efficiency and scalability.",
-      longDescription: "During my time at Amazon, I developed several high-scale internal tools that streamlined business operations across multiple departments. These tools were designed to handle Amazon's massive data volumes and strict performance requirements. I worked closely with product managers and UX designers to create intuitive interfaces for complex workflows, while implementing robust backend services using Java and Spring Boot. These projects gave me valuable experience in building systems that can scale to millions of users and petabytes of data, with stringent reliability and security requirements.",
-      technologies: ["Java", "Spring Boot", "Kotlin", "AWS", "Microservices", "DynamoDB", "Lambda"],
-      achievements: [
-        "Processed 10M+ operations daily",
-        "99.99% uptime SLA maintained",
-        "Reduced operational costs by 25%",
-        "Supports millions of concurrent users"
-      ],
-      image: "/img/projects/amazon-tools.webp",
       demoLink: null,
       codeLink: null,
-    }
+    },
+    {
+      title: "Chase My Career (Personal)",
+      date: "2024 - Present",
+      company: "Personal — chasemycareer.com",
+      description: "AI-powered job matching and resume review platform built with Next.js, TypeScript, Supabase and Cloudflare — live in Germany.",
+      longDescription: "AI-powered job matching and resume review platform built with Next.js, TypeScript, Supabase, and Cloudflare. Live at chasemycareer.com, serving job seekers across Germany with intelligent job matching and personalised resume feedback.",
+      technologies: ["Next.js", "TypeScript", "Supabase", "Cloudflare", "AI/ML"],
+      achievements: [
+        "Live production platform in Germany",
+        "AI-powered job matching engine",
+        "Personalised resume review",
+        "Full-stack solo build"
+      ],
+      image: "/img/projects/portfolio-website.webp",
+      demoLink: "https://www.chasemycareer.com",
+      codeLink: null,
+    },
   ]
 };
 
 export const personalProjects = {
   featured: {
-    title: "Portfolio Website & Multi-Role Experience",
+    title: "Chase My Career",
     date: "2024 - Present",
-    description: "A sophisticated portfolio website built with Docusaurus 3, featuring multiple visitor experiences and role-based navigation system.",
-    longDescription: "This portfolio website showcases an innovative approach to presenting professional information through role-based experiences. Built with Docusaurus 3 and React 18, it features four distinct visitor journeys (Recruiter Dashboard, Software Developer, Investigator, and Adventurer), each tailored to different audiences. The site includes advanced state management with Zustand, responsive design, and interactive components that demonstrate both technical skills and creative problem-solving.",
-    technologies: ["Docusaurus 3", "React 18", "Zustand", "CSS Modules", "JavaScript", "Responsive Design"],
+    description: "AI-powered job matching and resume review platform built with Next.js, TypeScript, Supabase, and Cloudflare — live in Germany.",
+    longDescription: "AI-powered job matching and resume review platform built with Next.js, TypeScript, Supabase, and Cloudflare. Live at chasemycareer.com, serving job seekers across Germany with intelligent job matching and personalised resume feedback powered by LLM APIs.",
+    technologies: ["Next.js", "TypeScript", "Supabase", "Cloudflare", "AI/ML"],
     achievements: [
-      "4 distinct role-based experiences",
-      "Responsive design across all devices",
-      "Advanced state management implementation",
-      "Interactive UI components"
+      "Live production platform in Germany",
+      "AI-powered job matching engine",
+      "Personalised resume review",
+      "Full-stack solo build"
     ],
     image: "/img/projects/portfolio-website.webp",
-    demoLink: "https://spnarkhede.github.io",
-    codeLink: "https://github.com/spnarkhede/portfolio",
+    demoLink: "https://www.chasemycareer.com",
+    codeLink: null,
   },
-  
-  projects: [
-    {
-      title: "DevOps Automation Toolkit",
-      date: "2023 - Present",
-      description: "A comprehensive collection of automation scripts and tools for DevOps workflows, CI/CD pipelines, and infrastructure management.",
-      longDescription: "This toolkit is a personal project aimed at streamlining common DevOps tasks through automation. It includes Docker compose files for development environments, Kubernetes deployment templates, monitoring configurations, and CI/CD pipeline templates for various platforms. The project demonstrates proficiency in infrastructure as code, containerization, and modern DevOps practices.",
-      technologies: ["Docker", "Kubernetes", "Terraform", "Ansible", "Jenkins", "GitHub Actions", "Prometheus", "Grafana"],
-      achievements: [
-        "50+ reusable automation scripts",
-        "Multi-cloud deployment support",
-        "Comprehensive monitoring setup",
-        "Documentation and tutorials included"
-      ],
-      image: "/img/projects/devops-toolkit.webp",
-      demoLink: null,
-      codeLink: "https://github.com/spnarkhede/devops-toolkit",
-    },
-    {
-      title: "React Component Library",
-      date: "2023",
-      description: "A modern, accessible React component library with TypeScript support, comprehensive testing, and Storybook documentation.",
-      longDescription: "This component library was built to demonstrate modern React development practices and create reusable UI components. It features TypeScript for type safety, comprehensive unit and integration tests, Storybook for component documentation, and accessibility compliance. The library includes form components, data display components, navigation elements, and utility hooks.",
-      technologies: ["React", "TypeScript", "Storybook", "Jest", "Testing Library", "Rollup", "CSS-in-JS"],
-      achievements: [
-        "40+ reusable components",
-        "100% TypeScript coverage",
-        "WCAG 2.1 AA compliance",
-        "Comprehensive Storybook documentation"
-      ],
-      image: "/img/projects/react-library.webp",
-      demoLink: "https://spnarkhede-components.netlify.app",
-      codeLink: "https://github.com/spnarkhede/react-component-library",
-    },
-    {
-      title: "Microservices E-commerce Platform",
-      date: "2022 - 2023",
-      description: "A full-stack e-commerce platform built with microservices architecture, featuring user management, product catalog, and payment processing.",
-      longDescription: "This project demonstrates a complete microservices architecture implementation for an e-commerce platform. It includes separate services for user authentication, product management, order processing, payment integration, and notification systems. The platform features a React frontend, Node.js microservices, Docker containerization, and Kubernetes orchestration.",
-      technologies: ["Node.js", "React", "MongoDB", "Redis", "Docker", "Kubernetes", "RabbitMQ", "Stripe API"],
-      achievements: [
-        "6 independent microservices",
-        "Event-driven architecture",
-        "Payment gateway integration",
-        "Real-time order tracking"
-      ],
-      image: "/img/projects/ecommerce-platform.webp",
-      demoLink: "https://ecommerce-demo.spnarkhede.dev",
-      codeLink: "https://github.com/spnarkhede/microservices-ecommerce",
-    },
-    {
-      title: "Machine Learning Price Predictor",
-      date: "2022",
-      description: "A machine learning application that predicts real estate prices using Python, scikit-learn, and Flask with a React frontend.",
-      longDescription: "This project combines machine learning with web development to create a practical price prediction tool. The backend uses Python with scikit-learn for the ML model, Flask for the API, and includes data preprocessing, feature engineering, and model evaluation. The frontend is built with React and provides an intuitive interface for users to input property details and receive price predictions.",
-      technologies: ["Python", "scikit-learn", "Flask", "React", "Pandas", "NumPy", "Matplotlib", "SQL"],
-      achievements: [
-        "85% prediction accuracy achieved",
-        "Real-time price predictions",
-        "Interactive data visualization",
-        "Comprehensive model evaluation"
-      ],
-      image: "/img/projects/ml-price-predictor.webp",
-      demoLink: "https://price-predictor-demo.spnarkhede.dev",
-      codeLink: "https://github.com/spnarkhede/ml-price-predictor",
-    }
-  ]
+  projects: []
 };
 
 // Default export for proper imports
-export default {
-  companyProjects,
-  personalProjects
-};
+export default { companyProjects, personalProjects };

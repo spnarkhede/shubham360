@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import styles from './styles.module.css';
 
@@ -20,40 +20,65 @@ function DockIcon({ name }) {
   }
 }
 
+function PinSvg({ active }) {
+  const s = { width: 14, height: 14, fill: 'none', stroke: 'currentColor', strokeWidth: 2, strokeLinecap: 'round', strokeLinejoin: 'round' };
+  return active
+    ? (<svg viewBox="0 0 24 24" {...s} fill="currentColor" stroke="none"><path d="M12 2a4 4 0 0 1 4 4c0 1.5-.6 2.8-1.5 3.8L16 14H8l1.5-4.2A5.4 5.4 0 0 1 8 6a4 4 0 0 1 4-4zM12 22v-8" /></svg>)
+    : (<svg viewBox="0 0 24 24" {...s}><path d="M12 2a4 4 0 0 1 4 4c0 1.5-.6 2.8-1.5 3.8L16 14H8l1.5-4.2A5.4 5.4 0 0 1 8 6a4 4 0 0 1 4-4zM12 22v-8" /></svg>);
+}
+
 const ITEMS = [
-  { label: 'Home',           href: '/landing',                            icon: 'home',      color: '#8B5CF6' },
-  { label: 'Recruiter View', href: '/recruiter-dashboard',                icon: 'briefcase', color: '#3B82F6' },
-  { label: 'Product Design', href: '/product-designer',                   icon: 'layout',    color: '#EC4899' },
-  { label: 'Tech Enthusiast',href: '/tech-enthusiast',                    icon: 'cpu',       color: '#10B981' },
-  { label: 'Curious Visitor',href: '/curious-visitor',                    icon: 'sparkles',  color: '#F59E0B' },
-  { label: 'Blog',           href: '/blog',                               icon: 'feather',   color: '#06B6D4' },
-  { label: 'Books',          href: '/books',                              icon: 'bookOpen',  color: '#F97316' },
-  { label: 'My Learnings',   href: '/MyLearnings/intro',                  icon: 'brain',     color: '#A855F7' },
-  { label: 'AI Tools',       href: '/ToolsCollection/intro',              icon: 'wand',      color: '#14B8A6' },
-  { label: 'Certifications', href: '/recruiter-dashboard#certifications', icon: 'award',     color: '#EAB308' },
-  { label: 'Contact',        href: '/contact',                            icon: 'mail',      color: '#EF4444' },
+  { label: 'Home',           href: '/landing',                                          icon: 'home',      color: '#8B5CF6' },
+  { label: 'Recruiter View', href: '/recruiter-dashboard/introduction',                 icon: 'briefcase', color: '#3B82F6' },
+  { label: 'Product Design', href: '/product-designer/introduction',                    icon: 'layout',    color: '#EC4899' },
+  { label: 'Tech Enthusiast',href: '/tech-enthusiast/technical-learnings',              icon: 'cpu',       color: '#10B981' },
+  { label: 'Curious Visitor',href: '/curious-visitor/introduction',                     icon: 'sparkles',  color: '#F59E0B' },
+  { label: 'Blog',           href: '/blog',                                             icon: 'feather',   color: '#06B6D4' },
+  { label: 'Books',          href: '/books',                                            icon: 'bookOpen',  color: '#F97316' },
+  { label: 'My Learnings',   href: '/MyLearnings/HardReset/50PsychologySkills',         icon: 'brain',     color: '#A855F7' },
+  { label: 'AI Tools',       href: '/tech-enthusiast/tools-collection',                 icon: 'wand',      color: '#14B8A6' },
+  { label: 'Certifications', href: '/recruiter-dashboard/certifications',               icon: 'award',     color: '#EAB308' },
+  { label: 'Contact',        href: '/contact',                                          icon: 'mail',      color: '#EF4444' },
 ];
+
+function FloatingDockInner() {
+  const [pinned, setPinned] = useState(false);
+
+  return (
+    <nav
+      className={`${styles.dock} ${pinned ? styles.dockPinned : ''}`}
+      aria-label="Explore portfolio"
+    >
+      <button
+        className={`${styles.pinBtn} ${pinned ? styles.pinBtnActive : ''}`}
+        onClick={() => setPinned(p => !p)}
+        title={pinned ? 'Unpin — collapse on mouse-out' : 'Pin open — keep expanded'}
+        aria-pressed={pinned}
+      >
+        <PinSvg active={pinned} />
+      </button>
+
+      {ITEMS.map((item, i) => (
+        <a
+          key={item.label}
+          href={item.href}
+          className={styles.dockItem}
+          style={{ '--dock-delay': `${i * 25}ms`, '--dock-color': item.color }}
+        >
+          <span className={styles.dockIcon} aria-hidden="true">
+            <DockIcon name={item.icon} />
+          </span>
+          <span className={styles.dockLabel}>{item.label}</span>
+        </a>
+      ))}
+    </nav>
+  );
+}
 
 export default function FloatingDock() {
   return (
     <BrowserOnly>
-      {() => (
-        <nav className={styles.dock} aria-label="Explore portfolio">
-          {ITEMS.map((item, i) => (
-            <a
-              key={item.label}
-              href={item.href}
-              className={styles.dockItem}
-              style={{ '--dock-delay': `${i * 25}ms`, '--dock-color': item.color }}
-            >
-              <span className={styles.dockIcon} aria-hidden="true">
-                <DockIcon name={item.icon} />
-              </span>
-              <span className={styles.dockLabel}>{item.label}</span>
-            </a>
-          ))}
-        </nav>
-      )}
+      {() => <FloatingDockInner />}
     </BrowserOnly>
   );
 }

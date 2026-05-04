@@ -1,6 +1,7 @@
 ---
 slug: leadership-is-mindset
-title: Leadership is No Longer a Skillset—It’s a Mindset
+date: 2021-03-08
+title: "Leadership is No Longer a Skillset - It's a Mindset"
 authors: [spnarkhede]
 tags: [psychology, learning, leadership, mindset, concepts]
 ---

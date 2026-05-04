@@ -25,9 +25,9 @@
     "cleanup-original-images": "node scripts/cleanup-original-images.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.9.1",
+    "@docusaurus/core": "^3.10.0",
     "@docusaurus/plugin-content-pages": "^3.9.1",
-    "@docusaurus/preset-classic": "^3.9.1",
+    "@docusaurus/preset-classic": "^3.10.0",
     "@easyops-cn/docusaurus-search-local": "^0.52.1",
     "@mdx-js/react": "^3.0.0",
     "@tailwindcss/postcss": "^4.1.14",
@@ -74,6 +74,9 @@
       "last 3 firefox version",
       "last 5 safari version"
     ]
+  },
+  "overrides": {
+    "webpackbar": "7.0.0"
   },
   "engines": {
     "node": ">=18.0"

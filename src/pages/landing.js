@@ -455,6 +455,48 @@ export default function Landing() {
                 </li>
               </ul>
 
+              <h2 className={styles.sectionHeadingSide}>Certifications</h2>
+
+              <a href="/recruiter-dashboard/certifications" className={styles.certCard}>
+                <div className={styles.certCardTop}>
+                  <svg className={styles.certCardIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="9" r="6" />
+                    <path d="M8 14l-2 7 6-3 6 3-2-7" />
+                  </svg>
+                  <div>
+                    <p className={styles.certCardCount}>90+ Certifications</p>
+                    <p className={styles.certCardSub}>AWS · Coursera · Pluralsight · LinkedIn</p>
+                  </div>
+                </div>
+                <span className={styles.certCardCta}>View all &rarr;</span>
+              </a>
+
+              <h2 className={styles.sectionHeadingSide}> Badges</h2>
+
+              <div className={styles.certBadgesRow}>
+                {[
+                  { src: '/img/badges/generative-ai-overview-for-project-managers.webp', label: 'Generative AI Overview — PMI', url: 'https://www.pmi.org/certifications/verify' },
+                  { src: '/img/badges/python-for-data-science.webp', label: 'Python for Data Science — IBM', url: 'https://www.credly.com/badges/47a39917-a8c1-41f7-b745-73b2fe8dcba9/public_url' },
+                  { src: '/img/badges/data-science-foundations-level-1.webp', label: 'Data Science Foundations — IBM', url: 'https://www.credly.com/badges/e97fb38c-4adf-4e65-b992-ceea41718418/public_url' },
+                  { src: '/img/badges/pluralsightbadge.webp', label: 'Pluralsight Badges', url: 'https://app.pluralsight.com/profile/spnarkhede' },
+                  { src: '/img/badges/introductiontoGenAI&agents.svg', label: 'Introduction to Generative AI and Agents — Microsoft', url: 'https://learn.microsoft.com/api/achievements/share/en-us/spnarkhede/WVUUS3JN?sharingId=3149A10F852F5E7C' },
+                  { src: '/img/badges/GenAIsolutionforORG.svg', label: 'Build Effective Generative AI Solutions in Your Organization — Microsoft', url: 'https://learn.microsoft.com/api/achievements/share/en-us/spnarkhede/CY55VCN9?sharingId=3149A10F852F5E7C' },
+                  { src: '/img/badges/foundationofgenAIforBL.svg', label: 'Foundations of Generative AI for Business Leaders — Microsoft', url: 'https://learn.microsoft.com/api/achievements/share/en-us/spnarkhede/AKFFDBX7?sharingId=3149A10F852F5E7C' },
+                  { src: '/img/badges/GenAIbusinesstrophy.svg', label: 'Explore the Business Value of Generative AI Solutions — Microsoft', url: 'https://learn.microsoft.com/api/achievements/share/en-us/spnarkhede/FQHHDFZX?sharingId=3149A10F852F5E7C' },
+                ].map((b) => (
+                  <a
+                    key={b.label}
+                    href={b.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.certBadgeSmall}
+                    title={b.label}
+                  >
+                    <img src={b.src} alt={b.label} loading="lazy" />
+                  </a>
+                ))}
+              </div>
+
               <h2 className={styles.sectionHeadingSide}>Socials</h2>
               <ul className={styles.socialGrid}>
                 {[
@@ -512,7 +554,7 @@ export default function Landing() {
             {/* EXPERIENCE */}
             <section className={styles.section}>
               <span className={styles.sectionDot} aria-hidden="true" />
-              <h2 className={styles.sectionTitle}>Experience</h2>
+              <h2 className={styles.sectionTitle}>Professional Experience</h2>
 
               <div className={styles.expList}>
                 <ExperienceRow
@@ -561,7 +603,7 @@ export default function Landing() {
             {/* SKILLS */}
             <section className={styles.section}>
               <span className={styles.sectionDot} aria-hidden="true" />
-              <h2 className={styles.sectionTitle}>Skills</h2>
+              <h2 className={styles.sectionTitle}> Technical Skills</h2>
 
               <div className={styles.skillRow}>
                 <div className={styles.skillLabel}>
@@ -670,6 +712,36 @@ export default function Landing() {
                 </div>
               </div>
             </section>
+
+            {/* ACADEMIC INTERNSHIPS */}
+            {/* <section className={styles.section}>
+              <span className={styles.sectionDot} aria-hidden="true" />
+              <h2 className={styles.sectionTitle}>Academic Internships</h2>
+
+              <div className={styles.internList}>
+                <div className={styles.internItem}>
+                  <span className={styles.internLogo}>
+                    <img src="/img/bosch.png" alt="Robert Bosch GmbH" className={styles.internLogoImg} />
+                  </span>
+                  <div className={styles.internInfo}>
+                    <p className={styles.internCompany}>Robert Bosch GmbH</p>
+                    <p className={styles.internTitle}>Working Student — Software Engineering</p>
+                  </div>
+                  <span className={styles.internPeriod}>Jan 2019 &mdash; Mar 2019</span>
+                </div>
+
+                <div className={styles.internItem}>
+                  <span className={styles.internLogo}>
+                    <img src="/img/tuc.png" alt="TU Chemnitz" className={styles.internLogoImg} />
+                  </span>
+                  <div className={styles.internInfo}>
+                    <p className={styles.internCompany}>TU Chemnitz</p>
+                    <p className={styles.internTitle}>Research Assistant — Automotive Software Lab</p>
+                  </div>
+                  <span className={styles.internPeriod}>Oct 2018 &mdash; Dec 2018</span>
+                </div>
+              </div>
+            </section> */}
 
             {/* PROJECTS */}
             <section className={styles.section}>

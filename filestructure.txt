@@ -1966,9 +1966,14 @@
         |-- aws.png
         |-- badges
             |-- data-science-foundations-level-1.webp
+            |-- foundationofgenAIforBL.svg
+            |-- GenAIbusinesstrophy.svg
+            |-- GenAIsolutionforORG.svg
             |-- generative-ai-overview-for-project-managers.webp
+            |-- introductiontoGenAI&agents.svg
             |-- pluralsightbadge.webp
             |-- python-for-data-science.webp
+            |-- useaiforeveryday.svg
         |-- books
             |-- accounting101.webp
             |-- almanackOfNavalRavikant.webp

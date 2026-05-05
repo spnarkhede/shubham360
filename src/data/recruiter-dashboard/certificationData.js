@@ -920,15 +920,51 @@ export const badges = [
       imageUrl: "/img/badges/data-science-foundations-level-1.webp",
       verificationUrl: "https://www.credly.com/badges/e97fb38c-4adf-4e65-b992-ceea41718418/public_url"
     },
-    { 
-      name: "Pluralsight: Badges", 
-      issuer: "Pluralsight", 
-      platform: "Pluralsight", 
-      date: "Throughout", 
-      description: " My learning accomplishments as I completed the courses and handons trainings while skilling up!", 
+    {
+      name: "Pluralsight: Badges",
+      issuer: "Pluralsight",
+      platform: "Pluralsight",
+      date: "Throughout",
+      description: " My learning accomplishments as I completed the courses and handons trainings while skilling up!",
       imageUrl: "/img/badges/pluralsightbadge.webp",
-      verificationUrl: "https://app.pluralsight.com/profile/spnarkhede" 
-    } 
+      verificationUrl: "https://app.pluralsight.com/profile/spnarkhede"
+    },
+    {
+      name: "Introduction to Generative AI and Agents",
+      issuer: "Microsoft",
+      platform: "Microsoft Learn",
+      date: "April 6, 2026",
+      description: "Module assessment passed. Demonstrated understanding of generative AI fundamentals and agent-based architectures.",
+      imageUrl: "/img/badges/introductiontoGenAI&agents.svg",
+      verificationUrl: "https://learn.microsoft.com/api/achievements/share/en-us/spnarkhede/WVUUS3JN?sharingId=3149A10F852F5E7C"
+    },
+    {
+      name: "Build Effective Generative AI Solutions in Your Organization",
+      issuer: "Microsoft",
+      platform: "Microsoft Learn",
+      date: "April 6, 2026",
+      description: "Module assessment passed. Demonstrated ability to design and implement generative AI solutions for organizational use cases.",
+      imageUrl: "/img/badges/GenAIsolutionforORG.svg",
+      verificationUrl: "https://learn.microsoft.com/api/achievements/share/en-us/spnarkhede/CY55VCN9?sharingId=3149A10F852F5E7C"
+    },
+    {
+      name: "Understand the Foundations of Generative AI for Business Leaders",
+      issuer: "Microsoft",
+      platform: "Microsoft Learn",
+      date: "April 6, 2026",
+      description: "Module assessment passed. Demonstrated understanding of generative AI foundations from a business leadership perspective.",
+      imageUrl: "/img/badges/foundationofgenAIforBL.svg",
+      verificationUrl: "https://learn.microsoft.com/api/achievements/share/en-us/spnarkhede/AKFFDBX7?sharingId=3149A10F852F5E7C"
+    },
+    {
+      name: "Explore the Business Value of Generative AI Solutions",
+      issuer: "Microsoft",
+      platform: "Microsoft Learn",
+      date: "April 6, 2026",
+      description: "All module assessments passed. Demonstrated ability to evaluate and articulate the business value of generative AI solutions.",
+      imageUrl: "/img/badges/GenAIbusinesstrophy.svg",
+      verificationUrl: "https://learn.microsoft.com/api/achievements/share/en-us/spnarkhede/FQHHDFZX?sharingId=3149A10F852F5E7C"
+    }
 ];
 
 // Corporate Trainings data

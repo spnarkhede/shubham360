@@ -2,7 +2,7 @@
 title: "The Future of DevOps: Trends and Predictions for 2024"
 date: "2024-01-10"
 authors: ["spnarkhede"]
-tags: ["devops", "technology trends", "automation", "cloud native", "AI"]
+tags: ["DevOps", "technology trends", "automation", "cloud native", "AI"]
 ---
 
 # The Future of DevOps: Trends and Predictions for 2024

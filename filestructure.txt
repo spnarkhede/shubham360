@@ -5,6 +5,7 @@
                 |-- generated-constants.js
                 |-- generated.js
                 |-- __plugin.json
+    |-- client-manifest.json
     |-- client-modules.js
     |-- codeTranslations.json
     |-- docusaurus-plugin-content-blog
@@ -55,6 +56,7 @@
                 |-- blog-tags-enterprise-3a8.json
                 |-- blog-tags-generative-ai-8b2.json
                 |-- blog-tags-git-hub-copilot-880.json
+                |-- blog-tags-github-copilot-cf1.json
                 |-- blog-tags-google-6fa.json
                 |-- blog-tags-google-gemini-1ef.json
                 |-- blog-tags-industry-5bd.json
@@ -96,6 +98,77 @@
                 |-- blog-tags-workflow-978.json
                 |-- blog-tags-workforce-ee0.json
                 |-- blog-tags-writing-e9b.json
+                |-- de-blog-10b.json
+                |-- de-blog-archive-247.json
+                |-- de-blog-authors-9f2.json
+                |-- de-blog-authors-spnarkhede-d6a.json
+                |-- de-blog-tags-ai-d68.json
+                |-- de-blog-tags-amazon-d2a.json
+                |-- de-blog-tags-analysis-31d.json
+                |-- de-blog-tags-anthropic-39f.json
+                |-- de-blog-tags-automation-890.json
+                |-- de-blog-tags-automotive-6d4.json
+                |-- de-blog-tags-best-practices-620.json
+                |-- de-blog-tags-books-bee.json
+                |-- de-blog-tags-bosch-f5a.json
+                |-- de-blog-tags-business-056.json
+                |-- de-blog-tags-career-536.json
+                |-- de-blog-tags-certifications-425.json
+                |-- de-blog-tags-ci-cd-5c3.json
+                |-- de-blog-tags-claude-e94.json
+                |-- de-blog-tags-cloud-89c.json
+                |-- de-blog-tags-cloud-native-0fb.json
+                |-- de-blog-tags-coding-908.json
+                |-- de-blog-tags-concepts-695.json
+                |-- de-blog-tags-coursera-e24.json
+                |-- de-blog-tags-development-d07.json
+                |-- de-blog-tags-devops-ca3.json
+                |-- de-blog-tags-digital-transformation-66e.json
+                |-- de-blog-tags-documentation-5c2.json
+                |-- de-blog-tags-e80.json
+                |-- de-blog-tags-enterprise-fb7.json
+                |-- de-blog-tags-generative-ai-16d.json
+                |-- de-blog-tags-github-copilot-ac9.json
+                |-- de-blog-tags-google-cf4.json
+                |-- de-blog-tags-google-gemini-aac.json
+                |-- de-blog-tags-industry-197.json
+                |-- de-blog-tags-infrastructure-feb.json
+                |-- de-blog-tags-innovation-bc8.json
+                |-- de-blog-tags-inventions-16a.json
+                |-- de-blog-tags-jira-506.json
+                |-- de-blog-tags-journey-b77.json
+                |-- de-blog-tags-kubernetes-94c.json
+                |-- de-blog-tags-leadership-475.json
+                |-- de-blog-tags-learning-d84.json
+                |-- de-blog-tags-lessons-learned-636.json
+                |-- de-blog-tags-machine-learning-710.json
+                |-- de-blog-tags-marketing-211.json
+                |-- de-blog-tags-microservices-b42.json
+                |-- de-blog-tags-microsoft-597.json
+                |-- de-blog-tags-mindset-d35.json
+                |-- de-blog-tags-multi-modal-2e0.json
+                |-- de-blog-tags-planning-da6.json
+                |-- de-blog-tags-product-management-022.json
+                |-- de-blog-tags-productivity-9fa.json
+                |-- de-blog-tags-professional-development-5f3.json
+                |-- de-blog-tags-professional-growth-d1a.json
+                |-- de-blog-tags-project-management-251.json
+                |-- de-blog-tags-prompt-engineering-7b0.json
+                |-- de-blog-tags-psychology-a42.json
+                |-- de-blog-tags-reasoning-bc2.json
+                |-- de-blog-tags-recession-57e.json
+                |-- de-blog-tags-reflection-27e.json
+                |-- de-blog-tags-research-25d.json
+                |-- de-blog-tags-robert-bosch-fd5.json
+                |-- de-blog-tags-skills-9b5.json
+                |-- de-blog-tags-software-development-494.json
+                |-- de-blog-tags-technology-a66.json
+                |-- de-blog-tags-technology-trends-1ba.json
+                |-- de-blog-tags-transformation-f80.json
+                |-- de-blog-tags-transition-657.json
+                |-- de-blog-tags-workflow-47a.json
+                |-- de-blog-tags-workforce-e8c.json
+                |-- de-blog-tags-writing-fcb.json
             |-- site-blog-2018-2018-01-05-futureofai-md-1aa.json
             |-- site-blog-2018-2018-01-12-readbodylanguagelikefbi-md-2a3.json
             |-- site-blog-2018-2018-02-15-my-journey-in-software-development-md-231.json
@@ -124,6 +197,58 @@
             |-- p
                 |-- category-languages-462.json
                 |-- category-prompt-engineering-b56.json
+                |-- de-category-languages-fba.json
+                |-- de-category-prompt-engineering-879.json
+                |-- de-f9d.json
+                |-- de-tags-ai-26a.json
+                |-- de-tags-ais-605.json
+                |-- de-tags-android-52c.json
+                |-- de-tags-angular-5cd.json
+                |-- de-tags-automation-11b.json
+                |-- de-tags-b38.json
+                |-- de-tags-book-661.json
+                |-- de-tags-bootstrap-48a.json
+                |-- de-tags-bots-599.json
+                |-- de-tags-career-232.json
+                |-- de-tags-chatbot-7d3.json
+                |-- de-tags-cicd-41f.json
+                |-- de-tags-config-b7b.json
+                |-- de-tags-css-fc2.json
+                |-- de-tags-data-engineering-676.json
+                |-- de-tags-data-science-41a.json
+                |-- de-tags-databricks-826.json
+                |-- de-tags-deployment-02d.json
+                |-- de-tags-development-bbc.json
+                |-- de-tags-devops-6cc.json
+                |-- de-tags-format-839.json
+                |-- de-tags-generative-ai-3b8.json
+                |-- de-tags-hyperautomation-d0a.json
+                |-- de-tags-idp-c1b.json
+                |-- de-tags-interpret-9e8.json
+                |-- de-tags-jetbrains-0cd.json
+                |-- de-tags-job-search-897.json
+                |-- de-tags-jvm-d86.json
+                |-- de-tags-kotlin-cf9.json
+                |-- de-tags-lakehouse-b93.json
+                |-- de-tags-learnings-167.json
+                |-- de-tags-list-977.json
+                |-- de-tags-llm-c8d.json
+                |-- de-tags-lowcode-1ff.json
+                |-- de-tags-machine-learning-c39.json
+                |-- de-tags-mindset-8b6.json
+                |-- de-tags-nlp-091.json
+                |-- de-tags-nocode-01c.json
+                |-- de-tags-pipeline-bac.json
+                |-- de-tags-programming-c7a.json
+                |-- de-tags-prompts-c85.json
+                |-- de-tags-resources-243.json
+                |-- de-tags-resume-063.json
+                |-- de-tags-rpa-6d2.json
+                |-- de-tags-script-947.json
+                |-- de-tags-strategic-15d.json
+                |-- de-tags-tools-c6b.json
+                |-- de-tags-web-10d.json
+                |-- de-tags-workflow-f02.json
                 |-- index-466.json
                 |-- tags-ai-7df.json
                 |-- tags-ais-59b.json
@@ -174,6 +299,11 @@
                 |-- tags-tools-a72.json
                 |-- tags-web-fcc.json
                 |-- tags-workflow-95b.json
+            |-- site-docs-claude-ai-prompts-build-10-k-website-guide-md-eaf.json
+            |-- site-docs-claude-ai-prompts-claude-code-complete-guide-md-453.json
+            |-- site-docs-claude-ai-prompts-claude-design-the-free-canva-killer-md-50a.json
+            |-- site-docs-claude-ai-prompts-claude-memory-transfer-md-f86.json
+            |-- site-docs-claude-ai-prompts-ru-flo-setup-guide-md-9cf.json
             |-- site-docs-computer-science-artificial-intelligence-llm-llm-basic-notes-md-74f.json
             |-- site-docs-computer-science-artificial-intelligence-llm-prompt-engineering-basic-notes-md-45b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-basic-notes-md-fbd.json
@@ -772,6 +902,12 @@
 |-- compress-images.js
 |-- compress-pdf.js
 |-- docs
+    |-- ClaudeAIPrompts
+        |-- Build10kWebsiteGuide.md
+        |-- ClaudeCodeCompleteGuide.md
+        |-- ClaudeDesignTheFreeCanvaKiller.md
+        |-- ClaudeMemoryTransfer.md
+        |-- RuFloSetupGuide.md
     |-- ComputerScience
         |-- ArtificialIntelligence
             |-- LLM
@@ -1599,13 +1735,6 @@
             |-- projectsData.js
     |-- index.d.ts
     |-- pages
-        |-- articles
-            |-- ai-revolution-2025.js
-            |-- future-of-jobs-report-2025.js
-            |-- generative-ai-enterprise.js
-            |-- index.js
-            |-- quantum-computing-business.js
-            |-- styles.module.css
         |-- books
             |-- 101-essays-that-will-change-the-way-you-think.js
             |-- 8-rules-of-love.js

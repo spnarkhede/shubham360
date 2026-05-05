@@ -2,7 +2,7 @@
 title: "Transitioning to Bosch Rexroth: New Challenges in Software Development"
 date: "2020-10-15"
 authors: ["spnarkhede"]
-tags: ["career", "bosch", "software development", "transition"]
+tags: ["career", "Bosch", "software development", "transition"]
 ---
 
 # Transitioning to Bosch Rexroth: New Challenges in Software Development

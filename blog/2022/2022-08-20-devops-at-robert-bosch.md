@@ -2,7 +2,7 @@
 title: "My Experience with DevOps at Robert Bosch GmbH"
 date: "2022-08-20"
 authors: ["spnarkhede"]
-tags: ["career", "devops", "robert bosch", "professional growth"]
+tags: ["career", "DevOps", "robert bosch", "professional growth"]
 ---
 
 # My Experience with DevOps at Robert Bosch GmbH

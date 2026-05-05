@@ -98,6 +98,121 @@ teamwork:
   permalink: /teamwork
   description: Insights into collaboration, building teams, and working effectively with others.
 
+digital transformation:
+  label: Digital Transformation
+  permalink: /digital-transformation
+  description: Posts on how organizations adopt digital technologies to transform processes and culture.
+
+machine learning:
+  label: Machine Learning
+  permalink: /machine-learning
+  description: Concepts, techniques, and applications of machine learning and AI algorithms.
+
+enterprise:
+  label: Enterprise
+  permalink: /enterprise
+  description: Topics covering enterprise technology, strategy, and large-scale business solutions.
+
+Bosch:
+  label: Bosch
+  permalink: /bosch
+  description: Insights and experiences related to working at or with Bosch.
+
+DevOps:
+  label: DevOps
+  permalink: /devops
+  description: Practices, tools, and culture around DevOps, CI/CD, and software delivery.
+
+Kubernetes:
+  label: Kubernetes
+  permalink: /kubernetes
+  description: Container orchestration with Kubernetes — setup, deployment, and best practices.
+
+microservices:
+  label: Microservices
+  permalink: /microservices
+  description: Architecture patterns and practices for building microservices-based systems.
+
+CI/CD:
+  label: CI/CD
+  permalink: /ci-cd
+  description: Continuous integration and continuous delivery pipelines and tooling.
+
+cloud:
+  label: Cloud
+  permalink: /cloud
+  description: Cloud computing platforms, services, and architecture patterns.
+
+GitHub Copilot:
+  label: GitHub Copilot
+  permalink: /github-copilot
+  description: Using GitHub Copilot for AI-assisted coding and developer productivity.
+
+workforce:
+  label: Workforce
+  permalink: /workforce
+  description: Trends and insights on the future of work, talent, and workforce transformation.
+
+Google Gemini:
+  label: Google Gemini
+  permalink: /google-gemini
+  description: Exploring Google Gemini AI models and their capabilities.
+
+generative AI:
+  label: Generative AI
+  permalink: /generative-ai
+  description: Posts on generative AI models, tools, and their real-world applications.
+
+Claude:
+  label: Claude
+  permalink: /claude
+  description: Insights and experiments with Anthropic's Claude AI models.
+
+Anthropic:
+  label: Anthropic
+  permalink: /anthropic
+  description: News, research, and analysis related to Anthropic and their AI work.
+
+JIRA:
+  label: JIRA
+  permalink: /jira
+  description: Using JIRA for project tracking, agile workflows, and team collaboration.
+
+certifications:
+  label: Certifications
+  permalink: /certifications
+  description: Professional certifications, courses, and structured learning paths.
+
+professional development:
+  label: Professional Development
+  permalink: /professional-development
+  description: Career growth, skill-building, and continuous professional improvement.
+
+Google:
+  label: Google
+  permalink: /google
+  description: Products, services, and developments from Google.
+
+Microsoft:
+  label: Microsoft
+  permalink: /microsoft
+  description: Products, services, and developments from Microsoft.
+
+Coursera:
+  label: Coursera
+  permalink: /coursera
+  description: Online learning through Coursera — courses, specializations, and certifications.
+
+project management:
+  label: Project Management
+  permalink: /project-management
+  description: Methodologies, tools, and best practices for managing projects effectively.
+
+product management:
+  label: Product Management
+  permalink: /product-management
+  description: Strategies, frameworks, and skills for building and managing successful products.
+
 career:
   label: Career
   permalink: /career
@@ -112,11 +227,6 @@ journey:
   label: Journey
   permalink: /journey
   description: Personal stories and milestones from the professional and technical path.
-
-bosch:
-  label: Bosch
-  permalink: /bosch
-  description: Experiences and insights related to working at Bosch and Bosch Rexroth.
 
 transition:
   label: Transition
@@ -137,11 +247,6 @@ reflection:
   label: Reflection
   permalink: /reflection
   description: Looking back on professional and technical journeys for learnings and insights.
-
-devops:
-  label: DevOps
-  permalink: /devops
-  description: Practices, tools, and strategies in DevOps culture and automation.
 
 robert bosch:
   label: Robert Bosch
@@ -173,11 +278,6 @@ infrastructure:
   permalink: /infrastructure
   description: IT infrastructure, cloud, and deployment topics.
 
-kubernetes:
-  label: Kubernetes
-  permalink: /kubernetes
-
-
 reasoning:
   label: Reasoning
   permalink: /reasoning
@@ -193,11 +293,6 @@ business:
   permalink: /business
   description: Business strategy, operations, and innovation.
 
-github copilot:
-  label: GitHub Copilot
-  permalink: /github-copilot
-  description: GitHub Copilot, coding, and AI-assisted development.
-
 coding:
   label: Coding
   permalink: /coding
@@ -207,11 +302,6 @@ development:
   label: Development
   permalink: /development
   description: Software development, tools, and practices.
-
-google gemini:
-  label: Google Gemini
-  permalink: /google-gemini
-  description: Google Gemini AI and multi-modal research.
 
 research:
   label: Research
@@ -232,11 +322,6 @@ workflow:
   label: Workflow
   permalink: /workflow
   description: Workflow automation and productivity.
-
-jira:
-  label: JIRA
-  permalink: /jira
-  description: JIRA, project management, and agile workflows.
 
 marketing:
   label: Marketing

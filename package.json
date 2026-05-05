@@ -25,9 +25,9 @@
     "cleanup-original-images": "node scripts/cleanup-original-images.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.10.0",
-    "@docusaurus/plugin-content-pages": "^3.9.1",
-    "@docusaurus/preset-classic": "^3.10.0",
+    "@docusaurus/core": "^3.5.2",
+    "@docusaurus/plugin-content-pages": "^3.5.2",
+    "@docusaurus/preset-classic": "^3.5.2",
     "@easyops-cn/docusaurus-search-local": "^0.52.1",
     "@mdx-js/react": "^3.0.0",
     "@tailwindcss/postcss": "^4.1.14",

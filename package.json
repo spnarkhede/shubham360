@@ -49,6 +49,7 @@
     "recharts": "^2.15.2",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
+    "search-insights": "^2.17.3",
     "sharp": "^0.33.5",
     "tailwindcss": "^4.1.14",
     "zustand": "^4.5.6"
@@ -76,10 +77,12 @@
     ]
   },
   "overrides": {
+    "postcss-selector-parser": "^6.1.2",
     "webpackbar": "7.0.0"
   },
   "engines": {
-    "node": ">=18.0"
+    "node": "22.x",
+    "npm": "10.x"
   },
   "directories": {
     "doc": "docs"

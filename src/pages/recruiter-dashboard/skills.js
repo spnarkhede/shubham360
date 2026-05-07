@@ -8,75 +8,47 @@ import { Globe } from 'lucide-react';
 export default function RecruiterDashboardSkills() {
   const skills = {
     "Frontend": [
-      { name: "JavaScript", level: 5 },
-      { name: "TypeScript", level: 5 },
+      { name: "TypeScript / JavaScript (ES6+)", level: 5 },
+      { name: "Vue.js (Vue 3, Composition API)", level: 5 },
+      { name: "Pinia / Vuex", level: 4 },
       { name: "Angular", level: 4 },
-      { name: "React.js", level: 5 },
-      { name: "Vue.js", level: 4 },
+      { name: "React (Hooks, Redux, Zustand)", level: 5 },
       { name: "Next.js", level: 4 },
-      { name: "Dart", level: 3 },
-      { name: "Flutter", level: 3 },
-      { name: "HTML5", level: 5 },
-      { name: "CSS3", level: 5 },
-      { name: "Material UI", level: 4 }
+      { name: "Vite", level: 4 },
+      { name: "Tailwind CSS", level: 4 },
+      { name: "CSS3 / HTML5", level: 5 }
     ],
     "Backend": [
       { name: "Node.js", level: 5 },
-      { name: "Express.js", level: 5 },
-      { name: "Spring Boot", level: 4 },
-      { name: "Java", level: 4 },
-      { name: "Kotlin", level: 3 },
-      { name: "PHP", level: 3 },
-      { name: "Python", level: 4 },
-      { name: ".NET", level: 3 },
-      { name: "C++", level: 3 },
-      { name: "C", level: 3 },
-      { name: "MySQL", level: 4 },
-      { name: "MongoDB", level: 4 },
-      { name: "SQL", level: 5 }
+      { name: "PHP (Symfony, Composer)", level: 4 },
+      { name: "REST APIs", level: 5 },
+      { name: "GraphQL", level: 4 }
     ],
-    "Designer": [
-      { name: "Miro", level: 4 },
-      { name: "Notion", level: 5 },
-      { name: "Figma", level: 4 },
-      { name: "Sketch", level: 3 },
-      { name: "Adobe XD", level: 3 },
-      { name: "Balsamiq", level: 4 },
-      { name: "Canva", level: 4 },
-      { name: "Wireframing", level: 4 },
-      { name: "Prototyping", level: 4 }
+    "Database": [
+      { name: "SQL / MySQL", level: 5 },
+      { name: "Redis", level: 4 },
+      { name: "RabbitMQ", level: 4 }
     ],
     "Testing": [
-      { name: "Playwright", level: 4 },
-      { name: "Cypress", level: 4 },
+      { name: "PHPUnit", level: 4 },
       { name: "Jest", level: 5 },
-      { name: "Postman", level: 5 },
-      { name: "Swagger/Open API", level: 4 },
-      { name: "AWS", level: 4 },
-      { name: "GraphQL", level: 4 },
-      { name: "SoapUI", level: 3 },
-      { name: "Manual Testing", level: 5 }
+      { name: "Playwright", level: 4 },
+      { name: "E2E Testing", level: 4 },
+      { name: "TDD", level: 4 }
     ],
-    "DevOps": [
-      { name: "GitHub", level: 5 },
+    "DevOps & Cloud": [
       { name: "Docker", level: 5 },
-      { name: "Jenkins", level: 4 },
+      { name: "Kubernetes", level: 4 },
+      { name: "AWS (EC2, S3, Lambda)", level: 4 },
       { name: "Azure DevOps", level: 4 },
-      { name: "CI/CD Pipeline", level: 5 },
-      { name: "Maven", level: 4 },
-      { name: "Grafana", level: 4 },
-      { name: "Nginx", level: 4 },
-      { name: "IAM (SSO, OpenID/SKID)", level: 4 }
+      { name: "CI/CD (GitHub Actions, GoCD)", level: 5 }
     ],
-    "Documentation": [
-      { name: "JIRA", level: 5 },
-      { name: "arc 42", level: 4 },
-      { name: "Kanban", level: 4 },
-      { name: "Confluence", level: 5 },
-      { name: "Docupedia", level: 3 },
-      { name: "Docusaurus", level: 4 },
-      { name: "InnerScource", level: 4 },
-      { name: "VitePress", level: 3 }
+    "Design & UX": [
+      { name: "Figma", level: 4 },
+      { name: "Design Systems", level: 4 },
+      { name: "Component Libraries", level: 4 },
+      { name: "WCAG 2.1 AA", level: 4 },
+      { name: "Agile / Scrum", level: 5 }
     ]
   };
 

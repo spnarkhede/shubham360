@@ -475,7 +475,7 @@ export default function Landing() {
 
               <div className={styles.certBadgesRow}>
                 {[
-                  { src: '/img/badges/generative-ai-overview-for-project-managers.webp', label: 'Generative AI Overview — PMI', url: 'https://www.pmi.org/certifications/verify' },
+                  { src: '/img/badges/generative-ai-overview-for-project-managers.webp', label: 'Generative AI Overview — PMI', url: 'https://www.credly.com/badges/e771ecf8-64e4-4a3c-985b-d2821e8e3ea7/public_url' },
                   { src: '/img/badges/python-for-data-science.webp', label: 'Python for Data Science — IBM', url: 'https://www.credly.com/badges/47a39917-a8c1-41f7-b745-73b2fe8dcba9/public_url' },
                   { src: '/img/badges/data-science-foundations-level-1.webp', label: 'Data Science Foundations — IBM', url: 'https://www.credly.com/badges/e97fb38c-4adf-4e65-b992-ceea41718418/public_url' },
                   { src: '/img/badges/pluralsightbadge.webp', label: 'Pluralsight Badges', url: 'https://app.pluralsight.com/profile/spnarkhede' },
@@ -560,28 +560,30 @@ export default function Landing() {
                 <ExperienceRow
                   current
                   logo={<img src="/img/bosch.png" alt="Robert Bosch GmbH" className={styles.expLogoImg} />}
-                  role="Senior Full-Stack Developer"
+                  role="Senior Frontend Architect & Full-Stack Developer"
                   company="Robert Bosch GmbH"
                   dates={<>Jul 2022 &mdash; <span className={styles.presentText}>Present</span></>}
                   location="Stuttgart, Germany"
                   bullets={[
-                    'Architect and ship microservices for connected vehicle and e-mobility platforms using Node.js, TypeScript, and React.',
-                    'Lead end-to-end CI/CD delivery on AWS with Docker and Kubernetes, cutting deployment cycles by 40%+.',
-                    'Drive engineering standards, code reviews, and mentorship across multiple product squads.',
-                    'Champion observability with Grafana, Prometheus, and structured logging to improve incident response.',
+                    'Architected scalable frontend systems for connected vehicle and e-mobility platforms — establishing Vue.js and Angular component design systems adopted across 8 European product teams.',
+                    'Engineered high-performance UIs: canvas-based charting at 10K+ data points/sec, sub-300ms geospatial map rendering for 50K+ points, and WebSocket-driven real-time dashboards at 60fps.',
+                    'Defined frontend architecture standards — Pinia/Vuex state management patterns, API contracts with PHP (Symfony) backends, WCAG 2.1 AA accessibility, and Vite build pipelines.',
+                    'Led end-to-end CI/CD delivery on AWS with Docker and Kubernetes via GitHub Actions and GoCD, cutting deployment cycles by 40%+.',
+                    'Set engineering standards through architecture reviews, code ownership, and mentorship across multiple product squads.',
                   ]}
                 />
 
                 <ExperienceRow
                   logo={<img src="/img/rexroth.png" alt="Bosch Rexroth AG" className={styles.expLogoImg} />}
-                  role="Fullstack Web Developer"
+                  role="Frontend Architect & Fullstack Developer"
                   company="Bosch Rexroth AG"
                   dates="Apr 2020 — Jun 2022"
                   location="Ulm, Germany"
                   bullets={[
-                    'Built and scaled internal web platforms serving factory automation teams across Europe.',
-                    'Modernized legacy services into containerized microservices on Kubernetes with full CI/CD coverage.',
-                    'Partnered with designers and PMs to ship customer-facing portals with React and TypeScript.',
+                    'Designed and shipped modular Vue.js component libraries and Angular micro-frontends for factory automation teams across Europe, integrated with PHP (Symfony) REST backends.',
+                    'Architected the Application Product Selector (APS) with Pinia state management, Vite tooling, and Redis caching — adopted by 100+ global partners, cutting configuration time by 35%.',
+                    'Led frontend modernisation from legacy monoliths to Kubernetes-deployed, Vite-built micro-frontends with full CI/CD coverage.',
+                    'Partnered with UX designers in Figma to define and enforce a shared component system across all internal and customer-facing portals.',
                   ]}
                 />
 
@@ -592,9 +594,9 @@ export default function Landing() {
                   dates="Apr 2019 — Mar 2020"
                   location="Leipzig, Germany"
                   bullets={[
-                    'Developed and maintained internal tools supporting EU fulfillment center operations.',
-                    'Automated repetitive workflows and monitoring, reducing manual effort for operations teams.',
-                    'Collaborated with cross-functional teams to deliver production features under strict SLAs.',
+                    'Built and maintained internal dashboards and tooling for EU fulfillment center operations with a focus on usability and data clarity.',
+                    'Automated repetitive operational workflows, reducing manual effort for operations teams and improving monitoring coverage.',
+                    'Collaborated with cross-functional teams to deliver production features reliably under strict SLAs.',
                   ]}
                 />
               </div>
@@ -611,13 +613,16 @@ export default function Landing() {
                   Frontend
                 </div>
                 <div className={styles.skillChips}>
-                  <SkillBadge name="React" slug="react" />
                   <SkillBadge name="TypeScript" slug="typescript" />
-                  <SkillBadge name="Next.js" slug="nextdotjs" />
-                  <SkillBadge name="Redux" slug="redux" />
-                  <SkillBadge name="Material UI" slug="mui" />
+                  <SkillBadge name="JavaScript (ES6+)" slug="javascript" />
+                  <SkillBadge name="Vue.js" slug="vuedotjs" />
+                  <SkillBadge name="Pinia / Vuex" slug="pinia" />
                   <SkillBadge name="Angular" slug="angular" />
-                  <SkillBadge name="JavaScript" slug="javascript" />
+                  <SkillBadge name="React" slug="react" />
+                  <SkillBadge name="Next.js" slug="nextdotjs" />
+                  <SkillBadge name="Vite" slug="vite" />
+                  <SkillBadge name="Tailwind CSS" slug="tailwindcss" />
+                  <SkillBadge name="CSS3" slug="css3" />
                 </div>
               </div>
 
@@ -628,46 +633,65 @@ export default function Landing() {
                 </div>
                 <div className={styles.skillChips}>
                   <SkillBadge name="Node.js" slug="nodedotjs" />
+                  <SkillBadge name="PHP (Symfony)" slug="symfony" />
                   <SkillBadge name="REST APIs" />
                   <SkillBadge name="GraphQL" slug="graphql" />
-                  <SkillBadge name="Microservices" />
-                  <SkillBadge name="Scalable Arch" />
-                  <SkillBadge name="Java" slug="openjdk" />
-                  <SkillBadge name="Spring" slug="spring" />
                 </div>
               </div>
 
               <div className={styles.skillRow}>
                 <div className={styles.skillLabel}>
                   <span className={styles.skillLabelIcon}><DesignIcon /></span>
-                  Cloud &amp; DevOps
+                  Database
                 </div>
                 <div className={styles.skillChips}>
-                  <SkillBadge name="AWS" src="/img/aws.png" />
-                  <SkillBadge name="Azure" slug="microsoftazure" />
-                  <SkillBadge name="Docker" slug="docker" />
-                  <SkillBadge name="Kubernetes" slug="kubernetes" />
-                  <SkillBadge name="GitHub Actions" slug="githubactions" />
-                  <SkillBadge name="CI / CD" />
-                  <SkillBadge name="Grafana" slug="grafana" />
+                  <SkillBadge name="SQL / MySQL" slug="mysql" />
+                  <SkillBadge name="Redis" slug="redis" />
+                  <SkillBadge name="RabbitMQ" slug="rabbitmq" />
                 </div>
               </div>
 
               <div className={styles.skillRow}>
                 <div className={styles.skillLabel}>
                   <span className={styles.skillLabelIcon}><DesignIcon /></span>
-                  Testing &amp; Security
+                  Testing
                 </div>
                 <div className={styles.skillChips}>
-                  <SkillBadge name="Playwright" slug="playwright" />
+                  <SkillBadge name="PHPUnit" slug="php" />
                   <SkillBadge name="Jest" slug="jest" />
+                  <SkillBadge name="Playwright" slug="playwright" />
                   <SkillBadge name="E2E" />
                   <SkillBadge name="TDD" />
-                  <SkillBadge name="Code Reviews" />
-                  <SkillBadge name="OAuth2" slug="oauth" />
-                  <SkillBadge name="OIDC" slug="openid" />
-                  <SkillBadge name="JWT" slug="jsonwebtokens" />
-                  <SkillBadge name="SSO" />
+                </div>
+              </div>
+
+              <div className={styles.skillRow}>
+                <div className={styles.skillLabel}>
+                  <span className={styles.skillLabelIcon}><DesignIcon /></span>
+                  DevOps &amp; Cloud
+                </div>
+                <div className={styles.skillChips}>
+                  <SkillBadge name="Docker" slug="docker" />
+                  <SkillBadge name="Kubernetes" slug="kubernetes" />
+                  <SkillBadge name="AWS" src="/img/aws.png" />
+                  <SkillBadge name="Azure DevOps" slug="microsoftazure" />
+                  <SkillBadge name="GitHub Actions" slug="githubactions" />
+                  <SkillBadge name="GoCD" />
+                  <SkillBadge name="CI / CD" />
+                </div>
+              </div>
+
+              <div className={styles.skillRow}>
+                <div className={styles.skillLabel}>
+                  <span className={styles.skillLabelIcon}><DesignIcon /></span>
+                  Design &amp; UX
+                </div>
+                <div className={styles.skillChips}>
+                  <SkillBadge name="Figma" slug="figma" />
+                  <SkillBadge name="Design Systems" />
+                  <SkillBadge name="Component Libraries" />
+                  <SkillBadge name="WCAG 2.1 AA" />
+                  <SkillBadge name="Agile / Scrum" />
                 </div>
               </div>
             </section>
@@ -755,10 +779,10 @@ export default function Landing() {
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>Connected Charging Cable Platform</h3>
                     <div className={styles.projTags}>
-                      {['React', 'TypeScript', 'Java Spring Boot', 'OCPP', 'AWS'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                      {['Angular', 'TypeScript', 'Vite', 'PHP (Symfony)', 'OCPP', 'Docker', 'AWS'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
                     </div>
                     <p className={styles.projDesc}>
-                      Real-time operator interface processing 10K+ OCPP messages/sec, sub-200ms latency across 8 European markets. (Bosch eMobility R&amp;D)
+                      Real-time operator interface processing 10K+ OCPP messages/sec at sub-200ms latency across 8 European markets. (Bosch eMobility R&amp;D)
                     </p>
                     <a className={styles.projLink} href="/recruiter-dashboard/projects">
                       <LinkIcon /> View case study
@@ -769,12 +793,12 @@ export default function Landing() {
                 <div className={styles.projCard}>
                   <span className={styles.projLogo}><BoschLogo /></span>
                   <div className={styles.projBody}>
-                    <h3 className={styles.projTitle}>Charge Point Management System</h3>
+                    <h3 className={styles.projTitle}>Charge Point Management System (CPMS)</h3>
                     <div className={styles.projTags}>
-                      {['React', 'Azure', 'OCPP', 'Docker', 'CI/CD'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                      {['React', 'Vue.js', 'TypeScript', 'PHP (Symfony)', 'MySQL', 'Redis', 'RabbitMQ', 'Docker', 'Kubernetes', 'AWS'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
                     </div>
                     <p className={styles.projDesc}>
-                      450,000+ charge points across 30 countries, 99.9% uptime with real-time OCPP event processing. (Bosch GmbH)
+                      Vue.js dashboards and Symfony backend for 450,000+ charge points across 30 countries, 99.9% uptime. (Bosch GmbH)
                     </p>
                     <a className={styles.projLink} href="/recruiter-dashboard/projects">
                       <LinkIcon /> View case study
@@ -787,7 +811,7 @@ export default function Landing() {
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>Real-Time Geospatial Dashboard</h3>
                     <div className={styles.projTags}>
-                      {['React', 'TypeScript', 'Leaflet.js', 'REST APIs'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                      {['React', 'TypeScript', 'Leaflet.js', 'REST APIs', 'WebSockets'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
                     </div>
                     <p className={styles.projDesc}>
                       Interactive map rendering 50K+ data points — sub-300ms render time, 60fps pan/zoom with dynamic filtering. (Bosch GmbH)
@@ -803,7 +827,7 @@ export default function Landing() {
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>High-Volume Data Visualization Platform</h3>
                     <div className={styles.projTags}>
-                      {['React', 'TypeScript', 'D3.js', 'WebSockets'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                      {['React', 'TypeScript', 'D3.js', 'WebSockets', 'Canvas API'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
                     </div>
                     <p className={styles.projDesc}>
                       10K+ data points/second charting at 60fps, canvas rendering across 8 enterprise products. (Bosch GmbH)
@@ -819,10 +843,10 @@ export default function Landing() {
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>Application Product Selector (APS)</h3>
                     <div className={styles.projTags}>
-                      {['Angular', 'TypeScript', '.NET Core', 'SAP UI5'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                      {['Vue.js', 'Pinia', 'TypeScript', 'Vite', 'PHP (Symfony)', 'MySQL', 'Redis', 'SAP Integration'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
                     </div>
                     <p className={styles.projDesc}>
-                      SAP-integrated catalog with 3D visualisation — 100+ global partners, 35% faster configuration, 200+ manual requests eliminated monthly. (Bosch Rexroth)
+                      SAP-connected product catalog — 100+ global partners, 35% faster configuration, 200+ manual requests eliminated monthly. (Bosch Rexroth)
                     </p>
                     <a className={styles.projLink} href="/recruiter-dashboard/projects">
                       <LinkIcon /> View case study
@@ -835,10 +859,10 @@ export default function Landing() {
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>Smart Project Management v3.0</h3>
                     <div className={styles.projTags}>
-                      {['Angular', 'Java Spring Boot', 'Kubernetes', 'PostgreSQL'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                      {['Vue.js', 'TypeScript', 'PHP (Symfony)', 'MySQL', 'Kubernetes', 'Docker'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
                     </div>
                     <p className={styles.projDesc}>
-                      Multi-tenant PM system — 1,000+ users, 22% faster project cycles with real-time collaboration. (Bosch Rexroth)
+                      Multi-tenant PM system — 1,000+ users, 22% faster project cycles. (Bosch Rexroth)
                     </p>
                     <a className={styles.projLink} href="/recruiter-dashboard/projects">
                       <LinkIcon /> View case study
@@ -851,7 +875,7 @@ export default function Landing() {
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>Support Portal 2.0</h3>
                     <div className={styles.projTags}>
-                      {['Angular', 'TypeScript', 'REST APIs', 'Figma'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                      {['Vue.js', 'TypeScript', 'PHP (Symfony)', 'REST APIs', 'Figma'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
                     </div>
                     <p className={styles.projDesc}>
                       40% faster ticket resolution, 60% of L1 tasks automated for 300+ users. (Bosch GmbH)
@@ -867,10 +891,10 @@ export default function Landing() {
                   <div className={styles.projBody}>
                     <h3 className={styles.projTitle}>Chase My Career (Personal)</h3>
                     <div className={styles.projTags}>
-                      {['Next.js', 'TypeScript', 'Supabase', 'Cloudflare'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
+                      {['Next.js', 'TypeScript', 'React', 'Supabase', 'Cloudflare', 'AI/LLM APIs'].map(t => <span key={t} className={styles.projTag}>{t}</span>)}
                     </div>
                     <p className={styles.projDesc}>
-                      AI-powered job matching &amp; resume review platform, live in Germany.
+                      AI-powered job matching &amp; resume review platform, live in Germany. End-to-end solo build.
                     </p>
                     <a className={styles.projLink} href="https://www.chasemycareer.com" target="_blank" rel="noopener noreferrer">
                       <LinkIcon /> chasemycareer.com

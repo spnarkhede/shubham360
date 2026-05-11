@@ -311,6 +311,26 @@
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-operations-md-c1b.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-tool-term-cheatsheet-md-9af.json
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
+            |-- site-docs-computer-science-frontend-architect-1-overview-md-ca6.json
+            |-- site-docs-computer-science-frontend-architect-2-chapter-01-foundations-md-d15.json
+            |-- site-docs-computer-science-frontend-architect-appendix-a-sources-md-bd7.json
+            |-- site-docs-computer-science-frontend-architect-appendix-b-tools-cheatsheet-md-ee3.json
+            |-- site-docs-computer-science-frontend-architect-chapter-00-overview-md-95c.json
+            |-- site-docs-computer-science-frontend-architect-chapter-01-foundations-md-12c.json
+            |-- site-docs-computer-science-frontend-architect-chapter-01-foundations-md-f5f.json
+            |-- site-docs-computer-science-frontend-architect-chapter-02-intermediate-frontend-md-f35.json
+            |-- site-docs-computer-science-frontend-architect-chapter-03-react-in-depth-md-d37.json
+            |-- site-docs-computer-science-frontend-architect-chapter-04-state-and-apis-md-1f6.json
+            |-- site-docs-computer-science-frontend-architect-chapter-05-performance-security-md-79d.json
+            |-- site-docs-computer-science-frontend-architect-chapter-06-testing-devops-md-4c6.json
+            |-- site-docs-computer-science-frontend-architect-chapter-07-architecture-patterns-md-cd9.json
+            |-- site-docs-computer-science-frontend-architect-chapter-08-microfrontends-monorepos-md-006.json
+            |-- site-docs-computer-science-frontend-architect-chapter-09-architect-role-md-f99.json
+            |-- site-docs-computer-science-frontend-architect-chapter-10-soft-skills-leadership-md-91e.json
+            |-- site-docs-computer-science-frontend-architect-chapter-11-interview-prep-md-7a5.json
+            |-- site-docs-computer-science-frontend-architect-chapter-12-realworld-references-md-643.json
+            |-- site-docs-computer-science-frontend-architect-compass-artifact-wf-299-f-8-caa-18-e-2-4702-a-286-a-6361-d-8-af-080-text-markdown-md-52e.json
+            |-- site-docs-computer-science-frontend-architect-complete-frontend-architect-roadmap-md-905.json
             |-- site-docs-computer-science-hyperautomation-chatbots-idp-chatbots-idp-md-871.json
             |-- site-docs-computer-science-hyperautomation-ci-cd-cicd-guide-md-363.json
             |-- site-docs-computer-science-hyperautomation-generative-ai-gen-ai-introduction-md-0a4.json
@@ -921,6 +941,23 @@
                 |-- DockerOperations.md
                 |-- DockerTool&TermCheatsheet.md
             |-- _category_.json
+        |-- FrontendArchitect
+            |-- appendix-a-sources.md
+            |-- appendix-b-tools-cheatsheet.md
+            |-- Chapter 00 Overview.md
+            |-- chapter-01-foundations.md
+            |-- chapter-02-intermediate-frontend.md
+            |-- chapter-03-react-in-depth.md
+            |-- chapter-04-state-and-apis.md
+            |-- chapter-05-performance-security.md
+            |-- chapter-06-testing-devops.md
+            |-- chapter-07-architecture-patterns.md
+            |-- chapter-08-microfrontends-monorepos.md
+            |-- chapter-09-architect-role.md
+            |-- chapter-10-soft-skills-leadership.md
+            |-- chapter-11-interview-prep.md
+            |-- chapter-12-realworld-references.md
+            |-- complete-frontend-architect-roadmap.md
         |-- Hyperautomation
             |-- Chatbots & IDP
                 |-- Chatbots_IDP.md

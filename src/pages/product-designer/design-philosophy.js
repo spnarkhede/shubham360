@@ -3,7 +3,7 @@ import ProductDesignerDashboard from '../../components/ProductDesignerDashboard'
 import SectionTemplate from '../../components/SectionTemplate';
 import useRoleStore from '../../store/roleStore';
 import styles from './styles.module.css';
-import { Heart, Brain, Shield, Users, TrendingUp, BarChart3, Quote, Lightbulb, Target, Eye, Compass, Zap, Award } from 'lucide-react';
+import { Heart, Brain, Shield, Users, TrendingUp, BarChart3, Target, Eye, Compass, Zap, Award } from 'lucide-react';
 
 export default function ProductDesignerDesignPhilosophy() {
   const { activeTab } = useRoleStore();

@@ -3,22 +3,7 @@ import ProductDesignerDashboard from "../../components/ProductDesignerDashboard"
 import SectionTemplate from "../../components/SectionTemplate";
 import useRoleStore from "../../store/roleStore";
 import styles from "./styles.module.css";
-import {
-  Palette,
-  Users,
-  Lightbulb,
-  Target,
-  Award,
-  Mail,
-  Briefcase,
-  Code,
-  Building,
-  ChevronDown,
-  ChevronUp,
-  Calendar,
-  MapPin,
-  ExternalLink,
-} from "lucide-react";
+import { Users, Lightbulb, Target, Award, Mail, Briefcase, Code, Building } from 'lucide-react';
 import {
   experienceItems,
   designJourneyItems,
@@ -154,10 +139,9 @@ export default function ProductDesignerIntroduction() {
           <div className={styles.interestsGrid}>
             {designFocusAreas.map((area, index) => (
               <div key={index} className={styles.interestCard}>
-                <div
-                  className={styles.interestIcon}
-                  dangerouslySetInnerHTML={{ __html: area.icon }}
-                />
+                <div className={styles.interestIcon}>
+                  {area.icon} {/* ✅ Direct React component render - XSS safe */}
+                </div>
                 <h3>{area.title}</h3>
                 <p>{area.description}</p>
               </div>

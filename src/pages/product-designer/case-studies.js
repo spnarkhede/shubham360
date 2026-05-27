@@ -3,25 +3,7 @@ import ProductDesignerDashboard from '../../components/ProductDesignerDashboard'
 import SectionTemplate from '../../components/SectionTemplate';
 import useRoleStore from '../../store/roleStore';
 import styles from './styles.module.css';
-import { 
-  BookOpen, 
-  Users, 
-  Target, 
-  Lightbulb, 
-  BarChart3, 
-  UserCheck, 
-  Map, 
-  Brain, 
-  Palette, 
-  Monitor, 
-  ThumbsUp, 
-  TrendingUp,
-  FileText,
-  Layers,
-  Settings,
-  Eye,
-  Database
-} from 'lucide-react';
+import { BookOpen, Users, Target, Lightbulb, BarChart3, UserCheck, Map, Brain, Palette, Monitor, TrendingUp, FileText, Layers, Settings, Database } from 'lucide-react';
 
 export default function ProductDesignerCaseStudies() {
   const { activeTab } = useRoleStore();

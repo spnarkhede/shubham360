@@ -2,24 +2,7 @@ import React, { useState, useMemo } from 'react';
 import ProductDesignerDashboard from '../../components/ProductDesignerDashboard';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from '../../components/ToolCollections/styles.module.css';
-import { 
-  Search,
-  Star,
-  Filter,
-  X,
-  BookOpen,
-  Palette,
-  Eye,
-  Users,
-  Target,
-  Lightbulb,
-  FileText,
-  Settings,
-  Wrench,
-  Heart,
-  Cpu,
-  UserCircle
-} from 'lucide-react';
+import { Search, Star, Filter, X, Palette, Eye, Users, Target, Lightbulb, FileText, Settings, Wrench, Heart, Cpu, UserCircle } from 'lucide-react';
 
 // Design learnings data with categories, descriptions, and metadata - ALPHABETICAL ORDER
 const designLearningsData = [

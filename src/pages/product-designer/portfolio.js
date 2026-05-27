@@ -9,6 +9,7 @@ export default function ProductDesignerPortfolio() {
   const { activeTab } = useRoleStore();
   const [selectedProject, setSelectedProject] = useState(null);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
+  const [iframeErrors, setIframeErrors] = useState(new Set()); // ✅ Track iframe errors in React state
 
   // Portfolio projects data with Figma embed URLs
   const projects = [
@@ -60,27 +61,9 @@ export default function ProductDesignerPortfolio() {
     setSelectedProject(null);
   };
 
-  // Function to handle iframe errors
-  const handleIframeError = (e) => {
-    e.target.style.display = 'none';
-    // Find the parent container and show an error message
-    const container = e.target.closest(`.${styles.iframeContainer}`);
-    if (container) {
-      container.innerHTML = `
-        <div class="${styles.iframeError}">
-          <p>Unable to load Figma prototype</p>
-          <a 
-            href="${e.target.src.replace('embed', 'file').split('&')[0]}" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="${styles.errorLink}"
-          >
-            <ExternalLink size={16} />
-            <span>Open in Figma</span>
-          </a>
-        </div>
-      `;
-    }
+  // ✅ SECURITY FIX: Handle iframe errors with React state instead of innerHTML
+  const handleIframeError = (e, projectId) => {
+    setIframeErrors(prev => new Set([...prev, projectId]));
   };
 
   return (
@@ -139,16 +122,32 @@ export default function ProductDesignerPortfolio() {
                   </div>
                   
                   {/* Figma iframe - hidden by default, shown if thumbnail fails */}
+                  {/* ✅ SECURITY FIX: Render error message as React component instead of innerHTML */}
                   <div className={styles.iframeContainer} style={{ display: 'none' }}>
-                    <iframe 
-                      src={project.figmaUrl} 
-                      className={styles.projectIframe}
-                      title={`${project.title} Prototype`}
-                      loading="lazy"
-                      allowFullScreen
-                      scrolling="no"
-                      onError={handleIframeError}
-                    />
+                    {iframeErrors.has(project.id) ? (
+                      <div className={styles.iframeError}>
+                        <p>Unable to load Figma prototype</p>
+                        <a 
+                          href={project.figmaUrl.replace('embed', 'file').split('&')[0]} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className={styles.errorLink}
+                        >
+                          <ExternalLink size={16} />
+                          <span>Open in Figma</span>
+                        </a>
+                      </div>
+                    ) : (
+                      <iframe 
+                        src={project.figmaUrl} 
+                        className={styles.projectIframe}
+                        title={`${project.title} Prototype`}
+                        loading="lazy"
+                        allowFullScreen
+                        scrolling="no"
+                        onError={(e) => handleIframeError(e, project.id)}
+                      />
+                    )}
                   </div>
                   
                   <p className={styles.projectDescription}>{project.description}</p>
@@ -189,14 +188,30 @@ export default function ProductDesignerPortfolio() {
               </button>
             </div>
             <div className={styles.popupIframeContainer}>
-              <iframe 
-                src={selectedProject.figmaUrl} 
-                className={styles.popupIframe}
-                title={`${selectedProject.title} Fullscreen Prototype`}
-                allowFullScreen
-                scrolling="no"
-                onError={handleIframeError}
-              />
+              {/* ✅ SECURITY FIX: Render error message as React component */}
+              {iframeErrors.has(selectedProject.id) ? (
+                <div className={styles.iframeError}>
+                  <p>Unable to load Figma prototype</p>
+                  <a 
+                    href={selectedProject.figmaUrl.replace('embed', 'file').split('&')[0]} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className={styles.errorLink}
+                  >
+                    <ExternalLink size={16} />
+                    <span>Open in Figma</span>
+                  </a>
+                </div>
+              ) : (
+                <iframe 
+                  src={selectedProject.figmaUrl} 
+                  className={styles.popupIframe}
+                  title={`${selectedProject.title} Fullscreen Prototype`}
+                  allowFullScreen
+                  scrolling="no"
+                  onError={(e) => handleIframeError(e, selectedProject.id)}
+                />
+              )}
             </div>
             <div className={styles.popupFooter}>
               <p>{selectedProject.description}</p>

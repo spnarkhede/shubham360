@@ -3,35 +3,7 @@ import ProductDesignerDashboard from '../../components/ProductDesignerDashboard'
 import SectionTemplate from '../../components/SectionTemplate';
 import useRoleStore from '../../store/roleStore';
 import styles from './styles.module.css';
-import { 
-  Figma, 
-  PenTool, 
-  Smartphone, 
-  Monitor, 
-  Zap, 
-  Users, 
-  Eye, 
-  Heart, 
-  Palette,
-  Cpu,
-  Settings,
-  Wrench,
-  Lightbulb,
-  FileText,
-  BookOpen,
-  Target,
-  Grid,
-  Database,
-  GitBranch,
-  MousePointer,
-  Layout,
-  StickyNote,
-  Frame,
-  Type,
-  Image,
-  Share2,
-  Code
-} from 'lucide-react';
+import { Figma, PenTool, Smartphone, Monitor, Zap, Users, Eye, Heart, Palette, Cpu, Settings, Wrench, Lightbulb, FileText, BookOpen, Target, Grid, Database, GitBranch, MousePointer, Layout, StickyNote, Frame, Image, Share2, Code } from 'lucide-react';
 
 export default function ProductDesignerTools() {
   const { activeTab } = useRoleStore();

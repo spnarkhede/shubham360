@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
-import { Brush, Pen, Image, Calendar, ZoomIn } from 'lucide-react';
+import { ZoomIn } from 'lucide-react';
 
 export default function CuriousVisitorCreativity() {
   const [activeTab, setActiveTab] = useState('sketches');

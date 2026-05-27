@@ -2,24 +2,7 @@ import React, { useState, useMemo } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from '../../components/ToolCollections/styles.module.css';
-import { 
-  Search,
-  Star,
-  Filter,
-  X,
-  BookOpen,
-  Code,
-  GitBranch,
-  Server,
-  Palette,
-  Database,
-  Globe,
-  Terminal,
-  FileText,
-  Settings,
-  Wrench,
-  Brain
-} from 'lucide-react';
+import { Search, Star, Filter, X, Code, GitBranch, Server, Palette, Database, Globe, Terminal, FileText, Settings, Brain } from 'lucide-react';
 
 // Technical learnings data with categories, descriptions, and metadata - ALPHABETICAL ORDER
 const technicalLearningsData = [

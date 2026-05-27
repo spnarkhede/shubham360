@@ -3,7 +3,7 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
-import { ArrowRight, Code, Book, Briefcase, Heart, User, Sparkles, Target, Lightbulb, Zap } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function CuriousVisitorIntroduction() {
   const [activeTab, setActiveTab] = useState('personal-profile');

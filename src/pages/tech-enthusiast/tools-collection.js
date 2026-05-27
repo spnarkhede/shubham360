@@ -2,36 +2,7 @@ import React, { useState, useMemo } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from '../../components/ToolCollections/styles.module.css';
-import { 
-  Search,
-  Shield,
-  Brain,
-  MonitorPlay,
-  Headphones,
-  Gamepad2,
-  BookOpen,
-  Download,
-  Share2,
-  GraduationCap,
-  Smartphone,
-  Terminal,
-  Globe,
-  Wrench,
-  Star,
-  ExternalLink,
-  Filter,
-  X,
-  Settings,
-  FileText,
-  Wifi,
-  Type,
-  ImageIcon,
-  Video,
-  Volume2,
-  Users,
-  Code,
-  HelpCircle
-} from 'lucide-react';
+import { Search, Shield, Brain, MonitorPlay, Headphones, Gamepad2, BookOpen, Download, Share2, GraduationCap, Smartphone, Terminal, Globe, Wrench, Star, Filter, X, Settings, FileText, Wifi, Type, ImageIcon, Video, Volume2, Users, Code, HelpCircle } from 'lucide-react';
 
 // Tools data with categories, descriptions, and metadata - Beginner Guide FIRST, then ALPHABETICAL ORDER
 const toolsData = [

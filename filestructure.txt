@@ -1013,6 +1013,17 @@
     |-- site-metadata.json
     |-- site-storage.json
 |-- .env.example
+|-- .github
+    |-- ISSUE_TEMPLATE
+        |-- bug_report.yml
+        |-- feature_request.yml
+    |-- PULL_REQUEST_TEMPLATE.md
+    |-- workflows
+        |-- ci.yml
+        |-- codeql-analysis.yml
+        |-- dependency-review.yml
+        |-- deploy.yml
+        |-- greetings.yml
 |-- .gitignore
 |-- .qoder
     |-- agents
@@ -1024,6 +1035,7 @@
 |-- 4. GrowthPartner.md
 |-- 5. ProductDesigner.md
 |-- babel.config.js
+|-- BADGE_ACHIEVEMENT_GUIDE.md
 |-- blog
     |-- 2018
         |-- 2018-01-05-futureofai.md
@@ -1094,6 +1106,7 @@
     |-- XSS_SECURITY_GUIDE.md
 |-- compress-images.js
 |-- compress-pdf.js
+|-- CONTRIBUTING.md
 |-- docs
     |-- Agents
         |-- advanced
@@ -1998,6 +2011,7 @@
     |-- 9. Detailed Portfolio Sections.md
     |-- PROJECT_STATUS.md
     |-- README.md
+|-- README.md
 |-- remove-unused-lucide-icons.js
 |-- scripts
     |-- analyze-book-images.js
@@ -2016,7 +2030,9 @@
         |-- external-tools.js
         |-- file-utils.js
         |-- image-utils.js
+|-- SECURITY.md
 |-- sidebars.ts
+|-- SOCIAL_MEDIA_TEMPLATES.md
 |-- src
     |-- components
         |-- ArtGallery

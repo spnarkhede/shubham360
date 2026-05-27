@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
+const { scanFiles } = require('./scripts/utils/file-utils');
 
 const ICON_SOURCE = 'lucide-react';
 
@@ -44,7 +45,7 @@ function cleanLucideImports(file) {
 }
 
 function runCleanup(dir = './src') {
-    const files = glob.sync(`${dir}/**/*.{js,jsx}`, { ignore: '**/node_modules/**' });
+    const files = scanFiles(dir, ['js', 'jsx']);
 
     console.log(`🔍 Scanning ${files.length} JS files...`);
 

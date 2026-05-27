@@ -3,6 +3,7 @@ const path = require('path');
 const glob = require('glob');
 const recast = require('recast');
 const b = recast.types.builders;
+const { scanFiles } = require('./scripts/utils/file-utils');
 
 function findUsedIdentifiers(ast) {
     const used = new Set();
@@ -54,9 +55,7 @@ function cleanFile(filePath) {
 }
 
 function runCleaner(targetDir = './src') {
-    const files = glob.sync(`${targetDir}/**/*.{js,jsx}`, {
-        ignore: '**/node_modules/**'
-    });
+    const files = scanFiles(targetDir, ['js', 'jsx']);
 
     console.log(`🔍 Scanning ${files.length} files...`);
     files.forEach(cleanFile);

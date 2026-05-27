@@ -2,6 +2,8 @@
 const fs = require('fs');
 const { exec } = require('child_process');
 const path = require('path');
+const { ensureDirExists } = require('./scripts/utils/file-utils');
+const { isGhostscriptAvailable } = require('./scripts/utils/external-tools');
 
 // Configuration for different PDF directories
 const pdfDirectories = [
@@ -14,22 +16,6 @@ const pdfDirectories = [
     outputDir: 'static/certificates/documents'
   }
 ];
-
-// Function to ensure output directory exists
-function ensureDirExists(dir) {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
-}
-
-// Function to check if Ghostscript is available
-function isGhostscriptAvailable() {
-  return new Promise((resolve) => {
-    exec('gs --version', (error) => {
-      resolve(!error);
-    });
-  });
-}
 
 // Function to compress using Ghostscript
 function compressPDFWithGhostscript(inputPath, outputPath) {

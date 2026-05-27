@@ -179,7 +179,43 @@ This is a personal portfolio project, but suggestions and feedback are welcome!
 
 ---
 
-## 📝 License
+## � Repository Statistics
+
+<div align="center">
+
+![GitHub repo size](https://img.shields.io/github/repo-size/spnarkhede/shubham360?style=for-the-badge)
+![GitHub code size](https://img.shields.io/github/languages/code-size/spnarkhede/shubham360?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/spnarkhede/shubham360?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/spnarkhede/shubham360?style=for-the-badge)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/spnarkhede/shubham360/main?style=for-the-badge)
+
+</div>
+
+### 📊 Project Metrics
+
+| Metric | Count |
+|--------|-------|
+| **Pages** | 15+ custom React pages |
+| **Components** | 30+ reusable components |
+| **Documentation** | 100+ markdown docs |
+| **Book Reviews** | 115+ detailed reviews |
+| **Blog Posts** | 50+ articles (2018-2026) |
+| **Knowledge Areas** | 8 major categories |
+| **Tech Stack** | 10+ technologies |
+
+### 🏗️ Architecture Highlights
+
+- **Zero Runtime Dependencies on Backend** — Fully static site
+- **Code Splitting** — Optimized bundle sizes
+- **Lazy Loading** — Fast initial page load
+- **SEO Optimized** — Meta tags, sitemap, robots.txt
+- **PWA Ready** — Service worker support
+- **i18n Support** — Multi-language ready (EN, DE)
+- **Dark/Light Themes** — Automatic theme switching
+
+---
+
+## �📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 

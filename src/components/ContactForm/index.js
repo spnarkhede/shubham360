@@ -20,11 +20,14 @@ const ContactForm = () => {
       e.target
     )
     .then((result) => {
-        console.log(result.text);
+        // Email sent successfully
         alert('Thank you! Your message has been sent successfully.');
         e.target.reset(); // Reset form after successful submission
     }, (error) => {
-        console.log(error.text);
+        // Log error in development mode only
+        if (process.env.NODE_ENV === 'development') {
+          console.error('EmailJS error:', error.text);
+        }
         alert('Oops! Something went wrong. Please try again.');
     });
   }

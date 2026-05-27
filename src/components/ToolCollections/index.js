@@ -1,36 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import SectionTemplate from '../SectionTemplate';
 import styles from './styles.module.css';
-import { 
-  Search,
-  Shield,
-  Brain,
-  MonitorPlay,
-  Headphones,
-  Gamepad2,
-  BookOpen,
-  Download,
-  Share2,
-  GraduationCap,
-  Smartphone,
-  Terminal,
-  Globe,
-  Wrench,
-  Star,
-  ExternalLink,
-  Filter,
-  X,
-  Settings,
-  FileText,
-  Wifi,
-  Type,
-  ImageIcon,
-  Video,
-  Volume2,
-  Users,
-  HelpCircle,
-  Code
-} from 'lucide-react';
+import { Search, Shield, Brain, MonitorPlay, Headphones, Gamepad2, BookOpen, Download, Share2, GraduationCap, Smartphone, Terminal, Globe, Wrench, Star, ExternalLink, Filter, X, Settings, FileText, Wifi, Type, ImageIcon, Video, Volume2, Users, HelpCircle, Code } from 'lucide-react';
 
 // Tools data with categories, descriptions, and metadata - ALPHABETICAL ORDER
 const toolsData = [

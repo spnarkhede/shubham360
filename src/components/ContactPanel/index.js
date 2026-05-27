@@ -29,7 +29,7 @@ export default function ContactPanel() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // In a real implementation, this would send the form data to a backend
-    console.log('Form submitted:', formData);
+    // Form data would be sent via API or EmailJS here
     // Reset form after submission
     setFormData({
       name: '',

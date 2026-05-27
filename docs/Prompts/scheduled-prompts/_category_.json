@@ -1,0 +1,8 @@
+{
+  "label": "Scheduled Prompts",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Recurring prompt routines for daily briefings, weekly reviews, and automated check-ins."
+  }
+}

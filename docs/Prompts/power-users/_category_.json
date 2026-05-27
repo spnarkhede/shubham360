@@ -1,0 +1,8 @@
+{
+  "label": "Power Users",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Advanced cross-app productivity prompts for Microsoft Copilot power users."
+  }
+}

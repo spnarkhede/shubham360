@@ -54,11 +54,13 @@
                 |-- blog-tags-digital-transformation-e14.json
                 |-- blog-tags-documentation-453.json
                 |-- blog-tags-enterprise-3a8.json
+                |-- blog-tags-execution-ec1.json
                 |-- blog-tags-generative-ai-8b2.json
                 |-- blog-tags-git-hub-copilot-880.json
                 |-- blog-tags-github-copilot-cf1.json
                 |-- blog-tags-google-6fa.json
                 |-- blog-tags-google-gemini-1ef.json
+                |-- blog-tags-governance-8f2.json
                 |-- blog-tags-industry-5bd.json
                 |-- blog-tags-infrastructure-a92.json
                 |-- blog-tags-innovation-a1b.json
@@ -75,6 +77,7 @@
                 |-- blog-tags-microsoft-753.json
                 |-- blog-tags-mindset-986.json
                 |-- blog-tags-multi-modal-a2e.json
+                |-- blog-tags-operations-539.json
                 |-- blog-tags-planning-df2.json
                 |-- blog-tags-product-management-8f0.json
                 |-- blog-tags-productivity-557.json
@@ -191,14 +194,33 @@
             |-- site-blog-2025-2025-11-30-ai-certifications-learning-md-d49.json
             |-- site-blog-2025-2025-12-10-ai-project-product-management-md-eaa.json
             |-- site-blog-2026-2026-02-07-automotive-future-md-7f0.json
+            |-- site-blog-2026-2026-05-26-ai-industry-failing-md-8cd.json
             |-- __plugin.json
     |-- docusaurus-plugin-content-docs
         |-- default
             |-- p
+                |-- category-copilot-cowork-590.json
+                |-- category-enterprise-510.json
                 |-- category-languages-462.json
+                |-- category-outlook-641.json
+                |-- category-power-users-20c.json
                 |-- category-prompt-engineering-b56.json
+                |-- category-prompts-138.json
+                |-- category-quick-start-68e.json
+                |-- category-role-specific-d1b.json
+                |-- category-scheduled-prompts-e38.json
+                |-- category-security-copilot-f59.json
+                |-- de-category-copilot-cowork-85a.json
+                |-- de-category-enterprise-47b.json
                 |-- de-category-languages-fba.json
+                |-- de-category-outlook-611.json
+                |-- de-category-power-users-c86.json
                 |-- de-category-prompt-engineering-879.json
+                |-- de-category-prompts-cfb.json
+                |-- de-category-quick-start-80b.json
+                |-- de-category-role-specific-f2a.json
+                |-- de-category-scheduled-prompts-fbf.json
+                |-- de-category-security-copilot-fa2.json
                 |-- de-f9d.json
                 |-- de-tags-ai-26a.json
                 |-- de-tags-ais-605.json
@@ -299,10 +321,97 @@
                 |-- tags-tools-a72.json
                 |-- tags-web-fcc.json
                 |-- tags-workflow-95b.json
+            |-- site-docs-agents-advanced-cross-agent-orchestrator-md-b40.json
+            |-- site-docs-agents-advanced-email-triage-assistant-md-e49.json
+            |-- site-docs-agents-advanced-meeting-intelligence-agent-md-53c.json
+            |-- site-docs-agents-advanced-sharepoint-knowledge-agent-md-52e.json
+            |-- site-docs-agents-agents-md-154.json
+            |-- site-docs-agents-authoring-checklist-md-37f.json
+            |-- site-docs-agents-commercial-legal-back-charge-drafter-md-02c.json
+            |-- site-docs-agents-commercial-legal-change-order-assistant-md-97f.json
+            |-- site-docs-agents-commercial-legal-claims-register-manager-md-6e8.json
+            |-- site-docs-agents-commercial-legal-compliance-checklist-builder-md-33a.json
+            |-- site-docs-agents-commercial-legal-contract-language-simplifier-md-511.json
+            |-- site-docs-agents-commercial-legal-document-validation-agent-md-86c.json
+            |-- site-docs-agents-commercial-legal-incident-communication-drafter-md-91e.json
+            |-- site-docs-agents-commercial-legal-nda-agreement-summariser-md-869.json
+            |-- site-docs-agents-commercial-legal-policy-summariser-md-3cb.json
+            |-- site-docs-agents-commercial-legal-procurement-vendor-assessment-agent-md-595.json
+            |-- site-docs-agents-commercial-legal-tender-response-writer-md-04b.json
+            |-- site-docs-agents-contributing-md-2cc.json
+            |-- site-docs-agents-customer-success-customer-onboarding-agent-md-ef9.json
+            |-- site-docs-agents-customer-success-customer-response-writer-md-c8a.json
+            |-- site-docs-agents-customer-success-escalation-handler-md-ae9.json
+            |-- site-docs-agents-esg-carbon-footprint-narrative-writer-md-8f1.json
+            |-- site-docs-agents-esg-esg-commitment-tracker-md-01f.json
+            |-- site-docs-agents-esg-esg-report-section-writer-md-a00.json
+            |-- site-docs-agents-esg-materiality-assessment-writer-md-346.json
+            |-- site-docs-agents-finance-board-paper-writer-md-290.json
+            |-- site-docs-agents-finance-budget-justification-writer-md-ca1.json
+            |-- site-docs-agents-finance-budget-variance-analyst-md-1c5.json
+            |-- site-docs-agents-finance-financial-report-writer-md-aa6.json
+            |-- site-docs-agents-finance-kpi-commentary-writer-md-967.json
+            |-- site-docs-agents-hr-people-employee-onboarding-guide-md-9f8.json
+            |-- site-docs-agents-hr-people-exit-interview-analyser-md-ed0.json
+            |-- site-docs-agents-hr-people-interview-question-builder-md-20f.json
+            |-- site-docs-agents-hr-people-job-description-writer-md-f28.json
+            |-- site-docs-agents-hr-people-org-announcement-writer-md-a6e.json
+            |-- site-docs-agents-hr-people-performance-coach-md-57c.json
+            |-- site-docs-agents-hr-people-probation-review-assistant-md-2eb.json
+            |-- site-docs-agents-hr-people-redundancy-communication-writer-md-151.json
+            |-- site-docs-agents-industry-epc-energy-readme-md-974.json
+            |-- site-docs-agents-it-ops-change-incident-correlator-md-ae6.json
+            |-- site-docs-agents-it-ops-change-request-writer-md-641.json
+            |-- site-docs-agents-it-ops-incident-report-writer-md-346.json
+            |-- site-docs-agents-it-ops-it-request-scoper-md-2f3.json
+            |-- site-docs-agents-it-ops-it-self-service-agent-md-307.json
+            |-- site-docs-agents-it-ops-problem-pattern-detector-md-a82.json
+            |-- site-docs-agents-it-ops-runbook-writer-md-6df.json
+            |-- site-docs-agents-it-ops-security-risk-communicator-md-77f.json
+            |-- site-docs-agents-learning-development-assessment-question-writer-md-4cd.json
+            |-- site-docs-agents-learning-development-course-outline-builder-md-ff5.json
+            |-- site-docs-agents-learning-development-learning-objective-writer-md-2d0.json
+            |-- site-docs-agents-learning-development-training-needs-analyser-md-e88.json
+            |-- site-docs-agents-productivity-copilot-prompt-coach-md-e63.json
+            |-- site-docs-agents-project-management-action-register-tracker-md-7ef.json
+            |-- site-docs-agents-project-management-document-reviewer-md-23f.json
+            |-- site-docs-agents-project-management-lessons-learned-manager-md-b1b.json
+            |-- site-docs-agents-project-management-meeting-pre-brief-builder-md-18b.json
+            |-- site-docs-agents-project-management-presentation-builder-md-f96.json
+            |-- site-docs-agents-project-management-project-charter-writer-md-1cd.json
+            |-- site-docs-agents-project-management-project-closure-report-writer-md-d20.json
+            |-- site-docs-agents-project-management-project-status-reporter-md-4b2.json
+            |-- site-docs-agents-project-management-raid-log-manager-md-d53.json
+            |-- site-docs-agents-project-management-risk-register-manager-md-55d.json
+            |-- site-docs-agents-project-management-scope-of-work-drafter-md-6e3.json
+            |-- site-docs-agents-readme-md-d26.json
+            |-- site-docs-agents-sales-account-plan-writer-md-7f1.json
+            |-- site-docs-agents-sales-competitive-intelligence-brief-md-7a3.json
+            |-- site-docs-agents-sales-customer-case-study-writer-md-1b4.json
+            |-- site-docs-agents-sales-partnership-proposal-writer-md-d33.json
+            |-- site-docs-agents-sales-pipeline-review-preparer-md-9bf.json
+            |-- site-docs-agents-sales-rfp-response-writer-md-ea7.json
+            |-- site-docs-agents-sales-sales-email-writer-md-72e.json
+            |-- site-docs-agents-sales-win-loss-analyser-md-42e.json
+            |-- site-docs-agents-strategy-executive-board-report-writer-md-de6.json
+            |-- site-docs-agents-strategy-executive-executive-decision-brief-md-ead.json
+            |-- site-docs-agents-strategy-executive-okr-writer-md-deb.json
+            |-- site-docs-agents-strategy-executive-strategic-plan-structurer-md-0c3.json
+            |-- site-docs-agents-writing-communication-ai-text-humanizer-md-631.json
+            |-- site-docs-agents-writing-communication-brand-voice-enforcer-md-fc4.json
+            |-- site-docs-agents-writing-communication-enterprise-writer-md-a6a.json
+            |-- site-docs-agents-writing-communication-executive-briefing-builder-md-238.json
+            |-- site-docs-agents-writing-communication-meeting-scribe-md-738.json
+            |-- site-docs-agents-writing-communication-professional-translator-en-fr-md-196.json
+            |-- site-docs-agents-writing-communication-tone-calibrator-md-0f4.json
             |-- site-docs-claude-ai-prompts-build-10-k-website-guide-md-eaf.json
+            |-- site-docs-claude-ai-prompts-claude-agent-creation-template-md-710.json
+            |-- site-docs-claude-ai-prompts-claude-agents-authoring-checklist-md-fb9.json
             |-- site-docs-claude-ai-prompts-claude-code-complete-guide-md-453.json
             |-- site-docs-claude-ai-prompts-claude-design-the-free-canva-killer-md-50a.json
             |-- site-docs-claude-ai-prompts-claude-memory-transfer-md-f86.json
+            |-- site-docs-claude-ai-prompts-claude-prompt-creation-template-md-934.json
+            |-- site-docs-claude-ai-prompts-claude-skill-template-md-554.json
             |-- site-docs-claude-ai-prompts-ru-flo-setup-guide-md-9cf.json
             |-- site-docs-computer-science-artificial-intelligence-llm-llm-basic-notes-md-74f.json
             |-- site-docs-computer-science-artificial-intelligence-llm-prompt-engineering-basic-notes-md-45b.json
@@ -313,6 +422,7 @@
             |-- site-docs-computer-science-dev-ops-tools-docker-dockerize-angular-setup-md-ce2.json
             |-- site-docs-computer-science-frontend-architect-1-overview-md-ca6.json
             |-- site-docs-computer-science-frontend-architect-2-chapter-01-foundations-md-d15.json
+            |-- site-docs-computer-science-frontend-architect-abbreviations-reference-md-b9b.json
             |-- site-docs-computer-science-frontend-architect-appendix-a-sources-md-bd7.json
             |-- site-docs-computer-science-frontend-architect-appendix-b-tools-cheatsheet-md-ee3.json
             |-- site-docs-computer-science-frontend-architect-chapter-00-overview-md-95c.json
@@ -331,6 +441,9 @@
             |-- site-docs-computer-science-frontend-architect-chapter-12-realworld-references-md-643.json
             |-- site-docs-computer-science-frontend-architect-compass-artifact-wf-299-f-8-caa-18-e-2-4702-a-286-a-6361-d-8-af-080-text-markdown-md-52e.json
             |-- site-docs-computer-science-frontend-architect-complete-frontend-architect-roadmap-md-905.json
+            |-- site-docs-computer-science-frontend-architect-frontend-architect-preparation-guide-md-541.json
+            |-- site-docs-computer-science-frontend-architect-karcher-research-document-md-09b.json
+            |-- site-docs-computer-science-frontend-architect-master-architecture-framework-md-f04.json
             |-- site-docs-computer-science-hyperautomation-chatbots-idp-chatbots-idp-md-871.json
             |-- site-docs-computer-science-hyperautomation-ci-cd-cicd-guide-md-363.json
             |-- site-docs-computer-science-hyperautomation-generative-ai-gen-ai-introduction-md-0a4.json
@@ -812,11 +925,41 @@
             |-- site-docs-my-learnings-hard-reset-life-formula-md-7a0.json
             |-- site-docs-portfolio-resume-md-906.json
             |-- site-docs-prompt-engineering-all-in-one-ai-md-78d.json
+            |-- site-docs-prompt-engineering-cheap-airlines-prompt-md-230.json
             |-- site-docs-prompt-engineering-job-search-md-d2f.json
             |-- site-docs-prompt-engineering-resume-creation-md-bcb.json
             |-- site-docs-prompt-engineering-resume-prompts-md-c8c.json
             |-- site-docs-prompt-engineering-rough-prompts-md-e65.json
             |-- site-docs-prompt-engineering-ultimate-resume-guide-2025-md-cab.json
+            |-- site-docs-prompts-contributing-md-beb.json
+            |-- site-docs-prompts-cowork-action-workflows-md-e1c.json
+            |-- site-docs-prompts-cowork-readme-md-a88.json
+            |-- site-docs-prompts-cowork-research-workflows-md-b5c.json
+            |-- site-docs-prompts-cowork-scheduled-briefings-md-262.json
+            |-- site-docs-prompts-enterprise-standalone-prompts-md-ed8.json
+            |-- site-docs-prompts-outlook-advanced-automation-md-97d.json
+            |-- site-docs-prompts-outlook-advanced-prompts-md-9bf.json
+            |-- site-docs-prompts-outlook-readme-md-fad.json
+            |-- site-docs-prompts-power-users-readme-md-ada.json
+            |-- site-docs-prompts-quick-start-essentials-md-2fe.json
+            |-- site-docs-prompts-readme-md-5d2.json
+            |-- site-docs-prompts-role-specific-admin-executive-assistants-md-3ee.json
+            |-- site-docs-prompts-role-specific-commercial-operations-md-76a.json
+            |-- site-docs-prompts-role-specific-consulting-professional-services-md-e0b.json
+            |-- site-docs-prompts-role-specific-customer-success-support-md-945.json
+            |-- site-docs-prompts-role-specific-engineering-construction-md-e04.json
+            |-- site-docs-prompts-role-specific-finance-hr-md-5f8.json
+            |-- site-docs-prompts-role-specific-hse-legal-compliance-md-b14.json
+            |-- site-docs-prompts-role-specific-marketing-communications-md-341.json
+            |-- site-docs-prompts-role-specific-project-leadership-md-0ab.json
+            |-- site-docs-prompts-role-specific-readme-md-c60.json
+            |-- site-docs-prompts-role-specific-research-development-md-43c.json
+            |-- site-docs-prompts-role-specific-sales-business-development-md-4bd.json
+            |-- site-docs-prompts-role-specific-supply-chain-logistics-md-c62.json
+            |-- site-docs-prompts-scheduled-prompts-readme-md-047.json
+            |-- site-docs-prompts-security-copilot-readme-md-b80.json
+            |-- site-docs-prompts-security-copilot-security-reporting-md-48e.json
+            |-- site-docs-prompts-security-copilot-soc-operations-md-fcd.json
             |-- site-docs-tools-collection-adblocking-privacy-md-a5f.json
             |-- site-docs-tools-collection-ai-directory-cheatsheets-md-173.json
             |-- site-docs-tools-collection-android-ios-md-29d.json
@@ -915,6 +1058,10 @@
         |-- 2025-12-10_ai_project_product_management.md
     |-- 2026
         |-- 2026-02-07_automotive_future.md
+        |-- 2026-05-26_ai_industry_failing.md
+        |-- image
+            |-- ai_adoption.png
+            |-- ai_industry_banner.png
     |-- authors.yml
     |-- tags.yml
 |-- CLAUDE.md
@@ -922,11 +1069,113 @@
 |-- compress-images.js
 |-- compress-pdf.js
 |-- docs
+    |-- Agents
+        |-- advanced
+            |-- cross-agent-orchestrator.md
+            |-- email-triage-assistant.md
+            |-- meeting-intelligence-agent.md
+            |-- sharepoint-knowledge-agent.md
+        |-- AGENTS.md
+        |-- AUTHORING-CHECKLIST.md
+        |-- commercial-legal
+            |-- back-charge-drafter.md
+            |-- change-order-assistant.md
+            |-- claims-register-manager.md
+            |-- compliance-checklist-builder.md
+            |-- contract-language-simplifier.md
+            |-- document-validation-agent.md
+            |-- incident-communication-drafter.md
+            |-- nda-agreement-summariser.md
+            |-- policy-summariser.md
+            |-- procurement-vendor-assessment-agent.md
+            |-- tender-response-writer.md
+        |-- CONTRIBUTING.md
+        |-- customer-success
+            |-- customer-onboarding-agent.md
+            |-- customer-response-writer.md
+            |-- escalation-handler.md
+        |-- esg
+            |-- carbon-footprint-narrative-writer.md
+            |-- esg-commitment-tracker.md
+            |-- esg-report-section-writer.md
+            |-- materiality-assessment-writer.md
+        |-- finance
+            |-- board-paper-writer.md
+            |-- budget-justification-writer.md
+            |-- budget-variance-analyst.md
+            |-- financial-report-writer.md
+            |-- kpi-commentary-writer.md
+        |-- hr-people
+            |-- employee-onboarding-guide.md
+            |-- exit-interview-analyser.md
+            |-- interview-question-builder.md
+            |-- job-description-writer.md
+            |-- org-announcement-writer.md
+            |-- performance-coach.md
+            |-- probation-review-assistant.md
+            |-- redundancy-communication-writer.md
+        |-- industry
+            |-- epc-energy
+                |-- README.md
+        |-- it-ops
+            |-- change-incident-correlator.md
+            |-- change-request-writer.md
+            |-- incident-report-writer.md
+            |-- it-request-scoper.md
+            |-- it-self-service-agent.md
+            |-- problem-pattern-detector.md
+            |-- runbook-writer.md
+            |-- security-risk-communicator.md
+        |-- learning-development
+            |-- assessment-question-writer.md
+            |-- course-outline-builder.md
+            |-- learning-objective-writer.md
+            |-- training-needs-analyser.md
+        |-- productivity
+            |-- copilot-prompt-coach.md
+        |-- project-management
+            |-- action-register-tracker.md
+            |-- document-reviewer.md
+            |-- lessons-learned-manager.md
+            |-- meeting-pre-brief-builder.md
+            |-- presentation-builder.md
+            |-- project-charter-writer.md
+            |-- project-closure-report-writer.md
+            |-- project-status-reporter.md
+            |-- raid-log-manager.md
+            |-- risk-register-manager.md
+            |-- scope-of-work-drafter.md
+        |-- README.md
+        |-- sales
+            |-- account-plan-writer.md
+            |-- competitive-intelligence-brief.md
+            |-- customer-case-study-writer.md
+            |-- partnership-proposal-writer.md
+            |-- pipeline-review-preparer.md
+            |-- rfp-response-writer.md
+            |-- sales-email-writer.md
+            |-- win-loss-analyser.md
+        |-- strategy-executive
+            |-- board-report-writer.md
+            |-- executive-decision-brief.md
+            |-- okr-writer.md
+            |-- strategic-plan-structurer.md
+        |-- writing-communication
+            |-- ai-text-humanizer.md
+            |-- brand-voice-enforcer.md
+            |-- enterprise-writer.md
+            |-- executive-briefing-builder.md
+            |-- meeting-scribe.md
+            |-- professional-translator-en-fr.md
+            |-- tone-calibrator.md
     |-- ClaudeAIPrompts
         |-- Build10kWebsiteGuide.md
+        |-- ClaudeAgentCreationTemplate.md
+        |-- ClaudeAgentsAuthoringChecklist.md
         |-- ClaudeCodeCompleteGuide.md
         |-- ClaudeDesignTheFreeCanvaKiller.md
         |-- ClaudeMemoryTransfer.md
+        |-- ClaudePromptCreationTemplate.md
         |-- RuFloSetupGuide.md
     |-- ComputerScience
         |-- ArtificialIntelligence
@@ -942,6 +1191,7 @@
                 |-- DockerTool&TermCheatsheet.md
             |-- _category_.json
         |-- FrontendArchitect
+            |-- Abbreviations Reference.md
             |-- appendix-a-sources.md
             |-- appendix-b-tools-cheatsheet.md
             |-- Chapter 00 Overview.md
@@ -958,6 +1208,9 @@
             |-- chapter-11-interview-prep.md
             |-- chapter-12-realworld-references.md
             |-- complete-frontend-architect-roadmap.md
+            |-- Frontend Architect Preparation Guide.md
+            |-- Kärcher Research Document.md
+            |-- Master Architecture Framework.md
         |-- Hyperautomation
             |-- Chatbots & IDP
                 |-- Chatbots_IDP.md
@@ -1618,6 +1871,7 @@
     |-- PromptEngineering
         |-- All-in-One-AI.json
         |-- All-in-One-AI.md
+        |-- CheapAirlinesPrompt.md
         |-- img
             |-- coverlettersample.png
         |-- JobSearch.md
@@ -1625,6 +1879,53 @@
         |-- ResumeCreation.md
         |-- Rough-Prompts.md
         |-- Ultimate-Resume-Guide-2025.md
+        |-- _category_.json
+    |-- Prompts
+        |-- CONTRIBUTING.md
+        |-- cowork
+            |-- action-workflows.md
+            |-- README.md
+            |-- research-workflows.md
+            |-- scheduled-briefings.md
+            |-- _category_.json
+        |-- enterprise
+            |-- standalone-prompts.md
+            |-- _category_.json
+        |-- outlook
+            |-- advanced-automation.md
+            |-- advanced-prompts.md
+            |-- README.md
+            |-- _category_.json
+        |-- power-users
+            |-- README.md
+            |-- _category_.json
+        |-- quick-start
+            |-- essentials.md
+            |-- _category_.json
+        |-- README.md
+        |-- role-specific
+            |-- admin-executive-assistants.md
+            |-- commercial-operations.md
+            |-- consulting-professional-services.md
+            |-- customer-success-support.md
+            |-- engineering-construction.md
+            |-- finance-hr.md
+            |-- hse-legal-compliance.md
+            |-- marketing-communications.md
+            |-- project-leadership.md
+            |-- README.md
+            |-- research-development.md
+            |-- sales-business-development.md
+            |-- supply-chain-logistics.md
+            |-- _category_.json
+        |-- scheduled-prompts
+            |-- README.md
+            |-- _category_.json
+        |-- security-copilot
+            |-- README.md
+            |-- security-reporting.md
+            |-- soc-operations.md
+            |-- _category_.json
         |-- _category_.json
     |-- ToolsCollection
         |-- AdblockingPrivacy.md

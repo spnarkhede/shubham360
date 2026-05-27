@@ -372,3 +372,18 @@ recession:
   label: Recession
   permalink: /recession
   description: Economic downturns and industry impact.
+
+execution:
+  label: Execution
+  permalink: /execution
+  description: Turning strategy into action — implementation, delivery, and operational excellence.
+
+operations:
+  label: Operations
+  permalink: /operations
+  description: Business and technology operations, process management, and day-to-day execution.
+
+governance:
+  label: Governance
+  permalink: /governance
+  description: Frameworks and policies for AI, data, and organizational governance.

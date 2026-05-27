@@ -76,7 +76,7 @@ const DashboardLayout = ({
     <Layout
       title={title || roleConfig.title}
       description={description || roleConfig.description}
-      wrapperClassName={clsx(styles.dashboardWrapper, styles[`theme${roleConfig.theme.charAt(0).toUpperCase() + roleConfig.theme.slice(1)}`])}
+      wrapperClassName={clsx(styles.dashboardWrapper, roleConfig.theme && styles[`theme${roleConfig.theme.charAt(0).toUpperCase() + roleConfig.theme.slice(1)}`])}
     >
       <div className={styles.dashboardHeader}>
         <div className={styles.dashboardHeaderContent}>

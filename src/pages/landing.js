@@ -452,7 +452,7 @@ export default function Landing() {
                 <div className={styles.skillChips}>
                   <SkillBadge name="Docker" slug="docker" />
                   <SkillBadge name="Kubernetes" slug="kubernetes" />
-                  <SkillBadge name="AWS" src="/img/aws.png" />
+                  <SkillBadge name="AWS" src="../../build/img/aws.png" />
                   <SkillBadge name="Azure DevOps" slug="microsoftazure" />
                   <SkillBadge name="GitHub Actions" slug="githubactions" />
                   <SkillBadge name="GoCD" />
@@ -505,7 +505,7 @@ export default function Landing() {
 
                 <div className={styles.eduCard}>
                   <div className={styles.eduHead}>
-                    <span className={styles.eduLogo}><img src="/img/aws.png" alt="AWS" className={styles.eduLogoImg} /></span>
+                    <span className={styles.eduLogo}><img src="../../build/img/aws.png" alt="AWS" className={styles.eduLogoImg} /></span>
                     <p className={styles.eduInstitution}>Certifications</p>
                   </div>
                   <div>

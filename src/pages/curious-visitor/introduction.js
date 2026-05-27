@@ -3,7 +3,7 @@ import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, User, Sparkles, Lightbulb, Target, Zap, Heart } from 'lucide-react';
 
 export default function CuriousVisitorIntroduction() {
   const [currentSlide, setCurrentSlide] = useState(0);

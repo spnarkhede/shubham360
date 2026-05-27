@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
-import { Calendar, Star, Tag } from 'lucide-react';
+import { Book, Calendar, Star, Tag } from 'lucide-react';
 
 // Book data from the provided component
 const books = [

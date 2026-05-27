@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DashboardLayout from '../../components/DashboardLayout';
 import SectionTemplate from '../../components/SectionTemplate';
 import styles from './styles.module.css';
-import { Music, Brain, Apple, Waves } from 'lucide-react';
+import { Music, Brain, Apple, Waves, Heart } from 'lucide-react';
 
 export default function CuriousVisitorWellness() {
   const [activeTab, setActiveTab] = useState('musical-journey');

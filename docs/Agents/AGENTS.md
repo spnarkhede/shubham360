@@ -1,3 +1,7 @@
+---
+slug: /Agents/agent-library
+---
+
 # Agent Library - Full Content
 
 > **78 agents across 13 domains.**

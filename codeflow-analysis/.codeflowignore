@@ -1,0 +1,41 @@
+# CodeFlow Ignore Patterns
+# Files and directories to exclude from health score analysis
+
+# Static documentation - no user input, authored by developer
+docs/**/*.md
+blog/**/*.md
+*.md
+
+# Build outputs - generated code, not source
+build/**
+.docusaurus/**
+node_modules/**
+dist/**
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE and OS files
+.vscode/**
+.idea/**
+.DS_Store
+Thumbs.db
+
+# Test files (if any)
+**/*.test.js
+**/*.spec.js
+**/__tests__/**
+
+# Configuration files
+*.config.js
+*.config.ts
+babel.config.js
+tailwind.config.js
+
+# Project documentation (non-code)
+README.md
+CLAUDE.md
+ARCHITECTURE.md
+*.md

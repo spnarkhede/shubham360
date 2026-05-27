@@ -2,277 +2,56 @@
 import Head from '@docusaurus/Head';
 import styles from './landing.module.css';
 
-/* ============ Inline Icon Components ============ */
+// Icon components organized into separate modules for better maintainability
+import {
+  ChevronDown,
+  MailIcon,
+  LinkIcon,
+  PhoneIcon,
+  PinIcon,
+  PinIconSmall,
+  BoltIcon,
+  DesignIcon,
+  CodeIcon,
+  GithubIcon,
+  GlobeIcon
+} from '../components/Icons/UIIcons';
 
-const ChevronDown = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="m6 9 6 6 6-6" />
-  </svg>
-);
+import {
+  InstagramIcon,
+  DribbbleIcon,
+  TwitterIcon,
+  LinkedinIcon
+} from '../components/Icons/SocialIcons';
 
-const MailIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <rect x="3" y="5" width="18" height="14" rx="2" />
-    <path d="m3 7 9 6 9-6" />
-  </svg>
-);
+import {
+  MetaLogo,
+  AppleLogo,
+  TeslaLogo,
+  GoogleLogo,
+  BoschLogo,
+  BoschRexrothLogo,
+  AmazonLogo,
+  TUChemnitzLogo,
+  NagpurUniLogo
+} from '../components/Icons/CompanyLogos';
 
-const LinkIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5" />
-    <path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5" />
-  </svg>
-);
-
-const PhoneIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.94.37 1.86.7 2.73a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.35-1.27a2 2 0 0 1 2.11-.45c.87.33 1.79.57 2.73.7A2 2 0 0 1 22 16.92z" />
-  </svg>
-);
-
-const PinIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-    <circle cx="12" cy="10" r="3" />
-  </svg>
-);
-
-const PinIconSmall = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-    <circle cx="12" cy="10" r="3" />
-  </svg>
-);
-
-const InstagramIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <rect x="2" y="2" width="20" height="20" rx="5" />
-    <circle cx="12" cy="12" r="4" />
-    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
-  </svg>
-);
-
-const DribbbleIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <circle cx="12" cy="12" r="10" />
-    <path d="M8 3c5 4 8 10 9 18M21 11c-8-1-14 1-18 6M2 13c7-3 12-2 18 3" />
-  </svg>
-);
-
-const TwitterIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor">
-    <path d="M22 5.8c-.7.3-1.5.5-2.4.6.9-.5 1.5-1.3 1.9-2.3-.8.5-1.7.9-2.7 1.1-.8-.8-1.9-1.3-3.1-1.3-2.3 0-4.2 1.9-4.2 4.2 0 .3 0 .7.1 1C8 8.9 4.8 7.1 2.7 4.4c-.4.7-.6 1.5-.6 2.3 0 1.5.7 2.8 1.9 3.5-.7 0-1.4-.2-2-.5v.1c0 2 1.4 3.7 3.3 4.1-.3.1-.7.1-1.1.1-.3 0-.5 0-.8-.1.5 1.7 2.1 2.9 3.9 2.9-1.4 1.1-3.2 1.8-5.2 1.8H1c1.8 1.2 4 1.8 6.3 1.8 7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z" />
-  </svg>
-);
-
-const LinkedinIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor">
-    <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8h4.56v14H.22V8zm7.24 0h4.37v1.92h.06c.61-1.15 2.1-2.37 4.32-2.37 4.62 0 5.47 3.04 5.47 7v7.45h-4.56v-6.6c0-1.57-.03-3.6-2.19-3.6-2.19 0-2.53 1.71-2.53 3.48V22H7.46V8z" />
-  </svg>
-);
-
-/* ============ Brand Logos ============ */
-
-const MetaLogo = () => (
-  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="metaG" x1="0" x2="1" y1="0" y2="1">
-        <stop offset="0" stopColor="#0081FB" />
-        <stop offset="0.5" stopColor="#0064E0" />
-        <stop offset="1" stopColor="#8A3DE8" />
-      </linearGradient>
-    </defs>
-    <path
-      d="M20 11c-4 0-6 4-8 7-2 3-3 5-5 5-1 0-2-1-2-3 0-3 2-7 4-7 1 0 2 1 3 2l1-2c-1-1-3-3-5-3-4 0-6 5-6 8 0 4 2 6 5 6 3 0 5-3 7-6 2-3 3-5 5-5 2 0 3 2 5 5 2 3 4 6 7 6 3 0 5-2 5-6 0-3-2-8-6-8-2 0-3 2-4 3l1 2c1-1 2-2 3-2 2 0 4 4 4 7 0 2-1 3-2 3-2 0-3-2-5-5-2-3-4-7-8-7z"
-      fill="url(#metaG)"
-    />
-  </svg>
-);
-
-const AppleLogo = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" style={{ color: 'var(--text-primary)' }}>
-    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-  </svg>
-);
-
-const TeslaLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <rect width="40" height="40" rx="8" fill="#E31937" />
-    <path d="M8 12 L32 12 L32 17 L22.5 17 L22.5 30 L17.5 30 L17.5 17 L8 17 Z" fill="#fff" />
-  </svg>
-);
-
-const GoogleLogo = () => (
-  <svg viewBox="0 0 24 24">
-    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />
-    <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853" />
-    <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05" />
-    <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335" />
-  </svg>
-);
-
-const VectornatorLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <rect width="40" height="40" rx="8" fill="#F8F9FA" />
-    <path d="M12 28 L20 10 L28 28 L26 28 L20 15 L14 28 Z" fill="#FF4757" />
-    <circle cx="20" cy="10" r="2.5" fill="#FF4757" />
-  </svg>
-);
-
-const FigmaLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <path d="M14 6h6v10h-6a5 5 0 0 1 0-10z" fill="#F24E1E" />
-    <path d="M20 6h6a5 5 0 0 1 0 10h-6V6z" fill="#FF7262" />
-    <path d="M14 16h6v10h-6a5 5 0 0 1 0-10z" fill="#A259FF" />
-    <circle cx="25" cy="21" r="5" fill="#1ABCFE" />
-    <path d="M14 26h6v5a5 5 0 0 1-5 5 5 5 0 0 1-1-10z" fill="#0ACF83" />
-  </svg>
-);
-
-const MazeLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <path d="M6 26 Q12 14 20 20 Q28 26 34 14" fill="none" stroke="#0EA5E9" strokeWidth="4" strokeLinecap="round" />
-    <path d="M6 26 Q12 14 20 20 Q28 26 34 14" fill="none" stroke="#3B82F6" strokeWidth="4" strokeLinecap="round" opacity="0.6" transform="translate(0, 4)" />
-  </svg>
-);
-
-const SplineLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <defs>
-      <radialGradient id="splineG" cx="0.3" cy="0.3">
-        <stop offset="0" stopColor="#FFE5F1" />
-        <stop offset="0.3" stopColor="#FF6B9D" />
-        <stop offset="0.6" stopColor="#9333EA" />
-        <stop offset="1" stopColor="#1E3A8A" />
-      </radialGradient>
-    </defs>
-    <circle cx="20" cy="20" r="14" fill="url(#splineG)" />
-  </svg>
-);
-
-const ZeplinLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <ellipse cx="20" cy="20" rx="15" ry="7" fill="#FFC940" />
-    <circle cx="15" cy="18" r="1.5" fill="#1E293B" />
-    <path d="M32 18 L38 14 L38 22 Z" fill="#FFC940" />
-    <path d="M8 20 Q5 22 6 24" stroke="#FFC940" strokeWidth="2" fill="none" strokeLinecap="round" />
-  </svg>
-);
-
-const MemoriselyLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <rect x="6" y="10" width="22" height="22" rx="2" fill="#F8FAFC" stroke="#94A3B8" strokeWidth="1" />
-    <rect x="12" y="6" width="22" height="22" rx="2" fill="#FFFFFF" stroke="#CBD5E1" strokeWidth="1" transform="rotate(8 23 17)" />
-    <line x1="15" y1="14" x2="26" y2="14" stroke="#94A3B8" strokeWidth="1" />
-    <line x1="15" y1="17" x2="28" y2="17" stroke="#94A3B8" strokeWidth="1" />
-    <line x1="15" y1="20" x2="24" y2="20" stroke="#94A3B8" strokeWidth="1" />
-  </svg>
-);
-
-const UxAcademyLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <circle cx="20" cy="20" r="16" fill="none" stroke="#10B981" strokeWidth="2" />
-    <text x="20" y="25" fontFamily="Poppins, sans-serif" fontSize="12" fontWeight="700" textAnchor="middle" fill="#10B981">UX</text>
-  </svg>
-);
-
-const CourseraLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <circle cx="20" cy="20" r="16" fill="#0056D2" />
-    <path d="M26 15 Q22 12 18 14 Q13 17 14 22 Q15 27 20 27 Q24 27 26 25" fill="none" stroke="#fff" strokeWidth="3" strokeLinecap="round" />
-  </svg>
-);
-
-const BoltIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" fill="currentColor" />
-  </svg>
-);
-
-const DesignIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <circle cx="12" cy="12" r="3" />
-    <path d="M12 1v6m0 10v6m4.22-17.78-4.24 4.24m0 5.08-4.24 4.24m12.72-7.78h-6m-10 0H1" />
-  </svg>
-);
-
-const CodeIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
-  </svg>
-);
-
-const GithubIcon = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor">
-    <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.69-3.87-1.36-3.87-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12v3.14c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
-  </svg>
-);
-
-const GlobeIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <circle cx="12" cy="12" r="10" />
-    <path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20" />
-  </svg>
-);
-
-/* ============ Text-based Brand Marks ============ */
-
-const TextLogo = ({ label, bg = '#1E293B', fg = '#fff', size = 11 }) => (
-  <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="6" fill={bg} />
-    <text
-      x="20"
-      y="24"
-      fontFamily="Poppins, sans-serif"
-      fontSize={size}
-      fontWeight="700"
-      textAnchor="middle"
-      fill={fg}
-    >
-      {label}
-    </text>
-  </svg>
-);
-
-const BoschLogo = () => <TextLogo label="BOSCH" bg="#EA0016" fg="#fff" size={9} />;
-const BoschRexrothLogo = () => <TextLogo label="REXROTH" bg="#00529B" fg="#fff" size={8} />;
-const AmazonLogo = () => <TextLogo label="amazon" bg="#232F3E" fg="#FF9900" size={10} />;
-const TUChemnitzLogo = () => <TextLogo label="TUC" bg="#006E9F" fg="#fff" size={12} />;
-const NagpurUniLogo = () => <TextLogo label="RTMNU" bg="#B4861F" fg="#fff" size={9} />;
-const AWSLogo = () => <TextLogo label="AWS" bg="#232F3E" fg="#FF9900" size={12} />;
-const DockerLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <rect width="40" height="40" rx="6" fill="#2496ED" />
-    <g fill="#fff">
-      <rect x="9" y="20" width="4" height="4" />
-      <rect x="14" y="20" width="4" height="4" />
-      <rect x="19" y="20" width="4" height="4" />
-      <rect x="14" y="15" width="4" height="4" />
-      <rect x="19" y="15" width="4" height="4" />
-      <rect x="19" y="10" width="4" height="4" />
-    </g>
-  </svg>
-);
-const KubernetesLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <rect width="40" height="40" rx="6" fill="#326CE5" />
-    <polygon points="20,8 30,13 30,24 20,30 10,24 10,13" fill="none" stroke="#fff" strokeWidth="1.5" />
-    <circle cx="20" cy="19" r="3" fill="none" stroke="#fff" strokeWidth="1.5" />
-  </svg>
-);
-const JenkinsLogo = () => <TextLogo label="JENKINS" bg="#D33833" fg="#fff" size={7} />;
-const GrafanaLogo = () => <TextLogo label="Grafana" bg="#F46800" fg="#fff" size={8} />;
-const ReactLogo = () => (
-  <svg viewBox="0 0 40 40">
-    <rect width="40" height="40" rx="6" fill="#20232A" />
-    <circle cx="20" cy="20" r="2.5" fill="#61DAFB" />
-    <g fill="none" stroke="#61DAFB" strokeWidth="1.3">
-      <ellipse cx="20" cy="20" rx="11" ry="4.2" />
-      <ellipse cx="20" cy="20" rx="11" ry="4.2" transform="rotate(60 20 20)" />
-      <ellipse cx="20" cy="20" rx="11" ry="4.2" transform="rotate(120 20 20)" />
-    </g>
-  </svg>
-);
+import {
+  VectornatorLogo,
+  FigmaLogo,
+  MazeLogo,
+  SplineLogo,
+  ZeplinLogo,
+  MemoriselyLogo,
+  UxAcademyLogo,
+  CourseraLogo,
+  AWSLogo,
+  DockerLogo,
+  KubernetesLogo,
+  JenkinsLogo,
+  GrafanaLogo,
+  ReactLogo
+} from '../components/Icons/ToolLogos';
 
 /* ============ Main Component ============ */
 

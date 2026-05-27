@@ -958,7 +958,7 @@ export default function Books() {
                   }}
                   onClick={() => {
                     // This would be implemented with JavaScript in a real application
-                    console.log(`Filter by ${category}`);
+                    // Filter logic would go here
                   }}
                 >
                   {category}

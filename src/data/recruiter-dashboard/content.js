@@ -54,6 +54,7 @@ export const workEligibility = {
   relocation: "Open to relocation and international opportunities, with proven adaptability across diverse work environments."
 };
 
+import { getOneWeekBeforeDate } from '../../utils/date-utils';
 
 export const contactInfo = {
   email: "shubhampnarkhede@gmail.com",
@@ -62,17 +63,6 @@ export const contactInfo = {
   linkedin: "https://linkedin.com/in/spnarkhede",
   github: "https://github.com/spnarkhede",
   timezone: "CET (Central European Time)"
-};
-
-// Function to get date one week before today
-const getOneWeekBeforeDate = () => {
-  const date = new Date();
-  date.setDate(date.getDate() - 7);
-  return date.toLocaleDateString('en-GB', { 
-    day: '2-digit', 
-    month: 'long', 
-    year: 'numeric' 
-  });
 };
 
 // // Function to generate filename with role

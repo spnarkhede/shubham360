@@ -20,9 +20,10 @@
 const fs = require('fs').promises;
 const path = require('path');
 const sharp = require('sharp');
+const { FORMATS, isSupportedFormat } = require('./utils/image-utils');
 
 // Configuration
-const SUPPORTED_FORMATS = ['.png', '.jpeg', '.jpg'];
+const SUPPORTED_FORMATS = FORMATS.CONVERT_TO_WEBP;
 const QUALITY = 80; // WebP quality (0-100)
 const CONCURRENCY_LIMIT = 5; // Limit concurrent operations to prevent memory issues
 
@@ -39,14 +40,6 @@ let stats = {
   skipped: 0,
   errors: 0
 };
-
-/**
- * Check if a file has a supported image format
- */
-function isSupportedFormat(filePath) {
-  const ext = path.extname(filePath).toLowerCase();
-  return SUPPORTED_FORMATS.includes(ext);
-}
 
 /**
  * Convert a single image to WebP format

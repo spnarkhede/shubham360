@@ -11,21 +11,14 @@
 const fs = require('fs').promises;
 const path = require('path');
 const sharp = require('sharp');
+const { FORMATS, isSupportedFormat } = require('./utils/image-utils');
 
 // Configuration
 const BOOKS_DIRECTORY = 'static/img/books';
-const SUPPORTED_FORMATS = ['.webp'];
+const SUPPORTED_FORMATS = FORMATS.WEBP_ONLY;
 
 // Book image data
 let bookImages = [];
-
-/**
- * Check if a file has a supported image format
- */
-function isSupportedFormat(filePath) {
-  const ext = path.extname(filePath).toLowerCase();
-  return SUPPORTED_FORMATS.includes(ext);
-}
 
 /**
  * Calculate aspect ratio as a simplified fraction

@@ -27,6 +27,57 @@ const config: Config = {
     locales: ['en', 'de'],
   },
 
+  // Security Headers - Added for CodeFlow Health Score improvement
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'Content-Security-Policy',
+        content: [
+          "default-src 'self'",
+          "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.emailjs.com https://www.googletagmanager.com",
+          "style-src 'self' 'unsafe-inline'",
+          "img-src 'self' data: https: http:",
+          "font-src 'self' data:",
+          "connect-src 'self' https://api.emailjs.com https://www.figma.com https://uxpilot.ai",
+          "frame-src 'self' https://www.figma.com https://uxpilot.ai",
+          "object-src 'none'",
+          "base-uri 'self'",
+          "form-action 'self' https://api.emailjs.com",
+          "frame-ancestors 'self'",
+        ].join('; ')
+      }
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'X-Frame-Options',
+        content: 'SAMEORIGIN'
+      }
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'X-Content-Type-Options',
+        content: 'nosniff'
+      }
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'Referrer-Policy',
+        content: 'strict-origin-when-cross-origin'
+      }
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'Permissions-Policy',
+        content: 'geolocation=(), microphone=(), camera=()'
+      }
+    }
+  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -99,28 +150,7 @@ const config: Config = {
       logo: { alt: 'Shubham Narkhede', src: 'img/profile.webp' },
       items: [
         { to: '/navigation-guide', label: 'Home', position: 'left' },
-        // { to: '/intro', label: 'About Me', position: 'left' },
-        // { to: '/Portfolio/Resume', label: 'Resume', position: 'left' },
-        // { to: '/books', label: 'Books', position: 'left' },
-        // { to: '/Portfolio/Projects', label: 'Projects', position: 'left' },
-        // { to: '/Portfolio/Experience', label: 'Experience', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
-        {
-          label: 'Prompts',
-          position: 'left',
-          type: 'dropdown',
-          items: [
-            { label: 'All Prompts', to: '/Prompts' },
-            { label: 'Quick Start', to: '/Prompts/quick-start/essentials' },
-            { label: 'Role-Specific', to: '/Prompts/role-specific' },
-            { label: 'Outlook', to: '/Prompts/outlook' },
-            { label: 'Copilot Cowork', to: '/Prompts/cowork' },
-            { label: 'Power Users', to: '/Prompts/power-users' },
-            { label: 'Enterprise', to: '/Prompts/enterprise' },
-            { label: 'Scheduled Prompts', to: '/Prompts/scheduled-prompts' },
-            { label: 'Security Copilot', to: '/Prompts/security-copilot' },
-          ],
-        },
         { to: '/contact', label: 'Contact', position: 'right' },
         { href: 'https://github.com/spnarkhede', label: 'GitHub', position: 'right' },
       ],

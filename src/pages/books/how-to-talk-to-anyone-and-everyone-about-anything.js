@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import { ArrowLeft, ArrowRight, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 import BookNavigation from '../../components/BookNavigation';
 
 export default function HowToTalkToAnyoneReview() {

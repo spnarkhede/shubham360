@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import { ArrowLeft, ArrowRight, Calendar, Clock } from 'lucide-react';
+import { Calendar, Clock } from 'lucide-react';
 import BookNavigation from '../../components/BookNavigation';
 import SpotifyPodcast from '@site/src/components/SpotifyPodcast';
 

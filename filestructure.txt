@@ -130,10 +130,12 @@
                 |-- de-blog-tags-documentation-5c2.json
                 |-- de-blog-tags-e80.json
                 |-- de-blog-tags-enterprise-fb7.json
+                |-- de-blog-tags-execution-611.json
                 |-- de-blog-tags-generative-ai-16d.json
                 |-- de-blog-tags-github-copilot-ac9.json
                 |-- de-blog-tags-google-cf4.json
                 |-- de-blog-tags-google-gemini-aac.json
+                |-- de-blog-tags-governance-b03.json
                 |-- de-blog-tags-industry-197.json
                 |-- de-blog-tags-infrastructure-feb.json
                 |-- de-blog-tags-innovation-bc8.json
@@ -150,6 +152,7 @@
                 |-- de-blog-tags-microsoft-597.json
                 |-- de-blog-tags-mindset-d35.json
                 |-- de-blog-tags-multi-modal-2e0.json
+                |-- de-blog-tags-operations-f43.json
                 |-- de-blog-tags-planning-da6.json
                 |-- de-blog-tags-product-management-022.json
                 |-- de-blog-tags-productivity-9fa.json
@@ -1066,6 +1069,29 @@
     |-- tags.yml
 |-- CLAUDE.md
 |-- clean-lucide-imports.js
+|-- codeflow-analysis
+    |-- .codeflowignore
+    |-- analyze-codeflow.ps1
+    |-- analyze-simple.ps1
+    |-- ARCHITECTURE.md
+    |-- ARCHITECTURE_ACTION_PLAN.md
+    |-- ARCHITECTURE_FINAL_SUMMARY.md
+    |-- codeflow-whitelist.json
+    |-- CODEFLOW_COMPLETE_REPORT.md
+    |-- CODEFLOW_DETAILED_ANALYSIS.md
+    |-- CODEFLOW_ISSUES_REPORT.md
+    |-- CODEFLOW_RESOLUTION_FINAL.md
+    |-- CODE_DUPLICATION_CLEANUP.md
+    |-- HEALTH_SCORE_EXECUTIVE_SUMMARY.md
+    |-- HEALTH_SCORE_IMPROVEMENT_PLAN.md
+    |-- LANDING_REFACTOR_GUIDE.md
+    |-- README.md
+    |-- RESOLUTION_SUMMARY.md
+    |-- UTILITIES_REFERENCE.md
+    |-- verify-xss-fixes.bat
+    |-- verify-xss-fixes.sh
+    |-- XSS_FIX_SUMMARY.md
+    |-- XSS_SECURITY_GUIDE.md
 |-- compress-images.js
 |-- compress-pdf.js
 |-- docs
@@ -1874,6 +1900,7 @@
         |-- CheapAirlinesPrompt.md
         |-- img
             |-- coverlettersample.png
+            |-- coverlettersample.webp
         |-- JobSearch.md
         |-- Resume-Prompts.md
         |-- ResumeCreation.md
@@ -1985,6 +2012,10 @@
     |-- rotate-book-images.js
     |-- rotate-single-image.js
     |-- rotate-specific-images.js
+    |-- utils
+        |-- external-tools.js
+        |-- file-utils.js
+        |-- image-utils.js
 |-- sidebars.ts
 |-- src
     |-- components
@@ -2020,6 +2051,11 @@
             |-- styles.module.css
         |-- HomepageFeatures
             |-- index.js
+        |-- Icons
+            |-- CompanyLogos.js
+            |-- SocialIcons.js
+            |-- ToolLogos.js
+            |-- UIIcons.js
         |-- LatestArticles
             |-- index.js
             |-- styles.module.css
@@ -2054,6 +2090,8 @@
         |-- ToolCollections
             |-- index.js
             |-- styles.module.css
+    |-- config
+        |-- dashboardConfig.js
     |-- css
         |-- custom.css
         |-- _aboutme.css
@@ -2071,6 +2109,8 @@
             |-- certificationData.js
             |-- content.js
             |-- projectsData.js
+    |-- hooks
+        |-- useDashboardTabs.js
     |-- index.d.ts
     |-- pages
         |-- books
@@ -2189,7 +2229,6 @@
         |-- index.js
         |-- landing.js
         |-- landing.module.css
-        |-- markdown-page.md
         |-- navigation-guide.js
         |-- navigation-guide.module.css
         |-- Portfolio
@@ -2238,6 +2277,8 @@
         |-- roleStore.js
     |-- theme
         |-- Root.js
+    |-- utils
+        |-- date-utils.js
 |-- static
     |-- certificates
         |-- bosch
@@ -2293,6 +2334,7 @@
             |-- travel-security.pdf
             |-- user-experience-getting-started-A.pdf
             |-- user-experience-getting-started.pdf
+        |-- documents
     |-- documents
         |-- resume
             |-- ShubhamNarkhede_CV_Backend.pdf
@@ -2301,7 +2343,9 @@
             |-- summary_resume.pdf
     |-- img
         |-- amazon.png
+        |-- amazon.webp
         |-- aws.png
+        |-- aws.webp
         |-- badges
             |-- data-science-foundations-level-1.webp
             |-- foundationofgenAIforBL.svg
@@ -2517,6 +2561,7 @@
             |-- whyMenLoveBitches.webp
             |-- yourNextFiveMoves.webp
         |-- bosch.png
+        |-- bosch.webp
         |-- default-bosch.webp
         |-- docusaurus-social-card.webp
         |-- docusaurus.webp
@@ -2622,7 +2667,9 @@
         |-- profilesquare.webp
         |-- readerprofile.webp
         |-- rexroth.png
+        |-- rexroth.webp
         |-- rtmnu.png
+        |-- rtmnu.webp
         |-- sketches
             |-- 10.webp
             |-- 11.webp
@@ -2726,6 +2773,7 @@
             |-- neeranjan.webp
             |-- selin.webp
         |-- tuc.png
+        |-- tuc.webp
         |-- undraw_docusaurus_mountain.svg
         |-- undraw_docusaurus_react.svg
         |-- undraw_docusaurus_tree.svg

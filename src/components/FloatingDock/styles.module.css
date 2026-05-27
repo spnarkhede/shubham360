@@ -134,3 +134,70 @@
 @media (max-width: 960px) {
   .dock { display: none; }
 }
+
+/* Dock item wrapper for submenu support */
+.dockItemWrapper {
+  position: relative;
+}
+
+/* Submenu styles */
+.submenu {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  margin-right: 12px;
+  min-width: 200px;
+  background: rgba(30, 30, 60, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 1001;
+  animation: submenuSlideIn 0.2s ease-out;
+}
+
+:global([data-theme='light']) .submenu {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes submenuSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.submenuItem {
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.15s ease;
+  display: block;
+}
+
+.submenuItem:hover {
+  background: rgba(139, 92, 246, 0.2);
+  color: #A78BFA;
+  transform: translateX(-4px);
+  text-decoration: none;
+}
+
+:global([data-theme='light']) .submenuItem:hover {
+  background: rgba(139, 92, 246, 0.12);
+  color: #8B5CF6;
+}
+

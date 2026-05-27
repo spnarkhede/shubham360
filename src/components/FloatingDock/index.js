@@ -16,6 +16,7 @@ function DockIcon({ name }) {
     case 'wand':      return (<svg viewBox="0 0 24 24" {...s}><path d="M3 21l12-12M14 4l2 2M18 8l2 2M4 14l2 2" /></svg>);
     case 'award':     return (<svg viewBox="0 0 24 24" {...s}><circle cx="12" cy="9" r="6" /><path d="M8 14l-2 7 6-3 6 3-2-7" /></svg>);
     case 'mail':      return (<svg viewBox="0 0 24 24" {...s}><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>);
+    case 'prompts':   return (<svg viewBox="0 0 24 24" {...s}><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" /></svg>);
     default: return null;
   }
 }
@@ -33,6 +34,23 @@ const ITEMS = [
   { label: 'Product Design', href: '/product-designer/introduction',                    icon: 'layout',    color: '#EC4899' },
   { label: 'Tech Enthusiast',href: '/tech-enthusiast/technical-learnings',              icon: 'cpu',       color: '#10B981' },
   { label: 'Curious Visitor',href: '/curious-visitor/introduction',                     icon: 'sparkles',  color: '#F59E0B' },
+  { 
+    label: 'Prompts',
+    href: '/Prompts',
+    icon: 'prompts',
+    color: '#8B5CF6',
+    submenu: [
+      { label: 'All Prompts',           href: '/Prompts' },
+      { label: 'Quick Start',           href: '/Prompts/quick-start/essentials' },
+      { label: 'Role-Specific',         href: '/Prompts/role-specific' },
+      { label: 'Outlook',               href: '/Prompts/outlook' },
+      { label: 'Copilot Cowork',        href: '/Prompts/cowork' },
+      { label: 'Power Users',           href: '/Prompts/power-users' },
+      { label: 'Enterprise',            href: '/Prompts/enterprise' },
+      { label: 'Scheduled Prompts',     href: '/Prompts/scheduled-prompts' },
+      { label: 'Security Copilot',      href: '/Prompts/security-copilot' },
+    ]
+  },
   { label: 'Blog',           href: '/blog',                                             icon: 'feather',   color: '#06B6D4' },
   { label: 'Books',          href: '/books',                                            icon: 'bookOpen',  color: '#F97316' },
   { label: 'My Learnings',   href: '/MyLearnings/HardReset/50PsychologySkills',         icon: 'brain',     color: '#A855F7' },
@@ -43,6 +61,7 @@ const ITEMS = [
 
 function FloatingDockInner() {
   const [pinned, setPinned] = useState(false);
+  const [activeSubmenu, setActiveSubmenu] = useState(null);
 
   return (
     <nav
@@ -59,17 +78,38 @@ function FloatingDockInner() {
       </button>
 
       {ITEMS.map((item, i) => (
-        <a
+        <div
           key={item.label}
-          href={item.href}
-          className={styles.dockItem}
-          style={{ '--dock-delay': `${i * 25}ms`, '--dock-color': item.color }}
+          className={styles.dockItemWrapper}
+          onMouseEnter={() => item.submenu && setActiveSubmenu(item.label)}
+          onMouseLeave={() => item.submenu && setActiveSubmenu(null)}
         >
-          <span className={styles.dockIcon} aria-hidden="true">
-            <DockIcon name={item.icon} />
-          </span>
-          <span className={styles.dockLabel}>{item.label}</span>
-        </a>
+          <a
+            href={item.href}
+            className={styles.dockItem}
+            style={{ '--dock-delay': `${i * 25}ms`, '--dock-color': item.color }}
+          >
+            <span className={styles.dockIcon} aria-hidden="true">
+              <DockIcon name={item.icon} />
+            </span>
+            <span className={styles.dockLabel}>{item.label}</span>
+          </a>
+
+          {/* Submenu */}
+          {item.submenu && activeSubmenu === item.label && (
+            <div className={styles.submenu}>
+              {item.submenu.map((subitem) => (
+                <a
+                  key={subitem.label}
+                  href={subitem.href}
+                  className={styles.submenuItem}
+                >
+                  {subitem.label}
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
       ))}
     </nav>
   );

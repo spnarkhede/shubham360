@@ -55,9 +55,16 @@ Your prompt here...
 
 ## 4. Resume & Job Description Match Analysis
 
+### 1. Resume & Job Description Match Analyzer
 
+**Use Case:** Analyzing how well a resume matches a specific job description to find gaps and missing keywords
 
-#### Resume Matching 
+**Target Personas:** Job Seeker, Career Changer, Professional
+
+**Tags:** `Job Seeker`, `Analysis`, `ATS Optimization`, `Resume Writing`, `Job Search`
+
+**Prompt:**
+
 ```
 Analyze my resume against this job description and provide: 
 1) Match score (0-100%), 
@@ -222,7 +229,16 @@ Your prompt here...
 
 ## 20. Cover Letter Writer / Enhancer
 
-#### Cover Letter Master
+### 1. Cover Letter Master
+
+**Use Case:** Writing a comprehensive story-driven cover letter tailored to a specific job description
+
+**Target Personas:** Job Seeker, Career Changer, Professional
+
+**Tags:** `Job Seeker`, `Writing`, `Cover Letter`, `Job Search`, `Storytelling`
+
+**Prompt:**
+
 ```
 Please help me write a compelling, story-driven cover letter.
 Here's my resume: [PASTE]
@@ -230,7 +246,18 @@ Here's the job description: [PASTE]
 [Detailed instructions for full letter]
 ```
 
-#### General Cover Letter Prompts
+---
+
+### 2. General Cover Letter
+
+**Use Case:** Generating a standard professional cover letter using resume details
+
+**Target Personas:** Job Seeker, Professional, Career Changer
+
+**Tags:** `Job Seeker`, `Writing`, `Cover Letter`, `Job Search`
+
+**Prompt:**
+
 ```
 Write a professional cover letter for a [Job Title] position at [Company Name] using my resume below as a reference.
 My resume: [PASTE]
@@ -241,44 +268,106 @@ Create a concise and persuasive cover letter that highlights my qualifications f
 My resume: [PASTE]
 ```
 
-#### Customization and Tone-Based Prompts
+---
+
+### 3. Tone-Based Cover Letters
+
+**Use Case:** Adapting the tone of a cover letter to match company culture — formal for corporate, conversational for startups
+
+**Target Personas:** Job Seeker, Professional, Career Changer
+
+**Tags:** `Job Seeker`, `Writing`, `Cover Letter`, `Tone`, `Job Search`
+
+**Prompt:**
+
 ```
 Write a formal cover letter for a corporate job in finance that emphasizes my leadership and analytical skills.
 ```
+
 ```
 Draft a cover letter with a conversational and friendly tone for a startup role in marketing.
 ```
 
-#### Industry-Specific Cover Letter Prompts
+---
+
+### 4. Industry-Specific Cover Letters
+
+**Use Case:** Writing cover letters tailored for specific industries like tech or healthcare
+
+**Target Personas:** Job Seeker, Software Engineer, Healthcare Professional
+
+**Tags:** `Job Seeker`, `Writing`, `Cover Letter`, `Industry-Specific`, `Job Search`
+
+**Prompt:**
+
 ```
 Compose a cover letter for a software engineering position emphasizing my coding skills and project experience.
 ```
+
 ```
 Write a compelling cover letter for a healthcare role, showcasing my experience in patient care and teamwork.
 ```
 
-#### Entry-Level and Career Change Prompts
+---
+
+### 5. Entry-Level and Career Change
+
+**Use Case:** Writing cover letters for first jobs after college or transitioning into a new field
+
+**Target Personas:** Recent Graduate, Career Changer, Job Seeker
+
+**Tags:** `Job Seeker`, `Writing`, `Cover Letter`, `Career Change`, `Entry-Level`
+
+**Prompt:**
+
 ```
 Help me write a cover letter for my first job after college, highlighting my internships and academic achievements.
 ```
+
 ```
 I am switching careers from sales to UX design. Write a cover letter that highlights my transferable skills.
 ```
 
-#### Personalized and Storytelling-Based Prompts
+---
+
+### 6. Storytelling Cover Letters
+
+**Use Case:** Using narrative techniques to make a cover letter more compelling and memorable
+
+**Target Personas:** Job Seeker, Career Changer, Creative Professional
+
+**Tags:** `Job Seeker`, `Writing`, `Cover Letter`, `Storytelling`, `Personal Branding`
+
+**Prompt:**
+
 ```
 Use a storytelling approach to craft a compelling cover letter that explains my journey into [Industry].
 ```
+
 ```
 Create a cover letter that connects my personal experiences with my passion for [Field].
 ```
-Here are four ChatGPT prompts for crafting cover letters that we absolutely love. Feel free to personalize them based on your experience, target companies, and job titles:
+
+---
+
+### 7. Four Quick Templates
+
+**Use Case:** Four copy-paste ready cover letter prompts for different styles and frameworks
+
+**Target Personas:** Job Seeker, Professional, Career Changer
+
+**Tags:** `Job Seeker`, `Writing`, `Cover Letter`, `Templates`, `Job Search`
+
+**Prompt:**
+
 ```
     1) "Write a conversational cover letter for a [position] role at [company] using my resume below as a reference."
     2) "Draft a persuasive cover letter in 150 words or less highlighting my qualifications and enthusiasm for the [position] at [company] using my resume achievements below."
     3) "Create a compelling cover letter that explains why I am the best fit for the [position] at [company]. Use the StoryBrand Framework to structure it."
     4) "Compose a professional cover letter demonstrating how my abilities align with the requirements for the [position] at [company]. Use the information below as a guide."
 ```
+
+---
 
 #### Cover Letter Example Template
 ![Cover Letter Example](./img/coverlettersample.png) 
@@ -406,20 +495,24 @@ Your prompt here...
 
 ## 33. Interview Preparation Master Prompt (Copy–Paste Ready)
 
-#### Prompt Title
-```
-🔹 Interview Preparation Master Prompt (Copy–Paste Ready)
+### 1. Interview Preparation Master
+
+**Use Case:** Complete interview preparation from a job description — technical, behavioral, system design, schedule
+
+**Target Personas:** Job Seeker, Software Engineer, Product Manager, Individual Contributor
+
+**Tags:** `Job Seeker`, `Interview Prep`, `Career Development`, `Technical Interview`, `Behavioral Interview`
 
 **Prompt:**
 
+```
 Act as a **Senior Interview Consultant, Hiring Manager, and Technical Interviewer** with deep industry experience.
 Your task is to **fully prepare me for an interview** based on the **Job Description provided below**.
 
 ### Job Description:
 
-```
 [PASTE THE FULL JOB DESCRIPTION HERE]
-```
+
 ### Your Responsibilities:
 
 Provide a **complete, structured, and in-depth interview preparation guide**, covering **technical, behavioral, system design, and role-specific expectations**.
@@ -560,8 +653,8 @@ Include:
 * Assume I want to **crack the interview**, not just learn theory
 
 **Do not skip any section. Be exhaustive and detailed.**
-
 ```
+
 ---
 
 #### ✅ How to Use This Prompt
@@ -588,24 +681,17 @@ This prompt forces the AI to:
 * Highlight **strengths, gaps, and improvement actions**
 * Produce a **full interview-ready report**
 
-#### Prompt Title
-```
-Below is a **second master prompt** designed specifically to **analyze your RESUME + JOB DESCRIPTION together** and then **answer every section from the previous Interview Consultant prompt**, with **customized examples, model answers, and gap analysis**.
+### 1. Resume + JD Interview Analysis Master
 
-This prompt forces the AI to:
+**Use Case:** Personalized interview prep by mapping resume against a specific job description
 
-* Read your **resume like a real interviewer**
-* Map it **line-by-line to the JD**
-* Generate **personalized interview answers**
-* Highlight **strengths, gaps, and improvement actions**
-* Produce a **full interview-ready report**
+**Target Personas:** Job Seeker, Career Changer, Software Engineer, Individual Contributor
 
----
-
-## 🔹 Resume + JD Interview Analysis Master Prompt (Copy–Paste Ready)
+**Tags:** `Job Seeker`, `Interview Prep`, `Resume Writing`, `Analysis`, `Career Development`
 
 **Prompt:**
 
+```
 Act as a **Senior Interview Consultant, Technical Hiring Manager, and Career Coach**.
 You must **analyze my Resume and the provided Job Description together** and generate a **fully customized interview preparation report**.
 
@@ -615,15 +701,11 @@ You must **analyze my Resume and the provided Job Description together** and gen
 
 ### 📄 Job Description:
 
-```
 [PASTE FULL JOB DESCRIPTION HERE]
-```
 
 ### 📄 My Resume:
 
-```
 [PASTE FULL RESUME HERE]
-```
 
 ---
 
@@ -786,6 +868,8 @@ Include questions on:
 
 **Do not skip any section. Provide deep, actionable detail.**
 ```
+
+---
 
 ## ✅ How This Prompt Helps You
 

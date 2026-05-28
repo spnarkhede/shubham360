@@ -1,155 +1,126 @@
-# Contributing to Awesome Copilot Studio Agents
+# Claude Prompt Creation Template
 
-Contributions are welcome. New agents, improvements to existing instructions, bug fixes, and translations all help.
-
-> **Full authoring standards:** See [AUTHORING-CHECKLIST.md](AUTHORING-CHECKLIST.md) for the complete checklist — file structure, frontmatter fields, instruction block requirements, RAI review, testing protocol, and the 10 most common authoring failures.
+A standard template for authoring and documenting Claude prompts in Shubham Narkhede's AI library. Every prompt in this collection must be production-tested, purpose-specific, and documented in a way that makes it immediately usable.
 
 ---
 
-## What Makes a Good Agent
+## Quality Standards
 
-Every agent in this library must meet the same quality bar:
+Only prompts that meet the following criteria belong in this library:
 
-- **Specific role** — the agent does one thing well, not ten things adequately
-- **Clear input/output contract** — the instruction set defines what the agent accepts and exactly what it produces
-- **Formal professional language** — British English default, French support, no AI-sounding vocabulary
-- **Banned vocabulary list** — explicit list of words that make output sound AI-generated
-- **Quality self-check** — a checklist the agent runs internally before every response
-- **Edge cases handled** — the instruction set addresses what happens with incomplete input, ambiguous requests, and out-of-scope tasks
-- **Within the 8,000-character limit** — Copilot Studio instruction fields have an 8,000-character cap. Instructions must fit.
+### Must Have
+
+1. **Production-Tested** — The prompt must have been used in real work scenarios, not just theoretically designed
+2. **Purpose-Specific** — Must be built for a defined task and audience, not a generic instruction
+3. **Clear Use Case** — Includes a specific scenario where the prompt is useful
+4. **Target Audience** — Defines who would benefit from this prompt
+5. **Consistent Output** — Produces the same format across runs with similar inputs
+
+### Nice to Have
+
+- Multiple variations for different contexts
+- Tips for customisation
+- Known limitations documented
+- Examples of expected output
+
+### Not Accepted
+
+- Generic prompts that produce unpredictable or inconsistent output
+- Prompts with placeholder-only content and no actual substance
+- Prompts that attempt to bypass safety features
+- Prompts that produce legally, medically, or financially authoritative output without a human-review note
 
 ---
 
-## Agent File Structure
+## Prompt Format
 
-Each agent lives in a single `.md` file. Use this template:
+All prompts must follow this exact structure:
 
 ```markdown
----
-name: [Agent Name]
-description: [Full description — 1-2 sentences. Used as the agent description field.]
-domain: [writing-communication | project-management | hr-people | productivity | finance | sales | it-ops | customer-success | strategy-executive | learning-development | esg | industry]
-vertical: [n/a | specific vertical]
-audience: [Primary audience — comma-separated roles]
-knowledge_sources: [None required | Optional — description | Required — description]
-language: [EN / EN-FR]
-char_count: [~XXXX]
-rai_reviewed: [yes | no | pending]
-tested: [yes | no]
-version: 1.0
-last_updated: YYYY-MM-DD
----
+### [Prompt Number]. [Prompt Name]
 
-# [Agent Name]
+**Use Case:** [Specific scenario where this prompt is useful]
 
-> **Description:** [One sentence — what it does]
+**Target Personas:** [Job roles or contexts that would benefit, comma-separated]
 
-## Description
+**Tags:** `tag1`, `tag2`, `tag3`
 
-[2-4 sentence prose description of what the agent does, what it produces, and its key rules.]
-
-## Conversation Starters
-
-- `[Concrete, paste-ready example 1]`
-- `[Concrete, paste-ready example 2]`
-- `[Concrete, paste-ready example 3]`
-
-## Instructions
-
-*(Paste the full block below into the **Instructions** field at [m365.cloud.microsoft/chat/agent/new](https://m365.cloud.microsoft/chat/agent/new).)*
+**Prompt:**
 
 \```
-[Full instruction set — 7,500–8,000 characters]
+[The actual prompt text goes here]
 \```
 
-## Knowledge Sources
+---
+```
 
-[None required. / Required: [what to connect]. / Optional: [what to connect and why it improves the agent.]]
+### Example
 
-## Deployment Notes
+```markdown
+### 1. Weekly Status Synthesis
 
-[Practical notes for the person deploying — customisation points, review requirements, known limitations]
+**Use Case:** Synthesize a week of scattered notes and messages into a coherent status report
 
-## Changelog
+**Target Personas:** Project Manager, Product Manager, Delivery Lead
 
-| Version | Date | Change |
-|---------|------|--------|
-| 1.0 | YYYY-MM-DD | Initial version |
+**Tags:** `Status Report`, `Project Management`, `Weekly Review`, `Productivity`
+
+**Prompt:**
+
+\```
+Review the following notes, messages, and meeting summaries from the past week related to [Project Name]. Provide:
+
+1. Progress highlights — what got done
+2. Key issues raised — with who raised them
+3. Decisions made or pending
+4. Risks or concerns mentioned
+5. Stakeholder feedback
+6. Actions assigned and their status
+
+Format as a draft status report. Flag areas where information seems incomplete or conflicting.
+\```
+
+---
 ```
 
 ---
 
-## Directory Structure
+## Prompt Categories
 
-Place new agents in the most relevant folder:
+| Category | Description |
+|----------|-------------|
+| Productivity | Task management, planning, summarisation |
+| Analysis | Research synthesis, data interpretation, comparisons |
+| Writing & Communication | Drafts, emails, reports, documentation |
+| Learning | Study aids, concept explanations, knowledge checks |
+| Strategy | Decision frameworks, planning, prioritisation |
+| Code & Technical | Development tasks, code review, debugging |
 
-```
-agents/
-├── writing-communication/
-├── project-management/
-├── hr-people/
-├── productivity/
-├── finance/
-├── sales/
-├── it-ops/
-├── customer-success/
-├── strategy-executive/
-├── learning-development/
-├── esg/
-└── industry/
-    └── [sector-name]/
-```
+### Required Tags
 
-For a new industry pack, create a folder under `agents/industry/` with a `README.md` describing the pack and individual agent files.
+Every prompt must include:
+
+- **Audience tag:** `Executive`, `Manager`, `Individual Contributor`, `Developer`, `Designer`, etc.
+- **Category tag:** `Productivity`, `Analysis`, `Writing`, `Learning`, etc.
+- **Task tag:** What the prompt specifically does — `Status Report`, `Code Review`, `Email Draft`, etc.
 
 ---
 
-## Instruction Writing Guidelines
+## Code of Conduct
 
-### Language defaults
-Every agent must include this block near the top of its instructions:
-
-```
-## LANGUAGE RULES
-Default: formal professional English, British spelling.
-French: if the user writes in French or requests French output, respond entirely in French.
-Bilingual: produce English first, then "--- Version francaise ---", then the full French version.
-```
-
-### Banned vocabulary
-Every agent must include a banned vocabulary list. At minimum, include:
-
-```
-pivotal, testament, underscores (emphasis), stands as, evolving landscape, vibrant, groundbreaking,
-delve, foster (abstract), leverage (as verb), synergy, robust (abstract), seamless, impactful,
-cutting-edge, state-of-the-art, best-in-class, additionally (sentence opener), it is important to note that,
-in order to, due to the fact that, going forward (filler), touch base, circle back, low-hanging fruit.
-```
-
-### Quality self-check
-Every agent must end with a `## QUALITY SELF-CHECK` section — a checklist the agent runs internally before delivering output. The check must not be shown to the user.
-
-### Output format
-Every agent must specify exactly what its output looks like — structure, section headings, table formats, length targets. Vague format guidance produces inconsistent outputs.
-
-### What you must not do
-Every agent must include an explicit list of things it will not do, specifically things a user might reasonably ask that are outside the agent's remit or that could cause harm.
+- Only submit prompts you have actually tested
+- Acknowledge limitations honestly
+- Build on existing prompts rather than duplicating
+- All prompts must be appropriate for professional use
 
 ---
 
-## Submitting
+## Questions?
 
-1. Fork the repository.
-2. Create a branch: `git checkout -b add/[agent-name]`.
-3. Add your agent file in the correct folder.
-4. Update the agent directory table in `README.md`.
-5. Open a pull request with a short description of what the agent does and who it is for.
+- **Portfolio:** [shubhamnarkhede.com](https://shubhamnarkhede.com)
+- **GitHub:** [github.com/spnarkhede](https://github.com/spnarkhede)
+- **Email:** contact.chasemycareer@gmail.com
 
 ---
 
-## What We Do Not Accept
-
-- Agents that require premium Copilot licences or external connectors not noted in the agent file
-- Agents with instructions longer than 8,000 characters (they will not work in Copilot Studio)
-- Agents with company-specific branding baked into the instruction set (keep them generic — use the `industry/` folder for sector-specific packs)
-- Instruction sets that produce legally, medically, or financially authoritative output without a human-review disclaimer
+*Part of the [Claude AI Prompts & Agents Library](https://github.com/spnarkhede/shubham360) by [Shubham Narkhede](https://shubhamnarkhede.com)*

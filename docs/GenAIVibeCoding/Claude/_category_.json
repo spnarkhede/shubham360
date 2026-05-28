@@ -1,0 +1,9 @@
+{
+  "label": "Claude",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Claude Prompts",
+    "description": "Prompts for Claude — long-form reasoning, document analysis, structured thinking, and deep code review. Works best with Claude Sonnet and Opus."
+  }
+}

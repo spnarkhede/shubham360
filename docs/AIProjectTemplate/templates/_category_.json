@@ -1,0 +1,8 @@
+{
+  "label": "Templates",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Core template files — MEMORY.md, cognitive debt checklist, and team playbook for every repository."
+  }
+}

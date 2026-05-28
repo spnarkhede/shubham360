@@ -293,4 +293,6 @@ Repo
 
 ---
 
-*Last updated: 2026-03-24*
+*Last updated: 2026-05-28*
+
+*Part of [Shubham Narkhede's Agent Library](https://shubhamnarkhede.com)*

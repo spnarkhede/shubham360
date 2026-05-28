@@ -91,4 +91,4 @@ To contribute new agents to the EPC & Energy pack, follow the standard [contribu
 
 ---
 
-*EPC & Energy Industry Pack — Part of the Awesome Copilot Studio Agents library*
+*EPC & Energy Industry Pack — Part of [Shubham Narkhede's Agent Library](https://shubhamnarkhede.com)*

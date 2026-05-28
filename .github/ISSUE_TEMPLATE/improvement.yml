@@ -1,0 +1,70 @@
+name: Improvement Proposal
+description: Suggest a meaningful change to a template, component, guideline, or procedure in this project
+title: "[IMPROVEMENT] "
+labels: ["improvement", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement. The best changes come from real usage — describe what you encountered.
+
+  - type: input
+    id: document
+    attributes:
+      label: Which file or area does this affect?
+      description: e.g., `src/components/DashboardLayout/`, `MEMORY.md`, `docs/AIProjectTemplate/guidelines/`
+      placeholder: File path or section name
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the problem with the current version?
+      description: What gap, friction, or edge case does the current code or document not handle well?
+      placeholder: The current implementation doesn't handle...
+    validations:
+      required: true
+
+  - type: textarea
+    id: situation
+    attributes:
+      label: What real-world situation prompted this?
+      description: The best improvements come from practice. What happened when you were using or building this?
+      placeholder: While working on X, I found that...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What change do you propose?
+      description: Describe the change. Include before/after code snippet or mockup if helpful.
+      placeholder: I propose changing...
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Does this affect any other files or areas?
+      description: e.g., if changing a component, does MEMORY.md need updating? Does any data file change?
+      placeholder: This might also affect...
+
+  - type: checkboxes
+    id: tested
+    attributes:
+      label: Have you tested this change?
+      options:
+        - label: Yes — tested locally with `npm start` and `npm run build`
+          required: false
+        - label: No — theoretical improvement
+          required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I am willing to submit a pull request for this improvement
+          required: false

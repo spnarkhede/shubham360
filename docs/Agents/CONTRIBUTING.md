@@ -1,4 +1,4 @@
-# Contributing to Awesome Copilot Studio Agents
+# Contributing to Shubham Narkhede's Agent Library
 
 Contributions are welcome. New agents, improvements to existing instructions, bug fixes, and translations all help.
 

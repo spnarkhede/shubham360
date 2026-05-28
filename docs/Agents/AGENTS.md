@@ -5,8 +5,8 @@ slug: /Agents/agent-library
 # Agent Library - Full Content
 
 > **78 agents across 13 domains.**
-> All agents are instruction-only and deploy in minutes via Copilot Studio.
-> Paste each instruction block into Copilot Studio → New agent → Instructions field.
+> Curated by [Shubham Narkhede](https://shubhamnarkhede.com)
+> All agents are instruction-only. Paste each instruction block into Copilot Studio → New agent → Instructions field.
 
 ---
 

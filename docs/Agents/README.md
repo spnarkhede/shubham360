@@ -1,10 +1,12 @@
-# Awesome Copilot Studio Agents
+# Shubham Narkhede's Agent Library
 
 > **78 production-ready declarative agents for Microsoft 365 Copilot.**
 > Paste each instruction block into Copilot Studio → New agent → Instructions field.
 > No coding required. Deploy in minutes.
 
-> **78 production-ready agents across 13 domains.** See [AGENTS.md](AGENTS.md) for the complete library.
+> **78 agents across 13 domains.** See [AGENTS.md](AGENTS.md) for the complete library.
+>
+> Curated and maintained by [Shubham Narkhede](https://shubhamnarkhede.com)
 
 ---
 
@@ -216,4 +218,4 @@ Free to use, adapt, and distribute with attribution.
 
 ---
 
-*Production-ready Copilot Studio agents — v2.0 — 2026*
+*Production-ready agents — v2.0 — 2026 — [Shubham Narkhede](https://shubhamnarkhede.com)*

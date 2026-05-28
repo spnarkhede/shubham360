@@ -1,0 +1,9 @@
+{
+  "label": "Grok",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "title": "Grok Prompts",
+    "description": "Prompts for Grok — real-time web context, X/Twitter analysis, trend discovery, and unfiltered research."
+  }
+}

@@ -1,6 +1,6 @@
-# Contributing to Awesome Microsoft Copilot Prompts
+# Contributing to Shubham Narkhede's Prompts Library
 
-Thank you for your interest in contributing to our collection of Microsoft Copilot prompts! This guide will help you submit high-quality prompts that benefit the entire community.
+This guide covers how to add high-quality prompts to the collection. Every prompt here has been production-tested and documented to a consistent standard.
 
 ## 📋 Table of Contents
 

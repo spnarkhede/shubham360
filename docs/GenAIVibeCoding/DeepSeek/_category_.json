@@ -1,0 +1,9 @@
+{
+  "label": "DeepSeek",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "DeepSeek Prompts",
+    "description": "Prompts for DeepSeek — algorithmic thinking, competitive programming, data structures, and logic-heavy code generation."
+  }
+}

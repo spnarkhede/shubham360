@@ -1,0 +1,9 @@
+{
+  "label": "ChatGPT",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "ChatGPT Prompts",
+    "description": "Prompts for ChatGPT — writing, research, ideation, analysis, and more. These work best with GPT-4o and GPT-4 Turbo."
+  }
+}

@@ -1,21 +1,47 @@
-# Description
+## Summary
 
-Please include a summary of the changes and the related issue. Include relevant motivation and context.
+<!-- What does this PR do? One paragraph max. -->
 
-Fixes # (issue number)
+**Type of change:**
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Refactor (no behavior change)
+- [ ] UI/UX improvement
+- [ ] Performance improvement
+- [ ] Infrastructure / config
+- [ ] Documentation / content
 
-## Type of Change
+**Linked issue / ticket:** Fixes # <!-- issue number -->
 
-Please delete options that are not relevant.
+---
 
-- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
-- [ ] ✨ New feature (non-breaking change which adds functionality)
-- [ ] 💥 Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] 📝 Documentation update
-- [ ] 🎨 UI/UX improvement
-- [ ] ⚡ Performance improvement
-- [ ] ♻️ Code refactoring
-- [ ] 🔒 Security fix
+## AI-Assisted Code Declaration
+
+> If NO AI was used, check the box and skip to the testing checklist below.
+
+- [ ] **No AI assistance used in this PR** — skip to testing checklist.
+
+---
+
+If AI was used, **complete all three fields**. This is a comprehension gate, not a formality.
+If you can't answer these in your own words, you don't own this code yet.
+
+### 1. What does this code do?
+*(Your words — not the AI's summary, not a copy of the commit message)*
+
+> 
+
+### 2. Why this approach over the alternatives?
+*(What did you consider? Why did you choose this direction?)*
+
+> 
+
+### 3. What edge cases did you verify?
+*(List the scenarios you tested — especially error paths, dark mode, mobile)*
+
+> 
+
+---
 
 ## Changes Made
 
@@ -25,37 +51,52 @@ Please delete options that are not relevant.
 
 ## Screenshots (if applicable)
 
-Please add screenshots to help reviewers understand your changes.
+<!-- Add screenshots — especially dark mode and mobile views -->
+
+---
 
 ## Testing Checklist
 
-- [ ] Code compiles without errors (`npm run build`)
-- [ ] Tested in dark mode
-- [ ] Tested in light mode
-- [ ] Mobile responsive (tested at 375px width)
+- [ ] `npm run build` passes with no errors
+- [ ] `npm start` — no terminal errors
+- [ ] Tested in **dark mode** (default — always test this first)
+- [ ] Tested in **light mode**
+- [ ] Mobile responsive at **375px width**
 - [ ] No console errors in browser
 - [ ] No inline styles added
-- [ ] CSS Modules used for component styles
+- [ ] CSS Modules used for all component styles
+- [ ] Data is in `src/data/` — nothing hardcoded in JSX
+- [ ] `MEMORY.md` updated if architecture or naming conventions changed
 - [ ] Follows existing code patterns
-- [ ] Updated documentation (if needed)
 
 ## Browser Testing
 
 - [ ] Chrome
 - [ ] Firefox
-- [ ] Safari
+- [ ] Safari (if available)
 - [ ] Edge
-
-## Additional Notes
-
-Add any additional notes or context about the PR here.
 
 ---
 
 ## Reviewer Checklist
 
-- [ ] Code follows project style guidelines
-- [ ] Changes are well-documented
-- [ ] No breaking changes introduced
-- [ ] UI changes look good in both themes
-- [ ] Performance impact is acceptable
+> If AI code is present, apply the comprehension standard too.
+> If you can't explain what the code does after reading it, ask the author before approving.
+
+- [ ] I understand what this code does — I can explain it to someone else
+- [ ] The AI explanation above (if present) matches what the code actually does
+- [ ] No silent error handling (swallowed exceptions, default returns hiding failures)
+- [ ] No hardcoded secrets, tokens, API keys, or credentials
+- [ ] No inline styles; CSS Modules used throughout
+- [ ] Dark mode looks correct
+- [ ] `MEMORY.md` updated if needed
+- [ ] PR is under 200 lines of meaningful change
+
+---
+
+## Blast Radius
+
+*How contained is this change if something goes wrong?*
+
+- **Affected pages / components:** 
+- **Rollback plan:** revert commit / feature flag / none needed

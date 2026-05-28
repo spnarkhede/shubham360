@@ -1023,6 +1023,7 @@
     |-- workflows
         |-- ci.yml
         |-- codeql-analysis.yml
+        |-- codeql.yml
         |-- dependency-review.yml
         |-- deploy.yml
         |-- greetings.yml
@@ -1209,6 +1210,27 @@
             |-- meeting-scribe.md
             |-- professional-translator-en-fr.md
             |-- tone-calibrator.md
+    |-- AIProjectTemplate
+        |-- .github
+            |-- ISSUE_TEMPLATE
+                |-- bug_report.md
+                |-- improvement.md
+            |-- PULL_REQUEST_TEMPLATE.md
+        |-- CHANGELOG.md
+        |-- CONTRIBUTING.md
+        |-- guidelines
+            |-- AI_USAGE_GUIDELINES.md
+            |-- CODE_REVIEW_GUARDRAILS.md
+            |-- DEFINITION_OF_DONE.md
+        |-- procedures
+            |-- AI_TOOL_ONBOARDING.md
+            |-- ESCALATION_PROCEDURE.md
+            |-- INCIDENT_RESPONSE_PROCEDURE.md
+        |-- README.md
+        |-- templates
+            |-- COGNITIVE_DEBT_CHECKLIST.md
+            |-- MEMORY.md
+            |-- TEAM_PLAYBOOK.md
     |-- ClaudeAIPrompts
         |-- Build10kWebsiteGuide.md
         |-- ClaudeAgentCreationTemplate.md

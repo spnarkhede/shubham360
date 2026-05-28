@@ -1,0 +1,50 @@
+const buildOnboardingProgressReportsPrompt = {
+  emoji: '🧭',
+  title: 'Build Onboarding Progress Reports',
+  description: 'Create professional onboarding progress reports with this AI prompt, including milestone tracking, customer wins, focus areas, next steps, and health scoring.',
+  type: 'Prompts',
+  category: 'Customer Service',
+  tool: 'ChatGPT',
+  output: 'Text',
+  date: '2026-05-28',
+  tags: [
+    'Content Strategy',
+    'Support',
+    'Customer Experience',
+    'Onboarding',
+  ],
+  views: 166,
+  recommendedTools: [
+    'ChatGPT',
+    'Gemini',
+    'Claude',
+  ],
+  prompt: `Adopt the role of an expert customer success operations specialist who designs scalable internal tools and templates that transform how CS teams communicate progress, build trust, and drive customer outcomes. Your primary objective is to create a comprehensive, reusable onboarding progress report template that customer success managers can customize and share with new customers at the 30-day mark in a professional, structured document format with clear sections, placeholder text, and inline instructions. This template should provide customers with transparent visibility into their onboarding journey while strengthening the relationship through constructive, forward-looking communication. The report must balance accountability with encouragement, making customers feel supported rather than judged. Take a deep breath and work on this problem step-by-step.
+
+Design a complete template with seven core sections: Customer Overview (with fields for essential account details), Onboarding Milestones Completed (checklist-style progress tracker), Key Wins (highlighting 2-3 specific achievements), Areas to Focus On (constructively identifying 1-3 improvement opportunities), Recommended Next Steps (3-5 clear action items), Support Resources (relevant links and contact options), and an optional 30-Day Health Score (simple traffic light rating with brief explanation). Include placeholder text and example content in each section so CSMs can immediately understand how to populate the template. Add brief instructional guidance in brackets within each section to clarify what information belongs there. Ensure the tone throughout is positive, professional, and partnership-oriented rather than evaluative or critical. Structure the content so customers can absorb the full report in under 5 minutes while feeling informed, supported, and clear on next steps.
+
+#INFORMATION ABOUT ME:
+My company's typical onboarding milestones: [INSERT YOUR STANDARD ONBOARDING STEPS/MILESTONES]
+My product/service type: [INSERT YOUR PRODUCT OR SERVICE DESCRIPTION]
+My customer success team structure: [INSERT HOW YOUR CS TEAM IS ORGANIZED]
+My primary support resources available: [INSERT YOUR HELP DOCS, WEBINARS, CONTACT CHANNELS]
+My health score criteria: [INSERT HOW YOU DEFINE GREEN/YELLOW/RED STATUS]
+
+MOST IMPORTANT!: Present the complete template in a clear, well-formatted document structure with distinct section headers, placeholder fields clearly marked with [BRACKETS], example content that demonstrates proper tone and detail level, and inline instructions that guide CSMs on what to include. The template should be immediately usable by copying, filling in the bracketed sections, and customizing the example content.`,
+  whatItDoes: [
+    'Creates a structured template that customer success managers use to track and report customer onboarding progress after 30 days.',
+    'Generates placeholder content and examples showing how to document milestones, wins, focus areas, and next steps for new customers.',
+    'Provides a professional communication tool that helps CS teams give customers clear visibility into their onboarding journey and relationship health.',
+  ],
+  tips: [
+    'Review your customer data before filling in this AI prompt template to ensure you capture accurate milestone completion status and can speak to real wins your customer achieved during onboarding.',
+    'Use the completed report as a conversation starter in your 30-day check-in call, walking through each section together to build trust and uncover blockers the customer may not have mentioned before.',
+    'Create a library of common "Key Wins" and "Recommended Next Steps" examples based on different customer segments or use cases, making it faster to personalize each AI prompt-generated report while maintaining quality.',
+  ],
+  howToUse: [
+    'Fill in the [CUSTOMER NAME], [ACCOUNT OWNER], [ONBOARDING START DATE], [PRODUCT PLAN], [ONBOARDING MILESTONES], [KEY WINS], [AREAS TO FOCUS ON], [RECOMMENDED NEXT STEPS], and [SUPPORT RESOURCES] placeholders with your specific customer information and progress details when using this AI prompt.',
+    'Example: Customer Name: "Acme Corp", Account Owner: "Sarah Johnson", Onboarding Start Date: "January 15, 2024", Product Plan: "Enterprise Plan", Key Wins: "Successfully integrated API and trained 5 team members", Areas to Focus On: "Complete data migration from legacy system", Recommended Next Steps: "1. Schedule data migration call 2. Set up automated workflows 3. Enable advanced reporting features".',
+  ],
+};
+
+export default buildOnboardingProgressReportsPrompt;

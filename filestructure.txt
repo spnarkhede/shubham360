@@ -1020,6 +1020,7 @@
             |-- site-src-pages-product-designer-blogs-prototyping-md-4d5.json
             |-- site-src-pages-product-designer-blogs-user-research-md-7cc.json
             |-- site-src-pages-prompt-vault-prompt-vault-data-entries-read-me-data-md-a0a.json
+            |-- site-src-pages-prompt-vault-prompt-vault-data-read-me-data-md-e85.json
             |-- site-src-pages-prompt-vault-prompt-vault-data-readme-md-aec.json
             |-- __plugin.json
     |-- docusaurus-plugin-debug
@@ -2096,8 +2097,10 @@
     |-- convert-images.bat
     |-- convert-images.sh
     |-- convert-to-webp.js
+    |-- generate_prompt_vault_entries.py
     |-- image-stats.js
     |-- README.md
+    |-- ReadMeData.md
     |-- rotate-book-images.js
     |-- rotate-single-image.js
     |-- rotate-specific-images.js
@@ -2347,55 +2350,271 @@
             |-- index.js
             |-- prompt-vault-data
                 |-- entries
+                    |-- achieve-anything-with-cognitive-behavioral-techniques.prompt.js
+                    |-- adapt-business-processes-across-industries.prompt.js
                     |-- adapt-knowledge-base-to-new-markets.prompt.js
+                    |-- analyze-consequences-of-strategic-decisions.prompt.js
+                    |-- analyze-customer-churn-risks.prompt.js
+                    |-- analyze-customer-sentiment-from-feedback.prompt.js
                     |-- analyze-subscription-cancellation-requests.prompt.js
+                    |-- analyze-vibe-code-quality.prompt.js
                     |-- assess-business-opportunities-for-viability.prompt.js
                     |-- audit-knowledge-base-article-accuracy.prompt.js
+                    |-- boost-social-media-engagement.prompt.js
+                    |-- build-3d-racing-games.prompt.js
+                    |-- build-ai-app-security-playbooks.prompt.js
                     |-- build-ai-chatbot-response-libraries.prompt.js
                     |-- build-automated-onboarding-support-flows.prompt.js
                     |-- build-canned-chat-responses-libraries.prompt.js
+                    |-- build-chat-applications.prompt.js
                     |-- build-chat-closing-script-libraries.prompt.js
                     |-- build-chat-escalation-protocols.prompt.js
                     |-- build-chat-tagging-systems.prompt.js
+                    |-- build-color-picker-tools.prompt.js
+                    |-- build-content-pillars.prompt.js
                     |-- build-contingency-plans-for-business-scenarios.prompt.js
+                    |-- build-currency-converter-apps.prompt.js
+                    |-- build-customer-faq-sections.prompt.js
+                    |-- build-customer-feedback-response-templates.prompt.js
                     |-- build-customer-issue-decision-trees.prompt.js
+                    |-- build-customer-onboarding-checklists.prompt.js
+                    |-- build-customer-onboarding-surveys.prompt.js
+                    |-- build-customer-personas-and-resolution-scripts.prompt.js
                     |-- build-customer-response-templates.prompt.js
                     |-- build-customer-sentiment-detectors.prompt.js
+                    |-- build-interactive-quiz-applications.prompt.js
+                    |-- build-investment-tracking-dashboards.prompt.js
                     |-- build-knowledge-base-content-calendars.prompt.js
                     |-- build-knowledge-base-improvement-loops.prompt.js
                     |-- build-knowledge-base-style-guides.prompt.js
                     |-- build-live-chat-qa-rubrics.prompt.js
+                    |-- build-markdown-notes-apps.prompt.js
+                    |-- build-minimalist-ordering-applications.prompt.js
+                    |-- build-onboarding-faq-documents.prompt.js
+                    |-- build-onboarding-progress-reports.prompt.js
                     |-- build-outreach-automation-playbooks.prompt.js
+                    |-- build-recipe-finders.prompt.js
+                    |-- build-recipe-organizer-apps.prompt.js
+                    |-- build-recurring-decision-frameworks.prompt.js
+                    |-- build-scientific-calculators.prompt.js
+                    |-- build-secure-login-authentication-scripts.prompt.js
+                    |-- build-self-service-feedback-systems.prompt.js
+                    |-- build-self-service-return-centers.prompt.js
+                    |-- build-social-media-strategies.prompt.js
                     |-- build-support-agent-macro-systems.prompt.js
+                    |-- build-support-escalation-decision-trees.prompt.js
+                    |-- build-url-shorteners.prompt.js
+                    |-- clone-writing-styles.prompt.js
+                    |-- compose-internal-escalation-notes.prompt.js
+                    |-- configure-iphone-app-project-settings.prompt.js
+                    |-- convert-customer-feedback-into-training-points.prompt.js
                     |-- convert-support-tickets-into-articles.prompt.js
+                    |-- convert-team-conflicts-into-strategies.prompt.js
+                    |-- craft-brand-protection-response-templates.prompt.js
+                    |-- craft-customer-loyalty-tier-upgrade-messages.prompt.js
+                    |-- craft-customer-onboarding-scripts.prompt.js
                     |-- craft-customer-outage-response-templates.prompt.js
+                    |-- craft-empathetic-response-templates.prompt.js
+                    |-- craft-knowledge-base-articles.prompt.js
                     |-- craft-live-chat-greeting-scripts.prompt.js
+                    |-- craft-onboarding-notification-sequences.prompt.js
+                    |-- craft-replies-to-negative-reviews.prompt.js
+                    |-- craft-resolution-follow-up-emails.prompt.js
+                    |-- craft-service-recovery-apology-messages.prompt.js
                     |-- craft-sla-breach-response-templates.prompt.js
+                    |-- craft-social-media-posts.prompt.js
+                    |-- create-athletic-grid-advertisements.prompt.js
+                    |-- create-beverage-advertisements.prompt.js
+                    |-- create-cinematic-environmental-portraits.prompt.js
+                    |-- create-cinematic-luxury-advertisement-banners.prompt.js
+                    |-- create-cinematic-motion-blur-editorials.prompt.js
+                    |-- create-cinematic-product-advertisement-panels.prompt.js
+                    |-- create-cinematic-studio-portraits.prompt.js
+                    |-- create-cinematic-tablet-mockups.prompt.js
+                    |-- create-customer-onboarding-email-sequences.prompt.js
+                    |-- create-designer-product-advertisement.prompt.js
+                    |-- create-dramatic-silhouette-portraits.prompt.js
+                    |-- create-dramatic-swarm-illustrations.prompt.js
+                    |-- create-editorial-fashion-portraits.prompt.js
+                    |-- create-editorial-product-photoshoots.prompt.js
                     |-- create-feature-launch-kb-articles.prompt.js
+                    |-- create-food-advertisement-grids.prompt.js
+                    |-- create-gaming-product-advertisement-banners.prompt.js
+                    |-- create-gourmet-food-advertisement-visuals.prompt.js
+                    |-- create-healthcare-advertisement-panels.prompt.js
+                    |-- create-hyperrealistic-portrait-photography-shots.prompt.js
+                    |-- create-lifestyle-beverage-ads.prompt.js
+                    |-- create-lifestyle-food-advertisement-visuals.prompt.js
+                    |-- create-lifestyle-tech-advertisement-layouts.prompt.js
+                    |-- create-luxury-beauty-device-advertisements.prompt.js
+                    |-- create-luxury-beauty-product-shots.prompt.js
+                    |-- create-luxury-editorial-portraits.prompt.js
+                    |-- create-luxury-product-advertisement-grids.prompt.js
+                    |-- create-luxury-product-advertisement-panels.prompt.js
+                    |-- create-luxury-product-advertisements.prompt.js
+                    |-- create-luxury-product-showcases.prompt.js
+                    |-- create-luxury-tech-advertisement-panels.prompt.js
+                    |-- create-minimal-desktop-mockups.prompt.js
+                    |-- create-minimalist-product-plate-mockups.prompt.js
+                    |-- create-monochrome-cinematic-portraits.prompt.js
+                    |-- create-noir-cinematic-portraits.prompt.js
+                    |-- create-oversized-product-ad-visuals.prompt.js
+                    |-- create-oversized-product-editorial-scenes.prompt.js
+                    |-- create-premium-product-grid-advertisements.prompt.js
+                    |-- create-self-service-tutorial-scripts.prompt.js
+                    |-- create-shadow-play-product-visuals.prompt.js
+                    |-- create-smartphone-fashion-portrait-collages.prompt.js
+                    |-- create-snack-advertisement-panels.prompt.js
+                    |-- create-social-media-content-calendars.prompt.js
+                    |-- create-urban-fashion-editorial-grids.prompt.js
                     |-- design-automated-win-back-campaigns.prompt.js
+                    |-- design-axonometric-core-interiors.prompt.js
                     |-- design-behavior-improving-compensations.prompt.js
+                    |-- design-brutalist-landscape-architectures.prompt.js
+                    |-- design-clinical-product-advertisement-panels.prompt.js
+                    |-- design-contemporary-spa-interiors.prompt.js
+                    |-- design-customer-loyalty-programs.prompt.js
+                    |-- design-futuristic-urban-corridor-visuals.prompt.js
+                    |-- design-industrial-minimalist-office-interiors.prompt.js
+                    |-- design-lifestyle-technical-product-layouts.prompt.js
+                    |-- design-luxury-bathroom-advertisement-grids.prompt.js
+                    |-- design-luxury-eyewear-campaign-layouts.prompt.js
+                    |-- design-luxury-perfume-ads.prompt.js
+                    |-- design-minimal-cafe-interior-renders.prompt.js
+                    |-- design-minimalist-fashion-advertisement-grids.prompt.js
+                    |-- design-onboarding-chatbot-conversation-flows.prompt.js
+                    |-- design-organic-landscape-architecture-renders.prompt.js
+                    |-- design-parametric-urban-canopy-structures.prompt.js
+                    |-- design-photorealistic-urban-district-renders.prompt.js
+                    |-- design-post-support-feedback-surveys.prompt.js
+                    |-- design-premium-fashion-advertisement-layouts.prompt.js
+                    |-- design-support-quality-scorecards.prompt.js
+                    |-- design-sustainable-urban-neighborhood-scenes.prompt.js
                     |-- design-ticket-prioritization-scoring-systems.prompt.js
+                    |-- design-urban-landscape-architecture-renders.prompt.js
+                    |-- design-wind-cut-green-tower.prompt.js
+                    |-- detect-customer-churn-warning-signals.prompt.js
+                    |-- develop-cybersecurity-and-marketing-systems.prompt.js
+                    |-- develop-saas-onboarding-roadmaps.prompt.js
                     |-- develop-standard-operating-procedures.prompt.js
+                    |-- diagnose-business-initiative-failures.prompt.js
+                    |-- discover-topic-research-insights.prompt.js
                     |-- draft-chat-queue-engagement-messages.prompt.js
+                    |-- draft-customer-intake-questionnaires.prompt.js
+                    |-- draft-customer-onboarding-emails.prompt.js
+                    |-- draft-documentation-from-vibe-code.prompt.js
+                    |-- draft-referral-program-messages.prompt.js
+                    |-- draft-retention-focused-faq-sections.prompt.js
+                    |-- draft-subscription-renewal-communication-sequences.prompt.js
+                    |-- eliminate-dead-code-liabilities.prompt.js
+                    |-- enhance-image-quality.prompt.js
+                    |-- enhance-writing-quality.prompt.js
+                    |-- establish-onboarding-objectives.prompt.js
+                    |-- estimate-outcomes-of-business-decisions.prompt.js
+                    |-- evaluate-business-idea-viability.prompt.js
+                    |-- evaluate-decisions-systematically.prompt.js
+                    |-- extract-ideas-from-customer-feedback.prompt.js
                     |-- extract-repeatable-success-strategies.prompt.js
+                    |-- generate-athletic-portrait-photography-mockups.prompt.js
                     |-- generate-automated-refund-processing-scripts.prompt.js
+                    |-- generate-axonometric-architecture-diagrams.prompt.js
+                    |-- generate-axonometric-exhibition-space.prompt.js
+                    |-- generate-axonometric-futuristic-atriums.prompt.js
+                    |-- generate-axonometric-interior-diagrams.prompt.js
+                    |-- generate-beauty-product-ad-visuals.prompt.js
+                    |-- generate-before-after-food-infographics.prompt.js
+                    |-- generate-brand-style-guides.prompt.js
+                    |-- generate-candid-mirror-selfies.prompt.js
+                    |-- generate-candid-street-portraits.prompt.js
                     |-- generate-chat-conversion-messages.prompt.js
                     |-- generate-chatbot-handoff-scripts.prompt.js
+                    |-- generate-cinematic-office-portrait-scenes.prompt.js
+                    |-- generate-cinematic-portrait-json-structures.prompt.js
+                    |-- generate-cinematic-portrait-photographs.prompt.js
+                    |-- generate-circular-product-dial-compositions.prompt.js
+                    |-- generate-cozy-portrait-scenes.prompt.js
+                    |-- generate-curved-timber-pavilion-renders.prompt.js
+                    |-- generate-edgy-portrait-photography-shots.prompt.js
+                    |-- generate-fashion-portrait-photography-shots.prompt.js
+                    |-- generate-fashion-portrait-transformations.prompt.js
+                    |-- generate-film-noir-character-portraits.prompt.js
+                    |-- generate-help-center-article-templates.prompt.js
+                    |-- generate-household-product-advertisements.prompt.js
+                    |-- generate-hyperrealistic-portrait-variations.prompt.js
+                    |-- generate-instagram-fashion-grid-posts.prompt.js
+                    |-- generate-instagram-travel-grids.prompt.js
+                    |-- generate-iphone-quality-photography.prompt.js
+                    |-- generate-ivr-phone-menu-scripts.prompt.js
+                    |-- generate-laptop-screen-mockups.prompt.js
+                    |-- generate-lifestyle-photography-scenes.prompt.js
                     |-- generate-live-chat-upsell-messages.prompt.js
+                    |-- generate-luxury-billboard-mockups.prompt.js
+                    |-- generate-marketing-grids.prompt.js
+                    |-- generate-mirror-selfie-portrait-variations.prompt.js
+                    |-- generate-modern-product-grid-advertisements.prompt.js
+                    |-- generate-oversize-product-teaser-scenes.prompt.js
+                    |-- generate-parametric-urban-district-renderings.prompt.js
+                    |-- generate-personalized-kickoff-call-scripts.prompt.js
+                    |-- generate-photorealistic-portrait-signatures.prompt.js
+                    |-- generate-pov-racing-cockpit-scenes.prompt.js
+                    |-- generate-product-documentation-layouts.prompt.js
+                    |-- generate-product-frosted-glass-scenes.prompt.js
+                    |-- generate-sculptural-spa-bathroom-interiors.prompt.js
+                    |-- generate-smartphone-screen-mockups.prompt.js
+                    |-- generate-streetwear-salon-portrait-mockups.prompt.js
+                    |-- generate-stylized-portrait-illustrations.prompt.js
+                    |-- generate-tanline-mockups.prompt.js
+                    |-- generate-terraced-green-tower-renders.prompt.js
+                    |-- generate-travel-product-grid-advertisements.prompt.js
+                    |-- generate-urban-portrait-photography.prompt.js
+                    |-- generate-vibe-coding-product-ideas.prompt.js
+                    |-- generate-vintage-portrait-photography.prompt.js
+                    |-- generate-viral-short-form-video-scripts.prompt.js
                     |-- identify-business-drains.prompt.js
                     |-- identify-knowledge-base-content-gaps.prompt.js
+                    |-- identify-opportunities-from-customer-feedback.prompt.js
+                    |-- identify-recurring-customer-complaint-patterns.prompt.js
+                    |-- identify-workflow-automation-opportunities.prompt.js
+                    |-- improve-weekly-performance.prompt.js
                     |-- integrate-insights-from-competing-frameworks.prompt.js
+                    |-- master-complex-topics-faster.prompt.js
                     |-- merge-duplicate-knowledge-base-articles.prompt.js
                     |-- optimize-knowledge-base-article-findability.prompt.js
+                    |-- optimize-social-media-performance.prompt.js
+                    |-- organize-customer-feedback-by-themes.prompt.js
+                    |-- organize-messy-thoughts.prompt.js
+                    |-- plan-daily-priorities.prompt.js
+                    |-- plan-productive-weekly-schedules.prompt.js
                     |-- prioritize-task-backlogs.prompt.js
-                    |-- ReadMeData.md
+                    |-- recreate-mobile-app-ui-designs.prompt.js
+                    |-- render-climate-responsive-green-tower.prompt.js
+                    |-- render-contemporary-japanese-lounge-interiors.prompt.js
+                    |-- render-futuristic-hybrid-mega-structure.prompt.js
+                    |-- render-hyperrealistic-studio-portraits.prompt.js
+                    |-- render-minimalist-architecture-pavilions.prompt.js
+                    |-- render-parametric-architecture-facades.prompt.js
+                    |-- render-parametric-bridge-park-visualizations.prompt.js
+                    |-- render-photorealistic-architecture-exteriors.prompt.js
+                    |-- render-photorealistic-museum-exteriors.prompt.js
+                    |-- render-sculptural-architecture-facades.prompt.js
+                    |-- render-vertical-ecosystem-tower.prompt.js
+                    |-- resolve-angry-customer-escalations.prompt.js
+                    |-- resolve-customer-complaints.prompt.js
+                    |-- resolve-technical-support-issues.prompt.js
                     |-- restructure-knowledge-base-taxonomies.prompt.js
                     |-- rework-stalled-projects.prompt.js
                     |-- set-automated-ticket-routing-rules.prompt.js
+                    |-- simplify-complex-details.prompt.js
                     |-- simplify-technical-docs-into-kb-articles.prompt.js
+                    |-- simulate-customer-service-training-scenarios.prompt.js
+                    |-- summarize-customer-feedback-insights.prompt.js
+                    |-- test-business-plan-assumptions.prompt.js
+                    |-- track-onboarding-progress.prompt.js
                     |-- transform-faqs-into-knowledge-bases.prompt.js
+                    |-- transform-requests-into-ai-prompts.prompt.js
                     |-- turn-vague-feedback-into-process-improvements.prompt.js
                     |-- uncover-pre-launch-knowledge-gaps.prompt.js
+                    |-- write-custom-automation-scripts.prompt.js
                     |-- _template.prompt.js
                 |-- index.js
                 |-- PromptEntryTemplate.jsx

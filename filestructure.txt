@@ -204,17 +204,21 @@
     |-- docusaurus-plugin-content-docs
         |-- default
             |-- p
+                |-- category-ai-project-template-e9c.json
                 |-- category-copilot-cowork-590.json
                 |-- category-enterprise-510.json
+                |-- category-guidelines-1a6.json
                 |-- category-languages-462.json
                 |-- category-outlook-641.json
                 |-- category-power-users-20c.json
+                |-- category-procedures-d9c.json
                 |-- category-prompt-engineering-b56.json
                 |-- category-prompts-138.json
                 |-- category-quick-start-68e.json
                 |-- category-role-specific-d1b.json
                 |-- category-scheduled-prompts-e38.json
                 |-- category-security-copilot-f59.json
+                |-- category-templates-672.json
                 |-- de-category-copilot-cowork-85a.json
                 |-- de-category-enterprise-47b.json
                 |-- de-category-languages-fba.json
@@ -277,6 +281,8 @@
                 |-- de-tags-web-10d.json
                 |-- de-tags-workflow-f02.json
                 |-- index-466.json
+                |-- promptforge-64d.json
+                |-- promptvault-6ee.json
                 |-- tags-ai-7df.json
                 |-- tags-ais-59b.json
                 |-- tags-android-7a7.json
@@ -409,6 +415,18 @@
             |-- site-docs-agents-writing-communication-meeting-scribe-md-738.json
             |-- site-docs-agents-writing-communication-professional-translator-en-fr-md-196.json
             |-- site-docs-agents-writing-communication-tone-calibrator-md-0f4.json
+            |-- site-docs-ai-project-template-changelog-md-5e1.json
+            |-- site-docs-ai-project-template-contributing-md-c6f.json
+            |-- site-docs-ai-project-template-guidelines-ai-usage-guidelines-md-320.json
+            |-- site-docs-ai-project-template-guidelines-code-review-guardrails-md-021.json
+            |-- site-docs-ai-project-template-guidelines-definition-of-done-md-63e.json
+            |-- site-docs-ai-project-template-procedures-ai-tool-onboarding-md-5e9.json
+            |-- site-docs-ai-project-template-procedures-escalation-procedure-md-89c.json
+            |-- site-docs-ai-project-template-procedures-incident-response-procedure-md-140.json
+            |-- site-docs-ai-project-template-readme-md-d22.json
+            |-- site-docs-ai-project-template-templates-cognitive-debt-checklist-md-69d.json
+            |-- site-docs-ai-project-template-templates-memory-md-2ad.json
+            |-- site-docs-ai-project-template-templates-team-playbook-md-262.json
             |-- site-docs-claude-ai-prompts-build-10-k-website-guide-md-eaf.json
             |-- site-docs-claude-ai-prompts-claude-agent-creation-template-md-710.json
             |-- site-docs-claude-ai-prompts-claude-agents-authoring-checklist-md-fb9.json
@@ -417,6 +435,7 @@
             |-- site-docs-claude-ai-prompts-claude-memory-transfer-md-f86.json
             |-- site-docs-claude-ai-prompts-claude-prompt-creation-template-md-934.json
             |-- site-docs-claude-ai-prompts-claude-skill-template-md-554.json
+            |-- site-docs-claude-ai-prompts-prompt-creation-guide-md-ba7.json
             |-- site-docs-claude-ai-prompts-ru-flo-setup-guide-md-9cf.json
             |-- site-docs-computer-science-artificial-intelligence-llm-llm-basic-notes-md-74f.json
             |-- site-docs-computer-science-artificial-intelligence-llm-prompt-engineering-basic-notes-md-45b.json
@@ -473,6 +492,7 @@
             |-- site-docs-design-principles-product-manager-guide-md-8ba.json
             |-- site-docs-design-tools-design-inspiration-md-af6.json
             |-- site-docs-design-tools-designand-uitools-md-71a.json
+            |-- site-docs-gen-ai-vibe-coding-index-md-613.json
             |-- site-docs-intro-md-0e3.json
             |-- site-docs-languages-german-intensive-a-1-1-1-introduction-a-1-1-md-489.json
             |-- site-docs-languages-german-intensive-a-1-1-10-chapter-9-md-0c6.json
@@ -999,6 +1019,8 @@
             |-- site-src-pages-product-designer-blogs-design-systems-md-141.json
             |-- site-src-pages-product-designer-blogs-prototyping-md-4d5.json
             |-- site-src-pages-product-designer-blogs-user-research-md-7cc.json
+            |-- site-src-pages-prompt-vault-prompt-vault-data-entries-read-me-data-md-a0a.json
+            |-- site-src-pages-prompt-vault-prompt-vault-data-readme-md-aec.json
             |-- __plugin.json
     |-- docusaurus-plugin-debug
         |-- default
@@ -1019,6 +1041,7 @@
     |-- ISSUE_TEMPLATE
         |-- bug_report.yml
         |-- feature_request.yml
+        |-- improvement.yml
     |-- PULL_REQUEST_TEMPLATE.md
     |-- workflows
         |-- ci.yml
@@ -1107,6 +1130,7 @@
     |-- verify-xss-fixes.sh
     |-- XSS_FIX_SUMMARY.md
     |-- XSS_SECURITY_GUIDE.md
+|-- COGNITIVE_DEBT_CHECKLIST.md
 |-- compress-images.js
 |-- compress-pdf.js
 |-- CONTRIBUTING.md
@@ -1222,15 +1246,19 @@
             |-- AI_USAGE_GUIDELINES.md
             |-- CODE_REVIEW_GUARDRAILS.md
             |-- DEFINITION_OF_DONE.md
+            |-- _category_.json
         |-- procedures
             |-- AI_TOOL_ONBOARDING.md
             |-- ESCALATION_PROCEDURE.md
             |-- INCIDENT_RESPONSE_PROCEDURE.md
+            |-- _category_.json
         |-- README.md
         |-- templates
             |-- COGNITIVE_DEBT_CHECKLIST.md
             |-- MEMORY.md
             |-- TEAM_PLAYBOOK.md
+            |-- _category_.json
+        |-- _category_.json
     |-- ClaudeAIPrompts
         |-- Build10kWebsiteGuide.md
         |-- ClaudeAgentCreationTemplate.md
@@ -1239,6 +1267,7 @@
         |-- ClaudeDesignTheFreeCanvaKiller.md
         |-- ClaudeMemoryTransfer.md
         |-- ClaudePromptCreationTemplate.md
+        |-- PromptCreationGuide.md
         |-- RuFloSetupGuide.md
     |-- ComputerScience
         |-- ArtificialIntelligence
@@ -1358,6 +1387,27 @@
         |-- Tools
             |-- DesignandUitools.md
             |-- DesignInspiration.md
+    |-- GenAIVibeCoding
+        |-- ChatGPT
+            |-- _category_.json
+        |-- Claude
+            |-- _category_.json
+        |-- Copilot
+            |-- _category_.json
+        |-- DeepSeek
+            |-- _category_.json
+        |-- Gemini
+            |-- _category_.json
+        |-- Grok
+            |-- _category_.json
+        |-- index.md
+        |-- Midjourney
+            |-- _category_.json
+        |-- Nano Banana
+            |-- _category_.json
+        |-- VideoAI
+            |-- _category_.json
+        |-- _category_.json
     |-- intro.md
     |-- Languages
         |-- German
@@ -2021,6 +2071,7 @@
     |-- _category_.json
 |-- docusaurus.config.ts
 |-- LICENSE
+|-- MEMORY.md
 |-- package-lock.json
 |-- package.json
 |-- project_docs
@@ -2292,6 +2343,65 @@
             |-- portfolio.js
             |-- styles.module.css
             |-- tools.js
+        |-- prompt-vault
+            |-- index.js
+            |-- prompt-vault-data
+                |-- entries
+                    |-- adapt-knowledge-base-to-new-markets.prompt.js
+                    |-- analyze-subscription-cancellation-requests.prompt.js
+                    |-- assess-business-opportunities-for-viability.prompt.js
+                    |-- audit-knowledge-base-article-accuracy.prompt.js
+                    |-- build-ai-chatbot-response-libraries.prompt.js
+                    |-- build-automated-onboarding-support-flows.prompt.js
+                    |-- build-canned-chat-responses-libraries.prompt.js
+                    |-- build-chat-closing-script-libraries.prompt.js
+                    |-- build-chat-escalation-protocols.prompt.js
+                    |-- build-chat-tagging-systems.prompt.js
+                    |-- build-contingency-plans-for-business-scenarios.prompt.js
+                    |-- build-customer-issue-decision-trees.prompt.js
+                    |-- build-customer-response-templates.prompt.js
+                    |-- build-customer-sentiment-detectors.prompt.js
+                    |-- build-knowledge-base-content-calendars.prompt.js
+                    |-- build-knowledge-base-improvement-loops.prompt.js
+                    |-- build-knowledge-base-style-guides.prompt.js
+                    |-- build-live-chat-qa-rubrics.prompt.js
+                    |-- build-outreach-automation-playbooks.prompt.js
+                    |-- build-support-agent-macro-systems.prompt.js
+                    |-- convert-support-tickets-into-articles.prompt.js
+                    |-- craft-customer-outage-response-templates.prompt.js
+                    |-- craft-live-chat-greeting-scripts.prompt.js
+                    |-- craft-sla-breach-response-templates.prompt.js
+                    |-- create-feature-launch-kb-articles.prompt.js
+                    |-- design-automated-win-back-campaigns.prompt.js
+                    |-- design-behavior-improving-compensations.prompt.js
+                    |-- design-ticket-prioritization-scoring-systems.prompt.js
+                    |-- develop-standard-operating-procedures.prompt.js
+                    |-- draft-chat-queue-engagement-messages.prompt.js
+                    |-- extract-repeatable-success-strategies.prompt.js
+                    |-- generate-automated-refund-processing-scripts.prompt.js
+                    |-- generate-chat-conversion-messages.prompt.js
+                    |-- generate-chatbot-handoff-scripts.prompt.js
+                    |-- generate-live-chat-upsell-messages.prompt.js
+                    |-- identify-business-drains.prompt.js
+                    |-- identify-knowledge-base-content-gaps.prompt.js
+                    |-- integrate-insights-from-competing-frameworks.prompt.js
+                    |-- merge-duplicate-knowledge-base-articles.prompt.js
+                    |-- optimize-knowledge-base-article-findability.prompt.js
+                    |-- prioritize-task-backlogs.prompt.js
+                    |-- ReadMeData.md
+                    |-- restructure-knowledge-base-taxonomies.prompt.js
+                    |-- rework-stalled-projects.prompt.js
+                    |-- set-automated-ticket-routing-rules.prompt.js
+                    |-- simplify-technical-docs-into-kb-articles.prompt.js
+                    |-- transform-faqs-into-knowledge-bases.prompt.js
+                    |-- turn-vague-feedback-into-process-improvements.prompt.js
+                    |-- uncover-pre-launch-knowledge-gaps.prompt.js
+                    |-- _template.prompt.js
+                |-- index.js
+                |-- PromptEntryTemplate.jsx
+                |-- README.md
+            |-- promptVaultData.js
+            |-- styles.module.css
         |-- recruiter-dashboard
             |-- certifications.js
             |-- components
@@ -2819,5 +2929,7 @@
         |-- undraw_docusaurus_tree.svg
         |-- workoutprofile.webp
 |-- tailwind.config.js
+|-- TEAM_PLAYBOOK.md
 |-- tsconfig.json
 |-- updateMarkdown.js
+|-- write_prompts.py

@@ -1,0 +1,116 @@
+const generateSculpturalSpaBathroomInteriorsPrompt = {
+  emoji: '🪸',
+  title: 'Generate Sculptural Spa Bathroom Interiors',
+  description: 'Design bold wellness spa bathrooms with this AI prompt, featuring sculptural arches, vibrant colors, organic materials, and editorial-style luxury interiors.',
+  type: 'Prompts',
+  category: 'Marketing',
+  tool: 'Nano Banana',
+  output: 'Text',
+  date: '2026-05-28',
+  tags: [
+    'Marketing',
+    'Content Strategy',
+  ],
+  views: 40,
+  recommendedTools: [
+    'Nano Banana',
+  ],
+  prompt: `{
+  "project_type": "bathroom interior design",
+  "design_theme": "bold wellness spa bathroom",
+  "style": [
+    "editorial interior",
+    "art-driven spa",
+    "contemporary boutique hotel",
+    "playful luxury"
+  ],
+  "concept_description": "a vibrant and sculptural bathroom designed as a sensory wellness space, combining bold color, organic arches and tactile materials",
+  "architecture": {
+    "primary_forms": [
+      "large rounded arch framing the bathtub",
+      "soft curved walls",
+      "integrated architectural niches"
+    ],
+    "geometry": "organic, fluid, sculptural",
+    "symmetry": "soft asymmetry for artistic feel"
+  },
+  "color_palette": {
+    "dominant": [
+      "[COLOR WORLD]"
+    ],
+    "accent": [
+      "[COLOR WORLD]"
+    ],
+    "mood": "warm, sensual, immersive"
+  },
+  "materials": {
+    "walls": "[SURFACE CRAFT]",
+    "floor": "[SURFACE CRAFT]",
+    "bathtub": "[SURFACE CRAFT]",
+    "sink": "[SURFACE CRAFT]",
+    "metal_fixtures": "[SURFACE CRAFT]"
+  },
+  "lighting_design": {
+    "main_light": "woven or perforated pendant lamp",
+    "secondary_light": [
+      "hidden LED behind bathtub",
+      "soft indirect wall lighting"
+    ],
+    "lighting_temperature": "warm (2700K–3000K)",
+    "effect": "spa glow, soft shadows, editorial ambiance"
+  },
+  "decor_and_styling": {
+    "plants": [
+      "[STYLING LAYER]"
+    ],
+    "accessories": [
+      "[STYLING LAYER]"
+    ],
+    "mirror": "[STYLING LAYER]"
+  },
+  "sensory_experience": {
+    "visual": "bold yet calming",
+    "tactile": "textured tiles, stone, soft fabrics",
+    "emotional": "relaxing but confident and modern"
+  },
+  "rendering_style": {
+    "camera_angle": "frontal or slight perspective",
+    "composition": "centered on bathtub and arch",
+    "render_quality": "ultra realistic",
+    "post_processing": "editorial color grading, soft contrast"
+  },
+  "negative_prompt": [
+    "minimal white bathroom",
+    "cold hospital lighting",
+    "sharp angles",
+    "generic hotel style",
+    "overly sterile design"
+  ],
+  "output_preferences": {
+    "aspect_ratio": "4:5",
+    "resolution": "high",
+    "use_case": [
+      "design inspiration",
+      "editorial feature",
+      "boutique hotel spa concept",
+      "luxury wellness branding"
+    ]
+  }
+}`,
+  whatItDoes: [
+    'Generates an AI image of a sculptural spa bathroom with bold colors, organic arches, and warm lighting centered on a freestanding bathtub.',
+    'Creates a sensory wellness space using curved walls, textured materials, and artistic fixtures that blend playful luxury with contemporary design.',
+    'Produces an ultra-realistic editorial-style render with soft shadows and warm color grading suitable for boutique hotel concepts and design portfolios.',
+  ],
+  tips: [
+    'Fill the COLOR WORLD variables with bold, immersive tones like terracotta and sage green or deep coral and charcoal to create a warm wellness atmosphere that stands out in your AI image prompt.',
+    'Choose SURFACE CRAFT materials that contrast textures, such as rough lime plaster walls paired with smooth marble bathtubs and brushed brass fixtures, to add tactile depth to your AI image.',
+    'Populate STYLING LAYER with organic elements like trailing pothos plants in ceramic pots, woven baskets with rolled towels, and an arched rattan mirror to complete the spa-inspired editorial look.',
+  ],
+  howToUse: [
+    'Step 1: Fill in the [COLOR WORLD], [SURFACE CRAFT], and [STYLING LAYER] variables with your specific design choices for the bathroom interior.',
+    'Step 2: Run the JSON prompt above.',
+  ],
+};
+
+export default generateSculpturalSpaBathroomInteriorsPrompt;

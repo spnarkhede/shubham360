@@ -1,0 +1,98 @@
+const generateInstagramTravelGridsPrompt = {
+  emoji: '🎞️',
+  title: 'Generate Instagram Travel Grids',
+  description: 'Generate authentic Instagram travel grids with this AI prompt, featuring candid smartphone photos, iconic landmarks, natural lighting, and unfiltered aesthetic.',
+  type: 'Prompts',
+  category: 'Marketing',
+  tool: 'Nano Banana',
+  output: 'Text',
+  date: '2026-05-28',
+  tags: [
+    'Photography',
+    'Marketing',
+    'Content Strategy',
+  ],
+  views: 164,
+  recommendedTools: [
+    'Nano Banana',
+  ],
+  prompt: `{
+  "Objective": "Create a 3x3 Instagram-style grid of low-quality smartphone photos featuring the same extremely beautiful [SUBJECT DESCRIPTION] traveling in [DESTINATION CITY], capturing iconic landmarks with a natural, unfiltered aesthetic.",
+  "Composition": {
+    "layout": "3x3 grid",
+    "aspect_ratio": "1:1",
+    "framing": "each square is a different candid moment, forming a cohesive Instagram profile layout"
+  },
+  "Subject": {
+    "type": "young woman",
+    "appearance": {
+      "hair": "blonde",
+      "beauty": "extremely beautiful, natural attractiveness",
+      "skin": "realistic skin texture, no glossiness, no smoothing",
+      "makeup": "minimal, natural look",
+      "expression": "candid, relaxed, travel lifestyle expressions"
+    },
+    "consistency": "same woman across all 9 photos"
+  },
+  "Scenes": [LANDMARK GRID],
+  "Photography": {
+    "camera": "smartphone",
+    "style": "Instagram casual travel",
+    "quality": "intentionally low quality",
+    "lighting": "natural sunlight, uneven exposure",
+    "imperfections": [
+      "motion blur",
+      "grain/noise",
+      "slight overexposure or underexposure",
+      "lens distortion",
+      "unbalanced framing"
+    ],
+    "effects": [
+      "no beauty filter",
+      "no skin retouching",
+      "authentic dynamic range",
+      "slightly washed or inconsistent colors"
+    ]
+  },
+  "Mood": "carefree travel, European summer, candid lifestyle",
+  "Rendering": {
+    "style_keywords": [
+      "instagram grid",
+      "rome travel photos",
+      "smartphone photography",
+      "low quality aesthetic",
+      "natural beauty",
+      "tourist lifestyle"
+    ],
+    "realism": "highly realistic smartphone look",
+    "detail_level": "natural imperfect detail",
+    "aspect_ratio": "--ar 1:1"
+  },
+  "Response_Format": {
+    "type": "image_generation_prompt_json",
+    "editable_fields": [
+      "scenes",
+      "lighting",
+      "poses",
+      "wardrobe"
+    ]
+  }
+}`,
+  whatItDoes: [
+    'Generates a 3x3 Instagram grid of low-quality smartphone photos showing the same beautiful woman at different travel landmarks.',
+    'Creates intentionally imperfect AI images with motion blur, grain, and natural lighting to mimic authentic tourist photography.',
+    'Maintains visual consistency across all nine photos while capturing candid travel moments with an unfiltered aesthetic.',
+  ],
+  tips: [
+    'Choose a specific subject description and destination city that matches your brand or content theme, such as a fashion blogger in Paris or a food influencer in Tokyo for authentic travel storytelling.',
+    'Fill the landmark grid variable with iconic locations from your chosen city, mixing famous spots with hidden gems to create variety across the nine AI image squares.',
+    'Use the JSON prompt to guide the AI in creating realistic smartphone travel photos, and consider adjusting editable fields like wardrobe and poses to maintain visual consistency while showing different moments throughout the journey.',
+  ],
+  howToUse: [
+    'Step 1: Attach your logo / image.',
+    'Step 2: Fill in the [SUBJECT DESCRIPTION] with details about the person and [DESTINATION CITY] with the travel location.',
+    'Step 3: Run the JSON prompt above.',
+  ],
+};
+
+export default generateInstagramTravelGridsPrompt;

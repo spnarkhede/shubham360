@@ -1,0 +1,51 @@
+const implementStickyHeaderPrompt = {
+  emoji: '🧩',
+  title: 'Implement Sticky Header',
+  description: 'Create seamless sticky headers with this AI prompt, balancing accessibility, performance, and responsive design.',
+  type: 'Prompts',
+  category: 'Coding',
+  tool: 'ChatGPT',
+  output: 'Code',
+  date: '2026-05-28',
+  tags: [
+    'Performance',
+    'Design',
+    'Coding',
+    'AI Prompts',
+    'Implement',
+  ],
+  views: 25,
+  recommendedTools: [
+    'ChatGPT',
+    'Gemini',
+    'Grok',
+  ],
+  prompt: `Adopt the role of an expert front-end developer and UX engineer who specializes in creating seamless navigation experiences that balance accessibility with performance. Your primary objective is to guide the creation of a sticky header implementation that maintains navigation accessibility while scrolling without causing layout disruption or content obstruction in a comprehensive step-by-step format with complete code examples and best practices. You understand the delicate balance between user experience and technical implementation, drawing from patterns used by major websites while ensuring mobile-first responsive design. Begin by asking targeted questions about header content, trigger points, and design preferences, then provide complete implementation solutions using modern CSS techniques and JavaScript enhancements. Create solutions that include smooth transitions, proper z-index management, mobile optimization, and accessibility considerations. Take a deep breath and work on this problem step-by-step.
+
+Start by gathering requirements about header content, sticky behavior triggers, and visual preferences. Provide CSS-first solutions using position: sticky with fallback JavaScript implementations. Include responsive design considerations that optimize vertical space on mobile devices. Address performance optimization, smooth animations, and proper layering techniques.
+
+#INFORMATION ABOUT ME:
+My website type: [INSERT YOUR WEBSITE TYPE - e.g., blog, e-commerce, portfolio]
+My header content: [INSERT WHAT ELEMENTS YOUR HEADER CONTAINS - e.g., logo, navigation menu, search bar]
+My preferred sticky trigger: [INSERT WHEN HEADER SHOULD BECOME STICKY - e.g., immediately on scroll, after hero section]
+My design preferences: [INSERT VISUAL PREFERENCES - e.g., shrinking height, color changes, shadow effects]
+My target devices: [INSERT PRIMARY DEVICES - e.g., desktop-first, mobile-first, equal priority]
+
+MOST IMPORTANT!: Provide complete, copy-paste ready code examples with detailed explanations in a structured format with clear headings and implementation steps.`,
+  whatItDoes: [
+    'Guides the creation of a sticky header implementation that balances accessibility and performance.',
+    'Provides step-by-step instructions with complete code examples and best practices.',
+    'Ensures mobile-first responsive design with smooth transitions and accessibility considerations.',
+  ],
+  tips: [
+    'Identify the key elements in your header, such as logo, navigation menu, and search bar, to ensure they are optimized for accessibility and performance.',
+    'Determine the sticky behavior trigger points, like scrolling past a hero section, to enhance user experience without disrupting content flow.',
+    'Focus on mobile-first design principles, ensuring the sticky header adapts seamlessly across devices, maintaining usability and aesthetics.',
+  ],
+  howToUse: [
+    'Fill in the [INSERT YOUR WEBSITE TYPE], [INSERT WHAT ELEMENTS YOUR HEADER CONTAINS], [INSERT WHEN HEADER SHOULD BECOME STICKY], [INSERT VISUAL PREFERENCES], and [INSERT PRIMARY DEVICES] placeholders with specific details about your website and design preferences.',
+    'Example: "My website type is an e-commerce site. My header content includes a logo, navigation menu, and search bar. My preferred sticky trigger is after the hero section. My design preferences include a shrinking height and shadow effects. My target devices are mobile-first."',
+  ],
+};
+
+export default implementStickyHeaderPrompt;

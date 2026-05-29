@@ -1,0 +1,49 @@
+const resolveConcurrencyIssuePrompt = {
+  emoji: '🔄',
+  title: 'Resolve Concurrency Issue',
+  description: 'Identify and resolve concurrency issues with this AI prompt, using systematic analysis and safer pattern recommendations.',
+  type: 'Prompts',
+  category: 'Coding',
+  tool: 'ChatGPT',
+  output: 'Code',
+  date: '2026-05-28',
+  tags: [
+    'Performance',
+    'Coding',
+    'AI Prompts',
+    'Resolve',
+    'Concurrency',
+  ],
+  views: 13,
+  recommendedTools: [
+    'ChatGPT',
+    'Gemini',
+    'Claude',
+  ],
+  prompt: `Adopt the role of an expert concurrency analysis specialist who combines deep theoretical knowledge from "The Art of Multiprocessor Programming" with practical debugging experience across enterprise systems. Your primary objective is to systematically identify and resolve concurrency issues including deadlocks, livelocks, and thread starvation through comprehensive code analysis and safer pattern recommendations in a detailed diagnostic report format. You should apply Herlihy and Shavit's systematic approaches including lock ordering analysis, resource allocation graph construction, and wait-free algorithm evaluation to examine the provided code. Begin by analyzing locking patterns and thread coordination mechanisms, then identify circular dependencies and potential deadlock scenarios, detect livelock conditions where threads continuously change state without progress, and assess thread starvation risks where threads are perpetually denied resources. After identifying issues, recommend safer concurrency patterns such as immutable data structures, message passing architectures, lock-free algorithms, or actor model implementations that eliminate synchronization problems entirely. Take a deep breath and work on this problem step-by-step.
+
+#INFORMATION ABOUT ME:
+My multi-threaded code: [INSERT YOUR MULTI-THREADED CODE OR CODE SNIPPETS]
+My execution context details: [DESCRIBE THE RUNTIME ENVIRONMENT, THREAD COUNTS, AND SYSTEM CONSTRAINTS]
+My current concurrency framework: [INSERT THE CONCURRENCY FRAMEWORK OR LIBRARIES YOU'RE USING]
+My performance requirements: [DESCRIBE THROUGHPUT, LATENCY, AND SCALABILITY REQUIREMENTS]
+My specific concurrency concerns: [INSERT ANY SPECIFIC ISSUES OR SYMPTOMS YOU'VE OBSERVED]
+
+MOST IMPORTANT!: Structure your analysis with clear sections including Issue Detection, Risk Assessment, Root Cause Analysis, and Recommended Solutions. Use bullet points for findings and provide code examples for suggested improvements.`,
+  whatItDoes: [
+    'Identifies and resolves concurrency issues such as deadlocks, livelocks, and thread starvation.',
+    'Analyzes locking patterns and thread coordination mechanisms to detect potential problems.',
+    'Recommends safer concurrency patterns to eliminate synchronization issues.',
+  ],
+  tips: [
+    'Clearly define the specific concurrency concerns you have observed to help tailor the analysis to your needs.',
+    'Ensure you provide detailed execution context details, including runtime environment and system constraints, to facilitate accurate issue detection and risk assessment.',
+    'Regularly update your concurrency framework and libraries to incorporate the latest improvements and best practices in concurrency management.',
+  ],
+  howToUse: [
+    'Fill in the [INSERT YOUR MULTI-THREADED CODE OR CODE SNIPPETS], [DESCRIBE THE RUNTIME ENVIRONMENT, THREAD COUNTS, AND SYSTEM CONSTRAINTS], [INSERT THE CONCURRENCY FRAMEWORK OR LIBRARIES YOU\'RE USING], [DESCRIBE THROUGHPUT, LATENCY, AND SCALABILITY REQUIREMENTS], and [INSERT ANY SPECIFIC ISSUES OR SYMPTOMS YOU\'VE OBSERVED] placeholders with your specific code, environment, and concerns.',
+    'Example: "My multi-threaded code involves a banking application with multiple threads handling transactions. The runtime environment is a Java-based server with 8 threads and limited memory. We use Java\'s concurrency utilities. Our performance requirements include high throughput and low latency. We have observed occasional deadlocks during peak transaction times."',
+  ],
+};
+
+export default resolveConcurrencyIssuePrompt;

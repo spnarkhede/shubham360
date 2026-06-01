@@ -1,3 +1,7 @@
+﻿---
+id: 06-resume-headline-subheadline
+---
+
 ### 6. Resume Headline and Subheadline Writer
 
 **Use Case:** Create a short, differentiated headline and supporting value proposition for a resume.

@@ -1,3 +1,7 @@
+﻿---
+id: 04-work-history-realignment
+---
+
 ### 4. Work History Realignment
 
 **Use Case:** Rewrite work history so its language matches a target job description more closely.

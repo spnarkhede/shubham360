@@ -1,3 +1,7 @@
+﻿---
+id: 05-technical-skills-section-builder
+---
+
 ### 5. Technical Skills Section Builder
 
 **Use Case:** Build a strong technical skills section from a short experience summary.

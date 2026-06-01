@@ -1,3 +1,7 @@
+﻿---
+id: 01-professional-summary-rewrite
+---
+
 ### 1. Professional Summary Rewrite
 
 **Use Case:** Rewrite a resume summary so it is concise, relevant, and aligned to a target role.

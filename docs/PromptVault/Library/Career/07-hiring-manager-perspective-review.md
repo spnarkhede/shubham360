@@ -1,3 +1,7 @@
+﻿---
+id: 07-hiring-manager-perspective-review
+---
+
 ### 7. Hiring Manager Perspective Review
 
 **Use Case:** Evaluate a resume from the perspective of a hiring manager in a target industry.

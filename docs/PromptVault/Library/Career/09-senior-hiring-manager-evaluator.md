@@ -1,3 +1,7 @@
+﻿---
+id: 09-senior-hiring-manager-evaluator
+---
+
 ### 9. Senior Hiring Manager Evaluator
 
 **Use Case:** Understand what an exceptional candidate looks like for a role by simulating a senior hiring manager review.

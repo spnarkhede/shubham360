@@ -1,3 +1,7 @@
+﻿---
+id: 11-ats-friendly-resume-creator
+---
+
 ### 11. ATS Friendly Resume Creator
 
 **Use Case:** Run deep keyword extraction, resume audit, and resume-plus-cover-letter optimization in one workflow.

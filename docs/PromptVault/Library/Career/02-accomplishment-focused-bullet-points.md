@@ -1,3 +1,7 @@
+﻿---
+id: 02-accomplishment-focused-bullet-points
+---
+
 ### 2. Accomplishment-Focused Bullet Points
 
 **Use Case:** Turn responsibility-heavy resume bullets into measurable impact statements.

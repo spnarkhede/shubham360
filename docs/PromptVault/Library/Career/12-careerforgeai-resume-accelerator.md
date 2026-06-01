@@ -1,3 +1,7 @@
+﻿---
+id: 12-careerforgeai-resume-accelerator
+---
+
 ### 12. CareerForgeAI Resume Accelerator
 
 **Use Case:** Get an end-to-end career application workflow including optimized resume, cover letter, and follow-up strategy.

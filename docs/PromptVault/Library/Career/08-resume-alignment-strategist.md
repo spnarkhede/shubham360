@@ -1,3 +1,7 @@
+﻿---
+id: 08-resume-alignment-strategist
+---
+
 ### 8. Resume Alignment Strategist
 
 **Use Case:** Truthfully align a resume to a job description using match tables and clarifying questions.

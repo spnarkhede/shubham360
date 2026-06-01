@@ -1,3 +1,7 @@
+﻿---
+id: 03-resume-format-layout-optimization
+---
+
 ### 3. Resume Format and Layout Optimization
 
 **Use Case:** Restructure a resume to be modern, scannable, and weighted toward the most relevant experience.

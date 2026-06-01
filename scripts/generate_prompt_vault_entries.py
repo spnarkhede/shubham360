@@ -317,12 +317,41 @@ def parse_sections() -> tuple[list[PromptSection], list[str]]:
     lines = README_PATH.read_text(encoding='utf-8').splitlines()
     existing_files = sorted(path.name for path in ENTRIES_DIR.glob('*.prompt.js'))
     copy_indexes = [index for index, line in enumerate(lines) if line.strip() == 'Copy prompt']
+    # Precompute section separator positions to bound backward searches
+    separator_indexes = [index for index, line in enumerate(lines) if line.strip() == '---']
     sections: list[PromptSection] = []
 
     for copy_index in copy_indexes:
+        # Find the '---' separator immediately before this copy_index to act as a lower bound
+        section_lower_bound = 0
+        for sep in separator_indexes:
+            if sep < copy_index:
+                section_lower_bound = sep
+            else:
+                break
+
         prompt_index = find_previous_exact(lines, copy_index - 1, 'Prompt')
-        recommended_index = find_previous_exact(lines, prompt_index - 1, 'Recommended tools')
-        views_index = prev_nonblank(lines, recommended_index - 1)
+
+        # Try to find 'Recommended tools' only within the current section boundary
+        recommended_index = -1
+        for idx in range(prompt_index - 1, section_lower_bound - 1, -1):
+            if lines[idx].strip() == 'Recommended tools':
+                recommended_index = idx
+                break
+
+        if recommended_index != -1:
+            # Normal path: section has a 'Recommended tools' block
+            views_index = prev_nonblank(lines, recommended_index - 1)
+            recommended_tools = [
+                lines[index].strip()
+                for index in range(recommended_index + 1, prompt_index)
+                if lines[index].strip()
+            ]
+        else:
+            # No 'Recommended tools' line — views sits immediately before 'Prompt'
+            views_index = prev_nonblank(lines, prompt_index - 1)
+            recommended_tools = []
+
         description_index = prev_nonblank(lines, views_index - 1)
         title_index = prev_nonblank(lines, description_index - 1)
         emoji_index = prev_nonblank(lines, title_index - 1)
@@ -330,12 +359,6 @@ def parse_sections() -> tuple[list[PromptSection], list[str]]:
         views_match = re.search(r'(\d+)\s+views', lines[views_index], re.IGNORECASE)
         if not views_match:
             raise ValueError(f'Could not parse views from line {views_index + 1}: {lines[views_index]!r}')
-
-        recommended_tools = [
-            lines[index].strip()
-            for index in range(recommended_index + 1, prompt_index)
-            if lines[index].strip()
-        ]
 
         sections.append(
             PromptSection(

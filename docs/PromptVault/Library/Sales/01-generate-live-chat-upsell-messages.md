@@ -1,16 +1,8 @@
----
-sidebar_label: Sales
-sidebar_position: 1
-title: Sales Prompts
-description: 1 prompts in the Sales category
+﻿---
+id: 01-generate-live-chat-upsell-messages
 ---
 
-# Sales Prompts
-
-> 1 prompts in this category.
-
----
-## 🪜 Generate Live Chat Upsell Messages
+## ðŸªœ Generate Live Chat Upsell Messages
 
 | Field | Value |
 |---|---|

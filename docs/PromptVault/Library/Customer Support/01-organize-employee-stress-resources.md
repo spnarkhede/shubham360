@@ -1,16 +1,8 @@
----
-sidebar_label: Customer Support
-sidebar_position: 1
-title: Customer Support Prompts
-description: 1 prompts in the Customer Support category
+﻿---
+id: 01-organize-employee-stress-resources
 ---
 
-# Customer Support Prompts
-
-> 1 prompts in this category.
-
----
-## 📋 Organize Employee Stress Resources
+## ðŸ“‹ Organize Employee Stress Resources
 
 | Field | Value |
 |---|---|

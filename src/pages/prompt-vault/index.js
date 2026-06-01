@@ -11,7 +11,7 @@ const CATEGORIES = [
   'All', 'Architecture', 'Art', 'Business', 'Coding', 'Customer Service',
   'Design', 'E-Commerce', 'Education', 'Finance', 'Human Resources',
   'Lawyers', 'Marketing', 'Photography', 'Productivity', 'Real Estate',
-  'Sales', 'SEO', 'Solopreneurs', 'Writing',
+  'Sales', 'SEO', 'Solopreneurs', 'Technology', 'Writing',
 ];
 
 const TOOLS = ['All tools', 'ChatGPT', 'Claude', 'DeepSeek', 'Gemini', 'Grok', 'Midjourney', 'Nano Banana'];

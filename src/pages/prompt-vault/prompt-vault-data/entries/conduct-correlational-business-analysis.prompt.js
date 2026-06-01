@@ -1,0 +1,106 @@
+const conductCorrelationalBusinessAnalysisPrompt = {
+  emoji: '📊',
+  title: 'Conduct Correlational Business Analysis',
+  description: 'Conduct a comprehensive study on goal-setting and business success with this ChatGPT mega-prompt, analyzing correlations, metrics, and actionable insights for your industry.',
+  type: 'Prompts',
+  category: 'Coding',
+  tool: 'ChatGPT',
+  output: 'Code',
+  date: '2026-05-28',
+  tags: [
+    'Coding',
+    'Productivity',
+    'Goal Setting & Tracking',
+    'Conduct',
+    'Correlational',
+  ],
+  views: 9,
+  recommendedTools: [
+    'ChatGPT',
+    'Claude',
+    'DeepSeek',
+  ],
+  prompt: `#CONTEXT:
+Adopt the role of an expert researcher and analyst specializing in correlational studies between goal-setting practices and business success. Your task is to help the user conduct a comprehensive study on the relationship between goal-setting frequency and business success rates in a given industry.
+
+#ROLE:
+You are an expert researcher and analyst specializing in correlational studies between goal-setting practices and business success.
+
+#RESPONSE GUIDELINES:
+Conduct a comprehensive study and analysis, adhering to the following structure:
+
+1. Specify the industry being studied
+2. List the data sources used for the analysis 
+3. Provide a correlation analysis, including:
+   - Goal-setting frequency metric
+   - Business success metric
+   - Correlation coefficient
+   - P-value for statistical significance
+4. Determine the optimal goal-setting interval based on the analysis
+5. List goal-setting best practices identified from the study
+6. Provide a data-driven recommendation summarizing the key findings and actionable insights
+
+Ensure all relevant sources are cited throughout the analysis.
+
+#TASK CRITERIA:
+1. Focus on empirical data and statistical analysis to draw conclusions
+2. Identify specific, measurable metrics for goal-setting frequency and business success
+3. Provide actionable recommendations based on the findings
+4. Cite all relevant data sources used in the analysis
+5. Avoid speculation or unsupported claims
+
+#INFORMATION ABOUT ME:
+- Industry to be studied: [INDUSTRY]
+- Data source 1: [DATA_SOURCE_1]
+- Data source 2: [DATA_SOURCE_2] 
+- Data source 3: [DATA_SOURCE_3]
+
+#RESPONSE FORMAT:
+Industry: [INDUSTRY]
+
+Data Sources:
+1. [DATA_SOURCE_1]
+2. [DATA_SOURCE_2]
+3. [DATA_SOURCE_3]
+
+Correlation Analysis:
+- Goal-setting frequency metric: [GOAL_SETTING_FREQUENCY_METRIC]
+- Business success metric: [BUSINESS_SUCCESS_METRIC]
+- Correlation coefficient: [CORRELATION_COEFFICIENT]
+- P-value: [P_VALUE]
+
+Optimal Goal-Setting Interval: [OPTIMAL_INTERVAL]
+
+Goal-Setting Best Practices:
+1. [BEST_PRACTICE_1]
+2. [BEST_PRACTICE_2] 
+3. [BEST_PRACTICE_3]
+
+Recommendation:
+Based on the analysis of data from [DATA_SOURCE_1], [DATA_SOURCE_2], and [DATA_SOURCE_3], there is a [CORRELATION_COEFFICIENT] correlation (p=[P_VALUE]) between [GOAL_SETTING_FREQUENCY_METRIC] and [BUSINESS_SUCCESS_METRIC] in the [INDUSTRY] industry.
+
+The optimal goal-setting interval appears to be [OPTIMAL_INTERVAL].
+
+Recommended goal-setting best practices include:
+1. [BEST_PRACTICE_1]
+2. [BEST_PRACTICE_2]
+3. [BEST_PRACTICE_3]
+
+In conclusion, businesses in the [INDUSTRY] industry should aim to set goals every [OPTIMAL_INTERVAL] and adopt the recommended best practices to maximize their chances of success.`,
+  whatItDoes: [
+    'Converts user input into a structured research analysis on the correlation between goal-setting practices and business success.',
+    'Provides a detailed correlation analysis including metrics, correlation coefficient, and statistical significance.',
+    'Offers actionable recommendations based on empirical data and best practices in goal-setting.',
+  ],
+  tips: [
+    'Utilize advanced statistical software like SPSS or R for the correlation analysis to ensure accuracy in calculating the correlation coefficient and p-value, enhancing the reliability of your findings.',
+    'Engage with industry experts to validate the goal-setting frequency metrics and business success metrics used in your study, ensuring they are relevant and widely accepted within the industry.',
+    'Develop a comprehensive dissemination plan for your study\'s findings, including academic publications, industry conferences, and webinars, to maximize the impact and reach of your actionable recommendations.',
+  ],
+  howToUse: [
+    'Fill in the [INDUSTRY], [DATA_SOURCE_1], [DATA_SOURCE_2], and [DATA_SOURCE_3] placeholders with specific details about the industry you are studying and the data sources you will use. For example, specify the industry as "Retail" and list the data sources such as "U.S. Bureau of Labor Statistics", "Retail Industry Analytics Report 2023", and "National Retail Federation Studies".',
+    'Example: If you are studying the retail industry, you might fill in the placeholders as follows: [INDUSTRY] with "Retail", [DATA_SOURCE_1] with "U.S. Bureau of Labor Statistics", [DATA_SOURCE_2] with "Retail Industry Analytics Report 2023", and [DATA_SOURCE_3] with "National Retail Federation Studies". This will tailor the analysis to focus specifically on retail, utilizing these authoritative data sources.',
+  ],
+};
+
+export default conductCorrelationalBusinessAnalysisPrompt;

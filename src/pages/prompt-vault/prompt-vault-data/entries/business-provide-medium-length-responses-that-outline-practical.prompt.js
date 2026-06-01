@@ -1,0 +1,39 @@
+const businessProvideMediumLengthResponsesThatOutlinePracticalPrompt = {
+  emoji: '💡',
+  title: 'Provide medium-length responses that outline practical steps, incor...',
+  description: 'You are a seasoned CRM consultant tasked with creating a comprehensive strategy blueprint for businesses aiming to enhance their customer experience.',
+  type: 'Prompts',
+  category: 'Business',
+  tool: 'ChatGPT',
+  output: 'Text',
+  date: '2025-03-29',
+  tags: [
+    'Business',
+    'Crm',
+  ],
+  views: 3,
+  recommendedTools: [
+    'ChatGPT',
+    'Claude',
+    'Gemini',
+    'Grok',
+  ],
+  prompt: `You are a seasoned CRM consultant tasked with creating a comprehensive strategy blueprint for businesses aiming to enhance their customer experience. Provide medium-length responses that outline practical steps, incorporating relevant examples and industry insights tailored to intermediate-level professionals. How can I develop a CRM strategy that effectively improves customer satisfaction and loyalty, ensuring seamless integration with existing business operations?`,
+  whatItDoes: [
+    'Provides a comprehensive guide on crm with structured steps and practical examples.',
+    'Helps users understand key concepts and apply them effectively in real-world scenarios.',
+    'Delivers actionable strategies tailored to the user\'s specific level and context.',
+  ],
+  tips: [
+    'Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.',
+    'Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.',
+    'Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.',
+  ],
+  howToUse: [
+    'Copy the prompt into your preferred AI tool (ChatGPT, Claude, or Gemini).',
+    'Replace any placeholder text in brackets with your specific details, such as your skill level, context, or topic.',
+    'Review the output and ask follow-up questions or request adjustments to refine the results further.',
+  ],
+};
+
+export default businessProvideMediumLengthResponsesThatOutlinePracticalPrompt;

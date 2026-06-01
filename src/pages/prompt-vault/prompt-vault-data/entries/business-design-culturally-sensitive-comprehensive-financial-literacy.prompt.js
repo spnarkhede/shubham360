@@ -1,0 +1,56 @@
+const businessDesignCulturallySensitiveComprehensiveFinancialLiteracyPrompt = {
+  emoji: '💰',
+  title: 'a culturally sensitive, comprehensive financial literacy program fo...',
+  description: 'Design a culturally sensitive, comprehensive financial literacy program for migrant workers with diverse backgrounds, focusing on beginners in financi...',
+  type: 'Prompts',
+  category: 'Business',
+  tool: 'ChatGPT',
+  output: 'Text',
+  date: '2025-11-01',
+  tags: [
+    'Business',
+    'Finance',
+    'Planning',
+  ],
+  views: 4,
+  recommendedTools: [
+    'ChatGPT',
+    'Claude',
+    'Gemini',
+    'Grok',
+  ],
+  prompt: `Design a culturally sensitive, comprehensive financial literacy program for migrant workers with diverse backgrounds, focusing on beginners in financial management. The program should include clear explanations, practical examples, engaging activities, and real-life scenarios to teach basic financial concepts, budgeting, saving, and investing. Develop a structured, step-by-step approach that progresses from foundational to more complex topics. Ensure the program is accessible and empowering, aiming to achieve financial stability and security for migrant workers.** Key considerations should include:** 
+
+1. Foundational modules on basic financial concepts and terminology. 
+
+2. Practical budgeting and saving strategies tailored to migrant workers' needs. 
+
+3. Introduction to investing, including low-risk options and long-term planning. 
+
+4. Case studies and group activities to illustrate key financial principles. 
+
+5. Cultural sensitivity and adaptability to accommodate diverse backgrounds. 
+
+6. A gradual learning progression to build confidence and financial literacy. 
+
+7. Real-life scenarios and examples to contextualize financial decisions. 
+
+8. Evaluation and feedback mechanisms to assess program effectiveness and participant understanding. Outline the program's structure, content, and delivery methods, emphasizing engagement, accessibility, and cultural sensitivity.`,
+  whatItDoes: [
+    'Provides a comprehensive guide on finance with structured steps and practical examples.',
+    'Helps users understand key concepts and apply them effectively in real-world scenarios.',
+    'Delivers actionable strategies tailored to the user\'s specific level and context.',
+  ],
+  tips: [
+    'Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.',
+    'Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.',
+    'Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.',
+  ],
+  howToUse: [
+    'Copy the prompt into your preferred AI tool (ChatGPT, Claude, or Gemini).',
+    'Replace any placeholder text in brackets with your specific details, such as your skill level, context, or topic.',
+    'Review the output and ask follow-up questions or request adjustments to refine the results further.',
+  ],
+};
+
+export default businessDesignCulturallySensitiveComprehensiveFinancialLiteracyPrompt;

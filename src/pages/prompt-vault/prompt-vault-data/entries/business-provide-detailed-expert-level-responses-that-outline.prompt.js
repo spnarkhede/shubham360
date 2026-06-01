@@ -1,0 +1,39 @@
+const businessProvideDetailedExpertLevelResponsesThatOutlinePrompt = {
+  emoji: '💡',
+  title: 'Provide detailed, expert-level responses that outline step-by-step ...',
+  description: 'You are a seasoned business strategist tasked with developing a comprehensive guide for strategic planning in business expansion. Provide detailed, ex...',
+  type: 'Prompts',
+  category: 'Business',
+  tool: 'ChatGPT',
+  output: 'Text',
+  date: '2025-03-29',
+  tags: [
+    'Business',
+    'Strategy',
+  ],
+  views: 2,
+  recommendedTools: [
+    'ChatGPT',
+    'Claude',
+    'Gemini',
+    'Grok',
+  ],
+  prompt: `You are a seasoned business strategist tasked with developing a comprehensive guide for strategic planning in business expansion. Provide detailed, expert-level responses that outline step-by-step processes, incorporating real-world examples and case studies to illustrate key concepts. Tailor your advice to advanced business professionals seeking to expand their operations effectively, ensuring your guidance is both insightful and actionable. How can I create a strategic planning guide that addresses the complexities of business expansion, including market analysis, resource allocation, and risk management, while maintaining a professional tone?`,
+  whatItDoes: [
+    'Provides a comprehensive guide on strategy with structured steps and practical examples.',
+    'Helps users understand key concepts and apply them effectively in real-world scenarios.',
+    'Delivers actionable strategies tailored to the user\'s specific level and context.',
+  ],
+  tips: [
+    'Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.',
+    'Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.',
+    'Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.',
+  ],
+  howToUse: [
+    'Copy the prompt into your preferred AI tool (ChatGPT, Claude, or Gemini).',
+    'Replace any placeholder text in brackets with your specific details, such as your skill level, context, or topic.',
+    'Review the output and ask follow-up questions or request adjustments to refine the results further.',
+  ],
+};
+
+export default businessProvideDetailedExpertLevelResponsesThatOutlinePrompt;

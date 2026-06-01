@@ -348,6 +348,12 @@ best practices:
   permalink: /best-practices
   description: Best practices in tech, AI, and productivity.
 
+software architecture:
+  label: Software Architecture
+  permalink: /software-architecture
+  description: Design patterns, principles, and decisions behind scalable software systems.
+
+
 automotive:
   label: Automotive
   permalink: /automotive

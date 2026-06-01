@@ -1,5 +1,7 @@
 # LinkedIn 
 
+``````text
+
 
 ## 1. LinkedIn Optimization Prompts
 
@@ -931,6 +933,7 @@ This is the prompt I get the most pushback on. People want to fix the profile an
 
 
 
+`````text
 Here are 5 steps to optimize LinkedIn profile using ChatGPT prompts
 
 Step 1: Help me optimize my LinkedIn profile headline
@@ -1781,6 +1784,8 @@ Prompt:
 
 
 
+`````
+
 You install Claude Code and stop there.
 
 Here are 24 things (actually) worth adding:
@@ -1871,3 +1876,4 @@ Install → https://lnkd.in/eUS4cxjs (22k★)
 Save this. Come back when you set up Claude Code properly.
 
 Repost ♻️ to help someone in your network.
+``````

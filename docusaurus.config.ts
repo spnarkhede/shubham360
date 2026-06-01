@@ -102,6 +102,7 @@ const config: Config = {
           exclude: [
             '**/prompt-vault/prompt-vault-data/**',
             '**/prompt-vault/promptVaultData.js',
+            '**/prompt-vault/_promptVaultData.js',
           ],
         },
         theme: {

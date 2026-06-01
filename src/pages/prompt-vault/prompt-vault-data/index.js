@@ -22,7 +22,7 @@ function normalizePrompt(prompt, index) {
 
 const folderPrompts = getFolderPrompts();
 const merged = [...folderPrompts]
-  .filter((prompt, index, arr) => arr.findIndex((p) => p.title === prompt.title) === index)
+  .filter((prompt, index, arr) => arr.findIndex((p) => p.prompt === prompt.prompt) === index)
   .map(normalizePrompt)
   .sort((a, b) => new Date(b.date) - new Date(a.date));
 

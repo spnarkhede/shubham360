@@ -1,3 +1,7 @@
+﻿---
+id: 03-affirmation-and-growth
+---
+
 ### 3. Affirmation and Growth
 
 **Use Case:** Combine confidence-building reflection with practical self-improvement actions.

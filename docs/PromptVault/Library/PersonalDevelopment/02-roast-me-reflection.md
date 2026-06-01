@@ -1,3 +1,7 @@
+﻿---
+id: 02-roast-me-reflection
+---
+
 ### 2. Roast Me Reflection
 
 **Use Case:** Use humor and directness to expose habits and generate practical next actions.

@@ -1,3 +1,7 @@
+﻿---
+id: 01-resume-destroyer
+---
+
 ### 1. Resume Destroyer
 
 **Use Case:** Get brutally direct resume critique with concrete rewrite guidance.

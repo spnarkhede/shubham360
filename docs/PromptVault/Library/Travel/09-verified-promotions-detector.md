@@ -1,3 +1,7 @@
+﻿---
+id: 09-verified-promotions-detector
+---
+
 ### 9. Verified Promotions Detector
 
 **Use Case:** Validate airline promotions against trusted sources before purchase.

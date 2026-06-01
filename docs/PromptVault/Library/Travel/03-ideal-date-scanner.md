@@ -1,3 +1,7 @@
+﻿---
+id: 03-ideal-date-scanner
+---
+
 ### 3. Ideal Date Scanner
 
 **Use Case:** Identify the lowest-cost departure and return combinations in a flexible date window.

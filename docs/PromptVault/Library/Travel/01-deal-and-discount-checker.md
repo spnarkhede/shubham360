@@ -1,3 +1,7 @@
+﻿---
+id: 01-deal-and-discount-checker
+---
+
 ### 1. Deal and Discount Checker
 
 **Use Case:** Find valid flight promo codes and remove fake or expired offers.

@@ -1,3 +1,7 @@
+﻿---
+id: 05-fee-breakdown-and-reduction
+---
+
 ### 5. Fee Breakdown and Reduction Plan
 
 **Use Case:** Understand and reduce ancillary airline charges before booking.

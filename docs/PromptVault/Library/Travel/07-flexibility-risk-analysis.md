@@ -1,3 +1,7 @@
+﻿---
+id: 07-flexibility-risk-analysis
+---
+
 ### 7. Flexibility and Risk Analysis
 
 **Use Case:** Compare change/cancellation policies to choose the safest booking option.

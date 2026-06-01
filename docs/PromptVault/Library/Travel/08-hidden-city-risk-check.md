@@ -1,3 +1,7 @@
+﻿---
+id: 08-hidden-city-risk-check
+---
+
 ### 8. Hidden-City Risk Check
 
 **Use Case:** Assess whether hidden-city booking is worth the legal and operational risk.

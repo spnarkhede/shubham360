@@ -1,3 +1,7 @@
+﻿---
+id: 02-hidden-flight-finder
+---
+
 ### 2. Hidden Flight Finder
 
 **Use Case:** Discover lower-cost routes including less obvious carriers and connections.

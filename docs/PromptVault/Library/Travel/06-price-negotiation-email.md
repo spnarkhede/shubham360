@@ -1,3 +1,7 @@
+﻿---
+id: 06-price-negotiation-email
+---
+
 ### 6. Price Negotiation Email
 
 **Use Case:** Draft an airline price-match request with strong supporting context.

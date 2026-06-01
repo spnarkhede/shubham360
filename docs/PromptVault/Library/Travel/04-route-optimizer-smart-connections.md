@@ -1,3 +1,7 @@
+﻿---
+id: 04-route-optimizer-smart-connections
+---
+
 ### 4. Route Optimizer with Smart Connections
 
 **Use Case:** Find affordable connecting routes while controlling layover and transit risk.

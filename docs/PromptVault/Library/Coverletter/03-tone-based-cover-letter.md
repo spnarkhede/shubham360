@@ -1,3 +1,7 @@
+﻿---
+id: 03-tone-based-cover-letter
+---
+
 ### 3. Tone-Based Cover Letter
 
 **Use Case:** Adapt a cover letter tone to match company culture and hiring context.

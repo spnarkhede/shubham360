@@ -1,3 +1,7 @@
+﻿---
+id: 06-entry-level-and-career-change-cover-letter
+---
+
 ### 6. Entry-Level and Career Change Cover Letter
 
 **Use Case:** Write a cover letter for a first role or a role change by emphasizing transferable strengths.

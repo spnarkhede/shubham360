@@ -1,3 +1,7 @@
+﻿---
+id: 04-storytelling-cover-letter
+---
+
 ### 4. Storytelling Cover Letter
 
 **Use Case:** Use personal narrative to make a cover letter more memorable while staying role-relevant.

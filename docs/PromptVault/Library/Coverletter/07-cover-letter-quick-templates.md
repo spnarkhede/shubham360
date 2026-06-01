@@ -1,3 +1,7 @@
+﻿---
+id: 07-cover-letter-quick-templates
+---
+
 ### 7. Cover Letter Quick Templates
 
 **Use Case:** Generate several fast cover letter variants for different tone and structure preferences.

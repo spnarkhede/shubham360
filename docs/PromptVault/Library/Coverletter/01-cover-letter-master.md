@@ -1,3 +1,7 @@
+﻿---
+id: 01-cover-letter-master
+---
+
 ### 1. Cover Letter Master
 
 **Use Case:** Write a complete, story-driven cover letter aligned to one specific role.

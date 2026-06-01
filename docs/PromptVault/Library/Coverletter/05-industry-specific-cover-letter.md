@@ -1,3 +1,7 @@
+﻿---
+id: 05-industry-specific-cover-letter
+---
+
 ### 5. Industry-Specific Cover Letter
 
 **Use Case:** Tailor a cover letter to the expectations and language of a specific industry.

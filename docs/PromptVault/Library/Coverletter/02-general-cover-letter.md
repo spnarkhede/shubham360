@@ -1,3 +1,7 @@
+﻿---
+id: 02-general-cover-letter
+---
+
 ### 2. General Cover Letter
 
 **Use Case:** Generate a clean and professional cover letter draft quickly from resume details.

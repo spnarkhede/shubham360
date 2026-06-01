@@ -2350,22 +2350,89 @@
             |-- index.js
             |-- prompt-vault-data
                 |-- entries
+                    |-- access-professional-counseling-services-if-needed.prompt.js
                     |-- achieve-anything-with-cognitive-behavioral-techniques.prompt.js
+                    |-- achieve-career-growth-roadmaps.prompt.js
+                    |-- achieve-clear-action-plans.prompt.js
+                    |-- achieve-long-term-goals-successfully.prompt.js
+                    |-- achieve-sustainable-wealth-strategies.prompt.js
+                    |-- achieve-your-2025-action-plan.prompt.js
+                    |-- activate-your-state-of-flow.prompt.js
                     |-- adapt-business-processes-across-industries.prompt.js
                     |-- adapt-knowledge-base-to-new-markets.prompt.js
+                    |-- adopt-agile-methodology-in-projects.prompt.js
+                    |-- adopt-agile-project-management.prompt.js
+                    |-- adopt-pomodoro-technique.prompt.js
+                    |-- adopt-the-deep-work-philosophy.prompt.js
+                    |-- adopt-the-eat-that-frog-technique-daily.prompt.js
+                    |-- align-work-with-ultradian-rhythm-work-cycles.prompt.js
+                    |-- analyze-and-improve-error-messages.prompt.js
+                    |-- analyze-api-integration-roadmaps.prompt.js
+                    |-- analyze-class-structure.prompt.js
+                    |-- analyze-code-cohesion.prompt.js
+                    |-- analyze-code-intent.prompt.js
+                    |-- analyze-code-naming-choices.prompt.js
+                    |-- analyze-code-performance-bottlenecks.prompt.js
+                    |-- analyze-code-smells.prompt.js
+                    |-- analyze-compiler-configurations.prompt.js
                     |-- analyze-consequences-of-strategic-decisions.prompt.js
+                    |-- analyze-current-workflow-processes.prompt.js
                     |-- analyze-customer-churn-risks.prompt.js
                     |-- analyze-customer-sentiment-from-feedback.prompt.js
+                    |-- analyze-data-flow.prompt.js
+                    |-- analyze-dead-codebases.prompt.js
+                    |-- analyze-design-architecture.prompt.js
+                    |-- analyze-error-handling-patterns.prompt.js
+                    |-- analyze-function-code-purposes.prompt.js
+                    |-- analyze-loop-behavior.prompt.js
+                    |-- analyze-loop-optimization-opportunities.prompt.js
+                    |-- analyze-memory-leaks.prompt.js
+                    |-- analyze-performance-bottlenecks.prompt.js
+                    |-- analyze-software-architecture.prompt.js
+                    |-- analyze-sql-query-performances.prompt.js
                     |-- analyze-subscription-cancellation-requests.prompt.js
                     |-- analyze-vibe-code-quality.prompt.js
+                    |-- analyze-workout-performance-data.prompt.js
+                    |-- apply-creative-brainstorming-techniques.prompt.js
+                    |-- apply-eisenhower-matrix-to-tasks.prompt.js
+                    |-- apply-getting-things-done-system.prompt.js
+                    |-- apply-lean-principles-to-processes.prompt.js
+                    |-- apply-lean-workflow-techniques.prompt.js
+                    |-- apply-scamper-technique-for-creativity.prompt.js
+                    |-- apply-six-sigma-techniques-to-processes.prompt.js
+                    |-- apply-the-eisenhower-matrix-to-tasks.prompt.js
+                    |-- apply-weighted-shortest-job-first-wsjf-method.prompt.js
                     |-- assess-business-opportunities-for-viability.prompt.js
+                    |-- attend-personal-growth-seminars.prompt.js
+                    |-- attend-resilience-training-workshops.prompt.js
+                    |-- attend-time-management-workshop.prompt.js
                     |-- audit-knowledge-base-article-accuracy.prompt.js
+                    |-- automate-business-processes.prompt.js
+                    |-- automate-code-quality-systems.prompt.js
+                    |-- automate-communication-reports.prompt.js
+                    |-- automate-csv-deduplication-processes.prompt.js
+                    |-- automate-data-validation.prompt.js
+                    |-- automate-folder-cleanups.prompt.js
+                    |-- automate-repetitive-tasks.prompt.js
+                    |-- automate-sftp-uploads.prompt.js
+                    |-- automate-tasks-using-process-automation-tools.prompt.js
+                    |-- automate-tasks-via-zapier.prompt.js
+                    |-- automate-workflows-with-automation-tools.prompt.js
                     |-- boost-social-media-engagement.prompt.js
+                    |-- boost-teen-nutrition-plans.prompt.js
+                    |-- brainstorm-test-coverage-ideas.prompt.js
+                    |-- brainstorm-with-mind-mapping-software.prompt.js
+                    |-- break-down-complex-code.prompt.js
+                    |-- budget-travel-expenses-accurately.prompt.js
                     |-- build-3d-racing-games.prompt.js
                     |-- build-ai-app-security-playbooks.prompt.js
                     |-- build-ai-chatbot-response-libraries.prompt.js
+                    |-- build-api-polling-system.prompt.js
                     |-- build-automated-onboarding-support-flows.prompt.js
+                    |-- build-branding-apps.prompt.js
+                    |-- build-bulk-file-renamers.prompt.js
                     |-- build-canned-chat-responses-libraries.prompt.js
+                    |-- build-carousel-sliders.prompt.js
                     |-- build-chat-applications.prompt.js
                     |-- build-chat-closing-script-libraries.prompt.js
                     |-- build-chat-escalation-protocols.prompt.js
@@ -2382,35 +2449,103 @@
                     |-- build-customer-personas-and-resolution-scripts.prompt.js
                     |-- build-customer-response-templates.prompt.js
                     |-- build-customer-sentiment-detectors.prompt.js
+                    |-- build-diet-tracking-apps.prompt.js
+                    |-- build-excel-to-csv-converter.prompt.js
+                    |-- build-file-sorting-system.prompt.js
+                    |-- build-filtering-system.prompt.js
+                    |-- build-form-validations.prompt.js
+                    |-- build-full-stack-software-architectures.prompt.js
+                    |-- build-fullstack-application-scaffold.prompt.js
+                    |-- build-gamified-task-management-apps.prompt.js
+                    |-- build-graphql-queries.prompt.js
+                    |-- build-habits-with-habit-stacking.prompt.js
+                    |-- build-image-galleries.prompt.js
                     |-- build-interactive-quiz-applications.prompt.js
+                    |-- build-inventory-management-apps.prompt.js
                     |-- build-investment-tracking-dashboards.prompt.js
                     |-- build-knowledge-base-content-calendars.prompt.js
                     |-- build-knowledge-base-improvement-loops.prompt.js
                     |-- build-knowledge-base-style-guides.prompt.js
                     |-- build-live-chat-qa-rubrics.prompt.js
+                    |-- build-log-parser.prompt.js
                     |-- build-markdown-notes-apps.prompt.js
+                    |-- build-minimalist-company-websites.prompt.js
                     |-- build-minimalist-ordering-applications.prompt.js
+                    |-- build-modal-popups.prompt.js
+                    |-- build-multipart-upload-system.prompt.js
+                    |-- build-oauth-client-credentials.prompt.js
                     |-- build-onboarding-faq-documents.prompt.js
                     |-- build-onboarding-progress-reports.prompt.js
                     |-- build-outreach-automation-playbooks.prompt.js
+                    |-- build-pdf-split-and-merge-tool.prompt.js
+                    |-- build-portfolio-websites.prompt.js
+                    |-- build-production-ready-apps.prompt.js
+                    |-- build-professional-network.prompt.js
+                    |-- build-real-products.prompt.js
                     |-- build-recipe-finders.prompt.js
                     |-- build-recipe-organizer-apps.prompt.js
                     |-- build-recurring-decision-frameworks.prompt.js
+                    |-- build-responsive-navigation-menus.prompt.js
+                    |-- build-rest-api-endpoints.prompt.js
+                    |-- build-scalable-component.prompt.js
                     |-- build-scientific-calculators.prompt.js
                     |-- build-secure-login-authentication-scripts.prompt.js
+                    |-- build-secure-oauth-systems.prompt.js
                     |-- build-self-service-feedback-systems.prompt.js
                     |-- build-self-service-return-centers.prompt.js
                     |-- build-social-media-strategies.prompt.js
                     |-- build-support-agent-macro-systems.prompt.js
                     |-- build-support-escalation-decision-trees.prompt.js
+                    |-- build-task-management-apis.prompt.js
+                    |-- build-ui-component-libraries.prompt.js
                     |-- build-url-shorteners.prompt.js
+                    |-- build-vocabulary-learning-apps.prompt.js
+                    |-- build-webhook-handler.prompt.js
+                    |-- build-webhook-handlers.prompt.js
+                    |-- build-weekly-family-meal-plans.prompt.js
+                    |-- build-zustand-store.prompt.js
+                    |-- capture-screens-using-screen-capture-tools.prompt.js
+                    |-- categorize-tasks-into-priority-quadrants.prompt.js
+                    |-- clarify-error-messages.prompt.js
+                    |-- clarify-library-functions.prompt.js
+                    |-- clarify-unclear-code.prompt.js
+                    |-- clarify-variable-roles.prompt.js
                     |-- clone-writing-styles.prompt.js
+                    |-- collaborate-via-collaboration-tools.prompt.js
+                    |-- collaborate-via-online-brainstorming-tools.prompt.js
+                    |-- collaborate-via-online-platforms.prompt.js
+                    |-- collaborate-with-team-on-slack.prompt.js
+                    |-- communicate-through-communication-platforms.prompt.js
+                    |-- compare-function-outputs.prompt.js
+                    |-- compare-two-code-versions.prompt.js
+                    |-- complete-leadership-training-program.prompt.js
                     |-- compose-internal-escalation-notes.prompt.js
+                    |-- conduct-brainwriting-sessions.prompt.js
+                    |-- conduct-business-process-improvement-analysis.prompt.js
+                    |-- conduct-catastrophic-scenario-analysis.prompt.js
+                    |-- conduct-correlational-business-analysis.prompt.js
+                    |-- conduct-effective-goal-reviews.prompt.js
+                    |-- conduct-entrepreneurial-prioritization-analysis.prompt.js
+                    |-- conduct-fear-setting-exercises.prompt.js
+                    |-- conduct-goal-achievement-analysis.prompt.js
+                    |-- conduct-mindfulness-research-review.prompt.js
+                    |-- conduct-okr-implementation-research.prompt.js
+                    |-- conduct-productivity-research-study.prompt.js
+                    |-- conduct-workflow-efficiency-audits.prompt.js
+                    |-- configure-environment-variables.prompt.js
                     |-- configure-iphone-app-project-settings.prompt.js
+                    |-- convert-aspirations-into-trackable-goals.prompt.js
+                    |-- convert-code-to-pseudocode.prompt.js
+                    |-- convert-curl-commands-into-code.prompt.js
                     |-- convert-customer-feedback-into-training-points.prompt.js
+                    |-- convert-json-structures.prompt.js
+                    |-- convert-markdown-to-pdf.prompt.js
                     |-- convert-support-tickets-into-articles.prompt.js
                     |-- convert-team-conflicts-into-strategies.prompt.js
+                    |-- convert-xml-to-json.prompt.js
+                    |-- craft-app-store-descriptions.prompt.js
                     |-- craft-brand-protection-response-templates.prompt.js
+                    |-- craft-bug-reports.prompt.js
                     |-- craft-customer-loyalty-tier-upgrade-messages.prompt.js
                     |-- craft-customer-onboarding-scripts.prompt.js
                     |-- craft-customer-outage-response-templates.prompt.js
@@ -2418,203 +2553,814 @@
                     |-- craft-knowledge-base-articles.prompt.js
                     |-- craft-live-chat-greeting-scripts.prompt.js
                     |-- craft-onboarding-notification-sequences.prompt.js
+                    |-- craft-pitch-deck.prompt.js
+                    |-- craft-quick-healthy-snack-ideas.prompt.js
                     |-- craft-replies-to-negative-reviews.prompt.js
                     |-- craft-resolution-follow-up-emails.prompt.js
                     |-- craft-service-recovery-apology-messages.prompt.js
                     |-- craft-sla-breach-response-templates.prompt.js
                     |-- craft-social-media-posts.prompt.js
+                    |-- create-a-workflow-mapping-of-operations.prompt.js
+                    |-- create-action-plan-template.prompt.js
+                    |-- create-actionable-project-plan.prompt.js
+                    |-- create-actionable-va-guide.prompt.js
+                    |-- create-advanced-excel-solutions.prompt.js
+                    |-- create-app-style-guide.prompt.js
+                    |-- create-app-wireframes.prompt.js
                     |-- create-athletic-grid-advertisements.prompt.js
+                    |-- create-balanced-meal-recipes.prompt.js
+                    |-- create-bdd-test-scenarios.prompt.js
                     |-- create-beverage-advertisements.prompt.js
+                    |-- create-blog-template.prompt.js
+                    |-- create-cinematic-automotive-interior-advertisements.prompt.js
                     |-- create-cinematic-environmental-portraits.prompt.js
+                    |-- create-cinematic-jet-advertisement-panels.prompt.js
                     |-- create-cinematic-luxury-advertisement-banners.prompt.js
                     |-- create-cinematic-motion-blur-editorials.prompt.js
+                    |-- create-cinematic-motorbike-grid-ads.prompt.js
                     |-- create-cinematic-product-advertisement-panels.prompt.js
                     |-- create-cinematic-studio-portraits.prompt.js
                     |-- create-cinematic-tablet-mockups.prompt.js
+                    |-- create-cinematic-winter-selfies.prompt.js
+                    |-- create-code-style-reports.prompt.js
+                    |-- create-component-inventories.prompt.js
+                    |-- create-comprehensive-packing-list.prompt.js
+                    |-- create-contact-form.prompt.js
+                    |-- create-cottagecore-fashion-collages.prompt.js
+                    |-- create-cron-job-configurations.prompt.js
+                    |-- create-custom-dashboard-designs.prompt.js
+                    |-- create-custom-stress-assessment-tools.prompt.js
+                    |-- create-custom-time-blocking-schedule.prompt.js
                     |-- create-customer-onboarding-email-sequences.prompt.js
+                    |-- create-customizable-swot-templates.prompt.js
+                    |-- create-customizable-workshop-templates.prompt.js
+                    |-- create-customized-workout-plans.prompt.js
+                    |-- create-daily-priority-list.prompt.js
+                    |-- create-daily-task-priority-list.prompt.js
+                    |-- create-daily-to-do-lists-for-focus.prompt.js
                     |-- create-designer-product-advertisement.prompt.js
                     |-- create-dramatic-silhouette-portraits.prompt.js
                     |-- create-dramatic-swarm-illustrations.prompt.js
                     |-- create-editorial-fashion-portraits.prompt.js
                     |-- create-editorial-product-photoshoots.prompt.js
+                    |-- create-effective-goal-setting-guidelines.prompt.js
+                    |-- create-effective-meeting-templates.prompt.js
+                    |-- create-effective-task-handoffs.prompt.js
+                    |-- create-efficient-family-meal-plans.prompt.js
+                    |-- create-employee-celebration-ideas.prompt.js
+                    |-- create-employee-wellness-programs.prompt.js
+                    |-- create-engaging-goal-systems.prompt.js
+                    |-- create-failure-resume-template.prompt.js
+                    |-- create-faq-sections.prompt.js
+                    |-- create-fashion-lifestyle-collages.prompt.js
                     |-- create-feature-launch-kb-articles.prompt.js
                     |-- create-food-advertisement-grids.prompt.js
+                    |-- create-function-templates.prompt.js
                     |-- create-gaming-product-advertisement-banners.prompt.js
+                    |-- create-goal-setting-framework.prompt.js
+                    |-- create-goal-setting-template.prompt.js
                     |-- create-gourmet-food-advertisement-visuals.prompt.js
                     |-- create-healthcare-advertisement-panels.prompt.js
                     |-- create-hyperrealistic-portrait-photography-shots.prompt.js
                     |-- create-lifestyle-beverage-ads.prompt.js
                     |-- create-lifestyle-food-advertisement-visuals.prompt.js
                     |-- create-lifestyle-tech-advertisement-layouts.prompt.js
+                    |-- create-luxury-automotive-grid-advertisements.prompt.js
                     |-- create-luxury-beauty-device-advertisements.prompt.js
                     |-- create-luxury-beauty-product-shots.prompt.js
                     |-- create-luxury-editorial-portraits.prompt.js
+                    |-- create-luxury-jewelry-advertisement-grids.prompt.js
                     |-- create-luxury-product-advertisement-grids.prompt.js
                     |-- create-luxury-product-advertisement-panels.prompt.js
                     |-- create-luxury-product-advertisements.prompt.js
                     |-- create-luxury-product-showcases.prompt.js
                     |-- create-luxury-tech-advertisement-panels.prompt.js
+                    |-- create-luxury-villa-grid-advertisements.prompt.js
+                    |-- create-luxury-yacht-grid-advertisements.prompt.js
+                    |-- create-marketing-strategy.prompt.js
                     |-- create-minimal-desktop-mockups.prompt.js
                     |-- create-minimalist-product-plate-mockups.prompt.js
                     |-- create-monochrome-cinematic-portraits.prompt.js
                     |-- create-noir-cinematic-portraits.prompt.js
+                    |-- create-onboarding-checklist.prompt.js
+                    |-- create-organized-grocery-list.prompt.js
                     |-- create-oversized-product-ad-visuals.prompt.js
                     |-- create-oversized-product-editorial-scenes.prompt.js
+                    |-- create-performance-review-template.prompt.js
+                    |-- create-personal-development-plan.prompt.js
+                    |-- create-personal-development-plans.prompt.js
+                    |-- create-personal-development-template.prompt.js
+                    |-- create-personal-growth-tracker.prompt.js
+                    |-- create-personal-mission-templates.prompt.js
+                    |-- create-personalized-ai-integration-plans.prompt.js
+                    |-- create-personalized-digital-wellness-solutions.prompt.js
+                    |-- create-personalized-energy-plan.prompt.js
+                    |-- create-personalized-fitness-plan.prompt.js
+                    |-- create-personalized-meal-plan.prompt.js
+                    |-- create-personalized-productivity-blueprint.prompt.js
+                    |-- create-personalized-stress-plans.prompt.js
+                    |-- create-post-surgical-meal-plans.prompt.js
                     |-- create-premium-product-grid-advertisements.prompt.js
+                    |-- create-premium-speaker-grid-advertisements.prompt.js
+                    |-- create-productivity-gamification-system.prompt.js
+                    |-- create-productivity-report-template.prompt.js
+                    |-- create-profession-specific-office-setups.prompt.js
+                    |-- create-professional-competency-tools.prompt.js
+                    |-- create-professional-networking-framework.prompt.js
+                    |-- create-project-management-outline.prompt.js
+                    |-- create-qa-documentation-templates.prompt.js
+                    |-- create-remote-work-framework.prompt.js
+                    |-- create-remote-work-guidelines.prompt.js
+                    |-- create-remote-work-routine.prompt.js
+                    |-- create-remote-work-surveys.prompt.js
+                    |-- create-remote-work-wellbeing-plan.prompt.js
+                    |-- create-reverse-goal-setting-workshop.prompt.js
                     |-- create-self-service-tutorial-scripts.prompt.js
                     |-- create-shadow-play-product-visuals.prompt.js
+                    |-- create-skill-development-resources.prompt.js
+                    |-- create-smart-objectives-template.prompt.js
                     |-- create-smartphone-fashion-portrait-collages.prompt.js
                     |-- create-snack-advertisement-panels.prompt.js
                     |-- create-social-media-content-calendars.prompt.js
+                    |-- create-software-architecture.prompt.js
+                    |-- create-sql-queries.prompt.js
+                    |-- create-stakeholder-report-template.prompt.js
+                    |-- create-stress-management-journal-template.prompt.js
+                    |-- create-stress-management-table.prompt.js
+                    |-- create-stress-management-toolkit.prompt.js
+                    |-- create-stress-management-workshops.prompt.js
+                    |-- create-stress-reducing-activities.prompt.js
+                    |-- create-tailored-remote-work-policies.prompt.js
+                    |-- create-task-delegation-framework.prompt.js
+                    |-- create-task-prioritization-template.prompt.js
+                    |-- create-team-collaboration-template.prompt.js
+                    |-- create-technical-blueprint.prompt.js
+                    |-- create-test-execution-checklists.prompt.js
+                    |-- create-time-management-template.prompt.js
+                    |-- create-time-series-visualizations.prompt.js
                     |-- create-urban-fashion-editorial-grids.prompt.js
+                    |-- create-vintage-editorial-portraits.prompt.js
+                    |-- create-virtual-brainstorming-framework.prompt.js
+                    |-- create-virtual-project-templates.prompt.js
+                    |-- create-weekly-meal-plan.prompt.js
+                    |-- create-weekly-schedule-template.prompt.js
+                    |-- create-workplace-boundary-framework.prompt.js
+                    |-- create-xml-sitemap.prompt.js
+                    |-- delegate-lower-priority-tasks.prompt.js
+                    |-- design-administrative-dashboard.prompt.js
+                    |-- design-an-ergonomic-workspace.prompt.js
+                    |-- design-anti-inflammatory-meal-plans.prompt.js
+                    |-- design-api-pagination-system.prompt.js
                     |-- design-automated-win-back-campaigns.prompt.js
                     |-- design-axonometric-core-interiors.prompt.js
                     |-- design-behavior-improving-compensations.prompt.js
                     |-- design-brutalist-landscape-architectures.prompt.js
+                    |-- design-bug-report-templates.prompt.js
+                    |-- design-busy-individuals-meal-plans.prompt.js
+                    |-- design-ci-cd-pipeline.prompt.js
                     |-- design-clinical-product-advertisement-panels.prompt.js
+                    |-- design-collaborative-editing-system.prompt.js
+                    |-- design-contact-forms.prompt.js
                     |-- design-contemporary-spa-interiors.prompt.js
+                    |-- design-cookie-banners.prompt.js
+                    |-- design-cost-effective-meal-plans.prompt.js
                     |-- design-customer-loyalty-programs.prompt.js
+                    |-- design-dynamic-architecture-visualizations.prompt.js
+                    |-- design-email-service-architectures.prompt.js
+                    |-- design-error-pages.prompt.js
+                    |-- design-filter-systems.prompt.js
                     |-- design-futuristic-urban-corridor-visuals.prompt.js
+                    |-- design-healthy-school-lunch-plans.prompt.js
+                    |-- design-hero-sections.prompt.js
                     |-- design-industrial-minimalist-office-interiors.prompt.js
+                    |-- design-integration-tests.prompt.js
+                    |-- design-isometric-residential-tower-diagrams.prompt.js
+                    |-- design-jwt-architecture.prompt.js
+                    |-- design-jwt-security-system.prompt.js
+                    |-- design-kubernetes-healthcheck-endpoints.prompt.js
                     |-- design-lifestyle-technical-product-layouts.prompt.js
                     |-- design-luxury-bathroom-advertisement-grids.prompt.js
                     |-- design-luxury-eyewear-campaign-layouts.prompt.js
                     |-- design-luxury-perfume-ads.prompt.js
                     |-- design-minimal-cafe-interior-renders.prompt.js
                     |-- design-minimalist-fashion-advertisement-grids.prompt.js
+                    |-- design-monolithic-residential-architecture-concepts.prompt.js
                     |-- design-onboarding-chatbot-conversation-flows.prompt.js
+                    |-- design-onboarding-flow.prompt.js
                     |-- design-organic-landscape-architecture-renders.prompt.js
                     |-- design-parametric-urban-canopy-structures.prompt.js
+                    |-- design-performance-test-plans.prompt.js
+                    |-- design-personal-financial-goals.prompt.js
                     |-- design-photorealistic-urban-district-renders.prompt.js
                     |-- design-post-support-feedback-surveys.prompt.js
                     |-- design-premium-fashion-advertisement-layouts.prompt.js
+                    |-- design-pricing-tables.prompt.js
+                    |-- design-rate-limiting-system.prompt.js
+                    |-- design-rbac-system.prompt.js
+                    |-- design-real-time-validation-system.prompt.js
+                    |-- design-responsive-dashboard.prompt.js
+                    |-- design-restful-api-endpoints.prompt.js
+                    |-- design-robust-streaming-system.prompt.js
+                    |-- design-search-bar-interfaces.prompt.js
+                    |-- design-search-functionality.prompt.js
+                    |-- design-signup-forms.prompt.js
+                    |-- design-slack-notification-system.prompt.js
                     |-- design-support-quality-scorecards.prompt.js
                     |-- design-sustainable-urban-neighborhood-scenes.prompt.js
                     |-- design-ticket-prioritization-scoring-systems.prompt.js
+                    |-- design-time-tracking-system.prompt.js
                     |-- design-urban-landscape-architecture-renders.prompt.js
                     |-- design-wind-cut-green-tower.prompt.js
                     |-- detect-customer-churn-warning-signals.prompt.js
+                    |-- detect-duplicate-functions.prompt.js
+                    |-- detect-hidden-side-effects.prompt.js
+                    |-- detect-inefficient-recursion.prompt.js
+                    |-- detect-race-condition.prompt.js
+                    |-- develop-advanced-communication-skills.prompt.js
+                    |-- develop-api-health-check.prompt.js
+                    |-- develop-api-retry-system.prompt.js
+                    |-- develop-asynchronous-job-poller.prompt.js
+                    |-- develop-browser-extensions.prompt.js
+                    |-- develop-business-goal-tracking-system.prompt.js
+                    |-- develop-business-performance-metrics.prompt.js
+                    |-- develop-business-plan.prompt.js
+                    |-- develop-business-productivity-metrics.prompt.js
+                    |-- develop-career-skill-combinations.prompt.js
+                    |-- develop-chat-widgets.prompt.js
+                    |-- develop-code-quality-scorecards.prompt.js
+                    |-- develop-color-palettes.prompt.js
+                    |-- develop-communication-stress-solutions.prompt.js
+                    |-- develop-competitor-analysis-methodology.prompt.js
+                    |-- develop-creativity-training-program.prompt.js
+                    |-- develop-crm-integration-strategy.prompt.js
+                    |-- develop-customizable-training-programs.prompt.js
                     |-- develop-cybersecurity-and-marketing-systems.prompt.js
+                    |-- develop-deep-work-framework.prompt.js
+                    |-- develop-deployment-security-strategy.prompt.js
+                    |-- develop-digital-wellness-strategies.prompt.js
+                    |-- develop-docker-containerizations.prompt.js
+                    |-- develop-effective-communication-strategies.prompt.js
+                    |-- develop-effective-delegation-strategies.prompt.js
+                    |-- develop-effective-marketing-strategies.prompt.js
+                    |-- develop-emotional-intelligence-program.prompt.js
+                    |-- develop-employee-goal-systems.prompt.js
+                    |-- develop-enterprise-software.prompt.js
+                    |-- develop-error-handling-system.prompt.js
+                    |-- develop-event-handlers.prompt.js
+                    |-- develop-goal-achievement-strategies.prompt.js
+                    |-- develop-goal-prioritization-strategy.prompt.js
+                    |-- develop-goal-setting-strategies.prompt.js
+                    |-- develop-google-drive-add-ons.prompt.js
+                    |-- develop-google-sheet-automations.prompt.js
+                    |-- develop-http-caching-strategy.prompt.js
+                    |-- develop-industry-specific-kpis.prompt.js
+                    |-- develop-industry-specific-skill-program.prompt.js
+                    |-- develop-input-validations.prompt.js
+                    |-- develop-leadership-eq-strategies.prompt.js
+                    |-- develop-mentorship-strategy-plan.prompt.js
+                    |-- develop-optimistic-ui-patterns.prompt.js
+                    |-- develop-organizational-goals-framework.prompt.js
+                    |-- develop-perfectionism-management-strategies.prompt.js
+                    |-- develop-personal-career-strategy.prompt.js
+                    |-- develop-personal-feedback-practices.prompt.js
+                    |-- develop-personal-growth-metrics.prompt.js
+                    |-- develop-personal-growth-system.prompt.js
+                    |-- develop-pre-commit-hook-systems.prompt.js
+                    |-- develop-professional-growth-strategies.prompt.js
+                    |-- develop-professional-learning-system.prompt.js
+                    |-- develop-professional-learning-systems.prompt.js
+                    |-- develop-project-estimation-framework.prompt.js
+                    |-- develop-project-management-system.prompt.js
+                    |-- develop-project-prioritization-framework.prompt.js
+                    |-- develop-project-timeline-framework.prompt.js
+                    |-- develop-pull-request-reviews.prompt.js
+                    |-- develop-quick-stress-relief-techniques.prompt.js
+                    |-- develop-rapid-learning-frameworks.prompt.js
+                    |-- develop-regex-replacement-script.prompt.js
+                    |-- develop-regression-test-lists.prompt.js
+                    |-- develop-remote-employee-recognition-system.prompt.js
+                    |-- develop-remote-productivity-systems.prompt.js
+                    |-- develop-remote-team-management-framework.prompt.js
+                    |-- develop-remote-team-strategies.prompt.js
+                    |-- develop-remote-work-culture-plan.prompt.js
+                    |-- develop-remote-work-security-plan.prompt.js
+                    |-- develop-remote-work-solutions.prompt.js
+                    |-- develop-resilience-frameworks.prompt.js
+                    |-- develop-responsive-ui.prompt.js
+                    |-- develop-reusable-react-errorboundaries.prompt.js
+                    |-- develop-risk-mitigation-strategies.prompt.js
                     |-- develop-saas-onboarding-roadmaps.prompt.js
+                    |-- develop-shopify-apps.prompt.js
+                    |-- develop-smart-goal-framework.prompt.js
+                    |-- develop-sqlite-database-loader.prompt.js
+                    |-- develop-standard-operating-procedures-sops.prompt.js
                     |-- develop-standard-operating-procedures.prompt.js
+                    |-- develop-stress-check-in-framework.prompt.js
+                    |-- develop-stress-management-plan.prompt.js
+                    |-- develop-stress-tracking-system.prompt.js
+                    |-- develop-tailored-leadership-plans.prompt.js
+                    |-- develop-task-categorization-system.prompt.js
+                    |-- develop-task-management-kpis.prompt.js
+                    |-- develop-task-management-system.prompt.js
+                    |-- develop-task-prioritization-system.prompt.js
+                    |-- develop-thought-leadership-strategy.prompt.js
+                    |-- develop-time-boxing-project-strategy.prompt.js
+                    |-- develop-token-refresh-flow.prompt.js
+                    |-- develop-virtual-team-strategies.prompt.js
+                    |-- develop-webhook-integrations.prompt.js
+                    |-- develop-websocket-clients.prompt.js
+                    |-- develop-work-life-balance-strategies.prompt.js
+                    |-- develop-work-life-balance-system.prompt.js
+                    |-- develop-workplace-communication-skills.prompt.js
+                    |-- develop-workplace-mindfulness-framework.prompt.js
+                    |-- develop-workplace-stress-management-system.prompt.js
+                    |-- develop-workplace-stress-solutions.prompt.js
+                    |-- develop-workplace-wellbeing-programs.prompt.js
                     |-- diagnose-business-initiative-failures.prompt.js
+                    |-- discover-creative-fusion-meals.prompt.js
+                    |-- discover-ideal-career-pathways.prompt.js
+                    |-- discover-low-calorie-dessert-recipes.prompt.js
+                    |-- discover-no-heat-cooking-strategies.prompt.js
                     |-- discover-topic-research-insights.prompt.js
+                    |-- distinguish-urgent-vs-important-tasks.prompt.js
                     |-- draft-chat-queue-engagement-messages.prompt.js
+                    |-- draft-comment-documentation.prompt.js
                     |-- draft-customer-intake-questionnaires.prompt.js
                     |-- draft-customer-onboarding-emails.prompt.js
                     |-- draft-documentation-from-vibe-code.prompt.js
+                    |-- draft-product-requirements.prompt.js
                     |-- draft-referral-program-messages.prompt.js
+                    |-- draft-release-notes.prompt.js
                     |-- draft-retention-focused-faq-sections.prompt.js
                     |-- draft-subscription-renewal-communication-sequences.prompt.js
+                    |-- earn-project-management-certification.prompt.js
                     |-- eliminate-dead-code-liabilities.prompt.js
+                    |-- eliminate-redundant-codes.prompt.js
+                    |-- eliminate-unused-import.prompt.js
+                    |-- employ-six-thinking-hats-method.prompt.js
+                    |-- engage-in-lateral-thinking-exercises.prompt.js
+                    |-- engage-in-mindfulness-meditation-sessions.prompt.js
+                    |-- engage-in-volunteer-work.prompt.js
+                    |-- enhance-business-communication-skills.prompt.js
+                    |-- enhance-code-readability.prompt.js
+                    |-- enhance-creativity-with-lateral-thinking-exercises.prompt.js
+                    |-- enhance-data-structure-performances.prompt.js
+                    |-- enhance-efficiency-with-agile-productivity.prompt.js
+                    |-- enhance-focus-using-focus-enhancement-apps.prompt.js
+                    |-- enhance-focus-using-pomodoro-timer-apps.prompt.js
+                    |-- enhance-goal-achievement-visualization.prompt.js
                     |-- enhance-image-quality.prompt.js
+                    |-- enhance-prompt-engineering-techniques.prompt.js
+                    |-- enhance-skills-with-online-courses.prompt.js
                     |-- enhance-writing-quality.prompt.js
                     |-- establish-onboarding-objectives.prompt.js
+                    |-- establish-online-presence.prompt.js
+                    |-- establish-work-life-balance-strategies.prompt.js
                     |-- estimate-outcomes-of-business-decisions.prompt.js
                     |-- evaluate-business-idea-viability.prompt.js
+                    |-- evaluate-business-strategy-viability.prompt.js
                     |-- evaluate-decisions-systematically.prompt.js
+                    |-- evaluate-projects-with-rice-scoring-model.prompt.js
+                    |-- execute-complex-operations.prompt.js
+                    |-- explain-api-usage.prompt.js
+                    |-- explain-code-logic.prompt.js
+                    |-- explain-conditional-logic.prompt.js
+                    |-- explain-parameter-usage.prompt.js
+                    |-- explore-lactose-free-post-workout-meals.prompt.js
                     |-- extract-ideas-from-customer-feedback.prompt.js
                     |-- extract-repeatable-success-strategies.prompt.js
+                    |-- facilitate-design-thinking-workshops.prompt.js
+                    |-- facilitate-group-brainstorming-sessions.prompt.js
+                    |-- fix-code-errors.prompt.js
+                    |-- fix-problematic-code.prompt.js
+                    |-- focus-on-one-task-with-single-tasking-approach.prompt.js
+                    |-- follow-the-zen-to-done-ztd-approach.prompt.js
+                    |-- format-code-snippets.prompt.js
+                    |-- generate-adaptive-workspace-renders.prompt.js
                     |-- generate-athletic-portrait-photography-mockups.prompt.js
                     |-- generate-automated-refund-processing-scripts.prompt.js
                     |-- generate-axonometric-architecture-diagrams.prompt.js
                     |-- generate-axonometric-exhibition-space.prompt.js
                     |-- generate-axonometric-futuristic-atriums.prompt.js
                     |-- generate-axonometric-interior-diagrams.prompt.js
+                    |-- generate-backup-automation-script.prompt.js
                     |-- generate-beauty-product-ad-visuals.prompt.js
                     |-- generate-before-after-food-infographics.prompt.js
                     |-- generate-brand-style-guides.prompt.js
+                    |-- generate-business-productivity-tools.prompt.js
                     |-- generate-candid-mirror-selfies.prompt.js
                     |-- generate-candid-street-portraits.prompt.js
+                    |-- generate-cartoon-character-illustrations.prompt.js
+                    |-- generate-cartoon-lookalike-portraits.prompt.js
                     |-- generate-chat-conversion-messages.prompt.js
                     |-- generate-chatbot-handoff-scripts.prompt.js
                     |-- generate-cinematic-office-portrait-scenes.prompt.js
                     |-- generate-cinematic-portrait-json-structures.prompt.js
                     |-- generate-cinematic-portrait-photographs.prompt.js
+                    |-- generate-cinematic-portrait-photography.prompt.js
+                    |-- generate-cinematic-street-style-portraits.prompt.js
+                    |-- generate-cinematic-urban-portrait-scenes.prompt.js
                     |-- generate-circular-product-dial-compositions.prompt.js
+                    |-- generate-coastal-portrait-photographs.prompt.js
+                    |-- generate-code-test-suites.prompt.js
+                    |-- generate-configuration-files.prompt.js
                     |-- generate-cozy-portrait-scenes.prompt.js
+                    |-- generate-crud-functions.prompt.js
+                    |-- generate-css-stylesheets.prompt.js
+                    |-- generate-csv-merger.prompt.js
                     |-- generate-curved-timber-pavilion-renders.prompt.js
+                    |-- generate-edgy-flash-photography-portraits.prompt.js
                     |-- generate-edgy-portrait-photography-shots.prompt.js
+                    |-- generate-editorial-fashion-portraits.prompt.js
+                    |-- generate-environment-setup-scripts.prompt.js
+                    |-- generate-essential-skills-list.prompt.js
+                    |-- generate-fashion-character-portrait-mockups.prompt.js
                     |-- generate-fashion-portrait-photography-shots.prompt.js
                     |-- generate-fashion-portrait-transformations.prompt.js
+                    |-- generate-fashion-portrait-variations.prompt.js
                     |-- generate-film-noir-character-portraits.prompt.js
                     |-- generate-help-center-article-templates.prompt.js
+                    |-- generate-hmac-authentication-system.prompt.js
                     |-- generate-household-product-advertisements.prompt.js
+                    |-- generate-hyperrealistic-architecture-visualizations.prompt.js
                     |-- generate-hyperrealistic-portrait-variations.prompt.js
+                    |-- generate-hyperrealistic-robot-selfie-scenes.prompt.js
+                    |-- generate-ideas-using-mind-mapping.prompt.js
+                    |-- generate-idempotency-implementation-codes.prompt.js
+                    |-- generate-industry-specific-tool-lists.prompt.js
+                    |-- generate-innovative-ideas-rapidly.prompt.js
                     |-- generate-instagram-fashion-grid-posts.prompt.js
                     |-- generate-instagram-travel-grids.prompt.js
+                    |-- generate-integration-test-cases.prompt.js
                     |-- generate-iphone-quality-photography.prompt.js
                     |-- generate-ivr-phone-menu-scripts.prompt.js
+                    |-- generate-japanese-minimalist-courtyard-residences.prompt.js
+                    |-- generate-jobs-to-be-done-features.prompt.js
                     |-- generate-laptop-screen-mockups.prompt.js
                     |-- generate-lifestyle-photography-scenes.prompt.js
+                    |-- generate-lifestyle-selfie-portrait-scenes.prompt.js
                     |-- generate-live-chat-upsell-messages.prompt.js
                     |-- generate-luxury-billboard-mockups.prompt.js
+                    |-- generate-luxury-handbag-grid-advertisements.prompt.js
+                    |-- generate-luxury-lifestyle-portrait-scenes.prompt.js
                     |-- generate-marketing-grids.prompt.js
+                    |-- generate-miniature-clone-portrait-concepts.prompt.js
                     |-- generate-mirror-selfie-portrait-variations.prompt.js
+                    |-- generate-mock-api-responses.prompt.js
                     |-- generate-modern-product-grid-advertisements.prompt.js
+                    |-- generate-neon-pop-art-portraits.prompt.js
+                    |-- generate-nostalgic-retro-portrait-photos.prompt.js
+                    |-- generate-office-relaxation-techniques.prompt.js
                     |-- generate-oversize-product-teaser-scenes.prompt.js
                     |-- generate-parametric-urban-district-renderings.prompt.js
                     |-- generate-personalized-kickoff-call-scripts.prompt.js
+                    |-- generate-photoreal-house-plan-sheets.prompt.js
+                    |-- generate-photorealistic-depth-controlled-portraits.prompt.js
+                    |-- generate-photorealistic-packaging-mockups.prompt.js
                     |-- generate-photorealistic-portrait-signatures.prompt.js
+                    |-- generate-photorealistic-selfie-scenes.prompt.js
+                    |-- generate-platform-native-ui-layouts.prompt.js
+                    |-- generate-postman-collection.prompt.js
                     |-- generate-pov-racing-cockpit-scenes.prompt.js
                     |-- generate-product-documentation-layouts.prompt.js
                     |-- generate-product-frosted-glass-scenes.prompt.js
+                    |-- generate-remote-work-tools-table.prompt.js
+                    |-- generate-rest-client.prompt.js
+                    |-- generate-retro-fashion-portrait-mockups.prompt.js
                     |-- generate-sculptural-spa-bathroom-interiors.prompt.js
+                    |-- generate-seasonal-portrait-compositions.prompt.js
+                    |-- generate-secure-encryption-script.prompt.js
+                    |-- generate-shell-scripts.prompt.js
                     |-- generate-smartphone-screen-mockups.prompt.js
+                    |-- generate-sql-queries.prompt.js
                     |-- generate-streetwear-salon-portrait-mockups.prompt.js
+                    |-- generate-stress-management-tools.prompt.js
                     |-- generate-stylized-portrait-illustrations.prompt.js
+                    |-- generate-surreal-action-sport-scenes.prompt.js
                     |-- generate-tanline-mockups.prompt.js
+                    |-- generate-task-management-analysis.prompt.js
                     |-- generate-terraced-green-tower-renders.prompt.js
+                    |-- generate-test-data-samples.prompt.js
+                    |-- generate-time-management-tips.prompt.js
                     |-- generate-travel-product-grid-advertisements.prompt.js
+                    |-- generate-unit-test-cases.prompt.js
                     |-- generate-urban-portrait-photography.prompt.js
                     |-- generate-vibe-coding-product-ideas.prompt.js
                     |-- generate-vintage-portrait-photography.prompt.js
                     |-- generate-viral-short-form-video-scripts.prompt.js
+                    |-- generate-virtual-team-building-activities.prompt.js
+                    |-- generate-web-scraping-script.prompt.js
+                    |-- generate-y2k-camera-portrait-transformations.prompt.js
+                    |-- get-15-minute-recipes.prompt.js
+                    |-- get-budget-friendly-meal-preps.prompt.js
+                    |-- get-daily-gratitude-entries.prompt.js
+                    |-- get-daily-task-prioritizations.prompt.js
+                    |-- get-desired-outcomes-faster.prompt.js
+                    |-- get-honest-psychological-profiles.prompt.js
+                    |-- get-meal-prep-roadmaps.prompt.js
+                    |-- get-monthly-budget-planners.prompt.js
+                    |-- get-monthly-progress-reviews.prompt.js
+                    |-- get-new-year-s-prep-checklist.prompt.js
+                    |-- get-no-cook-meal-plans.prompt.js
+                    |-- get-on-the-go-meal-plans.prompt.js
+                    |-- get-precise-cooking-recipes.prompt.js
+                    |-- get-product-descriptions.prompt.js
+                    |-- get-savings-goal-trackers.prompt.js
+                    |-- get-skill-building-roadmaps.prompt.js
+                    |-- get-study-schedule-planners.prompt.js
+                    |-- get-weekly-reflection-journals.prompt.js
+                    |-- get-yearly-goal-planners.prompt.js
+                    |-- group-similar-tasks-with-task-batching.prompt.js
                     |-- identify-business-drains.prompt.js
+                    |-- identify-edge-case-failures.prompt.js
+                    |-- identify-emerging-career-skills.prompt.js
                     |-- identify-knowledge-base-content-gaps.prompt.js
                     |-- identify-opportunities-from-customer-feedback.prompt.js
                     |-- identify-recurring-customer-complaint-patterns.prompt.js
+                    |-- identify-security-vulnerabilities.prompt.js
                     |-- identify-workflow-automation-opportunities.prompt.js
+                    |-- implement-continuous-improvement-kaizen-practices.prompt.js
+                    |-- implement-dark-modes.prompt.js
+                    |-- implement-data-encryption.prompt.js
+                    |-- implement-flexible-work-schedule.prompt.js
+                    |-- implement-flexible-work-schedules.prompt.js
+                    |-- implement-getting-things-done-gtd-system.prompt.js
+                    |-- implement-kanban-methodology.prompt.js
+                    |-- implement-lean-management-principles.prompt.js
+                    |-- implement-logging-practices.prompt.js
+                    |-- implement-personalized-nutrition-protocols.prompt.js
+                    |-- implement-pomodoro-technique.prompt.js
+                    |-- implement-sticky-header.prompt.js
+                    |-- implement-stress-management-techniques.prompt.js
+                    |-- implement-stress-reduction-techniques.prompt.js
+                    |-- implement-structured-logging.prompt.js
+                    |-- implement-swot-analysis-in-brainstorming.prompt.js
+                    |-- implement-time-blocking-techniques.prompt.js
+                    |-- implement-time-tracking-software.prompt.js
+                    |-- implement-workflow-automation-tools.prompt.js
+                    |-- improve-memory-usage.prompt.js
+                    |-- improve-thread-pool-configurations.prompt.js
                     |-- improve-weekly-performance.prompt.js
+                    |-- improve-workflow-efficiency-by-eliminating-waste.prompt.js
+                    |-- include-physical-exercise-in-daily-activities.prompt.js
+                    |-- incorporate-self-care-practices-into-routine.prompt.js
                     |-- integrate-insights-from-competing-frameworks.prompt.js
+                    |-- integrate-total-quality-management-tqm-systems.prompt.js
+                    |-- integrate-workflow-management-software.prompt.js
+                    |-- interpret-stack-traces.prompt.js
+                    |-- journal-with-bullet-journaling-technique.prompt.js
+                    |-- label-ui-elements.prompt.js
+                    |-- learn-4d-thinking.prompt.js
+                    |-- learn-any-craft.prompt.js
+                    |-- learn-excel-functions-usage.prompt.js
+                    |-- learn-new-language-skills.prompt.js
+                    |-- learn-new-skills-regularly.prompt.js
+                    |-- learn-stress-reduction-workshops-techniques.prompt.js
+                    |-- maintain-adequate-sleep-habits-for-recovery.prompt.js
+                    |-- maintain-healthy-workload.prompt.js
+                    |-- manage-clients-efficiently.prompt.js
+                    |-- manage-documents-with-document-management-systems.prompt.js
+                    |-- manage-projects-using-asana.prompt.js
+                    |-- manage-projects-with-project-management-software.prompt.js
+                    |-- manage-stress-and-time.prompt.js
+                    |-- manage-stress-effectively.prompt.js
+                    |-- manage-stress-with-neuroscience.prompt.js
+                    |-- manage-stress-with-relaxation-techniques.prompt.js
+                    |-- manage-time-effectively.prompt.js
+                    |-- manage-time-zones-effectively.prompt.js
+                    |-- manage-workload-effectively.prompt.js
+                    |-- map-code-execution-flows.prompt.js
+                    |-- map-goal-achievement-milestones.prompt.js
+                    |-- map-payload-fields.prompt.js
+                    |-- master-6-influence-principles.prompt.js
+                    |-- master-ai-chatbot-mechanics.prompt.js
                     |-- master-complex-topics-faster.prompt.js
+                    |-- master-loop-patterns.prompt.js
+                    |-- master-skills-with-meadows-hierarchy.prompt.js
+                    |-- maximize-weekly-grocery-savings.prompt.js
                     |-- merge-duplicate-knowledge-base-articles.prompt.js
+                    |-- monitor-industry-trends.prompt.js
+                    |-- monitor-productivity-with-rescuetime.prompt.js
+                    |-- network-with-potential-clients.prompt.js
+                    |-- optimize-ai-driven-task-management.prompt.js
+                    |-- optimize-application-startup-times.prompt.js
+                    |-- optimize-build-configurations.prompt.js
+                    |-- optimize-business-efficiency-processes.prompt.js
+                    |-- optimize-business-stress-management.prompt.js
+                    |-- optimize-caching-implementations.prompt.js
+                    |-- optimize-career-advancement-strategies.prompt.js
+                    |-- optimize-codebase.prompt.js
+                    |-- optimize-daily-business-routine.prompt.js
+                    |-- optimize-database-query.prompt.js
+                    |-- optimize-event-handlers.prompt.js
+                    |-- optimize-file-i-o-operations.prompt.js
+                    |-- optimize-flexible-work-strategies.prompt.js
+                    |-- optimize-flow-state-for-productivity.prompt.js
+                    |-- optimize-industry-time-management.prompt.js
                     |-- optimize-knowledge-base-article-findability.prompt.js
+                    |-- optimize-linkedin-skill-selection.prompt.js
+                    |-- optimize-morning-routine-checklist.prompt.js
+                    |-- optimize-network-performance.prompt.js
+                    |-- optimize-performance-management-processes.prompt.js
+                    |-- optimize-project-post-mortem-process.prompt.js
+                    |-- optimize-regex-performance.prompt.js
+                    |-- optimize-remote-employee-evaluations.prompt.js
+                    |-- optimize-remote-team-strategies.prompt.js
+                    |-- optimize-remote-work-strategies.prompt.js
+                    |-- optimize-rendering-bottlenecks.prompt.js
+                    |-- optimize-resource-allocation.prompt.js
+                    |-- optimize-skill-learning-resources.prompt.js
                     |-- optimize-social-media-performance.prompt.js
+                    |-- optimize-strategic-decision-making-processes.prompt.js
+                    |-- optimize-stress-free-workspaces.prompt.js
+                    |-- optimize-task-backlog-management.prompt.js
+                    |-- optimize-task-prioritization-system.prompt.js
+                    |-- optimize-task-tracking-system.prompt.js
+                    |-- optimize-team-delegation-strategy.prompt.js
+                    |-- optimize-team-task-management.prompt.js
+                    |-- optimize-time-management-challenge.prompt.js
+                    |-- optimize-time-management-plan.prompt.js
+                    |-- optimize-to-do-list-system.prompt.js
+                    |-- optimize-virtual-meeting-strategies.prompt.js
+                    |-- optimize-virtual-team-collaboration.prompt.js
+                    |-- optimize-work-from-home-productivity.prompt.js
+                    |-- optimize-workflow-productivity-analysis.prompt.js
+                    |-- optimize-workflow-with-process-mapping.prompt.js
+                    |-- optimize-workplace-email-management.prompt.js
+                    |-- optimize-workplace-energy-management.prompt.js
+                    |-- optimize-workplace-productivity-strategies.prompt.js
+                    |-- optimize-workplace-productivity.prompt.js
+                    |-- optimize-workplace-time-management.prompt.js
+                    |-- optimize-your-ai-prompts.prompt.js
+                    |-- organize-ai-productivity-research.prompt.js
                     |-- organize-customer-feedback-by-themes.prompt.js
+                    |-- organize-daily-stress-reduction-activities.prompt.js
+                    |-- organize-emails-using-email-management-tools.prompt.js
+                    |-- organize-employee-stress-resources.prompt.js
+                    |-- organize-meeting-notes.prompt.js
                     |-- organize-messy-thoughts.prompt.js
+                    |-- organize-project-task-list.prompt.js
+                    |-- organize-project-tracking-table.prompt.js
+                    |-- organize-schedule-with-calendar-apps.prompt.js
+                    |-- organize-tasks-on-task-management-platforms.prompt.js
+                    |-- organize-tasks-using-the-ivy-lee-method.prompt.js
+                    |-- organize-tasks-using-time-management-matrix.prompt.js
+                    |-- organize-tasks-with-trello-boards.prompt.js
+                    |-- organize-work-with-kanban-boards.prompt.js
+                    |-- outline-folder-structures.prompt.js
+                    |-- participate-in-employee-wellness-programs.prompt.js
+                    |-- perform-api-integrations.prompt.js
+                    |-- perform-bottleneck-analysis-to-identify-delays.prompt.js
+                    |-- perform-dependency-analysis.prompt.js
+                    |-- plan-career-advancement-goals.prompt.js
                     |-- plan-daily-priorities.prompt.js
+                    |-- plan-elderly-nutrition-meal-tables.prompt.js
+                    |-- plan-feature-roadmaps.prompt.js
+                    |-- plan-personalized-retirement-goals.prompt.js
                     |-- plan-productive-weekly-schedules.prompt.js
+                    |-- plan-using-gantt-charts-for-deadlines.prompt.js
+                    |-- plan-weekly-meals-in-advance.prompt.js
+                    |-- plan-with-rapid-planning-method-rpm.prompt.js
+                    |-- practice-daily-gratitude-journaling.prompt.js
+                    |-- practice-daily-journaling.prompt.js
+                    |-- practice-daily-self-care-routines.prompt.js
+                    |-- practice-mindfulness-exercises.prompt.js
+                    |-- practice-mindfulness-meditation-daily.prompt.js
+                    |-- practice-single-tasking.prompt.js
+                    |-- practice-stress-management-techniques-daily.prompt.js
+                    |-- practice-the-pomodoro-technique-for-focus.prompt.js
+                    |-- prepare-healthy-meals-efficiently.prompt.js
                     |-- prioritize-task-backlogs.prompt.js
+                    |-- prioritize-tasks-with-moscow-method.prompt.js
+                    |-- prioritize-test-cases.prompt.js
+                    |-- prioritize-your-tasks-eisenhower-matrix.prompt.js
+                    |-- promote-mental-health-awareness-at-work.prompt.js
+                    |-- rank-feature-requests.prompt.js
+                    |-- read-personal-growth-books.prompt.js
+                    |-- read-self-improvement-books.prompt.js
+                    |-- recognize-early-signs-of-burnout.prompt.js
+                    |-- recommend-codebase-naming-conventions.prompt.js
+                    |-- recommend-fitness-goal-supplements.prompt.js
+                    |-- recommend-naming-conventions.prompt.js
                     |-- recreate-mobile-app-ui-designs.prompt.js
+                    |-- reduce-ai-hallucinations.prompt.js
+                    |-- reduce-workflow-bottlenecks.prompt.js
+                    |-- refactor-complex-conditional-codes.prompt.js
+                    |-- refine-marketing-copy.prompt.js
+                    |-- refine-project-management-tracking.prompt.js
+                    |-- refine-prompt-engineering-techniques.prompt.js
+                    |-- refine-smart-task-templates.prompt.js
+                    |-- refine-ux-copy.prompt.js
+                    |-- reflect-on-personal-progress.prompt.js
+                    |-- register-business-legally.prompt.js
+                    |-- render-cinematic-urban-portrait-scenes.prompt.js
                     |-- render-climate-responsive-green-tower.prompt.js
                     |-- render-contemporary-japanese-lounge-interiors.prompt.js
+                    |-- render-corporate-workspace-interiors.prompt.js
                     |-- render-futuristic-hybrid-mega-structure.prompt.js
+                    |-- render-gallery-style-interior-visualizations.prompt.js
                     |-- render-hyperrealistic-studio-portraits.prompt.js
                     |-- render-minimalist-architecture-pavilions.prompt.js
+                    |-- render-mixed-use-architecture-visualizations.prompt.js
+                    |-- render-organic-modern-interior-visualizations.prompt.js
                     |-- render-parametric-architecture-facades.prompt.js
                     |-- render-parametric-bridge-park-visualizations.prompt.js
                     |-- render-photorealistic-architecture-exteriors.prompt.js
                     |-- render-photorealistic-museum-exteriors.prompt.js
                     |-- render-sculptural-architecture-facades.prompt.js
+                    |-- render-transparent-architecture-visualizations.prompt.js
                     |-- render-vertical-ecosystem-tower.prompt.js
                     |-- resolve-angry-customer-escalations.prompt.js
+                    |-- resolve-concurrency-issue.prompt.js
                     |-- resolve-customer-complaints.prompt.js
                     |-- resolve-technical-support-issues.prompt.js
                     |-- restructure-knowledge-base-taxonomies.prompt.js
+                    |-- review-and-adjust-priorities-weekly.prompt.js
+                    |-- review-code-logic.prompt.js
                     |-- rework-stalled-projects.prompt.js
+                    |-- rewrite-complex-joins.prompt.js
+                    |-- schedule-events-in-calendar-scheduling-software.prompt.js
+                    |-- schedule-meetings-using-calendly.prompt.js
+                    |-- schedule-regular-digital-detox-periods.prompt.js
+                    |-- schedule-regular-leisure-activities.prompt.js
+                    |-- schedule-regular-time-off.prompt.js
+                    |-- schedule-regular-vacations.prompt.js
+                    |-- schedule-tasks-using-time-blocking.prompt.js
+                    |-- secure-passwords-with-password-managers.prompt.js
+                    |-- seek-support-when-overwhelmed.prompt.js
                     |-- set-automated-ticket-routing-rules.prompt.js
+                    |-- set-clear-work-life-boundaries.prompt.js
+                    |-- set-deadlines-based-on-importance.prompt.js
+                    |-- set-financial-goals-and-budgets.prompt.js
+                    |-- set-financial-goals.prompt.js
+                    |-- set-goals-using-smart-goals-framework.prompt.js
+                    |-- set-personal-development-goals.prompt.js
+                    |-- set-reminders-using-google-calendar.prompt.js
+                    |-- set-request-timeouts.prompt.js
+                    |-- set-smart-goals-for-tasks.prompt.js
+                    |-- set-up-a-kanban-system-for-tasks.prompt.js
+                    |-- set-up-accounting-systems.prompt.js
+                    |-- simplify-complex-code.prompt.js
                     |-- simplify-complex-details.prompt.js
                     |-- simplify-technical-docs-into-kb-articles.prompt.js
                     |-- simulate-customer-service-training-scenarios.prompt.js
+                    |-- solve-cors-configuration-issues.prompt.js
+                    |-- solve-css-layout-issues.prompt.js
+                    |-- store-files-in-cloud-storage-solutions.prompt.js
+                    |-- streamline-business-process-efficiency.prompt.js
+                    |-- streamline-business-task-batching.prompt.js
+                    |-- streamline-communication-channels.prompt.js
+                    |-- structure-project-milestone-dependencies.prompt.js
+                    |-- suggest-quick-meal-options.prompt.js
+                    |-- summarize-code-function.prompt.js
                     |-- summarize-customer-feedback-insights.prompt.js
+                    |-- take-notes-with-digital-tools.prompt.js
+                    |-- take-notes-with-evernote.prompt.js
+                    |-- take-notes-with-note-taking-apps.prompt.js
                     |-- test-business-plan-assumptions.prompt.js
+                    |-- test-software-code.prompt.js
+                    |-- track-nutrition-intake-daily.prompt.js
                     |-- track-onboarding-progress.prompt.js
+                    |-- track-time-using-time-tracking-apps.prompt.js
+                    |-- track-time-with-toggl-app.prompt.js
+                    |-- train-team-on-new-processes.prompt.js
+                    |-- transform-chatgpt-into-excel-helper.prompt.js
                     |-- transform-faqs-into-knowledge-bases.prompt.js
+                    |-- transform-mindsets-for-growth.prompt.js
+                    |-- transform-pdfs-into-study-systems.prompt.js
                     |-- transform-requests-into-ai-prompts.prompt.js
+                    |-- transform-static-analysis-outputs.prompt.js
+                    |-- transform-your-goals-into-reality.prompt.js
+                    |-- turn-ai-into-your-co-thinker.prompt.js
                     |-- turn-vague-feedback-into-process-improvements.prompt.js
                     |-- uncover-pre-launch-knowledge-gaps.prompt.js
+                    |-- undertake-process-reengineering-initiatives.prompt.js
+                    |-- use-abc-analysis-for-task-importance.prompt.js
+                    |-- use-abc-method-for-priorities.prompt.js
+                    |-- use-abcde-method-for-tasks.prompt.js
+                    |-- use-collaborative-platforms.prompt.js
+                    |-- use-getting-things-done-system.prompt.js
+                    |-- use-meal-planning-apps.prompt.js
+                    |-- use-mind-mapping-tools.prompt.js
+                    |-- use-process-optimization-tools-for-enhancement.prompt.js
+                    |-- use-reverse-brainstorming-for-problem-solving.prompt.js
+                    |-- use-task-management-applications.prompt.js
+                    |-- use-the-kanban-method-for-task-flow.prompt.js
+                    |-- use-travel-apps-for-organization.prompt.js
+                    |-- utilize-priority-planning-tools.prompt.js
+                    |-- utilize-time-off-policies-effectively.prompt.js
+                    |-- utilize-value-stream-mapping-for-efficiency.prompt.js
+                    |-- verify-webhook-signatures.prompt.js
+                    |-- visualize-work-with-kanban-boards.prompt.js
+                    |-- work-in-90-minute-work-blocks.prompt.js
                     |-- write-custom-automation-scripts.prompt.js
+                    |-- write-data-parsing-code.prompt.js
+                    |-- write-image-resizing-script.prompt.js
+                    |-- write-integration-tests.prompt.js
+                    |-- write-reusable-code-blocks.prompt.js
+                    |-- write-setup-instructions.prompt.js
+                    |-- write-string-formatting-code.prompt.js
+                    |-- write-version-changelog.prompt.js
                     |-- _template.prompt.js
                 |-- index.js
                 |-- PromptEntryTemplate.jsx

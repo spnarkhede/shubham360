@@ -98,6 +98,12 @@ const config: Config = {
           blogSidebarCount: 'ALL',
           postsPerPage: 'ALL',
         },
+        pages: {
+          exclude: [
+            'prompt-vault/prompt-vault-data/entries/**',
+            '**/prompt-vault/prompt-vault-data/entries/**',
+          ],
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

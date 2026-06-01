@@ -100,8 +100,8 @@ const config: Config = {
         },
         pages: {
           exclude: [
-            'prompt-vault/prompt-vault-data/entries/**',
-            '**/prompt-vault/prompt-vault-data/entries/**',
+            '**/prompt-vault/prompt-vault-data/**',
+            '**/prompt-vault/promptVaultData.js',
           ],
         },
         theme: {

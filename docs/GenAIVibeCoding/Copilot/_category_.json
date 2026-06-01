@@ -1,9 +1,0 @@
-{
-  "label": "GitHub Copilot",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "title": "GitHub Copilot Prompts",
-    "description": "Prompts and patterns for GitHub Copilot — in-editor autocomplete, Copilot Chat, code generation, and refactoring strategies."
-  }
-}

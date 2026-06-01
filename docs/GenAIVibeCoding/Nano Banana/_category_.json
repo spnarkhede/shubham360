@@ -1,9 +1,0 @@
-{
-  "label": "Nano Banana",
-  "position": 10,
-  "link": {
-    "type": "generated-index",
-    "title": "Nano Banana Prompts",
-    "description": "Prompts for lightweight and local AI models — fast, low-cost, edge-deployable prompts for quick wins without heavy compute."
-  }
-}

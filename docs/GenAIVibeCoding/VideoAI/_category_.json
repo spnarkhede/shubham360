@@ -1,9 +1,0 @@
-{
-  "label": "Video AI",
-  "position": 9,
-  "link": {
-    "type": "generated-index",
-    "title": "Video AI Prompts",
-    "description": "Prompts for AI video tools — scripts, scene descriptions, voiceover direction, and prompts for tools like Sora, Runway, and Kling."
-  }
-}

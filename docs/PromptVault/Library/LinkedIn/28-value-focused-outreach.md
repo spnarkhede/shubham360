@@ -1,3 +1,7 @@
+﻿---
+id: 28-value-focused-outreach
+---
+
 ### 28. Value-Focused Outreach
 
 **Use Case:** Follow up after a connection accepts by sharing value instead of making a cold ask.

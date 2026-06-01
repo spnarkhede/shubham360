@@ -1,3 +1,7 @@
+﻿---
+id: 02-profile-summary-personal-brand
+---
+
 ### 2. LinkedIn Profile Summary and Personal Brand
 
 **Use Case:** Rewrite the About section into a narrative that improves clarity, trust, and conversion.

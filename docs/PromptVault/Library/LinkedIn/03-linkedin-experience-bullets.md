@@ -1,3 +1,7 @@
+﻿---
+id: 03-linkedin-experience-bullets
+---
+
 ### 3. LinkedIn Experience Rewrite with Achievement Bullets
 
 **Use Case:** Transform role descriptions into outcome-focused bullets with metrics.

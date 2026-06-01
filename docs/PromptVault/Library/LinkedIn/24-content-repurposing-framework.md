@@ -1,3 +1,7 @@
+﻿---
+id: 24-content-repurposing-framework
+---
+
 ### 24. Content Repurposing Framework
 
 **Use Case:** Build a mini LinkedIn content pipeline from one long-form asset.

@@ -1,3 +1,7 @@
+﻿---
+id: 25-live-qa-recap-and-slide-deck
+---
+
 ### 25. Live Q and A Recap and Slide Deck
 
 **Use Case:** Repurpose a live session into a recap deck and a follow-up LinkedIn post.

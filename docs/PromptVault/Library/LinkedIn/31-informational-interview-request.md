@@ -1,3 +1,7 @@
+﻿---
+id: 31-informational-interview-request
+---
+
 ### 31. Informational Interview Request
 
 **Use Case:** Ask a senior person for advice or a short networking conversation without sounding transactional.

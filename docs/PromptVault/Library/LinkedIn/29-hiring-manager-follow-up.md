@@ -1,3 +1,7 @@
+﻿---
+id: 29-hiring-manager-follow-up
+---
+
 ### 29. Hiring Manager Follow-Up
 
 **Use Case:** Message a hiring manager about a role by leading with relevant achievements and curiosity about the job.

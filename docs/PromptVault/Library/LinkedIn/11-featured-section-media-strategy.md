@@ -1,3 +1,7 @@
+﻿---
+id: 11-featured-section-media-strategy
+---
+
 ### 11. Featured Section and Media Strategy
 
 **Use Case:** Design a stronger LinkedIn Featured section that improves professional credibility.

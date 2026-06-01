@@ -1,3 +1,7 @@
+﻿---
+id: 19-refresh-old-post
+---
+
 ### 19. Refresh an Old Post
 
 **Use Case:** Update an older LinkedIn post with a stronger hook and clearer reflection.

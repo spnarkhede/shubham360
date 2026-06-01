@@ -1,3 +1,7 @@
+﻿---
+id: 20-educational-carousel-post-generator
+---
+
 ### 20. Educational Carousel Post Generator
 
 **Use Case:** Turn one topic into a structured LinkedIn carousel with a clear flow.

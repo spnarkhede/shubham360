@@ -1,3 +1,7 @@
+﻿---
+id: 07-multi-part-thread-post
+---
+
 ### 7. LinkedIn Multi-Part Thread Post
 
 **Use Case:** Break complex ideas into short paragraphs optimized for mobile readability.

@@ -1,3 +1,7 @@
+﻿---
+id: 26-persistent-context-brief
+---
+
 ### 26. Persistent Context Brief
 
 **Use Case:** Store resume and profile context once so later LinkedIn tasks can reuse it without repeated uploads.

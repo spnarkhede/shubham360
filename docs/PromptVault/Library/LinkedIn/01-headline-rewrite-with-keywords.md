@@ -1,3 +1,7 @@
+﻿---
+id: 01-headline-rewrite-with-keywords
+---
+
 ### 1. LinkedIn Headline Rewrite with Keywords
 
 **Use Case:** Create search-friendly headline options that combine keywords and clear value.

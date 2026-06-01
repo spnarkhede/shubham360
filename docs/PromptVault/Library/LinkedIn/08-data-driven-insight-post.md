@@ -1,3 +1,7 @@
+﻿---
+id: 08-data-driven-insight-post
+---
+
 ### 8. Data-Driven Insight Post
 
 **Use Case:** Convert one statistic into a practical insight post that builds authority.

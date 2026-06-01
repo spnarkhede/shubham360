@@ -1,3 +1,7 @@
+﻿---
+id: 32-client-outreach-message
+---
+
 ### 32. Client Outreach Message
 
 **Use Case:** Write a decision-maker outreach message that leads with a likely business problem and a relevant outcome.

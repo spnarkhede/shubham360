@@ -1,3 +1,7 @@
+﻿---
+id: 12-skills-section-optimizer
+---
+
 ### 12. Skills Section Optimizer
 
 **Use Case:** Re-rank LinkedIn skills and identify missing skills that improve recruiter visibility.

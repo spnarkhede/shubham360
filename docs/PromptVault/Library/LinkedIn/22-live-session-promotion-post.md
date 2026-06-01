@@ -1,3 +1,7 @@
+﻿---
+id: 22-live-session-promotion-post
+---
+
 ### 22. Live Session Promotion Post
 
 **Use Case:** Promote a webinar or live session with clearer value and stronger sign-up intent.

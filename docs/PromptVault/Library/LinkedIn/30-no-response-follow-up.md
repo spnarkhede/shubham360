@@ -1,3 +1,7 @@
+﻿---
+id: 30-no-response-follow-up
+---
+
 ### 30. No-Response Follow-Up
 
 **Use Case:** Send a polite follow-up after a message has gone unanswered for several days.

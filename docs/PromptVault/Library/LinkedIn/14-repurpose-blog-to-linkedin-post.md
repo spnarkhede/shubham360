@@ -1,3 +1,7 @@
+﻿---
+id: 14-repurpose-blog-to-linkedin-post
+---
+
 ### 14. Repurpose Blog to LinkedIn Post
 
 **Use Case:** Turn a longer article into a short LinkedIn post with clear takeaways.

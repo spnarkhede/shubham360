@@ -1,3 +1,7 @@
+﻿---
+id: 15-opinion-led-thought-leadership-post
+---
+
 ### 15. Opinion-Led Thought Leadership Post
 
 **Use Case:** Write a clear opinion piece that balances conviction with practical advice.

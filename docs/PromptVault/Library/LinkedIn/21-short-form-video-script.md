@@ -1,3 +1,7 @@
+﻿---
+id: 21-short-form-video-script
+---
+
 ### 21. Short-Form Video Script
 
 **Use Case:** Create a concise LinkedIn video script with a strong hook and CTA.

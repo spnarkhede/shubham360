@@ -1,3 +1,7 @@
+﻿---
+id: 04-keyword-audit-profile-visibility
+---
+
 ### 4. LinkedIn Keyword Audit for Profile Visibility
 
 **Use Case:** Identify high-impact keywords and place them correctly for better recruiter discovery.

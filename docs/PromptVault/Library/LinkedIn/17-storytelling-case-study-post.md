@@ -1,3 +1,7 @@
+﻿---
+id: 17-storytelling-case-study-post
+---
+
 ### 17. Storytelling Case Study Post
 
 **Use Case:** Turn a project or challenge into a narrative post that builds trust and credibility.

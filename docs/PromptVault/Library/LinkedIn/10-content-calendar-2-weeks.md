@@ -1,3 +1,7 @@
+﻿---
+id: 10-content-calendar-2-weeks
+---
+
 ### 10. Two-Week LinkedIn Content Calendar
 
 **Use Case:** Build a practical posting cadence with balanced content and engagement actions.

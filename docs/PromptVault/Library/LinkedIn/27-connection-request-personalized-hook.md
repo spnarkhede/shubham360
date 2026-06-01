@@ -1,3 +1,7 @@
+﻿---
+id: 27-connection-request-personalized-hook
+---
+
 ### 27. Connection Request with Personalized Hook
 
 **Use Case:** Write a connection request that shows research, relevance, and a reason to respond.

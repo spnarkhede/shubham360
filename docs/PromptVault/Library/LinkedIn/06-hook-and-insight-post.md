@@ -1,3 +1,7 @@
+﻿---
+id: 06-hook-and-insight-post
+---
+
 ### 6. LinkedIn Post with Hook and Actionable Insights
 
 **Use Case:** Draft a high-engagement post with a strong hook, short story, takeaways, and CTA.

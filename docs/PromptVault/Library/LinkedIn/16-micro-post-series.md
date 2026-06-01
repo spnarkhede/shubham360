@@ -1,3 +1,7 @@
+﻿---
+id: 16-micro-post-series
+---
+
 ### 16. Micro-Post Series
 
 **Use Case:** Generate a batch of short LinkedIn post ideas to maintain posting consistency.

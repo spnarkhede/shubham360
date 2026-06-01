@@ -1,3 +1,7 @@
+﻿---
+id: 09-comment-starter-pack
+---
+
 ### 9. LinkedIn Comment Starter Pack
 
 **Use Case:** Write high-quality comments that create conversations and improve network visibility.

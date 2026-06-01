@@ -1,3 +1,7 @@
+﻿---
+id: 23-blog-to-video-script
+---
+
 ### 23. Blog to Video Script
 
 **Use Case:** Convert a blog article into a short LinkedIn video summary.

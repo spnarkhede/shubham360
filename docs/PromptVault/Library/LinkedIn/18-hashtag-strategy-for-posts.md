@@ -1,3 +1,7 @@
+﻿---
+id: 18-hashtag-strategy-for-posts
+---
+
 ### 18. Hashtag Strategy for Posts
 
 **Use Case:** Build a balanced hashtag mix for reach, niche relevance, and trend visibility.

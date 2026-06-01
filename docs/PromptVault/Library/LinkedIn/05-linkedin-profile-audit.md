@@ -1,3 +1,7 @@
+﻿---
+id: 05-linkedin-profile-audit
+---
+
 ### 5. Full LinkedIn Profile Audit
 
 **Use Case:** Get structured feedback on strengths, weak spots, and immediate profile fixes.

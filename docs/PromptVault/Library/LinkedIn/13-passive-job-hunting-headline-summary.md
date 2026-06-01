@@ -1,3 +1,7 @@
+﻿---
+id: 13-passive-job-hunting-headline-summary
+---
+
 ### 13. Passive Job-Hunting Headline and Summary
 
 **Use Case:** Signal openness to opportunities without sounding actively desperate.

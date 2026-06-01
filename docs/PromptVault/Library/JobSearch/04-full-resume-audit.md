@@ -1,3 +1,7 @@
+﻿---
+id: 04-full-resume-audit
+---
+
 ### 4. Full Resume Audit
 
 **Use Case:** Get direct feedback on weak, vague, or low-impact resume sections and improve them.

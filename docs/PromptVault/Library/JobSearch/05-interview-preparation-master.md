@@ -1,3 +1,7 @@
+﻿---
+id: 05-interview-preparation-master
+---
+
 ### 5. Interview Preparation Master
 
 **Use Case:** Build a complete interview prep plan from one job description.

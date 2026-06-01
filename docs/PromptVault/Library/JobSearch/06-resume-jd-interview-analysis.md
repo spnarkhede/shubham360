@@ -1,3 +1,7 @@
+﻿---
+id: 06-resume-jd-interview-analysis
+---
+
 ### 6. Resume and JD Interview Analysis
 
 **Use Case:** Generate personalized interview preparation by mapping resume evidence against JD requirements.

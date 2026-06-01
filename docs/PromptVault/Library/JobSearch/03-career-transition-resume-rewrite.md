@@ -1,3 +1,7 @@
+﻿---
+id: 03-career-transition-resume-rewrite
+---
+
 ### 3. Career Transition Resume Rewrite
 
 **Use Case:** Reframe existing achievements for a new target role by highlighting transferable strengths.

@@ -1,3 +1,7 @@
+﻿---
+id: 02-ats-keyword-optimizer
+---
+
 ### 2. ATS Keyword Optimizer
 
 **Use Case:** Optimize resume language with job-specific keywords while keeping it natural and readable.

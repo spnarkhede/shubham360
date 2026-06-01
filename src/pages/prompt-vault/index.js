@@ -5,14 +5,10 @@ import Head from '@docusaurus/Head';
 import { PROMPTS } from './prompt-vault-data';
 import styles from './styles.module.css';
 
-const TYPES = ['All', 'Prompts', 'Agents', 'System Prompts', 'Guide'];
+// Derived dynamically from actual prompt data so every category is represented
+const TYPES = ['All', ...Array.from(new Set(PROMPTS.map((p) => p.type).filter(Boolean))).sort()];
 
-const CATEGORIES = [
-  'All', 'Architecture', 'Art', 'Business', 'Coding', 'Customer Service',
-  'Design', 'E-Commerce', 'Education', 'Finance', 'Human Resources',
-  'Lawyers', 'Marketing', 'Photography', 'Productivity', 'Real Estate',
-  'Sales', 'SEO', 'Solopreneurs', 'Technology', 'Writing',
-];
+const CATEGORIES = ['All', ...Array.from(new Set(PROMPTS.map((p) => p.category).filter(Boolean))).sort()];
 
 const TOOLS = ['All tools', 'ChatGPT', 'Claude', 'DeepSeek', 'Gemini', 'Grok', 'Midjourney', 'Nano Banana'];
 const OUTPUTS = ['All', 'Text', 'Image'];
@@ -873,7 +869,7 @@ export default function PromptVault() {
             </div>
             <h1 className={styles.heroTitle}>Prompt<span className={styles.heroAccent}>Vault</span></h1>
             <p className={styles.heroSub}>
-              {PROMPTS.length} battle-tested prompts across {TOOLS.length - 1} AI agents.
+              {allPrompts.length} battle-tested prompts across {CATEGORIES.length - 1} categories.
               <br />
               Filter, copy, and deploy with markdown-ready detail view.
             </p>

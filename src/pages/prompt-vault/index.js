@@ -882,6 +882,8 @@ export default function PromptVault() {
                 placeholder="Search prompts, categories, or tags..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
+                onKeyDown={(e) => e.stopPropagation()}
+                onKeyUp={(e) => e.stopPropagation()}
                 aria-label="Search prompts"
               />
               {search && (

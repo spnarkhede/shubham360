@@ -1,0 +1,8 @@
+{
+  "label": "Copilot Cowork",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Agentic workflow prompts for Microsoft 365 Copilot Cowork — plan, search, and execute across Outlook, Teams, Calendar, and SharePoint."
+  }
+}

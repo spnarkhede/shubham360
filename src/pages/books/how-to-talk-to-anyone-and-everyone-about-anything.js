@@ -67,7 +67,7 @@ export default function HowToTalkToAnyoneReview() {
                 Approach new conversations within five seconds of opportunity to prevent overthinking.
               </p>
               <p>
-                <strong>2. Active Listening > Perfect Responses</strong><br />
+                <strong>2. Active Listening &gt; Perfect Responses</strong><br />
                 Focus on understanding rather than impressing - people remember how you made them feel.
               </p>
               <p>

@@ -64,7 +64,7 @@ export default function AlmanackOfNavalReview() {
                 Eric Jorgenson compiles Naval Ravikant's profound insights on wealth, happiness, and philosophy into a modern Stoic manifesto. This curated collection teaches that wealth creation stems from specific knowledge, leverage, and judgment - not mere hard work. Naval's counterintuitive wisdom: "Money is negative karma" and "Desire is a contract with yourself to be unhappy" challenges conventional success narratives.
               </p>
               <p>
-                The book's three pillars - Wealth Creation, Happiness Engineering, and Philosophical Living - offer actionable principles like the 3 Leverage Framework (labor, capital, code/media) and Happiness Equation (Acceptance > Expectations).
+                The book's three pillars - Wealth Creation, Happiness Engineering, and Philosophical Living - offer actionable principles like the 3 Leverage Framework (labor, capital, code/media) and Happiness Equation (Acceptance &gt; Expectations).
               </p>
             </div>
             

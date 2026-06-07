@@ -1,8 +1,9 @@
-{
-  "label": "Procedures",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Step-by-step procedures for onboarding, incident response, and escalating cognitive debt concerns."
-  }
+﻿{
+    "label":  "Procedures",
+    "position":  2,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Step-by-step procedures for onboarding, incident response, and escalating cognitive debt concerns."
+             },
+    "collapsed":  true
 }

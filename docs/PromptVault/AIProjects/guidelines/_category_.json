@@ -1,8 +1,9 @@
-{
-  "label": "Guidelines",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Standards and guardrails for AI-assisted development — usage policies, code review frameworks, and definition of done."
-  }
+﻿{
+    "label":  "Guidelines",
+    "position":  1,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Standards and guardrails for AI-assisted development â€” usage policies, code review frameworks, and definition of done."
+             },
+    "collapsed":  true
 }

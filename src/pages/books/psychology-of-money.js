@@ -86,7 +86,7 @@ export default function PsychologyOfMoneyReview() {
                 The most powerful force in investing is compound interest over long periods. Patience and consistency often outperform brilliance and timing.
               </p>
               <p>
-                <strong>3. Reasonable > Rational</strong><br />
+                <strong>3. Reasonable &gt; Rational</strong><br />
                 Making reasonable financial decisions that you can stick with is more important than making mathematically optimal decisions that cause stress or anxiety.
               </p>
               <p>

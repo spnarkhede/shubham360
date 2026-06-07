@@ -1,8 +1,9 @@
-{
-  "label": "Prompts",
-  "position": 8,
-  "link": {
-    "type": "generated-index",
-    "description": "A curated collection of Microsoft Copilot prompts organized by role, tool, and use case."
-  }
+﻿{
+    "label":  "Prompts",
+    "position":  4,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "A curated collection of Microsoft Copilot prompts organized by role, tool, and use case."
+             },
+    "collapsed":  true
 }

@@ -1,4 +1,5 @@
-{
-  "label": "Web Technologies",
-  "position": 3
+﻿{
+    "label":  "Web Technologies",
+    "position":  3,
+    "collapsed":  true
 }

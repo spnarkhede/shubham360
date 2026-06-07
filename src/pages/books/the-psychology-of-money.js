@@ -87,7 +87,7 @@ export default function PsychologyOfMoneyReview() {
                 Chasing more without a clear purpose can lead to ruin—know what “enough” means for you.
               </p>
               <p>
-                <strong>5. Save > Invest</strong><br />
+                <strong>5. Save &gt; Invest</strong><br />
                 Good saving habits matter more than picking the perfect investment.
               </p>
             </div>

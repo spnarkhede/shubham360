@@ -22,9 +22,19 @@ const config: Config = {
     },
   },
   onBrokenAnchors: 'ignore',
+  future: {
+    faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      mdxCrossCompilerCache: true,
+    },
+  },
+
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de'],
+    locales: ['en'],
   },
 
   // Security Headers - Added for CodeFlow Health Score improvement
@@ -116,10 +126,10 @@ const config: Config = {
     [
       '@easyops-cn/docusaurus-search-local',
       {
-        indexDocs: true,
+        indexDocs: false,
         indexBlog: true,
         indexPages: true,
-        language: ['en', 'de'],
+        language: ['en'],
         hashed: true,
         docsRouteBasePath: '/',
         searchResultLimits: 8,
@@ -130,7 +140,7 @@ const config: Config = {
         searchBarPosition: 'right',
         hideSearchBarWithNoSearchContext: false,
         useAllContextsWithNoSearchContext: false,
-        searchContextByPaths: ['/', '/blog', '/Portfolio', '/articles', '/books'],
+        searchContextByPaths: ['/blog', '/Portfolio', '/articles', '/books'],
       },
     ],
   ],

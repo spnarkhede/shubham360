@@ -1,8 +1,9 @@
-{
-  "label": "Enterprise",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Standalone Microsoft Copilot prompts that work without M365 integration."
-  }
+﻿{
+    "label":  "Enterprise",
+    "position":  2,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Standalone Microsoft Copilot prompts that work without M365 integration."
+             },
+    "collapsed":  true
 }

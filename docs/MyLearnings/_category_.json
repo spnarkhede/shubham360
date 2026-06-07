@@ -1,4 +1,5 @@
-{
-  "label": "My Learnings",
-  "position": 5
+﻿{
+    "label":  "My Learnings",
+    "position":  4,
+    "collapsed":  true
 }

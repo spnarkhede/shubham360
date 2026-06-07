@@ -1,8 +1,9 @@
-{
-  "label": "Security Copilot",
-  "position": 8,
-  "link": {
-    "type": "generated-index",
-    "description": "Microsoft Security Copilot prompts for SOC operations, threat investigation, and compliance reporting."
-  }
+﻿{
+    "label":  "Security Copilot",
+    "position":  8,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Microsoft Security Copilot prompts for SOC operations, threat investigation, and compliance reporting."
+             },
+    "collapsed":  true
 }

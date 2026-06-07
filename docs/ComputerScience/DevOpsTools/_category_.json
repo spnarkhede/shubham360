@@ -1,4 +1,5 @@
-{
-  "label": "DevOps Tools",
-  "position": 2
+﻿{
+    "label":  "DevOps Tools",
+    "position":  1,
+    "collapsed":  true
 }

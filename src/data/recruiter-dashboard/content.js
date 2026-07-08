@@ -1,9 +1,51 @@
 // Content data for recruiter dashboard role
-export const professionalSummary = {
-  title: "DevOps Engineer & Full Stack Developer",
-  experience: "6+ years",
+
+// Introduction page data — single source of truth for /recruiter-dashboard/introduction
+export const introData = {
+  summaryParagraphs: [
+    "Senior Full-Stack Software Engineer building scalable software systems across enterprise environments like Bosch and Amazon, based in Germany. Specialized in frontend-led product engineering with deep expertise in React, TypeScript, Angular, Vue.js, Node.js, Python (FastAPI), and cloud platforms like AWS and Azure.",
+    "Proven end-to-end feature ownership — from design discussions with product teams to implementation, deployment, and production monitoring — backed by standard DevOps practices: CI/CD automation, Docker and Kubernetes, automated testing, and zero-downtime deployments. Currently driving Gen AI adoption in development workflows and shipping side projects like chasemycareer.com.",
+  ],
+  stats: [
+    { value: null, label: "Years of experience", dynamic: true },
+    { value: "3", label: "Global employers", note: "Bosch · Bosch Rexroth · Amazon" },
+    { value: "90+", label: "Certifications", note: "AWS · Coursera · Pluralsight" },
+    { value: "30+", label: "Countries reached", note: "by products I helped build" },
+  ],
   keyHighlights: [
-    "6+ years of experience in software development and DevOps",
+    "Established frontend standards adopted by 30+ engineers across 5 enterprise platforms at Bosch",
+    "Built dashboards for 450,000+ charge points across 30 countries at 99.9% uptime (CPMS)",
+    "Real-time visualizations processing 10,000+ data points/second at 60fps with React, D3.js & Canvas",
+    "Cut deployment time from 4 hours to 36 minutes via Azure microservices, Jenkins & Docker CI/CD",
+    "Playwright E2E coverage of 80%+ user journeys — 20% fewer production bugs",
+    "Drove Gen AI adoption across product teams, accelerating feature delivery by 50%",
+  ],
+  hiringFacts: [
+    { icon: "availability", label: "Availability", value: "Open to offers", note: "Actively interviewing" },
+    { icon: "visa", label: "Visa Status", value: "German PR (Niederlassungserlaubnis)", note: "No sponsorship needed — Germany & EU" },
+    { icon: "notice", label: "Notice Period", value: "2 months", note: "Negotiable for the right role" },
+    { icon: "location", label: "Location", value: "Stuttgart, Germany", note: "CET timezone" },
+    { icon: "workModel", label: "Work Model", value: "Hybrid preferred", note: "Remote & on-site friendly" },
+    { icon: "relocation", label: "Relocation", value: "Open within Germany & EU", note: "For the right opportunity" },
+  ],
+  expertise: [
+    { icon: "fullstack", title: "Full-Stack Web Development", text: "React, Vue.js, Angular, Node.js, and RESTful/GraphQL APIs in production at enterprise scale." },
+    { icon: "frontend", title: "Frontend Engineering", text: "Responsive, accessible, high-performance UIs — TypeScript-first with design system thinking." },
+    { icon: "backend", title: "Backend Development", text: "Node.js, Python (FastAPI), PHP (Symfony), microservices, and data modeling with PostgreSQL & MongoDB." },
+    { icon: "devops", title: "DevOps & CI/CD", text: "Docker, Kubernetes, GitHub Actions, Jenkins — zero-downtime pipelines and production observability." },
+    { icon: "testing", title: "Automation Testing", text: "Playwright, Jest, and Vitest — E2E suites covering 80%+ of critical user journeys." },
+    { icon: "design", title: "UI/UX Design", text: "Figma-driven wireframing, prototyping, and component libraries aligned with design systems." },
+    { icon: "cloud", title: "Cloud & Hosting", text: "AWS and Azure deployments with performance tuning, monitoring, and cost awareness." },
+    { icon: "leadership", title: "Project Leadership", text: "Mentoring developers, agile workflows, Jira, and stakeholder engagement across teams." },
+    { icon: "security", title: "Security & Auth", text: "OAuth2, OIDC, JWT, and SSO integration — secure application practices by default." },
+  ],
+};
+
+export const professionalSummary = {
+  title: "Senior Full-Stack Developer — TypeScript, Node.js & React",
+  experience: "7+ years",
+  keyHighlights: [
+    "7+ years of experience in software development and DevOps",
     "Expertise in React, Node.js, Docker, Kubernetes, and AWS",
     "Led multiple successful projects from conception to deployment",
     "Strong problem-solving skills and attention to detail",

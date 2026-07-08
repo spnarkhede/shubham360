@@ -3508,12 +3508,214 @@ html[data-theme='dark'] .timelineProjectLink:hover {
   .pdfModalOverlay {
     padding: 10px;
   }
-  
+
   .pdfModal {
     max-height: 80vh;
   }
-  
+
   .pdfViewer {
     height: 50vh;
+  }
+}
+
+/* ==========================================================================
+   Introduction page redesign — stat strip, hiring snapshot, achievements
+   ========================================================================== */
+
+/* Stat strip under the professional summary */
+.statStrip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1px;
+  background-color: var(--ifm-color-emphasis-200);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1.1rem 1.25rem;
+  background-color: var(--ifm-card-background-color);
+}
+
+.statValue {
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ifm-color-primary);
+}
+
+.statLabel {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.statNote {
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.35;
+}
+
+/* Hiring snapshot rail */
+.glanceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.glanceCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  padding: 1.1rem 1.25rem;
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 10px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.glanceCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.glanceIconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.12);
+  color: var(--ifm-color-primary);
+}
+
+.glanceBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.glanceLabel {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.glanceValue {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-900);
+  line-height: 1.35;
+}
+
+.glanceNote {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Live availability pulse dot */
+.pulseDot {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--ifm-color-success);
+}
+
+.pulseDot::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid var(--ifm-color-success);
+  opacity: 0.6;
+  animation: pulseRing 2s ease-out infinite;
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulseDot::after {
+    animation: none;
+  }
+
+  .glanceCard:hover {
+    transform: none;
+  }
+}
+
+/* Key achievements list */
+.achievementsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.achievementItem {
+  position: relative;
+  padding: 0.85rem 1rem 0.85rem 2.1rem;
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.achievementItem::before {
+  content: '';
+  position: absolute;
+  left: 0.9rem;
+  top: 1.25rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background-color: var(--ifm-color-primary);
+  transform: rotate(45deg);
+}
+
+/* Expertise card icons sit inside the existing .skillTitle flex row */
+.skillTitle svg {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .statStrip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .glanceGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievementsList {
+    grid-template-columns: 1fr;
   }
 }

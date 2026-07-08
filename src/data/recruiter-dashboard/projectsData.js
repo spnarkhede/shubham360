@@ -105,6 +105,24 @@ export const companyProjects = {
       codeLink: null,
     },
     {
+      title: "Virtual Streaming Platform",
+      date: "2020 - 2022",
+      company: "Bosch Rexroth AG",
+      description: "COVID-era live streaming platform with 500+ direct streaming lines for sales engineers across 40+ countries — OBS & Green Room integration, chats, bots, interactive rooms, webinars, and product demonstrations. Saved €14M over 3 years.",
+      longDescription: "Developed a virtual streaming platform during COVID that replaced global in-person sales events with live product demonstrations. Supported 500+ direct streaming lines with sales engineers joining from 40+ countries, integrated with OBS and Green Room for professional broadcast workflows, and built interactive features including live chats, bots, interactive rooms, and webinars. The platform saved the company €14 million in travel and event costs over 3 years.",
+      technologies: ["Vue.js", "TypeScript", "Node.js", "WebRTC", "WebSockets", "OBS", "Green Room"],
+      achievements: [
+        "€14 million saved over 3 years",
+        "500+ direct streaming lines",
+        "Sales engineers from 40+ countries",
+        "OBS & Green Room broadcast integration",
+        "Live chats, bots, interactive rooms & webinars"
+      ],
+      image: "/img/projects/dc-mh-sdi-tool.webp",
+      demoLink: null,
+      codeLink: null,
+    },
+    {
       title: "Support Portal 2.0",
       date: "2023 - Present",
       company: "Robert Bosch GmbH",

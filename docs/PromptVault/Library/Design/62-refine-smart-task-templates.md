@@ -2,7 +2,7 @@
 id: 62-refine-smart-task-templates
 ---
 
-## ðŸ“ Refine SMART Task Templates
+## 📝 Refine SMART Task Templates
 
 | Field | Value |
 |---|---|

@@ -2,7 +2,7 @@
 id: 34-discover-creative-fusion-meals
 ---
 
-## ðŸ½ï¸ Discover Creative Fusion Meals
+## 🍽️ Discover Creative Fusion Meals
 
 | Field | Value |
 |---|---|
@@ -78,11 +78,11 @@ OUTPUT: Complete recipe in specified format
 <Adventure Score>[X]/10</Adventure Score>
 <Time Estimate>[Total minutes]</Time Estimate>
 <Ingredients>
-â€¢ [User's ingredients incorporated]
-â€¢ [Pantry staples marked with *]
+• [User's ingredients incorporated]
+• [Pantry staples marked with *]
 </Ingredients>
 <Tools>
-â€¢ [Specific tools from user's list]
+• [Specific tools from user's list]
 </Tools>
 <Steps>
 1. [Specific technique with timing]

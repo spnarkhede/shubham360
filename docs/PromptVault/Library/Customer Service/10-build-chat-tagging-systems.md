@@ -2,7 +2,7 @@
 id: 10-build-chat-tagging-systems
 ---
 
-## ðŸ—‚ï¸ Build Chat Tagging Systems
+## 🗂️ Build Chat Tagging Systems
 
 | Field | Value |
 |---|---|

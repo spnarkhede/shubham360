@@ -2,7 +2,7 @@
 id: 08-render-gallery-style-interior-visualizations
 ---
 
-## ðŸº Render Gallery-Style Interior Visualizations
+## Render Gallery-Style Interior Visualizations
 
 | Field | Value |
 |---|---|

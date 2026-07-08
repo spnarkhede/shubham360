@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Design",
-    "position":  9,
-    "collapsed":  true
+{
+    "label": "Design",
+    "position": 9,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/design"
+    }
 }

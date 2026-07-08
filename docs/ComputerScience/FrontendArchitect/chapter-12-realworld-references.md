@@ -185,4 +185,4 @@ For certification in the German market, the iSAQB CPSA-F is the highest-signal c
 **Continue to:**
 - [Appendix A — All Sources and References](./appendix-a-sources.md)
 - [Appendix B — Tools Cheatsheet 2026](./appendix-b-tools-cheatsheet.md)
-- [Appendix C — Glossary](./appendix-c-glossary.md)
+- Appendix C — Glossary (coming soon)

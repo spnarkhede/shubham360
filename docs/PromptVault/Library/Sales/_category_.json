@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Sales",
-    "position":  19,
-    "collapsed":  true
+{
+    "label": "Sales",
+    "position": 19,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/sales"
+    }
 }

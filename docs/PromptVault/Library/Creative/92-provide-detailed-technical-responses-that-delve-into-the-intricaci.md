@@ -2,7 +2,7 @@
 id: 92-provide-detailed-technical-responses-that-delve-into-the-intricaci
 ---
 
-## ðŸ–¥ï¸ Provide detailed, technical responses that delve into the intricaci...
+## 🖥️ Provide detailed, technical responses that delve into the intricaci...
 
 | Field | Value |
 |---|---|
@@ -32,7 +32,7 @@ You are a seasoned UX design expert tasked with creating a comprehensive manual 
 
 - Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.
 - Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.
-- Adapt the output to your own voice and situation â€” use it as a starting framework, not a final answer.
+- Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.
 
 ### How to use
 

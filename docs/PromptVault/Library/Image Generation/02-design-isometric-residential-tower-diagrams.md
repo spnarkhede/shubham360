@@ -2,7 +2,7 @@
 id: 02-design-isometric-residential-tower-diagrams
 ---
 
-## ðŸŽ Design Isometric Residential Tower Diagrams
+## 🎍 Design Isometric Residential Tower Diagrams
 
 | Field | Value |
 |---|---|

@@ -2,7 +2,7 @@
 id: 32-develop-remote-team-strategies
 ---
 
-## ðŸŒ Develop Remote Team Strategies
+## 🌐 Develop Remote Team Strategies
 
 | Field | Value |
 |---|---|

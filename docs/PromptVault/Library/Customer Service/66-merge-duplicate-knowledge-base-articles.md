@@ -2,7 +2,7 @@
 id: 66-merge-duplicate-knowledge-base-articles
 ---
 
-## âš—ï¸ Merge Duplicate Knowledge Base Articles
+## ⚗️ Merge Duplicate Knowledge Base Articles
 
 | Field | Value |
 |---|---|

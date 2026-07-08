@@ -1,5 +1,9 @@
-﻿{
-    "label":  "General",
-    "position":  11,
-    "collapsed":  true
+{
+    "label": "General",
+    "position": 11,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/general"
+    }
 }

@@ -2,7 +2,7 @@
 id: 30-provide-a-medium-length-detailed-checklist-for-intermediate-level
 ---
 
-## ðŸŽ™ï¸ Provide a medium-length, detailed checklist for intermediate-level ...
+## 🎙️ Provide a medium-length, detailed checklist for intermediate-level ...
 
 | Field | Value |
 |---|---|
@@ -32,7 +32,7 @@ You are a seasoned career advisor specializing in technical interview preparatio
 
 - Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.
 - Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.
-- Adapt the output to your own voice and situation â€” use it as a starting framework, not a final answer.
+- Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.
 
 ### How to use
 

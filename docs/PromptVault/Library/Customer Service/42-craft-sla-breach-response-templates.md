@@ -2,7 +2,7 @@
 id: 42-craft-sla-breach-response-templates
 ---
 
-## â±ï¸ Craft SLA Breach Response Templates
+## ⏱️ Craft SLA Breach Response Templates
 
 | Field | Value |
 |---|---|

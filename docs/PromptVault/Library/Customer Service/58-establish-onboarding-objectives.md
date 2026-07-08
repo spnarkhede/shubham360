@@ -2,7 +2,7 @@
 id: 58-establish-onboarding-objectives
 ---
 
-## ðŸ“ Establish Onboarding Objectives
+## 📐 Establish Onboarding Objectives
 
 | Field | Value |
 |---|---|

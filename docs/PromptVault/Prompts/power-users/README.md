@@ -456,10 +456,10 @@ Simplify this technical document for [AUDIENCE: executives/non-technical stakeho
 ## 📚 Additional Resources
 
 - [Back to Main Collection](../../README.md)
-- [Outlook Collections](../outlook/)
-- [Enterprise Prompts](../enterprise/)
-- [Quick Start Essentials](../quick-start/)
-- [Role-Specific Collections](../role-specific/)
+- [Outlook Collections](../outlook/README.md)
+- [Enterprise Prompts](../enterprise/standalone-prompts.md)
+- [Quick Start Essentials](../quick-start/essentials.md)
+- [Role-Specific Collections](../role-specific/README.md)
 
 ---
 

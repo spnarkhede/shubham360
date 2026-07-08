@@ -2,7 +2,7 @@
 id: 10-render-organic-modern-interior-visualizations
 ---
 
-## ðŸš Render Organic Modern Interior Visualizations
+## Render Organic Modern Interior Visualizations
 
 | Field | Value |
 |---|---|

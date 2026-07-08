@@ -2,7 +2,7 @@
 id: 16-to-create-a-comprehensive-manual-for-generating-ui-icon-sets-using
 ---
 
-## ðŸ–¥ï¸ To create a comprehensive manual for generating UI icon sets using ...
+## 🖥️ To create a comprehensive manual for generating UI icon sets using ...
 
 | Field | Value |
 |---|---|
@@ -24,7 +24,7 @@ To create a comprehensive manual for generating UI icon sets using AI tools,** f
 **# Step 1: Define the Purpose and Scope of the Icon Set**Objective**: Clearly outline the purpose of the icon set. Are they for a mobile app, a website, or a desktop application? Understanding the context will help in designing icons that are relevant and functional. 
 - **Audience**: Identify the target audience. This will influence the style, color palette, and overall design language of the icons. 
 
-**# Step 2: Research and Gather Inspiration**Competitor Analysis**: Look at similar apps or websites to understand what works and what doesnâ€™t in terms of icon design. 
+**# Step 2: Research and Gather Inspiration**Competitor Analysis**: Look at similar apps or websites to understand what works and what doesn’t in terms of icon design. 
 - **Trend Analysis**: Stay updated with current design trends to ensure your icons are modern and appealing. 
 - **User Feedback**: If possible, gather feedback from potential users to understand their preferences and expectations. 
 
@@ -56,7 +56,7 @@ To create a comprehensive manual for generating UI icon sets using AI tools,** f
 
 - Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.
 - Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.
-- Adapt the output to your own voice and situation â€” use it as a starting framework, not a final answer.
+- Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.
 
 ### How to use
 

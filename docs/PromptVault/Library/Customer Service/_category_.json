@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Customer Service",
-    "position":  7,
-    "collapsed":  true
+{
+    "label": "Customer Service",
+    "position": 7,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/customer-service"
+    }
 }

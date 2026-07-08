@@ -2,7 +2,7 @@
 id: 13-create-professional-networking-framework
 ---
 
-## ðŸŒ Create Professional Networking Framework
+## 🌐 Create Professional Networking Framework
 
 | Field | Value |
 |---|---|

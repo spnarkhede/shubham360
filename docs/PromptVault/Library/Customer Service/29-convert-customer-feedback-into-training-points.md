@@ -2,7 +2,7 @@
 id: 29-convert-customer-feedback-into-training-points
 ---
 
-## ðŸªœ Convert Customer Feedback Into Training Points
+## 🪜 Convert Customer Feedback Into Training Points
 
 | Field | Value |
 |---|---|
@@ -58,18 +58,18 @@ Your mission is to transform customer feedback into actionable training points f
 
 ## PHASE 4: Ideal Behavior Modeling
 * **Objective:** Define exemplary behaviors or responses.
-* **Identify:** What â€œgoodâ€ looks like in context. 
+* **Identify:** What “good” looks like in context. 
 * **Output:** Descriptive paragraphs for each skill reflecting client expectations.
 
 ## PHASE 5: Scenario Building
 * **Objective:** Develop training scenarios based on feedback.
 * **Research Needs:** Use existing customer examples for scenario creation.
-* **Output Format:** Role-play scripts (3â€“5 lines) ready for coaching sessions.
+* **Output Format:** Role-play scripts (3–5 lines) ready for coaching sessions.
 
 ## PHASE 6: Prioritization and Impact Analysis
 * **Objective:** Rank training points by potential impact.
 * **Processing:** Prioritize based on frequency and severity of feedback themes.
-* **Output:** Ordered list of 5â€“8 training points, most to least impactful.
+* **Output:** Ordered list of 5–8 training points, most to least impactful.
 
 ## Optional PHASE 7: Feedback Cycle Integration
 * **Objective:** Continuous improvement through feedback loops.

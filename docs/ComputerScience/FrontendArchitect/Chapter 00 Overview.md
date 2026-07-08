@@ -35,7 +35,7 @@ This book is organized into **12 chapters** plus appendices. Each chapter maps t
 | [Chapter 12](./chapter-12-realworld-references.md) | Real-World References, Case Studies, and Resources | Reference |
 | [Appendix A](./appendix-a-sources.md) | All Sources and References | Reference |
 | [Appendix B](./appendix-b-tools-cheatsheet.md) | Tools and Technology Cheatsheet 2026 | Reference |
-| [Appendix C](./appendix-c-glossary.md) | Glossary of Terms | Reference |
+| Appendix C (coming soon) | Glossary of Terms | Reference |
 
 ---
 

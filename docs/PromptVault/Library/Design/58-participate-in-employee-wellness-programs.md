@@ -2,7 +2,7 @@
 id: 58-participate-in-employee-wellness-programs
 ---
 
-## ðŸ‹ï¸ Participate in Employee Wellness Programs
+## 🏋️ Participate in Employee Wellness Programs
 
 | Field | Value |
 |---|---|

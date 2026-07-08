@@ -2,7 +2,7 @@
 id: 56-organize-tasks-on-task-management-platforms
 ---
 
-## ðŸ“ Organize Tasks on Task Management Platforms
+## 📝 Organize Tasks on Task Management Platforms
 
 | Field | Value |
 |---|---|

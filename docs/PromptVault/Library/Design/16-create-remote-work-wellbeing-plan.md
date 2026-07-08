@@ -2,7 +2,7 @@
 id: 16-create-remote-work-wellbeing-plan
 ---
 
-## ðŸ¡ Create Remote Work Wellbeing Plan
+## 🏡 Create Remote Work Wellbeing Plan
 
 | Field | Value |
 |---|---|

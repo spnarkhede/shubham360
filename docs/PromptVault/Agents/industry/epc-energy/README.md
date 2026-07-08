@@ -84,7 +84,7 @@ This pack was developed for large-scale EPC projects in the energy sector. The i
 
 ## Contributing to This Pack
 
-To contribute new agents to the EPC & Energy pack, follow the standard [contribution guidelines](../../../CONTRIBUTING.md) and place agent files in this directory. EPC-specific contributions should include:
+To contribute new agents to the EPC & Energy pack, follow the standard [contribution guidelines](../../CONTRIBUTING.md) and place agent files in this directory. EPC-specific contributions should include:
 - The relevant EPC acronym preservation rules
 - HSE safety guardrail language where applicable
 - French language support

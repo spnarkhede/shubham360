@@ -2,7 +2,7 @@
 id: 46-design-minimal-cafe-interior-renders
 ---
 
-## ðŸ¶ Design Minimal Cafe Interior Renders
+## 🍶 Design Minimal Cafe Interior Renders
 
 | Field | Value |
 |---|---|
@@ -63,7 +63,7 @@ id: 46-design-minimal-cafe-interior-renders
       "track lighting with focused spots",
       "hidden indirect lighting"
     ],
-    "temperature": "warm white (2700Kâ€“3000K)"
+    "temperature": "warm white (2700K–3000K)"
   },
   "bar_design": {
     "equipment_visibility": "professional espresso machines displayed cleanly",

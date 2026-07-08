@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Career",
-    "position":  2,
-    "collapsed":  true
+{
+    "label": "Career",
+    "position": 2,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/career"
+    }
 }

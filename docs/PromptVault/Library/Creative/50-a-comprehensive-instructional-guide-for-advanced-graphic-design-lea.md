@@ -2,7 +2,7 @@
 id: 50-a-comprehensive-instructional-guide-for-advanced-graphic-design-lea
 ---
 
-## ðŸ–Œï¸ a comprehensive instructional guide for advanced graphic design lea...
+## 🖌️ a comprehensive instructional guide for advanced graphic design lea...
 
 | Field | Value |
 |---|---|
@@ -42,7 +42,7 @@ Develop a comprehensive instructional guide for advanced graphic design learners
 
 - Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.
 - Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.
-- Adapt the output to your own voice and situation â€” use it as a starting framework, not a final answer.
+- Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.
 
 ### How to use
 

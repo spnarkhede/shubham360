@@ -2,7 +2,7 @@
 id: 40-enhance-focus-using-pomodoro-timer-apps
 ---
 
-## â²ï¸ Enhance Focus Using Pomodoro Timer Apps
+## ⏲️ Enhance Focus Using Pomodoro Timer Apps
 
 | Field | Value |
 |---|---|

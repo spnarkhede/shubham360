@@ -86,7 +86,7 @@ Installs the specified Node.js version. For example:
 nvm install 18.16.1
 ```
 
-### Install Latest LTS (Long Term Support) Version of Node
+### Install Latest LTS (Long Term Support) Version of Node {#install-latest-lts-version-of-node}
 ```bash
 nvm install --lts
 ```

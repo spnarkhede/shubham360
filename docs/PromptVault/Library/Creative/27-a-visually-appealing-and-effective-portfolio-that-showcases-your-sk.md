@@ -2,7 +2,7 @@
 id: 27-a-visually-appealing-and-effective-portfolio-that-showcases-your-sk
 ---
 
-## ðŸ–Œï¸ a visually appealing and effective portfolio that showcases your sk...
+## 🖌️ a visually appealing and effective portfolio that showcases your sk...
 
 | Field | Value |
 |---|---|
@@ -44,7 +44,7 @@ As a beginner in graphic design, create a visually appealing and effective portf
 
 - Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.
 - Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.
-- Adapt the output to your own voice and situation â€” use it as a starting framework, not a final answer.
+- Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.
 
 ### How to use
 

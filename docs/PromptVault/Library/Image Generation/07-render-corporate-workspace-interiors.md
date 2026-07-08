@@ -2,7 +2,7 @@
 id: 07-render-corporate-workspace-interiors
 ---
 
-## ðŸ˜ï¸ Render Corporate Workspace Interiors
+## 🏘️ Render Corporate Workspace Interiors
 
 | Field | Value |
 |---|---|
@@ -97,7 +97,7 @@ id: 07-render-corporate-workspace-interiors
   },
   "negative_prompt": [
     "generic open office",
-    "startup clichÃ©",
+    "startup cliché",
     "flat lighting",
     "cheap furniture look",
     "pastel-only palette",

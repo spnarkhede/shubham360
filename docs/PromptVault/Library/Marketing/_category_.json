@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Marketing",
-    "position":  16,
-    "collapsed":  true
+{
+    "label": "Marketing",
+    "position": 16,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/marketing"
+    }
 }

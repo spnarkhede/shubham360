@@ -2,7 +2,7 @@
 id: 14-create-remote-work-guidelines
 ---
 
-## ðŸ¡ Create Remote Work Guidelines
+## 🏡 Create Remote Work Guidelines
 
 | Field | Value |
 |---|---|

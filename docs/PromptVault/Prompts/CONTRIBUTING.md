@@ -138,7 +138,7 @@ We may ask you to:
 - Move to a different category
 - Combine with an existing similar prompt
 
-## 🏷️ Categories and Tags
+## 🏷️ Categories and Tags {#-categories-and-tags}
 
 ### Available Categories
 

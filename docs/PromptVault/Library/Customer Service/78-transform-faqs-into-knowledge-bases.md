@@ -2,7 +2,7 @@
 id: 78-transform-faqs-into-knowledge-bases
 ---
 
-## ðŸ›ï¸ Transform FAQs Into Knowledge Bases
+## 🏛️ Transform FAQs Into Knowledge Bases
 
 | Field | Value |
 |---|---|

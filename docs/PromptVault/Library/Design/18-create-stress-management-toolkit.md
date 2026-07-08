@@ -2,7 +2,7 @@
 id: 18-create-stress-management-toolkit
 ---
 
-## ðŸ§˜â™‚ï¸ Create Stress Management Toolkit
+## 🧘♂️ Create Stress Management Toolkit
 
 | Field | Value |
 |---|---|

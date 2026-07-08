@@ -2,7 +2,7 @@
 id: 45-create-luxury-product-showcases
 ---
 
-## âšœï¸ Create Luxury Product Showcases
+## ⚜️ Create Luxury Product Showcases
 
 | Field | Value |
 |---|---|
@@ -64,10 +64,10 @@ id: 45-create-luxury-product-showcases
         "Title": "Material Configurator",
         "InterfaceStyle": "Premium digital UI floating glass panel",
         "MaterialOptions": [
-          "[MATERIAL LANGUAGE: Option 1 â€” dark + light pairing]",
-          "[MATERIAL LANGUAGE: Option 2 â€” industrial pairing]",
-          "[MATERIAL LANGUAGE: Option 3 â€” warm natural pairing]",
-          "[MATERIAL LANGUAGE: Option 4 â€” contemporary pairing]"
+          "[MATERIAL LANGUAGE: Option 1 — dark + light pairing]",
+          "[MATERIAL LANGUAGE: Option 2 — industrial pairing]",
+          "[MATERIAL LANGUAGE: Option 3 — warm natural pairing]",
+          "[MATERIAL LANGUAGE: Option 4 — contemporary pairing]"
         ],
         "Background": "Frosted glass overlay with soft [MATERIAL LANGUAGE: accent metal] edge lighting"
       }

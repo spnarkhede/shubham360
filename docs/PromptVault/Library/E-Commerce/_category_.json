@@ -1,5 +1,9 @@
-﻿{
-    "label":  "E-Commerce",
-    "position":  10,
-    "collapsed":  true
+{
+    "label": "E-Commerce",
+    "position": 10,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/e-commerce"
+    }
 }

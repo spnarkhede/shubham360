@@ -2,7 +2,7 @@
 id: 12-create-professional-competency-tools
 ---
 
-## ðŸ“ Create Professional Competency Tools
+## 📝 Create Professional Competency Tools
 
 | Field | Value |
 |---|---|

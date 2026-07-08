@@ -2,7 +2,7 @@
 id: 23-design-an-ergonomic-workspace
 ---
 
-## ðŸ–¥ï¸ Design an Ergonomic Workspace
+## 🖥️ Design an Ergonomic Workspace
 
 | Field | Value |
 |---|---|

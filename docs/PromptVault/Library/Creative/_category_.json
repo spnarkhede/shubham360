@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Creative",
-    "position":  6,
-    "collapsed":  true
+{
+    "label": "Creative",
+    "position": 6,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/creative"
+    }
 }

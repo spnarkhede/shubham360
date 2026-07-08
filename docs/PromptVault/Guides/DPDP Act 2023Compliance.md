@@ -52,7 +52,7 @@
 ---
 
 <a name="section-1"></a>
-## Section 1 — What is DPDP Act 2023?
+## Section 1 — What is DPDP Act 2023? {#section-1}
 
 The Digital Personal Data Protection Act 2023 (DPDP Act) is India's first comprehensive legislation governing the collection, storage, processing, and transfer of digital personal data. Passed by the Parliament of India on August 11, 2023 and published in the Gazette of India (Extraordinary), it replaces prior patchwork data handling provisions under the IT Act 2000.
 
@@ -71,7 +71,7 @@ The Digital Personal Data Protection Act 2023 (DPDP Act) is India's first compre
 ---
 
 <a name="section-2"></a>
-## Section 2 — Are You a Data Fiduciary? Applicability Test
+## Section 2 — Are You a Data Fiduciary? Applicability Test {#section-2}
 
 **If you answered YES to any one of the following questions, you are a Data Fiduciary under DPDP Act 2023 and this entire checklist applies to you.**
 
@@ -89,7 +89,7 @@ The Digital Personal Data Protection Act 2023 (DPDP Act) is India's first compre
 ---
 
 <a name="module-01"></a>
-## Module 01 — Consent Management
+## Module 01 — Consent Management {#module-01}
 
 > All collection and processing of personal data must rest on valid consent or a recognised lawful basis.
 
@@ -123,7 +123,7 @@ DPDP Act recognises very limited lawful bases beyond consent — primarily: (a) 
 ---
 
 <a name="module-02"></a>
-## Module 02 — Authentication & OTP Compliance
+## Module 02 — Authentication & OTP Compliance {#module-02}
 
 > Phone number collection, OTP flows, session handling, and social login all carry distinct DPDP obligations.
 
@@ -169,7 +169,7 @@ Biometric data is treated as sensitive personal data under DPDP. If your app use
 ---
 
 <a name="module-03"></a>
-## Module 03 — Data Collection & Minimization
+## Module 03 — Data Collection & Minimization {#module-03}
 
 > Collect only what you need, for only as long as you need it.
 
@@ -198,7 +198,7 @@ Before completing any other module, complete a Data Inventory. List every piece 
 ---
 
 <a name="module-04"></a>
-## Module 04 — User Rights Implementation
+## Module 04 — User Rights Implementation {#module-04}
 
 > Four enforceable rights must be technically implemented — not just stated in policy.
 
@@ -239,7 +239,7 @@ This right does not exist in GDPR. Under DPDP Act, every Data Principal has the 
 ---
 
 <a name="module-05"></a>
-## Module 05 — Children's Data Compliance
+## Module 05 — Children's Data Compliance {#module-05}
 
 > Anyone under 18 is a child. Penalties for children's data violations: up to Rs. 200 Crore.
 
@@ -259,7 +259,7 @@ This right does not exist in GDPR. Under DPDP Act, every Data Principal has the 
 ---
 
 <a name="module-06"></a>
-## Module 06 — Cross-Border Data Transfer
+## Module 06 — Cross-Border Data Transfer {#module-06}
 
 > Every third-party cloud service used is a cross-border transfer. You are the Data Fiduciary — not your cloud provider.
 
@@ -281,7 +281,7 @@ This right does not exist in GDPR. Under DPDP Act, every Data Principal has the 
 ---
 
 <a name="module-07"></a>
-## Module 07 — Grievance Officer & Public Notice
+## Module 07 — Grievance Officer & Public Notice {#module-07}
 
 > Mandatory appointment. Must be a named individual. Must be publicly accessible.
 
@@ -302,7 +302,7 @@ This right does not exist in GDPR. Under DPDP Act, every Data Principal has the 
 ---
 
 <a name="module-08"></a>
-## Module 08 — Data Breach Response Protocol
+## Module 08 — Data Breach Response Protocol {#module-08}
 
 > Mandatory notification to Data Protection Board and affected users. No defined timeline in rules yet — 72 hours is the global standard.
 
@@ -320,7 +320,7 @@ This right does not exist in GDPR. Under DPDP Act, every Data Principal has the 
 ---
 
 <a name="module-09"></a>
-## Module 09 — Third-Party & Vendor Compliance
+## Module 09 — Third-Party & Vendor Compliance {#module-09}
 
 > Your liability does not end at your own code. It extends to every SDK and service you embed.
 
@@ -338,7 +338,7 @@ This right does not exist in GDPR. Under DPDP Act, every Data Principal has the 
 ---
 
 <a name="appendix-a"></a>
-## Appendix A — Penalty Reference Table
+## Appendix A — Penalty Reference Table {#appendix-a}
 
 | # | Violation Category | Section | Maximum Penalty |
 |---|---|---|---|
@@ -355,7 +355,7 @@ This right does not exist in GDPR. Under DPDP Act, every Data Principal has the 
 ---
 
 <a name="appendix-b"></a>
-## Appendix B — Compliance Score Tracker
+## Appendix B — Compliance Score Tracker {#appendix-b}
 
 Use this tracker to measure your current compliance status across all nine modules.
 
@@ -385,7 +385,7 @@ Use this tracker to measure your current compliance status across all nine modul
 ---
 
 <a name="implementation-guide"></a>
-## Implementation Guide — Steps to Apply DPDP Compliance to an Existing Project
+## Implementation Guide — Steps to Apply DPDP Compliance to an Existing Project {#implementation-guide}
 
 This section provides a concrete, ordered implementation roadmap for engineering and product teams retrofitting DPDP compliance into a live application.
 

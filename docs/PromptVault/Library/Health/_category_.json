@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Health",
-    "position":  12,
-    "collapsed":  true
+{
+    "label": "Health",
+    "position": 12,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/health"
+    }
 }

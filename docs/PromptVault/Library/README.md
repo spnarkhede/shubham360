@@ -9,19 +9,19 @@ All 1835 prompts organised by category.
 
 | Category | Count |
 |---|---|
-| [Business](./Business/business) | 432 |
-| [Career](./Career/career) | 19 |
-| [Coding](./Coding/coding) | 308 |
-| [Communication](./Communication/communication) | 6 |
-| [Creative](./Creative/creative) | 107 |
-| [Customer Service](./Customer Service/customer-service) | 78 |
-| [Customer Support](./Customer Support/customer-support) | 1 |
-| [Design](./Design/design) | 70 |
-| [E-Commerce](./E-Commerce/e-commerce) | 4 |
-| [General](./General/general) | 3 |
-| [Health](./Health/health) | 45 |
-| [Image Generation](./Image Generation/image-generation) | 13 |
-| [Marketing](./Marketing/marketing) | 188 |
-| [Productivity](./Productivity/productivity) | 385 |
-| [Sales](./Sales/sales) | 1 |
-| [Technology](./Technology/technology) | 175 |
+| [Business](/PromptVault/Library/business) | 432 |
+| [Career](/PromptVault/Library/career) | 19 |
+| [Coding](/PromptVault/Library/coding) | 308 |
+| [Communication](/PromptVault/Library/communication) | 6 |
+| [Creative](/PromptVault/Library/creative) | 107 |
+| [Customer Service](/PromptVault/Library/customer-service) | 78 |
+| [Customer Support](/PromptVault/Library/customer-support) | 1 |
+| [Design](/PromptVault/Library/design) | 70 |
+| [E-Commerce](/PromptVault/Library/e-commerce) | 4 |
+| [General](/PromptVault/Library/general) | 3 |
+| [Health](/PromptVault/Library/health) | 45 |
+| [Image Generation](/PromptVault/Library/image-generation) | 13 |
+| [Marketing](/PromptVault/Library/marketing) | 188 |
+| [Productivity](/PromptVault/Library/productivity) | 385 |
+| [Sales](/PromptVault/Library/sales) | 1 |
+| [Technology](/PromptVault/Library/technology) | 175 |

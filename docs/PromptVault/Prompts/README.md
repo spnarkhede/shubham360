@@ -34,7 +34,7 @@ Format as an executive briefing.
 **Works In:** Outlook Copilot
 **Target Users:** Executives, Managers, Project Managers
 
-[See 70 more Outlook prompts →](prompts/outlook/)
+[See 70 more Outlook prompts →](outlook/README.md)
 
 ### Example: Excel Data Analysis Without Being a Data Scientist
 
@@ -57,7 +57,7 @@ Create visualizations for top 3 insights and provide narrative explanations suit
 **Works In:** Excel Copilot
 **Target Users:** Business Analysts, Managers, Data Analysts
 
-[See more Excel prompts →](prompts/power-users/README.md)
+[See more Excel prompts →](power-users/README.md)
 
 ## 🔄 Copilot vs ChatGPT: Key Differences
 
@@ -90,7 +90,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 ### 🎓 Power Users & Advanced Techniques
 
-- [**AI for Microsoft Copilot Power Users**](prompts/power-users/README.md) (26 prompts)
+- [**AI for Microsoft Copilot Power Users**](power-users/README.md) (26 prompts)
   + Advanced email intelligence
   + Excel data intelligence
   + Outlook email mastery
@@ -100,7 +100,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 ### 📧 Email & Communication Mastery (82 prompts)
 
-- [**Copilot Inbox Management — Action Mode**](prompts/outlook/inbox-management-action-mode.md) (12 prompts) 🆕
+- [**Copilot Inbox Management — Action Mode**](outlook/README.md) (12 prompts) 🆕
   + Triage & prioritization
   + Non-responder detection & follow-up
   + Inbox rules & automation
@@ -108,7 +108,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Context-aware draft assembly
   > Requires Frontier program. Copilot acts on your inbox — drafts, rules, triage — not just chat.
 
-- [**Advanced Outlook Automation**](prompts/outlook/advanced-automation.md) (20 prompts)
+- [**Advanced Outlook Automation**](outlook/advanced-automation.md) (20 prompts)
   + Cognitive load & workload management
   + Compliance & knowledge extraction
   + Email battle planning & prioritization
@@ -116,7 +116,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Relationship & stakeholder intelligence
   + Risk detection & early warning systems
 
-- [**Advanced Outlook Prompt Pack**](prompts/outlook/advanced-prompts.md) (50 prompts)
+- [**Advanced Outlook Prompt Pack**](outlook/advanced-prompts.md) (50 prompts)
   + Collaboration & communication
   + Customer relations
   + Decision support
@@ -127,7 +127,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 ### 🏢 Enterprise & Quick Start (66 prompts)
 
-- [**Copilot Enterprise Prompts (Standalone)**](prompts/enterprise/standalone-prompts.md) (16 prompts)
+- [**Copilot Enterprise Prompts (Standalone)**](enterprise/standalone-prompts.md) (16 prompts)
   + Analysis & reasoning frameworks
   + Business writing templates
   + Data processing & extraction
@@ -135,7 +135,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Image analysis (with limitations noted)
   + Technical documentation
 
-- [**Copilot Quick Start Essentials**](prompts/quick-start/essentials.md) (50 prompts)
+- [**Copilot Quick Start Essentials**](quick-start/essentials.md) (50 prompts)
   + Analysis & problem-solving
   + Content creation
   + Learning & research
@@ -146,59 +146,59 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 #### Business Operations & Support
 
-- [**Administrative & Executive Assistants**](prompts/role-specific/admin-executive-assistants.md) (17 prompts)
+- [**Administrative & Executive Assistants**](role-specific/admin-executive-assistants.md) (17 prompts)
   + Board support, calendar management, correspondence
   + Document management, event & travel coordination
   + Meeting support, process documentation
   + **Includes ⚠️ Administrative Copilot Guardrails**
 
-- [**Commercial Operations**](prompts/role-specific/commercial-operations.md) (18 prompts)
+- [**Commercial Operations**](role-specific/commercial-operations.md) (18 prompts)
   + Baseline management, bid management, contract tracking
   + Document control, delay analysis, distribution control
   + **Includes ⚠️ Commercial Operations Copilot Guardrails**
 
-- [**Project Leadership**](prompts/role-specific/project-leadership.md) (18 prompts)
+- [**Project Leadership**](role-specific/project-leadership.md) (18 prompts)
   + Budget management, change tracking, client communication
   + Cost reporting, decision support, stakeholder management
   + **Includes ⚠️ Leadership Copilot Guardrails**
 
 #### Revenue & Growth
 
-- [**Sales & Business Development**](prompts/role-specific/sales-business-development.md) (16 prompts)
+- [**Sales & Business Development**](role-specific/sales-business-development.md) (16 prompts)
   + Account management, competitive analysis, lead qualification
   + Outreach sequences, pipeline management, proposal follow-up
   + **Includes ⚠️ Sales Copilot Guardrails**
 
-- [**Marketing & Communications**](prompts/role-specific/marketing-communications.md) (16 prompts)
+- [**Marketing & Communications**](role-specific/marketing-communications.md) (16 prompts)
   + Campaign management, content creation, event marketing
   + Social media, PR, internal communications
   + **Includes ⚠️ Marketing & Communications Copilot Guardrails**
 
-- [**Customer Success & Support**](prompts/role-specific/customer-success-support.md) (16 prompts)
+- [**Customer Success & Support**](role-specific/customer-success-support.md) (16 prompts)
   + Account health monitoring, QBR preparation, renewal management
   + Escalation handling, onboarding support, expansion opportunities
   + **Includes ⚠️ Customer Success & Support Copilot Guardrails**
 
 #### Professional Services
 
-- [**Consulting & Professional Services**](prompts/role-specific/consulting-professional-services.md) (16 prompts)
+- [**Consulting & Professional Services**](role-specific/consulting-professional-services.md) (16 prompts)
   + Advisory services, client management, deliverable development
   + Engagement management, workshop facilitation
   + **Includes ⚠️ Consulting Copilot Guardrails + Client Confidentiality Warnings**
 
-- [**Engineering & Construction**](prompts/role-specific/engineering-construction.md) (16 prompts)
+- [**Engineering & Construction**](role-specific/engineering-construction.md) (16 prompts)
   + Field documentation, meeting prep, problem resolution
   + Project communication, quality management, site coordination
   + **Includes ⚠️ Engineering Copilot Guardrails + ⚠️ Construction Safety Guardrails**
 
 #### Corporate Functions
 
-- [**Finance & HR**](prompts/role-specific/finance-hr.md) (18 prompts)
+- [**Finance & HR**](role-specific/finance-hr.md) (18 prompts)
   + Audit support, budgeting, financial review
   + HR policy, internal comms, onboarding, employee engagement
   + **Includes ⚠️ Finance & HR Copilot Guardrails**
 
-- [**HSE, Legal & Compliance**](prompts/role-specific/hse-legal-compliance.md) (20 prompts)
+- [**HSE, Legal & Compliance**](role-specific/hse-legal-compliance.md) (20 prompts)
   + Safety procedures, incident research, environmental compliance
   + Contract negotiation, claims management, legal research
   + **⛔ CRITICAL HSE GUARDRAILS - Safety authorization boundaries**
@@ -206,16 +206,16 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 #### Security Operations
 
-- [**Microsoft Copilot for Security**](prompts/security-copilot/README.md) (35 prompts) — **NEW**
+- [**Microsoft Copilot for Security**](security-copilot/README.md) (35 prompts) — **NEW**
   + How Copilot for Security works + SCU billing mechanics explained
   + SCU-optimized prompting guide: what costs less vs. what burns compute
-  + [SOC Operations](prompts/security-copilot/soc-operations.md): incident triage, threat hunting, identity investigation, vulnerability management, DLP
-  + [Security Reporting](prompts/security-copilot/security-reporting.md): board reports, CISO briefings, compliance posture, audit responses, patch compliance
+  + [SOC Operations](security-copilot/soc-operations.md): incident triage, threat hunting, identity investigation, vulnerability management, DLP
+  + [Security Reporting](security-copilot/security-reporting.md): board reports, CISO briefings, compliance posture, audit responses, patch compliance
   + **⚠️ Requires Copilot for Security license — NOT included in M365 Copilot (except E5/E7 SCU allocation)**
 
 #### Automation & Scheduled Workflows
 
-- [**Copilot Cowork — Agentic Workflows**](prompts/cowork/README.md) (18 prompts) — **NEW**
+- [**Copilot Cowork — Agentic Workflows**](cowork/README.md) (18 prompts) — **NEW**
   + Outcome-focused prompts for M365 Copilot's agentic execution layer (Frontier program)
   + Cowork plans, executes multi-step tasks, and asks for approval before taking action — unlike Chat
   + Scheduled: Monday briefing, Friday digest, daily inbox scan, commitment tracker, calendar triage
@@ -225,7 +225,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Delegation Brief format + "show sources before drafting" pattern explained
   + **⚠️ Requires M365 Copilot + Frontier enrolment + Anthropic enabled as sub-processor · Max 5 scheduled prompts · EU tenants: Anthropic off by default**
 
-- [**Scheduled Prompts**](prompts/scheduled-prompts/README.md) (15 prompts) — **NEW**
+- [**Scheduled Prompts**](scheduled-prompts/README.md) (15 prompts) — **NEW**
   + 5-step setup guide for scheduling prompts in M365 Copilot Chat
   + Daily productivity: morning briefing, calendar prep, end-of-day commitment tracker
   + Sales & BD: weekly pipeline pulse, prospect follow-up, competitive intelligence digest
@@ -235,12 +235,12 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 #### Specialized Functions
 
-- [**Research & Development**](prompts/role-specific/research-development.md) (16 prompts)
+- [**Research & Development**](role-specific/research-development.md) (16 prompts)
   + Prior art research, experiment tracking, literature review
   + Publication planning, competitive research, lab management
   + **Includes ⚠️ R&D Copilot Guardrails + IP & Confidentiality Warnings**
 
-- [**Supply Chain & Logistics**](prompts/role-specific/supply-chain-logistics.md) (16 prompts)
+- [**Supply Chain & Logistics**](role-specific/supply-chain-logistics.md) (16 prompts)
   + Supplier management, shipment tracking, inventory optimization
   + Disruption management, customs support, S&OP planning
   + **Includes ⚠️ Supply Chain & Logistics Copilot Guardrails**
@@ -291,7 +291,7 @@ Copilot learns from context. If the first result isn't perfect, provide feedback
 9. **Deal Progress Summary** - Complete deal tracking from scattered emails
 10. **Shipment Issue Summary** - Logistics intelligence from multiple sources
 
-[See all power user prompts →](prompts/power-users/README.md)
+[See all power user prompts →](power-users/README.md)
 
 ## 🏢 Enterprise Deployment
 
@@ -382,7 +382,7 @@ Every role-specific collection includes **critical guardrails** explaining:
 - **Sales:** NEVER for pricing decisions or contract terms
 - **Engineering:** NEVER for engineering calculations or design approval
 
-[See example guardrails →](prompts/role-specific/hse-legal-compliance.md#-hse-critical-guardrails---read-first)
+[See example guardrails →](role-specific/hse-legal-compliance.md#critical-hse-critical-guardrails---read-first)
 
 **This means:**
 

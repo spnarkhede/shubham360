@@ -2,7 +2,7 @@
 id: 03-generate-adaptive-workspace-renders
 ---
 
-## ðŸ Generate Adaptive Workspace Renders
+## 🐝 Generate Adaptive Workspace Renders
 
 | Field | Value |
 |---|---|

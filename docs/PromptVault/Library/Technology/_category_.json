@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Technology",
-    "position":  20,
-    "collapsed":  true
+{
+    "label": "Technology",
+    "position": 20,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/technology"
+    }
 }

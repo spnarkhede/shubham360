@@ -2,7 +2,7 @@
 id: 63-register-business-legally
 ---
 
-## ðŸ“ Register Business Legally
+## 📝 Register Business Legally
 
 | Field | Value |
 |---|---|

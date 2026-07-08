@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Image Generation",
-    "position":  13,
-    "collapsed":  true
+{
+    "label": "Image Generation",
+    "position": 13,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/image-generation"
+    }
 }

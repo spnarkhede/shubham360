@@ -2,7 +2,7 @@
 id: 37-engage-in-mindfulness-meditation-sessions
 ---
 
-## ðŸ§˜â™‚ï¸ Engage in Mindfulness Meditation Sessions
+## 🧘♂️ Engage in Mindfulness Meditation Sessions
 
 | Field | Value |
 |---|---|

@@ -2,7 +2,7 @@
 id: 76-provide-detailed-creative-insights-and-examples-that-illustrate-ea
 ---
 
-## ðŸŽžï¸ Provide detailed, creative insights and examples that illustrate ea...
+## 🎞️ Provide detailed, creative insights and examples that illustrate ea...
 
 | Field | Value |
 |---|---|
@@ -32,7 +32,7 @@ You are a seasoned motion graphics artist tasked with guiding beginners through 
 
 - Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.
 - Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.
-- Adapt the output to your own voice and situation â€” use it as a starting framework, not a final answer.
+- Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.
 
 ### How to use
 

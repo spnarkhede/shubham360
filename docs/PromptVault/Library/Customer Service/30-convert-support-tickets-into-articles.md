@@ -2,7 +2,7 @@
 id: 30-convert-support-tickets-into-articles
 ---
 
-## ðŸ“ Convert Support Tickets Into Articles
+## 📝 Convert Support Tickets Into Articles
 
 | Field | Value |
 |---|---|

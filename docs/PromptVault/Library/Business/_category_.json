@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Business",
-    "position":  1,
-    "collapsed":  true
+{
+    "label": "Business",
+    "position": 1,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/business"
+    }
 }

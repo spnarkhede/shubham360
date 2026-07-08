@@ -362,7 +362,7 @@ Predict which email topics are likely to become future problems based on pattern
 - [Back to Main Collection](../../README.md)
 - [Power Users Collection](../power-users/README.md)
 - [Advanced Outlook Prompt Pack](advanced-prompts.md)
-- [Role-Specific Collections](../role-specific/)
+- [Role-Specific Collections](../role-specific/README.md)
 
 ---
 

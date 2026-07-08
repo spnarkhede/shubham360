@@ -2,7 +2,7 @@
 id: 01-adopt-the-eat-that-frog-technique-daily
 ---
 
-## ðŸ¸ Adopt the Eat That Frog Technique Daily
+## 🐸 Adopt the Eat That Frog Technique Daily
 
 | Field | Value |
 |---|---|

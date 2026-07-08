@@ -437,9 +437,9 @@ Flag anyone in the "not communicated with" list where a 14-day gap is unusual ba
 
 ## Related Collections
 
-- [Power Users & Advanced Techniques](../power-users/) — multi-step prompts for manual use
-- [Role-Specific Collections](../role-specific/) — prompts by job function
-- [Security Copilot Prompts](../security-copilot/) — SOC and reporting prompts
+- [Power Users & Advanced Techniques](../power-users/README.md) — multi-step prompts for manual use
+- [Role-Specific Collections](../role-specific/README.md) — prompts by job function
+- [Security Copilot Prompts](../security-copilot/README.md) — SOC and reporting prompts
 
 ---
 

@@ -2,7 +2,7 @@
 id: 42-explore-lactose-free-post-workout-meals
 ---
 
-## ðŸ½ï¸ Explore Lactose-Free Post-Workout Meals
+## 🍽️ Explore Lactose-Free Post-Workout Meals
 
 | Field | Value |
 |---|---|

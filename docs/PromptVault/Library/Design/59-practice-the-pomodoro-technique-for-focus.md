@@ -2,7 +2,7 @@
 id: 59-practice-the-pomodoro-technique-for-focus
 ---
 
-## ðŸ… Practice the Pomodoro Technique for Focus
+## 🍅 Practice the Pomodoro Technique for Focus
 
 | Field | Value |
 |---|---|

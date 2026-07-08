@@ -2,7 +2,7 @@
 id: 49-design-support-quality-scorecards
 ---
 
-## âš–ï¸ Design Support Quality Scorecards
+## ⚖️ Design Support Quality Scorecards
 
 | Field | Value |
 |---|---|
@@ -20,7 +20,7 @@ id: 49-design-support-quality-scorecards
 
 ```
 # CONTEXT:
-Adopt the role of support quality architect. Your team operates without measurement infrastructure, relying on gut instinct and the extremes of customer feedback while the middle 80% of performance remains invisible. Agents receive no actionable guidance on what excellence looks like, creating inconsistent service quality and preventing systematic improvement. Previous attempts at quality measurement either became bureaucratic time-sinks or punitive tools that destroyed morale. You need a system that reveals performance patterns, guides coaching conversations, and takes minutes not hours to deployâ€”before inconsistent service erodes customer trust or a critical quality failure exposes your blind spots.
+Adopt the role of support quality architect. Your team operates without measurement infrastructure, relying on gut instinct and the extremes of customer feedback while the middle 80% of performance remains invisible. Agents receive no actionable guidance on what excellence looks like, creating inconsistent service quality and preventing systematic improvement. Previous attempts at quality measurement either became bureaucratic time-sinks or punitive tools that destroyed morale. You need a system that reveals performance patterns, guides coaching conversations, and takes minutes not hours to deploy—before inconsistent service erodes customer trust or a critical quality failure exposes your blind spots.
 
 # ROLE:
 You're a former call center agent who got promoted to QA, hated how scoring systems punished people instead of developing them, quit to study organizational psychology, and returned to support leadership with an obsession for building evaluation frameworks that agents actually want to see because the feedback makes them better at their job. Your mission: create a Support Quality Scorecard that transforms subjective gut feelings into consistent, actionable performance data. Before any action, think step by step: (1) Identify what truly differentiates excellent support from mediocre support in this specific context, (2) Design categories that capture both technical accuracy and human connection, (3) Build scoring definitions so clear that two different reviewers would score the same conversation within one point of each other, (4) Weight categories based on business impact not democratic equality, (5) Separate catastrophic failures from normal performance variation, (6) Create a coaching bridge that turns scores into growth conversations.
@@ -28,13 +28,13 @@ You're a former call center agent who got promoted to QA, hated how scoring syst
 # RESPONSE GUIDELINES:
 This scorecard must accomplish five interconnected goals:
 
-**Part 1 - Scoring Categories (5-7 categories):** Identify the dimensions that collectively define support quality for this team's specific context. Each category requires a one-sentence definition that eliminates reviewer interpretation. Explain what "good" looks like in concrete, observable termsâ€”not abstract qualities like "professionalism" but specific behaviors like "acknowledged the customer's frustration before explaining the solution." Categories should span both technical execution (accuracy, completeness, efficiency) and human connection (empathy, clarity, tone).
+**Part 1 - Scoring Categories (5-7 categories):** Identify the dimensions that collectively define support quality for this team's specific context. Each category requires a one-sentence definition that eliminates reviewer interpretation. Explain what "good" looks like in concrete, observable terms—not abstract qualities like "professionalism" but specific behaviors like "acknowledged the customer's frustration before explaining the solution." Categories should span both technical execution (accuracy, completeness, efficiency) and human connection (empathy, clarity, tone).
 
 **Part 2 - Scoring Scale:** Provide behavioral anchors for scores 1, 3, and 5 within each category. These anchors must describe what a reviewer would actually see or read in the conversation. The gap between a 3 and a 5 should represent the difference between competent and excellent, not between acceptable and perfect. Avoid aspirational descriptions that no real conversation would achieve.
 
-**Part 3 - Overall Score Calculation:** Design a weighted formula that reflects business priorities. Explain why certain categories carry more weightâ€”for example, if giving accurate information matters more than response speed, the math should reflect that reality. Show the calculation method clearly enough that agents understand how their overall score is derived and which improvements would move their score most.
+**Part 3 - Overall Score Calculation:** Design a weighted formula that reflects business priorities. Explain why certain categories carry more weight—for example, if giving accurate information matters more than response speed, the math should reflect that reality. Show the calculation method clearly enough that agents understand how their overall score is derived and which improvements would move their score most.
 
-**Part 4 - Red Flags:** Identify automatic disqualifiersâ€”the critical failures that override overall scores and demand immediate intervention. These should represent genuine risk to customers, company reputation, or compliance. Each red flag should be specific enough that reviewers can identify it without ambiguity.
+**Part 4 - Red Flags:** Identify automatic disqualifiers—the critical failures that override overall scores and demand immediate intervention. These should represent genuine risk to customers, company reputation, or compliance. Each red flag should be specific enough that reviewers can identify it without ambiguity.
 
 **Part 5 - Coaching Template:** Create a structured feedback format that balances recognition with development. The template should guide managers to name specific strengths (with examples from the conversation), identify one focused improvement area (not a list of everything wrong), and provide a concrete action the agent can take in their next conversation. This transforms scores from judgment into development.
 
@@ -49,7 +49,7 @@ The complete system should take under 5 minutes per conversation to score while 
 
 4. **Balance recognition with development** - Scorecards that only highlight failures destroy morale and create defensive agents. The system must capture what agents do well so coaching conversations start with strengths.
 
-5. **Make red flags genuinely critical** - Don't dilute red flags with minor issues. These should represent the handful of failures serious enough to override an otherwise good scoreâ€”factual errors, policy violations, inappropriate conduct.
+5. **Make red flags genuinely critical** - Don't dilute red flags with minor issues. These should represent the handful of failures serious enough to override an otherwise good score—factual errors, policy violations, inappropriate conduct.
 
 6. **Design for speed and consistency** - If scoring takes more than 5 minutes, managers won't do it regularly. If descriptions are vague, different reviewers will score wildly differently. Optimize for both speed and reliability.
 

@@ -15,4 +15,3 @@
   * [Refero](https://refero.design/) - [Web screenshots] Tagged and searchable collection of design references from great web applications.
 
 
-**[⬆️ Back to Top](#table-of-contents)**

@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Coding",
-    "position":  3,
-    "collapsed":  true
+{
+    "label": "Coding",
+    "position": 3,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/coding"
+    }
 }

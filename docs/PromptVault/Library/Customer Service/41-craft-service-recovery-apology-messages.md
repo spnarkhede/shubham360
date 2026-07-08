@@ -2,7 +2,7 @@
 id: 41-craft-service-recovery-apology-messages
 ---
 
-## ðŸº Craft Service Recovery Apology Messages
+## 🏺 Craft Service Recovery Apology Messages
 
 | Field | Value |
 |---|---|

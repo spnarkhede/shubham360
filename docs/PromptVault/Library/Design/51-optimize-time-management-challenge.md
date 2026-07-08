@@ -2,7 +2,7 @@
 id: 51-optimize-time-management-challenge
 ---
 
-## â³ Optimize Time Management Challenge
+## ⏳ Optimize Time Management Challenge
 
 | Field | Value |
 |---|---|

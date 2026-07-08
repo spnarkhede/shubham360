@@ -529,7 +529,7 @@ Get input data from console
 True
 ```
 
-## Python F-Strings (Since Python 3.6+)
+## Python F-Strings (Since Python 3.6+) {#python-f-strings-since-python-3-6}
 
 ### f-Strings usage
 

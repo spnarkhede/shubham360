@@ -2,7 +2,7 @@
 id: 21-build-knowledge-base-style-guides
 ---
 
-## ðŸ“ Build Knowledge Base Style Guides
+## 📐 Build Knowledge Base Style Guides
 
 | Field | Value |
 |---|---|

@@ -5,7 +5,6 @@
 - [CSS Cascading and Inheritance](#css-cascading-and-inheritance)
 - [CSS Selectors](#css-selectors)
 - [CSS Data Types and Values](#css-data-types-and-values)
-- [CSS Logical Properties](#css-logical-properties)
 - [CSS Variables](#css-variables)
 - [CSS Colors](#css-colors)
 - [CSS Math Functions](#css-math-functions)
@@ -236,7 +235,7 @@ p::first-line {}
 3. **Used Value**: Final value after layout calculations
 4. **Actual Value**: Value actually applied by the browser
 
-## CSS Variables (Custom Properties)
+## CSS Variables (Custom Properties) {#css-variables}
 
 ### Basic Usage
 ```css

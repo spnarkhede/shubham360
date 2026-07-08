@@ -2,7 +2,7 @@
 id: 52-optimize-to-do-list-system
 ---
 
-## ðŸ“ Optimize To-Do List System
+## 📝 Optimize To-Do List System
 
 | Field | Value |
 |---|---|

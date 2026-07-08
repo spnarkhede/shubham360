@@ -2,7 +2,7 @@
 id: 09-render-mixed-use-architecture-visualizations
 ---
 
-## ðŸ± Render Mixed-Use Architecture Visualizations
+## Render Mixed-Use Architecture Visualizations
 
 | Field | Value |
 |---|---|
@@ -42,7 +42,7 @@ id: 09-render-mixed-use-architecture-visualizations
   "program_distribution": {
     "podium": {
       "function": "shopping mall",
-      "height": "3â€“4 levels",
+      "height": "3-4 levels",
       "character": "open, transparent, highly active",
       "features": [
         "double-height retail spaces",
@@ -53,7 +53,7 @@ id: 09-render-mixed-use-architecture-visualizations
     },
     "middle_tower": {
       "function": "office",
-      "height": "10â€“15 levels",
+      "height": "10-15 levels",
       "character": "rational, efficient, professional",
       "features": [
         "flexible office floor plates",
@@ -64,7 +64,7 @@ id: 09-render-mixed-use-architecture-visualizations
     },
     "upper_tower": {
       "function": "residential",
-      "height": "15â€“20 levels",
+      "height": "15-20 levels",
       "character": "quiet, private, refined",
       "features": [
         "deep balconies",
@@ -82,21 +82,21 @@ id: 09-render-mixed-use-architecture-visualizations
   },
 
   "facade_design": {
-    "mall_facade": "[FACADE LANGUAGE â€” PODIUM]",
-    "office_facade": "[FACADE LANGUAGE â€” OFFICE]",
-    "residential_facade": "[FACADE LANGUAGE â€” RESIDENTIAL]",
+    "mall_facade": "[FACADE LANGUAGE - PODIUM]",
+    "office_facade": "[FACADE LANGUAGE - OFFICE]",
+    "residential_facade": "[FACADE LANGUAGE - RESIDENTIAL]",
     "facade_logic": "each function reads differently while sharing proportions and alignment"
   },
 
   "materials": {
     "base": [
-      "[MATERIAL SYSTEM â€” PODIUM]"
+      "[MATERIAL SYSTEM - PODIUM]"
     ],
     "office": [
-      "[MATERIAL SYSTEM â€” OFFICE]"
+      "[MATERIAL SYSTEM - OFFICE]"
     ],
     "residential": [
-      "[MATERIAL SYSTEM â€” RESIDENTIAL]"
+      "[MATERIAL SYSTEM - RESIDENTIAL]"
     ]
   },
 
@@ -143,7 +143,7 @@ id: 09-render-mixed-use-architecture-visualizations
 
   "camera_and_rendering": {
     "camera_angle": "street-level three-quarter view",
-    "lens": "28â€“35mm architectural photography lens",
+    "lens": "28-35mm architectural photography lens",
     "composition": "foreground plaza, mid-ground podium, vertical towers above",
     "depth": "strong depth and scale perception"
   },

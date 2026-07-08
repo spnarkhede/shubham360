@@ -133,7 +133,7 @@ sidebar_position: 4
 ---
 
 
-## Xdebug Setup for Docker
+## Xdebug Setup for Docker {#xdebug-with-docker}
 
 This guide provides the steps to set up Xdebug for a Docker container running PHP. Follow the instructions to configure Xdebug for remote debugging.
 

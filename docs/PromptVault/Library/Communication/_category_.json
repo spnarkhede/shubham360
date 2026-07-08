@@ -1,5 +1,9 @@
-﻿{
-    "label":  "Communication",
-    "position":  4,
-    "collapsed":  true
+{
+    "label": "Communication",
+    "position": 4,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "slug": "/PromptVault/Library/communication"
+    }
 }

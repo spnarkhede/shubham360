@@ -2,7 +2,7 @@
 id: 35-a-comprehensive-outline-for-a-graphic-design-fundamentals-course-ta
 ---
 
-## ðŸ–Œï¸ a comprehensive outline for a graphic design fundamentals course ta...
+## 🖌️ a comprehensive outline for a graphic design fundamentals course ta...
 
 | Field | Value |
 |---|---|
@@ -47,7 +47,7 @@ Design a comprehensive outline for a graphic design fundamentals course tailored
 
 - Be as specific as possible when describing your context or goals so the AI can tailor its response to your exact needs.
 - Review the generated output and ask follow-up questions to drill deeper into any section that needs more detail.
-- Adapt the output to your own voice and situation â€” use it as a starting framework, not a final answer.
+- Adapt the output to your own voice and situation — use it as a starting framework, not a final answer.
 
 ### How to use
 

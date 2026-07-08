@@ -38,7 +38,6 @@ const ITEMS = [
   { label: 'Blog',           href: '/blog',                                             icon: 'feather',   color: '#06B6D4' },
   { label: 'Books',          href: '/books',                                            icon: 'bookOpen',  color: '#F97316' },
   { label: 'My Learnings',   href: '/MyLearnings/HardReset/50PsychologySkills',         icon: 'brain',     color: '#A855F7' },
-  { label: 'AI Tools',       href: '/tech-enthusiast/tools-collection',                 icon: 'wand',      color: '#14B8A6' },
   { label: 'Certifications', href: '/recruiter-dashboard/certifications',               icon: 'award',     color: '#EAB308' },
   { label: 'Contact',        href: '/contact',                                          icon: 'mail',      color: '#EF4444' },
 ];

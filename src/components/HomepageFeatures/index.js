@@ -11,13 +11,12 @@ export function HeroSection() {
           <div className="col col--7">
             <div>
               <h1 className="hero__title">Shubham Narkhede</h1>
-              <p className="hero__subtitle">DevOps Engineer & Full Stack Developer</p>
+              <p className="hero__subtitle">Senior Full-Stack Developer — TypeScript, Node.js & React</p>
               <p>
-                A curious mind constantly seeking knowledge and applying it to real-world challenges. 
-                High-performing IT professional with over 5 years of experience in DevOps, full-stack 
-                development, and UI/UX design. Passionate about creating efficient, scalable, and 
-                user-friendly solutions with expertise in planning and executing the entire process 
-                of IT projects using agile methodologies.
+                I build production-grade web platforms — 7+ years shipping software for automotive,
+                e-mobility, and e-commerce, currently developing connected-vehicle and EV-charging
+                systems at Robert Bosch GmbH. Backed by deep DevOps expertise: AWS, Docker,
+                Kubernetes, and end-to-end CI/CD automation.
               </p>
             </div>
             

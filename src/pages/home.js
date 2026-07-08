@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <Layout
       title="Home"
-      description="Professional portfolio of Shubham Narkhede, DevOps Engineer and Full Stack Developer with expertise in UI/UX design and cloud technologies."
+      description="Shubham Narkhede — Senior Full Stack Engineer & Product Designer with 7+ years building real-time visualization platforms in React, Vue.js, Angular, TypeScript, and Python. Currently shipping EV-charging software at Robert Bosch GmbH."
     >
       <main>
         <HeroSection />

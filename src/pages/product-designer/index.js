@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useHistory } from '@docusaurus/router';
 import useRoleStore from '../../store/roleStore';
 
 export default function ProductDesigner() {

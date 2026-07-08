@@ -1,5 +1,7 @@
 function getFolderPrompts() {
-  const context = require.context('./entries', false, /^(?!.*_template).*\.prompt\.js$/);
+  // Recursive: prompts can live directly in entries/ or inside category subfolders
+  // (e.g. entries/LinkedIn/my-prompt.prompt.js)
+  const context = require.context('./entries', true, /^(?!.*_template).*\.prompt\.js$/);
   return context.keys().map((key) => {
     const mod = context(key);
     const item = mod.default || mod;

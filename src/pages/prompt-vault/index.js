@@ -2,13 +2,31 @@ import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Head from '@docusaurus/Head';
-import { PROMPTS } from './prompt-vault-data';
 import styles from './styles.module.css';
 
-// Derived dynamically from actual prompt data so every category is represented
-const TYPES = ['All', ...Array.from(new Set(PROMPTS.map((p) => p.type).filter(Boolean))).sort()];
+// The full prompt dataset is loaded lazily (dynamic import) so the page shell
+// renders immediately instead of blocking on a multi-MB data chunk.
 
-const CATEGORIES = ['All', ...Array.from(new Set(PROMPTS.map((p) => p.category).filter(Boolean))).sort()];
+// Types available before the data finishes loading
+const BASE_TYPES = ['Prompts', 'Agents', 'System Prompts', 'Guide'];
+
+// Categories that must always be available (in filters and the Add Prompt form),
+// even before any prompt uses them yet
+const BASE_CATEGORIES = ['LinkedIn', 'Resume'];
+
+function computeTypes(prompts) {
+  return ['All', ...Array.from(new Set([
+    ...BASE_TYPES,
+    ...prompts.map((p) => p.type).filter(Boolean),
+  ])).sort()];
+}
+
+function computeCategories(prompts) {
+  return ['All', ...Array.from(new Set([
+    ...BASE_CATEGORIES,
+    ...prompts.map((p) => p.category).filter(Boolean),
+  ])).sort()];
+}
 
 const TOOLS = ['All tools', 'ChatGPT', 'Claude', 'DeepSeek', 'Gemini', 'Grok', 'Midjourney', 'Nano Banana'];
 const OUTPUTS = ['All', 'Text', 'Image'];
@@ -79,7 +97,7 @@ function buildCopyText(prompt) {
   return parts.join('\n');
 }
 
-function PromptModal({ prompt, onClose }) {
+function PromptModal({ prompt, onClose, onEngage }) {
   const [copied, setCopied] = useState(false);
   const typeColor = TYPE_COLORS[prompt.type] || '#8B5CF6';
   const views = Number(prompt.views || 0);
@@ -88,6 +106,7 @@ function PromptModal({ prompt, onClose }) {
     navigator.clipboard.writeText(buildCopyText(prompt)).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
+      onEngage?.(prompt, ENGAGE_POINTS.copy);
     });
   };
 
@@ -301,6 +320,22 @@ function PromptCard({ prompt, onOpen, onSeen }) {
 
 // ── STORAGE ──────────────────────────────────────────────────────────────────
 const STORAGE_KEY = 'pvault-local-entries';
+
+// Per-prompt engagement boosts (clicks + copies) persisted in localStorage.
+// Displayed views = static base views + this boost, so counts grow
+// incrementally as the visitor interacts with prompts.
+const VIEW_BOOST_KEY = 'pvault-view-boosts';
+const ENGAGE_POINTS = { open: 1, copy: 2 };
+
+function loadViewBoosts() {
+  if (typeof window === 'undefined') return {};
+  try { return JSON.parse(localStorage.getItem(VIEW_BOOST_KEY) || '{}'); } catch { return {}; }
+}
+
+function saveViewBoosts(boosts) {
+  if (typeof window === 'undefined') return;
+  try { localStorage.setItem(VIEW_BOOST_KEY, JSON.stringify(boosts)); } catch { /* storage full — ignore */ }
+}
 const PUBLIC_COUNT_NAMESPACE = 'shubham360-promptvault';
 
 function getPromptStorageKey(prompt) {
@@ -318,7 +353,13 @@ function saveLocalPrompts(entries) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
 }
 
+// countapi.xyz shut down — public view counters are disabled until a
+// replacement backend exists. This avoids ~1,800 doomed network requests
+// per page load; static per-prompt view counts are shown instead.
+const PUBLIC_COUNTS_ENABLED = false;
+
 async function getPublicPromptCount(promptKey) {
+  if (!PUBLIC_COUNTS_ENABLED) return Promise.reject(new Error('Public counts disabled'));
   const url = `https://api.countapi.xyz/get/${PUBLIC_COUNT_NAMESPACE}/${encodeURIComponent(promptKey)}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error('Failed to fetch public count');
@@ -327,6 +368,7 @@ async function getPublicPromptCount(promptKey) {
 }
 
 async function hitPublicPromptCount(promptKey) {
+  if (!PUBLIC_COUNTS_ENABLED) return Promise.reject(new Error('Public counts disabled'));
   const url = `https://api.countapi.xyz/hit/${PUBLIC_COUNT_NAMESPACE}/${encodeURIComponent(promptKey)}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error('Failed to increment public count');
@@ -361,7 +403,7 @@ function generateFileContent(data) {
     ``,
     `export default ${varName};`,
   ].join('\n');
-  return { slug, content };
+  return { slug, content, category: data.category };
 }
 
 // ── EXTRA ICONS ───────────────────────────────────────────────────────────────
@@ -426,11 +468,34 @@ const FORM_DEFAULTS = () => ({
   prompt: '', whatItDoes: [''], tips: [''], howToUse: [''],
 });
 
-function AddEntryForm({ onClose, onSaved }) {
-  const [form, setForm] = useState(FORM_DEFAULTS);
+// Draft is auto-saved to localStorage so the form survives closing the modal,
+// switching tabs, or reloading the page
+const DRAFT_KEY = 'promptvault-add-prompt-draft';
+
+function loadDraft() {
+  if (typeof window === 'undefined') return FORM_DEFAULTS();
+  try {
+    const saved = localStorage.getItem(DRAFT_KEY);
+    if (saved) return { ...FORM_DEFAULTS(), ...JSON.parse(saved) };
+  } catch { /* corrupted draft — start fresh */ }
+  return FORM_DEFAULTS();
+}
+
+function clearDraft() {
+  if (typeof window === 'undefined') return;
+  try { localStorage.removeItem(DRAFT_KEY); } catch { /* ignore */ }
+}
+
+function AddEntryForm({ onClose, onSaved, types, categories }) {
+  const [form, setForm] = useState(loadDraft);
   const [errors, setErrors] = useState({});
   const [generated, setGenerated] = useState(null);
   const [codeCopied, setCodeCopied] = useState(false);
+
+  // Auto-save the draft on every change
+  useEffect(() => {
+    try { localStorage.setItem(DRAFT_KEY, JSON.stringify(form)); } catch { /* storage full — ignore */ }
+  }, [form]);
 
   const set = (field, value) => setForm((f) => ({ ...f, [field]: value }));
 
@@ -472,6 +537,7 @@ function AddEntryForm({ onClose, onSaved }) {
     };
     onSaved(entry);
     setGenerated(generateFileContent(entry));
+    clearDraft();
   };
 
   const copyCode = () => {
@@ -514,8 +580,8 @@ function AddEntryForm({ onClose, onSaved }) {
           <div className={styles.generatedBody}>
             <h3 className={styles.generatedTitle}>Your .prompt.js file is ready</h3>
             <p className={styles.generatedSub}>
-              Copy or download this file, then place it in{' '}
-              <code className={styles.pathCode}>src/pages/prompt-vault/prompt-vault-data/entries/</code>
+              Copy or download this file, then place it in its category folder{' '}
+              <code className={styles.pathCode}>src/pages/prompt-vault/prompt-vault-data/entries/{generated.category}/</code>
               {' '}to make it permanent across rebuilds.
             </p>
             <div className={styles.generatedFilenameRow}>
@@ -538,8 +604,11 @@ function AddEntryForm({ onClose, onSaved }) {
   }
 
   // ── Form state ──
+  // Note: backdrop click intentionally does NOT close the form — accidental
+  // outside clicks were wiping in-progress entries. Close via ✕ or Escape;
+  // the draft is preserved either way.
   return (
-    <div className={styles.backdrop} onClick={onClose} role="dialog" aria-modal="true" aria-label="Add new prompt">
+    <div className={styles.backdrop} role="dialog" aria-modal="true" aria-label="Add new prompt">
       <div className={styles.formModal} onClick={(e) => e.stopPropagation()}>
         <div className={styles.modalHeader}>
           <span className={styles.formModalTitle}>Add New Prompt</span>
@@ -595,13 +664,13 @@ function AddEntryForm({ onClose, onSaved }) {
               <div className={styles.formField}>
                 <label className={styles.formLabel}>Type</label>
                 <select className={styles.formSelect} value={form.type} onChange={(e) => set('type', e.target.value)}>
-                  {TYPES.filter((t) => t !== 'All').map((t) => <option key={t}>{t}</option>)}
+                  {types.filter((t) => t !== 'All').map((t) => <option key={t}>{t}</option>)}
                 </select>
               </div>
               <div className={styles.formField}>
                 <label className={styles.formLabel}>Category</label>
                 <select className={styles.formSelect} value={form.category} onChange={(e) => set('category', e.target.value)}>
-                  {CATEGORIES.filter((c) => c !== 'All').map((c) => <option key={c}>{c}</option>)}
+                  {categories.filter((c) => c !== 'All').map((c) => <option key={c}>{c}</option>)}
                 </select>
               </div>
               <div className={styles.formField}>
@@ -738,6 +807,22 @@ export default function PromptVault() {
     setLocalPrompts(loadLocalPrompts());
   }, []);
 
+  // Lazy-load the full prompt dataset so the page shell paints instantly
+  const [basePrompts, setBasePrompts] = useState([]);
+  const [promptsLoading, setPromptsLoading] = useState(true);
+  useEffect(() => {
+    let cancelled = false;
+    import('./prompt-vault-data').then((mod) => {
+      if (cancelled) return;
+      setBasePrompts(mod.PROMPTS || []);
+      setPromptsLoading(false);
+    }).catch(() => { if (!cancelled) setPromptsLoading(false); });
+    return () => { cancelled = true; };
+  }, []);
+
+  const TYPES = useMemo(() => computeTypes(basePrompts), [basePrompts]);
+  const CATEGORIES = useMemo(() => computeCategories(basePrompts), [basePrompts]);
+
   const closeModal = useCallback(() => setActivePrompt(null), []);
 
   const handleEntrySaved = useCallback((entry) => {
@@ -748,10 +833,11 @@ export default function PromptVault() {
     });
   }, []);
 
-  const rawPrompts = useMemo(() => [...localPrompts, ...PROMPTS], [localPrompts]);
+  const rawPrompts = useMemo(() => [...localPrompts, ...basePrompts], [localPrompts, basePrompts]);
 
   // Load public counts for all current prompts.
   useEffect(() => {
+    if (!PUBLIC_COUNTS_ENABLED) return undefined;
     let cancelled = false;
     const run = async () => {
       const keys = Array.from(new Set(rawPrompts.map((p) => getPromptStorageKey(p))));
@@ -776,6 +862,7 @@ export default function PromptVault() {
   }, [rawPrompts]);
 
   const handleCardSeen = useCallback((prompt) => {
+    if (!PUBLIC_COUNTS_ENABLED) return;
     const key = getPromptStorageKey(prompt);
     if (seenInSessionRef.current.has(key)) return;
     seenInSessionRef.current.add(key);
@@ -990,6 +1077,11 @@ export default function PromptVault() {
                 visiblePrompts.map((prompt) => (
                   <PromptCard key={prompt.id} prompt={prompt} onOpen={setActivePrompt} onSeen={handleCardSeen} />
                 ))
+              ) : promptsLoading ? (
+                <div className={styles.empty}>
+                  <p className={styles.emptyTitle}>Loading prompts&hellip;</p>
+                  <p className={styles.emptySub}>The vault is being unpacked.</p>
+                </div>
               ) : (
                 <div className={styles.empty}>
                   <p className={styles.emptyTitle}>No prompts found</p>
@@ -1023,6 +1115,8 @@ export default function PromptVault() {
         <AddEntryForm
           onClose={() => setShowEntryForm(false)}
           onSaved={handleEntrySaved}
+          types={TYPES}
+          categories={CATEGORIES}
         />
       )}
     </Layout>

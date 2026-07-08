@@ -30,7 +30,7 @@ export default function TechEnthusiastIntroduction() {
     >
       <SectionTemplate
         title="Technical Profile"
-        subtitle="Full Stack Developer & DevOps Engineer"
+        subtitle="Senior Full-Stack Developer — TypeScript, Node.js & React"
       >
         <div className={styles.introductionContent}>
           <div className={styles.profileImageContainer}>

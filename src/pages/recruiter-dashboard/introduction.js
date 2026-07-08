@@ -27,7 +27,7 @@ export default function RecruiterDashboardIntroduction() {
     >
       <SectionTemplate
         title="Professional Summary"
-        subtitle={`DevOps Engineer & Full Stack Developer with ${shortExperienceString} of experience in Germany`}
+        subtitle={`Senior Full-Stack Developer with ${shortExperienceString} of experience in Germany — TypeScript, Node.js & React`}
       >
         <div className={styles.introductionContent}>
           <div className={styles.profileImageContainer}>
@@ -47,9 +47,9 @@ export default function RecruiterDashboardIntroduction() {
           
           <div className={styles.profileSummary}>
             <p className={styles.summaryText}>
-              I am a passionate DevOps Engineer and Full Stack Developer with a proven track record of building scalable, 
-              high-performance applications and implementing efficient CI/CD pipelines. With expertise spanning frontend, 
-              backend, and infrastructure technologies, I bring a holistic approach to software development.
+              I am a Senior Full-Stack Developer specialized in TypeScript, Node.js, and React, with a proven track
+              record of building scalable, high-performance web platforms. My DevOps background — AWS, Docker,
+              Kubernetes, and CI/CD automation — means I ship features end to end, from architecture to production.
             </p>
             
             <p className={styles.summaryText}>
@@ -71,9 +71,16 @@ export default function RecruiterDashboardIntroduction() {
             </div>
             
             <div className={styles.ctaButtons}>
-              <Link to="/recruiter-dashboard/resume" className={styles.primaryButton}>
-                View Resume
+              <a
+                href="/documents/resume/ShubhamNarkhede_CV_Frontend.pdf"
+                download
+                className={styles.primaryButton}
+              >
+                Download Resume
                 <ArrowRight size={16} />
+              </a>
+              <Link to="/recruiter-dashboard/resume" className={styles.secondaryButton}>
+                All Resume Versions
               </Link>
               <Link to="/contact" className={styles.secondaryButton}>
                 Contact Me

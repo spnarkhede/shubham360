@@ -136,18 +136,6 @@ export const dashboardConfig = {
         label: 'Technical Learnings',
         path: '/tech-enthusiast/technical-learnings',
         description: 'Computer science and programming knowledge'
-      },
-      {
-        id: 'tools-collection',
-        label: 'Tools Collection',
-        path: '/tech-enthusiast/tools-collection',
-        description: 'Development tools and technologies'
-      },
-      {
-        id: 'code-samples',
-        label: 'Code Samples',
-        path: '/tech-enthusiast/code-samples',
-        description: 'Code examples and implementations'
       }
     ]
   },

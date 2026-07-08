@@ -8563,6 +8563,7 @@
         |-- undraw_docusaurus_react.svg
         |-- undraw_docusaurus_tree.svg
         |-- workoutprofile.webp
+    |-- robots.txt
 |-- tailwind.config.js
 |-- TEAM_PLAYBOOK.md
 |-- tsconfig.json

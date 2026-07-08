@@ -5,7 +5,7 @@ import * as ciInfo from 'ci-info';
 
 const config: Config = {
   title: 'Shubham Narkhede | Portfolio',
-  tagline: 'DevOps Engineer & Full Stack Developer',
+  tagline: 'Senior Full-Stack Developer — TypeScript, Node.js & React',
   favicon: 'img/favicon.ico',
   url: 'https://www.shubhamnarkhede.com',
   // baseUrl: ciInfo.GITHUB_ACTIONS ? '/portfolio/' : '/',
@@ -14,14 +14,14 @@ const config: Config = {
   projectName: 'shubham360.github.io',
   deploymentBranch: 'gh-pages', // this is where the build will go
   trailingSlash: false,
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'ignore',
-      onBrokenMarkdownImages: 'ignore',
+      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownImages: 'warn',
     },
   },
-  onBrokenAnchors: 'ignore',
+  onBrokenAnchors: 'warn',
   future: {
     faster: {
       swcJsLoader: true,
@@ -49,7 +49,7 @@ const config: Config = {
           "style-src 'self' 'unsafe-inline'",
           "img-src 'self' data: https: http:",
           "font-src 'self' data:",
-          "connect-src 'self' https://api.emailjs.com https://www.figma.com https://uxpilot.ai https://api.countapi.xyz",
+          "connect-src 'self' https://api.emailjs.com https://www.figma.com https://uxpilot.ai",
           "frame-src 'self' https://www.figma.com https://uxpilot.ai",
           "object-src 'none'",
           "base-uri 'self'",
@@ -95,6 +95,14 @@ const config: Config = {
         docs: {
           path: 'docs',
           routeBasePath: '/',
+          // ToolsCollection is kept on disk but not published (moving to a separate personal site)
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+            'ToolsCollection/**',
+          ],
           sidebarPath: require.resolve('./sidebars.ts'),
           editUrl: 'https://github.com/spnarkhede/shubhamnarkhede',
           showLastUpdateAuthor: false,
@@ -113,6 +121,7 @@ const config: Config = {
             '**/prompt-vault/prompt-vault-data/**',
             '**/prompt-vault/promptVaultData.js',
             '**/prompt-vault/_promptVaultData.js',
+            '**/tech-enthusiast/tools-collection.js',
           ],
         },
         theme: {
@@ -153,8 +162,8 @@ const config: Config = {
     },
     image: 'img/social-card.webp',
     metadata: [
-      {name: 'keywords', content: 'devops, software development, portfolio, full stack, ui/ux, professional'},
-      {name: 'description', content: 'Professional portfolio of Shubham Narkhede, DevOps Engineer and Full Stack Developer with expertise in UI/UX design and cloud technologies.'},
+      {name: 'keywords', content: 'senior full-stack developer, typescript, node.js, react, aws, kubernetes, stuttgart, portfolio'},
+      {name: 'description', content: 'Shubham Narkhede — Senior Full Stack Engineer & Product Designer with 7+ years building real-time visualization platforms in React, Vue.js, Angular, TypeScript, and Python. Currently shipping EV-charging software at Robert Bosch GmbH.'},
     ],
     docs: {
       sidebar: {
@@ -166,7 +175,8 @@ const config: Config = {
       title: 'Shubham Narkhede',
       logo: { alt: 'Shubham Narkhede', src: 'img/profile.webp' },
       items: [
-        { to: '/navigation-guide', label: 'Home', position: 'left' },
+        { to: '/landing', label: 'Home', position: 'left' },
+        { to: '/navigation-guide', label: 'Explore', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/contact', label: 'Contact', position: 'right' },
         { href: 'https://github.com/spnarkhede', label: 'GitHub', position: 'right' },
@@ -179,6 +189,7 @@ const config: Config = {
           title: 'Portfolio',
           items: [
             { label: 'About Me', to: '/intro' },
+            { label: 'Now', to: '/now' },
             { label: 'Resume', to: '/Portfolio/Resume' },
             { label: 'Books', to: '/books' },
             { label: 'Projects', to: '/Portfolio/Projects' },
@@ -191,13 +202,14 @@ const config: Config = {
             { label: 'LinkedIn', href: 'https://linkedin.com/in/spnarkhede' },
             { label: 'Stack Overflow', href: 'https://stackoverflow.com/users/spnarkhede' },
             { label: 'Twitter', href: 'https://twitter.com/snarkhede1996' },
-            { label: 'Email', href: 'mailto:shubhampnarkhede@gmail.com' },
+            { label: 'Email', to: '/contact' },
           ],
         },
         {
           title: 'More',
           items: [
             { label: 'Blog', to: '/blog' },
+            { label: 'RSS Feed', href: 'pathname:///blog/rss.xml' },
             { label: 'GitHub', href: 'https://github.com/spnarkhede' },
             { label: 'Computer Science', to: '/ComputerScience' },
             { label: 'Contact', to: '/contact' },

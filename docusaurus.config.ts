@@ -150,6 +150,21 @@ const config: Config = {
         hideSearchBarWithNoSearchContext: false,
         useAllContextsWithNoSearchContext: false,
         searchContextByPaths: ['/blog', '/Portfolio', '/articles', '/books'],
+        // indexDocs:false has no effect when docs routeBasePath is '/' (it overlaps
+        // with indexPages), so every docs page gets indexed as a "page" instead,
+        // producing a search-index.json too large for Cloudflare Pages (25 MiB limit).
+        // Explicitly ignore all docs routes so only blog/custom pages are indexed.
+        ignoreFiles: [
+          /^ComputerScience(\/|$)/,
+          /^Design(\/|$)/,
+          /^Languages(\/|$)/,
+          /^LinkedIn(\/|$)/,
+          /^MyLearnings(\/|$)/,
+          /^Portfolio(\/|$)/,
+          /^PromptVault(\/|$)/,
+          /^ToolsCollection(\/|$)/,
+          /^intro$/,
+        ],
       },
     ],
   ],

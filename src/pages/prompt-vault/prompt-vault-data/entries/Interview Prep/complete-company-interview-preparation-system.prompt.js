@@ -6,7 +6,7 @@ const templatePrompt = {
   
     // ── Classification ─────────────────────────────────────────────────────────
     type: 'Prompts',
-    category: 'Interview',
+    category: 'Interview Prep',
     tool: 'Any',
     output: 'Text',
     date: '2026-05-28',

@@ -1,3 +1,8 @@
+﻿---
+title: "Ultimate Resume Guide 2025"
+tags: ['guide','resume','career','2025','ai']
+---
+
 # The Ultimate Guide to Creating a Professional Resume (2025)
 
 **Meta Description:** Master resume writing in 2025 with actionable strategies, 454+ action verbs, ATS optimization, real examples, and expert-reviewed templates. Pass ATS filters and impress recruiters.

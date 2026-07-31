@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 // renders immediately instead of blocking on a multi-MB data chunk.
 
 // Types available before the data finishes loading
-const BASE_TYPES = ['Prompts', 'Agents', 'System Prompts', 'Guide'];
+const BASE_TYPES = ['Prompts', 'Agents', 'System Prompts', 'Guide', 'Skills'];
 
 // Categories that must always be available (in filters and the Add Prompt form),
 // even before any prompt uses them yet
@@ -991,71 +991,37 @@ export default function PromptVault() {
 
             <div className={styles.sidebarSection}>
               <span className={styles.filterLabel}>Type</span>
-              <div className={styles.sidebarOptions}>
-                {TYPES.map((t) => (
-                  <label key={t} className={`${styles.optionRow} ${activeType === t ? styles.optionRowActive : ''}`}>
-                    <input type="radio" name="typeFilter" checked={activeType === t} onChange={() => setType(t)} className={styles.optionInput} />
-                    <RadioIcon checked={activeType === t} />
-                    <span>{t}</span>
-                  </label>
-                ))}
-              </div>
+              <select className={styles.filterSelect} value={activeType} onChange={(e) => setType(e.target.value)}>
+                {TYPES.map((t) => <option key={t} value={t}>{t}</option>)}
+              </select>
             </div>
 
             <div className={styles.sidebarSection}>
               <span className={styles.filterLabel}>Category</span>
-              <div className={`${styles.sidebarOptions} ${styles.sidebarOptionsScroll}`}>
-                {CATEGORIES.map((c) => (
-                  <label key={c} className={`${styles.optionRow} ${activeCat === c ? styles.optionRowActive : ''}`}>
-                    <input type="radio" name="catFilter" checked={activeCat === c} onChange={() => setCat(c)} className={styles.optionInput} />
-                    <RadioIcon checked={activeCat === c} />
-                    <span>{c}</span>
-                  </label>
-                ))}
-              </div>
+              <select className={styles.filterSelect} value={activeCat} onChange={(e) => setCat(e.target.value)}>
+                {CATEGORIES.map((c) => <option key={c} value={c}>{c}</option>)}
+              </select>
             </div>
 
             <div className={styles.sidebarSection}>
               <span className={styles.filterLabel}>Tools</span>
-              <div className={`${styles.sidebarOptions} ${styles.sidebarOptionsScroll}`}>
-                {TOOLS.map((tool) => (
-                  <label
-                    key={tool}
-                    className={`${styles.optionRow} ${activeTool === tool ? styles.optionRowActive : ''}`}
-                    style={activeTool === tool && tool !== 'All tools' ? { '--pill-color': TOOL_COLORS[tool] } : {}}
-                  >
-                    <input type="radio" name="toolFilter" checked={activeTool === tool} onChange={() => setTool(tool)} className={styles.optionInput} />
-                    <RadioIcon checked={activeTool === tool} />
-                    <span>{tool}</span>
-                  </label>
-                ))}
-              </div>
+              <select className={styles.filterSelect} value={activeTool} onChange={(e) => setTool(e.target.value)}>
+                {TOOLS.map((tool) => <option key={tool} value={tool}>{tool}</option>)}
+              </select>
             </div>
 
             <div className={styles.sidebarSection}>
               <span className={styles.filterLabel}>Output</span>
-              <div className={styles.sidebarOptions}>
-                {OUTPUTS.map((o) => (
-                  <label key={o} className={`${styles.optionRow} ${activeOutput === o ? styles.optionRowActive : ''}`}>
-                    <input type="radio" name="outputFilter" checked={activeOutput === o} onChange={() => setOutput(o)} className={styles.optionInput} />
-                    <RadioIcon checked={activeOutput === o} />
-                    <span>{o}</span>
-                  </label>
-                ))}
-              </div>
+              <select className={styles.filterSelect} value={activeOutput} onChange={(e) => setOutput(e.target.value)}>
+                {OUTPUTS.map((o) => <option key={o} value={o}>{o}</option>)}
+              </select>
             </div>
 
             <div className={styles.sidebarSection}>
               <span className={styles.filterLabel}>Sort</span>
-              <div className={styles.sidebarOptions}>
-                {['Newest', 'Top'].map((s) => (
-                  <label key={s} className={`${styles.optionRow} ${sort === s ? styles.optionRowActive : ''}`}>
-                    <input type="radio" name="sortFilter" checked={sort === s} onChange={() => setSort(s)} className={styles.optionInput} />
-                    <RadioIcon checked={sort === s} />
-                    <span>{s}</span>
-                  </label>
-                ))}
-              </div>
+              <select className={styles.filterSelect} value={sort} onChange={(e) => setSort(e.target.value)}>
+                {['Newest', 'Top'].map((s) => <option key={s} value={s}>{s}</option>)}
+              </select>
             </div>
           </aside>
 

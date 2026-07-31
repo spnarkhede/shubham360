@@ -9,7 +9,16 @@
       "Bash(git push *)",
       "Bash(npm start *)",
       "Bash(npx docusaurus *)",
-      "Bash(python -)"
+      "Bash(python -)",
+      "Bash(git clone *)",
+      "Bash(npm install *)",
+      "Bash(bun --version)",
+      "Bash(mkdir -p \"C:/Users/nas1ul/.claude/skills\")",
+      "Bash(mv \"C:/Users/nas1ul/Desktop/spnarkhede/gstack\" \"C:/Users/nas1ul/.claude/skills/gstack\")",
+      "Read(//c/Users/nas1ul/.claude/skills/**)",
+      "Bash(cd \"C:/Users/nas1ul/.claude/skills/gstack\")",
+      "Bash(export HTTP_PROXY=http://rb-proxy-apac.bosch.com:8080 HTTPS_PROXY=http://rb-proxy-apac.bosch.com:8080 PLAYWRIGHT_DOWNLOAD_HOST=\"https://playwright.download.prss.microsoft.com/dbazure/download/playwright\")",
+      "Bash(npx playwright *)"
     ]
   }
 }

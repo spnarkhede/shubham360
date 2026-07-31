@@ -1,0 +1,32 @@
+const prompt = {
+  emoji: '🎛️',
+  title: 'Super Prompt UI Button System — Elite Career Command Center',
+  description: 'Copy-paste modular prompt system organized as UI buttons — LinkedIn profile, resume, cover letter, networking, interview, and personal brand builders.',
+  type: 'Guide',
+  category: 'Career',
+  tool: 'ChatGPT',
+  output: 'Text',
+  date: '2026-07-31',
+  tags: ['ui', 'prompts', 'system', 'ai', 'career', 'resume', 'linkedin'],
+  views: 1380,
+  recommendedTools: ['ChatGPT', 'Claude'],
+  prompt: '# 🚀 ⚡ ELITE CAREER AI COMMAND CENTER (COPY-PASTE SYSTEM)\n\n## 🧠 GLOBAL MASTER PROMPT (USE FIRST)\n\n```\nAct as a world-class panel of experts consisting of:\n\nExecutive LinkedIn Branding Experts, LinkedIn SEO & Algorithm Specialists, Fortune 500 Recruiters, FAANG Talent Acquisition Leaders, Executive Resume Writers, ATS Optimization Consultants, Executive Career Coaches, Global Headhunters, Personal Branding Strategists, Thought Leadership Consultants, Employer Branding Specialists, HR Directors, Hiring Managers, Executive Communication Experts, Career Marketing Strategists, Professional Storytelling Experts, Interview Coaches, Talent Intelligence Analysts, Workforce Strategy Consultants, Executive Search Partners,\n\npossessing 100+ years of combined experience and operating at the top 0.1% of global talent markets.\n\nYour goal is to transform my input into a recruiter-magnet, ATS-optimized, interview-winning personal brand system.\n\nTarget Role: [INSERT ROLE]\nExperience Level: [INSERT LEVEL]\nIndustry: [INSERT INDUSTRY]\nGoal: Get interviews, referrals, and offers\n```\n\n---\n\n# 🎛️ UI BUTTON SYSTEM (COPY + CLICK STYLE MODULES)\n\nYou can now run **any module independently** by copy-pasting it.\n\n---\n\n# 🟦 BUTTON 1 — LINKEDIN PROFILE BUILDER\n\n```\nGenerate a complete LinkedIn profile optimization for the given role.\n\nInclude:\n- Banner strategy\n- Profile photo positioning\n- 3 headline variations\n- About/Summary (storytelling + SEO keywords)\n- Featured section strategy\n- Experience rewrite (impact + ATS optimized)\n- Education positioning\n- Certifications strategy\n- Skills ranking system (core + hidden keywords)\n- Language positioning\n\nMake it recruiter-optimized and keyword-dense.\n```\n\n---\n\n# 🟩 BUTTON 2 — RESUME / CV REBUILDER\n\n```\nRewrite my resume into a high-impact, ATS-optimized executive resume.\n\nInclude:\n- Keyword optimization based on job market\n- Achievement-based bullet points (quantified)\n- Strong action verbs\n- Role repositioning if needed\n- ATS scoring improvement strategy\n- Two versions: Startup + Enterprise/FAANG\n\nMake it recruiter-ready and interview-focused.\n```\n\n---\n\n# 🟨 BUTTON 3 — COVER LETTER GENERATOR\n\n```\nWrite a highly personalized, executive-level cover letter.\n\nInclude:\n- Strong opening hook\n- Story-driven positioning\n- Alignment with company goals\n- Achievements mapped to role\n- Emotional + strategic persuasion\n- Strong closing CTA\n\nTone: Confident, modern, non-generic, high-impact.\n```\n\n---\n\n# 🟪 BUTTON 4 — LINKEDIN OUTREACH SYSTEM\n\n```\nCreate a complete LinkedIn outreach system.\n\nInclude:\n- Cold recruiter DM templates\n- Referral request messages\n- Follow-up sequence (3–5 steps)\n- Networking scripts\n- Personalization strategies\n\nGoal: Maximize response rate and referral conversion.\n```\n\n---\n\n# 🟥 BUTTON 5 — JOB SEARCH KEYWORD ENGINE\n\n```\nGenerate advanced job search keyword systems.\n\nInclude:\n- Boolean search strings for LinkedIn\n- High-intent recruiter search queries like:\n  "Job Title + Recruiter + Company Name"\n  "Job Title + Hiring Manager + Location"\n- Hidden ATS keyword clusters\n- Industry-specific search variations\n- Remote + global variations\n\nMake it optimized for recruiter discovery.\n```\n\n---\n\n# 🟧 BUTTON 6 — PERSONAL BRAND STRATEGY\n\n```\nBuild a complete personal branding strategy.\n\nInclude:\n- Positioning statement\n- Identity narrative\n- Differentiation strategy\n- Authority building roadmap\n- Market perception design\n- 30-day branding plan\n\nGoal: Make the user a recognizable authority in their field.\n```\n\n---\n\n# 🟫 BUTTON 7 — LINKEDIN CONTENT STRATEGY\n\n```\nCreate a LinkedIn content strategy.\n\nInclude:\n- 10 viral post ideas\n- Weekly content pillars\n- Hook formulas\n- Engagement strategies\n- Thought leadership topics\n- Storytelling frameworks\n\nGoal: Build authority + recruiter visibility.\n```\n\n---\n\n# ⬛ BUTTON 8 — ATS + RECRUITER OPTIMIZATION ENGINE\n\n```\nOptimize profile and resume for ATS and recruiter search.\n\nInclude:\n- Keyword mapping from job descriptions\n- ATS ranking improvement strategy\n- Recruiter search behavior optimization\n- Profile ranking hacks\n- Visibility boosting techniques\n```\n\n---\n\n# 🟨 BUTTON 9 — INTERVIEW PREPARATION SYSTEM\n\n```\nPrepare me for interviews for the target role.\n\nInclude:\n- Behavioral questions (STAR answers)\n- Technical/role-specific questions\n- Executive presence tips\n- Weakness framing\n- Salary negotiation strategy\n- Closing interview strategies\n```\n\n---\n\n# 🟦 BUTTON 10 — CAREER TRANSITION STRATEGY\n\n```\nDesign a career transition roadmap.\n\nInclude:\n- Skill gap analysis\n- Transferable skill mapping\n- Narrative repositioning strategy\n- Entry strategy into new role/industry\n- Step-by-step transition plan\n```\n\n---\n\n# ⚡ HOW TO USE (IMPORTANT)\n\n1. Paste **GLOBAL MASTER PROMPT first**\n2. Then paste **ANY BUTTON MODULE**\n3. Replace placeholders like:\n\n   * [ROLE]\n   * [INDUSTRY]\n   * [EXPERIENCE]\n\n---',
+  whatItDoes: [
+    'Global Master Prompt sets the expert panel context once',
+    '10+ independent button prompts cover every career deliverable',
+    'Each button prompt is fully self-contained and copy-paste ready',
+    'Covers LinkedIn, resume, cover letter, networking, interview, and salary negotiation',
+  ],
+  tips: [
+    'Paste the Global Master Prompt first to set the AI into expert mode',
+    'Then paste individual button prompts without re-establishing context',
+    'Run Button 1 (LinkedIn) + Button 2 (Resume) together for a complete career overhaul',
+  ],
+  howToUse: [
+    'Copy the Global Master Prompt and fill in [INSERT ROLE], [INSERT LEVEL], [INSERT INDUSTRY]',
+    'Run the Global Prompt in a new conversation to set context',
+    'Paste individual button prompts in the same conversation for each deliverable',
+  ],
+};
+
+export default prompt;

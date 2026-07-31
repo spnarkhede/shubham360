@@ -1,0 +1,31 @@
+const prompt = {
+  emoji: '🤖',
+  title: 'Claude Agent Creation Template',
+  description: 'Standard template for authoring Claude agents — role definition, input/output contract, banned vocabulary, safety review, and deployment notes.',
+  type: 'Guide',
+  category: 'Agents',
+  tool: 'Claude',
+  output: 'Text',
+  date: '2026-07-31',
+  tags: ['claude', 'agents', 'template', 'ai', 'system-prompt'],
+  views: 1120,
+  recommendedTools: ['Claude'],
+  prompt: '# Claude Agent Creation Template\n\nA standard template for authoring Claude agents in Shubham Narkhede\'s AI library. Every agent in this collection is designed to do one thing well, produce consistent output, and behave safely at the edges.\n\n> **Full authoring standards:** See [ClaudeAgentsAuthoringChecklist.md](ClaudeAgentsAuthoringChecklist.md) for the complete checklist — frontmatter fields, instruction block requirements, safety review, testing protocol, and the 10 most common authoring failures.\n\n---\n\n## What Makes a Good Agent\n\nEvery agent in this library must meet the same quality bar:\n\n- **Specific role** — the agent does one thing well, not ten things adequately\n- **Clear input/output contract** — the instruction set defines what the agent accepts and exactly what it produces\n- **Professional language** — no AI-sounding vocabulary, no filler phrases\n- **Banned vocabulary list** — explicit list of words that make output sound AI-generated\n- **Quality self-check** — a checklist the agent runs internally before every response\n- **Edge cases handled** — the instruction set addresses incomplete input, ambiguous requests, and out-of-scope tasks\n\n---\n\n## Agent File Structure\n\nEach agent lives in a single `.md` file. Use this template:\n\n```markdown\n---\nname: [Agent Name]\ndescription: [Full description — 1-2 sentences. What it does and who it serves.]\ndomain: [writing-communication | project-management | productivity | analysis | research | learning | strategy]\naudience: [Primary audience — comma-separated roles]\nknowledge_sources: [None required | Optional — description | Required — description]\nlanguage: [EN]\nchar_count: [~XXXX]\nsafety_reviewed: [yes | no | pending]\ntested: [yes | no]\nversion: 1.0\nlast_updated: YYYY-MM-DD\n---\n\n# [Agent Name]\n\n> **Description:** [One sentence — what it does]\n\n## Description\n\n[2-4 sentence prose description of what the agent does, what it produces, and its key rules.]\n\n## Conversation Starters\n\n- `[Concrete, paste-ready example 1]`\n- `[Concrete, paste-ready example 2]`\n- `[Concrete, paste-ready example 3]`\n\n## Instructions\n\n*(Paste the full block below into the system prompt or Claude agent instructions field.)*\n\n\\```\n[Full instruction set]\n\\```\n\n## Knowledge Sources\n\n[None required. / Required: [what to connect]. / Optional: [what to connect and why it improves the agent.]]\n\n## Deployment Notes\n\n[Practical notes for the person deploying — customisation points, known limitations]\n\n## Changelog\n\n| Version | Date | Change |\n|---------|------|--------|\n| 1.0 | YYYY-MM-DD | Initial version |\n```\n\n---\n\n## Directory Structure\n\nPlace new agents in the most relevant folder:\n\n```\nagents/\n├── writing-communication/\n├── project-management/\n├── productivity/\n├── analysis/\n├── research/\n├── learning/\n└── strategy/\n```\n\n---\n\n## Instruction Writing Guidelines\n\n### Language defaults\nEvery agent must include this block near the top of its instructions:\n\n```\n## LANGUAGE RULES\nDefault: clear, professional English.\nTone: direct and concise — no hedging, no filler phrases.\nFormat: follow the OUTPUT FORMAT section exactly.\n```\n\n### Banned vocabulary\nEvery agent must include a banned vocabulary list. At minimum, include:\n\n```\npivotal, testament, underscores (emphasis), stands as, evolving landscape, vibrant, groundbreaking,\ndelve, foster (abstract), leverage (as verb), synergy, robust (abstract), seamless, impactful,\ncutting-edge, state-of-the-art, best-in-class, additionally (sentence opener), it is important to note that,\nin order to, due to the fact that, going forward (filler), touch base, circle back, low-hanging fruit.\n```\n\n### Quality self-check\nEvery agent must end with a `## QUALITY SELF-CHECK` section — a checklist the agent runs internally before delivering output. The check must not be shown to the user.\n\n### Output format\nEvery agent must specify exactly what its output looks like — structure, section headings, table formats, length targets. Vague format guidance produces inconsistent outputs.\n\n### What you must not do\nEvery agent must include an explicit list of things it will not do — specifically things a user might reasonably ask that are outside the agent\'s scope or that could cause harm.\n\n---\n\n## Submitting a New Agent\n\n1. Create a new `.md` file in the correct folder using the template above.\n2. Complete all frontmatter fields.\n3. Test all conversation starters and verify the output matches the expected format.\n4. Update the agent directory table in `README.md`.\n\n---\n\n## What Is Not Accepted\n\n- Agents with vague ROLE sections ("You are a helpful assistant")\n- Agents with no explicit output format\n- Agents that produce legally, medically, or financially authoritative output without a human-review disclaimer\n- Agents with banned vocabulary in the instruction text itself\n\n---\n\n*Part of the [Claude AI Prompts & Agents Library](https://github.com/spnarkhede/shubham360) by [Shubham Narkhede](https://shubhamnarkhede.com)*\n',
+  whatItDoes: [
+    'Defines the exact file structure every agent must follow',
+    'Covers frontmatter, description, conversation starters, instructions, and changelog',
+    'Enforces quality standards: specific role, banned vocabulary, edge case handling',
+  ],
+  tips: [
+    'Every agent must do one thing well, not ten things adequately',
+    'Always include a banned vocabulary list to prevent AI-sounding output',
+    'Test with all conversation starters before marking safety_reviewed: yes',
+  ],
+  howToUse: [
+    'Copy the template file structure',
+    'Fill in every frontmatter field accurately',
+    'Write the instruction block then test with real conversation starters',
+  ],
+};
+
+export default prompt;

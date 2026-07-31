@@ -11,7 +11,7 @@ var templatePrompt = {
   description: 'A two‑phase, McKinsey‑style interview preparation system that builds exhaustive company intelligence (14 areas) followed by role‑specific question banks, strategic positioning, and a professional consulting document.',
   // ── Classification ─────────────────────────────────────────────────────────
   type: 'Prompts',
-  category: 'Interview',
+  category: 'Interview Prep',
   tool: 'Any',
   output: 'Text',
   date: '2026-05-28',

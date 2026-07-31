@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import styles from './styles.module.css';
 
@@ -11,6 +11,8 @@ const EMAILJS_USER_ID = typeof process !== 'undefined' && process.env.REACT_APP_
 emailjs.init(EMAILJS_USER_ID);
 
 const ContactForm = () => {
+  const [consentChecked, setConsentChecked] = useState(false);
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -22,7 +24,8 @@ const ContactForm = () => {
     .then((result) => {
         // Email sent successfully
         alert('Thank you! Your message has been sent successfully.');
-        e.target.reset(); // Reset form after successful submission
+        e.target.reset();
+        setConsentChecked(false);
     }, (error) => {
         // Log error in development mode only
         if (process.env.NODE_ENV === 'development') {
@@ -53,7 +56,25 @@ const ContactForm = () => {
         <textarea name="message" placeholder="Message" required className={styles.formTextarea} />
       </div>
       <div className={styles.formGroup}>
-        <input type="submit" value="Send Message" className={styles.submitButton} />
+        <label className={styles.consentLabel}>
+          <input
+            type="checkbox"
+            checked={consentChecked}
+            onChange={(e) => setConsentChecked(e.target.checked)}
+            className={styles.consentCheckbox}
+            required
+          />
+          <span>
+            I agree to the{' '}
+            <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
+              Privacy Policy
+            </a>{' '}
+            and consent to my data being processed to respond to my inquiry.
+          </span>
+        </label>
+      </div>
+      <div className={styles.formGroup}>
+        <input type="submit" value="Send Message" disabled={!consentChecked} className={styles.submitButton} />
       </div>
     </form>
   );

@@ -3,12 +3,218 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+/* Self-hosted fonts — no CSP or network dependency */
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-500.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-600.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('/fonts/inter-800.woff2') format('woff2'); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Poppins'; src: url('/fonts/poppins-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Poppins'; src: url('/fonts/poppins-600.woff2') format('woff2'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Poppins'; src: url('/fonts/poppins-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 @import './_aboutme';
 @import './_certificates.css';
 @import './_timeline.css';
 @import './_projects.css';
 @import './_books.css';
 @import './_contact.css';
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   NOTION-STYLE DESIGN TOKEN LAYER
+   All custom components and pages should use --sn-* variables.
+   They automatically flip between light and dark via [data-theme='dark'].
+   ═══════════════════════════════════════════════════════════════════════════ */
+:root {
+  /* Fonts */
+  --sn-font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --sn-font-heading: 'Poppins', var(--sn-font-body);
+  --sn-font-mono: 'SFMono-Regular', 'Fira Code', 'Consolas', 'Monaco', monospace;
+
+  /* Backgrounds */
+  --sn-bg:           #f8f8f8;
+  --sn-bg-sidebar:   #f0f0ee;
+  --sn-bg-secondary: #ebebea;
+  --sn-bg-tertiary:  #e2e2e0;
+  --sn-bg-card:      #ffffff;
+  --sn-bg-popover:   #ffffff;
+  --sn-bg-code:      #f4f4f2;
+  --sn-bg-callout:   #eeeee9;
+
+  /* Text */
+  --sn-text:           rgba(55, 53, 47, 1);
+  --sn-text-secondary: rgba(55, 53, 47, 0.75);
+  --sn-text-tertiary:  rgba(55, 53, 47, 0.4);
+
+  /* Borders */
+  --sn-border:         rgba(55, 53, 47, 0.09);
+  --sn-border-strong:  rgba(55, 53, 47, 0.18);
+
+  /* Interactions */
+  --sn-hover:        rgba(55, 53, 47, 0.06);
+  --sn-active:       rgba(55, 53, 47, 0.1);
+  --sn-block-hover:  rgba(55, 53, 47, 0.03);
+
+  /* Accent — Notion blue */
+  --sn-accent:       #2383e2;
+  --sn-accent-light: rgba(35, 131, 226, 0.1);
+  --sn-accent-hover: #1a75d1;
+
+  /* Status colors */
+  --sn-success:      #00a676;
+  --sn-warning:      #f0b429;
+  --sn-danger:       #ef476f;
+
+  /* Shadows */
+  --sn-shadow-sm:   0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --sn-shadow-card: 0 4px 12px rgba(0, 0, 0, 0.07), 0 1px 3px rgba(0, 0, 0, 0.04);
+  --sn-shadow-lg:   0 8px 32px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.05);
+  --sn-shadow-xl:   0 20px 60px rgba(0, 0, 0, 0.12), 0 4px 16px rgba(0, 0, 0, 0.06);
+
+  /* Radius */
+  --sn-radius-sm: 4px;
+  --sn-radius:    8px;
+  --sn-radius-lg: 12px;
+  --sn-radius-xl: 16px;
+
+  /* Spacing scale */
+  --sn-space-1: 4px;
+  --sn-space-2: 8px;
+  --sn-space-3: 12px;
+  --sn-space-4: 16px;
+  --sn-space-5: 24px;
+  --sn-space-6: 32px;
+  --sn-space-7: 48px;
+  --sn-space-8: 64px;
+
+  /* Transitions */
+  --sn-transition: 150ms ease;
+  --sn-transition-slow: 300ms ease;
+}
+
+/* Dark theme — all tokens flip automatically */
+[data-theme='dark'] {
+  --sn-bg:           #191919;
+  --sn-bg-sidebar:   #202020;
+  --sn-bg-secondary: #2a2a2a;
+  --sn-bg-tertiary:  #333333;
+  --sn-bg-card:      #252525;
+  --sn-bg-popover:   #2c2c2c;
+  --sn-bg-code:      #1e1e1e;
+  --sn-bg-callout:   #2e2e28;
+
+  --sn-text:           rgba(255, 255, 255, 0.88);
+  --sn-text-secondary: rgba(255, 255, 255, 0.63);
+  --sn-text-tertiary:  rgba(255, 255, 255, 0.33);
+
+  --sn-border:         rgba(255, 255, 255, 0.08);
+  --sn-border-strong:  rgba(255, 255, 255, 0.15);
+
+  --sn-hover:       rgba(255, 255, 255, 0.06);
+  --sn-active:      rgba(255, 255, 255, 0.1);
+  --sn-block-hover: rgba(255, 255, 255, 0.025);
+
+  --sn-accent:       #4a9eff;
+  --sn-accent-light: rgba(74, 158, 255, 0.12);
+  --sn-accent-hover: #6ab0ff;
+
+  --sn-shadow-sm:   0 1px 3px rgba(0, 0, 0, 0.3);
+  --sn-shadow-card: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --sn-shadow-lg:   0 12px 40px rgba(0, 0, 0, 0.5);
+  --sn-shadow-xl:   0 24px 64px rgba(0, 0, 0, 0.55);
+}
+
+/* ── Global typography using the token fonts ─────────────────────────────── */
+body {
+  font-family: var(--sn-font-body);
+  font-feature-settings: 'kern', 'liga', 'calt';
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--sn-font-heading);
+  letter-spacing: -0.02em;
+}
+
+/* ── Scrollbars ──────────────────────────────────────────────────────────── */
+* { scrollbar-width: thin; scrollbar-color: var(--sn-border-strong) transparent; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--sn-border-strong); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--sn-text-tertiary); }
+
+/* ── Selection ───────────────────────────────────────────────────────────── */
+::selection { background: var(--sn-accent-light); color: var(--sn-text); }
+
+/* ── Reusable utility classes using tokens ───────────────────────────────── */
+.sn-card {
+  background: var(--sn-bg-card);
+  border: 1px solid var(--sn-border);
+  border-radius: var(--sn-radius-lg);
+  box-shadow: var(--sn-shadow-card);
+  transition: box-shadow var(--sn-transition), transform var(--sn-transition);
+}
+.sn-card:hover {
+  box-shadow: var(--sn-shadow-lg);
+  transform: translateY(-2px);
+}
+
+.sn-surface {
+  background: var(--sn-bg-secondary);
+  border: 1px solid var(--sn-border);
+  border-radius: var(--sn-radius);
+}
+
+.sn-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 10px;
+  border-radius: 100px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  background: var(--sn-bg-secondary);
+  color: var(--sn-text-secondary);
+  border: 1px solid var(--sn-border);
+}
+
+.sn-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sn-space-2);
+  padding: 8px 16px;
+  border-radius: var(--sn-radius);
+  font-family: var(--sn-font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--sn-transition), box-shadow var(--sn-transition), transform var(--sn-transition);
+  border: none;
+}
+.sn-btn-primary {
+  background: var(--sn-accent);
+  color: #ffffff;
+}
+.sn-btn-primary:hover {
+  background: var(--sn-accent-hover);
+  box-shadow: 0 4px 12px var(--sn-accent-light);
+  transform: translateY(-1px);
+  color: #ffffff;
+  text-decoration: none;
+}
+.sn-btn-ghost {
+  background: transparent;
+  color: var(--sn-text-secondary);
+  border: 1px solid var(--sn-border);
+}
+.sn-btn-ghost:hover {
+  background: var(--sn-hover);
+  color: var(--sn-text);
+  text-decoration: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   END DESIGN TOKEN LAYER
+   ═══════════════════════════════════════════════════════════════════════════ */
 
 /* You can override the default Infima variables here. */
 :root {
@@ -33,10 +239,10 @@
   --ifm-color-warning: #ffb703;
   --ifm-color-danger: #ef476f;
   
-  --ifm-background-color: #f8f8f8;
+  --ifm-background-color: var(--sn-bg);        /* was #f8f8f8 */
   --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --ifm-heading-font-family: 'Poppins', var(--ifm-font-family-base);
+  --ifm-font-family-base: var(--sn-font-body);
+  --ifm-heading-font-family: var(--sn-font-heading);
   --ifm-navbar-height: 4.5rem;
   --ifm-navbar-padding-vertical: 0.75rem;
   --ifm-navbar-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
@@ -61,18 +267,17 @@
   --ifm-color-secondary-lighter: #ffcf61;
   --ifm-color-secondary-lightest: #ffdd90;
   
-  --ifm-background-color: #1a1a2e;
-  --ifm-background-surface-color: #222244;
-  --ifm-card-background-color: #2a2a44;
-  --ifm-navbar-background-color: #1a1a2e;
-  --ifm-footer-background-color: #16162a;
-  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
-}
-
-/* Dark theme text colors */
-[data-theme='dark'] {
-  --ifm-color-content: #e0e0e0;
-  --ifm-color-content-secondary: #b0b0b0;
+  /* Map dark Infima variables to Notion token layer */
+  --ifm-background-color:         var(--sn-bg);           /* #191919 */
+  --ifm-background-surface-color: var(--sn-bg-secondary); /* #2a2a2a */
+  --ifm-card-background-color:    var(--sn-bg-card);      /* #252525 */
+  --ifm-navbar-background-color:  var(--sn-bg-sidebar);   /* #202020 */
+  --ifm-footer-background-color:  var(--sn-bg-sidebar);   /* #202020 */
+  --ifm-color-content:            var(--sn-text);
+  --ifm-color-content-secondary:  var(--sn-text-secondary);
+  --ifm-toc-border-color:         var(--sn-border);
+  --ifm-color-emphasis-300:       var(--sn-border-strong);
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
 }
 
 /* Dark theme shadows */
@@ -95,22 +300,22 @@
 [data-theme='dark'] .button--primary:hover {
   background-color: #f0f0f0;
   border-color: #f0f0f0;
-  color: #1a1a2e;
+  color: var(--sn-bg);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
 }
 
 [data-theme='dark'] .button--secondary {
   background-color: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: var(--sn-border-strong);
+  color: var(--sn-text);
   font-weight: 500;
 }
 
 [data-theme='dark'] .button--secondary:hover {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  color: #1a1a2e;
+  background-color: var(--sn-hover);
+  border-color: var(--sn-border-strong);
+  color: var(--sn-text);
   transform: translateY(-1px);
 }
 
@@ -127,36 +332,36 @@
 [data-theme='dark'] .primaryButton:hover,
 [data-theme='dark'] .ctaButton:hover {
   background-color: #f0f0f0 !important;
-  color: #1a1a2e !important;
+  color: var(--sn-bg) !important;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
 }
 
 [data-theme='dark'] .secondaryButton {
   background-color: transparent !important;
-  color: #ffffff !important;
-  border: 2px solid #ffffff !important;
+  color: var(--sn-text) !important;
+  border: 2px solid var(--sn-border-strong) !important;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
 [data-theme='dark'] .secondaryButton:hover {
-  background-color: #ffffff !important;
-  color: #1a1a2e !important;
+  background-color: var(--sn-hover) !important;
+  color: var(--sn-text) !important;
   transform: translateY(-2px);
 }
 
 /* Navigation guide cards in dark theme */
 [data-theme='dark'] .roleCard {
-  background-color: #2a2a44 !important;
-  border: 1px solid #3a3a5a;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background-color: var(--sn-bg-card) !important;
+  border: 1px solid var(--sn-border-strong);
+  box-shadow: var(--sn-shadow-card);
 }
 
 [data-theme='dark'] .roleCard:hover {
-  background-color: #3a3a5a !important;
+  background-color: var(--sn-bg-secondary) !important;
   transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--sn-shadow-lg);
 }
 
 /* Ensure all custom buttons use white in dark theme */
@@ -164,7 +369,7 @@
 [data-theme='dark'] .button,
 [data-theme='dark'] a[class*="button"] {
   background-color: #ffffff;
-  color: #1a1a2e;
+  color: var(--sn-bg);
   border-color: #ffffff;
 }
 
@@ -172,7 +377,7 @@
 [data-theme='dark'] .button:hover,
 [data-theme='dark'] a[class*="button"]:hover {
   background-color: #f0f0f0;
-  color: #1a1a2e;
+  color: var(--sn-bg);
   border-color: #f0f0f0;
 }
 
@@ -181,18 +386,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-feature-settings: "kern", "liga", "calt";
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--ifm-heading-font-family);
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
 
 /* Navbar styling */
 .navbar {

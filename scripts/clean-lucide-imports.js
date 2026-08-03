@@ -3,7 +3,7 @@ const path = require('path');
 const glob = require('glob');
 const recast = require('recast');
 const b = recast.types.builders;
-const { scanFiles } = require('./scripts/utils/file-utils');
+const { scanFiles } = require('./utils/file-utils');
 
 function findUsedIdentifiers(ast) {
     const used = new Set();

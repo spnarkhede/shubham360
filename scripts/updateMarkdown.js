@@ -3,7 +3,7 @@ const path = require('path');
 
 // Configuration
 const authorName = 'Shubham Narkhede'; // Replace with your name
-const markdownDir = path.join(__dirname, 'docs'); // Adjust to your markdown files directory
+const markdownDir = path.join(__dirname, '..', 'docs'); // Adjust to your markdown files directory
 
 // Function to update last modified date and author in .md files
 const updateMarkdownFiles = () => {

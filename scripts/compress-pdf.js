@@ -2,8 +2,8 @@
 const fs = require('fs');
 const { exec } = require('child_process');
 const path = require('path');
-const { ensureDirExists } = require('./scripts/utils/file-utils');
-const { isGhostscriptAvailable } = require('./scripts/utils/external-tools');
+const { ensureDirExists } = require('./utils/file-utils');
+const { isGhostscriptAvailable } = require('./utils/external-tools');
 
 // Configuration for different PDF directories
 const pdfDirectories = [

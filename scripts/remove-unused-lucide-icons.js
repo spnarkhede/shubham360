@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
-const { scanFiles } = require('./scripts/utils/file-utils');
+const { scanFiles } = require('./utils/file-utils');
 
 const ICON_SOURCE = 'lucide-react';
 

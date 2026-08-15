@@ -1,7 +1,6 @@
 import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import Head from '@docusaurus/Head';
 import styles from './styles.module.css';
 
 // The full prompt dataset is loaded lazily (dynamic import) so the page shell
@@ -938,14 +937,6 @@ export default function PromptVault() {
 
   return (
     <Layout title="PromptVault" description="A curated library of prompts for every AI agent">
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
-
       <div className={styles.page}>
         <header className={styles.hero}>
           <div className={styles.heroGlow} aria-hidden="true" />

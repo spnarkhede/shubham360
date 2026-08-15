@@ -104,7 +104,7 @@
 }
 
 .roleCardIcon {
-  background: linear-gradient(135deg, var(--nav-primary-color) 0%, var(--nav-primary-darker) 100%);
+  background: var(--nav-primary-color);
   color: white;
   padding: 1.5rem;
   display: flex;

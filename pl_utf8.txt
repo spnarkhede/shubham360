@@ -1,0 +1,16 @@
+﻿git : remote: 
+At line:1 char:1
++ git push origin main *> push_log.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (remote: :String) [], RemoteExcept 
+   ion
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+remote: GitHub found 33 vulnerabilities on spnarkhede/shubham360's default 
+branch (1 critical, 15 high, 13 moderate, 4 low). To find out more, visit:     
+   
+remote:      https://github.com/spnarkhede/shubham360/security/dependabot      
+  
+remote: 
+To https://github.com/spnarkhede/shubham360.git
+   57c0b09..513d843  main -> main

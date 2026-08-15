@@ -1,0 +1,22 @@
+﻿[main 513d843] Reorganize project docs/scripts into subfolders, bump Docusaurus to 3.10.2
+ 23 files changed, 3241 insertions(+), 1020 deletions(-)
+ create mode 100644 docs/PromptVault/Guides/LinkedIn-CompleteProfile-OS.md
+ rename 1. RecruiterCuratedData.md => docs/product/planning/7. technical_analysis.md (100%)
+ create mode 100644 project_docs/1. RecruiterCuratedData.md
+ rename 1. RecruiterDashboardData.md => project_docs/1a. RecruiterDashboardData.md (100%)
+ rename 2. TechEnthusiast.md => project_docs/2. TechEnthusiast.md (100%)
+ rename 3. CuriousVisitor.md => project_docs/3. CuriousVisitor.md (100%)
+ rename 4. GrowthPartner.md => project_docs/4. GrowthPartner.md (100%)
+ rename 5. ProductDesigner.md => project_docs/5. ProductDesigner.md (100%)
+ rename BADGE_ACHIEVEMENT_GUIDE.md => project_docs/BADGE_ACHIEVEMENT_GUIDE.md (100%)
+ rename COGNITIVE_DEBT_CHECKLIST.md => project_docs/COGNITIVE_DEBT_CHECKLIST.md (100%)
+ rename SOCIAL_MEDIA_TEMPLATES.md => project_docs/SOCIAL_MEDIA_TEMPLATES.md (100%)
+ rename TEAM_PLAYBOOK.md => project_docs/TEAM_PLAYBOOK.md (100%)
+ rename TODOS.md => project_docs/TODOS.md (100%)
+ rename filestructure.txt => project_docs/filestructure.txt (100%)
+ rename clean-lucide-imports.js => scripts/clean-lucide-imports.js (96%)
+ rename compress-images.js => scripts/compress-images.js (100%)
+ rename compress-pdf.js => scripts/compress-pdf.js (95%)
+ rename remove-unused-lucide-icons.js => scripts/remove-unused-lucide-icons.js (96%)
+ rename updateMarkdown.js => scripts/updateMarkdown.js (94%)
+ rename write_prompts.py => scripts/write_prompts.py (100%)

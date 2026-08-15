@@ -29,17 +29,17 @@ function PinSvg({ active }) {
 }
 
 const ITEMS = [
-  { label: 'Home',           href: '/landing',                                          icon: 'home',      color: '#8B5CF6' },
-  { label: 'Recruiter View', href: '/recruiter-dashboard/introduction',                 icon: 'briefcase', color: '#3B82F6' },
-  { label: 'Product Design', href: '/product-designer/introduction',                    icon: 'layout',    color: '#EC4899' },
-  { label: 'Tech Enthusiast',href: '/tech-enthusiast/technical-learnings',              icon: 'cpu',       color: '#10B981' },
-  { label: 'Curious Visitor',href: '/curious-visitor/introduction',                     icon: 'sparkles',  color: '#F59E0B' },
-  { label: 'PromptVault',    href: '/prompt-vault',                                     icon: 'prompts',   color: '#8B5CF6' },
-  { label: 'Blog',           href: '/blog',                                             icon: 'feather',   color: '#06B6D4' },
-  { label: 'Books',          href: '/books',                                            icon: 'bookOpen',  color: '#F97316' },
-  { label: 'My Learnings',   href: '/MyLearnings/HardReset/50PsychologySkills',         icon: 'brain',     color: '#A855F7' },
-  { label: 'Certifications', href: '/recruiter-dashboard/certifications',               icon: 'award',     color: '#EAB308' },
-  { label: 'Contact',        href: '/contact',                                          icon: 'mail',      color: '#EF4444' },
+  { label: 'Home',           href: '/landing',                                          icon: 'home' },
+  { label: 'Recruiter View', href: '/recruiter-dashboard/introduction',                 icon: 'briefcase' },
+  { label: 'Product Design', href: '/product-designer/introduction',                    icon: 'layout' },
+  { label: 'Tech Enthusiast',href: '/tech-enthusiast/technical-learnings',              icon: 'cpu' },
+  { label: 'Curious Visitor',href: '/curious-visitor/introduction',                     icon: 'sparkles' },
+  { label: 'PromptVault',    href: '/prompt-vault',                                     icon: 'prompts' },
+  { label: 'Blog',           href: '/blog',                                             icon: 'feather' },
+  { label: 'Books',          href: '/books',                                            icon: 'bookOpen' },
+  { label: 'My Learnings',   href: '/MyLearnings/HardReset/50PsychologySkills',         icon: 'brain' },
+  { label: 'Certifications', href: '/recruiter-dashboard/certifications',               icon: 'award' },
+  { label: 'Contact',        href: '/contact',                                          icon: 'mail' },
 ];
 
 function FloatingDockInner() {
@@ -70,7 +70,7 @@ function FloatingDockInner() {
           <a
             href={item.href}
             className={styles.dockItem}
-            style={{ '--dock-delay': `${i * 25}ms`, '--dock-color': item.color }}
+            style={{ '--dock-delay': `${i * 25}ms` }}
           >
             <span className={styles.dockIcon} aria-hidden="true">
               <DockIcon name={item.icon} />

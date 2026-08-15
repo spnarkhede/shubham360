@@ -1,4 +1,5 @@
 .dock {
+  --dock-color: #8B5CF6;
   position: fixed;
   top: 50%;
   right: 18px;

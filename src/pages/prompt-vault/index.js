@@ -425,14 +425,29 @@ function TrashIcon() {
 
 // ── DYNAMIC LIST FIELD ────────────────────────────────────────────────────────
 function DynamicListField({ items, onChange, placeholder, addLabel }) {
+  // Stable per-item ids so React keys survive add/remove without shifting —
+  // array-index keys would misassign focus/DOM state after a middle-item removal.
+  const idsRef = useRef([]);
+  const nextIdRef = useRef(0);
+  while (idsRef.current.length < items.length) {
+    idsRef.current.push(nextIdRef.current++);
+  }
+  if (idsRef.current.length > items.length) {
+    idsRef.current = idsRef.current.slice(0, items.length);
+  }
+
   const updateItem = (i, v) => { const n = [...items]; n[i] = v; onChange(n); };
   const addItem = () => onChange([...items, '']);
-  const removeItem = (i) => { if (items.length === 1) return; onChange(items.filter((_, idx) => idx !== i)); };
+  const removeItem = (i) => {
+    if (items.length === 1) return;
+    idsRef.current = idsRef.current.filter((_, idx) => idx !== i);
+    onChange(items.filter((_, idx) => idx !== i));
+  };
 
   return (
     <div className={styles.dynamicList}>
       {items.map((val, i) => (
-        <div key={i} className={styles.dynamicItem}>
+        <div key={idsRef.current[i]} className={styles.dynamicItem}>
           <input
             type="text"
             className={styles.formInput}

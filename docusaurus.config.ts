@@ -49,7 +49,7 @@ const config: Config = {
           "style-src 'self' 'unsafe-inline'",
           "img-src 'self' data: https: http:",
           "font-src 'self' data: https://fonts.gstatic.com",
-          "connect-src 'self' https://api.emailjs.com https://www.figma.com https://uxpilot.ai",
+          "connect-src 'self' https://api.emailjs.com https://www.figma.com https://uxpilot.ai https://script.google.com https://script.googleusercontent.com",
           "frame-src 'self' https://www.figma.com https://uxpilot.ai",
           "object-src 'none'",
           "base-uri 'self'",

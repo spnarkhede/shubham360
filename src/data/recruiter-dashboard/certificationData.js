@@ -1,6 +1,88 @@
+// University / government-backed programs (shown first)
+export const universityPrograms = [
+  {
+    name: "One Million Prompters",
+    issuer: "Dubai Centre for Artificial Intelligence",
+    platform: "Dubai Future Foundation",
+    date: "29 August 2026",
+    description:
+      "One Million Prompters is an initiative aimed at equipping one million individuals with AI and Prompt Literacy skills over three years. The programme builds a foundation in AI, Generative AI, and Prompt Engineering, with a hands-on approach to prompt creation, AI-powered productivity, and creative AI applications.",
+    quote: {
+      text: "We want to be the most future-ready city and to continue preparing for the AI era by developing expertise and skills that support global technological transformation, placing Dubai at the forefront of innovation.",
+      author: "H.H. Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum"
+    },
+    modules: [
+      {
+        label: "Module 1",
+        title: "Unleashing the Power of AI",
+        subtitle: "Master the basics of AI, Generative AI, and prompt literacy for tomorrow's world",
+        duration: "1 Hour",
+        url: "https://omp.dub.ai/module/unleashing-the-power-of-ai-1"
+      },
+      {
+        label: "Module 2",
+        title: "Commanding Conversations with AI Chatbots",
+        subtitle: "Shape the future of human-AI interaction with advanced prompt engineering",
+        duration: "1 Hour",
+        url: "https://omp.dub.ai/module/commanding-conversations-with-ai-chatbots-2"
+      },
+      {
+        label: "Module 3",
+        title: "AI-Powered Productivity Revolution",
+        subtitle: "Supercharge your workflow with AI tools for every office task",
+        duration: "1 Hour",
+        url: "https://omp.dub.ai/module/ai-powered-productivity-revolution-3"
+      },
+      {
+        label: "Module 4",
+        title: "Creative Frontiers with Generative AI",
+        subtitle: "Transform art, music, and video with cutting-edge AI technology",
+        duration: "1 Hour",
+        url: "https://omp.dub.ai/module/creative-frontiers-with-generative-ai-4"
+      }
+    ],
+    outcomes: [
+      {
+        title: "Future-Proof Your Career",
+        description: "Essential AI knowledge and practical skills that are in high demand across industries."
+      },
+      {
+        title: "Achieve Prompt Literacy Certification",
+        description: "Proficiency in AI tools through prompt literacy, applied immediately in work settings."
+      },
+      {
+        title: "Boost Productivity and Innovation",
+        description: "Leverage AI to streamline tasks and drive creativity across business and creative work."
+      },
+      {
+        title: "Gain Practical Applications Across Industries",
+        description: "Apply AI to domains from data analysis and marketing to art and design."
+      }
+    ],
+    skills: [
+      "Artificial Intelligence",
+      "Generative AI",
+      "Prompt Engineering",
+      "Prompt Literacy",
+      "AI-Powered Productivity",
+      "Creative AI"
+    ],
+    verificationUrl: "https://omp.dub.ai/certificate/bQGCrH3DYS1u"
+  }
+];
+
 // All certifications with platform information
 export const certifications = [
     // All certifications with platform information
+    {
+      name: "One Million Prompters",
+      issuer: "Dubai Centre for Artificial Intelligence",
+      platform: "Dubai Future Foundation",
+      date: "August 29, 2026",
+      description: "One Million Prompters is an initiative aimed at equipping one million individuals with AI and Prompt Literacy skills over three years. The programme builds a foundation in AI, Generative AI, and Prompt Engineering, with a hands-on approach to prompt creation, AI-powered productivity, and creative AI applications.",
+      skills: ["Artificial Intelligence", "Generative AI", "Prompt Engineering", "Prompt Literacy", "AI-Powered Productivity"],
+      verificationUrl: "https://omp.dub.ai/certificate/bQGCrH3DYS1u"
+    },
     {
       name: "Introduction to Project Management",
       issuer: "IBM",

@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import SectionTemplate from '../components/SectionTemplate';
 import ContactForm from '@site/src/components/ContactForm';
+import BookAppointmentButton from '@site/src/components/BookAppointmentButton';
 import styles from './contact.module.css';
 
 export default function Contact() {
@@ -227,6 +228,10 @@ export default function Contact() {
                   Need something specific? These quick actions might help:
                 </p>
                 <div className={styles.quickActionsGrid}>
+                  <BookAppointmentButton
+                    label="Book a Call"
+                    className={styles.quickActionButton}
+                  />
                   <a
                     href="/resume"
                     className={styles.quickActionButton}

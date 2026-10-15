@@ -7,7 +7,7 @@ tags: ['guide','claude','agents','checklist']
 
 > Standards for every agent file in this library. Apply from first draft — retrofitting is expensive.
 
-See [ClaudeAgentCreationTemplate.md](ClaudeAgentCreationTemplate.md) for the full file template and directory structure.
+See [Claude-Agent-Creation-Template.md](Claude-Agent-Creation-Template.md) for the full file template and directory structure.
 
 ---
 

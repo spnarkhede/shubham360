@@ -8,7 +8,7 @@ import { certifications, badges, corporateTrainings } from '../../data/recruiter
 export default function RecruiterDashboardCertifications() {
   const [selectedPlatform, setSelectedPlatform] = useState('All');
   const [selectedIssuer, setSelectedIssuer] = useState('All');
-  const [activeContent, setActiveContent] = useState('certifications'); // 'certifications' or 'badges'
+  const [activeContent, setActiveContent] = useState('certifications'); // 'certifications' | 'badges' | 'corporate'
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [pdfUrl, setPdfUrl] = useState('');
 

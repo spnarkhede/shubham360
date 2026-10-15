@@ -2,31 +2,286 @@
     |-- scheduled_tasks.lock
     |-- settings.local.json
     |-- skills
+        |-- angular-architect
+            |-- references
+                |-- components.md
+                |-- ngrx.md
+                |-- routing.md
+                |-- rxjs.md
+                |-- testing.md
+            |-- SKILL.md
+        |-- api-designer
+            |-- references
+                |-- error-handling.md
+                |-- openapi.md
+                |-- pagination.md
+                |-- rest-patterns.md
+                |-- versioning.md
+            |-- SKILL.md
+        |-- architecture-designer
+            |-- references
+                |-- adr-template.md
+                |-- architecture-patterns.md
+                |-- database-selection.md
+                |-- nfr-checklist.md
+                |-- system-design.md
+            |-- SKILL.md
+        |-- atlassian-mcp
+            |-- references
+                |-- authentication-patterns.md
+                |-- common-workflows.md
+                |-- confluence-operations.md
+                |-- jira-queries.md
+                |-- mcp-server-setup.md
+            |-- SKILL.md
+        |-- chaos-engineer
+            |-- references
+                |-- chaos-tools.md
+                |-- experiment-design.md
+                |-- game-days.md
+                |-- infrastructure-chaos.md
+                |-- kubernetes-chaos.md
+            |-- SKILL.md
+        |-- cli-developer
+            |-- references
+                |-- design-patterns.md
+                |-- go-cli.md
+                |-- node-cli.md
+                |-- python-cli.md
+                |-- ux-patterns.md
+            |-- SKILL.md
+        |-- cloud-architect
+            |-- references
+                |-- aws.md
+                |-- azure.md
+                |-- cost.md
+                |-- gcp.md
+                |-- multi-cloud.md
+            |-- SKILL.md
+        |-- code-documenter
+            |-- references
+                |-- api-docs-fastapi-django.md
+                |-- api-docs-nestjs-express.md
+                |-- coverage-reports.md
+                |-- documentation-systems.md
+                |-- interactive-api-docs.md
+                |-- python-docstrings.md
+                |-- typescript-jsdoc.md
+                |-- user-guides-tutorials.md
+            |-- SKILL.md
+        |-- code-reviewer
+            |-- references
+                |-- common-issues.md
+                |-- feedback-examples.md
+                |-- receiving-feedback.md
+                |-- report-template.md
+                |-- review-checklist.md
+                |-- spec-compliance-review.md
+            |-- SKILL.md
+        |-- cpp-pro
+            |-- references
+                |-- build-tooling.md
+                |-- concurrency.md
+                |-- memory-performance.md
+                |-- modern-cpp.md
+                |-- templates.md
+            |-- SKILL.md
+        |-- csharp-developer
+            |-- references
+                |-- aspnet-core.md
+                |-- blazor.md
+                |-- entity-framework.md
+                |-- modern-csharp.md
+                |-- performance.md
+            |-- SKILL.md
+        |-- database-optimizer
+            |-- references
+                |-- index-strategies.md
+                |-- monitoring-analysis.md
+                |-- mysql-tuning.md
+                |-- postgresql-tuning.md
+                |-- query-optimization.md
+            |-- SKILL.md
+        |-- debugging-wizard
+            |-- references
+                |-- common-patterns.md
+                |-- debugging-tools.md
+                |-- quick-fixes.md
+                |-- strategies.md
+                |-- systematic-debugging.md
+            |-- SKILL.md
+        |-- devops-engineer
+            |-- references
+                |-- deployment-strategies.md
+                |-- docker-patterns.md
+                |-- github-actions.md
+                |-- gitlab-ci.md
+                |-- incident-response.md
+                |-- kubernetes.md
+                |-- platform-engineering.md
+                |-- release-automation.md
+                |-- terraform-iac.md
+            |-- SKILL.md
+        |-- django-expert
+            |-- references
+                |-- authentication.md
+                |-- drf-serializers.md
+                |-- models-orm.md
+                |-- testing-django.md
+                |-- viewsets-views.md
+            |-- SKILL.md
+        |-- django-storages-s3
+            |-- references
+                |-- configuration.md
+                |-- custom-backends.md
+                |-- presigned-urls.md
+                |-- testing-storages.md
+            |-- SKILL.md
+        |-- dotnet-core-expert
+            |-- references
+                |-- authentication.md
+                |-- clean-architecture.md
+                |-- cloud-native.md
+                |-- entity-framework.md
+                |-- minimal-apis.md
+            |-- SKILL.md
+        |-- embedded-systems
+            |-- references
+                |-- communication-protocols.md
+                |-- memory-optimization.md
+                |-- microcontroller-programming.md
+                |-- power-optimization.md
+                |-- rtos-patterns.md
+            |-- SKILL.md
+        |-- fastapi-expert
+            |-- references
+                |-- async-sqlalchemy.md
+                |-- authentication.md
+                |-- endpoints-routing.md
+                |-- migration-from-django.md
+                |-- pydantic-v2.md
+                |-- testing-async.md
+            |-- SKILL.md
+        |-- feature-forge
+            |-- references
+                |-- acceptance-criteria.md
+                |-- ears-syntax.md
+                |-- interview-questions.md
+                |-- pre-discovery-subagents.md
+                |-- specification-template.md
+            |-- SKILL.md
+        |-- fine-tuning-expert
+            |-- references
+                |-- dataset-preparation.md
+                |-- deployment-optimization.md
+                |-- evaluation-metrics.md
+                |-- hyperparameter-tuning.md
+                |-- lora-peft.md
+            |-- SKILL.md
+        |-- flutter-expert
+            |-- references
+                |-- bloc-state.md
+                |-- gorouter-navigation.md
+                |-- performance.md
+                |-- project-structure.md
+                |-- riverpod-state.md
+                |-- widget-patterns.md
+            |-- SKILL.md
+        |-- fullstack-guardian
+            |-- references
+                |-- api-design-standards.md
+                |-- architecture-decisions.md
+                |-- backend-patterns.md
+                |-- common-patterns.md
+                |-- deliverables-checklist.md
+                |-- design-template.md
+                |-- error-handling.md
+                |-- frontend-patterns.md
+                |-- integration-patterns.md
+                |-- security-checklist.md
+            |-- SKILL.md
+        |-- game-developer
+            |-- references
+                |-- ecs-patterns.md
+                |-- multiplayer-networking.md
+                |-- performance-optimization.md
+                |-- unity-patterns.md
+                |-- unreal-cpp.md
+            |-- SKILL.md
+        |-- golang-pro
+            |-- references
+                |-- concurrency.md
+                |-- generics.md
+                |-- interfaces.md
+                |-- project-structure.md
+                |-- testing.md
+            |-- SKILL.md
+        |-- graphql-architect
+            |-- references
+                |-- federation.md
+                |-- migration-from-rest.md
+                |-- resolvers.md
+                |-- schema-design.md
+                |-- security.md
+                |-- subscriptions.md
+            |-- SKILL.md
         |-- gstack
             |-- .env.example
             |-- .gitattributes
             |-- .github
                 |-- actionlint.yaml
+                |-- actions
+                    |-- fix-bun-temp
+                        |-- action.yml
+                    |-- register-gstack-skills
+                        |-- action.yml
+                    |-- restore-deps
+                        |-- action.yml
+                    |-- seed-claude-config
+                        |-- action.yml
+                |-- dependabot.yml
                 |-- docker
                     |-- Dockerfile.ci
+                |-- PULL_REQUEST_TEMPLATE.md
+                |-- scripts
+                    |-- gate-secret-scan.mjs
                 |-- workflows
                     |-- actionlint.yml
                     |-- ci-image.yml
+                    |-- dependency-review.yml
                     |-- evals-periodic.yml
                     |-- evals.yml
+                    |-- free-tests.yml
                     |-- make-pdf-gate.yml
+                    |-- osv-scanner.yml
                     |-- pr-title-sync.yml
+                    |-- quality-gate.yml
                     |-- skill-docs.yml
                     |-- version-gate.yml
                     |-- windows-free-tests.yml
                     |-- windows-setup-e2e.yml
             |-- .gitignore
             |-- .gitlab-ci.yml
+            |-- .osv-scanner.toml
             |-- agents
                 |-- openai.yaml
+            |-- agents-digest
+                |-- gstack-AGENTS.md
             |-- AGENTS.md
             |-- ARCHITECTURE.md
             |-- autoplan
+                |-- sections
+                    |-- ceo-phase.md
+                    |-- ceo-phase.md.tmpl
+                    |-- design-phase.md
+                    |-- design-phase.md.tmpl
+                    |-- dx-phase.md
+                    |-- dx-phase.md.tmpl
+                    |-- eng-phase.md
+                    |-- eng-phase.md.tmpl
+                    |-- manifest.json
+                    |-- tasks-aggregator.md
+                    |-- tasks-aggregator.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- benchmark
@@ -36,32 +291,37 @@
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- bin
-                |-- chrome-cdp
                 |-- dev-setup
                 |-- dev-teardown
                 |-- gstack-analytics
                 |-- gstack-artifacts-init
                 |-- gstack-artifacts-url
                 |-- gstack-brain-cache
-                |-- gstack-brain-consumer
                 |-- gstack-brain-context-load.ts
                 |-- gstack-brain-enqueue
-                |-- gstack-brain-reader
                 |-- gstack-brain-restore
                 |-- gstack-brain-sync
                 |-- gstack-brain-uninstall
                 |-- gstack-builder-profile
+                |-- gstack-code-intelligence
                 |-- gstack-codex-probe
                 |-- gstack-codex-session-import
                 |-- gstack-community-dashboard
                 |-- gstack-config
+                |-- gstack-context-bill
                 |-- gstack-decision-log
                 |-- gstack-decision-search
+                |-- gstack-design-detect.ts
+                |-- gstack-design-md.ts
                 |-- gstack-detach
                 |-- gstack-developer-profile
                 |-- gstack-diff-scope
                 |-- gstack-distill-apply
                 |-- gstack-distill-free-text
+                |-- gstack-egress
+                |-- gstack-egress-lib.sh
+                |-- gstack-egress-receipt
+                |-- gstack-evidence
                 |-- gstack-extension
                 |-- gstack-first-task-detect
                 |-- gstack-gbrain-detect
@@ -77,29 +337,33 @@
                 |-- gstack-ios-qa-daemon
                 |-- gstack-ios-qa-mint
                 |-- gstack-ios-qa-regen
+                |-- gstack-issue-guard
                 |-- gstack-jsonl-merge
                 |-- gstack-learnings-log
                 |-- gstack-learnings-search
+                |-- gstack-memorable
                 |-- gstack-memory-ingest.ts
                 |-- gstack-model-benchmark
                 |-- gstack-next-version
-                |-- gstack-open-url
                 |-- gstack-patch-names
                 |-- gstack-paths
-                |-- gstack-platform-detect
                 |-- gstack-pr-title-rewrite.sh
                 |-- gstack-question-log
                 |-- gstack-question-preference
                 |-- gstack-redact
                 |-- gstack-redact-prepush
                 |-- gstack-relink
+                |-- gstack-render.ts
                 |-- gstack-repo-mode
+                |-- gstack-retro-metrics
                 |-- gstack-review-log
                 |-- gstack-review-read
                 |-- gstack-security-dashboard
                 |-- gstack-session-kind
                 |-- gstack-session-update
                 |-- gstack-settings-hook
+                |-- gstack-skill-end
+                |-- gstack-skill-start
                 |-- gstack-slug
                 |-- gstack-specialist-stats
                 |-- gstack-taste-update
@@ -110,7 +374,9 @@
                 |-- gstack-timeline-read
                 |-- gstack-uninstall
                 |-- gstack-update-check
+                |-- gstack-verify-gate
                 |-- gstack-version-bump
+                |-- gstack-wtree
             |-- browse
                 |-- bin
                     |-- find-browse
@@ -118,6 +384,11 @@
                 |-- PLAN-snapshot-dropdown-interactive.md
                 |-- scripts
                     |-- build-node-server.sh
+                    |-- extension-id.ts
+                |-- sections
+                    |-- command-list.md
+                    |-- command-list.md.tmpl
+                    |-- manifest.json
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
                 |-- src
@@ -155,6 +426,7 @@
                     |-- network-capture.ts
                     |-- path-security.ts
                     |-- platform.ts
+                    |-- port-allocator.ts
                     |-- project-slug.ts
                     |-- proxy-config.ts
                     |-- proxy-redact.ts
@@ -163,13 +435,13 @@
                     |-- read-commands.ts
                     |-- sanitize.ts
                     |-- screenshot-size-guard.ts
-                    |-- security-bunnative.ts
                     |-- security-classifier.ts
                     |-- security-sidecar-client.ts
                     |-- security-sidecar-entry.ts
                     |-- security.ts
                     |-- server.ts
-                    |-- sidebar-utils.ts
+                    |-- session-cookie-store.ts
+                    |-- session-persist.ts
                     |-- skill-token.ts
                     |-- snapshot.ts
                     |-- socks-bridge.ts
@@ -185,6 +457,7 @@
                     |-- url-validation.ts
                     |-- welcome.html
                     |-- write-commands.ts
+                    |-- xprotect-heal.ts
                     |-- xvfb.ts
                 |-- test
                     |-- activity.test.ts
@@ -192,6 +465,7 @@
                     |-- batch.test.ts
                     |-- bridge-chromium-e2e.test.ts
                     |-- browse-client.test.ts
+                    |-- browse-eval-wrapping.test.ts
                     |-- browser-manager-custom-chromium.test.ts
                     |-- browser-manager-unit.test.ts
                     |-- browser-skill-commands.test.ts
@@ -201,13 +475,17 @@
                     |-- build-command-response.test.ts
                     |-- build.test.ts
                     |-- bun-polyfill.test.ts
+                    |-- busy-daemon-iron-rule.test.ts
+                    |-- busy-daemon-recovery.test.ts
                     |-- cdp-allowlist.test.ts
                     |-- cdp-e2e.test.ts
                     |-- cdp-inspector-history-cap.test.ts
                     |-- cdp-mutex.test.ts
                     |-- cdp-session-cleanup.test.ts
                     |-- claude-bin.test.ts
+                    |-- cli-lock.test.ts
                     |-- cli-setsid-daemonize.test.ts
+                    |-- cli-start-final-healthcheck.test.ts
                     |-- cli-supervisor.test.ts
                     |-- commands.test.ts
                     |-- compare-board.test.ts
@@ -215,6 +493,7 @@
                     |-- content-security.test.ts
                     |-- cookie-import-browser.test.ts
                     |-- cookie-picker-routes.test.ts
+                    |-- daemon-log-hygiene.test.ts
                     |-- daemon-mismatch-refuse.test.ts
                     |-- data-platform.test.ts
                     |-- domain-skills-e2e.test.ts
@@ -222,12 +501,16 @@
                     |-- dual-listener.test.ts
                     |-- dx-polish.test.ts
                     |-- error-handling.test.ts
+                    |-- extension-sender-auth.test.ts
+                    |-- extension-token.test.ts
                     |-- file-drop.test.ts
                     |-- file-permissions.test.ts
+                    |-- fill-change-event.test.ts
                     |-- find-browse.test.ts
                     |-- findport.test.ts
                     |-- fixtures
                         |-- basic.html
+                        |-- change-only-validator.html
                         |-- cursor-interactive.html
                         |-- dialog.html
                         |-- dropdown.html
@@ -246,7 +529,7 @@
                         |-- qa-eval-spa.html
                         |-- qa-eval.html
                         |-- responsive.html
-                        |-- security-bench-haiku-responses.json
+                        |-- snapshot-ambiguous.html
                         |-- snapshot.html
                         |-- spa.html
                         |-- states.html
@@ -255,18 +538,26 @@
                     |-- gstack-config.test.ts
                     |-- gstack-update-check.test.ts
                     |-- handoff.test.ts
+                    |-- headless-gpu-and-reap.test.ts
+                    |-- launch-signal-flags.test.ts
                     |-- learnings-injection.test.ts
+                    |-- media-extract-unit.test.ts
                     |-- memory-command.test.ts
                     |-- memory-leak-reproducer.test.ts
                     |-- pair-agent-e2e.test.ts
+                    |-- pair-agent-optin-gate.test.ts
                     |-- pair-agent-tunnel-eval.test.ts
                     |-- path-validation.test.ts
                     |-- pdf-flags.test.ts
                     |-- platform.test.ts
+                    |-- playwright-core-patch.test.ts
+                    |-- poisoned-bundle-probe.test.ts
+                    |-- process-liveness-windows.test.ts
                     |-- proxy-config.test.ts
                     |-- proxy-redact.test.ts
                     |-- pty-inject-scan.test.ts
                     |-- pty-session-lease.test.ts
+                    |-- rebrand-signed-bundle.test.ts
                     |-- regression-pr1169-pdf-from-file-invalid-json.test.ts
                     |-- restart-env.test.ts
                     |-- sanitize.test.ts
@@ -274,33 +565,27 @@
                     |-- security-adversarial-fixes.test.ts
                     |-- security-adversarial.test.ts
                     |-- security-audit-r2.test.ts
-                    |-- security-bench-ensemble-live.test.ts
-                    |-- security-bench-ensemble.test.ts
                     |-- security-bench.test.ts
-                    |-- security-bunnative.test.ts
                     |-- security-classifier-download-cleanup.test.ts
-                    |-- security-classifier-tdz.test.ts
                     |-- security-classifier.test.ts
                     |-- security-integration.test.ts
                     |-- security-live-playwright.test.ts
-                    |-- security-review-flow.test.ts
                     |-- security-sidecar-client.test.ts
-                    |-- security-sidepanel-dom.test.ts
-                    |-- security-source-contracts.test.ts
                     |-- security.test.ts
                     |-- server-auth.test.ts
                     |-- server-embedder-terminal-port.test.ts
                     |-- server-factory.test.ts
                     |-- server-flush-trackers.test.ts
+                    |-- server-lock-errors.test.ts
                     |-- server-no-import-side-effects.test.ts
                     |-- server-proxy-fail-fast.test.ts
                     |-- server-pty-lease-routes.test.ts
                     |-- server-sanitize-surrogates.test.ts
+                    |-- server-security-surface.test.ts
                     |-- server-tmp-state-path.test.ts
-                    |-- sidebar-integration.test.ts
-                    |-- sidebar-security.test.ts
+                    |-- session-cookie-store.test.ts
+                    |-- session-persist.test.ts
                     |-- sidebar-tabs.test.ts
-                    |-- sidebar-unit.test.ts
                     |-- sidebar-ux.test.ts
                     |-- sidepanel-patient-autoconnect.test.ts
                     |-- sidepanel-reattach.test.ts
@@ -314,16 +599,22 @@
                     |-- stealth-extended.test.ts
                     |-- stealth-layer-c.test.ts
                     |-- stealth-webdriver.test.ts
+                    |-- stop-ack-before-shutdown.test.ts
+                    |-- stop-dead-daemon.test.ts
                     |-- tab-each.test.ts
                     |-- tab-guardrail.test.ts
                     |-- tab-isolation.test.ts
                     |-- tab-session-frame-detach.test.ts
+                    |-- telemetry-optout.test.ts
                     |-- telemetry.test.ts
+                    |-- temp-dirs.test.ts
                     |-- terminal-agent-detach-reattach.test.ts
                     |-- terminal-agent-integration.test.ts
                     |-- terminal-agent-internal-handler.test.ts
                     |-- terminal-agent-keepalive.test.ts
+                    |-- terminal-agent-owner-watchdog.test.ts
                     |-- terminal-agent-pid-identity.test.ts
+                    |-- terminal-agent-port-range.test.ts
                     |-- terminal-agent-ring-buffer-runtime.test.ts
                     |-- terminal-agent-session-routing.test.ts
                     |-- terminal-agent-watchdog.test.ts
@@ -331,10 +622,13 @@
                     |-- test-server.ts
                     |-- token-registry.test.ts
                     |-- tunnel-gate-unit.test.ts
+                    |-- tunnel-revoke-cli.test.ts
                     |-- url-validation.test.ts
                     |-- watch.test.ts
                     |-- watchdog.test.ts
                     |-- welcome-page.test.ts
+                    |-- windows-spawn-hide.test.ts
+                    |-- xprotect-heal.test.ts
                     |-- xvfb.test.ts
             |-- browser-skills
                 |-- hackernews-frontpage
@@ -354,6 +648,7 @@
             |-- careful
                 |-- bin
                     |-- check-careful.sh
+                    |-- hook-extract.sh
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- CHANGELOG.md
@@ -361,6 +656,14 @@
                 |-- SKILL.md.tmpl
             |-- CLAUDE.md
             |-- codex
+                |-- sections
+                    |-- challenge-mode.md
+                    |-- challenge-mode.md.tmpl
+                    |-- consult-mode.md
+                    |-- consult-mode.md.tmpl
+                    |-- manifest.json
+                    |-- review-mode.md
+                    |-- review-mode.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- conductor.json
@@ -398,21 +701,26 @@
                     |-- design-to-code.ts
                     |-- diff.ts
                     |-- evolve.ts
+                    |-- flag-utils.ts
                     |-- gallery.ts
                     |-- generate.ts
                     |-- iterate.ts
                     |-- memory.ts
+                    |-- receipted-fetch.ts
                     |-- serve.ts
                     |-- session.ts
                     |-- variants.ts
                 |-- test
                     |-- auth.test.ts
+                    |-- brief.test.ts
                     |-- daemon-discovery.test.ts
                     |-- daemon-tests-fixtures.ts
                     |-- daemon.test.ts
                     |-- feedback-roundtrip-daemon.test.ts
                     |-- feedback-roundtrip.test.ts
                     |-- gallery.test.ts
+                    |-- image-gen-pairing.test.ts
+                    |-- receipted-fetch.test.ts
                     |-- serve.test.ts
                     |-- variants-retry-after.test.ts
             |-- design-consultation
@@ -423,6 +731,14 @@
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- design-html
+                |-- sections
+                    |-- detector-install-offer.md
+                    |-- detector-install-offer.md.tmpl
+                    |-- doctrine.md
+                    |-- doctrine.md.tmpl
+                    |-- manifest.json
+                    |-- pretext-patterns.md
+                    |-- pretext-patterns.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
                 |-- vendor
@@ -431,6 +747,10 @@
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- design-shotgun
+                |-- sections
+                    |-- doctrine.md
+                    |-- doctrine.md.tmpl
+                    |-- manifest.json
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- DESIGN.md
@@ -444,17 +764,28 @@
                 |-- ADDING_A_HOST.md
                 |-- askuserquestion-cjk.md
                 |-- askuserquestion-split.md
+                |-- BROWSER_INTERNALS.md
+                |-- CHANGELOG_STYLE.md
                 |-- designs
                     |-- BROWSER_SKILLS_V1.md
                     |-- BUN_NATIVE_INFERENCE.md
                     |-- CHROME_VS_CHROMIUM_EXPLORATION.md
+                    |-- CODE_INTELLIGENCE_PROVIDER_CONTRACT.md
                     |-- CONDUCTOR_CHROME_SIDEBAR_INTEGRATION.md
                     |-- CONDUCTOR_SESSION_API.md
                     |-- DESIGN_SHOTGUN.md
                     |-- DESIGN_TOOLS_V1.md
                     |-- FIX_1671_PROFILE_MIGRATION.md
+                    |-- fork-port-residual-2026-09
+                        |-- records-other.json
+                        |-- refuters.json
+                        |-- REPORT.md
+                        |-- residual-index-lite.json
+                        |-- SHAS.md
+                        |-- summary.json
                     |-- GCOMPACTION.md
                     |-- GSTACK_BROWSER_V0.md
+                    |-- IMPECCABLE_INTEROP.md
                     |-- ML_PROMPT_INJECTION_KILLER.md
                     |-- PACING_UPDATES_V0.md
                     |-- PLAN_TUNING_V0.md
@@ -479,13 +810,18 @@
                 |-- images
                     |-- github-2013.png
                     |-- github-2026.png
+                |-- memorable-workflow-memory.md
                 |-- ON_THE_LOC_CONTROVERSY.md
                 |-- OPENCLAW.md
+                |-- OPENCLAW_PUBLISHING.md
+                |-- PROJECT_STRUCTURE.md
                 |-- REMOTE_BROWSER_ACCESS.md
                 |-- skills.md
+                |-- SLOP_SCAN.md
                 |-- spikes
                     |-- claude-code-hook-mutation.md
                     |-- codex-session-format.md
+                |-- TESTING_INTERNALS.md
                 |-- tutorial-document-generate.md
             |-- document-generate
                 |-- SKILL.md
@@ -511,6 +847,7 @@
                 |-- manifest.json
                 |-- popup.html
                 |-- popup.js
+                |-- sender-auth.js
                 |-- sidepanel-terminal.js
                 |-- sidepanel.css
                 |-- sidepanel.html
@@ -534,6 +871,9 @@
                     |-- v1.38.1.0.sh
                     |-- v1.40.0.0.sh
                     |-- v1.58.0.0.sh
+                    |-- v1.65.0.0.sh
+                    |-- v1.67.0.0.sh
+                    |-- v1.78.0.0.sh
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- guard
@@ -547,13 +887,20 @@
                     |-- hooks
                         |-- auq-error-fallback-hook
                         |-- auq-error-fallback-hook.ts
+                        |-- memorable-user-prompt-hook
+                        |-- memorable-user-prompt-hook.ts
                         |-- question-log-hook
                         |-- question-log-hook.ts
                         |-- question-preference-hook
                         |-- question-preference-hook.ts
+                        |-- spawn-bin.ts
+                        |-- spawned-directive.ts
+                        |-- timeline-stop-hook
+                        |-- timeline-stop-hook.ts
                 |-- claude.ts
                 |-- codex.ts
                 |-- cursor.ts
+                |-- define-host.ts
                 |-- factory.ts
                 |-- gbrain.ts
                 |-- hermes.ts
@@ -626,6 +973,14 @@
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- land-and-deploy
+                |-- sections
+                    |-- first-run-validation.md
+                    |-- first-run-validation.md.tmpl
+                    |-- manifest.json
+                    |-- merge-and-deploy.md
+                    |-- merge-and-deploy.md.tmpl
+                    |-- readiness-gate.md
+                    |-- readiness-gate.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- landing-report
@@ -635,8 +990,23 @@
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- lib
+                |-- aside-render.ts
                 |-- bin-context.ts
+                |-- claude-bin.ts
+                |-- code-intelligence
+                    |-- contract.ts
+                    |-- gbrain-adapter.ts
+                    |-- graphify-adapter.ts
+                    |-- index.ts
+                    |-- picker.ts
+                    |-- selection.ts
+                    |-- sourcebot-adapter.ts
+                    |-- suggest.ts
                 |-- conductor-env-shim.ts
+                |-- context-bill.ts
+                |-- design-catalog.ts
+                |-- design-detect-contract.ts
+                |-- design-md.ts
                 |-- diagram-render
                     |-- bun.lock
                     |-- package.json
@@ -646,10 +1016,20 @@
                     |-- src
                         |-- entry.ts
                     |-- THIRD-PARTY-LICENSES.md
+                |-- dom-dump-script.ts
+                |-- dom-dump.js
+                |-- egress-receipt.ts
+                |-- error-handling.ts
+                |-- eval-model.ts
+                |-- frontend-scope.ts
+                |-- fs-atomic.ts
+                |-- fs-utils.ts
                 |-- gbrain-exec.ts
                 |-- gbrain-guards.ts
                 |-- gbrain-local-status.ts
+                |-- gbrain-repo-policy-client.ts
                 |-- gbrain-sources.ts
+                |-- gbrain-supabase-provision.ts
                 |-- gstack-decision-semantic.ts
                 |-- gstack-decision.ts
                 |-- gstack-memory-helpers.ts
@@ -659,13 +1039,17 @@
                 |-- redact-engine.ts
                 |-- redact-patterns.ts
                 |-- staging-guard.ts
+                |-- tracker-guard.ts
+                |-- version-source.ts
                 |-- worktree.ts
             |-- LICENSE
+            |-- licenses
+                |-- Apache-2.0.txt
             |-- make-pdf
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
                 |-- src
-                    |-- browseClient.ts
+                    |-- asideClient.ts
                     |-- cli.ts
                     |-- commands.ts
                     |-- diagram-prepass.ts
@@ -679,10 +1063,14 @@
                     |-- smartypants.ts
                     |-- types.ts
                 |-- test
-                    |-- browseClient.test.ts
+                    |-- asideClient.test.ts
+                    |-- cli-args.test.ts
+                    |-- cli-exit-codes.test.ts
                     |-- coverage-gaps.test.ts
                     |-- diagram-prepass.test.ts
                     |-- e2e
+                        |-- browser-available.ts
+                        |-- ci-prereqs.test.ts
                         |-- combined-gate.test.ts
                         |-- diagram-gate.test.ts
                         |-- emoji-gate.test.ts
@@ -701,19 +1089,31 @@
                         |-- landscape-gate.md
                     |-- image-policy.test.ts
                     |-- pdftotext.test.ts
+                    |-- render-offline-sanitize.test.ts
                     |-- render.test.ts
+                    |-- setup-smoke.test.ts
             |-- model-overlays
                 |-- claude.md
+                |-- fable-5.md
                 |-- gemini.md
                 |-- gpt-5.4.md
+                |-- gpt-5.6-sol.md
+                |-- gpt-6-astra.md
                 |-- gpt.md
                 |-- o-series.md
                 |-- opus-4-7.md
+                |-- opus-4-8.md
+                |-- sonnet-5.md
+            |-- NOTICE.md
             |-- office-hours
                 |-- sections
                     |-- design-and-handoff.md
                     |-- design-and-handoff.md.tmpl
                     |-- manifest.json
+                    |-- phase-2a-startup-diagnostic.md
+                    |-- phase-2a-startup-diagnostic.md.tmpl
+                    |-- phase-2b-builder-brainstorm.md
+                    |-- phase-2b-builder-brainstorm.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- open-gstack-browser
@@ -733,10 +1133,16 @@
                         |-- SKILL.md
                     |-- gstack-openclaw-retro
                         |-- SKILL.md
+                |-- templates
+                    |-- gstack-full-CLAUDE.md
+                    |-- gstack-lite-CLAUDE.md
+                    |-- gstack-plan-CLAUDE.md
             |-- package.json
             |-- pair-agent
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
+            |-- patches
+                |-- playwright-core@1.62.1.patch
             |-- plan-ceo-review
                 |-- sections
                     |-- manifest.json
@@ -772,6 +1178,12 @@
             |-- qa
                 |-- references
                     |-- issue-taxonomy.md
+                |-- sections
+                    |-- manifest.json
+                    |-- qa-patterns.md
+                    |-- qa-patterns.md.tmpl
+                    |-- test-bootstrap.md
+                    |-- test-bootstrap.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
                 |-- templates
@@ -781,12 +1193,24 @@
                 |-- SKILL.md.tmpl
             |-- README.md
             |-- retro
+                |-- sections
+                    |-- manifest.json
+                    |-- report-format.md
+                    |-- report-format.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- review
                 |-- checklist.md
                 |-- design-checklist.md
                 |-- greptile-triage.md
+                |-- sections
+                    |-- adversarial.md
+                    |-- adversarial.md.tmpl
+                    |-- manifest.json
+                    |-- plan-completion.md
+                    |-- plan-completion.md.tmpl
+                    |-- review-army.md
+                    |-- review-army.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
                 |-- specialists
@@ -796,6 +1220,7 @@
                     |-- performance.md
                     |-- red-team.md
                     |-- security.md
+                    |-- simplification.md
                     |-- testing.md
                 |-- TODOS-format.md
             |-- scrape
@@ -817,31 +1242,34 @@
                 |-- dev-skill.ts
                 |-- discover-skills.ts
                 |-- eval-compare.ts
+                |-- eval-flake-rank.ts
                 |-- eval-list.ts
                 |-- eval-select.ts
                 |-- eval-summary.ts
                 |-- eval-watch.ts
+                |-- free-test-durations.json
                 |-- garry-output-comparison.ts
+                |-- gen-agents-digest.ts
                 |-- gen-llms-txt.ts
                 |-- gen-skill-docs.ts
                 |-- gstack-schema-pack.ts
-                |-- host-adapters
-                    |-- openclaw-adapter.ts
                 |-- host-config-export.ts
                 |-- host-config.ts
                 |-- jargon-list.json
                 |-- models.ts
                 |-- one-way-doors.ts
                 |-- preflight-agent-sdk.ts
-                |-- proactive-suggestions.json
                 |-- psychographic-signals.ts
                 |-- question-registry.ts
+                |-- resolve-codex-generation-model.ts
                 |-- resolvers
+                    |-- aside.ts
                     |-- browse.ts
-                    |-- codex-helpers.ts
                     |-- composition.ts
                     |-- confidence.ts
                     |-- constants.ts
+                    |-- design-checklist.ts
+                    |-- design-doc-discovery.ts
                     |-- design.ts
                     |-- dx.ts
                     |-- gbrain.ts
@@ -859,20 +1287,13 @@
                         |-- generate-context-health.ts
                         |-- generate-context-recovery.ts
                         |-- generate-continuous-checkpoint.ts
-                        |-- generate-first-run-guidance.ts
-                        |-- generate-lake-intro.ts
+                        |-- generate-evidence-directive.ts
                         |-- generate-preamble-bash.ts
-                        |-- generate-proactive-prompt.ts
                         |-- generate-repo-mode-section.ts
-                        |-- generate-routing-injection.ts
                         |-- generate-search-before-building.ts
-                        |-- generate-spawned-session-check.ts
-                        |-- generate-telemetry-prompt.ts
                         |-- generate-test-failure-triage.ts
                         |-- generate-upgrade-check.ts
-                        |-- generate-vendoring-deprecation.ts
                         |-- generate-voice-directive.ts
-                        |-- generate-writing-style-migration.ts
                         |-- generate-writing-style.ts
                     |-- preamble.ts
                     |-- question-tuning.ts
@@ -882,13 +1303,16 @@
                     |-- sections.ts
                     |-- tasks-section.ts
                     |-- testing.ts
+                    |-- third-party-actions.ts
                     |-- types.ts
                     |-- utility.ts
+                |-- sandbox-doctor.sh
                 |-- setup-scc.sh
                 |-- skill-check.ts
                 |-- slop-diff.ts
-                |-- task-emission-schema.ts
                 |-- test-free-shards.ts
+                |-- test-paid-shards.ts
+                |-- test-strict-output.ts
                 |-- update-readme-throughput.ts
                 |-- write-version-files.sh
             |-- setup
@@ -900,12 +1324,24 @@
                 |-- SKILL.md.tmpl
             |-- setup-gbrain
                 |-- memory.md
+                |-- sections
+                    |-- brain-init.md
+                    |-- brain-init.md.tmpl
+                    |-- claude-md-persist.md
+                    |-- claude-md-persist.md.tmpl
+                    |-- engine-remediation.md
+                    |-- engine-remediation.md.tmpl
+                    |-- manifest.json
+                    |-- transcript-gate.md
+                    |-- transcript-gate.md.tmpl
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- ship
                 |-- sections
                     |-- adversarial.md
                     |-- adversarial.md.tmpl
+                    |-- apple-release.md
+                    |-- apple-release.md.tmpl
                     |-- changelog.md
                     |-- changelog.md.tmpl
                     |-- greptile.md
@@ -930,6 +1366,10 @@
                 |-- SKILL.md.tmpl
             |-- slop-scan.config.json
             |-- spec
+                |-- sections
+                    |-- gate-and-file.md
+                    |-- gate-and-file.md.tmpl
+                    |-- manifest.json
                 |-- SKILL.md
                 |-- SKILL.md.tmpl
             |-- supabase
@@ -952,40 +1392,70 @@
                 |-- SKILL.md.tmpl
             |-- test
                 |-- agent-sdk-runner.test.ts
+                |-- agents-digest.test.ts
                 |-- analytics.test.ts
+                |-- anthropic-preflight.test.ts
+                |-- arm-benchmark-selftest.test.ts
+                |-- artifacts-allowlist-decisions.test.ts
                 |-- artifacts-init-migration.test.ts
+                |-- aside-driver.test.ts
+                |-- aside-render.test.ts
                 |-- audit-compliance.test.ts
                 |-- auq-error-fallback-hook.test.ts
                 |-- auq-format-always-loaded.test.ts
-                |-- basic-ftp-security-pin.test.ts
+                |-- autoplan-phase-order.test.ts
                 |-- benchmark-cli.test.ts
                 |-- benchmark-runner.test.ts
+                |-- bin-context-windows-slug.test.ts
                 |-- bin-windows-bun-import-paths.test.ts
+                |-- binding-template-drift.test.ts
                 |-- brain-cache-roundtrip.test.ts
                 |-- brain-cache-spec.test.ts
                 |-- brain-preflight.test.ts
                 |-- brain-sync-windows-paths.test.ts
                 |-- brain-sync.test.ts
+                |-- branch-slug-hygiene.test.ts
                 |-- build-gbrain-env.test.ts
                 |-- build-script-shell-compat.test.ts
                 |-- builder-profile.test.ts
+                |-- bun-version-drift.test.ts
                 |-- cache-concurrent-refresh.test.ts
                 |-- carve-guard-completeness.test.ts
                 |-- carve-guards-negative.test.ts
                 |-- carve-section-loading.test.ts
                 |-- carve-section-ordering.test.ts
+                |-- catalog-budget.test.ts
                 |-- catalog-mode-full.test.ts
                 |-- catalog-trim.test.ts
+                |-- changed-files-union.test.ts
+                |-- ci-image-cli-pin.test.ts
+                |-- ci-image-tag-binding.test.ts
+                |-- claude-provider-keychain.test.ts
+                |-- code-intelligence-cli.test.ts
+                |-- code-intelligence.test.ts
                 |-- codex-e2e-plan-format.test.ts
                 |-- codex-e2e-recommendation-substance.test.ts
+                |-- codex-e2e-sol-scope.test.ts
                 |-- codex-e2e.test.ts
+                |-- codex-generation-model.test.ts
                 |-- codex-hardening.test.ts
+                |-- codex-model-probe.test.ts
                 |-- codex-resume-flag-semantics.test.ts
+                |-- codex-under-codex-detection.test.ts
+                |-- codex-web-search-flag.test.ts
                 |-- conductor-env-shim.test.ts
+                |-- context-bill.test.ts
+                |-- context-budget-ratchet.test.ts
                 |-- context-save-hardening.test.ts
                 |-- cso-preserved.test.ts
                 |-- cso-spec-taxonomy-alignment.test.ts
                 |-- declared-annotation.test.ts
+                |-- deps-smoke.test.ts
+                |-- design-catalog.test.ts
+                |-- design-checklist-sync.test.ts
+                |-- design-detect-contract.test.ts
+                |-- design-flag-utils.test.ts
+                |-- design-md.test.ts
                 |-- dev-setup-render-isolation.test.ts
                 |-- diagram-render-drift.test.ts
                 |-- diff-scope.test.ts
@@ -994,19 +1464,76 @@
                 |-- distill-free-text.test.ts
                 |-- docs-config-keys.test.ts
                 |-- document-skills-redaction.test.ts
+                |-- dom-dump-hygiene.test.ts
                 |-- e2e-harness-audit.test.ts
+                |-- e2e-tier-alignment.test.ts
+                |-- egress-lib.test.ts
+                |-- egress-receipt-wiring.test.ts
+                |-- egress-receipt.test.ts
+                |-- empty-find-fallthrough.test.ts
+                |-- eval-budgets-policy.test.ts
+                |-- eval-cli-family.test.ts
+                |-- eval-detach-timeout-floor.test.ts
+                |-- eval-flake-rank.test.ts
                 |-- eval-list-cli.test.ts
+                |-- eval-model.test.ts
+                |-- evals-workflow-wiring.test.ts
+                |-- evidence.test.ts
+                |-- exit-propagation.test.ts
                 |-- explain-level-config.test.ts
                 |-- extension-pty-inject-invariant.test.ts
                 |-- fixtures
+                    |-- arm-benchmark
+                        |-- bugfix-decoys
+                            |-- package.json
+                            |-- README.md
+                            |-- run-tests.js
+                            |-- src
+                                |-- config.js
+                                |-- format-price.js
+                        |-- crud-endpoint
+                            |-- app.js
+                            |-- package.json
+                            |-- run-tests.js
+                            |-- server.js
+                        |-- native-overbuild
+                            |-- app.js
+                            |-- index.html
+                            |-- styles.css
+                        |-- reference
+                            |-- bad-diff.patch
+                            |-- good-diff.patch
+                    |-- auq-pre-cut-plan-ceo-review-SKILL.md
+                    |-- context-bill
+                        |-- tree-a
+                            |-- alpha
+                                |-- references
+                                    |-- CORE.md
+                                    |-- OPTIONAL.md
+                                    |-- POLICY.md
+                                |-- SKILL.md
+                            |-- beta
+                                |-- agents.md
+                                |-- SKILL.md
+                    |-- context-budget.json
                     |-- coverage-audit-fixture.ts
+                    |-- design-md-legacy.md
                     |-- eval-baselines.json
+                    |-- exit-propagation
+                        |-- failing.txt
+                        |-- passing.txt
+                        |-- suicide.txt
+                    |-- fake-impeccable.ts
                     |-- forcing-finding-seeds.ts
                     |-- golden
                         |-- claude-ship-SKILL.md
                         |-- codex-ship-SKILL.md
                         |-- factory-ship-SKILL.md
-                    |-- golden-ship-claude.md
+                    |-- impeccable-antipatterns.json
+                    |-- impeccable-captures.meta.json
+                    |-- impeccable-detect-dom-sample.json
+                    |-- impeccable-detect-help.txt
+                    |-- impeccable-detect-sample.json
                     |-- ios-fix
                         |-- ios-qa-swiftui-tap-pre.json
                         |-- ios-qa-swiftui-tap-pre.png
@@ -1041,22 +1568,33 @@
                         |-- brief.md
                     |-- overlay-nudges.ts
                     |-- parity-baseline-v1.44.1.json
-                    |-- parity-baseline-v1.46.0.0.json
                     |-- parity-baseline-v1.47.0.0.json
-                    |-- parity-baseline-v1.53.0.0.json
                     |-- parity-baseline-v1.57.7.0.json
+                    |-- parity-baseline-v1.64.1.0.json
+                    |-- parity-baseline-v1.69.1.0.json
+                    |-- parity-baseline-v1.81.0.0.json
                     |-- plans
                         |-- ui-heavy-feature.md
                     |-- qa-eval-checkout-ground-truth.json
                     |-- qa-eval-ground-truth.json
                     |-- qa-eval-spa-ground-truth.json
+                    |-- review-army-lean-complete.js
                     |-- review-army-migration.sql
                     |-- review-army-n-plus-one.rb
+                    |-- review-army-overbuild.js
                     |-- review-eval-design-slop.css
+                    |-- review-eval-design-slop.dom.html
                     |-- review-eval-design-slop.html
                     |-- review-eval-enum-diff.rb
                     |-- review-eval-enum.rb
                     |-- review-eval-vuln.rb
+                |-- flake-ledger.test.ts
+                |-- founder-resources-optout.test.ts
+                |-- free-tests-workflow-wiring.test.ts
+                |-- frontend-scope.test.ts
+                |-- fs-atomic.test.ts
+                |-- fs-utils.test.ts
+                |-- gate-secret-scan.test.ts
                 |-- gbrain-cycle-completed.test.ts
                 |-- gbrain-detect-install.test.ts
                 |-- gbrain-detect-shape.test.ts
@@ -1070,8 +1608,10 @@
                 |-- gbrain-lib-verify.test.ts
                 |-- gbrain-local-status.test.ts
                 |-- gbrain-refresh-install-render.test.ts
+                |-- gbrain-repo-policy-client.test.ts
                 |-- gbrain-repo-policy.test.ts
                 |-- gbrain-source-gitignore.test.ts
+                |-- gbrain-source-worktree-advance.test.ts
                 |-- gbrain-sources-parse.test.ts
                 |-- gbrain-sources.test.ts
                 |-- gbrain-spawn-windows-shell.test.ts
@@ -1080,24 +1620,36 @@
                 |-- gbrain-sync-voyage-code-3-integration.test.ts
                 |-- gemini-e2e.test.ts
                 |-- gen-skill-docs-idempotency.test.ts
+                |-- gen-skill-docs-import-purity.test.ts
                 |-- gen-skill-docs-out-dir.test.ts
+                |-- gen-skill-docs-prune-stale.test.ts
                 |-- gen-skill-docs.test.ts
+                |-- generated-docs-fences.test.ts
+                |-- git-ref-fixture-tripwire.test.ts
                 |-- global-discover.test.ts
                 |-- gstack-artifacts-init.test.ts
                 |-- gstack-artifacts-url.test.ts
                 |-- gstack-brain-context-load.test.ts
                 |-- gstack-codex-session-import.test.ts
+                |-- gstack-config-cross-project.test.ts
+                |-- gstack-config-defaults.test.ts
+                |-- gstack-config-key-locale.test.ts
+                |-- gstack-config-memorable-key.test.ts
                 |-- gstack-config-redact-keys.test.ts
                 |-- gstack-decision-bins.test.ts
                 |-- gstack-decision-semantic.test.ts
                 |-- gstack-decision.test.ts
+                |-- gstack-design-detect.test.ts
                 |-- gstack-detach.test.ts
                 |-- gstack-developer-profile.test.ts
+                |-- gstack-egress-cli.test.ts
                 |-- gstack-gbrain-detect-mcp-mode.test.ts
                 |-- gstack-gbrain-mcp-verify.test.ts
                 |-- gstack-gbrain-source-wireup.test.ts
                 |-- gstack-gbrain-sync.test.ts
+                |-- gstack-home-module-scope.test.ts
                 |-- gstack-learnings-search.test.ts
+                |-- gstack-memorable.test.ts
                 |-- gstack-memory-helpers.test.ts
                 |-- gstack-memory-ingest.test.ts
                 |-- gstack-next-version.test.ts
@@ -1105,40 +1657,61 @@
                 |-- gstack-question-log.test.ts
                 |-- gstack-question-preference.test.ts
                 |-- gstack-redact-cli.test.ts
+                |-- gstack-render-cli.test.ts
                 |-- gstack-repo-mode.test.ts
+                |-- gstack-retro-metrics.test.ts
                 |-- gstack-schema-pack.test.ts
                 |-- gstack-session-kind.test.ts
                 |-- gstack-settings-hook-schema-aware.test.ts
+                |-- gstack-skill-start.test.ts
+                |-- gstack-slug-cwd-walk-up.test.ts
+                |-- gstack-slug-parity.test.ts
                 |-- gstack-slug-sanitize.test.ts
                 |-- gstack-state-root-override.test.ts
+                |-- gstack-team-init-hook-schema.test.ts
                 |-- gstack-upgrade-migration-v1_17_0_0.test.ts
                 |-- gstack-upgrade-migration-v1_37_0_0.test.ts
                 |-- gstack-upgrade-migration-v1_40_0_0.test.ts
+                |-- gstack-upgrade-migration-v1_78_0_0.test.ts
                 |-- gstack-version-bump.test.ts
                 |-- helpers
                     |-- agent-sdk-runner.ts
+                    |-- anthropic-preflight.ts
+                    |-- arm-benchmark-harness.ts
+                    |-- aside-available.ts
                     |-- auq-sdk-capture.ts
+                    |-- bash-script.ts
                     |-- benchmark-judge.ts
                     |-- benchmark-runner.ts
                     |-- budget-override.test.ts
                     |-- budget-override.ts
+                    |-- capture-context-budget.ts
                     |-- capture-parity-baseline.test.ts
                     |-- capture-parity-baseline.ts
                     |-- carve-guard-checks.ts
                     |-- carve-guards.ts
+                    |-- claude-pty-runner.scope-gate-floor.unit.test.ts
                     |-- claude-pty-runner.ts
                     |-- claude-pty-runner.unit.test.ts
                     |-- codex-session-runner.ts
+                    |-- e2e-gate.ts
+                    |-- e2e-gate.unit.test.ts
                     |-- e2e-helpers.ts
+                    |-- emulate-bun-windows-eexist.ts
+                    |-- eval-budgets.ts
                     |-- eval-store.test.ts
                     |-- eval-store.ts
+                    |-- fake-impeccable.ts
+                    |-- fs-caps.ts
                     |-- gemini-session-runner.test.ts
                     |-- gemini-session-runner.ts
                     |-- hermetic-env.test.ts
                     |-- hermetic-env.ts
                     |-- llm-judge.ts
                     |-- observability.test.ts
+                    |-- paid-test-set.ts
                     |-- parity-harness.ts
+                    |-- periodic-exclude-data.ts
                     |-- pricing.ts
                     |-- providers
                         |-- claude.ts
@@ -1147,19 +1720,36 @@
                         |-- gpt.ts
                         |-- types.ts
                     |-- required-reads.ts
+                    |-- run-bin.test.ts
+                    |-- run-bin.ts
+                    |-- scratch-repo.ts
                     |-- secret-sink-harness.ts
                     |-- session-runner.test.ts
                     |-- session-runner.ts
+                    |-- setup-gbrain-fixture.ts
+                    |-- skill-census.ts
+                    |-- skill-fixture.ts
                     |-- skill-parser.ts
+                    |-- test-selection.ts
+                    |-- third-party-actions.ts
                     |-- tool-map.ts
+                    |-- touchfiles-data.ts
                     |-- touchfiles.ts
                     |-- transcript-section-logger.ts
+                    |-- workflow-excerpt.ts
                 |-- helpers-unit.test.ts
+                |-- heredoc-pipe-deadlock.test.ts
+                |-- hermetic-skills-seeding.test.ts
                 |-- hermetic-wiring.test.ts
                 |-- hook-scripts.test.ts
+                |-- hooks-windows-paths.test.ts
                 |-- host-config.test.ts
+                |-- hostile-path-writers.test.ts
+                |-- impeccable-fixtures.test.ts
                 |-- investigate-freeze-path.test.ts
+                |-- ios-debug-bridge-release-guard.test.ts
                 |-- ios-qa-regen.test.ts
+                |-- ios-qa-stateserver-hardening.test.ts
                 |-- ios-qa-swiftui-tap-regression.test.ts
                 |-- is-conductor.test.ts
                 |-- jargon-list.test.ts
@@ -1168,20 +1758,40 @@
                 |-- land-and-deploy-postfail.test.ts
                 |-- learnings-injection.test.ts
                 |-- learnings.test.ts
+                |-- llm-judge-frontier.test.ts
                 |-- llm-judge-recommendation.test.ts
                 |-- llms-txt-shape.test.ts
+                |-- memorable-user-prompt-hook.test.ts
                 |-- memory-cache-injection.test.ts
+                |-- memory-ingest-include-gitignored.test.ts
                 |-- memory-ingest-no-put_page.test.ts
                 |-- memory-ingest-timeout.test.ts
                 |-- migration-checkpoint-ownership.test.ts
                 |-- migrations-v1.27.0.0.test.ts
+                |-- migrations-v1.65.0.0.test.ts
+                |-- mktemp-portability.test.ts
+                |-- model-overlay-fable-5.test.ts
+                |-- model-overlay-gpt-5.6-sol.test.ts
+                |-- model-overlay-gpt-6-astra.test.ts
                 |-- model-overlay-opus-4-7.test.ts
+                |-- model-overlay-opus-4-8.test.ts
+                |-- model-overlay-sonnet-5.test.ts
+                |-- no-quoted-tilde-assignments.test.ts
                 |-- no-stale-gstack-brain-refs.test.ts
+                |-- no-suicide-exit.test.ts
+                |-- onboarding-moved-literals.test.ts
                 |-- one-way-doors.test.ts
                 |-- openclaw-native-skills.test.ts
+                |-- osv-config-wiring.test.ts
+                |-- paid-orphan-tripwire.test.ts
+                |-- paid-run-manifest.test.ts
+                |-- paid-selection-propagation.test.ts
+                |-- paid-shards.test.ts
+                |-- pair-agent-token-hygiene.test.ts
                 |-- parity-baseline-integrity.test.ts
                 |-- parity-sectioned.test.ts
                 |-- parity-suite.test.ts
+                |-- periodic-exclude-policy.test.ts
                 |-- plan-tune-gates.test.ts
                 |-- plan-tune.test.ts
                 |-- post-rename-doc-regen.test.ts
@@ -1189,51 +1799,94 @@
                 |-- pr-title-sync-workflow-safety.test.ts
                 |-- preamble-compose.test.ts
                 |-- preamble-first-task-scaffold.test.ts
+                |-- provider-model-defaults.test.ts
+                |-- pty-askuserquestion-single-line.test.ts
+                |-- pty-skill-seeding-wiring.test.ts
+                |-- qa-health-rubric.test.ts
                 |-- question-log-hook.test.ts
                 |-- question-preference-hook.test.ts
+                |-- question-tuning-registry-path.test.ts
                 |-- readme-throughput.test.ts
                 |-- redact-audit-log.test.ts
                 |-- redact-doc-resolver.test.ts
+                |-- redact-dotenv-filename-false-positive.test.ts
                 |-- redact-engine-autoredact.test.ts
                 |-- redact-engine.test.ts
+                |-- redact-parcel-id-false-positive.test.ts
                 |-- redact-pattern-lint.test.ts
                 |-- redact-prepush-hook.test.ts
+                |-- redact-prepush-rebase-force-push.test.ts
+                |-- redact-prepush-scan-range.test.ts
                 |-- redact-semantic-pass.eval.ts
                 |-- regression-1539-review-self-verify.test.ts
                 |-- regression-1611-gbrain-sync-resume.test.ts
                 |-- regression-1624-retro-stale-base.test.ts
+                |-- regression-issue2091-bsd-mktemp.test.ts
                 |-- regression-pr1169-build-app-sed.test.ts
                 |-- regression-pr1169-mktemp-fallbacks.test.ts
+                |-- regression-transcript-frontmatter-fence.test.ts
+                |-- regression-transcript-slug-collision.test.ts
                 |-- relink.test.ts
                 |-- required-reads.test.ts
                 |-- resolver-ask-user-format.test.ts
-                |-- resolver-entry.test.ts
                 |-- resolvers-gbrain-put-rewrite.test.ts
                 |-- resolvers-gbrain-save-results.test.ts
                 |-- review-log.test.ts
+                |-- routing-probe.test.ts
+                |-- run-in-background-guidance.test.ts
+                |-- run-shard-child.test.ts
                 |-- salience-allowlist.test.ts
+                |-- sandbox-doctor-shell.test.ts
                 |-- schema-version-migration.test.ts
                 |-- secret-sink-harness.test.ts
                 |-- section-manifest-consistency.test.ts
                 |-- security-dashboard-fallback.test.ts
+                |-- session-runner-groupkill.test.ts
+                |-- session-runner-startup-grace.test.ts
                 |-- session-runner-timeout.test.ts
+                |-- session-update-autostash.test.ts
+                |-- setup-alias-name-uniqueness.test.ts
+                |-- setup-browser-hint.test.ts
+                |-- setup-bun-cmd-and-pipe-bugs.test.ts
+                |-- setup-claude-skill-assets.test.ts
+                |-- setup-cleanup-orphans.test.ts
                 |-- setup-codesign.test.ts
+                |-- setup-codex-model.test.ts
                 |-- setup-conductor-worktree.test.ts
                 |-- setup-emoji-font.test.ts
+                |-- setup-gbrain-bin-invocation-paths.test.ts
                 |-- setup-gbrain-path4-structure.test.ts
+                |-- setup-help.test.ts
+                |-- setup-hook-canonical-paths.test.ts
+                |-- setup-link-ownership.test.ts
+                |-- setup-needs-build.test.ts
                 |-- setup-plan-tune-hooks-noninteractive.test.ts
+                |-- setup-playwright-best-effort.test.ts
+                |-- setup-prune-stale-generated.test.ts
+                |-- setup-runtime-lib-command.test.ts
                 |-- setup-sections-linking.test.ts
+                |-- setup-timeline-hook-gate.test.ts
                 |-- setup-windows-fallback.test.ts
+                |-- setup-windows-rerun-refresh.test.ts
+                |-- ship-apple-gate.test.ts
+                |-- ship-document-release-dispatch.test.ts
                 |-- ship-plan-completion-invariants.test.ts
+                |-- ship-review-loop.test.ts
                 |-- ship-template-redaction.test.ts
+                |-- ship-test-detection-markers.test.ts
                 |-- ship-version-sync.test.ts
+                |-- shortcut-debt-ledger.test.ts
+                |-- skill-browse-state-extraction.test.ts
                 |-- skill-budget-regression.test.ts
+                |-- skill-census.test.ts
                 |-- skill-ceo-section-ordering.test.ts
                 |-- skill-collision-sentinel.test.ts
                 |-- skill-coverage-floor.test.ts
                 |-- skill-coverage-matrix.test.ts
                 |-- skill-coverage-matrix.ts
                 |-- skill-cross-model-recommendation-emit.test.ts
+                |-- skill-e2e-arm-benchmark.test.ts
+                |-- skill-e2e-aside.test.ts
                 |-- skill-e2e-ask-user-question-format-compliance.test.ts
                 |-- skill-e2e-auq-consistency.test.ts
                 |-- skill-e2e-auq-matrix.test.ts
@@ -1246,10 +1899,12 @@
                 |-- skill-e2e-bws.test.ts
                 |-- skill-e2e-conductor-prose.test.ts
                 |-- skill-e2e-context-skills.test.ts
+                |-- skill-e2e-coverage-audit.test.ts
                 |-- skill-e2e-cso.test.ts
                 |-- skill-e2e-deploy.test.ts
                 |-- skill-e2e-design.test.ts
                 |-- skill-e2e-diagram.test.ts
+                |-- skill-e2e-docsync-spawned.test.ts
                 |-- skill-e2e-first-task-scaffold.test.ts
                 |-- skill-e2e-gbrain-roundtrip-local.test.ts
                 |-- skill-e2e-hermetic-canary.test.ts
@@ -1289,19 +1944,23 @@
                 |-- skill-e2e-plan.test.ts
                 |-- skill-e2e-qa-bugs.test.ts
                 |-- skill-e2e-qa-workflow.test.ts
+                |-- skill-e2e-retro.test.ts
                 |-- skill-e2e-review-army.test.ts
+                |-- skill-e2e-review-attribution.test.ts
                 |-- skill-e2e-review.test.ts
                 |-- skill-e2e-session-intelligence.test.ts
                 |-- skill-e2e-setup-gbrain-bad-token.test.ts
                 |-- skill-e2e-setup-gbrain-path4-local-pglite.test.ts
                 |-- skill-e2e-setup-gbrain-remote.test.ts
+                |-- skill-e2e-ship-docsync.test.ts
                 |-- skill-e2e-ship-idempotency.test.ts
                 |-- skill-e2e-ship-section-loading.test.ts
-                |-- skill-e2e-sidebar.test.ts
                 |-- skill-e2e-skillify.test.ts
                 |-- skill-e2e-spec-execute.test.ts
+                |-- skill-e2e-third-party-actions.test.ts
+                |-- skill-e2e-triage.test.ts
                 |-- skill-e2e-workflow.test.ts
-                |-- skill-e2e.test.ts
+                |-- skill-fixture.test.ts
                 |-- skill-llm-eval-spec.test.ts
                 |-- skill-llm-eval.test.ts
                 |-- skill-parser.test.ts
@@ -1309,24 +1968,44 @@
                 |-- skill-routing-e2e.test.ts
                 |-- skill-size-budget.test.ts
                 |-- skill-validation.test.ts
+                |-- slop-diff-cli.test.ts
+                |-- spawnsync-timeout-tripwire.test.ts
                 |-- spec-template-invariants.test.ts
                 |-- spec-template-sync.test.ts
                 |-- static-no-legacy-writes.test.ts
+                |-- strict-output.test.ts
                 |-- takes-fence-fallback.test.ts
+                |-- tasks-section-jq.test.ts
                 |-- taste-engine.test.ts
                 |-- team-mode.test.ts
                 |-- telemetry-repo-strip.test.ts
                 |-- telemetry.test.ts
                 |-- template-context-parity.test.ts
                 |-- terse-build.test.ts
+                |-- test-free-shards-sandbox-knobs.test.ts
                 |-- test-free-shards.test.ts
+                |-- third-party-actions.test.ts
+                |-- timeline-stop-hook.test.ts
                 |-- timeline.test.ts
+                |-- touchfiles-facade.test.ts
+                |-- touchfiles-map-diff.test.ts
                 |-- touchfiles.test.ts
+                |-- tracker-guard-wiring.test.ts
+                |-- tracker-guard.test.ts
                 |-- transcript-section-logger.test.ts
+                |-- uninstall-windows-copies.test.ts
                 |-- uninstall.test.ts
+                |-- update-check-crash-sentinel.test.ts
                 |-- upgrade-migration-v1.test.ts
+                |-- upgrade-setup-recovery.test.ts
+                |-- upgrade-template-pins.test.ts
+                |-- user-render-out-dir-install.test.ts
                 |-- user-slug-fallback.test.ts
                 |-- v0-dormancy.test.ts
+                |-- verify-gate.test.ts
+                |-- version-source.test.ts
+                |-- workflow-concurrency.test.ts
+                |-- workflow-excerpt.test.ts
                 |-- worktree.test.ts
                 |-- writing-style-resolver.test.ts
             |-- test-setup.ts
@@ -1336,6 +2015,929 @@
                 |-- SKILL.md.tmpl
             |-- USING_GBRAIN_WITH_GSTACK.md
             |-- VERSION
+        |-- java-architect
+            |-- references
+                |-- jpa-optimization.md
+                |-- reactive-webflux.md
+                |-- spring-boot-setup.md
+                |-- spring-security.md
+                |-- testing-patterns.md
+            |-- SKILL.md
+        |-- javascript-pro
+            |-- references
+                |-- async-patterns.md
+                |-- browser-apis.md
+                |-- modern-syntax.md
+                |-- modules.md
+                |-- node-essentials.md
+            |-- SKILL.md
+        |-- kotlin-specialist
+            |-- references
+                |-- android-compose.md
+                |-- coroutines-flow.md
+                |-- dsl-idioms.md
+                |-- ktor-server.md
+                |-- multiplatform-kmp.md
+            |-- SKILL.md
+        |-- kubernetes-specialist
+            |-- references
+                |-- configuration.md
+                |-- cost-optimization.md
+                |-- custom-operators.md
+                |-- gitops.md
+                |-- helm-charts.md
+                |-- multi-cluster.md
+                |-- networking.md
+                |-- service-mesh.md
+                |-- storage.md
+                |-- troubleshooting.md
+                |-- workloads.md
+            |-- SKILL.md
+        |-- laravel-specialist
+            |-- references
+                |-- eloquent.md
+                |-- livewire.md
+                |-- queues.md
+                |-- routing.md
+                |-- testing.md
+            |-- SKILL.md
+        |-- legacy-modernizer
+            |-- references
+                |-- legacy-testing.md
+                |-- migration-strategies.md
+                |-- refactoring-patterns.md
+                |-- strangler-fig-pattern.md
+                |-- system-assessment.md
+            |-- SKILL.md
+        |-- mcp-developer
+            |-- references
+                |-- protocol.md
+                |-- python-sdk.md
+                |-- resources.md
+                |-- tools.md
+                |-- typescript-sdk.md
+            |-- SKILL.md
+        |-- microservices-architect
+            |-- references
+                |-- communication.md
+                |-- data.md
+                |-- decomposition.md
+                |-- observability.md
+                |-- patterns.md
+            |-- SKILL.md
+        |-- ml-pipeline
+            |-- references
+                |-- experiment-tracking.md
+                |-- feature-engineering.md
+                |-- model-validation.md
+                |-- pipeline-orchestration.md
+                |-- training-pipelines.md
+            |-- SKILL.md
+        |-- monitoring-expert
+            |-- references
+                |-- alerting-rules.md
+                |-- application-profiling.md
+                |-- capacity-planning.md
+                |-- dashboards.md
+                |-- opentelemetry.md
+                |-- performance-testing.md
+                |-- prometheus-metrics.md
+                |-- structured-logging.md
+            |-- SKILL.md
+        |-- nestjs-expert
+            |-- references
+                |-- authentication.md
+                |-- controllers-routing.md
+                |-- dtos-validation.md
+                |-- migration-from-express.md
+                |-- services-di.md
+                |-- testing-patterns.md
+            |-- SKILL.md
+        |-- nextjs-developer
+            |-- references
+                |-- app-router.md
+                |-- data-fetching.md
+                |-- deployment.md
+                |-- server-actions.md
+                |-- server-components.md
+            |-- SKILL.md
+        |-- pandas-pro
+            |-- references
+                |-- aggregation-groupby.md
+                |-- data-cleaning.md
+                |-- dataframe-operations.md
+                |-- merging-joining.md
+                |-- performance-optimization.md
+            |-- SKILL.md
+        |-- php-pro
+            |-- references
+                |-- async-patterns.md
+                |-- laravel-patterns.md
+                |-- modern-php-features.md
+                |-- symfony-patterns.md
+                |-- testing-quality.md
+            |-- SKILL.md
+        |-- playwright-expert
+            |-- references
+                |-- api-mocking.md
+                |-- configuration.md
+                |-- debugging-flaky.md
+                |-- page-object-model.md
+                |-- selectors-locators.md
+            |-- SKILL.md
+        |-- postgres-pro
+            |-- references
+                |-- extensions.md
+                |-- jsonb.md
+                |-- maintenance.md
+                |-- performance.md
+                |-- replication.md
+            |-- SKILL.md
+        |-- prompt-engineer
+            |-- references
+                |-- context-management.md
+                |-- evaluation-frameworks.md
+                |-- prompt-optimization.md
+                |-- prompt-patterns.md
+                |-- structured-outputs.md
+                |-- system-prompts.md
+            |-- SKILL.md
+        |-- python-pro
+            |-- references
+                |-- async-patterns.md
+                |-- packaging.md
+                |-- standard-library.md
+                |-- testing.md
+                |-- type-system.md
+            |-- SKILL.md
+        |-- rag-architect
+            |-- references
+                |-- chunking-strategies.md
+                |-- embedding-models.md
+                |-- rag-evaluation.md
+                |-- retrieval-optimization.md
+                |-- vector-databases.md
+            |-- SKILL.md
+        |-- rails-expert
+            |-- references
+                |-- active-record.md
+                |-- api-development.md
+                |-- background-jobs.md
+                |-- hotwire-turbo.md
+                |-- rspec-testing.md
+            |-- SKILL.md
+        |-- react-expert
+            |-- references
+                |-- hooks-patterns.md
+                |-- migration-class-to-modern.md
+                |-- performance.md
+                |-- react-19-features.md
+                |-- server-components.md
+                |-- state-management.md
+                |-- testing-react.md
+            |-- SKILL.md
+        |-- react-native-expert
+            |-- references
+                |-- expo-router.md
+                |-- list-optimization.md
+                |-- platform-handling.md
+                |-- project-structure.md
+                |-- storage-hooks.md
+            |-- SKILL.md
+        |-- rust-engineer
+            |-- references
+                |-- async.md
+                |-- error-handling.md
+                |-- ownership.md
+                |-- testing.md
+                |-- traits.md
+            |-- SKILL.md
+        |-- salesforce-developer
+            |-- references
+                |-- apex-development.md
+                |-- deployment-devops.md
+                |-- integration-patterns.md
+                |-- lightning-web-components.md
+                |-- soql-sosl.md
+            |-- SKILL.md
+        |-- secure-code-guardian
+            |-- references
+                |-- authentication.md
+                |-- input-validation.md
+                |-- owasp-prevention.md
+                |-- security-headers.md
+                |-- xss-csrf.md
+            |-- SKILL.md
+        |-- security-reviewer
+            |-- references
+                |-- infrastructure-security.md
+                |-- penetration-testing.md
+                |-- report-template.md
+                |-- sast-tools.md
+                |-- secret-scanning.md
+                |-- vulnerability-patterns.md
+            |-- SKILL.md
+        |-- shopify-expert
+            |-- references
+                |-- app-development.md
+                |-- checkout-customization.md
+                |-- liquid-templating.md
+                |-- performance-optimization.md
+                |-- storefront-api.md
+            |-- SKILL.md
+        |-- spark-engineer
+            |-- references
+                |-- partitioning-caching.md
+                |-- performance-tuning.md
+                |-- rdd-operations.md
+                |-- spark-sql-dataframes.md
+                |-- streaming-patterns.md
+            |-- SKILL.md
+        |-- spec-miner
+            |-- references
+                |-- analysis-checklist.md
+                |-- analysis-process.md
+                |-- ears-format.md
+                |-- specification-template.md
+            |-- SKILL.md
+        |-- spring-boot-engineer
+            |-- references
+                |-- cloud.md
+                |-- data.md
+                |-- security.md
+                |-- testing.md
+                |-- web.md
+            |-- SKILL.md
+        |-- sql-pro
+            |-- references
+                |-- database-design.md
+                |-- dialect-differences.md
+                |-- optimization.md
+                |-- query-patterns.md
+                |-- window-functions.md
+            |-- SKILL.md
+        |-- sre-engineer
+            |-- references
+                |-- automation-toil.md
+                |-- error-budget-policy.md
+                |-- incident-chaos.md
+                |-- monitoring-alerting.md
+                |-- slo-sli-management.md
+            |-- SKILL.md
+        |-- swift-expert
+            |-- references
+                |-- async-concurrency.md
+                |-- memory-performance.md
+                |-- protocol-oriented.md
+                |-- swiftui-patterns.md
+                |-- testing-patterns.md
+            |-- SKILL.md
+        |-- terraform-engineer
+            |-- references
+                |-- best-practices.md
+                |-- module-patterns.md
+                |-- providers.md
+                |-- state-management.md
+                |-- testing.md
+            |-- SKILL.md
+        |-- test-master
+            |-- references
+                |-- automation-frameworks.md
+                |-- e2e-testing.md
+                |-- integration-testing.md
+                |-- performance-testing.md
+                |-- qa-methodology.md
+                |-- security-testing.md
+                |-- tdd-iron-laws.md
+                |-- test-reports.md
+                |-- testing-anti-patterns.md
+                |-- unit-testing.md
+            |-- SKILL.md
+        |-- the-fool
+            |-- references
+                |-- dialectic-synthesis.md
+                |-- evidence-audit.md
+                |-- mode-selection-guide.md
+                |-- pre-mortem-analysis.md
+                |-- red-team-adversarial.md
+                |-- socratic-questioning.md
+            |-- SKILL.md
+        |-- typescript-pro
+            |-- references
+                |-- advanced-types.md
+                |-- configuration.md
+                |-- patterns.md
+                |-- type-guards.md
+                |-- utility-types.md
+            |-- SKILL.md
+        |-- vue-expert
+            |-- references
+                |-- build-tooling.md
+                |-- components.md
+                |-- composition-api.md
+                |-- mobile-hybrid.md
+                |-- nuxt.md
+                |-- state-management.md
+                |-- typescript.md
+            |-- SKILL.md
+        |-- vue-expert-js
+            |-- references
+                |-- component-architecture.md
+                |-- composables-patterns.md
+                |-- jsdoc-typing.md
+                |-- state-management.md
+                |-- testing-patterns.md
+            |-- SKILL.md
+        |-- websocket-engineer
+            |-- references
+                |-- alternatives.md
+                |-- patterns.md
+                |-- protocol.md
+                |-- scaling.md
+                |-- security.md
+            |-- SKILL.md
+        |-- wordpress-pro
+            |-- references
+                |-- gutenberg-blocks.md
+                |-- hooks-filters.md
+                |-- performance-security.md
+                |-- plugin-architecture.md
+                |-- theme-development.md
+            |-- SKILL.md
+|-- .cursor
+    |-- skills
+        |-- angular-architect
+            |-- references
+                |-- components.md
+                |-- ngrx.md
+                |-- routing.md
+                |-- rxjs.md
+                |-- testing.md
+            |-- SKILL.md
+        |-- api-designer
+            |-- references
+                |-- error-handling.md
+                |-- openapi.md
+                |-- pagination.md
+                |-- rest-patterns.md
+                |-- versioning.md
+            |-- SKILL.md
+        |-- architecture-designer
+            |-- references
+                |-- adr-template.md
+                |-- architecture-patterns.md
+                |-- database-selection.md
+                |-- nfr-checklist.md
+                |-- system-design.md
+            |-- SKILL.md
+        |-- atlassian-mcp
+            |-- references
+                |-- authentication-patterns.md
+                |-- common-workflows.md
+                |-- confluence-operations.md
+                |-- jira-queries.md
+                |-- mcp-server-setup.md
+            |-- SKILL.md
+        |-- chaos-engineer
+            |-- references
+                |-- chaos-tools.md
+                |-- experiment-design.md
+                |-- game-days.md
+                |-- infrastructure-chaos.md
+                |-- kubernetes-chaos.md
+            |-- SKILL.md
+        |-- cli-developer
+            |-- references
+                |-- design-patterns.md
+                |-- go-cli.md
+                |-- node-cli.md
+                |-- python-cli.md
+                |-- ux-patterns.md
+            |-- SKILL.md
+        |-- cloud-architect
+            |-- references
+                |-- aws.md
+                |-- azure.md
+                |-- cost.md
+                |-- gcp.md
+                |-- multi-cloud.md
+            |-- SKILL.md
+        |-- code-documenter
+            |-- references
+                |-- api-docs-fastapi-django.md
+                |-- api-docs-nestjs-express.md
+                |-- coverage-reports.md
+                |-- documentation-systems.md
+                |-- interactive-api-docs.md
+                |-- python-docstrings.md
+                |-- typescript-jsdoc.md
+                |-- user-guides-tutorials.md
+            |-- SKILL.md
+        |-- code-reviewer
+            |-- references
+                |-- common-issues.md
+                |-- feedback-examples.md
+                |-- receiving-feedback.md
+                |-- report-template.md
+                |-- review-checklist.md
+                |-- spec-compliance-review.md
+            |-- SKILL.md
+        |-- cpp-pro
+            |-- references
+                |-- build-tooling.md
+                |-- concurrency.md
+                |-- memory-performance.md
+                |-- modern-cpp.md
+                |-- templates.md
+            |-- SKILL.md
+        |-- csharp-developer
+            |-- references
+                |-- aspnet-core.md
+                |-- blazor.md
+                |-- entity-framework.md
+                |-- modern-csharp.md
+                |-- performance.md
+            |-- SKILL.md
+        |-- database-optimizer
+            |-- references
+                |-- index-strategies.md
+                |-- monitoring-analysis.md
+                |-- mysql-tuning.md
+                |-- postgresql-tuning.md
+                |-- query-optimization.md
+            |-- SKILL.md
+        |-- debugging-wizard
+            |-- references
+                |-- common-patterns.md
+                |-- debugging-tools.md
+                |-- quick-fixes.md
+                |-- strategies.md
+                |-- systematic-debugging.md
+            |-- SKILL.md
+        |-- devops-engineer
+            |-- references
+                |-- deployment-strategies.md
+                |-- docker-patterns.md
+                |-- github-actions.md
+                |-- gitlab-ci.md
+                |-- incident-response.md
+                |-- kubernetes.md
+                |-- platform-engineering.md
+                |-- release-automation.md
+                |-- terraform-iac.md
+            |-- SKILL.md
+        |-- django-expert
+            |-- references
+                |-- authentication.md
+                |-- drf-serializers.md
+                |-- models-orm.md
+                |-- testing-django.md
+                |-- viewsets-views.md
+            |-- SKILL.md
+        |-- django-storages-s3
+            |-- references
+                |-- configuration.md
+                |-- custom-backends.md
+                |-- presigned-urls.md
+                |-- testing-storages.md
+            |-- SKILL.md
+        |-- dotnet-core-expert
+            |-- references
+                |-- authentication.md
+                |-- clean-architecture.md
+                |-- cloud-native.md
+                |-- entity-framework.md
+                |-- minimal-apis.md
+            |-- SKILL.md
+        |-- embedded-systems
+            |-- references
+                |-- communication-protocols.md
+                |-- memory-optimization.md
+                |-- microcontroller-programming.md
+                |-- power-optimization.md
+                |-- rtos-patterns.md
+            |-- SKILL.md
+        |-- fastapi-expert
+            |-- references
+                |-- async-sqlalchemy.md
+                |-- authentication.md
+                |-- endpoints-routing.md
+                |-- migration-from-django.md
+                |-- pydantic-v2.md
+                |-- testing-async.md
+            |-- SKILL.md
+        |-- feature-forge
+            |-- references
+                |-- acceptance-criteria.md
+                |-- ears-syntax.md
+                |-- interview-questions.md
+                |-- pre-discovery-subagents.md
+                |-- specification-template.md
+            |-- SKILL.md
+        |-- fine-tuning-expert
+            |-- references
+                |-- dataset-preparation.md
+                |-- deployment-optimization.md
+                |-- evaluation-metrics.md
+                |-- hyperparameter-tuning.md
+                |-- lora-peft.md
+            |-- SKILL.md
+        |-- flutter-expert
+            |-- references
+                |-- bloc-state.md
+                |-- gorouter-navigation.md
+                |-- performance.md
+                |-- project-structure.md
+                |-- riverpod-state.md
+                |-- widget-patterns.md
+            |-- SKILL.md
+        |-- fullstack-guardian
+            |-- references
+                |-- api-design-standards.md
+                |-- architecture-decisions.md
+                |-- backend-patterns.md
+                |-- common-patterns.md
+                |-- deliverables-checklist.md
+                |-- design-template.md
+                |-- error-handling.md
+                |-- frontend-patterns.md
+                |-- integration-patterns.md
+                |-- security-checklist.md
+            |-- SKILL.md
+        |-- game-developer
+            |-- references
+                |-- ecs-patterns.md
+                |-- multiplayer-networking.md
+                |-- performance-optimization.md
+                |-- unity-patterns.md
+                |-- unreal-cpp.md
+            |-- SKILL.md
+        |-- golang-pro
+            |-- references
+                |-- concurrency.md
+                |-- generics.md
+                |-- interfaces.md
+                |-- project-structure.md
+                |-- testing.md
+            |-- SKILL.md
+        |-- graphql-architect
+            |-- references
+                |-- federation.md
+                |-- migration-from-rest.md
+                |-- resolvers.md
+                |-- schema-design.md
+                |-- security.md
+                |-- subscriptions.md
+            |-- SKILL.md
+        |-- java-architect
+            |-- references
+                |-- jpa-optimization.md
+                |-- reactive-webflux.md
+                |-- spring-boot-setup.md
+                |-- spring-security.md
+                |-- testing-patterns.md
+            |-- SKILL.md
+        |-- javascript-pro
+            |-- references
+                |-- async-patterns.md
+                |-- browser-apis.md
+                |-- modern-syntax.md
+                |-- modules.md
+                |-- node-essentials.md
+            |-- SKILL.md
+        |-- kotlin-specialist
+            |-- references
+                |-- android-compose.md
+                |-- coroutines-flow.md
+                |-- dsl-idioms.md
+                |-- ktor-server.md
+                |-- multiplatform-kmp.md
+            |-- SKILL.md
+        |-- kubernetes-specialist
+            |-- references
+                |-- configuration.md
+                |-- cost-optimization.md
+                |-- custom-operators.md
+                |-- gitops.md
+                |-- helm-charts.md
+                |-- multi-cluster.md
+                |-- networking.md
+                |-- service-mesh.md
+                |-- storage.md
+                |-- troubleshooting.md
+                |-- workloads.md
+            |-- SKILL.md
+        |-- laravel-specialist
+            |-- references
+                |-- eloquent.md
+                |-- livewire.md
+                |-- queues.md
+                |-- routing.md
+                |-- testing.md
+            |-- SKILL.md
+        |-- legacy-modernizer
+            |-- references
+                |-- legacy-testing.md
+                |-- migration-strategies.md
+                |-- refactoring-patterns.md
+                |-- strangler-fig-pattern.md
+                |-- system-assessment.md
+            |-- SKILL.md
+        |-- mcp-developer
+            |-- references
+                |-- protocol.md
+                |-- python-sdk.md
+                |-- resources.md
+                |-- tools.md
+                |-- typescript-sdk.md
+            |-- SKILL.md
+        |-- microservices-architect
+            |-- references
+                |-- communication.md
+                |-- data.md
+                |-- decomposition.md
+                |-- observability.md
+                |-- patterns.md
+            |-- SKILL.md
+        |-- ml-pipeline
+            |-- references
+                |-- experiment-tracking.md
+                |-- feature-engineering.md
+                |-- model-validation.md
+                |-- pipeline-orchestration.md
+                |-- training-pipelines.md
+            |-- SKILL.md
+        |-- monitoring-expert
+            |-- references
+                |-- alerting-rules.md
+                |-- application-profiling.md
+                |-- capacity-planning.md
+                |-- dashboards.md
+                |-- opentelemetry.md
+                |-- performance-testing.md
+                |-- prometheus-metrics.md
+                |-- structured-logging.md
+            |-- SKILL.md
+        |-- nestjs-expert
+            |-- references
+                |-- authentication.md
+                |-- controllers-routing.md
+                |-- dtos-validation.md
+                |-- migration-from-express.md
+                |-- services-di.md
+                |-- testing-patterns.md
+            |-- SKILL.md
+        |-- nextjs-developer
+            |-- references
+                |-- app-router.md
+                |-- data-fetching.md
+                |-- deployment.md
+                |-- server-actions.md
+                |-- server-components.md
+            |-- SKILL.md
+        |-- pandas-pro
+            |-- references
+                |-- aggregation-groupby.md
+                |-- data-cleaning.md
+                |-- dataframe-operations.md
+                |-- merging-joining.md
+                |-- performance-optimization.md
+            |-- SKILL.md
+        |-- php-pro
+            |-- references
+                |-- async-patterns.md
+                |-- laravel-patterns.md
+                |-- modern-php-features.md
+                |-- symfony-patterns.md
+                |-- testing-quality.md
+            |-- SKILL.md
+        |-- playwright-expert
+            |-- references
+                |-- api-mocking.md
+                |-- configuration.md
+                |-- debugging-flaky.md
+                |-- page-object-model.md
+                |-- selectors-locators.md
+            |-- SKILL.md
+        |-- postgres-pro
+            |-- references
+                |-- extensions.md
+                |-- jsonb.md
+                |-- maintenance.md
+                |-- performance.md
+                |-- replication.md
+            |-- SKILL.md
+        |-- prompt-engineer
+            |-- references
+                |-- context-management.md
+                |-- evaluation-frameworks.md
+                |-- prompt-optimization.md
+                |-- prompt-patterns.md
+                |-- structured-outputs.md
+                |-- system-prompts.md
+            |-- SKILL.md
+        |-- python-pro
+            |-- references
+                |-- async-patterns.md
+                |-- packaging.md
+                |-- standard-library.md
+                |-- testing.md
+                |-- type-system.md
+            |-- SKILL.md
+        |-- rag-architect
+            |-- references
+                |-- chunking-strategies.md
+                |-- embedding-models.md
+                |-- rag-evaluation.md
+                |-- retrieval-optimization.md
+                |-- vector-databases.md
+            |-- SKILL.md
+        |-- rails-expert
+            |-- references
+                |-- active-record.md
+                |-- api-development.md
+                |-- background-jobs.md
+                |-- hotwire-turbo.md
+                |-- rspec-testing.md
+            |-- SKILL.md
+        |-- react-expert
+            |-- references
+                |-- hooks-patterns.md
+                |-- migration-class-to-modern.md
+                |-- performance.md
+                |-- react-19-features.md
+                |-- server-components.md
+                |-- state-management.md
+                |-- testing-react.md
+            |-- SKILL.md
+        |-- react-native-expert
+            |-- references
+                |-- expo-router.md
+                |-- list-optimization.md
+                |-- platform-handling.md
+                |-- project-structure.md
+                |-- storage-hooks.md
+            |-- SKILL.md
+        |-- rust-engineer
+            |-- references
+                |-- async.md
+                |-- error-handling.md
+                |-- ownership.md
+                |-- testing.md
+                |-- traits.md
+            |-- SKILL.md
+        |-- salesforce-developer
+            |-- references
+                |-- apex-development.md
+                |-- deployment-devops.md
+                |-- integration-patterns.md
+                |-- lightning-web-components.md
+                |-- soql-sosl.md
+            |-- SKILL.md
+        |-- secure-code-guardian
+            |-- references
+                |-- authentication.md
+                |-- input-validation.md
+                |-- owasp-prevention.md
+                |-- security-headers.md
+                |-- xss-csrf.md
+            |-- SKILL.md
+        |-- security-reviewer
+            |-- references
+                |-- infrastructure-security.md
+                |-- penetration-testing.md
+                |-- report-template.md
+                |-- sast-tools.md
+                |-- secret-scanning.md
+                |-- vulnerability-patterns.md
+            |-- SKILL.md
+        |-- shopify-expert
+            |-- references
+                |-- app-development.md
+                |-- checkout-customization.md
+                |-- liquid-templating.md
+                |-- performance-optimization.md
+                |-- storefront-api.md
+            |-- SKILL.md
+        |-- spark-engineer
+            |-- references
+                |-- partitioning-caching.md
+                |-- performance-tuning.md
+                |-- rdd-operations.md
+                |-- spark-sql-dataframes.md
+                |-- streaming-patterns.md
+            |-- SKILL.md
+        |-- spec-miner
+            |-- references
+                |-- analysis-checklist.md
+                |-- analysis-process.md
+                |-- ears-format.md
+                |-- specification-template.md
+            |-- SKILL.md
+        |-- spring-boot-engineer
+            |-- references
+                |-- cloud.md
+                |-- data.md
+                |-- security.md
+                |-- testing.md
+                |-- web.md
+            |-- SKILL.md
+        |-- sql-pro
+            |-- references
+                |-- database-design.md
+                |-- dialect-differences.md
+                |-- optimization.md
+                |-- query-patterns.md
+                |-- window-functions.md
+            |-- SKILL.md
+        |-- sre-engineer
+            |-- references
+                |-- automation-toil.md
+                |-- error-budget-policy.md
+                |-- incident-chaos.md
+                |-- monitoring-alerting.md
+                |-- slo-sli-management.md
+            |-- SKILL.md
+        |-- swift-expert
+            |-- references
+                |-- async-concurrency.md
+                |-- memory-performance.md
+                |-- protocol-oriented.md
+                |-- swiftui-patterns.md
+                |-- testing-patterns.md
+            |-- SKILL.md
+        |-- terraform-engineer
+            |-- references
+                |-- best-practices.md
+                |-- module-patterns.md
+                |-- providers.md
+                |-- state-management.md
+                |-- testing.md
+            |-- SKILL.md
+        |-- test-master
+            |-- references
+                |-- automation-frameworks.md
+                |-- e2e-testing.md
+                |-- integration-testing.md
+                |-- performance-testing.md
+                |-- qa-methodology.md
+                |-- security-testing.md
+                |-- tdd-iron-laws.md
+                |-- test-reports.md
+                |-- testing-anti-patterns.md
+                |-- unit-testing.md
+            |-- SKILL.md
+        |-- the-fool
+            |-- references
+                |-- dialectic-synthesis.md
+                |-- evidence-audit.md
+                |-- mode-selection-guide.md
+                |-- pre-mortem-analysis.md
+                |-- red-team-adversarial.md
+                |-- socratic-questioning.md
+            |-- SKILL.md
+        |-- typescript-pro
+            |-- references
+                |-- advanced-types.md
+                |-- configuration.md
+                |-- patterns.md
+                |-- type-guards.md
+                |-- utility-types.md
+            |-- SKILL.md
+        |-- vue-expert
+            |-- references
+                |-- build-tooling.md
+                |-- components.md
+                |-- composition-api.md
+                |-- mobile-hybrid.md
+                |-- nuxt.md
+                |-- state-management.md
+                |-- typescript.md
+            |-- SKILL.md
+        |-- vue-expert-js
+            |-- references
+                |-- component-architecture.md
+                |-- composables-patterns.md
+                |-- jsdoc-typing.md
+                |-- state-management.md
+                |-- testing-patterns.md
+            |-- SKILL.md
+        |-- websocket-engineer
+            |-- references
+                |-- alternatives.md
+                |-- patterns.md
+                |-- protocol.md
+                |-- scaling.md
+                |-- security.md
+            |-- SKILL.md
+        |-- wordpress-pro
+            |-- references
+                |-- gutenberg-blocks.md
+                |-- hooks-filters.md
+                |-- performance-security.md
+                |-- plugin-architecture.md
+                |-- theme-development.md
+            |-- SKILL.md
 |-- .docusaurus
     |-- @easyops-cn
         |-- docusaurus-search-local
@@ -4259,6 +5861,7 @@
 |-- .gitmodules
 |-- .gstack
     |-- browse-audit.jsonl
+    |-- browse-console.log
     |-- browse-network.log
 |-- blog
     |-- 2018
@@ -4306,6 +5909,12 @@
     |-- authors.yml
     |-- tags.yml
 |-- CLAUDE.md
+|-- cloudflare-worker
+    |-- package.json
+    |-- src
+        |-- index.js
+    |-- wrangler.toml
+|-- cl_utf8.txt
 |-- codeflow-analysis
     |-- .codeflowignore
     |-- analyze-codeflow.ps1
@@ -4329,6 +5938,7 @@
     |-- verify-xss-fixes.sh
     |-- XSS_FIX_SUMMARY.md
     |-- XSS_SECURITY_GUIDE.md
+|-- commit_log.txt
 |-- CONTRIBUTING.md
 |-- docs
     |-- ComputerScience
@@ -7293,6 +8903,7 @@
 |-- MEMORY.md
 |-- package-lock.json
 |-- package.json
+|-- pl_utf8.txt
 |-- project_docs
     |-- 1. comprehensive_project_plan.md
     |-- 1. RecruiterCuratedData.md
@@ -7310,12 +8921,18 @@
     |-- 8. Phase_1_Improvement.md
     |-- 9. Detailed Portfolio Sections.md
     |-- BADGE_ACHIEVEMENT_GUIDE.md
+    |-- booking-apps-script
+        |-- appsscript.json
+        |-- Code.gs
+    |-- BOOKING_EMAIL_TEMPLATE.html
+    |-- BOOKING_POPUP_SETUP.md
     |-- COGNITIVE_DEBT_CHECKLIST.md
     |-- PROJECT_STATUS.md
     |-- README.md
     |-- SOCIAL_MEDIA_TEMPLATES.md
     |-- TEAM_PLAYBOOK.md
     |-- TODOS.md
+|-- push_log.txt
 |-- README.md
 |-- scripts
     |-- analyze-book-images.js
@@ -7352,6 +8969,15 @@
         |-- ArtGallery
             |-- index.js
             |-- styles.module.css
+        |-- BookAppointmentButton
+            |-- index.js
+            |-- styles.module.css
+        |-- BookingCalendar
+            |-- index.js
+            |-- styles.module.css
+        |-- BookingModal
+            |-- index.js
+            |-- styles.module.css
         |-- BookNavigation
             |-- index.js
             |-- styles.module.css
@@ -7364,9 +8990,6 @@
         |-- ContinueExploring
             |-- index.js
             |-- styles.module.css
-        |-- CuriousVisitorDashboard
-            |-- index.js
-            |-- styles.module.css
         |-- DashboardLayout
             |-- index.js
             |-- styles.module.css
@@ -7374,9 +8997,6 @@
             |-- index.js
             |-- styles.module.css
         |-- FloatingDock
-            |-- index.js
-            |-- styles.module.css
-        |-- GrowthPartnerDashboard
             |-- index.js
             |-- styles.module.css
         |-- HomepageFeatures
@@ -7411,9 +9031,6 @@
         |-- SpotifyPodcast
             |-- index.js
             |-- styles.module.css
-        |-- TechEnthusiastDashboard
-            |-- index.js
-            |-- styles.module.css
         |-- Timeline
             |-- index.js
             |-- styles.module.css
@@ -7431,6 +9048,7 @@
         |-- _projects.css
         |-- _timeline.css
     |-- data
+        |-- bookingConfig.js
         |-- booksNavigation.js
         |-- product-designer
             |-- certificationData.js
@@ -9546,6 +11164,8 @@
                 |-- styles.module.css
         |-- Root.js
     |-- utils
+        |-- booking-api.js
+        |-- booking-time.js
         |-- date-utils.js
 |-- static
     |-- certificates

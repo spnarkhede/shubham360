@@ -7,7 +7,7 @@ tags: ['guide','claude','agents','template','ai']
 
 A standard template for authoring Claude agents in Shubham Narkhede's AI library. Every agent in this collection is designed to do one thing well, produce consistent output, and behave safely at the edges.
 
-> **Full authoring standards:** See [ClaudeAgentsAuthoringChecklist.md](ClaudeAgentsAuthoringChecklist.md) for the complete checklist — frontmatter fields, instruction block requirements, safety review, testing protocol, and the 10 most common authoring failures.
+> **Full authoring standards:** See [Claude-Agents-Authoring-Checklist.md](Claude-Agents-Authoring-Checklist.md) for the complete checklist — frontmatter fields, instruction block requirements, safety review, testing protocol, and the 10 most common authoring failures.
 
 ---
 

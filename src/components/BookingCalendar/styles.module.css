@@ -1,0 +1,131 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.monthLabel {
+  min-width: 9rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--bm-text);
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: var(--bm-accent-soft);
+  color: var(--bm-accent-strong);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.navButton:hover:not(:disabled) {
+  background: var(--bm-accent-soft-hover);
+}
+
+.navButton:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  row-gap: 0.35rem;
+}
+
+.weekday {
+  padding-bottom: 0.2rem;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--bm-muted);
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+}
+
+.day {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: var(--bm-accent-soft);
+  color: var(--bm-accent-strong);
+  border: none;
+  border-radius: 50%;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.day:hover:not(:disabled) {
+  background: var(--bm-accent-soft-hover);
+}
+
+.day:disabled {
+  background: transparent;
+  color: var(--bm-muted);
+  font-weight: 400;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dayToday::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  width: 4px;
+  height: 4px;
+  background: currentColor;
+  border-radius: 50%;
+}
+
+.daySelected,
+.daySelected:hover:not(:disabled) {
+  background: var(--bm-accent);
+  color: #ffffff;
+  box-shadow: 0 4px 12px var(--bm-accent-shadow);
+}
+
+@media (max-width: 400px) {
+  .day {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .day {
+    transition: none;
+  }
+}

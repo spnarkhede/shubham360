@@ -1,0 +1,10 @@
+name = "shubham360-calendly-webhook"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Secrets (set with `wrangler secret put <NAME>`, never written here):
+#   CALENDLY_SIGNING_KEY   - from the Calendly webhook subscription
+#   EMAILJS_PRIVATE_KEY    - EmailJS "Private Key" (Account > API Keys)
+#   EMAILJS_PUBLIC_KEY     - EmailJS "Public Key" / user ID (same one used by the site)
+#   EMAILJS_SERVICE_ID     - EmailJS service id (same one used by the site: service_flalmf3)
+#   EMAILJS_TEMPLATE_ID    - a NEW EmailJS template created for booking confirmations

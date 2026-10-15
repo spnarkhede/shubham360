@@ -260,6 +260,16 @@ Only build what is asked. If anything is unclear, ask before starting.
 
 Do not add features, comments, refactors, or abstractions beyond what was requested.
 
+---
+
+## Health Stack
+
+- typecheck: npx tsc --noEmit
+- lint: (not configured — no biome/eslint)
+- test: (not configured — no test script in package.json)
+- deadcode: (not configured — knip not installed)
+- shell: (not configured — shellcheck not installed; scripts/*.sh exist)
+
 ## gstack
 Use /browse from gstack for all web browsing. Never use mcp__claude-in-chrome__* tools.
 Available skills: /office-hours, /plan-ceo-review, /plan-eng-review, /plan-design-review,

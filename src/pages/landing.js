@@ -1,5 +1,6 @@
 ﻿import React from 'react';
 import Head from '@docusaurus/Head';
+import BookAppointmentButton from '@site/src/components/BookAppointmentButton';
 import styles from './landing.module.css';
 
 // Icon components organized into separate modules for better maintainability
@@ -236,6 +237,11 @@ export default function Landing() {
                 </svg>
                 Download Resume
               </a>
+
+              <BookAppointmentButton
+                label="Book Calendar Slot"
+                className={styles.bookSlotButton}
+              />
 
               <h2 className={styles.sectionHeadingSide}>Contacts</h2>
               <ul className={styles.contactList}>

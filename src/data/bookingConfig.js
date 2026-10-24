@@ -22,10 +22,12 @@ export const BOOKING_API_URL =
 export const OWNER = {
   name: 'Shubham Narkhede',
   email: 'shubhampnarkhede@gmail.com',
+  // Visitors see this as the sender and reply-to of their confirmation email.
+  contactEmail: 'contact@shubhamnarkhede.com',
 };
 
-// From dashboard.emailjs.com. The template sends to {{to_email}} (the visitor) and BCCs you,
-// so one send reaches both inboxes. Setup: project_docs/BOOKING_POPUP_SETUP.md
+// From dashboard.emailjs.com. The template sends the confirmation to {{to_email}} (the visitor).
+// You get a separate "Appointment - ..." email from the Apps Script. Setup: project_docs/BOOKING_POPUP_SETUP.md
 export const EMAILJS_BOOKING = {
   publicKey: 'NZhrxMzNCjdj-A8CA',
   serviceId: 'service_5so5kys',

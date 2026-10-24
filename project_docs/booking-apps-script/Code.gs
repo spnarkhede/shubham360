@@ -3,7 +3,7 @@
  *
  * GET  -> { ok, busy: [{ start, end }] }  your busy times for the booking window (no titles)
  * POST -> { ok, meetLink, eventLink }     creates the Calendar event with a new Google Meet
- *         link and emails the visitor a Google Calendar invite.
+ *         link, emails the visitor a Google Calendar invite, and emails you a notification.
  *
  * Keep CONFIG in sync with BOOKING_HOURS / BOOKING_DURATIONS in src/data/bookingConfig.js.
  * Setup: project_docs/BOOKING_POPUP_SETUP.md
@@ -20,6 +20,10 @@ const CONFIG = {
   bookingWindowDays: 60,
   minNoticeHours: 2,
   maxBookingsPerEmail: 3, // per 6 hours
+  notifyEmail: 'shubhampnarkhede@gmail.com',
+  // Must be a verified Gmail "Send mail as" alias, otherwise your Gmail address is used.
+  notifyFrom: 'appointment@shubhamnarkhede.com',
+  notifyFromName: 'www.shubhamnarkhede.com',
 };
 
 function doGet() {
@@ -68,7 +72,9 @@ function doPost(e) {
     const videoEntry = ((event.conferenceData && event.conferenceData.entryPoints) || []).find(
       (p) => p.entryPointType === 'video'
     );
-    return json({ ok: true, meetLink: event.hangoutLink || (videoEntry && videoEntry.uri) || '', eventLink: event.htmlLink });
+    const meetLink = event.hangoutLink || (videoEntry && videoEntry.uri) || '';
+    notifyOwner(booking, meetLink, event.htmlLink);
+    return json({ ok: true, meetLink: meetLink, eventLink: event.htmlLink });
   } catch (err) {
     console.error(err);
     return json({ ok: false, error: 'server_error' });
@@ -128,6 +134,33 @@ function busyBetween(from, to) {
     busy.push.apply(busy, result.calendars.primary.busy.map((b) => ({ start: b.start, end: b.end })));
   }
   return busy;
+}
+
+// The booking already exists, so a failed notification is logged instead of failing the request.
+function notifyOwner(booking, meetLink, eventLink) {
+  try {
+    const fullName = booking.firstName + ' ' + booking.lastName;
+    const when = Utilities.formatDate(booking.start, CONFIG.timeZone, 'dd/MM/yyyy - HH:mm');
+    const subject = 'Appointment - ' + fullName + ' - ' + when;
+    const body = [
+      'New appointment booked via www.shubhamnarkhede.com',
+      '',
+      'Name: ' + fullName,
+      'Email: ' + booking.email,
+      'Date & time: ' + when + ' (' + CONFIG.timeZone + ')',
+      'Duration: ' + booking.duration + ' minutes',
+      'Topic: ' + booking.topic,
+      '',
+      'Google Meet: ' + meetLink,
+      'Calendar event: ' + eventLink,
+    ].join('\n');
+
+    const options = { name: CONFIG.notifyFromName, replyTo: booking.email };
+    if (GmailApp.getAliases().indexOf(CONFIG.notifyFrom) !== -1) options.from = CONFIG.notifyFrom;
+    GmailApp.sendEmail(CONFIG.notifyEmail, subject, body, options);
+  } catch (err) {
+    console.error('Owner notification failed:', err);
+  }
 }
 
 function underRateLimit(email) {

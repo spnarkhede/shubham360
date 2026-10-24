@@ -131,7 +131,8 @@ export default function BookingModal({ onClose }) {
           calendar_link: booking.eventLink,
           owner_name: OWNER.name,
           owner_email: OWNER.email,
-          reply_to: OWNER.email,
+          from_email: OWNER.contactEmail,
+          reply_to: OWNER.contactEmail,
         },
         EMAILJS_BOOKING.publicKey
       );

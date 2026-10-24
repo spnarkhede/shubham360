@@ -1,12 +1,13 @@
-# "Book Calendar Slot" Booking Popup
+# "Book Appointment with Me" Booking Popup
 
 A custom booking popup on the portfolio. No server to host: **Google Apps Script**
 (runs free inside your Google account) creates the Calendar event with a new Google
-Meet link, and **EmailJS** sends the branded confirmation.
+Meet link and emails you a notification, and **EmailJS** sends the visitor's branded
+confirmation.
 
 ## What happens on a booking
 
-1. Visitor clicks **Book Calendar Slot** (`/landing` sidebar) or **Book a Call** (`/contact`).
+1. Visitor clicks **Book Appointment with Me** (`/landing` sidebar) or **Book a Call** (`/contact`).
 2. The popup loads your **busy times** from Google Calendar (times only, no titles) and
    hides slots that clash with them.
    ```
@@ -20,9 +21,11 @@ Meet link, and **EmailJS** sends the branded confirmation.
    ```
 3. **Book** → Apps Script re-checks the slot, creates the event in your Google Calendar
    with a **new Google Meet link**, and adds the visitor as a guest. Google emails them
-   the calendar invite.
-4. EmailJS sends the branded confirmation (with the same Meet link) **to the visitor and
-   Bcc to you**.
+   the calendar invite. The script also emails **you** a notification:
+   - Subject: `Appointment - <First> <Last> - dd/mm/yyyy - HH:mm` (Stuttgart time)
+   - From: `www.shubhamnarkhede.com <appointment@shubhamnarkhede.com>`
+4. EmailJS sends the branded confirmation (with the same Meet link) **to the visitor**,
+   from and reply-to `contact@shubhamnarkhede.com`.
 5. A translucent green box says "Thanks, <name>! The confirmation and your Google Meet
    invite will be sent to your email shortly."
 
@@ -74,6 +77,10 @@ the live web app.)
 and `BOOKING_DURATIONS` in `bookingConfig.js`. The website hides invalid slots; the
 script refuses them.
 
+**Your notification email** is set by `notifyEmail`, `notifyFrom` and `notifyFromName` in
+`CONFIG`. The first deployment after adding it asks you to authorize again (Gmail access):
+**Deploy → Manage deployments → edit → Version: New version → Deploy → Authorize**.
+
 Protection built into the script: re-checks working hours/durations/notice, re-checks
 your calendar for conflicts under a lock (no double bookings), at most 3 bookings per
 email address per 6 hours, and the busy-times response never includes event titles.
@@ -84,17 +91,32 @@ Configured in `EMAILJS_BOOKING`: service `service_5so5kys` (Gmail,
 shubhampnarkhede@gmail.com), template `template_97xeypb`, public key set.
 
 Template settings (Content tab, right panel): To `{{to_email}}`, From Name
-`{{owner_name}}`, Reply To `{{reply_to}}`, Bcc `{{owner_email}}`. Subject
-`Confirmed: {{duration}} call on {{date_label}}`. Body: paste
+`{{owner_name}}`, From Email `{{from_email}}` (untick "Use Default Email Address"),
+Reply To `{{reply_to}}`, **Bcc empty** (you get your own notification from the Apps
+Script). Subject `Confirmed: {{duration}} call on {{date_label}}`. Body: paste
 `project_docs/BOOKING_EMAIL_TEMPLATE.html` in the Code editor (`</>`).
 
 Variables sent: `first_name`, `last_name`, `full_name`, `to_email`, `topic`, `duration`,
 `date_label`, `time_label`, `visitor_time_label`, `meeting_link` (the new Meet link),
 `calendar_link` (opens the booked event in Google Calendar), `owner_name`,
-`owner_email`, `reply_to`.
+`owner_email`, `from_email`, `reply_to` (both `contact@shubhamnarkhede.com`).
 
 Free plan: 200 emails/month (1 per booking). Keep reCAPTCHA **off** in the template
 settings; the popup has no CAPTCHA box.
+
+### 3. Sending from @shubhamnarkhede.com addresses
+
+Both emails go out through your Gmail account, which can only send as an address it
+has verified. Until then, your notification falls back to your Gmail address (still
+with the new subject), and EmailJS may refuse or rewrite the visitor's From address.
+
+1. The domain needs working mailboxes or forwarding for `appointment@` and `contact@`
+   (e.g. Cloudflare Email Routing or your registrar's email forwarding to your Gmail).
+2. Gmail → **Settings → Accounts and Import → Send mail as → Add another email
+   address**: add `appointment@shubhamnarkhede.com` (name `www.shubhamnarkhede.com`)
+   and `contact@shubhamnarkhede.com`, and click the verification link Gmail sends.
+3. Reconnect the Gmail service in EmailJS (**Email Services → service_5so5kys →
+   Reconnect**) so it picks up the new alias.
 
 ## Changing availability
 
@@ -117,14 +139,16 @@ Open the browser console (F12) after clicking **Book**:
 | `Booking rejected: invalid_request` | Website and script rules differ. Sync `CONFIG` with `BOOKING_HOURS`. |
 | `Booking rejected: too_many_requests` | Same email booked 3 times in 6 hours. |
 | `Booking rejected: server_error` | See script.google.com → **Executions** for the error. |
+| No "Appointment - …" email for you | script.google.com → **Executions** → look for `Owner notification failed`. Usually the new version wasn't deployed or Gmail access wasn't authorized. |
 | `Booking email failed: <status> <reason>` | EmailJS problem. The booking and Google invite still went out. |
 | `Could not load calendar availability` | Busy times couldn't load; booking still works and conflicts are still checked on Book. |
 
 ## Test checklist
 
 1. `npm start` (restart it after editing `docusaurus.config.ts`).
-2. `/landing` → **Book Calendar Slot**. Times you're busy in Google Calendar are missing.
+2. `/landing` → **Book Appointment with Me**. Times you're busy in Google Calendar are missing.
 3. Book with your own email → green box.
-4. Google Calendar shows the event with a Meet link; your inbox has the Google invite and
-   the EmailJS confirmation (To + Bcc). Delete the test event afterwards (choose "don't
-   send" when asked about notifying guests).
+4. Google Calendar shows the event with a Meet link; your inbox has the Google invite,
+   the EmailJS confirmation, and the `Appointment - <name> - dd/mm/yyyy - HH:mm`
+   notification. Delete the test event afterwards (choose "don't send" when asked about
+   notifying guests).

@@ -105,6 +105,8 @@ export default function BookingModal({ onClose }) {
         setSlot(null);
         loadBusyTimes();
         setStatus('taken');
+      } else if (booking.error === 'too_many_requests') {
+        setStatus('limit');
       } else {
         setStatus('error');
       }
@@ -257,7 +259,12 @@ export default function BookingModal({ onClose }) {
 
           {status === 'error' && (
             <p className={styles.error} role="alert">
-              Your booking couldn't be sent. Please try again, or email me at {OWNER.email}.
+              Your booking couldn't be sent. Please try again, or email me at {OWNER.contactEmail}.
+            </p>
+          )}
+          {status === 'limit' && (
+            <p className={styles.error} role="alert">
+              You've reached the booking limit for this email address. Please try again later, or email me at {OWNER.contactEmail}.
             </p>
           )}
           {status === 'taken' && (

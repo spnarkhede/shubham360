@@ -145,7 +145,7 @@ function notifyOwner(booking, meetLink, eventLink) {
     const when = Utilities.formatDate(booking.start, CONFIG.timeZone, 'dd/MM/yyyy - HH:mm');
     const subject = 'Appointment - ' + fullName + ' - ' + when;
     const details = {
-      firstName: booking.firstName,
+      ownerFirstName: CONFIG.ownerName.split(' ')[0],
       fullName: fullName,
       email: booking.email,
       topic: booking.topic,
@@ -159,7 +159,7 @@ function notifyOwner(booking, meetLink, eventLink) {
       eventLink: eventLink,
     };
     const body = [
-      "Hi " + booking.firstName + ", you're booked.",
+      'Hi ' + CONFIG.ownerName.split(' ')[0] + ', your call with ' + fullName + ' is confirmed.',
       '',
       'Date: ' + details.dateLabel,
       'Time: ' + details.timeLabel,
@@ -179,7 +179,8 @@ function notifyOwner(booking, meetLink, eventLink) {
   }
 }
 
-// Same design as project_docs/BOOKING_EMAIL_TEMPLATE.html (the visitor's EmailJS email). Keep them in sync.
+// Same design as project_docs/BOOKING_EMAIL_TEMPLATE.html (the visitor's EmailJS email), with the
+// greeting addressed to you. Keep the designs in sync.
 function confirmationHtml(d) {
   const e = escapeHtml;
   return `<div style="margin: 0; padding: 24px 12px; background-color: #f4f5f8; font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; color: #1a1a2e">
@@ -190,10 +191,10 @@ function confirmationHtml(d) {
           Appointment confirmed
         </div>
         <h1 style="margin: 16px 0 8px; font-size: 22px; line-height: 1.3; color: #1a1a2e">
-          Hi ${e(d.firstName)}, you're booked.
+          Hi ${e(d.ownerFirstName)}, your call with ${e(d.fullName)} is confirmed.
         </h1>
         <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #5b5f73">
-          Your call with ${e(CONFIG.ownerName)} is confirmed. The details are below.
+          The details are below.
         </p>
       </td>
     </tr>

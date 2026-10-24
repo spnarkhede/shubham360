@@ -239,7 +239,7 @@ export default function Landing() {
               </a>
 
               <BookAppointmentButton
-                label="Book Calendar Slot"
+                label="Book Appointment with Me"
                 className={styles.bookSlotButton}
               />
 

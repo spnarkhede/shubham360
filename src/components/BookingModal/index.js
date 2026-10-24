@@ -168,7 +168,7 @@ export default function BookingModal({ onClose }) {
           onSubmit={handleSubmit}
         >
           <div className={styles.titleRow}>
-            <h2 id="booking-modal-title" className={styles.title}>Book a calendar slot</h2>
+            <h2 id="booking-modal-title" className={styles.title}>Book Appointment with Me</h2>
             <button type="button" className={styles.closeButton} onClick={onClose} aria-label="Close">
               <X size={18} />
             </button>

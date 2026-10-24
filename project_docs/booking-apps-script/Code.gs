@@ -2,9 +2,9 @@
  * Booking backend for shubhamnarkhede.com, deployed as a Google Apps Script web app.
  *
  * GET  -> { ok, busy: [{ start, end }] }  your busy times for the booking window (no titles)
- * POST -> { ok, meetLink, eventLink }     creates the Calendar event with a new Google Meet
- *         link and emails you the booking confirmation. Google's own invite email is turned
- *         off; the visitor gets the same confirmation from EmailJS instead.
+ * POST -> { ok }                         creates the Calendar event with a new Google Meet link
+ *         and emails the booking confirmation to you and to the visitor, both from
+ *         contact@shubhamnarkhede.com. Google's own invite email is turned off.
  *
  * Keep CONFIG in sync with BOOKING_HOURS / BOOKING_DURATIONS in src/data/bookingConfig.js.
  * Setup: project_docs/BOOKING_POPUP_SETUP.md
@@ -21,10 +21,12 @@ const CONFIG = {
   bookingWindowDays: 60,
   minNoticeHours: 2,
   maxBookingsPerEmail: 3, // per 6 hours
-  notifyEmail: 'shubhampnarkhede@gmail.com',
-  // Must be a verified Gmail "Send mail as" alias, otherwise your Gmail address is used.
-  notifyFrom: 'contact@shubhamnarkhede.com',
-  notifyFromName: 'www.shubhamnarkhede.com',
+  ownerEmail: 'shubhampnarkhede@gmail.com', // where your copy is delivered; never shown to visitors
+  // Both emails are sent from this address. It must be a verified Gmail "Send mail as" alias;
+  // if it isn't, no email is sent rather than revealing your Gmail address.
+  senderEmail: 'contact@shubhamnarkhede.com',
+  ownerSenderName: 'www.shubhamnarkhede.com',
+  visitorSenderName: 'contact@shubhamnarkhede.com',
 };
 
 function doGet() {
@@ -74,8 +76,8 @@ function doPost(e) {
       (p) => p.entryPointType === 'video'
     );
     const meetLink = event.hangoutLink || (videoEntry && videoEntry.uri) || '';
-    notifyOwner(booking, meetLink, event.htmlLink);
-    return json({ ok: true, meetLink: meetLink, eventLink: event.htmlLink });
+    sendConfirmations(booking, meetLink, event.htmlLink);
+    return json({ ok: true });
   } catch (err) {
     console.error(err);
     return json({ ok: false, error: 'server_error' });
@@ -100,6 +102,8 @@ function parseBooking(e) {
   const topic = text(body.topic, 500);
   const duration = Number(body.duration);
   const start = new Date(body.start);
+  // The visitor's own clock time for the start, computed by their browser (e.g. "16:30").
+  const visitorLocalTime = /^\d{2}:\d{2}$/.test(body.visitorLocalTime) ? body.visitorLocalTime : '';
 
   if (!firstName || !lastName || !topic) return null;
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return null;
@@ -119,7 +123,15 @@ function parseBooking(e) {
   if (minuteOfDay + duration > toMinutes(CONFIG.dayEnd)) return null;
   if ((minuteOfDay - dayStart) % CONFIG.slotIntervalMinutes !== 0) return null;
 
-  return { firstName: firstName, lastName: lastName, email: email, topic: topic, duration: duration, start: start };
+  return {
+    firstName: firstName,
+    lastName: lastName,
+    email: email,
+    topic: topic,
+    duration: duration,
+    start: start,
+    visitorLocalTime: visitorLocalTime,
+  };
 }
 
 // Free/busy respects "Show as free" events and never exposes event titles.
@@ -137,50 +149,103 @@ function busyBetween(from, to) {
   return busy;
 }
 
-// The booking already exists, so a failed notification is logged instead of failing the request.
-function notifyOwner(booking, meetLink, eventLink) {
-  try {
-    const fullName = booking.firstName + ' ' + booking.lastName;
-    const end = new Date(booking.start.getTime() + booking.duration * 60000);
-    const when = Utilities.formatDate(booking.start, CONFIG.timeZone, 'dd/MM/yyyy - HH:mm');
-    const subject = 'Appointment - ' + fullName + ' - ' + when;
-    const details = {
-      ownerFirstName: CONFIG.ownerName.split(' ')[0],
-      fullName: fullName,
-      email: booking.email,
-      topic: booking.topic,
-      duration: booking.duration + ' minutes',
-      dateLabel: Utilities.formatDate(booking.start, CONFIG.timeZone, 'EEEE, d MMMM yyyy'),
-      timeLabel:
-        Utilities.formatDate(booking.start, CONFIG.timeZone, 'HH:mm') +
-        '–' +
-        Utilities.formatDate(end, CONFIG.timeZone, 'HH:mm z'),
-      meetLink: meetLink,
-      eventLink: eventLink,
-    };
-    const body = [
-      'Hi ' + CONFIG.ownerName.split(' ')[0] + ', your call with ' + fullName + ' is confirmed.',
-      '',
-      'Date: ' + details.dateLabel,
-      'Time: ' + details.timeLabel,
-      'Duration: ' + details.duration,
-      'Topic: ' + booking.topic,
-      'Booked by: ' + fullName + ' (' + booking.email + ')',
-      '',
-      'Join the call: ' + meetLink,
-      'Add to Google Calendar: ' + eventLink,
-    ].join('\n');
+// The booking already exists, so a failed email is logged instead of failing the request.
+// Each email is sent separately so one failure doesn't stop the other.
+function sendConfirmations(booking, meetLink, eventLink) {
+  const fullName = booking.firstName + ' ' + booking.lastName;
+  const end = new Date(booking.start.getTime() + booking.duration * 60000);
+  const dateLabel = Utilities.formatDate(booking.start, CONFIG.timeZone, 'EEEE, d MMMM yyyy');
+  const details = {
+    fullName: fullName,
+    email: booking.email,
+    topic: booking.topic,
+    duration: booking.duration + ' minutes',
+    dateLabel: dateLabel,
+    timeLabel:
+      Utilities.formatDate(booking.start, CONFIG.timeZone, 'HH:mm') +
+      '–' +
+      Utilities.formatDate(end, CONFIG.timeZone, 'HH:mm z'),
+    meetLink: meetLink,
+  };
 
-    const options = { name: CONFIG.notifyFromName, replyTo: booking.email, htmlBody: confirmationHtml(details) };
-    if (GmailApp.getAliases().indexOf(CONFIG.notifyFrom) !== -1) options.from = CONFIG.notifyFrom;
-    GmailApp.sendEmail(CONFIG.notifyEmail, subject, body, options);
+  try {
+    sendFromContact(
+      CONFIG.ownerEmail,
+      'Appointment - ' + fullName + ' - ' + Utilities.formatDate(booking.start, CONFIG.timeZone, 'dd/MM/yyyy - HH:mm'),
+      CONFIG.ownerSenderName,
+      booking.email,
+      Object.assign({}, details, {
+        heading: 'Hi ' + CONFIG.ownerName.split(' ')[0] + ', your call with ' + fullName + ' is confirmed.',
+        intro: 'The details are below.',
+        localTimeLabel: '',
+        calendarLink: eventLink,
+      })
+    );
   } catch (err) {
-    console.error('Owner notification failed:', err);
+    console.error('Owner email failed:', err);
+  }
+
+  try {
+    sendFromContact(
+      booking.email,
+      'Confirmed: ' + details.duration + ' call on ' + dateLabel,
+      CONFIG.visitorSenderName,
+      CONFIG.senderEmail,
+      Object.assign({}, details, {
+        heading: 'Hi ' + booking.firstName + ", you're booked.",
+        intro: 'Your call with ' + CONFIG.ownerName + ' is confirmed. The details are below.',
+        localTimeLabel: booking.visitorLocalTime ? '(' + booking.visitorLocalTime + ' your local time)' : '',
+        // A "create event" link, so the visitor's email never contains a link to your own calendar.
+        calendarLink: addToCalendarLink(booking, end, meetLink),
+      })
+    );
+  } catch (err) {
+    console.error('Visitor email failed:', err);
   }
 }
 
-// Same design as project_docs/BOOKING_EMAIL_TEMPLATE.html (the visitor's EmailJS email), with the
-// greeting addressed to you. Keep the designs in sync.
+function sendFromContact(to, subject, senderName, replyTo, d) {
+  if (GmailApp.getAliases().indexOf(CONFIG.senderEmail) === -1) {
+    throw new Error(CONFIG.senderEmail + ' is not a verified Gmail "Send mail as" alias');
+  }
+  GmailApp.sendEmail(to, subject, confirmationText(d), {
+    from: CONFIG.senderEmail,
+    name: senderName,
+    replyTo: replyTo,
+    htmlBody: confirmationHtml(d),
+  });
+}
+
+function addToCalendarLink(booking, end, meetLink) {
+  const utc = (date) => Utilities.formatDate(date, 'UTC', "yyyyMMdd'T'HHmmss'Z'");
+  return (
+    'https://calendar.google.com/calendar/render?action=TEMPLATE' +
+    '&text=' + encodeURIComponent(booking.duration + '-min call with ' + CONFIG.ownerName) +
+    '&dates=' + utc(booking.start) + '/' + utc(end) +
+    '&details=' + encodeURIComponent('Join the call: ' + meetLink + '\nTopic: ' + booking.topic) +
+    '&location=' + encodeURIComponent(meetLink)
+  );
+}
+
+function confirmationText(d) {
+  return [
+    d.heading,
+    d.intro,
+    '',
+    'Date: ' + d.dateLabel,
+    'Time: ' + d.timeLabel + (d.localTimeLabel ? ' ' + d.localTimeLabel : ''),
+    'Duration: ' + d.duration,
+    'Topic: ' + d.topic,
+    'Booked by: ' + d.fullName + ' (' + d.email + ')',
+    '',
+    'Join the call: ' + d.meetLink,
+    'Add to Google Calendar: ' + d.calendarLink,
+    '',
+    'Need to reschedule or cancel? Just reply to this email.',
+  ].join('\n');
+}
+
+// Shared design for both emails (originally project_docs/BOOKING_EMAIL_TEMPLATE.html).
 function confirmationHtml(d) {
   const e = escapeHtml;
   return `<div style="margin: 0; padding: 24px 12px; background-color: #f4f5f8; font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; color: #1a1a2e">
@@ -191,10 +256,10 @@ function confirmationHtml(d) {
           Appointment confirmed
         </div>
         <h1 style="margin: 16px 0 8px; font-size: 22px; line-height: 1.3; color: #1a1a2e">
-          Hi ${e(d.ownerFirstName)}, your call with ${e(d.fullName)} is confirmed.
+          ${e(d.heading)}
         </h1>
         <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #5b5f73">
-          The details are below.
+          ${e(d.intro)}
         </p>
       </td>
     </tr>
@@ -210,7 +275,10 @@ function confirmationHtml(d) {
                 </tr>
                 <tr>
                   <td style="padding: 6px 0; color: #5b5f73; vertical-align: top">Time</td>
-                  <td style="padding: 6px 0; font-weight: 600; color: #1a1a2e">${e(d.timeLabel)}</td>
+                  <td style="padding: 6px 0; font-weight: 600; color: #1a1a2e">
+                    ${e(d.timeLabel)}${d.localTimeLabel ? `
+                    <div style="font-weight: 400; font-size: 13px; color: #5b5f73">${e(d.localTimeLabel)}</div>` : ''}
+                  </td>
                 </tr>
                 <tr>
                   <td style="padding: 6px 0; color: #5b5f73; vertical-align: top">Duration</td>
@@ -233,7 +301,7 @@ function confirmationHtml(d) {
     <tr>
       <td style="padding: 4px 32px 8px">
         <a href="${e(d.meetLink)}" style="display: inline-block; margin: 0 8px 10px 0; padding: 12px 22px; background-color: #16a34a; color: #ffffff; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; white-space: nowrap">Join the call</a>
-        <a href="${e(d.eventLink)}" style="display: inline-block; margin: 0 0 10px; padding: 11px 20px; background-color: #ffffff; color: #15803d; text-decoration: none; border: 1px solid #16a34a; border-radius: 8px; font-size: 14px; font-weight: 700; white-space: nowrap">Add to Google Calendar</a>
+        <a href="${e(d.calendarLink)}" style="display: inline-block; margin: 0 0 10px; padding: 11px 20px; background-color: #ffffff; color: #15803d; text-decoration: none; border: 1px solid #16a34a; border-radius: 8px; font-size: 14px; font-weight: 700; white-space: nowrap">Add to Google Calendar</a>
       </td>
     </tr>
     <tr>

@@ -13,23 +13,15 @@ export const BOOKING_HOURS = {
   minNoticeHours: 2,
 };
 
-// Google Apps Script web app URL (project_docs/booking-apps-script). It reads your busy times
-// and creates each booking in Google Calendar with a new Google Meet link.
+// Google Apps Script web app URL (project_docs/booking-apps-script). It reads your busy times,
+// creates each booking in Google Calendar with a new Google Meet link, and emails the
+// confirmation to the visitor and to you from contact@shubhamnarkhede.com.
 // Keep its CONFIG in sync with BOOKING_HOURS and BOOKING_DURATIONS.
 export const BOOKING_API_URL =
   'https://script.google.com/macros/s/AKfycbwQWhbhieSyput_j7vs3S9abGoobLXQQFXzchTfAjV7OwuVNIL8nJbN-znqdxtvVXht/exec';
 
 export const OWNER = {
   name: 'Shubham Narkhede',
-  email: 'shubhampnarkhede@gmail.com',
-  // Visitors see this as the sender and reply-to of their confirmation email.
+  // Shown to visitors in booking error messages.
   contactEmail: 'contact@shubhamnarkhede.com',
-};
-
-// From dashboard.emailjs.com. The template sends the confirmation to {{to_email}} (the visitor).
-// You get a separate "Appointment - ..." email from the Apps Script. Setup: project_docs/BOOKING_POPUP_SETUP.md
-export const EMAILJS_BOOKING = {
-  publicKey: 'NZhrxMzNCjdj-A8CA',
-  serviceId: 'service_5so5kys',
-  templateId: 'template_97xeypb',
 };

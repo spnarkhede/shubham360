@@ -1,12 +1,10 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import emailjs from 'emailjs-com';
 import { X, Check, CheckCircle2, Clock } from 'lucide-react';
 import BookingCalendar from '@site/src/components/BookingCalendar';
-import { BOOKING_DURATIONS, BOOKING_HOURS, EMAILJS_BOOKING, OWNER } from '@site/src/data/bookingConfig';
+import { BOOKING_DURATIONS, BOOKING_HOURS, OWNER } from '@site/src/data/bookingConfig';
 import { createBooking, fetchBusyTimes } from '@site/src/utils/booking-api';
 import {
   formatDay,
-  formatRange,
   formatShortDate,
   formatWeekday,
   isDayBookable,
@@ -75,23 +73,20 @@ export default function BookingModal({ onClose }) {
     e.preventDefault();
     if (!canSubmit) return;
 
-    const fullName = `${firstName.trim()} ${lastName.trim()}`;
-    const end = new Date(slot.start.getTime() + duration * 60000);
-    const timeLabel = formatRange(slot.start, end);
     const localTime = visitorLocalTime(slot.start);
-
-    const visitorEmail = email.trim();
 
     setStatus('sending');
     let booking;
     try {
+      // The booking API also emails the confirmation to the visitor and to you.
       booking = await createBooking({
         firstName: firstName.trim(),
         lastName: lastName.trim(),
-        email: visitorEmail,
+        email: email.trim(),
         topic: topic.trim(),
         duration,
         start: slot.start.toISOString(),
+        visitorLocalTime: localTime ?? '',
       });
     } catch (error) {
       console.error('Booking request failed:', error);
@@ -113,34 +108,6 @@ export default function BookingModal({ onClose }) {
       return;
     }
 
-    // The calendar event (with the Meet link) already exists at this point,
-    // so a failed confirmation email is logged but doesn't undo the booking.
-    try {
-      await emailjs.send(
-        EMAILJS_BOOKING.serviceId,
-        EMAILJS_BOOKING.templateId,
-        {
-          first_name: firstName.trim(),
-          last_name: lastName.trim(),
-          full_name: fullName,
-          to_email: visitorEmail,
-          topic: topic.trim(),
-          duration: `${duration} minutes`,
-          date_label: formatDay(date),
-          time_label: timeLabel,
-          visitor_time_label: localTime ? `(${localTime} your local time)` : '',
-          meeting_link: booking.meetLink,
-          calendar_link: booking.eventLink,
-          owner_name: OWNER.name,
-          owner_email: OWNER.email,
-          from_email: OWNER.contactEmail,
-          reply_to: OWNER.contactEmail,
-        },
-        EMAILJS_BOOKING.publicKey
-      );
-    } catch (error) {
-      console.error('Booking email failed:', error?.status, error?.text ?? error);
-    }
     setStatus('success');
   }
 

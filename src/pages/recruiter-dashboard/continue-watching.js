@@ -78,19 +78,19 @@ export default function RecruiterDashboardContinueWatching() {
       items: [
         {
           title: 'Five Years in Tech: Lessons Learned',
-          url: '/blog/2023/03/15/five-years-in-tech',
+          url: '/blog/2023/03/15/2023/five-years-in-tech',
           readTime: '6 min read',
           category: 'Career Reflection'
         },
         {
           title: 'DevOps at Robert Bosch: Scaling Enterprise Solutions',
-          url: '/blog/2022/08/20/devops-at-robert-bosch',
+          url: '/blog/2022/08/20/2022/devops-at-robert-bosch',
           readTime: '9 min read',
           category: 'DevOps Experience'
         },
         {
           title: 'Leadership Mindset in Technology',
-          url: '/blog/2021/03/08/leadershipmindset',
+          url: '/blog/leadership-is-mindset',
           readTime: '7 min read',
           category: 'Leadership'
         }

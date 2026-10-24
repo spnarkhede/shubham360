@@ -10,7 +10,7 @@ sidebar_position: 1
 
 **By [Shubham Narkhede](https://shubhamnarkhede.com) — AI Workflow Templates for Modern Teams**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Maintained by Shubham Narkhede](https://img.shields.io/badge/maintained%20by-Shubham%20Narkhede-blueviolet)](https://shubhamnarkhede.com)
 
 *You ship faster with AI. You understand less. That gap has a name — and this kit fixes it.*

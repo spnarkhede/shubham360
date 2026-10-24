@@ -1752,7 +1752,7 @@ Please give your analysis and actionable revisions.
 Outline and write your Pitch In Public posts (use the below AI prompt to help!).
 
 - Structure:
-  1. Call-out ("Here's {Target}…")
+  1. Call-out ("Here's `{Target}`…")
   2. Opportunity missed
   3. Quick wins (3 bullets)
   4. How you'd help

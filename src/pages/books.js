@@ -435,7 +435,7 @@ export default function Books() {
       readDate: 'September 2021',
       summary: 'A philosophical approach to managing time with the awareness of our finite lifespan.',
       categories: ['Productivity', 'Philosophy'],
-      reviewLink: '/books/four-thousand-weeks:-time-management-for-mortals',
+      reviewLink: '/books/four-thousand-weeks-time-management-for-mortals',
     },
     {
       title: 'The Almanack of Naval Ravikant: A Guide To Wealth And Happiness',
@@ -565,7 +565,7 @@ export default function Books() {
       readDate: 'October 2020',
       summary: 'How to identify and transform limiting beliefs for personal growth.',
       categories: ['Psychology', 'Self-Improvement'],
-      reviewLink: '/books/master-your-beliefs',
+      reviewLink: '/books/master-your-belifes',
     },
     {
       title: 'Master Your Destiny',

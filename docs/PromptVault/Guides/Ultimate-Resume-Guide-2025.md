@@ -176,7 +176,7 @@ Berlin, Germany | +49 123 456 7890 | james.anderson@email.com | LinkedIn.com/in/
 - Full name (matches LinkedIn and professional profiles)
 - City and country (remote work considerations)
 - Professional phone number
-- Professional email address (not [cutekitty23@email.com](cutekitty23@email.com))
+- Professional email address (not `cutekitty23@email.com`)
 - LinkedIn profile URL
 - GitHub profile URL (if technical role)
 - Portfolio website (if designer/creative)

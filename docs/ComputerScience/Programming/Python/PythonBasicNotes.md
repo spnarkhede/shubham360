@@ -21,7 +21,7 @@ plugins:
 - [Python](https://www.python.org/) _(python.org)_
 - [Python Document](https://docs.python.org/3/index.html) _(docs.python.org)_
 - [Learn X in Y minutes](https://learnxinyminutes.com/docs/python/) _(learnxinyminutes.com)_
-- [Regex in python](/regex#regex-in-python) _(cheatsheets.zip)_
+- [Regex in python](https://cheatsheets.zip/regex#regex-in-python) _(cheatsheets.zip)_
 
 ### Hello World
 

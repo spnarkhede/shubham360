@@ -75,9 +75,9 @@ export const dashboardConfig = {
         description: 'Design philosophy and approach'
       },
       {
-        id: 'philosophy',
+        id: 'design-philosophy',
         label: 'Philosophy',
-        path: '/product-designer/philosophy',
+        path: '/product-designer/design-philosophy',
         description: 'Design thinking and principles'
       },
       {
@@ -87,9 +87,9 @@ export const dashboardConfig = {
         description: 'Design projects and case studies'
       },
       {
-        id: 'blogs',
+        id: 'design-blog',
         label: 'Blogs',
-        path: '/product-designer/blogs',
+        path: '/product-designer/design-blog',
         description: 'Design articles and insights'
       },
       {
@@ -111,9 +111,9 @@ export const dashboardConfig = {
         description: 'Design education and growth'
       },
       {
-        id: 'certifications',
+        id: 'certificates',
         label: 'Certifications',
-        path: '/product-designer/certifications',
+        path: '/product-designer/certificates',
         description: 'Design certifications and courses'
       }
     ]

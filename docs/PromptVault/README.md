@@ -9,8 +9,8 @@ Your central hub for all prompts, agents, guides, and system prompts.
 
 | Section | Description |
 |---|---|
-| [Agents](./Agents/README) | AI agent definitions and templates |
-| [Prompts](./Prompts/README) | Categorised prompt library (1835+ prompts) |
-| [AIProject](./AIProject/README) | AI project templates and guidelines |
-| [Guides](./Guides/README) | Step-by-step guides for prompt engineering |
-| [System Prompts](./SystemPrompts/README) | System-level prompt configurations |
+| [Agents](./Agents/README.md) | AI agent definitions and templates |
+| [Prompts](./Prompts/README.md) | Categorised prompt library (1835+ prompts) |
+| [AIProject](./AIProjects/README.md) | AI project templates and guidelines |
+| [Guides](./Guides/README.md) | Step-by-step guides for prompt engineering |
+| [System Prompts](./SystemPrompts/README.md) | System-level prompt configurations |

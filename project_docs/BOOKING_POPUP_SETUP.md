@@ -20,14 +20,15 @@ confirmation.
    [ ] Privacy Policy                     [Cancel] [Book]
    ```
 3. **Book** → Apps Script re-checks the slot, creates the event in your Google Calendar
-   with a **new Google Meet link**, and adds the visitor as a guest. Google emails them
-   the calendar invite. The script also emails **you** a notification:
+   with a **new Google Meet link**, and adds the visitor as a guest. Google's own invite
+   email is turned off (`sendUpdates: 'none'`), so nobody gets a plain duplicate. The
+   script emails **you** the branded confirmation (same design as the visitor's):
    - Subject: `Appointment - <First> <Last> - dd/mm/yyyy - HH:mm` (Stuttgart time)
-   - From: `www.shubhamnarkhede.com <appointment@shubhamnarkhede.com>`
+   - From: `www.shubhamnarkhede.com <contact@shubhamnarkhede.com>`
 4. EmailJS sends the branded confirmation (with the same Meet link) **to the visitor**,
    from and reply-to `contact@shubhamnarkhede.com`.
-5. A translucent green box says "Thanks, <name>! The confirmation and your Google Meet
-   invite will be sent to your email shortly."
+5. A translucent green box says "Thanks, <name>! Your confirmation with the Google Meet
+   link will be sent to your email shortly."
 
 If someone grabbed the slot a moment earlier, the popup says so and refreshes the
 available times. Nothing is booked or emailed in that case.
@@ -110,11 +111,12 @@ Both emails go out through your Gmail account, which can only send as an address
 has verified. Until then, your notification falls back to your Gmail address (still
 with the new subject), and EmailJS may refuse or rewrite the visitor's From address.
 
-1. The domain needs working mailboxes or forwarding for `appointment@` and `contact@`
-   (e.g. Cloudflare Email Routing or your registrar's email forwarding to your Gmail).
+1. The domain needs working mailboxes or forwarding for `contact@` (e.g. Cloudflare
+   Email Routing or your registrar's email forwarding to your Gmail).
 2. Gmail → **Settings → Accounts and Import → Send mail as → Add another email
-   address**: add `appointment@shubhamnarkhede.com` (name `www.shubhamnarkhede.com`)
-   and `contact@shubhamnarkhede.com`, and click the verification link Gmail sends.
+   address**: add `contact@shubhamnarkhede.com`, and click the verification link Gmail
+   sends. SMTP: `smtp.gmail.com`, port `587`, TLS, your Gmail address, and a Google
+   App Password.
 3. Reconnect the Gmail service in EmailJS (**Email Services → service_5so5kys →
    Reconnect**) so it picks up the new alias.
 
@@ -140,7 +142,7 @@ Open the browser console (F12) after clicking **Book**:
 | `Booking rejected: too_many_requests` | Same email booked 3 times in 6 hours. |
 | `Booking rejected: server_error` | See script.google.com → **Executions** for the error. |
 | No "Appointment - …" email for you | script.google.com → **Executions** → look for `Owner notification failed`. Usually the new version wasn't deployed or Gmail access wasn't authorized. |
-| `Booking email failed: <status> <reason>` | EmailJS problem. The booking and Google invite still went out. |
+| `Booking email failed: <status> <reason>` | EmailJS problem. The booking still exists and you still got your copy, but the visitor got no email. Send them the Meet link manually. |
 | `Could not load calendar availability` | Busy times couldn't load; booking still works and conflicts are still checked on Book. |
 
 ## Test checklist
@@ -148,7 +150,7 @@ Open the browser console (F12) after clicking **Book**:
 1. `npm start` (restart it after editing `docusaurus.config.ts`).
 2. `/landing` → **Book Appointment with Me**. Times you're busy in Google Calendar are missing.
 3. Book with your own email → green box.
-4. Google Calendar shows the event with a Meet link; your inbox has the Google invite,
-   the EmailJS confirmation, and the `Appointment - <name> - dd/mm/yyyy - HH:mm`
-   notification. Delete the test event afterwards (choose "don't send" when asked about
-   notifying guests).
+4. Google Calendar shows the event with a Meet link. The visitor's inbox has only the
+   EmailJS confirmation; your inbox has the `Appointment - <name> - dd/mm/yyyy - HH:mm`
+   confirmation in the same design. Delete the test event afterwards (choose "don't
+   send" when asked about notifying guests).

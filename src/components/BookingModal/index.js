@@ -111,7 +111,7 @@ export default function BookingModal({ onClose }) {
       return;
     }
 
-    // The event and Google's invite (with the Meet link) already exist at this point,
+    // The calendar event (with the Meet link) already exists at this point,
     // so a failed confirmation email is logged but doesn't undo the booking.
     try {
       await emailjs.send(
@@ -152,7 +152,7 @@ export default function BookingModal({ onClose }) {
           <CheckCircle2 size={48} className={styles.successIcon} />
           <h2 id="booking-success-title" className={styles.successTitle}>Thanks, {firstName.trim()}!</h2>
           <p className={styles.successText}>
-            The confirmation and your Google Meet invite will be sent to your email shortly.
+            Your confirmation with the Google Meet link will be sent to your email shortly.
           </p>
           <p className={styles.successSummary}>
             {formatDay(date)} · {slot.label} · {duration} min

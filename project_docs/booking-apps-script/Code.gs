@@ -3,7 +3,8 @@
  *
  * GET  -> { ok, busy: [{ start, end }] }  your busy times for the booking window (no titles)
  * POST -> { ok, meetLink, eventLink }     creates the Calendar event with a new Google Meet
- *         link, emails the visitor a Google Calendar invite, and emails you a notification.
+ *         link and emails you the booking confirmation. Google's own invite email is turned
+ *         off; the visitor gets the same confirmation from EmailJS instead.
  *
  * Keep CONFIG in sync with BOOKING_HOURS / BOOKING_DURATIONS in src/data/bookingConfig.js.
  * Setup: project_docs/BOOKING_POPUP_SETUP.md
@@ -22,7 +23,7 @@ const CONFIG = {
   maxBookingsPerEmail: 3, // per 6 hours
   notifyEmail: 'shubhampnarkhede@gmail.com',
   // Must be a verified Gmail "Send mail as" alias, otherwise your Gmail address is used.
-  notifyFrom: 'appointment@shubhamnarkhede.com',
+  notifyFrom: 'contact@shubhamnarkhede.com',
   notifyFromName: 'www.shubhamnarkhede.com',
 };
 
@@ -66,7 +67,7 @@ function doPost(e) {
         reminders: { useDefault: true },
       },
       'primary',
-      { conferenceDataVersion: 1, sendUpdates: 'all' }
+      { conferenceDataVersion: 1, sendUpdates: 'none' }
     );
 
     const videoEntry = ((event.conferenceData && event.conferenceData.entryPoints) || []).find(
@@ -140,27 +141,126 @@ function busyBetween(from, to) {
 function notifyOwner(booking, meetLink, eventLink) {
   try {
     const fullName = booking.firstName + ' ' + booking.lastName;
+    const end = new Date(booking.start.getTime() + booking.duration * 60000);
     const when = Utilities.formatDate(booking.start, CONFIG.timeZone, 'dd/MM/yyyy - HH:mm');
     const subject = 'Appointment - ' + fullName + ' - ' + when;
+    const details = {
+      firstName: booking.firstName,
+      fullName: fullName,
+      email: booking.email,
+      topic: booking.topic,
+      duration: booking.duration + ' minutes',
+      dateLabel: Utilities.formatDate(booking.start, CONFIG.timeZone, 'EEEE, d MMMM yyyy'),
+      timeLabel:
+        Utilities.formatDate(booking.start, CONFIG.timeZone, 'HH:mm') +
+        '–' +
+        Utilities.formatDate(end, CONFIG.timeZone, 'HH:mm z'),
+      meetLink: meetLink,
+      eventLink: eventLink,
+    };
     const body = [
-      'New appointment booked via www.shubhamnarkhede.com',
+      "Hi " + booking.firstName + ", you're booked.",
       '',
-      'Name: ' + fullName,
-      'Email: ' + booking.email,
-      'Date & time: ' + when + ' (' + CONFIG.timeZone + ')',
-      'Duration: ' + booking.duration + ' minutes',
+      'Date: ' + details.dateLabel,
+      'Time: ' + details.timeLabel,
+      'Duration: ' + details.duration,
       'Topic: ' + booking.topic,
+      'Booked by: ' + fullName + ' (' + booking.email + ')',
       '',
-      'Google Meet: ' + meetLink,
-      'Calendar event: ' + eventLink,
+      'Join the call: ' + meetLink,
+      'Add to Google Calendar: ' + eventLink,
     ].join('\n');
 
-    const options = { name: CONFIG.notifyFromName, replyTo: booking.email };
+    const options = { name: CONFIG.notifyFromName, replyTo: booking.email, htmlBody: confirmationHtml(details) };
     if (GmailApp.getAliases().indexOf(CONFIG.notifyFrom) !== -1) options.from = CONFIG.notifyFrom;
     GmailApp.sendEmail(CONFIG.notifyEmail, subject, body, options);
   } catch (err) {
     console.error('Owner notification failed:', err);
   }
+}
+
+// Same design as project_docs/BOOKING_EMAIL_TEMPLATE.html (the visitor's EmailJS email). Keep them in sync.
+function confirmationHtml(d) {
+  const e = escapeHtml;
+  return `<div style="margin: 0; padding: 24px 12px; background-color: #f4f5f8; font-family: system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; color: #1a1a2e">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width: 560px; margin: 0 auto; background-color: #ffffff; border-radius: 14px; overflow: hidden; border: 1px solid #e4e6ec">
+    <tr>
+      <td style="padding: 28px 32px 8px">
+        <div style="display: inline-block; padding: 4px 12px; background-color: #dcfce7; color: #15803d; border-radius: 999px; font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase">
+          Appointment confirmed
+        </div>
+        <h1 style="margin: 16px 0 8px; font-size: 22px; line-height: 1.3; color: #1a1a2e">
+          Hi ${e(d.firstName)}, you're booked.
+        </h1>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #5b5f73">
+          Your call with ${e(CONFIG.ownerName)} is confirmed. The details are below.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 20px 32px">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color: #f8faf9; border: 1px solid #e4e6ec; border-left: 4px solid #16a34a; border-radius: 10px">
+          <tr>
+            <td style="padding: 16px 20px; font-size: 14px; line-height: 1.5">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="padding: 6px 0; width: 96px; color: #5b5f73; vertical-align: top">Date</td>
+                  <td style="padding: 6px 0; font-weight: 600; color: #1a1a2e">${e(d.dateLabel)}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 6px 0; color: #5b5f73; vertical-align: top">Time</td>
+                  <td style="padding: 6px 0; font-weight: 600; color: #1a1a2e">${e(d.timeLabel)}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 6px 0; color: #5b5f73; vertical-align: top">Duration</td>
+                  <td style="padding: 6px 0; font-weight: 600; color: #1a1a2e">${e(d.duration)}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 6px 0; color: #5b5f73; vertical-align: top">Topic</td>
+                  <td style="padding: 6px 0; font-weight: 600; color: #1a1a2e">${e(d.topic)}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 6px 0; color: #5b5f73; vertical-align: top">Booked by</td>
+                  <td style="padding: 6px 0; color: #1a1a2e">${e(d.fullName)} (${e(d.email)})</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 32px 8px">
+        <a href="${e(d.meetLink)}" style="display: inline-block; margin: 0 8px 10px 0; padding: 12px 22px; background-color: #16a34a; color: #ffffff; text-decoration: none; border-radius: 8px; font-size: 14px; font-weight: 700; white-space: nowrap">Join the call</a>
+        <a href="${e(d.eventLink)}" style="display: inline-block; margin: 0 0 10px; padding: 11px 20px; background-color: #ffffff; color: #15803d; text-decoration: none; border: 1px solid #16a34a; border-radius: 8px; font-size: 14px; font-weight: 700; white-space: nowrap">Add to Google Calendar</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px 32px 28px; font-size: 14px; line-height: 1.6; color: #5b5f73">
+        Need to reschedule or cancel? Just reply to this email.
+        <div style="margin-top: 18px; color: #1a1a2e">
+          Best regards,<br />
+          <strong>${e(CONFIG.ownerName)}</strong>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 14px 32px; background-color: #f4f5f8; border-top: 1px solid #e4e6ec; font-size: 12px; color: #8a8ea0; text-align: center">
+        Booked via <a href="https://www.shubhamnarkhede.com" style="color: #15803d; text-decoration: none">shubhamnarkhede.com</a>
+      </td>
+    </tr>
+  </table>
+</div>`;
+}
+
+// Visitor-typed text goes into HTML, so escape it to stop injected markup or links.
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 function underRateLimit(email) {

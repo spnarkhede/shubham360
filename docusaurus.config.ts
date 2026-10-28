@@ -232,7 +232,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © 2018-${new Date().getFullYear()} Shubham Narkhede. All rights reserved.`,
+      copyright: `© 2018–${new Date().getFullYear()} Shubham Narkhede · Shubham360`,
     },
     prism: {
       theme: prismThemes.github,
